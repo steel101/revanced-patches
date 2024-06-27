@@ -243,7 +243,8 @@ Limitations:
 • Some UI components may not be hidden.
 • Searching for a keyword may show no results."</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Invalid keyword. Cannot use: \'%s\' as a filter</string>
-    <string name="revanced_hide_keyword_toast_invalid_keyword">Invalid keyword. \'%1$s\' is less than %2$d characters</string>
+    <string name="revanced_hide_keyword_toast_invalid_keyword">Invalid keyword. \'%1$s\' is less than %2$d characters.</string>
+    <string name="revanced_hide_keyword_toast_invalid_broad">Keyword \'%1$s\' will hide all videos.</string>
 
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Recommended video</string>
