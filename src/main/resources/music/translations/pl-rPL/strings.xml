@@ -320,8 +320,8 @@ Niektóre ustawienia mogą nie działać poprawnie ze starym układem odtwarzacz
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Pozostałe</string>
-    <string name="revanced_enable_cairo_splash_animation_title">Włącz animację uruchamiania aplikacji Cairo</string>
-    <string name="revanced_enable_cairo_splash_animation_summary">Włącza animację ładowania aplikacji Cairo podczas otwierania aplikacji.</string>
+    <string name="revanced_enable_cairo_splash_animation_title">Włącz animację uruchamiania aplikacji</string>
+    <string name="revanced_enable_cairo_splash_animation_summary">Włącza animację ładowania aplikacji związaną z motywem Cairo podczas otwierania aplikacji.</string>
     <string name="revanced_enable_debug_logging_title">Włącz logowanie debugowania</string>
     <string name="revanced_enable_debug_logging_summary">Wyświetla log od debugowania.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Logi do debugowania buforu</string>

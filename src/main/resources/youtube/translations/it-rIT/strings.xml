@@ -299,11 +299,6 @@ Problemi noti:
     <string name="revanced_enable_tablet_layout_title">Attiva l\'interfaccia da tablet</string>
     <string name="revanced_enable_tablet_layout_summary">Simula un diverso valore DPI per usare alcune parti dell\'interfaccia da tablet</string>
     <string name="revanced_spoof_app_version_title">Simula la versione dell\'app</string>
-    <string name="revanced_spoof_app_version_summary">"Simula la versione del client a una versione precedente.
-
-Note:
-• Questo cambierà l'aspetto dell'app, ma potrebbero verificarsi degli effetti collaterali sconosciuti
-• Se in seguito verrà disattivato, la vecchia interfaccia potrebbe rimanere fino a quando i dati dell'app non verranno cancellati"</string>
     <string name="revanced_spoof_app_version_target_title">Modifica la versione dell\'app da simulare</string>
     <string name="revanced_spoof_app_version_target_summary">Digita la versione dell\'app da simulare</string>
     <string name="revanced_spoof_app_version_target_entry_title">La versione dell\'app da simulare</string>
@@ -999,6 +994,7 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
     <string name="revanced_hide_shorts_sound_button_title">Nascondi pulsante suono</string>
     <string name="revanced_hide_shorts_sound_button_summary_on">Il pulsante suono è nascosto.</string>
     <string name="revanced_hide_shorts_sound_button_summary_off">Il pulsante suono è mostrato.</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
     <string name="revanced_hide_shorts_toolbar_title">Nascondi la barra degli strumenti</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">La barra degli strumenti è nascosta.</string>

@@ -217,6 +217,8 @@ Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</s
     <string name="revanced_hide_comment_channel_guidelines_summary">Oculta as diretrizes do canal na parte superior da seção de comentários.</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">Ocultar botões de marcação de tempo e emoji</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Oculta os botões de marcação de tempo e emoji ao escrever comentários.</string>
+    <string name="revanced_hide_double_tap_overlay_filter_title">Ocultar filtro de sobreposição de toque duplo</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary">Oculta a sobreposição escura que aparece quando um duplo toque para procurar.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Ocultar botão Compartilhar em tela cheia</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Oculta o botão Compartilhar no reprodutor de tela cheia.</string>
     <string name="revanced_remember_repeat_state_title">Lembrar estado de repetição</string>

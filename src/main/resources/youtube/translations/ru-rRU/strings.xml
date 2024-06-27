@@ -5,7 +5,7 @@
     <string name="accessibility_settings_edu_opt_out_text">Служба специальных возможностей включена. Управление изменено.</string>
     <!-- Shared PreferenceScreen -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
-    <string name="revanced_extended_settings_search_title">Настройки поиска</string>
+    <string name="revanced_extended_settings_search_title">Поиск настроек</string>
     <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">Экспериментальные опции</string>
     <string name="revanced_extended_confirm_user_dialog_title">Подтверждаете действие?</string>
@@ -226,6 +226,7 @@ Shorts
 • Поиск по ключевому слову может не дать результатов."</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Недопустимо. \'%s\' не подходит в качестве фильтра.</string>
     <string name="revanced_hide_keyword_toast_invalid_keyword">Недопустимое ключевое слово. \'%1$s\' это менее %2$d символов</string>
+    <string name="revanced_hide_keyword_toast_invalid_broad">Ключевое слово \'%1$s\' не точное и скроет все видео</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Рекомендованное видео</string>
     <string name="revanced_hide_recommended_video_title">Скрыть рекомендованные видео</string>
@@ -312,10 +313,13 @@ Shorts
     <string name="revanced_enable_tablet_layout_title">Планшетный интерфейс</string>
     <string name="revanced_enable_tablet_layout_summary">Подмена DPI для планшетного интерфейса.</string>
     <string name="revanced_spoof_app_version_title">Подмена версии приложения</string>
-    <string name="revanced_spoof_app_version_summary">"Подменяет версию клиента на старую.
+    <string name="revanced_spoof_app_version_summary_on">Версия приложения подменена</string>
+    <string name="revanced_spoof_app_version_summary_off">Версия приложения не подменена</string>
+    <string name="revanced_spoof_app_version_user_dialog_message">"Подмена на более раннюю версию YouTube.
 
-• Изменится внешний вид приложения и могут возникнуть проблемы.
-• Если отключить опцию после использования, старый интерфейс может остаться до очистки данных приложения."</string>
+Это изменит вид и функции приложения, но могут быть побочные эффекты.
+
+При отключении подмены, рекомендуется очистить данные приложения для предотвращения проблем с пользовательским интерфейсом."</string>
     <string name="revanced_spoof_app_version_target_title">Целевая версия подмены</string>
     <string name="revanced_spoof_app_version_target_summary">Введите целевую версию приложения для подмены.</string>
     <string name="revanced_spoof_app_version_target_entry_title">Целевая версия приложения при подмене</string>
@@ -448,6 +452,9 @@ Shorts
     <string name="revanced_hide_search_term_thumbnail_title">Миниатюра поискового запроса</string>
     <string name="revanced_hide_search_term_thumbnail_summary_on">Миниатюры поискового запроса скрыты.</string>
     <string name="revanced_hide_search_term_thumbnail_summary_off">Миниатюры поискового запроса отображены.</string>
+    <string name="revanced_hide_image_search_button_title">Кнопка поиска изображений</string>
+    <string name="revanced_hide_image_search_button_summary_on">Кнопка поиска изображений скрыта.</string>
+    <string name="revanced_hide_image_search_button_summary_off">Кнопка поиска изображений отображена.</string>
     <string name="revanced_hide_voice_search_button_title">Кнопка \"Голосовой поиск\"</string>
     <string name="revanced_hide_voice_search_button_summary_on">Кнопка \"Голосовой поиск\" скрыта.</string>
     <string name="revanced_hide_voice_search_button_summary_off">Кнопка \"Голосовой поиск\" отображена.</string>
@@ -866,12 +873,12 @@ Shorts
     <string name="revanced_restore_old_seekbar_thumbnails_title">Старые миниатюры шкалы воспроизведения</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_on">Миниатюры отображаются над шкалой воспроизведения.</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_off">Миниатюры отображаются в полноэкранном режиме.</string>
-    <string name="revanced_enable_cairo_seekbar_title">Тема Каир панели поиска</string>
-    <string name="revanced_enable_cairo_seekbar_summary_on">"Тема Каир панели поиска включена.
+    <string name="revanced_enable_cairo_seekbar_title">Тема Каир прогрессбара</string>
+    <string name="revanced_enable_cairo_seekbar_summary_on">"Тема Каир прогрессбара включена.
 
 Дополнительно:
 Тема также применяется к точкам уведомлений."</string>
-    <string name="revanced_enable_cairo_seekbar_summary_off">Тема Каир панели поиска отключена.</string>
+    <string name="revanced_enable_cairo_seekbar_summary_off">Тема Каир прогрессбара отключена.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description -->
     <string name="revanced_preference_screen_video_description_title">Описание видео</string>
     <string name="revanced_preference_screen_video_description_summary">Скрыть или отобразить компоненты описания видео.</string>
@@ -1017,6 +1024,18 @@ Shorts
     <string name="revanced_hide_shorts_sound_button_title">Кнопка \"Трек\"</string>
     <string name="revanced_hide_shorts_sound_button_summary_on">Кнопка \"Трек\" скрыта.</string>
     <string name="revanced_hide_shorts_sound_button_summary_off">Кнопка \"Трек\" отображена.</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
+    <string name="revanced_preference_category_animation_feedback">Анимация / Обратная связь</string>
+    <string name="revanced_hide_shorts_play_pause_button_background_title">Фон кнопки \"Воспроизведение\" - \"Пауза\"</string>
+    <string name="revanced_hide_shorts_play_pause_button_background_summary_on">Фон скрыт.</string>
+    <string name="revanced_hide_shorts_play_pause_button_background_summary_off">Фон отображен.</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_title">Анимация двойного нажатия</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_1">Обычная</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_2">Палец вверх</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Каир</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_4">Сердечко</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Сердце (Оттенок)</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Скрыта</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
     <string name="revanced_hide_shorts_toolbar_title">Панель инструментов</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">Панель инструментов скрыта.</string>
@@ -1419,6 +1438,7 @@ Shorts
     <string name="revanced_spoof_client_title">Состояние подмены клиента</string>
     <string name="revanced_spoof_client_summary_on">Клиент подменен.</string>
     <string name="revanced_spoof_client_summary_off">"Клиент не подменен.\nВоспроизведение видео может не работать."</string>
+    <string name="revanced_spoof_client_user_dialog_message">Отключение этой настройки вызовет проблемы с воспроизведением видео.</string>
     <string name="revanced_spoof_client_stats_for_nerds_title">Клиент подмены в статистике для сисадминов</string>
     <string name="revanced_spoof_client_stats_for_nerds_summary_on">Клиент подмены в статистике для сисадминов отображен.</string>
     <string name="revanced_spoof_client_stats_for_nerds_summary_off">Клиент подмены в статистике для сисадминов скрыт.</string>

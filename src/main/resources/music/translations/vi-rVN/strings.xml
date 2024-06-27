@@ -195,7 +195,7 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_hide_navigation_label_summary">Ẩn tên thẻ trên thanh điều hướng.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Trình phát</string>
-    <string name="revanced_enable_black_player_background_title">Bật nền trình phát màu đen</string>
+    <string name="revanced_enable_black_player_background_title">Sử dụng nền trình phát màu đen</string>
     <string name="revanced_enable_black_player_background_summary">Thay đổi màu nền trình phát sang màu đen.</string>
     <string name="revanced_enable_color_match_player_title">Trình phát thu nhỏ khớp màu</string>
     <string name="revanced_enable_color_match_player_summary">Đồng bộ màu của trình phát thu nhỏ với màu của trình phát.</string>
@@ -320,6 +320,8 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Khác</string>
+    <string name="revanced_enable_cairo_splash_animation_title">Sử dụng hoạt ảnh kiểu Cairo</string>
+    <string name="revanced_enable_cairo_splash_animation_summary">Sử dụng hoạt ảnh kiểu Cairo khi khởi động ứng dụng.</string>
     <string name="revanced_enable_debug_logging_title">Nhật ký gỡ lỗi</string>
     <string name="revanced_enable_debug_logging_summary">Bật ghi nhật ký gỡ lỗi.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Bật nhật ký gỡ lỗi bộ đệm</string>

@@ -8,6 +8,7 @@
     <string name="revanced_extended_settings_search_title">Keresés a Beállításokban</string>
     <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">Kísérleti funkciók</string>
+    <string name="revanced_extended_confirm_user_dialog_title">Kívánja folytatni?</string>
     <string name="revanced_extended_restart_first_run">Indítsa újra a rendszert a normál elrendezés betöltéséhez</string>
     <string name="revanced_extended_restart_message">Frissítés és újraindítás</string>
     <string name="revanced_playback_speed_normal">Normál</string>
@@ -128,6 +129,9 @@ Korlátozás: előfordulhat, hogy a közösségi bejegyzés képe a teljes képe
     <string name="revanced_hide_show_more_button_title">\'Továbbiak megjelenítése\' gomb elrejtése</string>
     <string name="revanced_hide_show_more_button_summary_on">A gomb el van rejtve</string>
     <string name="revanced_hide_show_more_button_summary_off">A gomb megjelenik</string>
+    <string name="revanced_hide_subscriptions_carousel_title">Feliratkozások rész elrejtése</string>
+    <string name="revanced_hide_subscriptions_carousel_summary_on">A feliratkozások rész el van rejtve.</string>
+    <string name="revanced_hide_subscriptions_carousel_summary_off">A feliratkozások rész látható.</string>
     <string name="revanced_hide_ticket_shelf_title">Rejtse el a jegypolcokat</string>
     <string name="revanced_hide_ticket_shelf_summary_on">A jegy polcok el vannak rejtve.</string>
     <string name="revanced_hide_ticket_shelf_summary_off">A jegy polcok láthatóak.</string>
@@ -209,6 +213,7 @@ Lejátszási listák
     <string name="revanced_hide_keyword_content_about_summary">"A Kezdőlap/Feliratkozások/Keresés eredményei a kulcsszóval megegyező tartalom elrejtésére vannak szűrve\n\nKorlátozások\n• Néhány Shorts lehet, hogy nem lesz elrejtve\n• Néhány UI elem lehet, hogy nem lesz elrejtve\n• Előfordulhat, hogy a kulcsszó keresése nem hoz eredményt"</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Érvénytelen kulcsszó.\'%s\'nem használható szűrőként</string>
     <string name="revanced_hide_keyword_toast_invalid_keyword">Érvénytelen kulcsszó. A(z) \'%1$s\' kevesebb, mint %2$d karakter</string>
+    <string name="revanced_hide_keyword_toast_invalid_broad">A(z) \'%1$s\' kulcsszó túl tág, elrejtené az összes videót</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Ajánlott videó</string>
     <string name="revanced_hide_recommended_video_title">Ajánlott videók elrejtése</string>
@@ -287,10 +292,13 @@ Ez nem kerüli meg a korhatárt. Csak automatikusan fogadja el."</string>
     <string name="revanced_enable_tablet_layout_title">Tablet felület engedélyezése</string>
     <string name="revanced_enable_tablet_layout_summary">Hamisítja a dpi-t néhány táblagépes elrendezés használatához.</string>
     <string name="revanced_spoof_app_version_title">Alkalmazásverzió hamisítása</string>
-    <string name="revanced_spoof_app_version_summary">"Hamisítja a kliens verziót egy régi verzióra.
+    <string name="revanced_spoof_app_version_summary_on">Verzió hamisítás</string>
+    <string name="revanced_spoof_app_version_summary_off">Verzió nincs hamisítva</string>
+    <string name="revanced_spoof_app_version_user_dialog_message">"App verzió hamisítása egy régebbi YouTube verzióra.
 
-• Ez megváltoztatja az alkalmazás megjelenését, de ismeretlen mellékhatások előfordulhatnak.
-• Ha később letiltja, a régi felhasználói felület megmaradhat, amíg az alkalmazás adatai törlése."</string>
+Ez meg fogja változtatni az app működését és kinézetét és nem várt mellékhatások előfordulhatnak.
+
+Ha kikapcsolja, akkor ajánlott törölni az app adatait, hogy elkerülje a UI hibákat."</string>
     <string name="revanced_spoof_app_version_target_title">Hamisított alkalmazásverzió célja</string>
     <string name="revanced_spoof_app_version_target_summary">Írja be a hamis alkalmazásverziót.</string>
     <string name="revanced_spoof_app_version_target_entry_title">Hamis alkalmazásverzió</string>
@@ -332,6 +340,9 @@ Előfordulhat, hogy egyes komponensek nincsenek elrejtve."</string>
     <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
     <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
     <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_title">Fogd és vidd engedélyezése</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">A Fogd és vidd engedélyezett.</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">A Fogd és vidd le van tiltva.</string>
     <string name="revanced_miniplayer_hide_expand_close_title">Kibontás és bezárás gombok elrejtése</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">A gombok el vannak rejtve.\n(csúsztassa a minilejátszót a kibontáshoz vagy bezáráshoz)</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">A kibontás és bezárás gombok láthatóak.</string>
@@ -377,6 +388,7 @@ Előfordulhat, hogy egyes komponensek nincsenek elrejtve."</string>
 • A készüléket esetleg újra kell indítani a beállítás változtatásának érvényesítéséhez.
 • Ha ezt a beállítást letiltja, több hirdetést tölt be a szerver oldalról.
 • Ha a videó hirdetések láthatóak akarja tenni, letiltja ezt a beállítást."</string>
+    <string name="revanced_enable_translucent_navigation_bar_title">Áttetsző navigációs sáv engedélyezése</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Beállítások menü</string>
     <string name="revanced_preference_screen_settings_menu_summary">Elrejti a YouTube beállítások menü elemeit.</string>
@@ -416,6 +428,9 @@ Te fül → Csatorna megtekintése → Menü → Beállítások."</string>
     <string name="revanced_hide_search_term_thumbnail_title">Keresett kifejezés miniatűrjének elrejtése</string>
     <string name="revanced_hide_search_term_thumbnail_summary_on">A miniatűrök a keresési kifejezések előzményeiben el vannak rejtve.</string>
     <string name="revanced_hide_search_term_thumbnail_summary_off">A miniatűrök a keresési kifejezések előzményeiben láthatóak.</string>
+    <string name="revanced_hide_image_search_button_title">Képkeresés gomb elrejtése</string>
+    <string name="revanced_hide_image_search_button_summary_on">A képkeresés gomb el van rejtve.</string>
+    <string name="revanced_hide_image_search_button_summary_off">A képkeresés gomb látható.</string>
     <string name="revanced_hide_voice_search_button_title">Hangkeresés gomb elrejtése</string>
     <string name="revanced_hide_voice_search_button_summary_on">A hangkeresés gomb el van rejtve.</string>
     <string name="revanced_hide_voice_search_button_summary_off">A hangkeresés gomb látható.</string>
@@ -531,7 +546,11 @@ Az automatikus lejátszás a YouTube beállításaiban módosítható:
     <string name="revanced_bypass_ambient_mode_restrictions_summary_on">A \'Mozifilmes világítás\' mód engedélyezett akkumulátorkímélő üzemmódban.</string>
     <string name="revanced_bypass_ambient_mode_restrictions_summary_off">A \'Mozifilmes világítás\' mód le van tiltva akkumulátorkímélő üzemmódban.</string>
     <string name="revanced_disable_ambient_mode_title">\'Mozifilmes világítás\' mód letiltása</string>
+    <string name="revanced_disable_ambient_mode_summary_on">A mozifilmes világítás le van tiltva.</string>
+    <string name="revanced_disable_ambient_mode_summary_off">A mozifilmes világítás engedélyezett.</string>
     <string name="revanced_disable_ambient_mode_in_fullscreen_title">Teljes képernyőn a \'Mozifilmes világítás\' mód letiltása</string>
+    <string name="revanced_disable_ambient_mode_in_fullscreen_summary_on">A mozifilmes világítás le van tiltva teljes képernyőn.</string>
+    <string name="revanced_disable_ambient_mode_in_fullscreen_summary_off">A mozifilmes világítás engedélyezett teljes képernyőn.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Channel bar -->
     <string name="revanced_preference_screen_channel_bar_title">Csatornasáv</string>
     <string name="revanced_preference_screen_channel_bar_summary">Rejtse el vagy mutassa meg a videók alatt található csatornasáv elemeit.</string>
@@ -830,12 +849,18 @@ Kérjük, töltsd le a(z) %2$s a weboldalról."</string>
     <string name="revanced_restore_old_seekbar_thumbnails_title">Régi keresősáv bélyegképek visszaállítása</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_on">A keresősáv bélyegképei megjelennek a keresősáv felett</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_off">A keresősáv bélyegképei megjelennek a teljes képernyőn</string>
+    <string name="revanced_enable_cairo_seekbar_title">Cairo keresősáv engedélyezése</string>
+    <string name="revanced_enable_cairo_seekbar_summary_on">"A Cairo keresősáv engedélyezett.
+
+Mellékhatás: a Cairo stílus az értesítési pontokra is alkalmazódik."</string>
+    <string name="revanced_enable_cairo_seekbar_summary_off">A Cairo keresősáv le van tiltva.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description -->
     <string name="revanced_preference_screen_video_description_title">Videóleírás</string>
     <string name="revanced_preference_screen_video_description_summary">Rejtsd el vagy mutasd a videóleírás komponenseit.</string>
     <string name="revanced_disable_rolling_number_animations_title">Gördülőszám-animációk letiltása</string>
     <string name="revanced_disable_rolling_number_animations_summary_on">A gördülő számok nem animáltak</string>
     <string name="revanced_disable_rolling_number_animations_summary_off">A gördülő számok animálva vannak</string>
+    <string name="revanced_hide_attributes_section_title">Tulajdonságok szakasz elrejtése</string>
     <string name="revanced_hide_chapters_section_title">Fejezetek szakaszainak elrejtése</string>
     <string name="revanced_hide_chapters_section_summary_on">A fejezetek szakaszai el vannak rejtve.</string>
     <string name="revanced_hide_chapters_section_summary_off">A fejezetek szakaszai megjelennek.</string>
@@ -963,6 +988,7 @@ Korlát: A hivatalos fejlécek a keresési eredményekben el lesznek rejtve."</s
     <string name="revanced_hide_shorts_sound_button_title">Hang gomb elrejtése</string>
     <string name="revanced_hide_shorts_sound_button_summary_on">A hang gomb el van rejtve</string>
     <string name="revanced_hide_shorts_sound_button_summary_off">A hang gomb megjelenik</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
     <string name="revanced_hide_shorts_toolbar_title">Eszköztár elrejtése</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">Az eszköztár el van rejtve.</string>

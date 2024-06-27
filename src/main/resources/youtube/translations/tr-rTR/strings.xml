@@ -215,7 +215,8 @@ Kısıtlamalar:
 • Bazı arayüz bileşenleri gizlenemeyebilir
 • Anahtar kelime aratmak hiçbir sonuç göstermeyebilir"</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Geçersiz anahtar kelime. \'%s\' kullanılamaz</string>
-    <string name="revanced_hide_keyword_toast_invalid_keyword">Geçersiz anahtar kelime. \'%1$s\', %2$d karakterden az</string>
+    <string name="revanced_hide_keyword_toast_invalid_keyword">Geçersiz anahtar kelime. \'%1$s\', %2$d karakterden az.</string>
+    <string name="revanced_hide_keyword_toast_invalid_broad">\'%1$s\' anahtar kelimesi tüm videoları gizleyecek.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Önerilen video</string>
     <string name="revanced_hide_recommended_video_title">Önerilen videoları gizle</string>
@@ -292,10 +293,13 @@ Kısıtlamalar:
     <string name="revanced_enable_tablet_layout_title">Tablet düzenini kullan</string>
     <string name="revanced_enable_tablet_layout_summary">Bazı tablet arayüzlerini kullanabilmek için dpi\'ı kandırır. </string>
     <string name="revanced_spoof_app_version_title">Uygulama Versiyonunu taklit et</string>
-    <string name="revanced_spoof_app_version_summary">"İstemciyi sürümünün eski sürümle sahteleştir 
+    <string name="revanced_spoof_app_version_summary_on">Sürüm taklit ediliyor</string>
+    <string name="revanced_spoof_app_version_summary_off">Sürüm taklit edilmiyor</string>
+    <string name="revanced_spoof_app_version_user_dialog_message">"Uygulama sürümü, YouTube'un eski bir sürümüyle taklit edilecek.
 
-• Bu, uygulamanın görünümünü değiştirir ancak bilinmeyen yan etkiler ortaya çıkabilir.
-• Daha sonra kapatılırsa, uygulama verileri temizlenene kadar eski kullanıcı arayüzü kalabilir."</string>
+Bu, uygulamanın görünümünü ve özelliklerini değiştirecektir ancak bilinmeyen yan etkiler ortaya çıkabilir.
+
+Daha sonra kapatılırsa kullanıcı arayüzü hatalarını önlemek için uygulama verilerinin temizlenmesi önerilir."</string>
     <string name="revanced_spoof_app_version_target_title">Uygulama hedef sürümünü kandırma hedefi</string>
     <string name="revanced_spoof_app_version_target_summary">Sahte uygulama sürümü hedefini seçin.</string>
     <string name="revanced_spoof_app_version_target_entry_title">Taklit edilecek sürüm</string>
@@ -426,6 +430,9 @@ Siz sekmesi→ Kanalı görüntüle→ Menü→ Ayarlar"</string>
     <string name="revanced_hide_search_term_thumbnail_title">Arama terimlerinde kapak fotoğraflarını gizle</string>
     <string name="revanced_hide_search_term_thumbnail_summary_on">Arama geçmişindeki kapak fotoğrafları gizleniyor.</string>
     <string name="revanced_hide_search_term_thumbnail_summary_off">Arama geçmişindeki kapak fotoğrafları gösteriliyor.</string>
+    <string name="revanced_hide_image_search_button_title">Fotoğraf arama düğmesini gizle</string>
+    <string name="revanced_hide_image_search_button_summary_on">Fotoğraf arama butonu gizlendi.</string>
+    <string name="revanced_hide_image_search_button_summary_off">Fotoğraf arama butonu gösteriliyor.</string>
     <string name="revanced_hide_voice_search_button_title">Sesli arama düğmesini gizle</string>
     <string name="revanced_hide_voice_search_button_summary_on">Sesli arama butonu gizlendi.</string>
     <string name="revanced_hide_voice_search_button_summary_off">Sesli arama butonu gösteriliyor.</string>
@@ -985,6 +992,18 @@ Bilinen sorun: Arama sonuçlarındaki resmi başlıklar da gizlenebiliyor."</str
     <string name="revanced_hide_shorts_sound_button_title">Ses düğmesini gizle</string>
     <string name="revanced_hide_shorts_sound_button_summary_on">Ses düğmesi gizli.</string>
     <string name="revanced_hide_shorts_sound_button_summary_off">Ses düğmesi görünür.</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
+    <string name="revanced_preference_category_animation_feedback">Animasyon / geri bildirim</string>
+    <string name="revanced_hide_shorts_play_pause_button_background_title">Oynatma &amp; buton arka planı duraklat</string>
+    <string name="revanced_hide_shorts_play_pause_button_background_summary_on">Buton arka planı gizli.</string>
+    <string name="revanced_hide_shorts_play_pause_button_background_summary_off">Buton arka planı gizlenmiyor.</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_title">Çift tıklama animasyonu</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_1">Orjinal</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_2">Beğen</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Kahire</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_4">Kalp</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Kalp (Renk Tonlu)</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Gizlendi</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
     <string name="revanced_hide_shorts_toolbar_title">Araç çubuğunu göster</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">Araç çubuğu gizli.</string>
@@ -1384,6 +1403,7 @@ Bilinen sorun: Akış videoları, oynatma sorunlarıyla karşılaşmadan önce 1
     <string name="revanced_spoof_client_title">İstemciyi taklit et</string>
     <string name="revanced_spoof_client_summary_on">İstemci taklit ediliyor.</string>
     <string name="revanced_spoof_client_summary_off">"İstemci taklit edilmiyor. Video oynatma çalışmayabilir."</string>
+    <string name="revanced_spoof_client_user_dialog_message">Bu ayarı devre dışı bırakmak video oynatma sorunlarına yol açabilir.</string>
     <string name="revanced_spoof_client_stats_for_nerds_title">Meraklılar için istatiklerde göster</string>
     <string name="revanced_spoof_client_stats_for_nerds_summary_on">Taklit edilen istemci meraklılar için istatiklerde gösteriliyor.</string>
     <string name="revanced_spoof_client_stats_for_nerds_summary_off">Taklit edilen istemci meraklılar için istatiklerde gösterilmiyor.</string>

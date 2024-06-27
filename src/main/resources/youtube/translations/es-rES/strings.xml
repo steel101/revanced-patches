@@ -223,6 +223,7 @@ Limitaciones:
 • La búsqueda de una palabra clave puede no mostrar resultados."</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Palabra clave no válida. No se puede utilizar: \"%s\" como filtro</string>
     <string name="revanced_hide_keyword_toast_invalid_keyword">Palabra clave no válida. \"%1$s\" tiene menos de %2$d caracteres</string>
+    <string name="revanced_hide_keyword_toast_invalid_broad">La palabra clave \"%1$s\" es demasiado amplia y ocultará todos los vídeos</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Vídeos recomendados</string>
     <string name="revanced_hide_recommended_video_title">Ocultar vídeos recomendados</string>
@@ -301,10 +302,13 @@ Esto no evita la restricción de edad. Solo la acepta automáticamente."</string
     <string name="revanced_enable_tablet_layout_title">Activar diseño de tableta</string>
     <string name="revanced_enable_tablet_layout_summary">Modifica los DPI para utilizar algunos diseños de tableta.</string>
     <string name="revanced_spoof_app_version_title">Falsificar versión de la app</string>
-    <string name="revanced_spoof_app_version_summary">"Falsifica la versión del cliente a la versión antigua.
+    <string name="revanced_spoof_app_version_summary_on">Versión falsificada</string>
+    <string name="revanced_spoof_app_version_summary_off">Versión no falsificada</string>
+    <string name="revanced_spoof_app_version_user_dialog_message">"La versión de la aplicación será una versión antigua de YouTube.
 
-• Esto cambiará la apariencia de la app, pero pueden producirse efectos secundarios desconocidos.
-• Si más tarde se desactiva, la antigua interfaz de usuario puede permanecer hasta que se borren los datos de la app."</string>
+Esto cambiará la apariencia y las características de la aplicación, pero pueden producirse efectos secundarios desconocidos.
+
+Si se desactiva más tarde, se recomienda borrar los datos de la aplicación para evitar errores en la interfaz de usuario."</string>
     <string name="revanced_spoof_app_version_target_title">Editar versión falsa de la app</string>
     <string name="revanced_spoof_app_version_target_summary">Escribe la versión a falsificar de la app.</string>
     <string name="revanced_spoof_app_version_target_entry_title">Versión a falsificar de la app</string>
@@ -436,6 +440,9 @@ Pestaña Tú &gt; Ver canal &gt; Menú &gt; Configuración."</string>
     <string name="revanced_hide_search_term_thumbnail_title">Ocultar miniaturas en términos de búsqueda</string>
     <string name="revanced_hide_search_term_thumbnail_summary_on">Las miniaturas en el historial de términos de búsqueda están ocultas.</string>
     <string name="revanced_hide_search_term_thumbnail_summary_off">Las miniaturas en el historial de términos de búsqueda están visibles.</string>
+    <string name="revanced_hide_image_search_button_title">Ocultar botón de búsqueda de imágenes</string>
+    <string name="revanced_hide_image_search_button_summary_on">El botón de búsqueda de imágenes está oculto.</string>
+    <string name="revanced_hide_image_search_button_summary_off">El botón de búsqueda de imágenes está visible.</string>
     <string name="revanced_hide_voice_search_button_title">Ocultar botón de búsqueda por voz</string>
     <string name="revanced_hide_voice_search_button_summary_on">El botón de búsqueda por voz está oculto.</string>
     <string name="revanced_hide_voice_search_button_summary_off">El botón de búsqueda por voz está visible.</string>
@@ -999,6 +1006,18 @@ Limitación: las cabeceras oficiales en los resultados de búsqueda estarán ocu
     <string name="revanced_hide_shorts_sound_button_title">Ocultar botón de sonido</string>
     <string name="revanced_hide_shorts_sound_button_summary_on">El botón de sonido está oculto.</string>
     <string name="revanced_hide_shorts_sound_button_summary_off">El botón de sonido está visible.</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
+    <string name="revanced_preference_category_animation_feedback">Animación/Comentarios</string>
+    <string name="revanced_hide_shorts_play_pause_button_background_title">Ocultar fondo del botón de reproducir y pausar</string>
+    <string name="revanced_hide_shorts_play_pause_button_background_summary_on">El fondo del botón está oculto.</string>
+    <string name="revanced_hide_shorts_play_pause_button_background_summary_off">El fondo del botón está visible.</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_title">Animación de doble toque</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_1">Original</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_2">Pulgares arriba</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Cairo</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_4">Corazón</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Corazón (Tinte)</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Oculto</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
     <string name="revanced_hide_shorts_toolbar_title">Ocultar barra de herramientas</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">La barra de herramientas está oculta.</string>
@@ -1400,6 +1419,7 @@ Limitación: los vídeos en el feed se reproducen durante menos de 1 minuto ante
     <string name="revanced_spoof_client_title">Falsificar cliente</string>
     <string name="revanced_spoof_client_summary_on">El cliente está falsificado.</string>
     <string name="revanced_spoof_client_summary_off">"El cliente no está falsificado. Es posible que la reproducción de vídeo no funcione."</string>
+    <string name="revanced_spoof_client_user_dialog_message">Desactivar este ajuste puede causar problemas de reproducción de vídeo.</string>
     <string name="revanced_spoof_client_stats_for_nerds_title">Mostrar en estadísticas para nerds</string>
     <string name="revanced_spoof_client_stats_for_nerds_summary_on">El cliente falsificado está visible en las estadísticas para nerds.</string>
     <string name="revanced_spoof_client_stats_for_nerds_summary_off">El cliente falsificado está oculto en las estadísticas para nerds.</string>

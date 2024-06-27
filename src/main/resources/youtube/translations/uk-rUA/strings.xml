@@ -220,7 +220,8 @@
 • Деякі компоненти інтерфейсу не можливо приховати.
 • Шукання за ключовим словом може не давати результатів."</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Невірне ключове слово. Неможливо використати \'%s\' як фільтр</string>
-    <string name="revanced_hide_keyword_toast_invalid_keyword">Невірне ключове слово. \'%1$s\' менше %2$d символів</string>
+    <string name="revanced_hide_keyword_toast_invalid_keyword">Невірне ключове слово. \'%1$s\' менше %2$d символів.</string>
+    <string name="revanced_hide_keyword_toast_invalid_broad">Ключове слово \'%1$s\' приховає всі відео.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Рекомендовані відео</string>
     <string name="revanced_hide_recommended_video_title">Приховати рекомендовані відео</string>
@@ -298,10 +299,13 @@
     <string name="revanced_enable_tablet_layout_title">Увімкнути Планшетний інтерфейс</string>
     <string name="revanced_enable_tablet_layout_summary">Підміняє DPI для використання інтерфейсу деяких планшетів</string>
     <string name="revanced_spoof_app_version_title">Підробити версію програми</string>
-    <string name="revanced_spoof_app_version_summary">"Підміна версії клієнта на стару версію.
+    <string name="revanced_spoof_app_version_summary_on">Версію підроблено</string>
+    <string name="revanced_spoof_app_version_summary_off">Версію не підроблено</string>
+    <string name="revanced_spoof_app_version_user_dialog_message">"Версію додатка підробиться на старішу версію YouTube.
 
-• Це змінить зовнішній вигляд програми, але можуть виникнути невідомі побічні ефекти.
-• Якщо пізніше вимкнути, старий інтерфейс може залишитися, доки не буде очищено дані програми."</string>
+Це змінить вигляд і функції додатка, але можуть трапитися невідомі побічні ефекти.
+
+Якщо пізніше вимкнути, рекомендується очистити дані додатка, щоб запобігти помилкам інтерфейсу."</string>
     <string name="revanced_spoof_app_version_target_title">Підробити цільову версію програми</string>
     <string name="revanced_spoof_app_version_target_summary">Введіть цільову версію підробки програми</string>
     <string name="revanced_spoof_app_version_target_entry_title">Підробити цільову версію програми</string>
@@ -433,6 +437,9 @@
     <string name="revanced_hide_search_term_thumbnail_title">Приховати мініатюру пошукового запиту</string>
     <string name="revanced_hide_search_term_thumbnail_summary_on">Мініатюри в історії пошукового запиту приховано.</string>
     <string name="revanced_hide_search_term_thumbnail_summary_off">Мініатюри в історії пошукового запиту показується.</string>
+    <string name="revanced_hide_image_search_button_title">Приховати кнопку пошуку за зображенням</string>
+    <string name="revanced_hide_image_search_button_summary_on">Кнопку пошуку за зображенням приховано.</string>
+    <string name="revanced_hide_image_search_button_summary_off">Кнопку пошуку за зображенням показується.</string>
     <string name="revanced_hide_voice_search_button_title">Приховати кнопку голосового пошуку</string>
     <string name="revanced_hide_voice_search_button_summary_on">Кнопку голосового пошуку приховано.</string>
     <string name="revanced_hide_voice_search_button_summary_off">Кнопку голосового пошуку показується.</string>
@@ -996,6 +1003,18 @@
     <string name="revanced_hide_shorts_sound_button_title">Приховати кнопку Зі звуком</string>
     <string name="revanced_hide_shorts_sound_button_summary_on">Кнопку Зі звуком приховано.</string>
     <string name="revanced_hide_shorts_sound_button_summary_off">Кнопку Зі звуком показується.</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
+    <string name="revanced_preference_category_animation_feedback">Анімація / Відгук</string>
+    <string name="revanced_hide_shorts_play_pause_button_background_title">Приховати фон кнопки Відтворити - Призупинити</string>
+    <string name="revanced_hide_shorts_play_pause_button_background_summary_on">Фон кнопки приховано.</string>
+    <string name="revanced_hide_shorts_play_pause_button_background_summary_off">Фон кнопки показується.</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_title">Анімація подвійного натискання</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_1">Оригінал</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_2">Палець вгору</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Каїр</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_4">Серце</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Серце (Тоноване)</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Прихована</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
     <string name="revanced_hide_shorts_toolbar_title">Приховати панель інструментів</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">Панель інструментів приховано.</string>
@@ -1389,6 +1408,7 @@
     <string name="revanced_spoof_client_title">Імітація клієнта</string>
     <string name="revanced_spoof_client_summary_on">Клієнт імітується.</string>
     <string name="revanced_spoof_client_summary_off">"Клієнт не імітується. Відтворення відео може не працювати."</string>
+    <string name="revanced_spoof_client_user_dialog_message">Вимикання цього налаштування може призвести до проблем відтворення відео.</string>
     <string name="revanced_spoof_client_stats_for_nerds_title">Показувати в Статистика для сисадмінів</string>
     <string name="revanced_spoof_client_stats_for_nerds_summary_on">Імітований клієнт показується в Статистика для сисадмінів.</string>
     <string name="revanced_spoof_client_stats_for_nerds_summary_off">Імітований клієнт приховано в Статистика для сисадмінів.</string>

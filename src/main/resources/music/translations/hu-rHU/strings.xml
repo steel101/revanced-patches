@@ -151,8 +151,8 @@ Info:
     <string name="revanced_hide_category_bar_summary">Elrejti a kategória sávot.</string>
     <string name="revanced_hide_floating_button_title">Lebegő gomb elrejtése</string>
     <string name="revanced_hide_floating_button_summary">Elrejti a lebegő gombot a könyvtárban.</string>
-    <string name="revanced_hide_tap_to_update_button_title">\'Kattints a frissítéshez\" gomb elrejtése</string>
-    <string name="revanced_hide_tap_to_update_button_summary">Elrejti a \"Kattints a frissítéshez\" gombot.</string>
+    <string name="revanced_hide_tap_to_update_button_title">Kattints a frissítéshez gomb elrejtése</string>
+    <string name="revanced_hide_tap_to_update_button_summary">Elrejti a Kattints a frissítéshez gombot.</string>
     <string name="revanced_hide_history_button_title">Előzmények gomb elrejtése</string>
     <string name="revanced_hide_history_button_summary">Elrejti az előzmények gombot az eszköztáron.</string>
     <string name="revanced_hide_notification_button_title">Értesítés gomb elrejtése</string>
@@ -279,7 +279,7 @@ Előfordulhat, hogy egyes funkciók nem működnek megfelelően a régi lejátsz
     <string name="revanced_sb_segments_sponsor">Szponzor</string>
     <string name="revanced_sb_segments_sponsor_sum">Fizetett promóciók, fizetett hivatkozások és közvetlen reklámok. Nem önreklámozásra vagy ingyenes kiemelésre vonatkozik okok / alkotók / weboldalak / termékek esetében, amelyeket szeretnek.</string>
     <string name="revanced_sb_segments_selfpromo">Nem fizetett / Önpromóció</string>
-    <string name="revanced_sb_segments_selfpromo_sum">Hasonló a \"Szponzor\"-hoz, kivéve a nem fizetett vagy önreklámozást. Tartalmazza az árucikkekre, adományokra vonatkozó részeket, vagy információkat arról, hogy kivel működtek együtt.</string>
+    <string name="revanced_sb_segments_selfpromo_sum">Hasonló a szponzorhoz, kivéve a nem fizetett vagy önpromóciót. Tartalmazza az árucikkekre, adományokra vonatkozó részeket, vagy információkat arról, hogy kivel működtek együtt.</string>
     <string name="revanced_sb_segments_interaction">Emlékeztető (Feliratkozás)</string>
     <string name="revanced_sb_segments_interaction_sum">Rövid emlékeztető a kedvelésre, feliratkozásra vagy követésre a tartalom közepette. Ha hosszú vagy valami specifikusról szól, akkor azt önpromóció alatt kell feltüntetni.</string>
     <string name="revanced_sb_segments_intro">Szünet/Intro animáció</string>
@@ -320,6 +320,8 @@ Előfordulhat, hogy egyes funkciók nem működnek megfelelően a régi lejátsz
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Egyéb</string>
+    <string name="revanced_enable_cairo_splash_animation_title">Betöltési animáció engedélyezése</string>
+    <string name="revanced_enable_cairo_splash_animation_summary">Engedélyezi a betöltési animációt amikor az app indul.</string>
     <string name="revanced_enable_debug_logging_title">Hibanaplók engedélyezése</string>
     <string name="revanced_enable_debug_logging_summary">Kiírja a hibanaplót.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Hibakeresési puffer naplózásának engedélyezése</string>
@@ -336,9 +338,9 @@ Info:
     <string name="gms_core_dialog_title">Művelet szükséges</string>
     <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"A GmsCore-nak nincs engedélye a háttérben történő futtatásra.
 
-Kövesd a telefonjára vonatkozó \"Ne öld meg az alkalmazásomat\" útmutatót, és alkalmazza az utasításokat a MicroG telepítésére.
+Kövesd a telefonodra vonatkozó 'Don't kill my app!' útmutatót és alkalmazd az utasításokat a MicroG telepítésére.
 
-Ez szükséges az alkalmazás működéséhez."</string>
+Ez szükséges az app működéséhez."</string>
     <string name="gms_core_dialog_open_website_text">Weboldal megnyitása</string>
     <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"A GmsCore akkumulátor-optimalizálásokat le kell tiltani a problémák megelőzése érdekében.
 

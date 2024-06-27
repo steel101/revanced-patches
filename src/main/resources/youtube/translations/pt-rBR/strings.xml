@@ -223,6 +223,7 @@ Limitações:
 • A pesquisa por uma palavra-chave pode não apresentar resultados."</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Palavra-chave inválida. Não pode usar: \'%s\' como um filtro</string>
     <string name="revanced_hide_keyword_toast_invalid_keyword">Palavra-chave inválida. \'%1$s\' tem menos de %2$d caracteres</string>
+    <string name="revanced_hide_keyword_toast_invalid_broad">Palavra-chave \'%1$s\' irá ocultar todos os vídeos.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Vídeo recomendado</string>
     <string name="revanced_hide_recommended_video_title">Ocultar vídeos recomendados</string>
@@ -301,10 +302,13 @@ Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</s
     <string name="revanced_enable_tablet_layout_title">Ativar layout de tablet</string>
     <string name="revanced_enable_tablet_layout_summary">Engana o dpi para usar alguns layouts para tablets.</string>
     <string name="revanced_spoof_app_version_title">Falsificar versão do aplicativo</string>
-    <string name="revanced_spoof_app_version_summary">"Falsifica a versão cliente para a versão antiga
+    <string name="revanced_spoof_app_version_summary_on">Versão falsificada</string>
+    <string name="revanced_spoof_app_version_summary_off">Versão não falsificada</string>
+    <string name="revanced_spoof_app_version_user_dialog_message">"A versão do aplicativo será falsificada para uma versão mais antiga do YouTube.
 
-• Isto alterará a aparência do aplicativo, mas poderão ocorrer efeitos colaterais desconhecidos.
-• Se for desativada posteriormente, a interface antiga poderá permanecer até que os dados do aplicativo sejam apagados."</string>
+Isso mudará a aparência e os recursos do aplicativo, mas poderão ocorrer efeitos colaterais desconhecidos.
+
+Se for desativado posteriormente, é recomendável limpar os dados do aplicativo para evitar bugs na interface do usuário."</string>
     <string name="revanced_spoof_app_version_target_title">Editar versão de falsificação do app</string>
     <string name="revanced_spoof_app_version_target_summary">Digite a versão do app para falsificação</string>
     <string name="revanced_spoof_app_version_target_entry_title">Versão da falsificação do aplicativo</string>
@@ -436,6 +440,9 @@ Aba Você &gt; Visualizar canal &gt; Menu &gt; Configurações."</string>
     <string name="revanced_hide_search_term_thumbnail_title">Ocultar miniatura do termo de pesquisa</string>
     <string name="revanced_hide_search_term_thumbnail_summary_on">As miniaturas do histórico de pesquisa estão ocultas.</string>
     <string name="revanced_hide_search_term_thumbnail_summary_off">As miniaturas do histórico de pesquisa serão exibidas.</string>
+    <string name="revanced_hide_image_search_button_title">Ocultar botão de busca de imagem</string>
+    <string name="revanced_hide_image_search_button_summary_on">O botão de busca de imagens está oculto.</string>
+    <string name="revanced_hide_image_search_button_summary_off">O botão de busca de imagens será exibido.</string>
     <string name="revanced_hide_voice_search_button_title">Ocultar botão de pesquisa por voz</string>
     <string name="revanced_hide_voice_search_button_summary_on">O botão de pesquisa por voz está oculto.</string>
     <string name="revanced_hide_voice_search_button_summary_off">O botão de pesquisa por voz será exibido.</string>
@@ -469,6 +476,9 @@ Nota:
     <string name="revanced_hide_crowdfunding_box_title">Ocultar caixa de financiamento coletivo</string>
     <string name="revanced_hide_crowdfunding_box_summary_on">A caixa de financiamento coletivo está oculta.</string>
     <string name="revanced_hide_crowdfunding_box_summary_off">A caixa de financiamento coletivo será exibida.</string>
+    <string name="revanced_hide_double_tap_overlay_filter_title">Ocultar filtro de sobreposição de toque duplo</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_on">O filtro de sobreposição de toque duplo está oculto.</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_off">O filtro de sobreposição de toque duplo será exibido.</string>
     <string name="revanced_hide_end_screen_cards_title">Ocultar cartões de fim de tela</string>
     <string name="revanced_hide_end_screen_cards_summary_on">Os cartões de fim de tela estão ocultos.</string>
     <string name="revanced_hide_end_screen_cards_summary_off">Os cartões de tela final serão exibidos.</string>
@@ -1000,6 +1010,18 @@ Limitação: Os cabeçalhos oficiais nos resultados da pesquisa serão ocultados
     <string name="revanced_hide_shorts_sound_button_title">Ocultar botão som</string>
     <string name="revanced_hide_shorts_sound_button_summary_on">O botão som está oculto.</string>
     <string name="revanced_hide_shorts_sound_button_summary_off">O botão som será exibido.</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
+    <string name="revanced_preference_category_animation_feedback">Animação / Feedback</string>
+    <string name="revanced_hide_shorts_play_pause_button_background_title">Ocultar fundo do botão Play &amp; Pause</string>
+    <string name="revanced_hide_shorts_play_pause_button_background_summary_on">O fundo do botão está oculto.</string>
+    <string name="revanced_hide_shorts_play_pause_button_background_summary_off">O fundo do botão será exibido.</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_title">Animação de toque duplo</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_1">Original</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_2">Afirmativo</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Cairo</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_4">Coração</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Coração (Matiz)</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Oculto</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
     <string name="revanced_hide_shorts_toolbar_title">Ocultar barra de ferramentas</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">A barra de ferramentas está oculta.</string>
@@ -1399,6 +1421,7 @@ Limitação: Os vídeos do feed serão reproduzidos por menos de 1 minuto antes 
     <string name="revanced_spoof_client_title">Falsificar cliente</string>
     <string name="revanced_spoof_client_summary_on">O cliente é falsificado.</string>
     <string name="revanced_spoof_client_summary_off">"O cliente não é falsificado. A reprodução de vídeo pode não funcionar."</string>
+    <string name="revanced_spoof_client_user_dialog_message">Desativar esta configuração pode causar problemas de reprodução de vídeo.</string>
     <string name="revanced_spoof_client_stats_for_nerds_title">Exibir em Estatísticas para nerds</string>
     <string name="revanced_spoof_client_stats_for_nerds_summary_on">O cliente falsificado é exibido em Estatísticas para nerds.</string>
     <string name="revanced_spoof_client_stats_for_nerds_summary_off">O cliente falsificado é oculto em Estatísticas para nerds.</string>

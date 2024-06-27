@@ -339,7 +339,7 @@
     <string name="gms_core_dialog_title">필수 조치</string>
     <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"GmsCore에 백그라운드에서 실행할 수 있는 권한이 없습니다.
 
-이 기기에 대한 \"Don't kill my app\" 가이드를 읽어보시고, GmsCore 설치 지침을 적용하세요.
+이 기기에 대한 \"Don't kill my app\" 가이드를 읽어보고, GmsCore 설치 지침을 적용하세요.
 
 앱을 실행하려면 이 과정이 필요합니다."</string>
     <string name="gms_core_dialog_open_website_text">웹사이트 열기</string>
