@@ -17,6 +17,7 @@ object ShortsActionButtonsPatch : BaseResourcePatch(
     compatiblePackages = COMPATIBLE_PACKAGE
 ) {
     private const val DEFAULT_ICON = "round"
+    private const val YOUTUBE_ICON = "youtube"
 
     private val IconType = stringPatchOption(
         key = "IconType",
@@ -24,7 +25,8 @@ object ShortsActionButtonsPatch : BaseResourcePatch(
         values = mapOf(
             "Outline" to "outline",
             "OutlineCircle" to "outlinecircle",
-            "Round" to DEFAULT_ICON
+            "Round" to DEFAULT_ICON,
+            "YouTube" to YOUTUBE_ICON
         ),
         title = "Shorts icon style ",
         description = "The style of the icons for the action buttons in the Shorts player.",
@@ -36,6 +38,12 @@ object ShortsActionButtonsPatch : BaseResourcePatch(
         // Check patch options first.
         val iconType = IconType
             .lowerCaseOrThrow()
+
+        if (iconType == YOUTUBE_ICON) {
+            println("INFO: Shorts action buttons will remain unchanged as it matches the original.")
+            SettingsPatch.updatePatchStatus(this)
+            return
+        }
 
         arrayOf(
             "xxxhdpi",
