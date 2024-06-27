@@ -10,8 +10,12 @@ import app.revanced.util.copyFile
 import app.revanced.util.copyResources
 import app.revanced.util.patch.BaseResourcePatch
 import app.revanced.util.underBarOrThrow
+import java.io.File
+import java.nio.file.Files
+import kotlin.io.path.copyTo
+import kotlin.io.path.exists
 
-@Suppress("unused")
+@Suppress("DEPRECATION", "unused")
 object ChangeHeaderPatch : BaseResourcePatch(
     name = "Custom header for YouTube",
     description = "Applies a custom header in the top left corner within the app.",
@@ -20,6 +24,12 @@ object ChangeHeaderPatch : BaseResourcePatch(
 ) {
     private const val GENERIC_HEADER_FILE_NAME = "yt_wordmark_header"
     private const val PREMIUM_HEADER_FILE_NAME = "yt_premium_wordmark_header"
+
+    /**
+     *
+     */
+    private const val NEW_GENERIC_HEADER_FILE_NAME = "yt_ringo2_wordmark_header"
+    private const val NEW_PREMIUM_HEADER_FILE_NAME = "yt_ringo2_premium_wordmark_header"
 
     private const val DEFAULT_HEADER_KEY = "Custom branding icon"
     private const val DEFAULT_HEADER_VALUE = "custom_branding_icon"
@@ -128,7 +138,33 @@ object ChangeHeaderPatch : BaseResourcePatch(
             }
         } else {
             println(warnings)
+            return
         }
 
+        // The size of the new header is the same, only the file name is different.
+        // So if custom headers were used the patch will copy them to the new headers.
+        mapOf(
+            PREMIUM_HEADER_FILE_NAME to NEW_PREMIUM_HEADER_FILE_NAME,
+            GENERIC_HEADER_FILE_NAME to NEW_GENERIC_HEADER_FILE_NAME
+        ).forEach { (original, replacement) ->
+            premiumHeaderResourceDirectoryNames.keys.forEach {
+                context["res"].resolve(it).takeIf(File::exists)?.toPath()?.let { path ->
+                    variants.forEach { mode ->
+                        val newHeaderPath = path.resolve("${replacement}_$mode.webp")
+
+                        if (newHeaderPath.exists()) {
+                            val fromPath = path.resolve("${original}_$mode.png")
+                            val toPath = path.resolve("${replacement}_$mode.png")
+
+                            fromPath.copyTo(toPath, true)
+
+                            // If the original file is in webp file format, a compilation error will occur.
+                            // Remove it to prevent compilation errors.
+                            Files.delete(newHeaderPath)
+                        }
+                    }
+                }
+            }
+        }
     }
 }
