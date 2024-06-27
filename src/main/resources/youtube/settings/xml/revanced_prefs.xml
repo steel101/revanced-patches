@@ -430,6 +430,7 @@
         <app.revanced.integrations.shared.settings.preference.ResettableEditTextPreference android:hint="2.0" android:title="@string/revanced_speed_overlay_value_title" android:key="revanced_speed_overlay_value" android:summary="@string/revanced_speed_overlay_value_summary" android:inputType="numberDecimal" />
         <SwitchPreference android:title="@string/revanced_hide_channel_watermark_title" android:key="revanced_hide_channel_watermark" android:summaryOn="@string/revanced_hide_channel_watermark_summary_on" android:summaryOff="@string/revanced_hide_channel_watermark_summary_off" />
         <SwitchPreference android:title="@string/revanced_hide_crowdfunding_box_title" android:key="revanced_hide_crowdfunding_box" android:summaryOn="@string/revanced_hide_crowdfunding_box_summary_on" android:summaryOff="@string/revanced_hide_crowdfunding_box_summary_off" />
+        <SwitchPreference android:title="@string/revanced_hide_double_tap_overlay_filter_title" android:key="revanced_hide_double_tap_overlay_filter" android:summaryOn="@string/revanced_hide_double_tap_overlay_filter_summary_on" android:summaryOff="@string/revanced_hide_double_tap_overlay_filter_summary_off" />
         <SwitchPreference android:title="@string/revanced_hide_end_screen_cards_title" android:key="revanced_hide_end_screen_cards" android:summaryOn="@string/revanced_hide_end_screen_cards_summary_on" android:summaryOff="@string/revanced_hide_end_screen_cards_summary_off" />
         <SwitchPreference android:title="@string/revanced_hide_filmstrip_overlay_title" android:key="revanced_hide_filmstrip_overlay" android:summaryOn="@string/revanced_hide_filmstrip_overlay_summary_on" android:summaryOff="@string/revanced_hide_filmstrip_overlay_summary_off" />
         <SwitchPreference android:title="@string/revanced_hide_info_cards_title" android:key="revanced_hide_info_cards" android:summaryOn="@string/revanced_hide_info_cards_summary_on" android:summaryOff="@string/revanced_hide_info_cards_summary_off" />
@@ -709,7 +710,6 @@
                 <Preference android:title="Custom Shorts action buttons" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="GmsCore support" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Hide animated button background" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-                <Preference android:title="Hide double tap overlay filter" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Hide double tap to like animations" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Hide Shorts dimming" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
                 <Preference android:title="Icon" android:summary="@string/revanced_icon_default" android:selectable="false"/>
