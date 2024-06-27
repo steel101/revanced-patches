@@ -833,7 +833,7 @@ Limitation: Video title disappears when clicked."</string>
     <string name="revanced_hide_player_fullscreen_button_title">Hide Fullscreen button</string>
     <string name="revanced_hide_player_fullscreen_button_summary_on">Fullscreen button is hidden.</string>
     <string name="revanced_hide_player_fullscreen_button_summary_off">Fullscreen button is shown.</string>
-    <string name="revanced_hide_player_previous_next_button_title">Hide previous &amp; next buttons</string>
+    <string name="revanced_hide_player_previous_next_button_title">Hide Previous &amp; Next buttons</string>
     <string name="revanced_hide_player_previous_next_button_summary_on">Buttons are hidden.</string>
     <string name="revanced_hide_player_previous_next_button_summary_off">Buttons are shown.</string>
     <string name="revanced_hide_player_youtube_music_button_title">Hide YouTube Music button</string>
