@@ -1090,6 +1090,19 @@ Side effect: Official headers in search results will be hidden."</string>
     <string name="revanced_hide_shorts_sound_button_summary_on">Sound button is hidden.</string>
     <string name="revanced_hide_shorts_sound_button_summary_off">Sound button is shown.</string>
 
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
+    <string name="revanced_preference_category_animation_feedback">Animation / Feedback</string>
+    <string name="revanced_hide_shorts_play_pause_button_background_title">Hide Play &amp; Pause button background</string>
+    <string name="revanced_hide_shorts_play_pause_button_background_summary_on">Button background is hidden.</string>
+    <string name="revanced_hide_shorts_play_pause_button_background_summary_off">Button background is shown.</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_title">Double-tap animation</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_1">Original</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_2">Thumbs up</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Thumbs up (Cairo)</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_4">Heart</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Heart (Tint)</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Hidden</string>
+
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
     <string name="revanced_hide_shorts_toolbar_title">Hide toolbar</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">Toolbar is hidden.</string>
