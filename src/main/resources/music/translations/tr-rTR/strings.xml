@@ -216,6 +216,8 @@ Bilgi:
     <string name="revanced_hide_comment_channel_guidelines_summary">Yorumları bölümünün üst kısmında kanal kurallarını gizler.</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">Zaman damgası ve emoji düğmelerini gizle</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Yorum yazarken zaman damgası ve emoji düğmelerini gizle.</string>
+    <string name="revanced_hide_double_tap_overlay_filter_title">Çift tıklama arayüz filtresini gizle</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary">Çift tıklayarak sürükleme etkinken kara arayüzü gizler.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Tam ekran\'daki paylaş butonunu gizle</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Tam ekran oynatıcısındaki paylaş butonunu gizler.</string>
     <string name="revanced_remember_repeat_state_title">Tekrarın durumunu hatırlar</string>

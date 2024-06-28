@@ -364,6 +364,12 @@ Shorts
     <string name="revanced_miniplayer_enable_drag_and_drop_title">Перетаскивание миниплеера</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Перетаскивание миниплеера включено.</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">Перетаскивание миниплеера отключено.</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_title">Действие двойного нажатия</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"Действие двойного нажатия включено.
+
+Плеер \"Современный 1\" - изменяет размер уменьшенное видео.
+Плеер \"Современный 2, 3\" - закрывает уменьшенное видео."</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">Действие двойного нажатия отключено.</string>
     <string name="revanced_miniplayer_hide_expand_close_title">Кнопки \"Развернуть\" и \"Закрыть\"</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">Кнопки скрыты.
 (развернуть или закрыть мини-плеер жестом)</string>
@@ -488,6 +494,9 @@ Shorts
     <string name="revanced_hide_crowdfunding_box_title">\"Пожертвования\"</string>
     <string name="revanced_hide_crowdfunding_box_summary_on">\"Пожертвования\" скрыто.</string>
     <string name="revanced_hide_crowdfunding_box_summary_off">\"Пожертвования\" отображено.</string>
+    <string name="revanced_hide_double_tap_overlay_filter_title">Фильтр двойного нажатия</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_on">Фильтр двойного нажатия скрыт.</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_off">Фильтр двойного нажатия отображен.</string>
     <string name="revanced_hide_end_screen_cards_title">Заставки следующих видео</string>
     <string name="revanced_hide_end_screen_cards_summary_on">Заставки следующих видео скрыты.</string>
     <string name="revanced_hide_end_screen_cards_summary_off">Заставки следующих видео отображены.</string>
@@ -1037,6 +1046,11 @@ Shorts
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Сердце (Оттенок)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Скрыта</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_enable_shorts_time_stamp_title">Метка времени</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_on">"Метка времени включена.
+
+Проблема: функция на этапе разработки Google, внешний вид может быть нарушен."</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_off">Метка времени отключена.</string>
     <string name="revanced_hide_shorts_toolbar_title">Панель инструментов</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">Панель инструментов скрыта.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">Панель инструментов отображена.</string>

@@ -5,7 +5,7 @@
     <string name="accessibility_settings_edu_opt_out_text">Τα στοιχεία ελέγχου σας τροποποιούνται επειδή είναι ενεργή κάποια υπηρεσία προσβασιμότητας.</string>
     <!-- Shared PreferenceScreen -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
-    <string name="revanced_extended_settings_search_title">Αναζήτηση ρυθμίσεων</string>
+    <string name="revanced_extended_settings_search_title">Αναζήτηση %s</string>
     <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">Πειραματικές Λειτουργίες</string>
     <string name="revanced_extended_confirm_user_dialog_title">Θέλετε να συνεχίσετε;</string>
@@ -242,7 +242,7 @@ Playlists
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Φίλτρο αριθμού προβολών</string>
     <string name="revanced_hide_video_by_view_counts_title">Απόκρυψη βίντεο βάσει αριθμού προβολών</string>
-    <string name="revanced_hide_video_by_view_counts_summary">Απόκρυψη των βίντεο με προβολές λιγότερες ή περισσότερες από την προτίμησή σας.</string>
+    <string name="revanced_hide_video_by_view_counts_summary">Απόκρυψη των βίντεο με προβολές λιγότερες ή περισσότερες από την προτίμησή σας.\n\nΓνωστό θέμα: Τα βίντεο με 0 προβολές δε φιλτράρονται σωστά.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">Μέγιστο όριο προβολών</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">Τα βίντεο με περισσότερες προβολές από αυτόν τον αριθμό δεν θα εμφανίζονται.</string>
     <string name="revanced_hide_video_view_counts_less_than_title">Ελάχιστο όριο προβολών</string>
@@ -350,13 +350,19 @@ Playlists
     <string name="revanced_miniplayer_enable_drag_and_drop_title">Χειρονομία μεταφοράς και απόθεσης</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Η χειρονομία μεταφοράς και απόθεσης είναι ενεργοποιημένη.</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">Η χειρονομία μεταφοράς και απόθεσης είναι απενεργοποιημένη.</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_title">Ενέργεια διπλού πατήματος</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"Η ενέργεια διπλού πατήματος είναι ενεργοποιημένη.
+
+• Μοντέρνα 1: Διπλό πάτημα για αλλαγή του ελαχιστοποιημένου βίντεο σε μεγαλύτερο μέγεθος.
+• Μοντέρνα 2, 3: Διπλό πάτημα για να κλείσετε το ελαχιστοποιημένο βίντεο."</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">Η ενέργεια διπλού πατήματος είναι απενεργοποιημένη.</string>
     <string name="revanced_miniplayer_hide_expand_close_title">Κουμπιά επέκτασης και κλεισίματος</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">Κρυμμένα.\n(σύρετε την ελαχιστοποιημένη οθόνη αναπαραγωγής για επέκταση ή κλείσιμο του βίντεο)</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">Εμφανίζονται.</string>
     <string name="revanced_miniplayer_hide_subtext_title">Κείμενα οθόνης αναπαραγωγής</string>
     <string name="revanced_miniplayer_hide_subtext_summary_on">Κρυμμένα.</string>
     <string name="revanced_miniplayer_hide_subtext_summary_off">Εμφανίζονται.</string>
-    <string name="revanced_miniplayer_hide_rewind_forward_title">Κουμπιά παράλειψης εμπρός και πίσω</string>
+    <string name="revanced_miniplayer_hide_rewind_forward_title">Κουμπιά παράλειψης και επιστροφής</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Κρυμμένα.</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Εμφανίζονται.</string>
     <string name="revanced_miniplayer_opacity_title">Αδιαφάνεια φόντου παρασκηνίου</string>
@@ -472,6 +478,9 @@ Playlists
     <string name="revanced_hide_crowdfunding_box_title">Πλαίσιο δωρεών</string>
     <string name="revanced_hide_crowdfunding_box_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_crowdfunding_box_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_double_tap_overlay_filter_title">Φόντο διπλού πατήματος του αναπαραγωγέα</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_off">Εμφανίζεται.</string>
     <string name="revanced_hide_end_screen_cards_title">Κάρτες τελικής οθόνης</string>
     <string name="revanced_hide_end_screen_cards_summary_on">Κρυμμένες.</string>
     <string name="revanced_hide_end_screen_cards_summary_off">Εμφανίζονται.</string>
@@ -1022,11 +1031,16 @@ Playlists
     <string name="revanced_shorts_double_tap_to_like_animation_title">Εφέ διπλού πατήματος</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_1">Αρχικό</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_2">Αντίχειρας προς τα πάνω</string>
-    <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Εφέ θέματος Cairo</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Αντίχειρας προς τα πάνω (Θέμα Cairo)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_4">Καρδιά</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Καρδιά (χρωματιστή)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Τίποτα</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_enable_shorts_time_stamp_title">Ενεργοποίηση χρονοσφραγίδων</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_on">"Οι χρονοσφραγίδες είναι ενεργοποιημένες.
+
+Γνωστό θέμα: Δεδομένου ότι αυτή είναι μια λειτουργία της Google που βρίσκεται ακόμη στο στάδιο ανάπτυξης, η διάταξη μπορεί να χαλάσει."</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_off">Οι χρονοσφραγίδες είναι απενεργοποιημένες.</string>
     <string name="revanced_hide_shorts_toolbar_title">Γραμμή εργαλείων</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">Κρυμμένη.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">Εμφανίζεται.</string>

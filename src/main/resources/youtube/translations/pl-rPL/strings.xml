@@ -5,7 +5,7 @@
     <string name="accessibility_settings_edu_opt_out_text">Twoje ustawienia są zmienione, ponieważ serwis ułatwień dostępu jest włączony.</string>
     <!-- Shared PreferenceScreen -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
-    <string name="revanced_extended_settings_search_title">Wyszukaj ustawienia</string>
+    <string name="revanced_extended_settings_search_title">Wyszukaj w %s</string>
     <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">Ustawienia Eksperymentalne</string>
     <string name="revanced_extended_confirm_user_dialog_title">Czy chcesz kontynuować?</string>
@@ -242,7 +242,7 @@ Ograniczenia:
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Filtr ilości wyświetleń</string>
     <string name="revanced_hide_video_by_view_counts_title">Ukryj rekomendowane wideo, według ilości wyświetleń</string>
-    <string name="revanced_hide_video_by_view_counts_summary">Ukryj rekomendowane wideo, które mają mniejszą ilość wyświetleń niż podana.</string>
+    <string name="revanced_hide_video_by_view_counts_summary">Ukryj rekomendowane wideo, które mają mniejszą ilość wyświetleń niż zadeklarowana.\n\nZnany problem: Wideo z 0 wyświetleń nie są filtrowane.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">Popularniejsze</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">Wideo z wyświetleniami większymi niż ta liczba zostaną ukryte</string>
     <string name="revanced_hide_video_view_counts_less_than_title">Mniej popularne</string>
@@ -350,6 +350,12 @@ Niektóre komponenty mogą nie być ukryte."</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_title">Gest przeciągnięcia i upuszczenia</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Włączony</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">Wyłączony</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_title">Akcje po podwójnym kliknięciu</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"Włączone
+
+• Nowoczesny 1: podwójne kliknięcie zmienia zminimalizowany film do większego rozmiaru
+• Nowoczesny 2, 3: podwójne kliknięcie zamyka zminimalizowane wideo"</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">Wyłączone</string>
     <string name="revanced_miniplayer_hide_expand_close_title">Przyciski rozwijania i zamykania</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">Ukryte\n(przesuń miniodtwarzacz, aby rozwinąć lub zamknąć)</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">Widoczne</string>
@@ -473,6 +479,9 @@ Notki:
     <string name="revanced_hide_crowdfunding_box_title">Ramki ze zbiórkami</string>
     <string name="revanced_hide_crowdfunding_box_summary_on">Ukryte</string>
     <string name="revanced_hide_crowdfunding_box_summary_off">Widoczne</string>
+    <string name="revanced_hide_double_tap_overlay_filter_title">Poświata po dwukrotnym kliknięciu</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_on">Ukryta</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_off">Widoczna</string>
     <string name="revanced_hide_end_screen_cards_title">Karty końcowe wideo</string>
     <string name="revanced_hide_end_screen_cards_summary_on">Ukryte</string>
     <string name="revanced_hide_end_screen_cards_summary_off">Widoczne</string>
@@ -1010,11 +1019,16 @@ Ograniczenie: Nagłówki z tytułami będą ukryte w wynikach wyszukiwania."</st
     <string name="revanced_shorts_double_tap_to_like_animation_title">Animacja po dwukrotnym kliknięciu</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_1">Oryginalna</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_2">Łapka w górę</string>
-    <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Cairo</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Łapka w górę (Cairo)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_4">Serce</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Serce (jaśniejsze)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Ukryta</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_enable_shorts_time_stamp_title">Czas Shortsa</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_on">"Włączony
+
+Znany problem: jako, że jest to funkcja w fazie rozwoju przez Google, układ interfejsu może być nieprawidłowy."</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_off">Wyłączony</string>
     <string name="revanced_hide_shorts_toolbar_title">Pasek z narzędziami</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">Ukryty</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">Widoczny</string>

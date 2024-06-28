@@ -222,6 +222,7 @@ Problemi noti:
 • La ricerca di una parola chiave potrebbe non mostrare risultati"</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Parola chiave non valida, non è possibile usare \'%s\' come filtro</string>
     <string name="revanced_hide_keyword_toast_invalid_keyword">Parola chiave non valida. \'%1$s\' è minore di %2$d caratteri</string>
+    <string name="revanced_hide_keyword_toast_invalid_broad">La parola chiave \'%1$s\' nasconderà tutti i video.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Video consigliati</string>
     <string name="revanced_hide_recommended_video_title">Nascondi video consigliati</string>
@@ -299,6 +300,13 @@ Problemi noti:
     <string name="revanced_enable_tablet_layout_title">Attiva l\'interfaccia da tablet</string>
     <string name="revanced_enable_tablet_layout_summary">Simula un diverso valore DPI per usare alcune parti dell\'interfaccia da tablet</string>
     <string name="revanced_spoof_app_version_title">Simula la versione dell\'app</string>
+    <string name="revanced_spoof_app_version_summary_on">Versione spoofata</string>
+    <string name="revanced_spoof_app_version_summary_off">Versione non spoofata</string>
+    <string name="revanced_spoof_app_version_user_dialog_message">"La versione dell'app sarà spoofata per una versione più vecchia di YouTube.
+
+Questo cambierà l'aspetto e le caratteristiche dell'app, ma possono verificarsi effetti collaterali sconosciuti.
+
+Se in seguito è disattivato, si consiglia di cancellare i dati dell'app per prevenire i bug dell'UI."</string>
     <string name="revanced_spoof_app_version_target_title">Modifica la versione dell\'app da simulare</string>
     <string name="revanced_spoof_app_version_target_summary">Digita la versione dell\'app da simulare</string>
     <string name="revanced_spoof_app_version_target_entry_title">La versione dell\'app da simulare</string>
@@ -430,6 +438,9 @@ Scheda Tu &gt; Visualizza canale &gt; Menù &gt; Impostazioni"</string>
     <string name="revanced_hide_search_term_thumbnail_title">Nascondi i thumbnails nella cronologia delle ricerche</string>
     <string name="revanced_hide_search_term_thumbnail_summary_on">I thumbnails nella cronologia delle ricerche sono nascosti</string>
     <string name="revanced_hide_search_term_thumbnail_summary_off">I thumbnails nella cronologia delle ricerche sono visibili</string>
+    <string name="revanced_hide_image_search_button_title">Nascondi il pulsante di ricerca immagine</string>
+    <string name="revanced_hide_image_search_button_summary_on">Il pulsante di ricerca immagine è nascosto.</string>
+    <string name="revanced_hide_image_search_button_summary_off">Il pulsante di ricerca immagine è mostrato.</string>
     <string name="revanced_hide_voice_search_button_title">Nascondi pulsante di ricerca vocale</string>
     <string name="revanced_hide_voice_search_button_summary_on">Il pulsante di ricerca vocale è nascosto.</string>
     <string name="revanced_hide_voice_search_button_summary_off">Il pulsante di ricerca vocale è mostrato.</string>
@@ -461,6 +472,9 @@ Nota: disattivando la sovrapposizione della velocità verrà ripristinato lo \"S
     <string name="revanced_hide_crowdfunding_box_title">Nascondi il riquadro della raccolta fondi</string>
     <string name="revanced_hide_crowdfunding_box_summary_on">Il riquadro della raccolta fondi è nascosto</string>
     <string name="revanced_hide_crowdfunding_box_summary_off">Il riquadro della raccolta fondi è visibile</string>
+    <string name="revanced_hide_double_tap_overlay_filter_title">Nascondi il filtro di sovrapposizione doppio tocco</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_on">Il filtro di sovrapposizione a doppio tocco è nascosto.</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_off">Il filtro di sovrapposizione doppio tocco è mostrato.</string>
     <string name="revanced_hide_end_screen_cards_title">Nascondi le schede finali</string>
     <string name="revanced_hide_end_screen_cards_summary_on">Le schede finali sono nascoste</string>
     <string name="revanced_hide_end_screen_cards_summary_off">Le schede finali sono visibili</string>
@@ -995,6 +1009,17 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
     <string name="revanced_hide_shorts_sound_button_summary_on">Il pulsante suono è nascosto.</string>
     <string name="revanced_hide_shorts_sound_button_summary_off">Il pulsante suono è mostrato.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
+    <string name="revanced_preference_category_animation_feedback">Animazione / Feedback</string>
+    <string name="revanced_hide_shorts_play_pause_button_background_title">Nascondi lo sfondo del pulsante Riproduci &amp; Pausa</string>
+    <string name="revanced_hide_shorts_play_pause_button_background_summary_on">Lo sfondo del pulsante è nascosto.</string>
+    <string name="revanced_hide_shorts_play_pause_button_background_summary_off">Lo sfondo del pulsante è mostrato.</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_title">Animazione doppio tocco</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_1">Originale</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_2">Pollice in su</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Pollice in su (Cairo)</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_4">Cuore</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Cuore (tinta)</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Nascosto</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
     <string name="revanced_hide_shorts_toolbar_title">Nascondi la barra degli strumenti</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">La barra degli strumenti è nascosta.</string>
@@ -1394,6 +1419,7 @@ Problema noto: i video nei feed saranno riprodotti per meno di un minuto prima d
     <string name="revanced_spoof_client_title">Spoof client</string>
     <string name="revanced_spoof_client_summary_on">Client è spoofato.</string>
     <string name="revanced_spoof_client_summary_off">"Client non è spoofato. La riproduzione video potrebbe non funzionare."</string>
+    <string name="revanced_spoof_client_user_dialog_message">Disattivare questa impostazione potrebbe causare problemi di riproduzione video.</string>
     <string name="revanced_spoof_client_stats_for_nerds_title">Mostra nelle statistiche per nerd</string>
     <string name="revanced_spoof_client_stats_for_nerds_summary_on">Il client spoofato è mostrato nelle statistiche per nerd.</string>
     <string name="revanced_spoof_client_stats_for_nerds_summary_off">Il client spoofato è nascosto nelle statistiche per nerd.</string>

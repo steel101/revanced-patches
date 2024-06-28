@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared PreferenceScreen -->
+    <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <!-- Shared Category -->
+    <string name="revanced_extended_restart_first_run">重启应用以正常加载界面布局</string>
+    <string name="revanced_extended_restart_message">刷新并重启</string>
     <!-- PreferenceScreen: Account -->
+    <string name="revanced_preference_screen_account_title">账号</string>
     <string name="revanced_hide_account_menu_title">隐藏账户菜单</string>
     <string name="revanced_hide_account_menu_summary">隐藏账户菜单元素。</string>
+    <string name="revanced_hide_account_menu_filter_strings_title">账户菜单过滤器</string>
+    <string name="revanced_hide_account_menu_filter_strings_summary">要过滤的帐户菜单名称列表，每行一个名称</string>
     <string name="revanced_hide_account_menu_empty_component_title">隐藏空组件</string>
     <string name="revanced_hide_account_menu_empty_component_summary">隐藏在账户菜单中的空组件。</string>
     <string name="revanced_hide_handle_title">隐藏控制列</string>
@@ -12,6 +18,7 @@
     <string name="revanced_hide_terms_container_title">隐藏服务条款栏</string>
     <string name="revanced_hide_terms_container_summary">隐藏服务条款栏</string>
     <!-- PreferenceScreen: Action Bar -->
+    <string name="revanced_preference_screen_action_bar_title">快捷操作栏</string>
     <string name="revanced_hide_action_button_like_dislike_title">隐藏点赞和点踩按钮</string>
     <string name="revanced_hide_action_button_like_dislike_summary">隐藏点赞和点踩按钮（在旧的播放器布局中不生效）</string>
     <string name="revanced_hide_action_button_comment_title">隐藏评论按钮</string>
@@ -26,25 +33,58 @@
     <string name="revanced_hide_action_button_radio_summary">隐藏开启电台按钮</string>
     <string name="revanced_hide_action_button_label_title">隐藏操作按钮标签</string>
     <string name="revanced_hide_action_button_label_summary">隐藏操作按钮中的标签</string>
+    <string name="revanced_external_downloader_action_title">覆盖下载操作按钮</string>
+    <string name="revanced_external_downloader_action_summary">"下载按钮开启您的外部下载器
+
+ • 仅覆写播放器中的下载动作按钮
+ • 不会覆写弹出式功能表或媒体库的下载按钮"</string>
     <string name="revanced_external_downloader_package_name_title">外部下载器应用包名</string>
     <string name="revanced_external_downloader_package_name_summary">已安装的外部下载器应用的包名，例如 NewPipe 或 Seal</string>
+    <string name="revanced_external_downloader_dialog_title">外部下载器</string>
+    <string name="revanced_external_downloader_not_installed_dialog_title">警告</string>
+    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s 未安装
+请从网站下载 %2$s"</string>
     <string name="revanced_external_downloader_not_installed_warning">%s未安装，请先安装</string>
     <!-- PreferenceScreen: Ads -->
+    <string name="revanced_preference_screen_ads_title">广告</string>
+    <string name="revanced_hide_fullscreen_ads_title">隐藏全屏广告</string>
+    <string name="revanced_hide_fullscreen_ads_summary">隐藏全屏广告</string>
+    <string name="revanced_hide_fullscreen_ads_type_title">关闭全屏广告</string>
+    <string name="revanced_hide_fullscreen_ads_type_summary">"如果启用，全屏广告将通过关闭按钮关闭
+如果禁用，全屏广告将被屏蔽(可能有副作用)"</string>
+    <string name="revanced_hide_fullscreen_ads_blocked_success">全屏广告已屏蔽(对话类型： %s)</string>
+    <string name="revanced_hide_fullscreen_ads_closed_success">全屏广告已关闭</string>
     <string name="revanced_hide_general_ads_title">隐藏一般广告</string>
     <string name="revanced_hide_general_ads_summary">隐藏一般广告</string>
     <string name="revanced_hide_music_ads_title">音乐广告</string>
     <string name="revanced_hide_music_ads_summary">隐藏播放曲目前的广告</string>
+    <string name="revanced_hide_paid_promotion_label_title">隐藏付费推广标签</string>
+    <string name="revanced_hide_paid_promotion_label_summary">隐藏付费推广标签</string>
     <string name="revanced_hide_premium_promotion_title">隐藏 Premium 推广弹出窗口</string>
     <string name="revanced_hide_premium_promotion_summary">隐藏 Premium 推广弹出窗口</string>
     <string name="revanced_hide_premium_renewal_title">隐藏 Premium 续订横幅</string>
     <string name="revanced_hide_premium_renewal_summary">隐藏 Premium 续订横幅</string>
     <!-- PreferenceScreen: Flyout -->
+    <string name="revanced_preference_screen_flyout_title">弹出菜单</string>
     <string name="revanced_enable_compact_dialog_title">启用紧凑对话框</string>
     <string name="revanced_enable_compact_dialog_summary">"在手机上启用紧凑对话框。
 
 已知问题：
 • 媒体库上的专辑封面也变得更小。
 • 睡眠定时器布局可能出现异常。"</string>
+    <string name="revanced_enable_trim_silence_title">新增修改静音开关</string>
+    <string name="revanced_enable_trim_silence_summary">"将修改静音开关新增至播放速度弹出式选单
+
+ 信息：
+ • 此功能适用于播客
+ • 此功能仍在开发中，因此可能不稳定"</string>
+    <string name="revanced_hide_flyout_menu_like_dislike_title">隐藏点赞和点踩按钮</string>
+    <string name="revanced_hide_flyout_menu_3_column_component_title">隐藏三列组件</string>
+    <string name="revanced_hide_flyout_menu_add_to_queue_title">隐藏添加到队列选项</string>
+    <string name="revanced_hide_flyout_menu_captions_title">隐藏字幕菜单选项</string>
+    <string name="revanced_hide_flyout_menu_delete_playlist_title">隐藏删除播放列表选项</string>
+    <string name="revanced_hide_flyout_menu_dismiss_queue_title">隐藏清除队列选项</string>
+    <string name="revanced_hide_flyout_menu_download_title">隐藏下载选项</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_change_start_page_title">更改起始页面</string>
     <string name="revanced_change_start_page_summary">选择打开应用显示的页面</string>

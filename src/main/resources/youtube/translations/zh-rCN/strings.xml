@@ -353,6 +353,12 @@
     <string name="revanced_miniplayer_enable_drag_and_drop_title">启用拖放</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">拖放已启用</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">拖放已禁用</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_title">双击操作</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"双击操作已启用
+
+• Modern 1：双击可将最小化的视频更改为更大的尺寸
+• Modern 2, 3：双击可关闭最小化的视频"</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">双击操作已禁用</string>
     <string name="revanced_miniplayer_hide_expand_close_title">隐藏展开和关闭按钮</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">按钮已隐藏\n(滑动迷你播放器来展开或关闭)</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">展开和关闭按钮已显示</string>
@@ -474,6 +480,9 @@
     <string name="revanced_hide_crowdfunding_box_title">隐藏众筹箱</string>
     <string name="revanced_hide_crowdfunding_box_summary_on">众筹箱已隐藏</string>
     <string name="revanced_hide_crowdfunding_box_summary_off">众筹箱已显示</string>
+    <string name="revanced_hide_double_tap_overlay_filter_title">隐藏双击叠加层过滤器</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_on">双击叠加层过滤器已隐藏</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_off">双击叠加层过滤器已显示</string>
     <string name="revanced_hide_end_screen_cards_title">隐藏结束界面卡片</string>
     <string name="revanced_hide_end_screen_cards_summary_on">结束界面卡片已隐藏</string>
     <string name="revanced_hide_end_screen_cards_summary_off">结束界面卡片已显示</string>
@@ -1016,6 +1025,11 @@
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">心形(着色)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">隐藏</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_enable_shorts_time_stamp_title">启用时间戳</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_on">"时间戳已启用
+
+已知问题：由于这是谷歌开发阶段的一个功能，布局可能已损坏"</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_off">时间戳已禁用</string>
     <string name="revanced_hide_shorts_toolbar_title">隐藏工具栏</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">工具栏已隐藏</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">工具栏已显示</string>

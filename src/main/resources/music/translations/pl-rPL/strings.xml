@@ -127,7 +127,7 @@ Informacje:
     <string name="revanced_change_start_page_entry_subscription">Subskrypcje</string>
     <string name="revanced_disable_auto_captions_title">Wyłącz automatyczne napisy</string>
     <string name="revanced_disable_auto_captions_summary">Wyłącza automatycznie włączane napisy w odtwarzaczu wideo.</string>
-    <string name="revanced_disable_dislike_redirection_title">Wyłącz pomijanie nielubionych piosenek</string>
+    <string name="revanced_disable_dislike_redirection_title">Wyłącz pomijanie nielubianych piosenek</string>
     <string name="revanced_disable_dislike_redirection_summary">Wyłącza przenoszenie do następnego utworu po kliknięciu łapki w dół.</string>
     <string name="revanced_enable_landscape_mode_title">Włącz tryb pełnoekranowy</string>
     <string name="revanced_enable_landscape_mode_summary">Pozwala wejść w tryb pełnoekranowy poprzez obrót ekranu telefonu.</string>
@@ -217,6 +217,8 @@ Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie."</string>
     <string name="revanced_hide_comment_channel_guidelines_summary">Ukrywa wytyczne kanału na górze sekcji komentarzy.</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">Ukryj czas i przyciski od emotikon</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Ukrywa czas i przyciski od emotikon podczas pisania komentarzy.</string>
+    <string name="revanced_hide_double_tap_overlay_filter_title">Ukryj poświatę po dwukrotnym kliknięciu</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary">Ukrywa poświatę pojawiającą się, gdy przewijamy za pomocą podwójnego kliknięcia.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Ukryj przycisk udostępniania w trybie pełnoekranowym</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Ukrywa przycisk udostępniania w trybie pełnoekranowym.</string>
     <string name="revanced_remember_repeat_state_title">Zapamiętaj stan pętli</string>

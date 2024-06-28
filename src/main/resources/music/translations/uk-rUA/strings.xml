@@ -217,6 +217,8 @@
     <string name="revanced_hide_comment_channel_guidelines_summary">Приховує правила каналу у верхній частині секції коментарів.</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">Приховати мітку часу та емодзі</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Приховує кнопки мітки часу та емодзі під час введення коментарів.</string>
+    <string name="revanced_hide_double_tap_overlay_filter_title">Приховати фільтр подвійного натискання</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary">Приховує затемнення, яке з’являється під час подвійного натискання для перемотування.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Приховати \"Поділитися\" повноекранного режиму</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Приховує кнопку \"Поділитися\" в повноекранному плеєрі.</string>
     <string name="revanced_remember_repeat_state_title">Запам\'ятовувати стан повтору</string>

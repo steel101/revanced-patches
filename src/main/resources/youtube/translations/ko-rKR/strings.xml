@@ -4,7 +4,7 @@
     <string name="accessibility_settings_edu_opt_in_text">플레이어에서 접근성 컨트롤을 표시하겠습니까?</string>
     <string name="accessibility_settings_edu_opt_out_text">접근성 서비스가 켜져있기 때문에 플레이어 컨트롤을 변경합니다.</string>
     <!-- Shared PreferenceScreen -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
+    <string name="revanced_extended_settings_title">ReVanced Extended 설정</string>
     <string name="revanced_extended_settings_search_title">%s 검색</string>
     <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">실험적인 기능</string>
@@ -247,13 +247,13 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">조회수 필터</string>
     <string name="revanced_hide_video_by_view_counts_title">조회수를 기준으로 동영상 숨기기</string>
-    <string name="revanced_hide_video_by_view_counts_summary">조회수가 높거나 낮은 추천 동영상을 숨길 수 있습니다.</string>
+    <string name="revanced_hide_video_by_view_counts_summary">조회수가 높거나 낮은 추천 동영상을 숨길 수 있습니다.\n\n알려진 문제점: 실시간 스트림과 \'조회수 없음\' 동영상은 숨겨지지 않습니다.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">조회수가 높은 동영상 숨기기</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">입력한 숫자보다 높은 조회수를 가진 동영상을 숨길 수 있습니다.</string>
     <string name="revanced_hide_video_view_counts_less_than_title">조회수가 낮은 동영상 숨기기</string>
     <string name="revanced_hide_video_view_counts_less_than_summary">입력한 숫자보다 낮은 조회수를 가진 동영상을 숨길 수 있습니다.</string>
     <string name="revanced_hide_video_view_counts_multiplier_title">조회수 키</string>
-    <string name="revanced_hide_video_view_counts_multiplier_summary">레이아웃에서 노출되는 동영상의 조회수에 대한 언어 템플릿을 설정할 수 있습니다. \n• \'키(해당 언어의 문자/단어) -&gt; 값(키의 의미)\'은 줄바꿈으로 구분하여 설정해야 하고, 키는 \'-&gt;\' 기호 앞에 와야 합니다. \n• 편집창은 \'하나의 언어에 대한 키만 입력\' &amp; \'앞에는 숫자 관련 키, 마지막에는 조회수 단어 키 순으로 입력\' 해야 합니다. \n• 앱 언어 또는 시스템 언어를 변경하는 경우 이 설정을 다시 설정해야 합니다.\n• 실시간 스트림과 \'조회수 없음\' 동영상은 숨길 수 없습니다. \n예시) 한국어: 조회수 10만회 = 만회 -&gt; 10000, 조회수 -&gt; views\n영어: 10K views = K -&gt; 1000, views -&gt; views</string>
+    <string name="revanced_hide_video_view_counts_multiplier_summary">레이아웃에서 노출되는 동영상의 조회수에 대한 언어 템플릿을 설정할 수 있습니다. \n• \'키(해당 언어의 문자/단어) -&gt; 값(키의 의미)\'은 줄바꿈으로 구분하여 설정해야 하고, 키는 \'-&gt;\' 기호 앞에 와야 합니다. \n• 편집창은 \'하나의 언어에 대한 키만 입력\' &amp; \'앞에는 숫자 관련 키, 마지막에는 조회수 단어 키 순으로 입력\' 해야 합니다. \n• 앱 언어 또는 시스템 언어를 변경하는 경우 이 설정을 다시 설정해야 합니다.\n\n예시) 한국어: 조회수 10만회 = 만회 -&gt; 10000, 조회수 -&gt; views\n영어: 10K views = K -&gt; 1000, views -&gt; views</string>
     <string name="revanced_hide_video_view_counts_multiplier_default_value">천회 -&gt; 1000\n만회 -&gt; 10000\n억회 -&gt; 100000000\n조회수 -&gt; views</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">일반</string>
@@ -352,6 +352,12 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_title">드래그 앤드 드롭 활성화하기</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">드래그 앤드 드롭을 활성화합니다.</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">드래그 앤드 드롭을 비활성화합니다.</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_title">두 번 누르기 동작</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"두 번 누르기 동작을 활성화합니다.
+
+• 최신 1: 미니 플레이어를 두 번 눌러서 큰 사이즈로 변경할 수 있습니다.
+• 최신 2, 3: 미니 플레이어를 두 번 눌러서 닫을 수 있습니다."</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">두 번 누르기 동작을 비활성화합니다</string>
     <string name="revanced_miniplayer_hide_expand_close_title">\'펼치기\' &amp; \'닫기\' 버튼 숨기기</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">\'펼치기\' &amp; \'닫기\' 버튼이 숨겨집니다.\n• 스와이프하여 미니 플레이어를 펼치거나 닫을 수 있습니다.\n• YouTube v19.20.35+에서는 위로 스와이프하여 미니 플레이어를 펼칠 수 없으므로 \'펼치기\' 버튼을 사용해야 합니다.</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">\'펼치기\' &amp; \'닫기\' 버튼이 노출됩니다.\n• YouTube v19.20.35+에서는 위로 스와이프하여 미니 플레이어를 펼칠 수 없으므로 \'펼치기\' 버튼을 사용해야 합니다.</string>
@@ -873,7 +879,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 
 알려진 문제점: 
 • Cairo 테마가 알림 표시 점에도 적용됩니다."</string>
-    <string name="revanced_enable_cairo_seekbar_summary_off">Cairo 재생바를 비활성화합니다.\n• 그라데이션 색상 재생바\n\n• Cairo 레이아웃은 Google이 준비 중인 새로운 레이아웃입니다.\n• \'Cairo\'는 Google에서 진행 중인 프로젝트 이름으로 추정됩니다.</string>
+    <string name="revanced_enable_cairo_seekbar_summary_off">Cairo 재생바를 비활성화합니다.\n• 그라데이션 색상 재생바</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description -->
     <string name="revanced_preference_screen_video_description_title">동영상 설명</string>
     <string name="revanced_preference_screen_video_description_summary">동영상 설명에서 구성요소를 숨기거나 표시할 수 있습니다.</string>
@@ -1030,6 +1036,11 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">하트 (엷은색)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">숨겨짐</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_enable_shorts_time_stamp_title">타임스탬프 활성화하기</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_on">"타임스탬프를 활성화합니다.
+
+알려진 문제점: Google의 개발 단계의 기능이기 때문에 레이아웃이 깨질 수 있습니다."</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_off">타임스탬프를 비활성화합니다.</string>
     <string name="revanced_hide_shorts_toolbar_title">툴바 숨기기</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">툴바가 숨겨집니다.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">툴바가 노출됩니다.</string>
@@ -1427,7 +1438,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_preference_screen_spoof_client_summary">클라이언트를 변경하여 재생 문제를 방지할 수 있습니다.</string>
     <string name="revanced_spoof_client_title">클라이언트 변경하기</string>
     <string name="revanced_spoof_client_summary_on">클라이언트를 변경합니다.</string>
-    <string name="revanced_spoof_client_summary_off">"클라이언트를 변경하지 않습니다. 동영상이 재생되지 않을 수 있습니다."</string>
+    <string name="revanced_spoof_client_summary_off">"클라이언트를 변경하지 않습니다. \n동영상 재생 문제가 발생할 수 있습니다."</string>
     <string name="revanced_spoof_client_user_dialog_message">이 설정을 비활성화하면 동영상 재생 문제가 발생할 수 있습니다.</string>
     <string name="revanced_spoof_client_stats_for_nerds_title">전문 통계에서 표시하기</string>
     <string name="revanced_spoof_client_stats_for_nerds_summary_on">전문 통계에서 변경된 클라이언트를 표시합니다.</string>

@@ -348,6 +348,12 @@
     <string name="revanced_miniplayer_enable_drag_and_drop_title">تمكين السحب والإفلات</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">تم تمكين السحب والإفلات.</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">تم تعطيل السحب والإفلات.</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_title">إجراء النقر المزدوج</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"تم تمكين إجراء النقر المزدوج.
+
+• حديث 1: انقر نقرًا مزدوجًا لتغيير حجم الفيديو المصغر إلى حجم أكبر.
+• حديث 2، 3: انقر نقرًا مزدوجًا لإغلاق الفيديو المصغر."</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">تم تعطيل إجراء النقر المزدوج.</string>
     <string name="revanced_miniplayer_hide_expand_close_title">إخفاء أزرار التوسيع والإغلاق</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">تم إخفاء الأزرار.\n(مرر المشغل المصغر للتوسع أو الإغلاق)</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">يتم عرض أزرار التوسيع والإغلاق.</string>
@@ -1015,6 +1021,11 @@
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">قلب(لون)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">مخفي</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_enable_shorts_time_stamp_title">تمكين الطوابع الزمنية</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_on">"تم تمكين الطابع الزمني.
+
+مشكلة معروفة: نظرًا لأن هذه ميزة في مرحلة التطوير بواسطة Google، فقد يكون التخطيط معطلاً."</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_off">تم تعطيل الطابع الزمني.</string>
     <string name="revanced_hide_shorts_toolbar_title">إخفاء شريط الأدوات</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">تم إخفاء شريط الأدوات.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">يتم عرض شريط الأدوات.</string>

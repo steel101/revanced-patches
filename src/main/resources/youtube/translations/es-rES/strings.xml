@@ -353,6 +353,12 @@ Algunos componentes pueden no estar ocultos."</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_title">Activar arrastrar y soltar</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Arrastrar y soltar está activado.</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">Arrastrar y soltar está desactivado.</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_title">Acción de doble toque</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"La acción de doble toque está activada.
+
+• Moderno 1: tocar dos veces para cambiar el vídeo minimizado a un tamaño mayor.
+• Moderno 2, 3: tocar dos veces para cerrar el vídeo minimizado."</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">La acción de doble toque está desactivada.</string>
     <string name="revanced_miniplayer_hide_expand_close_title">Ocultar botones de expandir y cerrar</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">Los botones están ocultos.\n(pasa el dedo por el minirreproductor para ampliarlo o cerrarlo)</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">Los botones de expandir y cerrar están visibles.</string>
@@ -476,6 +482,9 @@ Nota:
     <string name="revanced_hide_crowdfunding_box_title">Ocultar caja de Crowdfunding</string>
     <string name="revanced_hide_crowdfunding_box_summary_on">La caja de Crowdfunding está oculta.</string>
     <string name="revanced_hide_crowdfunding_box_summary_off">La caja de Crowdfunding está visible.</string>
+    <string name="revanced_hide_double_tap_overlay_filter_title">Ocultar filtro de superposición de doble toque</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_on">El filtro de superposición de doble toque está oculto.</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_off">El filtro de superposición de doble toque está visible.</string>
     <string name="revanced_hide_end_screen_cards_title">Ocultar tarjetas de pantalla final</string>
     <string name="revanced_hide_end_screen_cards_summary_on">Las tarjetas de la pantalla final están ocultas.</string>
     <string name="revanced_hide_end_screen_cards_summary_off">Las tarjetas de la pantalla final están visibles.</string>
@@ -1007,7 +1016,7 @@ Limitación: las cabeceras oficiales en los resultados de búsqueda estarán ocu
     <string name="revanced_hide_shorts_sound_button_summary_on">El botón de sonido está oculto.</string>
     <string name="revanced_hide_shorts_sound_button_summary_off">El botón de sonido está visible.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
-    <string name="revanced_preference_category_animation_feedback">Animación/Comentarios</string>
+    <string name="revanced_preference_category_animation_feedback">Animación / Comentarios</string>
     <string name="revanced_hide_shorts_play_pause_button_background_title">Ocultar fondo del botón de reproducir y pausar</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_on">El fondo del botón está oculto.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_off">El fondo del botón está visible.</string>
@@ -1019,6 +1028,11 @@ Limitación: las cabeceras oficiales en los resultados de búsqueda estarán ocu
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Corazón (Tinte)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Oculto</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_enable_shorts_time_stamp_title">Activar marcas de tiempo</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_on">"La marca de tiempo está activada.
+
+Problema conocido: Al tratarse de una función en fase de desarrollo por parte de Google, el diseño puede estar roto."</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_off">La marca de tiempo está desactivada.</string>
     <string name="revanced_hide_shorts_toolbar_title">Ocultar barra de herramientas</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">La barra de herramientas está oculta.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">La barra de herramientas está visible.</string>
@@ -1068,8 +1082,8 @@ Limitación: las cabeceras oficiales en los resultados de búsqueda estarán ocu
     <string name="revanced_enable_swipe_to_switch_video_title">Activar deslizamiento para cambiar de vídeo en pantalla completa</string>
     <string name="revanced_enable_swipe_to_switch_video_summary_on">Deslizar para cambiar de vídeo está activado.
 
-Desliza hacia arriba/abajo para reproducir el vídeo siguiente/anterior.</string>
-    <string name="revanced_enable_swipe_to_switch_video_summary_off">Deslizar para cambiar de vídeo está desactivado.</string>
+Desliza hacia arriba / abajo para reproducir el vídeo siguiente / anterior.</string>
+    <string name="revanced_enable_swipe_to_switch_video_summary_off">Deslizar hacia arriba / abajo no reproducirá el vídeo siguiente / anterior.</string>
     <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Automático</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Vídeo</string>
@@ -1181,19 +1195,19 @@ Pulsa aquí para obtener más información.</string>
     <string name="revanced_sb_diff_segments">Cambiar comportamiento de segmentos</string>
     <string name="revanced_sb_segments_sponsor">Patrocinador</string>
     <string name="revanced_sb_segments_sponsor_sum">Promoción pagada, referencias pagadas y anuncios directos. No es para promoción propia ni para menciones gratuitas a causas, creadores, sitios web o productos que les gusten.</string>
-    <string name="revanced_sb_segments_selfpromo">Promoción propia/no pagada</string>
+    <string name="revanced_sb_segments_selfpromo">Promoción propia / no pagada</string>
     <string name="revanced_sb_segments_selfpromo_sum">Similar a \"Patrocinador\", excepto cuando se trata de promoción propia o no pagada. Incluye secciones sobre mercancía, donaciones o información sobre con quién colaboraron.</string>
     <string name="revanced_sb_segments_interaction">Recordatorio de interacción (suscripción)</string>
     <string name="revanced_sb_segments_interaction_sum">Un breve recordatorio para que des me gusta, te suscribas o les sigas en medio del contenido. Si es largo o trata sobre algo específico, debería ir en la sección de promoción propia.</string>
     <string name="revanced_sb_segments_highlight">Destacado</string>
     <string name="revanced_sb_segments_highlight_sum">La parte del vídeo que la mayoría de la gente busca.</string>
-    <string name="revanced_sb_segments_intro">Intermedio/Animación de introducción</string>
+    <string name="revanced_sb_segments_intro">Intermedio / Animación de introducción</string>
     <string name="revanced_sb_segments_intro_sum">Un intervalo sin contenido real. Puede ser una pausa, un fotograma estático o una animación que se repite. No incluye transiciones que contengan información.</string>
-    <string name="revanced_sb_segments_outro">Tarjetas finales/Créditos</string>
+    <string name="revanced_sb_segments_outro">Tarjetas finales / Créditos</string>
     <string name="revanced_sb_segments_outro_sum">Créditos o cuando aparecen las tarjetas finales de YouTube. No es para conclusiones con información.</string>
-    <string name="revanced_sb_segments_preview">Adelanto/Resumen/Enganche</string>
+    <string name="revanced_sb_segments_preview">Adelanto / Resumen / Enganche</string>
     <string name="revanced_sb_segments_preview_sum">Colección de clips que muestran lo que está por venir o lo que sucedió en el vídeo o en otros vídeos de una serie, donde toda la información se repite en otra parte.</string>
-    <string name="revanced_sb_segments_filler">Tangente de relleno/Chistes</string>
+    <string name="revanced_sb_segments_filler">Tangente de relleno / Chistes</string>
     <string name="revanced_sb_segments_filler_sum">Escenas tangenciales añadidas solo para relleno o humor que no son necesarias para entender el contenido principal del vídeo. No incluye segmentos que proporcionen contexto o detalles de fondo.</string>
     <string name="revanced_sb_segments_nomusic">Música: sección sin música</string>
     <string name="revanced_sb_segments_nomusic_sum">Solo para utilizar en vídeos musicales. Secciones de vídeos musicales sin música, que no estén ya cubiertas por otra categoría.</string>
@@ -1273,9 +1287,9 @@ Pulsa aquí para obtener más información.</string>
     <string name="revanced_sb_api_url_invalid">La URL de la API no es válida.</string>
     <string name="revanced_sb_api_url_changed">La URL de la API fue cambiada.</string>
     <string name="revanced_sb_settings_copy">Copiar</string>
-    <string name="revanced_sb_settings_ie">Importar/Exportar ajustes</string>
-    <string name="revanced_sb_settings_ie_sum">Tus ajustes de SponsorBlock en formato JSON que pueden ser importados/exportados a ReVanced Extended y otras plataformas de SponsorBlock.</string>
-    <string name="revanced_sb_settings_ie_sum_warning">Tus ajustes de SponsorBlock en formato JSON que pueden ser importados/exportados a ReVanced Extended y otras plataformas de SponsorBlock. Esto incluye tu ID de usuario privado. Asegúrate de compartir esto sabiamente.</string>
+    <string name="revanced_sb_settings_ie">Importar / Exportar ajustes</string>
+    <string name="revanced_sb_settings_ie_sum">Tus ajustes de SponsorBlock en formato JSON que pueden ser importados / exportados a ReVanced Extended y otras plataformas de SponsorBlock.</string>
+    <string name="revanced_sb_settings_ie_sum_warning">Tus ajustes de SponsorBlock en formato JSON que pueden ser importados / exportados a ReVanced Extended y otras plataformas de SponsorBlock. Esto incluye tu ID de usuario privado. Asegúrate de compartir esto sabiamente.</string>
     <string name="revanced_sb_settings_import_successful">Ajustes importados correctamente.</string>
     <string name="revanced_sb_settings_import_failed">Error al importar: %s.</string>
     <string name="revanced_sb_settings_export_failed">Error al exportar: %s.</string>
@@ -1392,17 +1406,17 @@ Limitación: los vídeos reproducidos automáticamente en el feed aparecerán en
 
 Limitación: los vídeos en el feed se reproducen durante menos de 1 minuto antes de que surjan problemas de reproducción."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->
-    <string name="revanced_preference_screen_import_export_title">Importar/Exportar ajustes</string>
+    <string name="revanced_preference_screen_import_export_title">Importar / Exportar ajustes</string>
     <string name="revanced_preference_screen_import_export_summary">Importar o exportar los ajustes.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings, PreferenceCategory: Import / Export as file -->
-    <string name="revanced_preference_category_import_export_as_file">Importar/Exportar como archivo</string>
+    <string name="revanced_preference_category_import_export_as_file">Importar / Exportar como archivo</string>
     <string name="revanced_extended_settings_export_title">Exportar ajustes</string>
     <string name="revanced_extended_settings_export_summary">Exporta los ajustes a un archivo.</string>
     <string name="revanced_extended_settings_import_title">Importar ajustes</string>
     <string name="revanced_extended_settings_import_summary">Importa los ajustes desde un archivo guardado.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings, PreferenceCategory: Import / Export as text -->
-    <string name="revanced_preference_category_import_export_as_text">Importar/Exportar como texto</string>
-    <string name="revanced_extended_settings_import_export_as_text_title">Importar/Exportar como texto</string>
+    <string name="revanced_preference_category_import_export_as_text">Importar / Exportar como texto</string>
+    <string name="revanced_extended_settings_import_export_as_text_title">Importar / Exportar como texto</string>
     <string name="revanced_extended_settings_import_export_as_text_summary">Importar o exportar los ajustes como texto.</string>
     <string name="revanced_extended_settings_export_failed">Error al exportar los ajustes.</string>
     <string name="revanced_extended_settings_export_success">Los ajustes se han exportado correctamente.</string>

@@ -217,6 +217,8 @@ Ez nem kerüli meg a korhatárkorlátozást. Csak automatikusan elfogadja azt."<
     <string name="revanced_hide_comment_channel_guidelines_summary">Elrejti a csatorna irányelveit a komment szekció tetején.</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">Elrejti az edőbélyeg és az emoji gombokat</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Elrejti az időbélyeget és az emoji gombokat komment gépelés közben.</string>
+    <string name="revanced_hide_double_tap_overlay_filter_title">Dupla koppintás átfedés elrejtése</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary">Elrejti dupla koppintáskor megjelenő sötét átfedést.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Teljes képernyős megosztás gomb elrejtése</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Elrejti a megosztás gombot a teljes képernyős lejátszóban.</string>
     <string name="revanced_remember_repeat_state_title">Isméltés állapotának megjegyzése</string>

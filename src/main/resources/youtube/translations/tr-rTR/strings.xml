@@ -5,7 +5,7 @@
     <string name="accessibility_settings_edu_opt_out_text">Bir erişilebilirlik hizmeti açık olduğundan kontrolleriniz değiştirildi.</string>
     <!-- Shared PreferenceScreen -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
-    <string name="revanced_extended_settings_search_title">Arama ayarları</string>
+    <string name="revanced_extended_settings_search_title">Arama %s</string>
     <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">Deneysel Parametreler</string>
     <string name="revanced_extended_confirm_user_dialog_title">Devam etmek istiyor musunuz?</string>
@@ -237,7 +237,7 @@ Kısıtlamalar:
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">İzlenme sayısı filtresi</string>
     <string name="revanced_hide_video_by_view_counts_title">Önerilen videoları izlenmeye göre gizle</string>
-    <string name="revanced_hide_video_by_view_counts_summary">Belirtilen görüntüleme sayısından daha az olan önerilen videoları gizleyin.</string>
+    <string name="revanced_hide_video_by_view_counts_summary">Belirtilen görüntüleme sayısından daha az olan önerilen videoları gizleyin.\n\nBilinen sorun: 0 izleme alan videolar filtrelenmez.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">Görüntülemelerden büyük</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">Görüntüleme sayısı bu sayıdan fazla olan videolar gizlenecektir.</string>
     <string name="revanced_hide_video_view_counts_less_than_title">Görüntülemelerden az</string>
@@ -343,6 +343,12 @@ Daha sonra kapatılırsa kullanıcı arayüzü hatalarını önlemek için uygul
     <string name="revanced_miniplayer_enable_drag_and_drop_title">Sürükle ve Bırak\'ı etkinleştir</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Sürükle ve Bırak etkin.</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">Sürükle ve Burak devre dışı.</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_title">Çift tıklama eylemi</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"Çift dokunma eylemi etkin.
+
+• Modern 1: Küçültülmüş videoyu daha büyük bir boyuta değiştirmek için iki kez dokunun.
+• Modern 2, 3: Küçültülmüş videoyu kapatmak için iki kez dokunun."</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">Çift tıklama eylemi devre dışı.</string>
     <string name="revanced_miniplayer_hide_expand_close_title">Genişlet ve kapat butonlarını gizle</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">Butonlar gizlendi. \n(mini oynatıcıyı kaydırarak genişletin veya kapatın)</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">Genişletme ve kapatma butonları gösteriliyor.</string>
@@ -464,6 +470,9 @@ Not: Bu özelliği devre dışı bırakmak, eski arayüzdeki \"Videoyu sarmak i�
     <string name="revanced_hide_crowdfunding_box_title">Video altındaki bağış etkinliklerini gizle</string>
     <string name="revanced_hide_crowdfunding_box_summary_on">Bağış etkinliği menüleri gizleniyor</string>
     <string name="revanced_hide_crowdfunding_box_summary_off">Bağış etkinliği menüleri gösteriliyor</string>
+    <string name="revanced_hide_double_tap_overlay_filter_title">Çift tıklama arayüz filtresini gizle</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_on">Çift tıklama arayüz filtresi gizli.</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_off">Çift tıklama arayüz filtresi gizlenmiyor.</string>
     <string name="revanced_hide_end_screen_cards_title">Videoların sonundaki kartları gizle</string>
     <string name="revanced_hide_end_screen_cards_summary_on">Bitiş ekranı kartları gizleniyor</string>
     <string name="revanced_hide_end_screen_cards_summary_off">Bitiş ekranı kartları gösteriliyor</string>
@@ -1000,11 +1009,16 @@ Bilinen sorun: Arama sonuçlarındaki resmi başlıklar da gizlenebiliyor."</str
     <string name="revanced_shorts_double_tap_to_like_animation_title">Çift tıklama animasyonu</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_1">Orjinal</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_2">Beğen</string>
-    <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Kahire</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Beğen (Kahire)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_4">Kalp</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Kalp (Renk Tonlu)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Gizlendi</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_enable_shorts_time_stamp_title">Zaman damgalarını etkinleştir</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_on">"Zaman damgası etkin.
+
+Bilinen sorun: Bu, Google'ın geliştirme aşamasındaki bir özellik olduğundan düzen bozuk olabilir."</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_off">Zaman damgası gizleniyor.</string>
     <string name="revanced_hide_shorts_toolbar_title">Araç çubuğunu göster</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">Araç çubuğu gizli.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">Araç çubuğu gösteriliyor.</string>

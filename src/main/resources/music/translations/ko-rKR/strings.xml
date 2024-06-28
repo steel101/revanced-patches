@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared PreferenceScreen -->
-    <string name="revanced_extended_settings_title">ReVanced Extended</string>
+    <string name="revanced_extended_settings_title">ReVanced Extended 설정</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">기능 및 레이아웃을 정상적으로 실행시키기 위해 다시 시작합니다.</string>
     <string name="revanced_extended_restart_message">새로고침 및 다시 시작</string>
@@ -218,6 +218,8 @@
     <string name="revanced_hide_comment_channel_guidelines_summary">댓글 섹션 상단에서 커뮤니티 가이드라인을 숨깁니다.</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">타임스탬프 &amp; 이모지 버튼 제거</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">댓글을 입력할 때, 타임스탬프와 이모지 버튼을 숨깁니다.</string>
+    <string name="revanced_hide_double_tap_overlay_filter_title">두 번 누르기 오버레이 필터</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary">두 번 눌러서 탐색할 때 표시되는 어두운 오버레이를 숨깁니다.</string>
     <string name="revanced_hide_fullscreen_share_button_title">전체 화면에서 공유 버튼 제거</string>
     <string name="revanced_hide_fullscreen_share_button_summary">전체 화면에서 공유 버튼을 숨깁니다.</string>
     <string name="revanced_remember_repeat_state_title">반복 상태 저장</string>

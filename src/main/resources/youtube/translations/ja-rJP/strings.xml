@@ -350,6 +350,13 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_miniplayer_enable_drag_and_drop_title">ドラッグ&amp;ドロップを有効化</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">ドラッグ&amp;ドロップを有効化します。</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">ドラッグ&amp;ドロップを有効化します。</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_title">ダブルタップアクション</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"ダブルタップアクションを有効化します。
+
+・モダン1: ダブルタップで、最小化された動画を大きなサイズに変更します。
+・モダン2, 3: ダブルタップで、最小化された動画を閉じます。"</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">ダブルタップアクションを有効化します。\n\n・モダン1: ダブルタップで、最小化された動画を大きなサイズに変更します。
+・モダン2, 3: ダブルタップで、最小化された動画を閉じます。</string>
     <string name="revanced_miniplayer_hide_expand_close_title">拡大/縮小ボタンを非表示</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">拡大/縮小のボタンを非表示にします。\n(ミニプレーヤーをスワイプして拡大/縮小できます) \n\n注意: YouTube v19.20.35 以降の場合、スワイプして拡大することはできません。</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">拡大/縮小のボタンを非表示にします。\n(ミニプレーヤーをスワイプして拡大/縮小できます) \n\n注意: YouTube v19.20.35 以降の場合、スワイプして拡大することはできません。</string>
@@ -395,8 +402,8 @@ DeArrowの詳細については、ここをタップしてください。"</stri
 • この設定を無効にすると、サーバーからさらに多くの広告が読み込まれます。
 • 動画広告を表示するには、この設定を無効にする必要があります。"</string>
     <string name="revanced_enable_translucent_navigation_bar_title">半透明のナビゲーションバーを有効化</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_on">ナビゲーションバー(ホーム、登録チャンネルなどのボタン)を半透明にします。\n\n注意: この機能は YouTube v19.23.40 以降かつ Android 12 以降のみ利用可能です。</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_off">ナビゲーションバー(ホーム、登録チャンネルなどのボタン)を半透明にします。\n\n注意: この機能は YouTube v19.23.40 以降かつ Android 12 以降のみ利用可能です。</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_on">ナビゲーションバー(ホーム、登録チャンネルなどのボタン)を半透明にします。\n\n注意: この機能は  Android 12 以降のみ利用可能です。</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_off">ナビゲーションバー(ホーム、登録チャンネルなどのボタン)を半透明にします。\n\n注意: この機能は  Android 12 以降のみ利用可能です。</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">設定メニュー</string>
     <string name="revanced_preference_screen_settings_menu_summary">「YouTube 設定」メニューの要素を非表示にします。</string>
@@ -472,6 +479,9 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_crowdfunding_box_title">クラウドファンディング欄を非表示</string>
     <string name="revanced_hide_crowdfunding_box_summary_on">プレーヤーと概要欄の間のクラウドファンディングボックスを非表示にします。</string>
     <string name="revanced_hide_crowdfunding_box_summary_off">プレーヤーと概要欄の間のクラウドファンディングボックスを非表示にします。</string>
+    <string name="revanced_hide_double_tap_overlay_filter_title">ダブルタップオーバーレイフィルタを非表示</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_on">ダブルタップオーバーレイフィルタを非表示にします。</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_off">ダブルタップオーバーレイフィルタを非表示にします。</string>
     <string name="revanced_hide_end_screen_cards_title">エンドカードを非表示</string>
     <string name="revanced_hide_end_screen_cards_summary_on">動画の最後に表示される作成者が追加したエンドカードを非表示にします。</string>
     <string name="revanced_hide_end_screen_cards_summary_off">動画の最後に表示される作成者が追加したエンドカードを非表示にします。</string>
@@ -901,12 +911,12 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_expand_video_description_strings_default_value">概要</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">ショート</string>
-    <string name="revanced_change_shorts_repeat_state_title">ショートのリピート状態を変更</string>
+    <string name="revanced_change_shorts_repeat_state_title">リピート状態を変更</string>
     <string name="revanced_change_shorts_repeat_state_entry_auto_play">次の動画を自動再生</string>
     <string name="revanced_change_shorts_repeat_state_entry_default">デフォルト</string>
     <string name="revanced_change_shorts_repeat_state_entry_pause">一時停止</string>
     <string name="revanced_change_shorts_repeat_state_entry_repeat">リピート再生</string>
-    <string name="revanced_disable_resuming_shorts_player_title">ショートのプレーヤーの再開を無効化</string>
+    <string name="revanced_disable_resuming_shorts_player_title">プレーヤーの再開を無効化</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">アプリを閉じる前に視聴していたショート動画をアプリ起動時に再開しないようにします。</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">アプリを閉じる前に視聴していたショート動画をアプリ起動時に再開しないようにします。</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelf -->
@@ -928,7 +938,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_shorts_shelf_history_summary_on">再生履歴から非表示にします。</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">再生履歴から非表示にします。</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
-    <string name="revanced_preference_screen_shorts_player_title">ショートのプレーヤー</string>
+    <string name="revanced_preference_screen_shorts_player_title">プレーヤー</string>
     <string name="revanced_preference_screen_shorts_player_summary">ショートのプレーヤー内のコンポーネントを非表示または表示します。</string>
     <string name="revanced_hide_shorts_join_button_title">「メンバーになる」ボタンを非表示</string>
     <string name="revanced_hide_shorts_join_button_summary_on">「メンバーになる」ボタンを非表示にします。</string>
@@ -1006,11 +1016,16 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_shorts_double_tap_to_like_animation_title">ダブルタップ時のアニメーション</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_1">オリジナル</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_2">いいね！</string>
-    <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Cairo</string>
-    <string name="revanced_shorts_double_tap_to_like_animation_entry_4">ハート</string>
-    <string name="revanced_shorts_double_tap_to_like_animation_entry_5">ハート(塗りつぶし)</string>
-    <string name="revanced_shorts_double_tap_to_like_animation_entry_6">非表示</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_3">いいね！(Cairo)</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_4">ハート(白色)</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_5">ハート(赤色)</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_6">無効</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_enable_shorts_time_stamp_title">タイムスタンプを表示</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_on">"タイムスタンプを表示します。
+
+注意: 開発段階の機能であるため、レイアウトが崩れる可能性があります。"</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_off">タイムスタンプを表示します。\n\n注意: 開発段階の機能であるため、レイアウトが崩れる可能性があります。</string>
     <string name="revanced_hide_shorts_toolbar_title">ツールバーを非表示</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">ツールバー(カメラ、検索などのボタン)を非表示にします。</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">ツールバー(カメラ、検索などのボタン)を非表示にします。</string>
@@ -1463,7 +1478,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
 
 以下の副作用があります:
 • HDR 画質は使用できません。
-• アクションバーの「オフライン」ボタンは表示されません。
+• ダウンロードボタンは表示されません。
 • 一時停止した動画がランダムに再開する場合があります。
 • ショートのシークバーのサムネイルが低画質になります。
 • 子供向けの動画は再生できません。"</string>

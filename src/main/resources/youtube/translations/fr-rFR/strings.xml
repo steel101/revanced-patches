@@ -5,7 +5,7 @@
     <string name="accessibility_settings_edu_opt_out_text">Vos contrôles sont modifiés car un service d\'accessibilité est activé.</string>
     <!-- Shared PreferenceScreen -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
-    <string name="revanced_extended_settings_search_title">Rechercher des paramètres</string>
+    <string name="revanced_extended_settings_search_title">Rechercher %s</string>
     <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">Options expérimentales</string>
     <string name="revanced_extended_confirm_user_dialog_title">Voulez-vous continuer ?</string>
@@ -242,7 +242,7 @@ Limitations :
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Filtre par nombre de vues</string>
     <string name="revanced_hide_video_by_view_counts_title">Masquer les vidéos recommandées par vues</string>
-    <string name="revanced_hide_video_by_view_counts_summary">Masquer les vidéos recommandées dont le nombre de vues est inférieur au nombre spécifié.</string>
+    <string name="revanced_hide_video_by_view_counts_summary">Masque les vidéos recommandées dont le nombre est inférieur au nombre de vues.\n\nProblème connu : Les vidéos avec 0 vues ne sont pas filtrés.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">Plus de vues</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">Les vidéos supérieurs à ce nombre de vues seront masquées.</string>
     <string name="revanced_hide_video_view_counts_less_than_title">Moins de vues</string>
@@ -350,6 +350,12 @@ Certains composants peuvent ne pas être masqués"</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_title">Activer le glisser-déposer</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Le glisser-déposer est activé.</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">Le glisser-déposer est désactivé.</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_title">Action sur double appui</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"L'action du double appui est activé.
+
+• Moderne 1 : Double appui pour agrandir la vidéo minimisé.
+• Moderne 2, 3 : Double appui pour fermer la vidéo minimisé."</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">L\'action du double appui est désactivé.</string>
     <string name="revanced_miniplayer_hide_expand_close_title">Masquer les boutons pour agrandir et fermer</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">Les boutons sont masqués.\n(glissez le mini lecteur pour l\'agrandir ou pour le fermer)</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">Les boutons pour agrandir et fermer sont affichés.</string>
@@ -452,9 +458,9 @@ Maintenez appuyé pour ouvrir les paramètres YouTube."</string>
 Maintenez appuyé pour ouvrir les paramètres RVX."</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Lecteur</string>
-    <string name="revanced_custom_player_overlay_opacity_title">Personnaliser l\'opacité du lecteur</string>
+    <string name="revanced_custom_player_overlay_opacity_title">Personnaliser l\'opacité du voile du lecteur</string>
     <string name="revanced_custom_player_overlay_opacity_summary">Valeur d\'opacité entre 0 et 100, 0 étant complètement transparent.</string>
-    <string name="revanced_custom_player_overlay_opacity_invalid_toast">L\'opacité du lecteur doit être entre 0-100. Valeur réinitialisée par défaut.</string>
+    <string name="revanced_custom_player_overlay_opacity_invalid_toast">L\'opacité du voile du lecteur doit être entre 0-100. Valeur réinitialisée par défaut.</string>
     <string name="revanced_disable_auto_player_popup_panels_title">Fenêtres pop-up du lecteur automatique</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_on">Les fenêtres pop-up du lecteur automatique sont désactivées.</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_off">Les fenêtres pop-up du lecteur automatique sont activés.</string>
@@ -473,6 +479,9 @@ Note :
     <string name="revanced_hide_crowdfunding_box_title">Masquer la boîte de financement participatif</string>
     <string name="revanced_hide_crowdfunding_box_summary_on">Les boîtes de dons sont masqués.</string>
     <string name="revanced_hide_crowdfunding_box_summary_off">La boîte de dons est affichée</string>
+    <string name="revanced_hide_double_tap_overlay_filter_title">Masquer le voile sombre lors du double appuie</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_on">Le filtre de superposition du double appui est masqué.</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_off">Le voile sombre lors du double appuie est affiché.</string>
     <string name="revanced_hide_end_screen_cards_title">Masquer les cartes d\'écran de fin</string>
     <string name="revanced_hide_end_screen_cards_summary_on">Les vidéos suggérées à la fin d\'une vidéo sont masquées</string>
     <string name="revanced_hide_end_screen_cards_summary_off">Les vidéos suggérées à la fin d\'une vidéo sont affichées</string>
@@ -1007,14 +1016,19 @@ Effet secondaire : Les fiches officielles dans les résultats de recherche sont 
     <string name="revanced_hide_shorts_play_pause_button_background_title">Masquer fond du bouton Lecture &amp; Pause</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_on">Le fond du bouton est masqué.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_off">Le fond du bouton est affiché.</string>
-    <string name="revanced_shorts_double_tap_to_like_animation_title">Animation lors du double appui</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_title">Animation du double appui</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_1">Original</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_2">Pouce en l\'air</string>
-    <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Cairo</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Pouce en l\'air (Cairo)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_4">Cœur</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Cœur (Teinte)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Masqué</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_enable_shorts_time_stamp_title">Activer l\'horodatage</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_on">"L'horodatage est activé.
+
+Problème connu : Comme il s'agit d'une fonctionnalité en cours de développement par Google, la mise en page peut-être incorrecte."</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_off">L\'horodatage est désactivé.</string>
     <string name="revanced_hide_shorts_toolbar_title">Masquer la barre d\'outils</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">La barre d\'outils est masqué.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">La barre d\'outils est affiché.</string>
