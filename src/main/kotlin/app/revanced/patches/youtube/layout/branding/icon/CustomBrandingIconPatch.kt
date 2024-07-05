@@ -119,7 +119,7 @@ object CustomBrandingIconPatch : BaseResourcePatch(
 
     private val RestoreOldSplashAnimation by booleanPatchOption(
         key = "RestoreOldSplashAnimation",
-        default = false,
+        default = true,
         title = "Restore old splash animation",
         description = "Restores old style splash animation.",
         required = true
