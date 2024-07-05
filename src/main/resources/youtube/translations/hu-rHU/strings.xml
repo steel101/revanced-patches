@@ -344,15 +344,15 @@ Előfordulhat, hogy egyes komponensek nincsenek elrejtve."</string>
     <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
     <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
     <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_title">Fogd és vidd engedélyezése</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">A Fogd és vidd engedélyezve.</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">A Fogd és vidd letiltva.</string>
     <string name="revanced_miniplayer_enable_double_tap_action_title">Dupla koppintás művelet</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"A dupla koppintás művelet engedélyezve.
 
 - Modern 1: A minimalizált videót nagyobb méretűre allítja.
 - Modern 2, 3: A minimalizált videót bezárja."</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_off">Dupla koppintás művelet letiltva.</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_title">Fogd és vidd engedélyezése</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">A Fogd és vidd engedélyezve.</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">A Fogd és vidd letiltva.</string>
     <string name="revanced_miniplayer_hide_expand_close_title">Kibontás és bezárás gombok elrejtése</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">A gombok elrejtve.\n(csúsztasd a minilejátszót a kibontáshoz vagy bezáráshoz)</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">A kibontás és bezárás gombok láthatóak.</string>
@@ -1076,7 +1076,7 @@ Megjegyzés: Ezzel a képernyőterület méretét is megváltoztatja, ahol érz�
     <string name="revanced_enable_swipe_to_switch_video_title">Engedélyezze a csúsztatással videó váltást teljes képernyőn</string>
     <string name="revanced_enable_swipe_to_switch_video_summary_on">A fel / le csúsztatással a következő / előző videó lejátszásra kerül.</string>
     <string name="revanced_enable_swipe_to_switch_video_summary_off">A fel / le csúsztatással a következő / előző videó nem kerül lejátszásra.</string>
-    <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Autó</string>
+    <string name="revanced_swipe_lowest_value_auto_brightness_overlay_text">Automatikus</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Videó</string>
     <string name="revanced_default_playback_speed_title">Alapértelmezett lejátszási sebesség</string>

@@ -81,6 +81,10 @@ Pulsa aquí para saber más sobre DeArrow."</string>
     <string name="revanced_alt_thumbnail_stills_time_entry_3">Final del vídeo</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow temporalmente no disponible. (código de estado: %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow temporalmente no disponible.</string>
+    <string name="revanced_alt_thumbnail_use_alternative_domain_title">Utilizar dominio alternativo para imágenes</string>
+    <string name="revanced_alt_thumbnail_use_alternative_domain_summary">Reemplaza el dominio que está bloqueado en algunas regiones para que se puedan recibir las miniaturas de vídeo, avatares de canales, imágenes de publicaciones de la comunidad, etc.</string>
+    <string name="revanced_alt_thumbnail_alternative_domain_title">Dominio alternativo</string>
+    <string name="revanced_alt_thumbnail_alternative_domain_summary">El dominio del que se obtendrán las imágenes.\nNota: Introduzca solo el nombre del dominio, es decir, sin el prefijo \"https\:\/\/\".</string>
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Feed</string>
     <string name="revanced_hide_album_card_title">Ocultar tarjetas de álbum</string>
@@ -350,15 +354,15 @@ Algunos componentes pueden no estar ocultos."</string>
     <string name="revanced_miniplayer_type_entry_4">Moderno 1</string>
     <string name="revanced_miniplayer_type_entry_5">Moderno 2</string>
     <string name="revanced_miniplayer_type_entry_6">Moderno 3</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_title">Activar arrastrar y soltar</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Arrastrar y soltar está activado.</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">Arrastrar y soltar está desactivado.</string>
     <string name="revanced_miniplayer_enable_double_tap_action_title">Acción de doble toque</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"La acción de doble toque está activada.
 
 • Moderno 1: tocar dos veces para cambiar el vídeo minimizado a un tamaño mayor.
 • Moderno 2, 3: tocar dos veces para cerrar el vídeo minimizado."</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_off">La acción de doble toque está desactivada.</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_title">Activar arrastrar y soltar</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Arrastrar y soltar está activado.</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">Arrastrar y soltar está desactivado.</string>
     <string name="revanced_miniplayer_hide_expand_close_title">Ocultar botones de expandir y cerrar</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">Los botones están ocultos.\n(pasa el dedo por el minirreproductor para ampliarlo o cerrarlo)</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">Los botones de expandir y cerrar están visibles.</string>
@@ -1033,6 +1037,11 @@ Limitación: las cabeceras oficiales en los resultados de búsqueda estarán ocu
 
 Problema conocido: Al tratarse de una función en fase de desarrollo por parte de Google, el diseño puede estar roto."</string>
     <string name="revanced_enable_shorts_time_stamp_summary_off">La marca de tiempo está desactivada.</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_title">Acción de pulsación larga en marca de tiempo</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_summary">Mantén pulsada la marca de tiempo para cambiar el estado de repetición de los Shorts.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_title">Margen inferior del panel meta</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_summary">Configura el espaciado desde la barra de progreso al panel meta, entre 0-64.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">El margen inferior del panel meta debe estar entre 0-64. Restablezca a los valores predeterminados.</string>
     <string name="revanced_hide_shorts_toolbar_title">Ocultar barra de herramientas</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">La barra de herramientas está oculta.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">La barra de herramientas está visible.</string>

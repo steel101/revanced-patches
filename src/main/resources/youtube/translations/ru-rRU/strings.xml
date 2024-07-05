@@ -86,8 +86,6 @@
     <string name="revanced_alt_thumbnail_use_alternative_domain_summary">Заменяет домен, заблокированный в некоторых регионах, чтобы можно было получать миниатюры видео, аватары каналов, изображения постов сообщества и т.д.</string>
     <string name="revanced_alt_thumbnail_alternative_domain_title">Альтернативный домен</string>
     <string name="revanced_alt_thumbnail_alternative_domain_summary">Домен для получения картинок.\nВажно: Вводите только название домена без префикса \"https\:\/\/\".</string>
-
-
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Лента</string>
     <string name="revanced_hide_album_card_title">Карточки альбомов</string>
@@ -367,15 +365,15 @@ Shorts
     <string name="revanced_miniplayer_type_entry_4">Современный 1</string>
     <string name="revanced_miniplayer_type_entry_5">Современный 2</string>
     <string name="revanced_miniplayer_type_entry_6">Современный 3</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_title">Перетаскивание миниплеера</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Перетаскивание миниплеера включено.</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">Перетаскивание миниплеера отключено.</string>
     <string name="revanced_miniplayer_enable_double_tap_action_title">Действие двойного нажатия</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"Действие двойного нажатия включено.
 
-Плеер \"Современный 1\" - изменяет размер уменьшенное видео.
+Плеер \"Современный 1\" - изменяет размер уменьшенного видео.
 Плеер \"Современный 2, 3\" - закрывает уменьшенное видео."</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_off">Действие двойного нажатия отключено.</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_title">Перетаскивание мини-плеера</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Перетаскивание мини-плеера включено.</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">Перетаскивание мини-плеера отключено.</string>
     <string name="revanced_miniplayer_hide_expand_close_title">Кнопки \"Развернуть\" и \"Закрыть\"</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">Кнопки скрыты.
 (развернуть или закрыть мини-плеер жестом)</string>
@@ -585,11 +583,11 @@ Shorts
     <string name="revanced_bypass_ambient_mode_restrictions_summary_on">Окружающая подсветка в режиме экономии заряда батареи включена.</string>
     <string name="revanced_bypass_ambient_mode_restrictions_summary_off">Окружающая подсветка в режиме экономии заряда батареи отключена.</string>
     <string name="revanced_disable_ambient_mode_title">Отключить окружающую подсветку</string>
-    <string name="revanced_disable_ambient_mode_summary_on">Фоновый режим отключен.</string>
-    <string name="revanced_disable_ambient_mode_summary_off">Фоновый режим включен.</string>
+    <string name="revanced_disable_ambient_mode_summary_on">Окружающая подсветка отключена.</string>
+    <string name="revanced_disable_ambient_mode_summary_off">Окружающая подсветка включена.</string>
     <string name="revanced_disable_ambient_mode_in_fullscreen_title">Отключить окружающую подсветку в полноэкранном режиме</string>
-    <string name="revanced_disable_ambient_mode_in_fullscreen_summary_on">Фоновый режим в полном экране отключен.</string>
-    <string name="revanced_disable_ambient_mode_in_fullscreen_summary_off">Фоновый режим в полном экране включен.</string>
+    <string name="revanced_disable_ambient_mode_in_fullscreen_summary_on">Окружающая подсветка в полном экране отключена.</string>
+    <string name="revanced_disable_ambient_mode_in_fullscreen_summary_off">Окружающая подсветка в полном экране включена.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Channel bar -->
     <string name="revanced_preference_screen_channel_bar_title">Панель канала</string>
     <string name="revanced_preference_screen_channel_bar_summary">Настройка компонентов в панели канала под видео.</string>
@@ -888,12 +886,12 @@ Shorts
     <string name="revanced_restore_old_seekbar_thumbnails_title">Старые миниатюры шкалы воспроизведения</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_on">Миниатюры отображаются над шкалой воспроизведения.</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_off">Миниатюры отображаются в полноэкранном режиме.</string>
-    <string name="revanced_enable_cairo_seekbar_title">Тема Каир прогрессбара</string>
-    <string name="revanced_enable_cairo_seekbar_summary_on">"Тема Каир прогрессбара включена.
+    <string name="revanced_enable_cairo_seekbar_title">Тема Каир шкалы воспроизведения</string>
+    <string name="revanced_enable_cairo_seekbar_summary_on">"Тема Каир шкалы воспроизведения включена.
 
 Дополнительно:
 Тема также применяется к точкам уведомлений."</string>
-    <string name="revanced_enable_cairo_seekbar_summary_off">Тема Каир прогрессбара отключена.</string>
+    <string name="revanced_enable_cairo_seekbar_summary_off">Тема Каир шкалы воспроизведения отключена.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description -->
     <string name="revanced_preference_screen_video_description_title">Описание видео</string>
     <string name="revanced_preference_screen_video_description_summary">Скрыть или отобразить компоненты описания видео.</string>
@@ -1057,6 +1055,13 @@ Shorts
 
 Проблема: функция на этапе разработки Google, внешний вид может быть нарушен."</string>
     <string name="revanced_enable_shorts_time_stamp_summary_off">Метка времени отключена.</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_title">Длительное нажатие метки времени</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_summary">Нажать и удерживать метку времени - изменить статус повтора Shorts.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_title">Нижнее поле отступа \"мета\" панели</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_summary">Отступ от шкалы воспроизведения до \"мета\" панели.
+Диапазон от 0 до 64.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">Нижнее поле отступа \"мета\" панели может быть только в диапазоне от 0 до 64.
+Сброс по умолчанию.</string>
     <string name="revanced_hide_shorts_toolbar_title">Панель инструментов</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">Панель инструментов скрыта.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">Панель инструментов отображена.</string>

@@ -17,8 +17,8 @@ object TranslationsPatch : BaseResourcePatch(
 ) {
     // Array of supported translations, each represented by its language code.
     private val TRANSLATIONS = arrayOf(
-        "ar", "el-rGR", "es-rES", "fr-rFR", "hu-rHU", "it-rIT", "ja-rJP", "ko-rKR", "pl-rPL",
-        "pt-rBR", "ru-rRU", "tr-rTR", "uk-rUA", "vi-rVN", "zh-rCN", "zh-rTW"
+        "ar", "el-rGR", "es-rES", "de-rDE", "fr-rFR", "hu-rHU", "it-rIT", "ja-rJP", "ko-rKR",
+        "pl-rPL", "pt-rBR", "ru-rRU", "tr-rTR", "uk-rUA", "vi-rVN", "zh-rCN", "zh-rTW"
     )
 
     private var CustomTranslations by stringPatchOption(

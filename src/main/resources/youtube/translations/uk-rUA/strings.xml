@@ -79,6 +79,10 @@
     <string name="revanced_alt_thumbnail_stills_time_entry_3">Кінець відео</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow тимчасово недоступний. (код статусу: %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow тимчасово недоступний.</string>
+    <string name="revanced_alt_thumbnail_use_alternative_domain_title">Використовувати альтернативний домен для зображень</string>
+    <string name="revanced_alt_thumbnail_use_alternative_domain_summary">Замінює домен, заблокований у деяких регіонах, щоб отримати мініатюри відео, аватари каналів, зображення публікацій спільноти, тощо.</string>
+    <string name="revanced_alt_thumbnail_alternative_domain_title">Альтернативний домен</string>
+    <string name="revanced_alt_thumbnail_alternative_domain_summary">Домен для отримання зображень.\nЗауваження: Вводьте лише ім\'я домену, тобто без префікса \"https\:\/\/\".</string>
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Стрічка</string>
     <string name="revanced_hide_album_card_title">Приховати картки альбому</string>
@@ -242,7 +246,7 @@
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Фільтр за кількістю переглядів</string>
     <string name="revanced_hide_video_by_view_counts_title">Приховати рекомендовані відео за переглядами</string>
-    <string name="revanced_hide_video_by_view_counts_summary">Приховати рекомендовані відео з меншою за вказану кількість переглядів.\n\nВдома проблема: Відео з 0 переглядами не фільтруються.</string>
+    <string name="revanced_hide_video_by_view_counts_summary">Приховати рекомендовані відео з меншою за вказану кількість переглядів.\n\nВідома проблема: Відео з 0 переглядами не фільтруються.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">Більші за переглядами</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">Відео з більше ніж ця кількість переглядів приховуватимуться.</string>
     <string name="revanced_hide_video_view_counts_less_than_title">Менші за переглядами</string>
@@ -347,15 +351,15 @@
     <string name="revanced_miniplayer_type_entry_4">Новітній 1</string>
     <string name="revanced_miniplayer_type_entry_5">Новітній 2</string>
     <string name="revanced_miniplayer_type_entry_6">Новітній 3</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_title">Увімкнути перетягування</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Перетягування увімкнено.</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">Перетягування вимкнено.</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_title">Дія подвійного натискання</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_title">Увімкнути дію подвійного натискання</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"Дію подвійного натискання увімкнено.
 
 • Новітній 1: Подвійне натискання для зміни мінімізованого відео до більшого розміру.
 • Новітній 2, 3: Подвійне натискання для закриття мінімізованого відео."</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_off">Дію подвійного натискання вимкнено.</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_title">Увімкнути перетягування</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Перетягування увімкнено.</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">Перетягування вимкнено.</string>
     <string name="revanced_miniplayer_hide_expand_close_title">Приховати кнопки розгортання і закриття</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">Кнопки приховано.\n(проведіть по мініплеєру, щоб розгорнути чи закрити)</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">Кнопки розгортання і закриття показується.</string>
@@ -450,7 +454,7 @@
     <string name="revanced_hide_voice_search_button_summary_on">Кнопку голосового пошуку приховано.</string>
     <string name="revanced_hide_voice_search_button_summary_off">Кнопку голосового пошуку показується.</string>
     <string name="revanced_replace_toolbar_create_button_title">Замінити кнопку створення</string>
-    <string name="revanced_replace_toolbar_create_button_summary">Замінюється кнопку створення кнопкою налаштувань.</string>
+    <string name="revanced_replace_toolbar_create_button_summary">Замінює кнопку створення кнопкою налаштувань.</string>
     <string name="revanced_replace_toolbar_create_button_type_title">Тип дії для призначення кнопці</string>
     <string name="revanced_replace_toolbar_create_button_type_summary_on">"Натисніть, щоб відкрити Розширені налаштування.
 Натисніть і отримуйте, щоб відкрити налаштування YouTube."</string>
@@ -737,7 +741,7 @@
 • Натиснуто на мітку часу у коментарях.
 • Відео розпочалося."</string>
     <string name="revanced_keep_landscape_mode_title">Зберігати ландшафтний режим</string>
-    <string name="revanced_keep_landscape_mode_summary">Зберігається ландшафтний режим під час вимкнення та ввімкнення екрана у повноекранному режимі.</string>
+    <string name="revanced_keep_landscape_mode_summary">Зберігає ландшафтний режим під час вимкнення та ввімкнення екрана у повноекранному режимі.</string>
     <string name="revanced_keep_landscape_mode_timeout_title">Скільки зберігати ландшафтний режим</string>
     <string name="revanced_keep_landscape_mode_timeout_summary">Кількість мілісекунд примусового ландшафтного режиму.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
@@ -1028,8 +1032,15 @@
     <string name="revanced_enable_shorts_time_stamp_title">Увімкнути мітку часу</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"Мітку часу увімкнено.
 
-Відомо проблема: Оскільки ця функція на стадії розробки Google, макет може бути порушений."</string>
+Обмеження:
+Це налаштування вмикає не тільки мітку часу, але й дозволяє користувачам приховати інтерфейс, натиснувши на тло плеєра.
+• Оскільки ця функція на стадії розробки Google, макет може бути порушений."</string>
     <string name="revanced_enable_shorts_time_stamp_summary_off">Мітку часу вимкнено.</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_title">Дія довго натискання на мітку часу</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_summary">Натисніть і утримуйте мітку часу для зміни станів повторення Shorts.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_title">Нижній відступ метапанелі</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_summary">Налаштуйте відстань від панелі прогресу до метапанелі, діапазон 0-64.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">Нижній відступ метапанелі повинен бути в межах 0-64. Скинуто.</string>
     <string name="revanced_hide_shorts_toolbar_title">Приховати панель інструментів</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">Панель інструментів приховано.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">Панель інструментів показується.</string>
@@ -1374,7 +1385,7 @@
     <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"Оптимізацію акумулятора GmsCore слід вимкнути, щоб запобігти виникненню проблем.\n\nНатисніть кнопку продовжити й вимкніть оптимізацію акумулятора."</string>
     <string name="gms_core_dialog_continue_text">Продовжити</string>
     <string name="revanced_sanitize_sharing_links_title">Обробляти поширення посилань</string>
-    <string name="revanced_sanitize_sharing_links_summary">Вилучаються параметри запиту відстеження з посилань під час поширення посилань.</string>
+    <string name="revanced_sanitize_sharing_links_summary">Вилучає параметри запиту відстеження з посилань під час поширення посилань.</string>
     <string name="revanced_disable_quic_protocol_title">Вимкнути протокол QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Вимкнути протокол CronetEngine's QUIC"</string>
     <string name="revanced_enable_opus_codec_title">Увімкнути кодек OPUS</string>

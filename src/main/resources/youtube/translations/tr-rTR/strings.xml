@@ -340,15 +340,15 @@ Daha sonra kapatılırsa kullanıcı arayüzü hatalarını önlemek için uygul
     <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
     <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
     <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_title">Sürükle ve Bırak\'ı etkinleştir</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Sürükle ve Bırak etkin.</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">Sürükle ve Burak devre dışı.</string>
     <string name="revanced_miniplayer_enable_double_tap_action_title">Çift tıklama eylemi</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"Çift dokunma eylemi etkin.
 
 • Modern 1: Küçültülmüş videoyu daha büyük bir boyuta değiştirmek için iki kez dokunun.
 • Modern 2, 3: Küçültülmüş videoyu kapatmak için iki kez dokunun."</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_off">Çift tıklama eylemi devre dışı.</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_title">Sürükle ve Bırak\'ı etkinleştir</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Sürükle ve Bırak etkin.</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">Sürükle ve Burak devre dışı.</string>
     <string name="revanced_miniplayer_hide_expand_close_title">Genişlet ve kapat butonlarını gizle</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">Butonlar gizlendi. \n(mini oynatıcıyı kaydırarak genişletin veya kapatın)</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">Genişletme ve kapatma butonları gösteriliyor.</string>

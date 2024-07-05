@@ -81,6 +81,10 @@ Toque aqui para saber mais sobre o DeArrow."</string>
     <string name="revanced_alt_thumbnail_stills_time_entry_3">Fim do vídeo</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow temporariamente indisponível. (código de status: %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow temporariamente indisponível.</string>
+    <string name="revanced_alt_thumbnail_use_alternative_domain_title">Usar domínio alternativo para imagens</string>
+    <string name="revanced_alt_thumbnail_use_alternative_domain_summary">Substitui o domínio que está bloqueado em algumas regiões para que as miniaturas de vídeo, avatares do canal, imagens do post da comunidade, etc. possam ser recebidas.</string>
+    <string name="revanced_alt_thumbnail_alternative_domain_title">Domínio alternativo</string>
+    <string name="revanced_alt_thumbnail_alternative_domain_summary">O domínio para buscar imagens de.\nNota: Digite apenas o nome do domínio, ou seja, sem o prefixo \"https\:\/\/\".</string>
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Feed</string>
     <string name="revanced_hide_album_card_title">Ocultar cartões de álbum</string>
@@ -350,6 +354,12 @@ Alguns componentes podem não ser ocultos"</string>
     <string name="revanced_miniplayer_type_entry_4">Moderno 1</string>
     <string name="revanced_miniplayer_type_entry_5">Moderno 2</string>
     <string name="revanced_miniplayer_type_entry_6">Moderno 3</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_title">Ação de toque duplo</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"A ação de toque duplo está ativada.
+
+• Moderno 1: Toque duas vezes para alterar o vídeo minimizado para um tamanho maior.
+• Moderno 2, 3: Toque duas vezes para fechar o vídeo minimizado."</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">A ação de toque duplo está desativada.</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_title">Ativar arrastar e soltar</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Arrastar e soltar está ativado.</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">Arrastar e soltar está desativado.</string>
@@ -1023,6 +1033,16 @@ Limitação: Os cabeçalhos oficiais nos resultados da pesquisa serão ocultados
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Coração (Matiz)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Oculto</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_enable_shorts_time_stamp_title">Ativar marcação de tempo</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_on">"A marcação de tempo está ativada.
+
+Problema conhecido: como se trata de um recurso em fase de desenvolvimento pelo Google, o layout pode estar corrompido."</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_off">A marcação de tempo está desativada.</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_title">Ação de toque longo na marcação de tempo</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_summary">Pressione e segure a marcação de tempo para alterar o status de repetição do Shorts.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_title">Margem inferior do painel meta</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_summary">Configure o espaçamento da barra de busca para o painel meta, entre 0-64.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">Margem inferior do painel meta deve estar entre 0-64. Voltar aos valores padrão.</string>
     <string name="revanced_hide_shorts_toolbar_title">Ocultar barra de ferramentas</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">A barra de ferramentas está oculta.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">A barra de ferramentas será exibida.</string>

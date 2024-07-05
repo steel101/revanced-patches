@@ -81,6 +81,10 @@
     <string name="revanced_alt_thumbnail_stills_time_entry_3">影片結尾</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow 暫時不可用（狀態碼：%s）</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow 暫時不可用</string>
+    <string name="revanced_alt_thumbnail_use_alternative_domain_title">圖像使用替代網域</string>
+    <string name="revanced_alt_thumbnail_use_alternative_domain_summary">替換某些地區被封鎖的域名，以便可以接收影片縮圖、頻道頭像、社群貼文圖片等。</string>
+    <string name="revanced_alt_thumbnail_alternative_domain_title">替代域名</string>
+    <string name="revanced_alt_thumbnail_alternative_domain_summary">從中取得圖像網域。\n注意：只輸入域名, i.e., 不含 \"https\:\/\/\" 前綴。</string>
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">首頁</string>
     <string name="revanced_hide_album_card_title">隱藏專輯卡片</string>
@@ -349,6 +353,12 @@
     <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
     <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
     <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_title">雙擊操作</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"雙擊操作已啟用。
+
+ • Modern 1：雙擊將最小化影片變更為更大的尺寸。
+ • Modern 2, 3：雙擊可關閉最小化影片。"</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">雙擊操作已停用。</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_title">啟用拖曳。</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">拖曳已啟用。</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">拖曳已停用。</string>
@@ -475,6 +485,9 @@
     <string name="revanced_hide_crowdfunding_box_title">隱藏募款活動</string>
     <string name="revanced_hide_crowdfunding_box_summary_on">募款活動已隱藏</string>
     <string name="revanced_hide_crowdfunding_box_summary_off">募資已顯示</string>
+    <string name="revanced_hide_double_tap_overlay_filter_title">隱藏雙擊覆蓋過濾器</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_on">雙擊覆蓋過濾器已隱藏。</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary_off">雙擊覆蓋過濾器已顯示。</string>
     <string name="revanced_hide_end_screen_cards_title">隱藏結束界面卡片</string>
     <string name="revanced_hide_end_screen_cards_summary_on">片尾資訊卡已隱藏</string>
     <string name="revanced_hide_end_screen_cards_summary_off">片尾資訊卡已顯示</string>
@@ -1016,6 +1029,14 @@
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">愛心 (著色)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">隱藏</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_enable_shorts_time_stamp_title">啟用時間戳</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_on">"已知問題：由於這是 Google 開發階段的功能，因此佈局可能會被破壞。"</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_off">時間戳已停用。</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_title">長按時間戳記</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_summary">按住時間戳記可變更短片重複狀態。</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_title">面板下邊距</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_summary">配置從搜尋欄到面板的間距，範圍為 0-64。</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">面板底部邊距必須介於 0-64 之間。 重設為預設值。</string>
     <string name="revanced_hide_shorts_toolbar_title">隱藏工具欄</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">工具欄已隱藏</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">工具欄已顯示</string>

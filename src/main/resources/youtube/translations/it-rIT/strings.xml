@@ -348,6 +348,12 @@ Alcuni componenti potrebbero non essere nascosti"</string>
     <string name="revanced_miniplayer_type_entry_4">Moderno 1</string>
     <string name="revanced_miniplayer_type_entry_5">Moderno 2</string>
     <string name="revanced_miniplayer_type_entry_6">Moderno 3</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_title">Azione doppio tocco</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"L'azione a doppio tocco è abilitata.
+
+• Moderno 1: Doppio tocco per cambiare il video minimizzato a una dimensione maggiore.
+• Moderno 2, 3: Doppio tocco per chiudere il video minimizzato."</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">Azione a doppio tocco è disabilitata.</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_title">Abilita trascinamento e rilascio</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Trascinamento e rilascio è abilitato.</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">Trascinamento e rilascio è disabilitato.</string>
@@ -1021,6 +1027,11 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Cuore (tinta)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Nascosto</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_enable_shorts_time_stamp_title">Abilita timestamp</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_on">"Timestamp è abilitato.
+
+Problema noto: Poiché questa è una caratteristica nella fase di sviluppo di Google, il layout potrebbe essere rotto."</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_off">Timestamp è disabilitato.</string>
     <string name="revanced_hide_shorts_toolbar_title">Nascondi la barra degli strumenti</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">La barra degli strumenti è nascosta.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">La barra degli strumenti è mostrata.</string>

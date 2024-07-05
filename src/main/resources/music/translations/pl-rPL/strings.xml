@@ -109,7 +109,7 @@ Informacje:
     <string name="revanced_replace_flyout_menu_dismiss_queue_continue_watch_title">Kontynuuj oglądanie</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_continue_watch_summary">Podczas oglądania na YouTube kontynuuj oglądanie od aktualnego czasu.</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_watch_on_youtube_label">Oglądaj na YouTube</string>
-    <string name="revanced_replace_flyout_menu_dismiss_queue_watch_on_youtube_warning">Niepoprawne url wideo.</string>
+    <string name="revanced_replace_flyout_menu_dismiss_queue_watch_on_youtube_warning">Niepoprawne URL filmu.</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_title">Zmodyfikuj czyszczenie kolejek</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_summary">Zamienia menu od czyszczenia kolejek z menu od oglądania na YouTube.</string>
     <string name="revanced_replace_flyout_menu_report_title">Zamień przycisk od zgłaszania</string>
@@ -126,7 +126,7 @@ Informacje:
     <string name="revanced_change_start_page_entry_library">Biblioteka</string>
     <string name="revanced_change_start_page_entry_subscription">Subskrypcje</string>
     <string name="revanced_disable_auto_captions_title">Wyłącz automatyczne napisy</string>
-    <string name="revanced_disable_auto_captions_summary">Wyłącza automatycznie włączane napisy w odtwarzaczu wideo.</string>
+    <string name="revanced_disable_auto_captions_summary">Wyłącza automatycznie włączane napisy w odtwarzaczu filmów.</string>
     <string name="revanced_disable_dislike_redirection_title">Wyłącz pomijanie nielubianych piosenek</string>
     <string name="revanced_disable_dislike_redirection_summary">Wyłącza przenoszenie do następnego utworu po kliknięciu łapki w dół.</string>
     <string name="revanced_enable_landscape_mode_title">Włącz tryb pełnoekranowy</string>
@@ -233,13 +233,13 @@ Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie."</string>
     <string name="revanced_restore_old_player_layout_summary">"Przywraca układ odtwarzacza do starego wyglądu.
 Niektóre ustawienia mogą nie działać poprawnie ze starym układem odtwarzacza."</string>
     <!-- PreferenceScreen: Video -->
-    <string name="revanced_preference_screen_video_title">Wideo</string>
+    <string name="revanced_preference_screen_video_title">Filmy</string>
     <string name="revanced_custom_playback_speeds_title">Edytuj niestandardowe prędkości odtwarzania</string>
     <string name="revanced_custom_playback_speeds_summary">Skonfiguruj dostępne prędkości odtwarzania.</string>
     <string name="revanced_remember_playback_speed_last_selected_title">Zapamiętuj zmiany prędkości odtwarzania</string>
     <string name="revanced_remember_playback_speed_last_selected_summary">Zapisuje ostatnią wybraną prędkość odtwarzania.</string>
-    <string name="revanced_remember_video_quality_last_selected_title">Zapamiętuj zmiany jakości wideo</string>
-    <string name="revanced_remember_video_quality_last_selected_summary">Zapisuje ostatnią wybraną jakość wideo.</string>
+    <string name="revanced_remember_video_quality_last_selected_title">Zapamiętuj zmiany jakości filmu</string>
+    <string name="revanced_remember_video_quality_last_selected_summary">Zapisuje ostatnią wybraną jakość filmu.</string>
     <string name="revanced_custom_playback_speeds_invalid">Nieprawidłowe niestandardowe prędkości odtwarzania. Przywrócono domyślne wartości.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Nieprawidłowe niestandardowe prędkości odtwarzania. Przywrócono domyślne wartości.</string>
     <string name="revanced_remember_playback_speed_toast">Zmieniono domyślną prędkość odtwarzania na %s.</string>
@@ -249,7 +249,7 @@ Niektóre ustawienia mogą nie działać poprawnie ze starym układem odtwarzacz
     <!-- PreferenceScreen: Return YouTube Dislike -->
     <string name="revanced_preference_screen_ryd_title">Return YouTube Dislike</string>
     <string name="revanced_ryd_enabled_title">Włącz Return YouTube Dislike</string>
-    <string name="revanced_ryd_enabled_summary">Pokazuje ilość łapek w dół wideo.</string>
+    <string name="revanced_ryd_enabled_summary">Pokazuje ilość łapek w dół filmów.</string>
     <string name="revanced_ryd_dislike_percentage_title">Łapki w dół wyświetlane jako procent</string>
     <string name="revanced_ryd_dislike_percentage_summary">Zamiast ilości łapek w dół, jest wyświetlany ich procent.</string>
     <string name="revanced_ryd_compact_layout_title">Kompaktowy przycisk od łapkowania</string>
@@ -267,7 +267,7 @@ Niektóre ustawienia mogą nie działać poprawnie ze starym układem odtwarzacz
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enabled">Włącz SponsorBlock</string>
-    <string name="revanced_sb_enabled_sum">SponsorBlock to system pomijania denerwujących fragmentów w wideo na YouTube.</string>
+    <string name="revanced_sb_enabled_sum">SponsorBlock to system pomijania denerwujących fragmentów w filmach na YouTube.</string>
     <string name="revanced_sb_toast_on_connection_error">Pokaż komunikat, jeśli API jest niedostępne</string>
     <string name="revanced_sb_toast_on_connection_error_sum">Wyświetla komunikat w momencie, gdy API SponsorBlock jest niedostępne.</string>
     <string name="revanced_sb_toast_on_skip">Pokazuj komunikaty podczas automatycznego pomijania</string>
@@ -289,9 +289,9 @@ Niektóre ustawienia mogą nie działać poprawnie ze starym układem odtwarzacz
     <string name="revanced_sb_segments_outro">Karty / Napisy Końcowe</string>
     <string name="revanced_sb_segments_outro_sum">Napisy końcowe lub gdy pojawia się ekran końcowy. Nie dotyczy zakończeń zawierających informacje.</string>
     <string name="revanced_sb_segments_preview">Zapowiedź / Podsumowanie / Haczyk</string>
-    <string name="revanced_sb_segments_preview_sum">Zbiór klipów pokazujących to, co pojawi się lub co pojawiło się w tym wideo, lub innych wideo z tej serii, w którym wszystkie informacje są gdzieś powtarzane.</string>
+    <string name="revanced_sb_segments_preview_sum">Zbiór klipów pokazujących to, co pojawi się lub co pojawiło się w tym filmie, oraz innych fiilmach z tej serii, w którym wszystkie informacje są gdzieś powtarzane.</string>
     <string name="revanced_sb_segments_filler">Nietematyczny Wypełniacz / Żarty</string>
-    <string name="revanced_sb_segments_filler_sum">Segmenty nietematyczne dodawane tylko dla wypełnienia lub humor, który nie jest wymagany do zrozumienia głównej treści wideo. Nie dotyczy segmentów zawierających informacje kontekstowe lub szczegółowe.</string>
+    <string name="revanced_sb_segments_filler_sum">Segmenty nietematyczne dodawane tylko dla wypełnienia lub humor, który nie jest wymagany do zrozumienia głównej treści filmu. Nie dotyczy segmentów zawierających informacje kontekstowe lub szczegółowe.</string>
     <string name="revanced_sb_segments_nomusic">Muzyka: Sekcja Bez Muzyki</string>
     <string name="revanced_sb_segments_nomusic_sum">Do użytku jedynie w teledyskach. Sekcje teledysków, które nie są uwzględnione w innej kategorii.</string>
     <string name="revanced_sb_skipped_sponsor">Pominięto treści sponsorowane.</string>

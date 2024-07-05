@@ -350,15 +350,15 @@
     <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
     <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
     <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_title">启用拖放</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">拖放已启用</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">拖放已禁用</string>
     <string name="revanced_miniplayer_enable_double_tap_action_title">双击操作</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"双击操作已启用
 
 • Modern 1：双击可将最小化的视频更改为更大的尺寸
 • Modern 2, 3：双击可关闭最小化的视频"</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_off">双击操作已禁用</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_title">启用拖放</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">拖放已启用</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">拖放已禁用</string>
     <string name="revanced_miniplayer_hide_expand_close_title">隐藏展开和关闭按钮</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">按钮已隐藏\n(滑动迷你播放器来展开或关闭)</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">展开和关闭按钮已显示</string>

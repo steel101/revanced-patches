@@ -347,9 +347,6 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_miniplayer_type_entry_4">モダン1</string>
     <string name="revanced_miniplayer_type_entry_5">モダン2</string>
     <string name="revanced_miniplayer_type_entry_6">モダン3</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_title">ドラッグ&amp;ドロップを有効化</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">ドラッグ&amp;ドロップを有効化します。</string>
-    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">ドラッグ&amp;ドロップを有効化します。</string>
     <string name="revanced_miniplayer_enable_double_tap_action_title">ダブルタップアクション</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"ダブルタップアクションを有効化します。
 
@@ -357,6 +354,9 @@ DeArrowの詳細については、ここをタップしてください。"</stri
 ・モダン2, 3: ダブルタップで、最小化された動画を閉じます。"</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_off">ダブルタップアクションを有効化します。\n\n・モダン1: ダブルタップで、最小化された動画を大きなサイズに変更します。
 ・モダン2, 3: ダブルタップで、最小化された動画を閉じます。</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_title">ドラッグ&amp;ドロップを有効化</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">ドラッグ&amp;ドロップを有効化します。</string>
+    <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">ドラッグ&amp;ドロップを有効化します。</string>
     <string name="revanced_miniplayer_hide_expand_close_title">拡大/縮小ボタンを非表示</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_on">拡大/縮小のボタンを非表示にします。\n(ミニプレーヤーをスワイプして拡大/縮小できます) \n\n注意: YouTube v19.20.35 以降の場合、スワイプして拡大することはできません。</string>
     <string name="revanced_miniplayer_hide_expand_close_summary_off">拡大/縮小のボタンを非表示にします。\n(ミニプレーヤーをスワイプして拡大/縮小できます) \n\n注意: YouTube v19.20.35 以降の場合、スワイプして拡大することはできません。</string>
@@ -1019,7 +1019,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_shorts_double_tap_to_like_animation_entry_3">いいね！(Cairo)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_4">ハート(白色)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">ハート(赤色)</string>
-    <string name="revanced_shorts_double_tap_to_like_animation_entry_6">無効</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_6">非表示</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
     <string name="revanced_enable_shorts_time_stamp_title">タイムスタンプを表示</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"タイムスタンプを表示します。
