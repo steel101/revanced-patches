@@ -1116,8 +1116,15 @@ Side effect: Official headers in search results will be hidden."</string>
     <string name="revanced_enable_shorts_time_stamp_title">Enable timestamps</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"Timestamp is enabled.
 
-Known issue: As this is a feature in the development stage by Google, the layout may be broken."</string>
+Limitations:
+• This setting not only enables timestamps, but also allows users to hide the UI by clicking on the player background.
+• As this is a feature in the development stage by Google, the layout may be broken."</string>
     <string name="revanced_enable_shorts_time_stamp_summary_off">Timestamp is disabled.</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_title">Timestamp long press action</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_summary">Press and hold the timestamp to change the Shorts repeat status.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_title">Meta panel bottom margin</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_summary">Configure the spacing from the seekbar to the meta panel, between 0-64.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">Meta panel bottom margin must be between 0-64. Reset to default values.</string>
     <string name="revanced_hide_shorts_toolbar_title">Hide toolbar</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">Toolbar is hidden.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">Toolbar is shown.</string>
