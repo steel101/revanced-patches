@@ -117,7 +117,6 @@ object OverlayButtonsPatch : BaseResourcePatch(
                 "youtube/overlaybuttons/$iconType",
                 ResourceGroup(
                     "drawable-$dpi",
-                    "ic_fullscreen_vertical_button.png",
                     "ic_vr.png",
                     "quantum_ic_fullscreen_exit_grey600_24.png",
                     "quantum_ic_fullscreen_exit_white_24.png",
