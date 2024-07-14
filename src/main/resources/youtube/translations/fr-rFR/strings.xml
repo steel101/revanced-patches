@@ -5,7 +5,7 @@
     <string name="accessibility_settings_edu_opt_out_text">Vos contrôles sont modifiés car un service d\'accessibilité est activé.</string>
     <!-- Shared PreferenceScreen -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
-    <string name="revanced_extended_settings_search_title">Rechercher %s</string>
+    <string name="revanced_extended_settings_search_title">Rechercher sur %s</string>
     <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">Options expérimentales</string>
     <string name="revanced_extended_confirm_user_dialog_title">Voulez-vous continuer ?</string>
@@ -307,11 +307,11 @@ Cela ne contourne pas la restriction d'âge, mais le confirme automatiquement."<
     <string name="revanced_spoof_app_version_title">Falsifier la version de l\'app</string>
     <string name="revanced_spoof_app_version_summary_on">Version falsifiée</string>
     <string name="revanced_spoof_app_version_summary_off">Version non falsifiée</string>
-    <string name="revanced_spoof_app_version_user_dialog_message">"La version de l'application est falsifié et sera remplacée par une ancienne version de YouTube.
+    <string name="revanced_spoof_app_version_user_dialog_message">"La version de l'application sera falsifiée par une ancienne version de YouTube.
 
-L'interface et les fonctionnalités de l'application seront modifiées, mais des effets secondaires inconnus peuvent se produire.
+Cela modifie l'interface et les fonctionnalités de l'application, mais des effets inconnus peuvent se produire.
 
-Si l'option est désactivée ultérieurement, il est recommandé d'effacer les données de l'application pour éviter les bugs d'interface."</string>
+Si désactivé ultérieurement, il est recommandé d'effacer les données de l'application pour éviter les bugs d'interface."</string>
     <string name="revanced_spoof_app_version_target_title">Saisir la version à falsifier</string>
     <string name="revanced_spoof_app_version_target_summary">Saisissez la version de l\'application à falsifier.</string>
     <string name="revanced_spoof_app_version_target_entry_title">Choisir la version à falsifier</string>
@@ -356,8 +356,8 @@ Certains composants peuvent ne pas être masqués."</string>
     <string name="revanced_miniplayer_enable_double_tap_action_title">Activer l\'action du double appui</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"L'action du double appui est activé.
 
-• Moderne 1 : Double appui pour agrandir la vidéo minimisé.
-• Moderne 2, 3 : Double appui pour fermer la vidéo minimisé."</string>
+• Double-appui pour agrandir la vidéo minimisé.
+• Double-appui une seconde fois pour revenir à la taille d'origine."</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_off">L\'action du double appui est désactivé.</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_title">Activer le glisser-déposer</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Le glisser-déposer est activé.</string>
@@ -525,8 +525,8 @@ La lecture automatique peut être modifiée dans les paramètres de YouTube :
 'Paramètres → Lecture automatique → Lecture automatique de la vidéo suivante'"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">Les suggestions de vidéos à la fin sont affichés.</string>
     <string name="revanced_skip_autoplay_countdown_title">Ignorer le compteur lecture auto</string>
-    <string name="revanced_skip_autoplay_countdown_summary_on">Si la lecture automatique est activée, la vidéo suivante sera lue sans prendre en compte le compte à rebours.</string>
-    <string name="revanced_skip_autoplay_countdown_summary_off">Si la lecture automatique est activée, la prochaine vidéo sera lue après la fin du compte à rebours.</string>
+    <string name="revanced_skip_autoplay_countdown_summary_on">Si la lecture automatique est activée, la vidéo suivante sera lue immédiatement.</string>
+    <string name="revanced_skip_autoplay_countdown_summary_off">Si la lecture automatique est activée, la vidéo suivante sera lue après la fin du compte à rebours.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">Boutons sous la vidéo</string>
     <string name="revanced_preference_screen_action_buttons_summary">Masque ou affiche les boutons sous les vidéos.</string>
@@ -596,7 +596,7 @@ La lecture automatique peut être modifiée dans les paramètres de YouTube :
     <string name="revanced_hide_comments_section_title">Masquer la section des commentaires</string>
     <string name="revanced_hide_comments_section_summary_on">La section des commentaires est masquée.</string>
     <string name="revanced_hide_comments_section_summary_off">La section des commentaires est affichée.</string>
-    <string name="revanced_hide_comments_section_in_home_feed_title">Masquer la section commentaires sur la page d\'accueil</string>
+    <string name="revanced_hide_comments_section_in_home_feed_title">Masquer la section commentaires dans le fil accueil</string>
     <string name="revanced_hide_comments_section_in_home_feed_summary_on">La section commentaires à la page d\'accueil est masqué.</string>
     <string name="revanced_hide_comments_section_in_home_feed_summary_off">La section commentaires à la page d\'accueil est affiché.</string>
     <string name="revanced_hide_preview_comment_title">Masquer l\'aperçu des commentaires</string>
@@ -1022,7 +1022,7 @@ Effet secondaire : Les fiches officielles dans les résultats de recherche sont 
     <string name="revanced_hide_shorts_play_pause_button_background_title">Masquer fond du bouton Lecture &amp; Pause</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_on">Le fond du bouton est masqué.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_off">Le fond du bouton est affiché.</string>
-    <string name="revanced_shorts_double_tap_to_like_animation_title">Animation du double appui</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_title">Animation lors du double appui</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_1">Original</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_2">Pouce en l\'air</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Pouce en l\'air (Cairo)</string>
@@ -1202,7 +1202,7 @@ Limitation : les \"Je n'aime pas\" ne seront pas affichées si vous n'êtes pas 
     <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: Change segment behavior -->
     <string name="revanced_sb_diff_segments">Modifier le fonctionnement des segments</string>
     <string name="revanced_sb_segments_sponsor">Sponsor</string>
-    <string name="revanced_sb_segments_sponsor_sum">Partenariat rémunéré, parrainage rémunérés et publicités directes. Ne concerne pas l\'autopromotion ou les mentions gratuites pour des causes / créateurs / sites web / produits qu\'ils apprécient.</string>
+    <string name="revanced_sb_segments_sponsor_sum">Promotion rémunérée, parrainage rémunérés et publicités directes. Ne concerne pas l\'autopromotion ou les mentions gratuites pour des causes / créateurs / sites web / produits qu\'ils apprécient.</string>
     <string name="revanced_sb_segments_selfpromo">Auto-promotion / Non Rémunérée</string>
     <string name="revanced_sb_segments_selfpromo_sum">Similaire à \'Sponsor\', à l\'exception de la promotion non rémunérée ou l\'autopromotion. Comprend les sections produits, les dons, et des informations sur les partenaires avec lesquels ils ont collaboré.</string>
     <string name="revanced_sb_segments_interaction">Rappel d\'interaction (S\'abonner)</string>
@@ -1349,7 +1349,7 @@ Limitation : les \"Je n'aime pas\" ne seront pas affichées si vous n'êtes pas 
     <string name="revanced_sb_stats_reputation">Votre réputation est de &lt;b&gt;%.2f&lt;/b&gt;</string>
     <string name="revanced_sb_stats_submissions">Vous avez créé &lt;b&gt;%s&lt;/b&gt; segment(s)</string>
     <string name="revanced_sb_stats_saved_zero">Classement SponsorBlock</string>
-    <string name="revanced_sb_stats_saved">Les gens ont passé &lt;b&gt;%s&lt;/b&gt; segments grâce à vous</string>
+    <string name="revanced_sb_stats_saved">Vous avez sauvé les utilisateurs de &lt;b&gt;%s&lt;/b&gt; segments</string>
     <string name="revanced_sb_stats_saved_sum_zero">Appuyez ici pour voir les statistiques globales et les meilleurs contributeurs.</string>
     <string name="revanced_sb_stats_saved_sum">Cela représente &lt;b&gt;%s&lt;/b&gt; de leur vie.&lt;br&gt;Appuyez ici pour voir le classement.</string>
     <string name="revanced_sb_stats_self_saved">Vous avez passé &lt;b&gt;%s&lt;/b&gt; segment(s)</string>

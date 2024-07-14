@@ -217,6 +217,8 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_hide_comment_channel_guidelines_summary">Ẩn các nhãn nguyên tắc (Nguyên tắc cộng đồng, Nguyên tắc của kênh,...) trong phần Bình luận.</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">Ẩn dấu thời gian và biểu tượng cảm xúc</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Ẩn dấu thời gian và biểu tượng cảm xúc khi đang nhập bình luận.</string>
+    <string name="revanced_hide_double_tap_overlay_filter_title">Ẩn bộ lọc lớp phủ nhấn đúp</string>
+    <string name="revanced_hide_double_tap_overlay_filter_summary">Ẩn lớp phủ tối xuất hiện khi chạm đúp để tìm kiếm.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Ẩn nút Chia sẻ trong trình phát toàn màn hình</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Ẩn nút Chia sẻ trong trình phát toàn màn hình.</string>
     <string name="revanced_remember_repeat_state_title">Lưu trạng thái phát lặp lại</string>

@@ -81,6 +81,10 @@ Koppints ide, ha többet szeretnél megtudni a DeArrow-ról."</string>
     <string name="revanced_alt_thumbnail_stills_time_entry_3">Videó vége</string>
     <string name="revanced_alt_thumbnail_dearrow_error">A DeArrow átmenetileg nem érhető el. (státusz kód: %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">A DeArrow átmenetileg nem elérhető.</string>
+    <string name="revanced_alt_thumbnail_use_alternative_domain_title">Alternatív domain használata a képekhez</string>
+    <string name="revanced_alt_thumbnail_use_alternative_domain_summary">Lecseréli a domain-t, ami az egyes régiókban blokkolva van, így a videók miniatűrjei, a csatorna profilképei, a közösségi posztok képei, stb. fogadhatóak.</string>
+    <string name="revanced_alt_thumbnail_alternative_domain_title">Alternatív domain</string>
+    <string name="revanced_alt_thumbnail_alternative_domain_summary">A domain, ahonnan a képeket le lehet hívni.\nMegjegyzés: Csak a domainnevet írd be, azaz a \"https\:\/\/\" előtag nélkül.</string>
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Hírfolyam</string>
     <string name="revanced_hide_album_card_title">Album kártyák elrejtése</string>
@@ -136,12 +140,12 @@ Koppints ide, ha többet szeretnél megtudni a DeArrow-ról."</string>
     <string name="revanced_hide_subscriptions_carousel_title">Feliratkozások rész elrejtése</string>
     <string name="revanced_hide_subscriptions_carousel_summary_on">A feliratkozások rész elrejtve.</string>
     <string name="revanced_hide_subscriptions_carousel_summary_off">A feliratkozások rész látható.</string>
-    <string name="revanced_hide_ticket_shelf_title">Rejtse el a jegypolcokat</string>
-    <string name="revanced_hide_ticket_shelf_summary_on">A jegy polcok el vannak rejtve.</string>
+    <string name="revanced_hide_ticket_shelf_title">Jegy polcok elrejtése</string>
+    <string name="revanced_hide_ticket_shelf_summary_on">A jegy polcok elrejtve.</string>
     <string name="revanced_hide_ticket_shelf_summary_off">A jegy polcok láthatóak.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Category bar -->
     <string name="revanced_preference_screen_category_bar_title">Kategória sáv</string>
-    <string name="revanced_preference_screen_category_bar_summary">Rejtse el vagy mutassa meg a kategória sávot a hírfolyamban, keresésben és kapcsolódó videókban.</string>
+    <string name="revanced_preference_screen_category_bar_summary">Rejtse el vagy jelenítse meg a kategória sávot a hírfolyamban, keresésben és a kapcsolódó videókban.</string>
     <string name="revanced_hide_category_bar_in_feed_title">Rejtse el a hírfolyamban</string>
     <string name="revanced_hide_category_bar_in_feed_summary_on">Elrejtve a hírfolyamban.</string>
     <string name="revanced_hide_category_bar_in_feed_summary_off">Megjelenik a hírfolyamban.</string>
@@ -790,6 +794,8 @@ Tartsa nyomva a videó URL-jének időbélyeggel való másolásához."</string>
     <string name="revanced_overlay_button_copy_video_url_timestamp_title">Videó URL másolása időbélyeggel gomb megjelenítése</string>
     <string name="revanced_overlay_button_copy_video_url_timestamp_summary">"Érintse meg a videó URL-jének időbélyeggel való másolásához.
 Tartsa nyomva a videó időbélyegének másolásához."</string>
+    <string name="revanced_overlay_button_mute_volume_title">Némítás gomb megjelenítése</string>
+    <string name="revanced_overlay_button_mute_volume_summary">Érintsd meg a gombot az aktuális videó hangerejének elnémításához. Érintsd meg újra a némítás feloldásához.</string>
     <string name="revanced_overlay_button_external_downloader_title">A külső letöltés gomb megjelenítése</string>
     <string name="revanced_overlay_button_external_downloader_summary">Érintse meg a külső videóletöltő indításához.</string>
     <string name="revanced_overlay_button_speed_dialog_title">A lejátszási sebesség gomb megjelenítése</string>
@@ -1026,6 +1032,11 @@ Korlát: A hivatalos fejlécek a keresési eredményekben el lesznek rejtve."</s
 
 Ismert hiba: Mivel ez a funkció a Google fejlesztési szakaszában van, előfordulhat, hogy az elrendezés hibás lesz."</string>
     <string name="revanced_enable_shorts_time_stamp_summary_off">Fejezetek letiltva.</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_title">Időbélyegző hosszú nyomás művelet</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_summary">Nyomd meg és tartsd lenyomva az időbélyeget a Shortok ismétlés állapotának megváltoztatásához.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_title">Meta panel alsó margó</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_summary">Állítsd be a keresősáv és a meta panel közötti távolságot 0-64 között.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">A Meta panel alsó margójának 0-64 között kell lennie. Alapértelmezett értékekre visszaállítása.</string>
     <string name="revanced_hide_shorts_toolbar_title">Eszköztár elrejtése</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">Az eszköztár el van rejtve.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">Az eszköztár látható.</string>

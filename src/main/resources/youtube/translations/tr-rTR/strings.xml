@@ -79,6 +79,10 @@ DeArrow hakkında daha fazla bilgi edinmek için buraya dokunun."</string>
     <string name="revanced_alt_thumbnail_stills_time_entry_3">Videonun sonu</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow geçici olarak kullanılamıyor (durum kodu: %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow geçici olarak kullanılamıyor.</string>
+    <string name="revanced_alt_thumbnail_use_alternative_domain_title">Resimler için alternatif alan adı kullanın</string>
+    <string name="revanced_alt_thumbnail_use_alternative_domain_summary">Bazı bölgelerde engellenen alan adını değiştirerek video küçük resimlerinin, kanal avatarlarının, topluluk gönderi görsellerinin vb. görüntülenmesini sağlar. alınabilir.</string>
+    <string name="revanced_alt_thumbnail_alternative_domain_title">Alternatif alan adı</string>
+    <string name="revanced_alt_thumbnail_alternative_domain_summary">Resimlerin alınacağı alan adı.\nNot: Yalnızca alan adını girin, yani \"https\:\/\/\" öneki olmadan.</string>
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Akış</string>
     <string name="revanced_hide_album_card_title">Albüm kartlarını gizle</string>
@@ -340,11 +344,11 @@ Daha sonra kapatılırsa kullanıcı arayüzü hatalarını önlemek için uygul
     <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
     <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
     <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_title">Çift tıklama eylemi</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_title">Çift tıklama eylemini etkinleştir</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"Çift dokunma eylemi etkin.
 
-• Modern 1: Küçültülmüş videoyu daha büyük bir boyuta değiştirmek için iki kez dokunun.
-• Modern 2, 3: Küçültülmüş videoyu kapatmak için iki kez dokunun."</string>
+• Küçültülmüş videoyu daha büyük bir boyuta değiştirmek için iki kez dokunun.
+• Orijinal boyuta geçmek için bir kez daha iki kez dokunun."</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_off">Çift tıklama eylemi devre dışı.</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_title">Sürükle ve Bırak\'ı etkinleştir</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Sürükle ve Bırak etkin.</string>
@@ -1017,8 +1021,15 @@ Bilinen sorun: Arama sonuçlarındaki resmi başlıklar da gizlenebiliyor."</str
     <string name="revanced_enable_shorts_time_stamp_title">Zaman damgalarını etkinleştir</string>
     <string name="revanced_enable_shorts_time_stamp_summary_on">"Zaman damgası etkin.
 
-Bilinen sorun: Bu, Google'ın geliştirme aşamasındaki bir özellik olduğundan düzen bozuk olabilir."</string>
+Bilinen sorunlar:
+•Bu, Google'ın geliştirme aşamasındaki bir özellik olduğundan düzen bozuk olabilir.
+•Bu ayar yalnızca zaman damgalarını etkinleştirmekle kalmaz, aynı zamanda kullanıcıların oynatıcı arka planına tıklayarak kullanıcı arayüzünü gizlemesine de olanak tanır."</string>
     <string name="revanced_enable_shorts_time_stamp_summary_off">Zaman damgası gizleniyor.</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_title">Zaman damgası uzun basma aksiyonu</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_summary">Kısa videoların tekrarlanma durumunu değiştirmek için zaman damgasını basılı tutun.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_title">Meta panel alt kenar boşluğu</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_summary">Arama çubuğundan meta panele kadar olan aralığı 0-64 arasında yapılandırın.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">Meta panel alt kenar boşluğu 0-64 arasında olmalıdır. Varsayılan değerlere sıfırlayın.</string>
     <string name="revanced_hide_shorts_toolbar_title">Araç çubuğunu göster</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">Araç çubuğu gizli.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">Araç çubuğu gösteriliyor.</string>

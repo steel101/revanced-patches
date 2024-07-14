@@ -800,6 +800,8 @@ Mantén pulsado para copiar la URL del vídeo con la marca de tiempo."</string>
     <string name="revanced_overlay_button_copy_video_url_timestamp_title">Mostrar botón de copiar URL con marca de tiempo</string>
     <string name="revanced_overlay_button_copy_video_url_timestamp_summary">"Pulsa para copiar la URL del vídeo con la marca de tiempo.
 Mantén pulsado para copiar la marca de tiempo del vídeo."</string>
+    <string name="revanced_overlay_button_mute_volume_title">Mostrar botón de silenciar volumen</string>
+    <string name="revanced_overlay_button_mute_volume_summary">Pulsa para silenciar el volumen del vídeo actual. Pulsa de nuevo para reactivar el sonido.</string>
     <string name="revanced_overlay_button_external_downloader_title">Mostrar botón de descarga externa</string>
     <string name="revanced_overlay_button_external_downloader_summary">Pulsa para iniciar el descargador externo.</string>
     <string name="revanced_overlay_button_speed_dialog_title">Mostrar botón de diálogo de velocidad</string>

@@ -79,6 +79,10 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_alt_thumbnail_stills_time_entry_3">動画の最後</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow は一時的に利用できません。(ステータスコード: %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow は一時的に利用できません。</string>
+    <string name="revanced_alt_thumbnail_use_alternative_domain_title">画像に代替ドメインを使用</string>
+    <string name="revanced_alt_thumbnail_use_alternative_domain_summary">一部の地域でブロックされているドメインを置き換えることで、動画のサムネイル、チャンネルのアバター、コミュニティの投稿画像などを閲覧可能にします。</string>
+    <string name="revanced_alt_thumbnail_alternative_domain_title">代替ドメイン</string>
+    <string name="revanced_alt_thumbnail_alternative_domain_summary">画像を取得するためのドメインです。\n注意: 「https://」のような接頭辞を付けずにドメイン名のみを入力してください。</string>
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">フィード</string>
     <string name="revanced_hide_album_card_title">アルバムカードを非表示</string>
@@ -352,14 +356,13 @@ DeArrowの詳細については、ここをタップしてください。"</stri
 
 ・モダン1: ダブルタップで、最小化された動画を大きなサイズに変更します。
 ・モダン2, 3: ダブルタップで、最小化された動画を閉じます。"</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">ダブルタップアクションを有効化します。\n\n・モダン1: ダブルタップで、最小化された動画を大きなサイズに変更します。
-・モダン2, 3: ダブルタップで、最小化された動画を閉じます。</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_off">ダブルタップアクションを有効化します。\n\n・モダン1: ダブルタップで、最小化された動画を大きなサイズに変更します。\n・モダン2, 3: ダブルタップで、最小化された動画を閉じます。</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_title">ドラッグ&amp;ドロップを有効化</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">ドラッグ&amp;ドロップを有効化します。</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_off">ドラッグ&amp;ドロップを有効化します。</string>
     <string name="revanced_miniplayer_hide_expand_close_title">拡大/縮小ボタンを非表示</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_on">拡大/縮小のボタンを非表示にします。\n(ミニプレーヤーをスワイプして拡大/縮小できます) \n\n注意: YouTube v19.20.35 以降の場合、スワイプして拡大することはできません。</string>
-    <string name="revanced_miniplayer_hide_expand_close_summary_off">拡大/縮小のボタンを非表示にします。\n(ミニプレーヤーをスワイプして拡大/縮小できます) \n\n注意: YouTube v19.20.35 以降の場合、スワイプして拡大することはできません。</string>
+    <string name="revanced_miniplayer_hide_expand_close_summary_on">拡大/縮小のボタンを非表示にします。\n(ミニプレーヤーをスワイプして拡大/縮小できます) </string>
+    <string name="revanced_miniplayer_hide_expand_close_summary_off">拡大/縮小のボタンを非表示にします。\n(ミニプレーヤーをスワイプして拡大/縮小できます) </string>
     <string name="revanced_miniplayer_hide_subtext_title">サブテキストを非表示</string>
     <string name="revanced_miniplayer_hide_subtext_summary_on">ミニプレーヤーに表示される「プロモーションを含みます」などの文章を非表示にします。</string>
     <string name="revanced_miniplayer_hide_subtext_summary_off">ミニプレーヤーに表示される「プロモーションを含みます」などの文章を非表示にします。</string>
@@ -1026,6 +1029,11 @@ DeArrowの詳細については、ここをタップしてください。"</stri
 
 注意: 開発段階の機能であるため、レイアウトが崩れる可能性があります。"</string>
     <string name="revanced_enable_shorts_time_stamp_summary_off">タイムスタンプを表示します。\n\n注意: 開発段階の機能であるため、レイアウトが崩れる可能性があります。</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_title">タイムスタンプ長押し時の動作</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_summary">タイムスタンプを長押しすると、ショートのリピート状態を変更できます。</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_title">メタパネルの下部の余白</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_summary">シークバーからメタパネルまでの間隔を 0 ~ 64 の間で設定できます。</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">メタパネルの下部の余白は 0 ~ 64 の間でなければなりません。デフォルト値にリセットします。</string>
     <string name="revanced_hide_shorts_toolbar_title">ツールバーを非表示</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">ツールバー(カメラ、検索などのボタン)を非表示にします。</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">ツールバー(カメラ、検索などのボタン)を非表示にします。</string>

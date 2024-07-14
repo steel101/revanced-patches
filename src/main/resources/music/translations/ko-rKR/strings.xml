@@ -351,6 +351,10 @@
     <string name="gms_core_dialog_continue_text">계속하기</string>
     <string name="revanced_sanitize_sharing_links_title">추적 쿼리를 제거한 링크 공유</string>
     <string name="revanced_sanitize_sharing_links_summary">링크를 공유할 때 URL에서 추적 쿼리 매개변수를 제거합니다.</string>
+    <string name="revanced_use_alternative_domain_title">이미지에 대체 도메인 사용하기</string>
+    <string name="revanced_use_alternative_domain_summary">일부 국가에서 차단된 도메인을 변경하여 재생목록 썸네일, 채널 아바타, 커뮤니티 게시물 이미지 등을 수신할 수 있습니다.</string>
+    <string name="revanced_alternative_domain_title">대체 도메인</string>
+    <string name="revanced_alternative_domain_summary">이미지를 가져올 대체 도메인을 입력하세요.\n알림: \'https\:\/\/\' 없이 도메인 이름만 입력해야 합니다.</string>
     <string name="revanced_extended_settings_import_export_title">설정 가져오기 / 내보내기</string>
     <string name="revanced_extended_settings_import_export_summary">설정을 가져오거나 내보낼 수 있습니다.</string>
     <string name="revanced_extended_settings_export_as_file">파일로 설정 내보내기</string>

@@ -800,6 +800,8 @@ Toque e segure para copiar a URL do vídeo com marcação de tempo."</string>
     <string name="revanced_overlay_button_copy_video_url_timestamp_title">Exibir botão copiar URL com marcação de tempo</string>
     <string name="revanced_overlay_button_copy_video_url_timestamp_summary">"Toque para copiar a URL do vídeo com marcação de tempo.
 Toque e segure para copiar a marcação de tempo do vídeo."</string>
+    <string name="revanced_overlay_button_mute_volume_title">Exibir botão de volume mudo</string>
+    <string name="revanced_overlay_button_mute_volume_summary">Toque para silenciar o volume do vídeo atual. Toque novamente para desativar.</string>
     <string name="revanced_overlay_button_external_downloader_title">Exibir botão de download externo</string>
     <string name="revanced_overlay_button_external_downloader_summary">Toque para iniciar o aplicativo de download externo.</string>
     <string name="revanced_overlay_button_speed_dialog_title">Exibir botão de velocidade</string>
@@ -1027,8 +1029,8 @@ Limitação: Os cabeçalhos oficiais nos resultados da pesquisa serão ocultados
     <string name="revanced_hide_shorts_play_pause_button_background_summary_off">O fundo do botão será exibido.</string>
     <string name="revanced_shorts_double_tap_to_like_animation_title">Animação de toque duplo</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_1">Original</string>
-    <string name="revanced_shorts_double_tap_to_like_animation_entry_2">Afirmativo</string>
-    <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Cairo</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_2">Gostei</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Gostei (Cairo)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_4">Coração</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Coração (Matiz)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Oculto</string>

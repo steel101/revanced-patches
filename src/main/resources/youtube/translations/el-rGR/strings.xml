@@ -354,8 +354,8 @@ Playlists
     <string name="revanced_miniplayer_enable_double_tap_action_title">Διπλό πάτημα για ενέργεια</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"Η ενέργεια διπλού πατήματος είναι ενεργοποιημένη.
 
-• Μοντέρνα 1: Διπλό πάτημα για αλλαγή του ελαχιστοποιημένου βίντεο σε μεγαλύτερο μέγεθος.
-• Μοντέρνα 2, 3: Διπλό πάτημα για να κλείσετε το ελαχιστοποιημένο βίντεο."</string>
+• Διπλό πάτημα για αλλαγή του ελαχιστοποιημένου βίντεο σε μεγαλύτερο μέγεθος.
+• Διπλό πάτημα ξανά για αλλαγή πίσω στο αρχικό μέγεθος."</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_off">Η ενέργεια διπλού πατήματος είναι απενεργοποιημένη.</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_title">Λειτουργία drag and drop</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Η λειτουργία μεταφοράς και απόθεσης της ελαχιστοποιημένης οθόνης είναι ενεργοποιημένη.</string>
@@ -482,7 +482,7 @@ Playlists
     <string name="revanced_hide_crowdfunding_box_title">Πλαίσιο δωρεών</string>
     <string name="revanced_hide_crowdfunding_box_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_crowdfunding_box_summary_off">Εμφανίζεται.</string>
-    <string name="revanced_hide_double_tap_overlay_filter_title">Φόντο διπλού πατήματος του αναπαραγωγέα</string>
+    <string name="revanced_hide_double_tap_overlay_filter_title">Μαύρο φόντο κατά το διπλό πάτημα</string>
     <string name="revanced_hide_double_tap_overlay_filter_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_double_tap_overlay_filter_summary_off">Εμφανίζεται.</string>
     <string name="revanced_hide_end_screen_cards_title">Κάρτες τελικής οθόνης</string>
@@ -740,7 +740,7 @@ Playlists
     <string name="revanced_enable_compact_controls_overlay_summary_on">Τα στοιχεία ελέγχου μικρότερου στυλ είναι ενεργοποιημένα.</string>
     <string name="revanced_enable_compact_controls_overlay_summary_off">Τα στοιχεία ελέγχου μικρότερου στυλ είναι απενεργοποιημένα.</string>
     <string name="revanced_force_fullscreen_title">Εξαναγκασμός πλήρης οθόνης πάντα</string>
-    <string name="revanced_force_fullscreen_summary">"Τα βίντεο θα αναπαραχθούν σε λειτουργία πλήρους οθόνης στις ακόλουθες περιπτώσεις:
+    <string name="revanced_force_fullscreen_summary">"Τα βίντεο θα αλλάξουν σε λειτουργία πλήρους οθόνης στις ακόλουθες περιπτώσεις:
 
 • Όταν ξεκινάει ένα βίντεο.
 • Όταν πατιέται μια χρονοσήμανση στα σχόλια."</string>
@@ -803,6 +803,10 @@ Playlists
     <string name="revanced_overlay_button_copy_video_url_timestamp_summary">"Κουμπί αντιγραφής συνδέσμου URL του βίντεο με χρονική σήμανση.
 Πατήστε για να αντιγράψετε τον σύνδεσμο με χρονική σήμανση.
 Πατήστε παρατεταμένα για να αντιγράψετε την χρονοσήμανση του βίντεο."</string>
+    <string name="revanced_overlay_button_mute_volume_title">Σίγαση βίντεο</string>
+    <string name="revanced_overlay_button_mute_volume_summary">Κουμπί σίγασης του βίντεο.
+Πατήστε για σίγαση έντασης του τρέχοντος βίντεο.
+Πατήστε ξανά για κατάργηση της σίγασης.</string>
     <string name="revanced_overlay_button_external_downloader_title">Εξωτερική λήψη του βίντεο</string>
     <string name="revanced_overlay_button_external_downloader_summary">Κουμπί εξωτερικής λήψης του βίντεο.
 Πατήστε για εκκίνηση του προεπιλεγμένου σας εξωτερικού προγράμματος λήψης.</string>
@@ -1049,9 +1053,9 @@ Playlists
     <string name="revanced_enable_shorts_time_stamp_summary_off">Οι χρονοσφραγίδες είναι απενεργοποιημένες.</string>
     <string name="revanced_shorts_time_stamp_change_repeat_state_title">Ενέργεια πατήματος χρονοσφραγίδας</string>
     <string name="revanced_shorts_time_stamp_change_repeat_state_summary">Πατήστε παρατεταμένα την χρονοσφραγίδα για να αλλάξει η κατάσταση επανάληψης των Shorts.</string>
-    <string name="revanced_shorts_meta_panel_bottom_margin_title">Ύψος γραμμής προόδου</string>
-    <string name="revanced_shorts_meta_panel_bottom_margin_summary">Αλλαγή ύψους της γραμμής προόδου, τιμές μεταξύ 0-64.</string>
-    <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">Το ύψος πρέπει να είναι μεταξύ 0-64, επαναφέρθηκε.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_title">Βάθος γραμμής προόδου</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_summary">Αλλαγή βάθους της γραμμής προόδου, τιμές μεταξύ 0-64.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">Το βάθος πρέπει να είναι μεταξύ 0-64, επαναφέρθηκε.</string>
     <string name="revanced_hide_shorts_toolbar_title">Γραμμή εργαλείων</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">Κρυμμένη.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">Εμφανίζεται.</string>
@@ -1463,7 +1467,7 @@ Playlists
     <string name="revanced_spoof_client_general_title">Γενικά βίντεο</string>
     <string name="revanced_spoof_client_livestream_title">Ζωντανές μεταδόσεις</string>
     <string name="revanced_spoof_client_shorts_title">Shorts, Κλιπ</string>
-    <string name="revanced_spoof_client_fallback_title">Μη αναπαραγώγιμο βίντεο</string>
+    <string name="revanced_spoof_client_fallback_title">Εναλλακτική (μη αναπαραγόμενο βίντεο)</string>
     <string name="revanced_spoof_client_options_entry_ios">iOS</string>
     <string name="revanced_spoof_client_options_entry_android">Android</string>
     <string name="revanced_spoof_client_options_entry_android_embedded_player">Ενσωματωμένος αναπαραγωγέας Android</string>
@@ -1478,7 +1482,7 @@ Playlists
     <string name="revanced_spoof_client_use_ios_summary">"Παραποίηση σε έκδοση iOS. Παρενέργειες:
 • Η ποιότητα HDR δεν είναι διαθέσιμη.
 • Κάποιες πολύ υψηλές ποιότητες βίντεο ενδέχεται να μην είναι διαθέσιμες.
-• Το ιστορικό παρακολούθησης δε λειτουργεί με λογαριασμό επωνυμίας (Brand).
+• Το ιστορικό παρακολούθησης δε λειτουργεί σε λογαριασμούς επωνυμίας (brand).
 • Η αναπαραγωγή ζωντανών μεταδόσεων σε λειτουργία ήχου μόνο δεν είναι διαθέσιμη.
 • Η αναπαραγωγή ζωντανών μεταδόσεων δεν είναι διαθέσιμη σε συσκευές Android 8.0."</string>
     <string name="revanced_spoof_client_use_android_testsuite_title">Android Testsuite</string>

@@ -79,6 +79,10 @@ Tocca qui per saperne di più su DeArrow"</string>
     <string name="revanced_alt_thumbnail_stills_time_entry_3">Fine video</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow temporaneamente non disponibile (%s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow temporaneamente non disponibile</string>
+    <string name="revanced_alt_thumbnail_use_alternative_domain_title">Usa dominio alternativo per le immagini</string>
+    <string name="revanced_alt_thumbnail_use_alternative_domain_summary">Sostituisce il dominio bloccato in alcune regioni in modo che le miniature video, gli avatar dei canali, le immagini dei post della comunità, ecc. possano essere ricevute.</string>
+    <string name="revanced_alt_thumbnail_alternative_domain_title">Dominio alternativo</string>
+    <string name="revanced_alt_thumbnail_alternative_domain_summary">Il dominio da cui prelevare le immagini.\nNota: Inserisce solo il nome di dominio, cioè senza il prefisso \"https\:\/\/\".</string>
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Feed</string>
     <string name="revanced_hide_album_card_title">Nascondi le schede degli album</string>
@@ -131,9 +135,9 @@ Tocca qui per saperne di più su DeArrow"</string>
     <string name="revanced_hide_show_more_button_title">Nascondi il pulsante \'Mostra di più\'</string>
     <string name="revanced_hide_show_more_button_summary_on">Il tasto \'mostra altro\' è nascosto</string>
     <string name="revanced_hide_show_more_button_summary_off">Il pulsante \'Mostra di più\' è mostrato.</string>
-    <string name="revanced_hide_subscriptions_carousel_title">Nascondi il carosello degli abbonamenti</string>
-    <string name="revanced_hide_subscriptions_carousel_summary_on">Il casello degli abbonamenti è nascosto.</string>
-    <string name="revanced_hide_subscriptions_carousel_summary_off">Il casello degli abbonamenti è mostrato.</string>
+    <string name="revanced_hide_subscriptions_carousel_title">Nascondi il carosello delle iscrizioni</string>
+    <string name="revanced_hide_subscriptions_carousel_summary_on">Il casello delle iscrizioni è nascosto.</string>
+    <string name="revanced_hide_subscriptions_carousel_summary_off">Il casello delle iscrizioni è mostrato.</string>
     <string name="revanced_hide_ticket_shelf_title">Nascondi lo scaffale degli eventi</string>
     <string name="revanced_hide_ticket_shelf_summary_on">Lo scaffale degli eventi è nascosto</string>
     <string name="revanced_hide_ticket_shelf_summary_off">Lo scaffale degli eventi è visibile</string>
@@ -232,7 +236,7 @@ Problemi noti:
 • Video con frasi come 'Persone guardano anche' sotto.
 • Video caricati da canali non iscritti che hanno meno di 1.000 visualizzazioni."</string>
     <string name="revanced_hide_low_views_video_title">Nascondi video con basse visualizzazioni</string>
-    <string name="revanced_hide_low_views_video_summary">Nascondi video con meno di 1.000 visualizzazioni dai feed home che sono stati caricati dai canali non inscritti.</string>
+    <string name="revanced_hide_low_views_video_summary">Nascondi video con meno di 1.000 visualizzazioni dai feed home che sono stati caricati dai canali non iscritti.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Duration filter -->
     <string name="revanced_preference_category_duration_filter">Filtro durata</string>
     <string name="revanced_hide_video_by_duration_title">Nasconde i video in base alla durata</string>
@@ -390,9 +394,9 @@ Alcuni componenti potrebbero non essere nascosti"</string>
     <string name="revanced_hide_navigation_shorts_button_title">Nascondi il pulsante Shorts</string>
     <string name="revanced_hide_navigation_shorts_button_summary_on">Il pulsante Shorts è nascosto.</string>
     <string name="revanced_hide_navigation_shorts_button_summary_off">Il pulsante Shorts è mostrato.</string>
-    <string name="revanced_hide_navigation_subscriptions_button_title">Nascondi il pulsante abbonamenti</string>
-    <string name="revanced_hide_navigation_subscriptions_button_summary_on">Il pulsante di abbonamenti è nascosto.</string>
-    <string name="revanced_hide_navigation_subscriptions_button_summary_off">Il pulsante di abbonamenti è mostrato.</string>
+    <string name="revanced_hide_navigation_subscriptions_button_title">Nascondi la pagina Iscrizioni</string>
+    <string name="revanced_hide_navigation_subscriptions_button_summary_on">Il pulsante iscrizioni è nascosto.</string>
+    <string name="revanced_hide_navigation_subscriptions_button_summary_off">Il pulsante d\'iscrizione è mostrato.</string>
     <string name="revanced_hide_navigation_label_title">Nascondi le etichette della barra di navigazione</string>
     <string name="revanced_hide_navigation_label_summary_on">Le etichette della barra di navigazione sono nascoste</string>
     <string name="revanced_hide_navigation_label_summary_off">Le etichette della barra di navigazione sono visibili</string>
@@ -1032,6 +1036,11 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
 
 Problema noto: Poiché questa è una caratteristica nella fase di sviluppo di Google, il layout potrebbe essere rotto."</string>
     <string name="revanced_enable_shorts_time_stamp_summary_off">Timestamp è disabilitato.</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_title">Azione pressione prolungata timestamp</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_summary">Premi e tieni premuto il timestamp per cambiare lo stato di ripetizione degli Shorts.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_title">Margine inferiore del pannello Meta</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_summary">Configura la spaziatura dalla barra di ricerca al pannello meta, tra 0-64.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">Il margine inferiore del pannello Meta deve essere compreso tra 0-64. Reimposta ai valori predefiniti.</string>
     <string name="revanced_hide_shorts_toolbar_title">Nascondi la barra degli strumenti</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">La barra degli strumenti è nascosta.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">La barra degli strumenti è mostrata.</string>

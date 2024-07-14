@@ -81,6 +81,10 @@
     <string name="revanced_alt_thumbnail_stills_time_entry_3">视频结尾</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow 暂时不可用 (status code: %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow 暂时不可用</string>
+    <string name="revanced_alt_thumbnail_use_alternative_domain_title">为图片使用替代域名</string>
+    <string name="revanced_alt_thumbnail_use_alternative_domain_summary">替换在某些地区被阻止的域名，以便能够接收视频缩略图，频道头像，社区帖子等等</string>
+    <string name="revanced_alt_thumbnail_alternative_domain_title">替代域名</string>
+    <string name="revanced_alt_thumbnail_alternative_domain_summary">获取图片的域名\n注意：仅输入域名，不输入“https\:\/\/”前缀</string>
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">首页</string>
     <string name="revanced_hide_album_card_title">隐藏专辑卡片</string>
@@ -1030,6 +1034,11 @@
 
 已知问题：由于这是谷歌开发阶段的一个功能，布局可能已损坏"</string>
     <string name="revanced_enable_shorts_time_stamp_summary_off">时间戳已禁用</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_title">时间戳长按操作</string>
+    <string name="revanced_shorts_time_stamp_change_repeat_state_summary">长按时间戳以更改 Shorts 重复状态</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_title">Meta 面板底边距</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_summary">配置从搜索栏到 Meta 面板的间距，范围在 0-64 之间</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">Meta 面板底边距必须在0-64之间 已重置为默认值</string>
     <string name="revanced_hide_shorts_toolbar_title">隐藏工具栏</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">工具栏已隐藏</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">工具栏已显示</string>
