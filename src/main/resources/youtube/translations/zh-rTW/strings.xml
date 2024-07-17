@@ -81,10 +81,7 @@
     <string name="revanced_alt_thumbnail_stills_time_entry_3">影片結尾</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow 暫時不可用（狀態碼：%s）</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow 暫時不可用</string>
-    <string name="revanced_alt_thumbnail_use_alternative_domain_title">圖像使用替代網域</string>
-    <string name="revanced_alt_thumbnail_use_alternative_domain_summary">替換某些地區被封鎖的域名，以便可以接收影片縮圖、頻道頭像、社群貼文圖片等。</string>
-    <string name="revanced_alt_thumbnail_alternative_domain_title">替代域名</string>
-    <string name="revanced_alt_thumbnail_alternative_domain_summary">從中取得圖像網域。\n注意：只輸入域名, i.e., 不含 \"https\:\/\/\" 前綴。</string>
+    <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">首頁</string>
     <string name="revanced_hide_album_card_title">隱藏專輯卡片</string>
@@ -799,6 +796,8 @@
     <string name="revanced_overlay_button_copy_video_url_timestamp_title">帶時間戳的複製連結按鈕</string>
     <string name="revanced_overlay_button_copy_video_url_timestamp_summary">"點擊複製帶時間戳的影片連結
 長按複製時間戳"</string>
+    <string name="revanced_overlay_button_mute_volume_title">顯示靜音按鈕</string>
+    <string name="revanced_overlay_button_mute_volume_summary">點選可將目前影片靜音。 再次點擊即可取消靜音。</string>
     <string name="revanced_overlay_button_external_downloader_title">外部下載按鈕</string>
     <string name="revanced_overlay_button_external_downloader_summary">點擊以打開外部下載器</string>
     <string name="revanced_overlay_button_speed_dialog_title">播放速度按鈕</string>
@@ -954,6 +953,9 @@
     <string name="revanced_hide_shorts_subscribe_button_title">隱藏訂閱按鈕</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_on">訂閱按鈕已隱藏</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_off">訂閱按鈕已顯示</string>
+    <string name="revanced_hide_shorts_paused_header_title">隱藏暫停的標題</string>
+    <string name="revanced_hide_shorts_paused_header_summary_on">暫停的標題被隱藏。</string>
+    <string name="revanced_hide_shorts_paused_header_summary_off">顯示暫停的標題。</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">隱藏暫停時疊加按鈕</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">暫停時疊加按鈕已隱藏</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">暫停時疊加按鈕已顯示</string>
@@ -1501,7 +1503,7 @@
     <string name="revanced_preference_screen_patch_information_title">補丁訊息</string>
     <string name="revanced_preference_screen_patch_information_summary">已應用補丁的訊息</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Tool used -->
-    <string name="revanced_preference_category_tool_used">使用的工具</string>
+    <string name="revanced_preference_category_tool_used">使用的工具 --唐懂翻譯</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
     <string name="revanced_preference_category_others">其他</string>
     <string name="revanced_icon_custom">自訂</string>

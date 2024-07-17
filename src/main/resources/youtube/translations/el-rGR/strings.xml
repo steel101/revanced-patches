@@ -79,10 +79,7 @@
     <string name="revanced_alt_thumbnail_stills_time_entry_3">Τέλος του βίντεο</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow προσωρινά μη διαθέσιμο. (κωδικός: %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow προσωρινά μη διαθέσιμο.</string>
-    <string name="revanced_alt_thumbnail_use_alternative_domain_title">Εναλλακτικό domain για εικόνες</string>
-    <string name="revanced_alt_thumbnail_use_alternative_domain_summary">Αντικαθιστά το domain το οποίο μπορεί να είναι αποκλεισμένο σε κάποιες περιοχές, έτσι ώστε να μπορούν να ληφθούν μικρογραφίες βίντεο, avatar καναλιών, εικόνες δημοσιεύσεων κοινότητας, κλπ.</string>
-    <string name="revanced_alt_thumbnail_alternative_domain_title">Εναλλακτικό domain</string>
-    <string name="revanced_alt_thumbnail_alternative_domain_summary">Το domain από το οποίο θα ληφθούν οι εικόνες.\nΣημείωση: Εισάγετε μόνο το όνομα του domain, χωρίς το πρόθεμα \"https\:\/\/\".</string>
+    <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Ροή</string>
     <string name="revanced_hide_album_card_title">Κάρτες άλμπουμ</string>
@@ -969,6 +966,9 @@ Playlists
     <string name="revanced_hide_shorts_subscribe_button_title">Κουμπί «Εγγραφή»</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_shorts_paused_header_title">Επικεφαλίδα κατά την παύση</string>
+    <string name="revanced_hide_shorts_paused_header_summary_on">Κρυμμένη.</string>
+    <string name="revanced_hide_shorts_paused_header_summary_off">Εμφανίζεται.</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">Κουμπιά εμφάνισης κατά την παύση</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">Κρυμμένα.</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">Εμφανίζονται.</string>
@@ -1037,7 +1037,7 @@ Playlists
     <string name="revanced_hide_shorts_play_pause_button_background_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_off">Εμφανίζεται.</string>
     <string name="revanced_shorts_double_tap_to_like_animation_title">Εφέ διπλού πατήματος</string>
-    <string name="revanced_shorts_double_tap_to_like_animation_entry_1">Αρχικό</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_1">Προεπιλογή</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_2">Αντίχειρας προς τα πάνω</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Αντίχειρας προς τα πάνω (Θέμα Cairo)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_4">Καρδιά</string>
@@ -1389,8 +1389,8 @@ Playlists
     <string name="revanced_enable_external_browser_summary_on">Οι συνδέσμοι ανοίγουν σε εξωτερικό πρόγραμμα περιήγησης.</string>
     <string name="revanced_enable_external_browser_summary_off">Οι συνδέσμοι ανοίγουν εσωτερικά στην εφαρμογή.</string>
     <string name="revanced_enable_open_links_directly_title">Παράκαμψη ανακατευθύνσεων συνδέσμων</string>
-    <string name="revanced_enable_open_links_directly_summary_on">Οι ανακατευθύνσεις URL παρακάμπτονται σε άνοιγμα συνδέσμων.</string>
-    <string name="revanced_enable_open_links_directly_summary_off">Οι ανακατευθύνσεις URL δεν παρακάμπτονται σε άνοιγμα συνδέσμων.</string>
+    <string name="revanced_enable_open_links_directly_summary_on">Οι ανακατευθύνσεις URL παρακάμπτονται κατά το άνοιγμα συνδέσμων.</string>
+    <string name="revanced_enable_open_links_directly_summary_off">Οι ανακατευθύνσεις URL δεν παρακάμπτονται κατά το άνοιγμα συνδέσμων.</string>
     <string name="revanced_default_app_settings_title">Άνοιγμα ρυθμίσεων προεπιλεγμένων εφαρμογών</string>
     <string name="revanced_default_app_settings_summary">Για να ανοίγουν οι συνδέσμοι YouTube στο RVX, ενεργοποιήστε το «Άνοιγμα υποστηριζόμενων συνδέσμων» και ενεργοποιήστε τις υποστηριζόμενες διευθύνσεις ιστού.</string>
     <string name="gms_core_settings_title">Άνοιγμα του MicroG GmsCore</string>

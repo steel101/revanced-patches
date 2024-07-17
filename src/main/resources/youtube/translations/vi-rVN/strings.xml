@@ -81,12 +81,9 @@ Nhấn vào đây để tìm hiểu thêm về DeArrow."</string>
     <string name="revanced_alt_thumbnail_stills_time_entry_3">Cuối video</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow tạm thời không khả dụng (Mã trạng thái: %s).</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow tạm thời không khả dụng.</string>
-    <string name="revanced_alt_thumbnail_use_alternative_domain_title">Sử dụng tên miền thay thế cho hình ảnh</string>
-    <string name="revanced_alt_thumbnail_use_alternative_domain_summary">Thay thế tên miền bị chặn ở một số khu vực, để có thể nhận được hình thu nhỏ video, hình đại diện kênh, hình ảnh bài đăng cộng đồng, v.v.</string>
-    <string name="revanced_alt_thumbnail_alternative_domain_title">Tên miền thay thế</string>
-    <string name="revanced_alt_thumbnail_alternative_domain_summary">Tên miền để tìm nạp hình ảnh.\nLưu ý: Chỉ nhập tên miền, không có tiền tố \"https://\"</string>
+    <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
     <!-- PreferenceScreen: Feed -->
-    <string name="revanced_preference_screen_feed_title">Các trang video</string>
+    <string name="revanced_preference_screen_feed_title">Bảng tin</string>
     <string name="revanced_hide_album_card_title">Ẩn Đĩa nhạc</string>
     <string name="revanced_hide_album_card_summary_on">Đĩa nhạc đã ẩn khỏi kết quả tìm kiếm.</string>
     <string name="revanced_hide_album_card_summary_off">Đĩa nhạc được hiển thị trong kết quả tìm kiếm.</string>
@@ -951,6 +948,9 @@ Sự cố đã biết: Tiêu đề của thẻ chính thức đã ẩn khỏi k�
     <string name="revanced_hide_shorts_subscribe_button_title">Ẩn nút Đăng ký</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_on">Nút đăng ký đã ẩn.</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_off">Nút đăng ký được hiển thị.</string>
+    <string name="revanced_hide_shorts_paused_header_title">Ẩn tiêu đề tạm dừng</string>
+    <string name="revanced_hide_shorts_paused_header_summary_on">Tiêu đề tạm dừng đã bị ẩn.</string>
+    <string name="revanced_hide_shorts_paused_header_summary_off">Tiêu đề tạm dừng đã được hiển thị.</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">Lớp phủ nút tạm dừng</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">Lớp phủ nút tạm dừng được ẩn.</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">Lớp phủ nút tạm dừng được hiển thị.</string>
@@ -1140,7 +1140,7 @@ Vuốt lên/xuống để chuyển đến video tiếp theo/trước đó.</stri
     <string name="revanced_custom_playback_speeds_invalid">Tốc độ phát tùy chỉnh không hợp lệ. Đã đặt lại về giá trị mặc định.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Tốc độ phát tùy chỉnh không hợp lệ. Sử dụng các giá trị mặc định.</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->
-    <string name="revanced_preference_screen_ryd_title">Lượt không thích</string>
+    <string name="revanced_preference_screen_ryd_title">Return YouTube Dislike</string>
     <string name="revanced_ryd_enable_title">Hiện số lượt không thích</string>
     <string name="revanced_ryd_enable_summary_on">Số lượt không thích được hiển thị.</string>
     <string name="revanced_ryd_enable_summary_off">Số lượt Không thích đã bị ẩn.</string>

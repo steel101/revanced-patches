@@ -79,10 +79,7 @@ Tocca qui per saperne di più su DeArrow"</string>
     <string name="revanced_alt_thumbnail_stills_time_entry_3">Fine video</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow temporaneamente non disponibile (%s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow temporaneamente non disponibile</string>
-    <string name="revanced_alt_thumbnail_use_alternative_domain_title">Usa dominio alternativo per le immagini</string>
-    <string name="revanced_alt_thumbnail_use_alternative_domain_summary">Sostituisce il dominio bloccato in alcune regioni in modo che le miniature video, gli avatar dei canali, le immagini dei post della comunità, ecc. possano essere ricevute.</string>
-    <string name="revanced_alt_thumbnail_alternative_domain_title">Dominio alternativo</string>
-    <string name="revanced_alt_thumbnail_alternative_domain_summary">Il dominio da cui prelevare le immagini.\nNota: Inserisce solo il nome di dominio, cioè senza il prefisso \"https\:\/\/\".</string>
+    <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Feed</string>
     <string name="revanced_hide_album_card_title">Nascondi le schede degli album</string>
@@ -797,6 +794,8 @@ Tocca e tieni premuto per copiare l'URL del video con il timestamp"</string>
     <string name="revanced_overlay_button_copy_video_url_timestamp_title">Mostra il pulsante Copia URL Video con Timestamp</string>
     <string name="revanced_overlay_button_copy_video_url_timestamp_summary">"Tocca per copiare l'URL del video con il timestamp.
 Tocca e tieni premuto per copiare il timestamp del video"</string>
+    <string name="revanced_overlay_button_mute_volume_title">Mostra pulsante volume silenziato</string>
+    <string name="revanced_overlay_button_mute_volume_summary">Tocca per silenziare il volume del video corrente. Tocca di nuovo per disattivarlo.</string>
     <string name="revanced_overlay_button_external_downloader_title">Mostra il pulsante Download Esterno</string>
     <string name="revanced_overlay_button_external_downloader_summary">Tocca per avviare il downloader esterno</string>
     <string name="revanced_overlay_button_speed_dialog_title">Mostra la finestra di dialogo della velocità</string>
@@ -956,6 +955,9 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
     <string name="revanced_hide_shorts_subscribe_button_title">Nascondi il pulsante d\'iscrizione</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_on">Il pulsante d\'iscrizione è nascosto.</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_off">Il pulsante d\'iscrizione è mostrato.</string>
+    <string name="revanced_hide_shorts_paused_header_title">Nascondi l\'intestazione in pausa</string>
+    <string name="revanced_hide_shorts_paused_header_summary_on">L\'intestazione in pausa è nascosta.</string>
+    <string name="revanced_hide_shorts_paused_header_summary_off">L\'intestazione in pausa è mostrata.</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">Nascondi i pulsanti di sovrapposizione in pausa</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">I pulsanti di sovrapposizione in pausa sono nascosti.</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">I pulsanti di sovrapposizione in pausa sono mostrati.</string>

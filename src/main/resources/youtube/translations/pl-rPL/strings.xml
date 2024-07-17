@@ -79,10 +79,7 @@ Stuknij tutaj, aby dowiedzieć się więcej o DeArrow."</string>
     <string name="revanced_alt_thumbnail_stills_time_entry_3">Koniec filmu</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow jest tymczasowo niedostępne. (kod statusu: %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow jest tymczasowo niedostępne.</string>
-    <string name="revanced_alt_thumbnail_use_alternative_domain_title">Zastępcza domena dla obrazów</string>
-    <string name="revanced_alt_thumbnail_use_alternative_domain_summary">Zastępuje domenę, która jest blokowana w niektórych regionach, aby można było otrzymywać miniaturki filmów, awatary kanałów, obrazy w postach społeczności itp.</string>
-    <string name="revanced_alt_thumbnail_alternative_domain_title">Alternatywna domena</string>
-    <string name="revanced_alt_thumbnail_alternative_domain_summary">Domena, z której mają być pobierane obrazy.\nNotka: Wprowadź tylko nazwę domeny, tzn. bez prefiksu \"https\:\/\/\".</string>
+    <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Strona główna</string>
     <string name="revanced_hide_album_card_title">Karty albumów</string>
@@ -955,6 +952,9 @@ Ograniczenie: Nagłówki z tytułami będą ukryte w wynikach wyszukiwania."</st
     <string name="revanced_hide_shorts_subscribe_button_title">Przycisk od subskrybowania</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_on">Ukryty</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_off">Widoczny</string>
+    <string name="revanced_hide_shorts_paused_header_title">Nagłówek po spauzowaniu</string>
+    <string name="revanced_hide_shorts_paused_header_summary_on">Ukryty</string>
+    <string name="revanced_hide_shorts_paused_header_summary_off">Widoczny</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">Zatrzymane przyciski w odtwarzaczu</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">Ukryte</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">Widoczne</string>

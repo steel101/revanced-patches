@@ -81,10 +81,7 @@ Koppints ide, ha többet szeretnél megtudni a DeArrow-ról."</string>
     <string name="revanced_alt_thumbnail_stills_time_entry_3">Videó vége</string>
     <string name="revanced_alt_thumbnail_dearrow_error">A DeArrow átmenetileg nem érhető el. (státusz kód: %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">A DeArrow átmenetileg nem elérhető.</string>
-    <string name="revanced_alt_thumbnail_use_alternative_domain_title">Alternatív domain használata a képekhez</string>
-    <string name="revanced_alt_thumbnail_use_alternative_domain_summary">Lecseréli a domain-t, ami az egyes régiókban blokkolva van, így a videók miniatűrjei, a csatorna profilképei, a közösségi posztok képei, stb. fogadhatóak.</string>
-    <string name="revanced_alt_thumbnail_alternative_domain_title">Alternatív domain</string>
-    <string name="revanced_alt_thumbnail_alternative_domain_summary">A domain, ahonnan a képeket le lehet hívni.\nMegjegyzés: Csak a domainnevet írd be, azaz a \"https\:\/\/\" előtag nélkül.</string>
+    <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Hírfolyam</string>
     <string name="revanced_hide_album_card_title">Album kártyák elrejtése</string>
@@ -952,6 +949,9 @@ Korlát: A hivatalos fejlécek a keresési eredményekben el lesznek rejtve."</s
     <string name="revanced_hide_shorts_subscribe_button_title">Feliratkozás gomb elrejtése</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_on">A feliratkozás gomb el van rejtve</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_off">A feliratkozás gomb látható</string>
+    <string name="revanced_hide_shorts_paused_header_title">Szüneteltetett fejléc elrejtése</string>
+    <string name="revanced_hide_shorts_paused_header_summary_on">A szüneteltetett fejléc el van rejtve.</string>
+    <string name="revanced_hide_shorts_paused_header_summary_off">A szüneteltetett fejléc látható.</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">Szüneteltetett fedő gombok elrejtése</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">A szüneteltetett fedő gombok el vannak rejtve</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">A szüneteltetett fedő gombok megjelennek</string>

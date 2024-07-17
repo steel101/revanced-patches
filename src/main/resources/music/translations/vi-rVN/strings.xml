@@ -37,7 +37,7 @@
     <string name="revanced_external_downloader_action_summary">"Nút tải xuống mở trình tải xuống bên thứ ba của bạn.
 
 • Chỉ ghi đè lên nút Tải xuống trong trình phát.
-• Không ghi đè lên nút Tải xuống trong Thanh menu nổi hoặc Thư viện."</string>
+• Không ghi đè lên nút Tải xuống trong Trình đơn tuỳ chọn hoặc Thư viện."</string>
     <string name="revanced_external_downloader_package_name_title">Tên gói ứng dụng trình tải xuống</string>
     <string name="revanced_external_downloader_package_name_summary">Nhập tên gói ứng dụng trình tải xuống đã cài đặt trên thiết bị của bạn, chẳng hạn như NewPipe hoặc YTDLnis.</string>
     <string name="revanced_external_downloader_dialog_title">Trình tải xuống bên thứ ba</string>
@@ -65,15 +65,15 @@ Nếu tính năng này tắt, quảng cáo toàn màn hình sẽ bị chặn (c�
     <string name="revanced_hide_premium_renewal_title">Ẩn quảng cáo biểu ngữ</string>
     <string name="revanced_hide_premium_renewal_summary">Ẩn quảng cáo biểu ngữ mua Music Premium.</string>
     <!-- PreferenceScreen: Flyout -->
-    <string name="revanced_preference_screen_flyout_title">Thanh menu nổi</string>
+    <string name="revanced_preference_screen_flyout_title">Trình đơn tuỳ chọn</string>
     <string name="revanced_enable_compact_dialog_title">Trình đơn tuỳ chọn thu gọn</string>
-    <string name="revanced_enable_compact_dialog_summary">"Bật menu nổi thu gọn trên điện thoại.
+    <string name="revanced_enable_compact_dialog_summary">"Bật trình đơn tuỳ chọn dạng hộp thoại.
 
 Hạn chế:
-- Ảnh bìa album trong thẻ Thư viện (Danh sách phát, Podcast, Bài hát, Đĩa nhạc, Nghệ sĩ,...) cũng thu gọn theo.
-- Bố cục Hẹn giờ ngủ có thể xuất hiện bất thường."</string>
+• Ảnh bìa Album trong thẻ Thư viện (Danh sách phát, Podcast, Bài hát, Đĩa nhạc, Nghệ sĩ,...) cũng thu gọn theo.
+• Bố cục Hẹn giờ ngủ có thể xuất hiện bất thường."</string>
     <string name="revanced_enable_trim_silence_title">Thêm công tắc Cắt bỏ khoảng im lặng</string>
-    <string name="revanced_enable_trim_silence_summary">"Thêm công tắc Cắt bớt khoảng im lặng vào thanh menu nổi tốc độ phát lại.
+    <string name="revanced_enable_trim_silence_summary">"Thêm nút Trim silence vào trình đơn tuỳ chọn tốc độ phát lại.
 
  Cụ thể:
  • Tính năng này dành cho podcast.
@@ -247,7 +247,7 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_remember_video_quality_none">Đặt chất lượng video thất bại.</string>
     <string name="revanced_remember_video_quality_wifi">Đã lưu chất lượng video mặc định trên mạng Wi-Fi thành %s.</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->
-    <string name="revanced_preference_screen_ryd_title">Return YouTube Dislike (hiển thị số lượt không thích)</string>
+    <string name="revanced_preference_screen_ryd_title">Return YouTube Dislike</string>
     <string name="revanced_ryd_enabled_title">Kích hoạt Hiển thị số lượt không thích</string>
     <string name="revanced_ryd_enabled_summary">Hiển thị số lượt không thích của bài hát và video nhạc.</string>
     <string name="revanced_ryd_dislike_percentage_title">Hiện số lượt không thích theo phần trăm</string>
@@ -265,8 +265,8 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_ryd_failure_generic">Số lượt không thích không khả dụng (%s).</string>
     <string name="revanced_ryd_video_likes_hidden_by_video_owner">Ẩn</string>
     <!-- PreferenceScreen: SponsorBlock -->
-    <string name="revanced_preference_screen_sb_title">SponsorBlock (chặn nhà tài trợ)</string>
-    <string name="revanced_sb_enabled">Kích hoạt Chặn nhà tài trợ</string>
+    <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
+    <string name="revanced_sb_enabled">Kích hoạt SponsorBlock</string>
     <string name="revanced_sb_enabled_sum">SponsorBlock là một tiện tích được đóng góp bởi cộng đồng nhằm bỏ qua các phân đoạn gây khó chịu trong video YouTube.</string>
     <string name="revanced_sb_toast_on_connection_error">Hiện thông báo ngắn nếu API không khả dụng</string>
     <string name="revanced_sb_toast_on_connection_error_sum">Hiện thông báo ngắn nếu API SponsorBlock không khả dụng.</string>

@@ -79,10 +79,7 @@
     <string name="revanced_alt_thumbnail_stills_time_entry_3">Кінець відео</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow тимчасово недоступний. (код статусу: %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow тимчасово недоступний.</string>
-    <string name="revanced_alt_thumbnail_use_alternative_domain_title">Використовувати альтернативний домен для зображень</string>
-    <string name="revanced_alt_thumbnail_use_alternative_domain_summary">Замінює домен, заблокований у деяких регіонах, щоб отримати мініатюри відео, аватари каналів, зображення публікацій спільноти, тощо.</string>
-    <string name="revanced_alt_thumbnail_alternative_domain_title">Альтернативний домен</string>
-    <string name="revanced_alt_thumbnail_alternative_domain_summary">Домен для отримання зображень.\nЗауваження: Вводьте лише ім\'я домену, тобто без префікса \"https\:\/\/\".</string>
+    <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Стрічка</string>
     <string name="revanced_hide_album_card_title">Приховати картки альбому</string>

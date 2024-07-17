@@ -81,10 +81,7 @@ Pulsa aquí para saber más sobre DeArrow."</string>
     <string name="revanced_alt_thumbnail_stills_time_entry_3">Final del vídeo</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow temporalmente no disponible. (código de estado: %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow temporalmente no disponible.</string>
-    <string name="revanced_alt_thumbnail_use_alternative_domain_title">Utilizar dominio alternativo para imágenes</string>
-    <string name="revanced_alt_thumbnail_use_alternative_domain_summary">Reemplaza el dominio que está bloqueado en algunas regiones para que se puedan recibir las miniaturas de vídeo, avatares de canales, imágenes de publicaciones de la comunidad, etc.</string>
-    <string name="revanced_alt_thumbnail_alternative_domain_title">Dominio alternativo</string>
-    <string name="revanced_alt_thumbnail_alternative_domain_summary">El dominio del que se obtendrán las imágenes.\nNota: Introduzca solo el nombre del dominio, es decir, sin el prefijo \"https\:\/\/\".</string>
+    <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Feed</string>
     <string name="revanced_hide_album_card_title">Ocultar tarjetas de álbum</string>
@@ -959,6 +956,9 @@ Limitación: las cabeceras oficiales en los resultados de búsqueda estarán ocu
     <string name="revanced_hide_shorts_subscribe_button_title">Ocultar botón de suscribirse</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_on">El botón de suscribirse está oculto.</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_off">El botón de suscribirse está visible.</string>
+    <string name="revanced_hide_shorts_paused_header_title">Ocultar cabecera pausada</string>
+    <string name="revanced_hide_shorts_paused_header_summary_on">La cabecera pausada está oculta.</string>
+    <string name="revanced_hide_shorts_paused_header_summary_off">La cabecera pausada está visible.</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">Ocultar botones superpuestos en pausa</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">Los botones superpuestos en pausa están ocultos.</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">Los botones superpuestos en pausa están visibles.</string>

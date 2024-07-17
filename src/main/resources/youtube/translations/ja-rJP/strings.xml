@@ -79,10 +79,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_alt_thumbnail_stills_time_entry_3">動画の最後</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow は一時的に利用できません。(ステータスコード: %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow は一時的に利用できません。</string>
-    <string name="revanced_alt_thumbnail_use_alternative_domain_title">画像に代替ドメインを使用</string>
-    <string name="revanced_alt_thumbnail_use_alternative_domain_summary">一部の地域でブロックされているドメインを置き換えることで、動画のサムネイル、チャンネルのアバター、コミュニティの投稿画像などを閲覧可能にします。</string>
-    <string name="revanced_alt_thumbnail_alternative_domain_title">代替ドメイン</string>
-    <string name="revanced_alt_thumbnail_alternative_domain_summary">画像を取得するためのドメインです。\n注意: 「https://」のような接頭辞を付けずにドメイン名のみを入力してください。</string>
+    <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">フィード</string>
     <string name="revanced_hide_album_card_title">アルバムカードを非表示</string>
@@ -351,7 +348,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_miniplayer_type_entry_4">モダン1</string>
     <string name="revanced_miniplayer_type_entry_5">モダン2</string>
     <string name="revanced_miniplayer_type_entry_6">モダン3</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_title">ダブルタップアクション</string>
+    <string name="revanced_miniplayer_enable_double_tap_action_title">ダブルタップアクションを有効化</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"ダブルタップアクションを有効化します。
 
 ・モダン1: ダブルタップで、最小化された動画を大きなサイズに変更します。
@@ -793,6 +790,8 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_overlay_button_copy_video_url_timestamp_title">タイムスタンプ付き URL のコピーボタンを表示</string>
     <string name="revanced_overlay_button_copy_video_url_timestamp_summary">"タップしてタイムスタンプ付き URL をコピー
 長押ししてタイムスタンプをコピー"</string>
+    <string name="revanced_overlay_button_mute_volume_title">音声ミュートボタンを表示</string>
+    <string name="revanced_overlay_button_mute_volume_summary">現在の動画の音声をミュートするには、タップします。 ミュートを解除するには、もう一度タップします。</string>
     <string name="revanced_overlay_button_external_downloader_title">外部ダウンロードボタンを表示</string>
     <string name="revanced_overlay_button_external_downloader_summary">タップして外部の動画ダウンローダーを起動します。</string>
     <string name="revanced_overlay_button_speed_dialog_title">再生速度のダイアログボタンを表示</string>
@@ -949,6 +948,9 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_shorts_subscribe_button_title">「チャンネル登録」ボタンを非表示</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_on">「チャンネル登録」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_off">「チャンネル登録」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_paused_header_title">一時停止中のヘッダーを非表示</string>
+    <string name="revanced_hide_shorts_paused_header_summary_on">一時停止中に左上に表示される「ショート」を非表示にします。</string>
+    <string name="revanced_hide_shorts_paused_header_summary_off">一時停止中に左上に表示される「ショート」を非表示にします。</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">一時停止中のオーバーレイボタンを非表示</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">一時停止中に表示されるオーバーレイボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">一時停止中に表示されるオーバーレイボタンを非表示にします。</string>
@@ -1025,10 +1027,13 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">非表示</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
     <string name="revanced_enable_shorts_time_stamp_title">タイムスタンプを表示</string>
-    <string name="revanced_enable_shorts_time_stamp_summary_on">"タイムスタンプを表示します。
+    <string name="revanced_enable_shorts_time_stamp_summary_on">"プレーヤーの左下にタイムスタンプを表示します。
 
-注意: 開発段階の機能であるため、レイアウトが崩れる可能性があります。"</string>
-    <string name="revanced_enable_shorts_time_stamp_summary_off">タイムスタンプを表示します。\n\n注意: 開発段階の機能であるため、レイアウトが崩れる可能性があります。</string>
+注意:
+・プレーヤーの背景をタップすると UI が非表示 (画面クリアモード) になります。
+・開発段階の機能であるため、レイアウトが崩れる可能性があります。"</string>
+    <string name="revanced_enable_shorts_time_stamp_summary_off">プレーヤーの左下にタイムスタンプを表示します。\n\n注意: \n・プレーヤーの背景をタップすると UI が非表示 (画面クリアモード) になります。\n
+・開発段階の機能であるため、レイアウトが崩れる可能性があります。</string>
     <string name="revanced_shorts_time_stamp_change_repeat_state_title">タイムスタンプ長押し時の動作</string>
     <string name="revanced_shorts_time_stamp_change_repeat_state_summary">タイムスタンプを長押しすると、ショートのリピート状態を変更できます。</string>
     <string name="revanced_shorts_meta_panel_bottom_margin_title">メタパネルの下部の余白</string>

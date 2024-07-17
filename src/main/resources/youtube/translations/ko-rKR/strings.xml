@@ -81,10 +81,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_alt_thumbnail_stills_time_entry_3">동영상의 끝 부분 이미지</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow를 일시적으로 사용할 수 없습니다. (상태 코드: %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow를 일시적으로 사용할 수 없습니다.</string>
-    <string name="revanced_alt_thumbnail_use_alternative_domain_title">이미지에 대체 도메인 사용하기</string>
-    <string name="revanced_alt_thumbnail_use_alternative_domain_summary">일부 국가에서 차단된 도메인을 변경하여 동영상 썸네일, 채널 아바타, 커뮤니티 게시물 이미지 등을 수신할 수 있습니다.</string>
-    <string name="revanced_alt_thumbnail_alternative_domain_title">대체 도메인</string>
-    <string name="revanced_alt_thumbnail_alternative_domain_summary">이미지를 가져올 대체 도메인을 입력하세요.\n알림: \'https\:\/\/\' 없이 도메인 이름만 입력해야 합니다.</string>
+    <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">피드</string>
     <string name="revanced_hide_album_card_title">음악 앨범 카드 숨기기</string>
@@ -967,8 +964,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_on">구독 버튼이 숨겨집니다.</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_off">구독 버튼이 노출됩니다.</string>
     <string name="revanced_hide_shorts_paused_header_title">일시 정지 헤더 숨기기</string>
-    <string name="revanced_hide_shorts_paused_header_summary_on">일시 정지 헤더가 숨겨집니다. (Shorts 헤더)</string>
-    <string name="revanced_hide_shorts_paused_header_summary_off">일시 정지 헤더가 노출됩니다. (Shorts 헤더)</string>
+    <string name="revanced_hide_shorts_paused_header_summary_on">일시 정지 헤더(Shorts 헤더)가 숨겨집니다.</string>
+    <string name="revanced_hide_shorts_paused_header_summary_off">일시 정지 헤더(Shorts 헤더)가 노출됩니다.</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">일시 정지 오버레이 버튼 숨기기</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">플레이어 왼쪽 상단에서 \'구독\' &amp; \'라이브\' &amp; \'쇼핑\' 버튼이 숨겨집니다.</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">플레이어 왼쪽 상단에서 \'구독\' &amp; \'라이브\' &amp; \'쇼핑\' 버튼이 노출됩니다.</string>
