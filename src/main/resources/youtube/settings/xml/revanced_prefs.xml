@@ -34,7 +34,7 @@
         <ListPreference android:entries="@array/revanced_alt_thumbnail_stills_time_entries" android:title="@string/revanced_alt_thumbnail_stills_time_title" android:key="revanced_alt_thumbnail_stills_time" android:entryValues="@array/revanced_alt_thumbnail_stills_time_entry_values" />SETTINGS: ALTERNATIVE_THUMBNAILS -->
 
         <!-- SETTINGS: BYPASS_IMAGE_REGION_RESTRICTIONS
-        <PreferenceCategory android:title="@string/revanced_preference_category_experimental_flag" android:layout="@layout/revanced_settings_preferences_category"/>
+        <PreferenceCategory android:title="@string/revanced_preference_category_image_region_restrictions" android:layout="@layout/revanced_settings_preferences_category"/>
         <SwitchPreference android:title="@string/revanced_bypass_image_region_restrictions_title" android:key="revanced_bypass_image_region_restrictions" android:summaryOn="@string/revanced_bypass_image_region_restrictions_summary_on" android:summaryOff="@string/revanced_bypass_image_region_restrictions_summary_off" />SETTINGS: BYPASS_IMAGE_REGION_RESTRICTIONS -->
 
     <!-- PREFERENCE_SCREEN: ALTERNATIVE_THUMBNAILS
