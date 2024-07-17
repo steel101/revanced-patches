@@ -6,6 +6,7 @@ import app.revanced.patcher.patch.PatchException
 import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patcher.patch.options.PatchOption.PatchExtensions.booleanPatchOption
 import app.revanced.patcher.patch.options.PatchOption.PatchExtensions.stringPatchOption
+import app.revanced.util.Utils.trimIndentMultiline
 import app.revanced.util.valueOrThrow
 import org.w3c.dom.Element
 import org.w3c.dom.Node
@@ -43,7 +44,11 @@ abstract class BaseGmsCoreSupportResourcePatch(
         key = "CheckGmsCore",
         default = true,
         title = "Check GmsCore",
-        description = "The vendor's group ID for GmsCore.",
+        description = """
+            Checks whether GmsCore is installed on the device when the app starts.
+            
+            If GmsCore is not installed on your device, the app won't work, so don't disable it if possible.
+            """.trimIndentMultiline(),
         required = true,
     )
     internal val PackageNameYouTube = stringPatchOption(
