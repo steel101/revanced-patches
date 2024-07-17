@@ -321,6 +321,8 @@ Eski oynatıcı düzeninde bazı ayarlar düzgün çalışmayabilir."</string>
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Diğer ayarlar</string>
+    <string name="revanced_bypass_image_region_restrictions_title">Resimlerin bölge kısıtlamalarını atla</string>
+    <string name="revanced_bypass_image_region_restrictions_summary">Bazı bölgelerde engellenen alan adını değiştirerek oynatma listesi küçük resimlerinin, kanal avatarlarının vb. alınabilmesini sağlar.</string>
     <string name="revanced_enable_cairo_splash_animation_title">Kahire açılış animasyonunu etkinleştir</string>
     <string name="revanced_enable_cairo_splash_animation_summary">Uyuklama başlangıcında kahire açılış animasyonunu etkinleştirir.</string>
     <string name="revanced_enable_debug_logging_title">Hata ayıklama günlüğünü etkinleştir</string>

@@ -80,6 +80,10 @@ DeArrow hakkında daha fazla bilgi edinmek için buraya dokunun."</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow geçici olarak kullanılamıyor (durum kodu: %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow geçici olarak kullanılamıyor.</string>
     <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
+    <string name="revanced_preference_category_image_region_restrictions">Resim bölgesi kısıtlamaları</string>
+    <string name="revanced_bypass_image_region_restrictions_title">Resimlerin bölge kısıtlamalarını atla</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_on">Yt4.ggpht.com resim sunucusu kullanılıyor.</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_off">Orijinal resim barındırıcısı kullanılıyor.\n\nBunun etkinleştirilmesi bazı bölgelerde engellenen eksik resimleri düzeltebilir.</string>
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Akış</string>
     <string name="revanced_hide_album_card_title">Albüm kartlarını gizle</string>
@@ -1052,6 +1056,9 @@ Bilinen sorunlar:
     <string name="revanced_enable_swipe_volume_title">Kaydırarak sesi ayarla</string>
     <string name="revanced_enable_swipe_volume_summary_on">Video tam ekrandayken, ekranın sağını kaydırarak sesi ayarlama açık</string>
     <string name="revanced_enable_swipe_volume_summary_off">Video tam ekrandayken, ekranın sağını kaydırarak sesi ayarlama kapalı</string>
+    <string name="revanced_enable_save_and_restore_brightness_title">Kaydetmeyi ve parlaklığı geri yüklemeyi etkinleştir</string>
+    <string name="revanced_enable_save_and_restore_brightness_summary_on">Tam ekrandan çıkarken veya tam ekrana girerken parlaklığı kaydedin ve geri yükleyin.</string>
+    <string name="revanced_enable_save_and_restore_brightness_summary_off">Tam ekrana girip çıkarken parlaklığı kaydetme ve geri yükleme.</string>
     <string name="revanced_enable_swipe_press_to_engage_title">Basılı tut ve kaydır hareketini etkinleştir</string>
     <string name="revanced_enable_swipe_press_to_engage_summary_on">Kaydırma hareketini etkinleştirmek için dokunun ve basılı tutun.</string>
     <string name="revanced_enable_swipe_press_to_engage_summary_off">Kaydırma hareketini etkinleştirmek için dokunun.</string>

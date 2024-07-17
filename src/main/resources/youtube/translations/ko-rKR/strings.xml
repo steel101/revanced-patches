@@ -82,6 +82,10 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow를 일시적으로 사용할 수 없습니다. (상태 코드: %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow를 일시적으로 사용할 수 없습니다.</string>
     <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
+    <string name="revanced_preference_category_image_region_restrictions">이미지 표시 국가 제한</string>
+    <string name="revanced_bypass_image_region_restrictions_title">이미지 표시 국가 제한 우회하기</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_on">이미지 호스트로 yt4.ggpht.com를 사용합니다.</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_off">기본 이미지 호스트를 사용합니다.\n\n이 설정을 활성화하면 일부 국가에서 차단된 이미지를 수신할 수 있습니다. (채널 프로필 사진, 커뮤니티 게시물 이미지 ...)</string>
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">피드</string>
     <string name="revanced_hide_album_card_title">음악 앨범 카드 숨기기</string>
@@ -466,8 +470,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_custom_player_overlay_opacity_summary">불투명도 값은 0-100 사이이며, 0은 투명입니다.</string>
     <string name="revanced_custom_player_overlay_opacity_invalid_toast">불투명도 값은 0-100 사이어야 하므로 기본값으로 초기화합니다.</string>
     <string name="revanced_disable_auto_player_popup_panels_title">플레이어 팝업 패널 비활성화하기</string>
-    <string name="revanced_disable_auto_player_popup_panels_summary_on">자동 플레이어 팝업 패널을 비활성화합니다.\n• 재생목록, 실시간 채팅 ...</string>
-    <string name="revanced_disable_auto_player_popup_panels_summary_off">자동 플레이어 팝업 패널을 활성화합니다.\n• 재생목록, 실시간 채팅 ...</string>
+    <string name="revanced_disable_auto_player_popup_panels_summary_on">자동 플레이어 팝업 패널을 비활성화합니다.\n• 재생목록, 실시간 채팅, 제품 선반 ...</string>
+    <string name="revanced_disable_auto_player_popup_panels_summary_off">자동 플레이어 팝업 패널을 활성화합니다.\n• 재생목록, 실시간 채팅, 제품 선반 ...</string>
     <string name="revanced_disable_speed_overlay_title">동영상 재생 속도 오버레이 비활성화하기</string>
     <string name="revanced_disable_speed_overlay_summary">"화면을 길게 눌러서 '2배속 &gt;&gt;'을 비활성화합니다.
 
@@ -1073,6 +1077,9 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_enable_swipe_volume_title">스와이프 제스처로 볼륨 조절 활성화하기</string>
     <string name="revanced_enable_swipe_volume_summary_on">스와이프 제스처로 볼륨 조절을 활성화합니다.</string>
     <string name="revanced_enable_swipe_volume_summary_off">스와이프 제스처로 볼륨 조절을 비활성화합니다.</string>
+    <string name="revanced_enable_save_and_restore_brightness_title">화면 밝기 값 저장 및 복원 활성화하기</string>
+    <string name="revanced_enable_save_and_restore_brightness_summary_on">전체 화면에서 나가거나 들어갈 때마다 화면 밝기 값을 저장 및 복원합니다.</string>
+    <string name="revanced_enable_save_and_restore_brightness_summary_off">전체 화면에서 나가거나 들어갈 때마다 화면 밝기 값을 저장 및 복원하지 않습니다.</string>
     <string name="revanced_enable_swipe_press_to_engage_title">길게 눌러서 스와이프 제스처 사용하기</string>
     <string name="revanced_enable_swipe_press_to_engage_summary_on">화면을 길게 눌러서 스와이프 제스처를 사용합니다.</string>
     <string name="revanced_enable_swipe_press_to_engage_summary_off">화면을 짧게 눌러서 스와이프 제스처를 사용합니다.</string>

@@ -80,6 +80,10 @@ Stuknij tutaj, aby dowiedzieć się więcej o DeArrow."</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow jest tymczasowo niedostępne. (kod statusu: %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow jest tymczasowo niedostępne.</string>
     <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
+    <string name="revanced_preference_category_image_region_restrictions">Ograniczenia regionu dla obrazów</string>
+    <string name="revanced_bypass_image_region_restrictions_title">Host dla obrazów</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_on">yt4.ggpht.com</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_off">Oryginalny\n\nWłączenie tej opcji może naprawić brakujące obrazy, które są blokowane w niektórych regionach.</string>
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Strona główna</string>
     <string name="revanced_hide_album_card_title">Karty albumów</string>
@@ -1062,6 +1066,9 @@ Ograniczenia:
     <string name="revanced_enable_swipe_volume_title">Zmienianie głośności przesuwaniem</string>
     <string name="revanced_enable_swipe_volume_summary_on">Włączone</string>
     <string name="revanced_enable_swipe_volume_summary_off">Wyłączone</string>
+    <string name="revanced_enable_save_and_restore_brightness_title">Zapisuj i przywracaj jasność podczas zamykania lub wchodzenia w tryb pełnoekranowy</string>
+    <string name="revanced_enable_save_and_restore_brightness_summary_on">Tak</string>
+    <string name="revanced_enable_save_and_restore_brightness_summary_off">Nie</string>
     <string name="revanced_enable_swipe_press_to_engage_title">Naciśnij, by przesunąć</string>
     <string name="revanced_enable_swipe_press_to_engage_summary_on">Stuknij i przytrzymaj, aby aktywować przesuwanie</string>
     <string name="revanced_enable_swipe_press_to_engage_summary_off">Stuknij, aby aktywować przesuwanie</string>

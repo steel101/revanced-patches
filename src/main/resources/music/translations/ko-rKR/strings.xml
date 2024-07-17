@@ -323,6 +323,8 @@
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">기타</string>
+    <string name="revanced_bypass_image_region_restrictions_title">이미지 표시 국가 제한 우회하기</string>
+    <string name="revanced_bypass_image_region_restrictions_summary">이미지 도메인을 변경하여 일부 국가에서 차단된 재생목록 썸네일, 채널 프로필 사진, 커뮤니티 게시물 이미지 등을 수신할 수 있습니다.</string>
     <string name="revanced_enable_cairo_splash_animation_title">Cairo 스플래시 애니메이션 활성화</string>
     <string name="revanced_enable_cairo_splash_animation_summary">앱을 시작할 때, Cairo 스플래시 애니메이션을 활성화합니다.</string>
     <string name="revanced_enable_debug_logging_title">디버그 로깅 활성화</string>

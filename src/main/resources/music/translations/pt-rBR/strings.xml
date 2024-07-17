@@ -322,6 +322,8 @@ Alguns recursos podem não funcionar corretamente no layout antigo do reprodutor
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Diversos</string>
+    <string name="revanced_bypass_image_region_restrictions_title">Ignorar restrições de imagem por região</string>
+    <string name="revanced_bypass_image_region_restrictions_summary">Substitui o domínio que está bloqueado em algumas regiões para que miniaturas para playlists, avatares de canais, etc. possam ser recebidos.</string>
     <string name="revanced_enable_cairo_splash_animation_title">Ativar animação inicial do Cairo</string>
     <string name="revanced_enable_cairo_splash_animation_summary">Ativa a animação inicial do Cairo quando o aplicativo é iniciado.</string>
     <string name="revanced_enable_debug_logging_title">Ativar o relatório de depuração</string>

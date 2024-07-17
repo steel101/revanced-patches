@@ -82,6 +82,10 @@ Koppints ide, ha többet szeretnél megtudni a DeArrow-ról."</string>
     <string name="revanced_alt_thumbnail_dearrow_error">A DeArrow átmenetileg nem érhető el. (státusz kód: %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">A DeArrow átmenetileg nem elérhető.</string>
     <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
+    <string name="revanced_preference_category_image_region_restrictions">Régiós kép korlátozások</string>
+    <string name="revanced_bypass_image_region_restrictions_title">Kerülje meg a régiós kép korlátozásokat</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_on">Az yt4.ggpht.com cím használata a képekhez.</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_off">Az eredeti cím használata a képekhez.\n\nEnnek engedélyezése javíthatja a hiányzó képeket, amelyek bizonyos régiókban le vannak tiltva.</string>
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Hírfolyam</string>
     <string name="revanced_hide_album_card_title">Album kártyák elrejtése</string>
@@ -1057,6 +1061,9 @@ Ismert hiba: Mivel ez a funkció a Google fejlesztési szakaszában van, előfor
     <string name="revanced_enable_swipe_volume_title">Hangerő csúsztatás engedélyezése</string>
     <string name="revanced_enable_swipe_volume_summary_on">A csúsztatásos hangerő vezérlés engedélyezve van.</string>
     <string name="revanced_enable_swipe_volume_summary_off">A csúsztatásos hangerő vezérlés le van tiltva.</string>
+    <string name="revanced_enable_save_and_restore_brightness_title">A fényerő mentésének és visszaállításának engedélyezése</string>
+    <string name="revanced_enable_save_and_restore_brightness_summary_on">A fényerő mentése és visszaállítása teljes képernyőből való kilépéskor vagy belépéskor.</string>
+    <string name="revanced_enable_save_and_restore_brightness_summary_off">Ne mentse és állítsa vissza a fényerőt, amikor kilép vagy belép a teljes képernyőbe.</string>
     <string name="revanced_enable_swipe_press_to_engage_title">Nyomva húzás engedélyezése</string>
     <string name="revanced_enable_swipe_press_to_engage_summary_on">Érintse meg és tartsa nyomva a csúsztatás engedélyezéséhez.</string>
     <string name="revanced_enable_swipe_press_to_engage_summary_off">Érintse meg a csúsztatás engdélyezéséhez.</string>

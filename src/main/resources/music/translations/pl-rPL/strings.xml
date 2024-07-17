@@ -322,6 +322,8 @@ Niektóre ustawienia mogą nie działać poprawnie ze starym układem odtwarzacz
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Pozostałe</string>
+    <string name="revanced_bypass_image_region_restrictions_title">Pomiń ograniczenia regionu dla obrazów</string>
+    <string name="revanced_bypass_image_region_restrictions_summary">Zastępuje domenę, która jest blokowana w niektórych regionach, aby można było otrzymywać miniaturki playlist, awatary kanałów itp.</string>
     <string name="revanced_enable_cairo_splash_animation_title">Włącz animację uruchamiania aplikacji</string>
     <string name="revanced_enable_cairo_splash_animation_summary">Włącza animację ładowania aplikacji związaną z motywem Cairo podczas otwierania aplikacji.</string>
     <string name="revanced_enable_debug_logging_title">Włącz logowanie debugowania</string>

@@ -82,6 +82,10 @@ Nhấn vào đây để tìm hiểu thêm về DeArrow."</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow tạm thời không khả dụng (Mã trạng thái: %s).</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow tạm thời không khả dụng.</string>
     <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
+    <string name="revanced_preference_category_image_region_restrictions">Hạn chế vùng hình ảnh</string>
+    <string name="revanced_bypass_image_region_restrictions_title">Bỏ qua hạn chế vùng hình ảnh</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_on">Sử dụng máy chủ hình ảnh yt4.ggpht.com.</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_off">Sử dụng máy chủ lưu trữ hình ảnh gốc.\n\nBật tính năng này có thể khắc phục tình trạng hình ảnh bị chặn ở một số khu vực.</string>
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Bảng tin</string>
     <string name="revanced_hide_album_card_title">Ẩn Đĩa nhạc</string>
@@ -1056,6 +1060,9 @@ Sự cố đã biết: Tiêu đề của thẻ chính thức đã ẩn khỏi k�
     <string name="revanced_enable_swipe_volume_title">Vuốt Âm lượng</string>
     <string name="revanced_enable_swipe_volume_summary_on">Cử chỉ vuốt Âm lượng đã bật.</string>
     <string name="revanced_enable_swipe_volume_summary_off">Cử chỉ vuốt Âm lượng đã tắt.</string>
+    <string name="revanced_enable_save_and_restore_brightness_title">Bật lưu và khôi phục độ sáng</string>
+    <string name="revanced_enable_save_and_restore_brightness_summary_on">Lưu và khôi phục độ sáng khi thoát ra hoặc vào chế độ toàn màn hình.</string>
+    <string name="revanced_enable_save_and_restore_brightness_summary_off">Không lưu và khôi phục độ sáng khi thoát ra hoặc vào chế độ toàn màn hình.</string>
     <string name="revanced_enable_swipe_press_to_engage_title">Nhấn và giữ để vuốt</string>
     <string name="revanced_enable_swipe_press_to_engage_summary_on">Nhấn và giữ để kích hoạt cử chỉ vuốt.</string>
     <string name="revanced_enable_swipe_press_to_engage_summary_off">Nhấn và giữ để vuốt đã tắt.</string>
@@ -1140,7 +1147,7 @@ Vuốt lên/xuống để chuyển đến video tiếp theo/trước đó.</stri
     <string name="revanced_custom_playback_speeds_invalid">Tốc độ phát tùy chỉnh không hợp lệ. Đã đặt lại về giá trị mặc định.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Tốc độ phát tùy chỉnh không hợp lệ. Sử dụng các giá trị mặc định.</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->
-    <string name="revanced_preference_screen_ryd_title">Return YouTube Dislike</string>
+    <string name="revanced_preference_screen_ryd_title">Khôi phục lượt Dislike</string>
     <string name="revanced_ryd_enable_title">Hiện số lượt không thích</string>
     <string name="revanced_ryd_enable_summary_on">Số lượt không thích được hiển thị.</string>
     <string name="revanced_ryd_enable_summary_off">Số lượt Không thích đã bị ẩn.</string>

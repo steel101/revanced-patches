@@ -197,7 +197,7 @@
     <string name="revanced_preference_screen_player_title">Οθόνη αναπαραγωγής</string>
     <string name="revanced_enable_black_player_background_title">Μαύρο φόντο οθόνης αναπαραγωγής</string>
     <string name="revanced_enable_black_player_background_summary">Αλλαγή χρώματος της οθόνης αναπαραγωγής σε μαύρο.</string>
-    <string name="revanced_enable_color_match_player_title">Ταίριασμα χρωμάτων αναπαραγωγών</string>
+    <string name="revanced_enable_color_match_player_title">Ταίριασμα χρωμάτων οθόνων αναπαραγωγής</string>
     <string name="revanced_enable_color_match_player_summary">Να ταιριάζει το χρώμα της ελαχιστοποιημένης οθόνης αναπαραγωγής με αυτό της οθόνης αναπαραγωγής πλήρους οθόνης.</string>
     <string name="revanced_enable_force_minimized_player_title">Εξαναγκαστική ελαχιστοποίηση οθόνης αναπαραγωγής</string>
     <string name="revanced_enable_force_minimized_player_summary">Να διατηρείται μόνιμα ελαχιστοποιημένο το πρόγραμμα αναπαραγωγής ακόμη και όταν αναπαράγεται άλλο κομμάτι.</string>
@@ -322,6 +322,8 @@
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Διάφορα</string>
+    <string name="revanced_bypass_image_region_restrictions_title">Παράκαμψη μπλοκαρίσματος φόρτωσης εικόνων</string>
+    <string name="revanced_bypass_image_region_restrictions_summary">Αντικατάσταση του domain για την φόρτωση εικόνων όπου είναι μπλοκαρισμένες σε ορισμένες περιοχές ώστε να μπορούν να ληφθούν μικρογραφίες βίντεο, εικόνες δημοσιεύσεων, κλπ.</string>
     <string name="revanced_enable_cairo_splash_animation_title">Εφέ εκκίνησης θέματος Cairo</string>
     <string name="revanced_enable_cairo_splash_animation_summary">Ενεργοποίηση των εφέ θέματος Cairo κατά την εκκίνηση της εφαρμογής.</string>
     <string name="revanced_enable_debug_logging_title">Ενεργοποίηση καταγραφής σφαλμάτων</string>
