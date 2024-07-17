@@ -360,6 +360,8 @@ Some features may not work properly in the old player layout."</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Miscellaneous</string>
 
+    <string name="revanced_bypass_image_region_restrictions_title">Bypass image region restrictions</string>
+    <string name="revanced_bypass_image_region_restrictions_summary">Replaces the domain that is blocked in some regions so that playlist thumbnails, channel avatars, etc. can be received.</string>
     <string name="revanced_enable_cairo_splash_animation_title">Enable Cairo splash animation</string>
     <string name="revanced_enable_cairo_splash_animation_summary">Enables Cairo splash animation when the app starts up.</string>
     <string name="revanced_enable_debug_logging_title">Enable debug logging</string>
@@ -390,11 +392,6 @@ Tap on the continue button and disable battery optimizations."</string>
 
     <string name="revanced_sanitize_sharing_links_title">Sanitize sharing links</string>
     <string name="revanced_sanitize_sharing_links_summary">Removes tracking query parameters from URLs when sharing links.</string>
-
-    <string name="revanced_use_alternative_domain_title">Use alternative domain for images</string>
-    <string name="revanced_use_alternative_domain_summary">Replaces the domain that is blocked in some regions so that playlist thumbnails, channel avatars, etc. can be received.</string>
-    <string name="revanced_alternative_domain_title">Alternative domain</string>
-    <string name="revanced_alternative_domain_summary">The domain to fetch images from.\nNote: Only enter the domain name, i.e., without the \"https\:\/\/\" prefix.</string>
 
     <string name="revanced_extended_settings_import_export_title">Import / Export settings</string>
     <string name="revanced_extended_settings_import_export_summary">Import or export settings.</string>
