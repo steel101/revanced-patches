@@ -969,6 +969,9 @@ Side effect: Cairo theme is also applied to notification dots."</string>
     <string name="revanced_hide_chapters_section_title">Hide Chapters section</string>
     <string name="revanced_hide_chapters_section_summary_on">Chapters section is hidden.</string>
     <string name="revanced_hide_chapters_section_summary_off">Chapters section is shown.</string>
+    <string name="revanced_hide_contents_section_title">Hide Contents section</string>
+    <string name="revanced_hide_contents_section_summary_on">How this content was made section is hidden.</string>
+    <string name="revanced_hide_contents_section_summary_off">How this content was made section is shown.</string>
     <string name="revanced_hide_info_cards_section_title">Hide Info cards section</string>
     <string name="revanced_hide_info_cards_section_summary_on">Info cards section is hidden.</string>
     <string name="revanced_hide_info_cards_section_summary_off">Info cards section is shown.</string>
