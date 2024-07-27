@@ -188,7 +188,6 @@ object SpoofClientPatch : BaseBytecodePatch(
                 val buildIndex = indexOfBuildInstruction(it)
                 val instructions = it.getInstructions()
 
-                // The next IPUT_OBJECT instruction after getting the client model is setting the client model field.
                 instructions.subList(
                     buildIndex - 5,
                     buildIndex,
