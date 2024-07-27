@@ -1448,7 +1448,7 @@ Limitation: Dislikes may not appear if the user is not logged in or in incognito
     <string name="revanced_sb_new_segment_choose_category">Choose the segment category</string>
     <string name="revanced_sb_new_segment_disabled_category">Category is disabled in settings. Enable category to submit.</string>
     <string name="revanced_sb_new_segment_title">New SponsorBlock segment</string>
-    <string name="revanced_sb_new_segment_mark_time_as_question">Set %s as the start or end of a new segment?</string>
+    <string name="revanced_sb_new_segment_mark_current_time_as_question">Set %s as the start or end of a new segment?</string>
     <string name="revanced_sb_new_segment_mark_start">start</string>
     <string name="revanced_sb_new_segment_mark_end">end</string>
     <string name="revanced_sb_new_segment_now">now</string>
