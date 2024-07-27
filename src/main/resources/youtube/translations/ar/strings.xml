@@ -422,16 +422,16 @@
 الترجمة"</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">شريط الأدوات</string>
-    <string name="revanced_preference_screen_toolbar_summary">إخفاء أو تغيير المكونات الموجودة على شريط الأدوات، مثل شريط الأدوات وأزرار شريط الأدوات والرأس.</string>
-    <string name="revanced_change_youtube_header_title">تغيير YouTube Header</string>
-    <string name="revanced_change_youtube_header_summary_on">تم تمكين رأس Premium.</string>
-    <string name="revanced_change_youtube_header_summary_off">تم تمكين الرأس العام.</string>
+    <string name="revanced_preference_screen_toolbar_summary">إخفاء أو تغيير المكونات الموجودة على شريط الأدوات، مثل شريط الأدوات وأزرار شريط الأدوات والعلامة.</string>
+    <string name="revanced_change_youtube_header_title">تغيير علامة YouTube</string>
+    <string name="revanced_change_youtube_header_summary_on">تم تمكين علامة Premium.</string>
+    <string name="revanced_change_youtube_header_summary_off">تم تمكين العلامة العامة.</string>
     <string name="revanced_enable_wide_search_bar_title">تمكين شريط البحث العريض</string>
     <string name="revanced_enable_wide_search_bar_summary_on">تم تمكين شريط البحث العريض.</string>
     <string name="revanced_enable_wide_search_bar_summary_off">تم تعطيل شريط البحث العريض.</string>
-    <string name="revanced_enable_wide_search_bar_with_header_title">تمكين شريط البحث العريض مع الرأس</string>
-    <string name="revanced_enable_wide_search_bar_with_header_summary_on">لا يخفي شريط البحث العريض رأس YouTube.</string>
-    <string name="revanced_enable_wide_search_bar_with_header_summary_off">يخفي شريط البحث العريض رأس YouTube.</string>
+    <string name="revanced_enable_wide_search_bar_with_header_title">تمكين شريط البحث العريض مع العلامة</string>
+    <string name="revanced_enable_wide_search_bar_with_header_summary_on">لا يخفي شريط البحث العريض علامة YouTube.</string>
+    <string name="revanced_enable_wide_search_bar_with_header_summary_off">يخفي شريط البحث العريض علامة YouTube.</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_title">تمكين شريط البحث العريض في علامة التبويب أنت</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_summary">"سيؤدي تمكين هذا الإعداد إلى تعطيل زر الإعدادات في علامة التبويب أنت.
 
@@ -524,6 +524,9 @@
 يمكن تغيير التشغيل التلقائي في إعدادات YouTube:
 الإعدادات ← التشغيل التلقائي ← تشغيل الفيديو التالي تلقائيًا"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">يتم عرض شاشة نهاية الفيديو المقترح.</string>
+    <string name="revanced_hide_zoom_overlay_title">إخفاء تراكب التكبير</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">يتم عرض تراكب التكبير.</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">تم إخفاء تراكب التكبير.</string>
     <string name="revanced_skip_autoplay_countdown_title">تخطي العد التنازلي للتشغيل التلقائي</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">إذا تم تمكين التشغيل التلقائي، فسيتم تشغيل الفيديو التالي على الفور.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">إذا تم تمكين التشغيل التلقائي، فسيتم تشغيل الفيديو التالي بعد انتهاء العد التنازلي.</string>
@@ -638,9 +641,9 @@
     <string name="revanced_hide_player_flyout_menu_playback_speed_title">إخفاء قائمة سرعة التشغيل</string>
     <string name="revanced_hide_player_flyout_menu_playback_speed_summary_on">تم إخفاء قائمة سرعة التشغيل.</string>
     <string name="revanced_hide_player_flyout_menu_playback_speed_summary_off">يتم عرض قائمة سرعة التشغيل.</string>
-    <string name="revanced_hide_player_flyout_menu_quality_header_title">إخفاء ترويسة قائمة جودة الفيديو</string>
-    <string name="revanced_hide_player_flyout_menu_quality_header_summary_on">تم إخفاء Header قائمة الجودة.</string>
-    <string name="revanced_hide_player_flyout_menu_quality_header_summary_off">يتم عرض Header قائمة الجودة.</string>
+    <string name="revanced_hide_player_flyout_menu_quality_header_title">إخفاء جملة جودة الفيديو الحالي</string>
+    <string name="revanced_hide_player_flyout_menu_quality_header_summary_on">تم إخفاء هيدر قائمة الجودة.</string>
+    <string name="revanced_hide_player_flyout_menu_quality_header_summary_off">يتم عرض هيدر قائمة الجودة.</string>
     <string name="revanced_hide_player_flyout_menu_quality_footer_title">إخفاء تذييل قائمة جودة الفيديو</string>
     <string name="revanced_hide_player_flyout_menu_quality_footer_summary_on">تم إخفاء تذييل قائمة الجودة.</string>
     <string name="revanced_hide_player_flyout_menu_quality_footer_summary_off">يتم عرض تذييل قائمة الجودة.</string>
@@ -892,6 +895,9 @@
     <string name="revanced_hide_chapters_section_title">إخفاء قسم الفصول</string>
     <string name="revanced_hide_chapters_section_summary_on">تم إخفاء قسم الفصول.</string>
     <string name="revanced_hide_chapters_section_summary_off">يتم عرض قسم الفصول.</string>
+    <string name="revanced_hide_contents_section_title">إخفاء قسم المحتوى</string>
+    <string name="revanced_hide_contents_section_summary_on">تم إخفاء قسم كيفية إنشاء هذا المحتوى.</string>
+    <string name="revanced_hide_contents_section_summary_off">يتم عرض قسم كيفية إنشاء هذا المحتوى.</string>
     <string name="revanced_hide_info_cards_section_title">إخفاء قسم بطاقات المعلومات</string>
     <string name="revanced_hide_info_cards_section_summary_on">تم إخفاء قسم بطاقات المعلومات.</string>
     <string name="revanced_hide_info_cards_section_summary_off">يتم عرض قسم بطاقات المعلومات.</string>
@@ -957,6 +963,9 @@
     <string name="revanced_hide_shorts_subscribe_button_title">إخفاء زر اشتراك</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_on">تم إخفاء زر اشتراك.</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_off">يتم عرض زر اشتراك.</string>
+    <string name="revanced_hide_shorts_paused_header_title">إخفاء علامة Shorts أثناء التوقف</string>
+    <string name="revanced_hide_shorts_paused_header_summary_on">تم إخفاء علامة Shorts عند توقف الفيديو.</string>
+    <string name="revanced_hide_shorts_paused_header_summary_off">يتم عرض علامة Shorts عند توقف الفيديو.</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">إخفاء أزرار واجهة التوقف</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">تم إخفاء أزرار تراكب التوقف.</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">يتم عرض أزرار تراكب التوقف.</string>
@@ -984,7 +993,7 @@
     <string name="revanced_hide_shorts_info_panel_title">إخفاء لوحات المعلومات</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">تم إخفاء لوحات المعلومات.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">يتم عرض لوحات المعلومات.</string>
-    <string name="revanced_hide_shorts_live_header_title">إخفاء ترويسة المحادثات المباشرة</string>
+    <string name="revanced_hide_shorts_live_header_title">إخفاء Header المحادثات المباشرة</string>
     <string name="revanced_hide_shorts_live_header_summary_on">تم إخفاء Header المحادثات المباشرة.\n\nزر رجوع في Header لن يتم إخفاؤه.</string>
     <string name="revanced_hide_shorts_live_header_summary_off">يتم عرض Header المحادثات المباشرة.\n\nزر رجوع في Header لن يتم إخفاؤه.</string>
     <string name="revanced_hide_shorts_channel_bar_title">إخفاء شريط القناة</string>
@@ -1142,6 +1151,7 @@
 
 • عند بَدْء تشغيل الفيديو، يكون هناك تأخير قدره 0.3 ثانية تقريبًا.
 • لا ينطبق على مقاطع فيديو HDR, مقاطع فيديو البث المباشر, مقاطع الفيديو التي تقل مدتها عن 15 ثوانٍ."</string>
+    <string name="revanced_skip_preloaded_buffer_user_dialog_message">تشغيل هذا الإعداد قد يسبب مشاكل في تشغيل الفيديو.</string>
     <string name="revanced_skip_preloaded_buffer_toast_title">عرض ملاحظة عند التخطي</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">يتم عرض الملاحظة.</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">لا يتم عرض الملاحظة.</string>
@@ -1335,7 +1345,7 @@
     <string name="revanced_sb_new_segment_choose_category">اختر فئة المقطع</string>
     <string name="revanced_sb_new_segment_disabled_category">الفئة معطلة في الإعدادات. تمكين الفئة للإرسال.</string>
     <string name="revanced_sb_new_segment_title">مقطع SponsorBlock جديد</string>
-    <string name="revanced_sb_new_segment_mark_time_as_question">تعيين %1$02d:%2$02d:%3$03d كبداية أم نهاية لمقطع جديد؟</string>
+    <string name="revanced_sb_new_segment_mark_current_time_as_question">تعيين %s كبداية أو نهاية لمقطع جديد؟</string>
     <string name="revanced_sb_new_segment_mark_start">البداية</string>
     <string name="revanced_sb_new_segment_mark_end">النهاية</string>
     <string name="revanced_sb_new_segment_now">الآن</string>
@@ -1477,11 +1487,9 @@
     <string name="revanced_spoof_client_use_ios_summary">"تتم محاكاة العميل إلـى iOS.
 
 تشمل الآثار الجانبية ما يلي:
-• لا يوجد فيديو بتقنية HDR.
-• قد تكون جودة الفيديو الأعلى غير متوفرة.
+• فيديو HDR مدعوم فقط على الترميز AV1.
 • سجل المشاهدة لا يعمل مع حساب العلامة التجارية.
-• لا يمكن تشغيل البث المباشر كصوت فقط.
-• البث المباشر غير متوفر على Android 8.0."</string>
+• لا يمكن تشغيل البث المباشر كصوت فقط."</string>
     <string name="revanced_spoof_client_use_android_testsuite_title">Android Testsuite</string>
     <string name="revanced_spoof_client_use_android_testsuite_summary">"تتم محاكاة العميل إلـى Android Testsuite.
 
@@ -1511,6 +1519,27 @@
 • استئناف مقاطع الفيديو المتوقفة مؤقتًا يتم بشكل عشوائي.
 • مصغرات شريط تقدم Shorts ذات جودة منخفضة.
 • مقاطع فيديو الأطفال لا تعمل."</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
+    <string name="revanced_preference_screen_watch_history_title">سجل المشاهدة</string>
+    <string name="revanced_preference_screen_watch_history_summary">تغيير الإعدادات المتعلقة بسجل المشاهدة.</string>
+    <string name="revanced_watch_history_management_title">إدارة كل السجلات</string>
+    <string name="revanced_watch_history_management_summary">انقر لفتح إدارة سجل مشاهدة YouTube.</string>
+    <string name="revanced_watch_history_type_title">نوع سجل المشاهدة</string>
+    <string name="revanced_watch_history_type_entry_1">الأصلي</string>
+    <string name="revanced_watch_history_type_entry_2">استبدال النطاق</string>
+    <string name="revanced_watch_history_type_entry_3">حظر سجل المشاهدة</string>
+    <string name="revanced_watch_history_about_title">حول سجل المشاهدة</string>
+    <string name="revanced_watch_history_about_status_blocked">• سجل المشاهدة لا يعمل.</string>
+    <string name="revanced_watch_history_about_status_ios_replaced">"• يتبع إعدادات سجل المشاهدة لحساب Google.
+• قد لا يعمل سجل المشاهدة مع حساب العلامة التجارية.
+(يتم تشغيل إعداد Spoof Client وتحديد عميل iOS)"</string>
+    <string name="revanced_watch_history_about_status_ios_original">"• يتبع إعدادات سجل المشاهدة لحساب Google.
+• قد لا يعمل سجل المشاهدة بسبب DNS أو VPN.
+• قد لا يعمل سجل المشاهدة مع حساب العلامة التجارية.
+(يتم تشغيل إعداد Spoof Client وتحديد عميل iOS)"</string>
+    <string name="revanced_watch_history_about_status_android_replaced">• يتبع إعدادات سجل المشاهدة لحساب Google.</string>
+    <string name="revanced_watch_history_about_status_android_original">"• يتبع إعدادات سجل المشاهدة لحساب Google.
+• قد لا يعمل سجل المشاهدة بسبب DNS أو VPN."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">معلومات التعديل</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

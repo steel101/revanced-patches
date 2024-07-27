@@ -80,6 +80,10 @@ Tocca qui per saperne di più su DeArrow"</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow temporaneamente non disponibile (%s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow temporaneamente non disponibile</string>
     <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
+    <string name="revanced_preference_category_image_region_restrictions">Restrizioni della regione dell\'immagine</string>
+    <string name="revanced_bypass_image_region_restrictions_title">Bypassa restrizioni della regione dell\'immagine</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_on">Utilizzando host immagine yt4.ggpht.com.</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_off">Usando l\'host immagine originale.\n\nAbilitando questo si possono correggere le immagini mancanti che sono bloccate in alcune regioni.</string>
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Feed</string>
     <string name="revanced_hide_album_card_title">Nascondi le schede degli album</string>
@@ -1063,6 +1067,9 @@ Problema noto: Poiché questa è una caratteristica nella fase di sviluppo di Go
     <string name="revanced_enable_swipe_volume_title">Attiva il trascinamento per modificare il volume</string>
     <string name="revanced_enable_swipe_volume_summary_on">Il trascinamento per modificare il volume è attivato</string>
     <string name="revanced_enable_swipe_volume_summary_off">Il trascinamento per modificare il volume è disattivato</string>
+    <string name="revanced_enable_save_and_restore_brightness_title">Abilita salvataggio e ripristino luminosità</string>
+    <string name="revanced_enable_save_and_restore_brightness_summary_on">Salva e ripristina la luminosità quando esci o entri a schermo intero.</string>
+    <string name="revanced_enable_save_and_restore_brightness_summary_off">Non salvare e ripristinare la luminosità quando si esce o si entra a schermo intero.</string>
     <string name="revanced_enable_swipe_press_to_engage_title">Attiva il gesto Premi-per-Trascinare</string>
     <string name="revanced_enable_swipe_press_to_engage_summary_on">Tocca e tieni premuto per attivare i gesti di trascinamento</string>
     <string name="revanced_enable_swipe_press_to_engage_summary_off">Tocca per attivare i gesti di trascinamento</string>
@@ -1131,6 +1138,7 @@ Problema noto: Poiché questa è una caratteristica nella fase di sviluppo di Go
 Note:
 • Quando il video inizia, c'è un ritardo di circa 0.7 secondi, ma la qualità video predefinita viene applicata immediatamente
 • Non si applica ai video HDR, dal vivo e più brevi di 10 secondi"</string>
+    <string name="revanced_skip_preloaded_buffer_user_dialog_message">Attivare questa impostazione può causare problemi di riproduzione video.</string>
     <string name="revanced_skip_preloaded_buffer_toast_title">Mostra una notifica toast quando un segmento è saltato</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">La notifica toast è visibile</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">La notifica toast è nascosta</string>
@@ -1323,7 +1331,6 @@ Limitazione: Non mi piace possono non apparire se l'utente non è registrato o i
     <string name="revanced_sb_new_segment_choose_category">Scegli la categoria del segmento</string>
     <string name="revanced_sb_new_segment_disabled_category">La categoria è disattivata nelle impostazioni. Attiva la categoria da inviare.</string>
     <string name="revanced_sb_new_segment_title">Nuovo segmento SponsorBlock</string>
-    <string name="revanced_sb_new_segment_mark_time_as_question">Impostare %1$02d:%2$02d:%3$03d come inizio o fine di un nuovo segmento?</string>
     <string name="revanced_sb_new_segment_mark_start">inizio</string>
     <string name="revanced_sb_new_segment_mark_end">fine</string>
     <string name="revanced_sb_new_segment_now">adesso</string>
@@ -1494,6 +1501,7 @@ Gli effetti collaterali includono:
 • I video in pausa possono riprendere in modo casuale.
 • Bassa qualità miniature della barra di ricerca.
 • I video per bambini non riproducono."</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Informazioni patch</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

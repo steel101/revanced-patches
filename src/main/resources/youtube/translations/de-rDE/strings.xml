@@ -80,6 +80,10 @@ Tippen Sie hier, um mehr über DeArrow zu erfahren."</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow ist temporär nicht erreichbar. (Statuscode: %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow ist temporär nicht erreichbar.</string>
     <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
+    <string name="revanced_preference_category_image_region_restrictions">Bildregion-Beschränkungen</string>
+    <string name="revanced_bypass_image_region_restrictions_title">Bildregion-Beschränkungen umgehen</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_on">Verwenden von Image Host yt4.ggpht.com.</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_off">Verwendung des Originalbild-Hosts.\n\nAktivieren kann fehlende Bilder beheben, die in einigen Regionen blockiert sind.</string>
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Feed</string>
     <string name="revanced_hide_album_card_title">Albumkarten ausblenden</string>
@@ -518,6 +522,9 @@ Information:
 Autoplay kann in den YouTube-Einstellungen geändert werden:
 Einstellungen → Autoplay → Nächstes Video automatisch abspielen"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">Empfohlene Video-Endbildschirm wird angezeigt.</string>
+    <string name="revanced_hide_zoom_overlay_title">Zoom-Overlay ausblenden</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">Zoom-Overlay ist ausgeblendet.</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">Zoom-Overlay wird angezeigt.</string>
     <string name="revanced_skip_autoplay_countdown_title">Autotoplay Countdown überspringen</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Ist Autoplay aktiviert, wird das nächste Video sofort abgespielt.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">Wenn Autoplay aktiviert ist, wird das nächste Video nach dem Countdown abgespielt.</string>
@@ -554,9 +561,14 @@ Einstellungen → Autoplay → Nächstes Video automatisch abspielen"</string>
     <string name="revanced_hide_shop_button_title">Hide shop button</string>
     <string name="revanced_hide_shop_button_summary_on">Shop-Schaltfläche wird versteckt.</string>
     <string name="revanced_hide_shop_button_summary_off">Shop-Schaltfläche wird angezeigt.</string>
+    <string name="revanced_hide_thanks_button_title">Verstecke \"Danke\" Schaltfläche</string>
+    <string name="revanced_hide_thanks_button_summary_on">\"Danke\" Schaltfläche wird versteckt.</string>
+    <string name="revanced_hide_thanks_button_summary_off">\"Danke\" Schaltfläche wird angezeigt.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Ambient-Modus</string>
+    <string name="revanced_preference_screen_ambient_mode_summary">Ambient-Modus deaktivieren oder Einschränkungen des Ambient-Modus umgehen.</string>
     <string name="revanced_bypass_ambient_mode_restrictions_title">Einschränkungen des Umgebungsmodus umgehen</string>
+    <string name="revanced_bypass_ambient_mode_restrictions_summary_on">Ambient-Modus im Energiesparmodus aktiviert.</string>
     <string name="revanced_bypass_ambient_mode_restrictions_summary_off">Ambient Modus im Energiesparmodus deaktiviert</string>
     <string name="revanced_disable_ambient_mode_title">Ambient-Modus deaktivieren</string>
     <string name="revanced_disable_ambient_mode_summary_on">Ambient Modus ist deaktiviert.</string>
@@ -566,24 +578,37 @@ Einstellungen → Autoplay → Nächstes Video automatisch abspielen"</string>
     <string name="revanced_disable_ambient_mode_in_fullscreen_summary_off">Der Inaktivitätsmodus ist im Vollbild aktiviert.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Channel bar -->
     <string name="revanced_preference_screen_channel_bar_title">Kanalleiste</string>
+    <string name="revanced_preference_screen_channel_bar_summary">Komponenten der Kanalleiste unter Videos ausblenden oder anzeigen.</string>
     <string name="revanced_hide_join_button_title">Teilnehmen-Schaltfläche verstecken</string>
     <string name="revanced_hide_join_button_summary_on">Teilnehmen-Button ist versteckt</string>
     <string name="revanced_hide_join_button_summary_off">Verstecken-Button wird angezeigt</string>
+    <string name="revanced_hide_start_trial_button_title">Button für Probeabo ausblenden</string>
+    <string name="revanced_hide_start_trial_button_summary_on">Button für Probeabo wird ausgeblendet.</string>
+    <string name="revanced_hide_start_trial_button_summary_off">Button für Probeabo wird angezeigt.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Comments -->
     <string name="revanced_preference_screen_comments_title">Kommentare</string>
+    <string name="revanced_preference_screen_comments_summary">Komponenten der Kommentarsektion ausblenden oder anzeigen.</string>
     <string name="revanced_hide_channel_guidelines_title">Verstecke Kanalrichtlinien</string>
     <string name="revanced_hide_channel_guidelines_summary_on">Kanalrichtlinien sind versteckt</string>
     <string name="revanced_hide_channel_guidelines_summary_off">Kanalrichtlinien werden angezeigt</string>
+    <string name="revanced_hide_comments_by_members_title">Kommentare nach Mitglieder-Banner ausblenden</string>
+    <string name="revanced_hide_comments_by_members_summary_on">Kommentare nach Mitglieder-Banner sind versteckt.</string>
+    <string name="revanced_hide_comments_by_members_summary_off">Kommentare nach Mitglieder-Banner werden angezeigt.</string>
     <string name="revanced_hide_comments_section_title">Verstecke den Kommentarbereich</string>
     <string name="revanced_hide_comments_section_summary_on">Kommentar-Bereich ist versteckt</string>
     <string name="revanced_hide_comments_section_summary_off">Kommentarbereich wird angezeigt</string>
     <string name="revanced_hide_comments_section_in_home_feed_title">Kommentarbereich im Startfeed ausblenden</string>
+    <string name="revanced_hide_comments_section_in_home_feed_summary_on">Kommentar-Sektion ist im Home Feed versteckt.</string>
+    <string name="revanced_hide_comments_section_in_home_feed_summary_off">Kommentarbereich wird im Home Feed angezeigt.</string>
     <string name="revanced_hide_preview_comment_title">Verstecke Vorschau-Kommentar</string>
     <string name="revanced_hide_preview_comment_on">Vorschau-Kommentar ist versteckt</string>
     <string name="revanced_hide_preview_comment_off">Vorschau-Kommentar wird angezeigt</string>
     <string name="revanced_hide_comment_create_shorts_button_title">Verstecke das Erstellen der Short-Schaltfläche</string>
     <string name="revanced_hide_comment_create_shorts_button_summary_on">Erstelle Short-Schaltfläche ist ausgeblendet.</string>
     <string name="revanced_hide_comment_create_shorts_button_summary_off">Erstelle Short-Schaltfläche wird angezeigt.</string>
+    <string name="revanced_hide_comment_thanks_button_title">Verstecke \"Danke\" Schaltfläche</string>
+    <string name="revanced_hide_comment_thanks_button_summary_on">\"Danke\" Schaltfläche wird versteckt.</string>
+    <string name="revanced_hide_comment_thanks_button_summary_off">\"Danke\" Schaltfläche wird angezeigt.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu -->
     <string name="revanced_preference_screen_player_flyout_menu_title">Flyout Menü</string>
     <string name="revanced_preference_screen_player_flyout_menu_summary">Komponenten des Flyout-Menüs im Feed verstecken oder anzeigen.</string>
@@ -1070,10 +1095,21 @@ Einschränkung: Dislikes werden im Inkognito Modus nicht angezeigt."</string>
     <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: Change segment behavior -->
     <string name="revanced_sb_diff_segments">Segment Verhalten ändern</string>
     <string name="revanced_sb_segments_sponsor">Sponsor</string>
+    <string name="revanced_sb_segments_sponsor_sum">Bezahlte Werbung, bezahlte Empfehlungen und direkte Werbung, nicht für Eigenwerbung, kostenlose Fremdwerbung oder Empfehlungen für Anlässe/Personen/Webseiten/Produkte.</string>
+    <string name="revanced_sb_segments_selfpromo">Unbezahlt / Eigenwerbung</string>
+    <string name="revanced_sb_segments_selfpromo_sum">Ähnlich wie \"Gesponsorte Videosegmente\", jedoch für unbezahlte oder Eigenwerbung. Dies beinhaltet Bereiche über Merchandise, Spenden, oder Informationen darüber, mit wem zusammengearbeitet wurde.</string>
+    <string name="revanced_sb_segments_interaction">Interaktionserinnerung (Abonnieren)</string>
+    <string name="revanced_sb_segments_interaction_sum">Wenn es eine kurze Erinnerung zum \"Daumen hoch\", Abonnieren, oder Folgen in der Mitte von Inhalt gibt. Falls es lang oder über etwas Bestimmtes ist, sollte es stattdessen \"Unbezahlt/Eigenwerbung\" sein.</string>
     <string name="revanced_sb_segments_highlight">Highlight</string>
+    <string name="revanced_sb_segments_highlight_sum">Der Abschnitt des Videos, nach dem die meisten Menschen suchen.</string>
     <string name="revanced_sb_segments_intro">Unterbrechung/Introanimation</string>
+    <string name="revanced_sb_segments_intro_sum">Ein Videosegment ohne richtigen Inhalt. Kann eine Pause, ein Standbild oder eine sich wiederholende Animation sein. Dies sollte nicht für Übergänge verwendet werden, die Informationen enthalten.</string>
     <string name="revanced_sb_segments_outro">Endkarten/Credits</string>
+    <string name="revanced_sb_segments_outro_sum">Credits oder wenn die YouTube-Endkarten erscheinen. Nicht für Abschluss mit Informationen.</string>
     <string name="revanced_sb_segments_preview">Vorschau/Zusammenfassung</string>
+    <string name="revanced_sb_segments_preview_sum">Sammlung von Clips, die zeigen, was in diesem Video passiert oder was anderen Videos einer Serie passiert ist, wo alle Informationen später im Video wiederholt werden.</string>
+    <string name="revanced_sb_segments_filler">Füller / Witze</string>
+    <string name="revanced_sb_segments_filler_sum">Nebensächliche Szenen, die nur als Füller oder Witz dienen und nicht benötigt werden um den Hauptinhalt des Videos zu verstehen. Dies bezieht sich nicht auf Segmente, die Kontext oder Hintergrunddetails liefern.</string>
     <string name="revanced_sb_segments_nomusic">Musik: Nicht-Musik-Bereich</string>
     <string name="revanced_sb_segments_nomusic_sum">Nur für den Gebrauch in Musikvideos. Abschnitte von Musikvideos ohne Musik, die noch nicht von einer anderen Kategorie abgedeckt sind.</string>
     <string name="revanced_sb_skip_button_compact">Überspringen</string>
@@ -1083,8 +1119,12 @@ Einschränkung: Dislikes werden im Inkognito Modus nicht angezeigt."</string>
     <string name="revanced_sb_skip_button_interaction">Interaktion überspringen</string>
     <string name="revanced_sb_skip_button_highlight">Zum Highlight springen</string>
     <string name="revanced_sb_skip_button_intro_beginning">Intro überspringen</string>
+    <string name="revanced_sb_skip_button_intro_middle">Unterbrechung überspringen</string>
+    <string name="revanced_sb_skip_button_intro_end">Unterbrechung überspringen</string>
     <string name="revanced_sb_skip_button_outro">Outro überspringen</string>
     <string name="revanced_sb_skip_button_preview_beginning">Vorschau überspringen</string>
+    <string name="revanced_sb_skip_button_preview_middle">Vorschau überspringen</string>
+    <string name="revanced_sb_skip_button_preview_end">Rückblick überspringen</string>
     <string name="revanced_sb_skip_button_filler">Füller überspringen</string>
     <string name="revanced_sb_skip_button_nomusic">Nicht-Musik überspringen</string>
     <string name="revanced_sb_skip_button_unsubmitted">Segment überspringen</string>
@@ -1093,8 +1133,12 @@ Einschränkung: Dislikes werden im Inkognito Modus nicht angezeigt."</string>
     <string name="revanced_sb_skipped_interaction">Nervige Erinnerung übersprungen</string>
     <string name="revanced_sb_skipped_highlight">Zum Highlight gesprungen</string>
     <string name="revanced_sb_skipped_intro_beginning">Intro übersprungen</string>
+    <string name="revanced_sb_skipped_intro_middle">Unterbrechung übersprungen.</string>
+    <string name="revanced_sb_skipped_intro_end">Unterbrechung übersprungen.</string>
     <string name="revanced_sb_skipped_outro">Outro übersprungen</string>
     <string name="revanced_sb_skipped_preview_beginning">Vorschau übersprungen</string>
+    <string name="revanced_sb_skipped_preview_middle">Vorschau übersprungen.</string>
+    <string name="revanced_sb_skipped_preview_end">Rückblick übersprungen.</string>
     <string name="revanced_sb_skipped_filler">Füller übersprungen</string>
     <string name="revanced_sb_skipped_nomusic">Nicht-Musik-Sektion übersprungen</string>
     <string name="revanced_sb_skipped_unsubmitted">Nicht übermitteltes Segment übersprungen</string>
@@ -1110,6 +1154,7 @@ Einschränkung: Dislikes werden im Inkognito Modus nicht angezeigt."</string>
     <string name="revanced_sb_color_invalid">Ungültiger Farbcode</string>
     <string name="revanced_sb_reset">Zurücksetzen</string>
     <string name="revanced_sb_reset_color">Farbe zurücksetzen</string>
+    <string name="revanced_sb_share_copy_settings_success">Einstellungen in Zwischenablage kopiert.</string>
     <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: Creating new segments -->
     <string name="revanced_sb_create_segment_category">Neue Segmente erstellen</string>
     <string name="revanced_sb_enable_create_segment">Button für neues Segment anzeigen</string>
@@ -1165,7 +1210,6 @@ Einschränkung: Dislikes werden im Inkognito Modus nicht angezeigt."</string>
     <string name="revanced_sb_new_segment_choose_category">Wähle eine Segmentkategorie aus</string>
     <string name="revanced_sb_new_segment_disabled_category">Category is disabled in settings. Enable category to submit.</string>
     <string name="revanced_sb_new_segment_title">Neues SponsorBlock Segment</string>
-    <string name="revanced_sb_new_segment_mark_time_as_question">Set %1$02d:%2$02d:%3$03d as the start or end of a new segment?</string>
     <string name="revanced_sb_new_segment_mark_start">Start</string>
     <string name="revanced_sb_new_segment_mark_end">Ende</string>
     <string name="revanced_sb_new_segment_now">Jetzt</string>
@@ -1330,6 +1374,7 @@ Nebeneffekte beinhalten:
 • Pausierte Videos können zufällig wiederaufgenommen werden.
 • Niedrige Shorts Suchleiste Vorschaubilder.
 • Kindervideos werden nicht abgespielt."</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Patch-Informationen</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

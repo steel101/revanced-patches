@@ -526,6 +526,9 @@ Nota:
 La reproducción automática se puede cambiar en la configuración de YouTube:
 \"Configuración → Reproducción automática → Reproducción automática del siguiente vídeo\""</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">La pantalla final del vídeo sugerido está visible.</string>
+    <string name="revanced_hide_zoom_overlay_title">Ocultar superposición del zoom</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">La superposición del zoom está oculta.</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">La superposición del zoom está visible.</string>
     <string name="revanced_skip_autoplay_countdown_title">Omitir cuenta atrás de reproducción automática</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Si la reproducción automática está activada, el siguiente vídeo se reproducirá sin cuenta atrás.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">Si la reproducción automática está activada, el siguiente vídeo se reproducirá después de que termine la cuenta atrás.</string>
@@ -894,6 +897,9 @@ Efecto secundario: El tema Cairo también se aplica a los puntos de notificació
     <string name="revanced_hide_chapters_section_title">Ocultar secciones de capítulos</string>
     <string name="revanced_hide_chapters_section_summary_on">Las secciones de capítulos están ocultas.</string>
     <string name="revanced_hide_chapters_section_summary_off">Las secciones de capítulos están visibles.</string>
+    <string name="revanced_hide_contents_section_title">Ocultar sección de contenido</string>
+    <string name="revanced_hide_contents_section_summary_on">La sección de cómo se hizo este contenido está oculta.</string>
+    <string name="revanced_hide_contents_section_summary_off">La sección de cómo se hizo este contenido está visible.</string>
     <string name="revanced_hide_info_cards_section_title">Ocultar secciones de tarjetas de información</string>
     <string name="revanced_hide_info_cards_section_summary_on">Las secciones de las tarjetas de información están ocultas.</string>
     <string name="revanced_hide_info_cards_section_summary_off">Las secciones de las tarjetas de información están visibles.</string>
@@ -1140,6 +1146,7 @@ Desliza hacia arriba / abajo para reproducir el vídeo siguiente / anterior.</st
 
 • Cuando comienza el vídeo, hay una demora de aproximadamente 0.3 segundos, pero la calidad predeterminada de vídeo se aplica inmediatamente.
 • No se aplica a vídeos HDR, vídeos en directo ni vídeos de menos de 15 segundos."</string>
+    <string name="revanced_skip_preloaded_buffer_user_dialog_message">Activar este ajuste puede causar problemas de reproducción de vídeo.</string>
     <string name="revanced_skip_preloaded_buffer_toast_title">Mostrar un mensaje al omitir</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">El mensaje está visible.</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">El mensaje está oculto.</string>
@@ -1333,7 +1340,7 @@ Pulsa aquí para obtener más información.</string>
     <string name="revanced_sb_new_segment_choose_category">Selecciona la categoría del segmento</string>
     <string name="revanced_sb_new_segment_disabled_category">La categoría está desactivada en los ajustes. Activa la categoría para enviar.</string>
     <string name="revanced_sb_new_segment_title">Nuevo segmento de SponsorBlock</string>
-    <string name="revanced_sb_new_segment_mark_time_as_question">¿Establecer %1$02d:%2$02d:%3$03d como el inicio o el final de un nuevo segmento?</string>
+    <string name="revanced_sb_new_segment_mark_current_time_as_question">¿Establecer %s como el inicio o el final de un nuevo segmento?</string>
     <string name="revanced_sb_new_segment_mark_start">inicio</string>
     <string name="revanced_sb_new_segment_mark_end">final</string>
     <string name="revanced_sb_new_segment_now">ahora</string>
@@ -1504,6 +1511,7 @@ Los efectos secundarios incluyen:
 • Los vídeos en pausa pueden reanudarse aleatoriamente.
 • Las miniaturas de la barra de progreso de Shorts son de baja calidad.
 • Los vídeos infantiles no se reproducen."</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Información de parches</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

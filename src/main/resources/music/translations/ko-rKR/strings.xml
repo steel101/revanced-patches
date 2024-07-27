@@ -107,7 +107,7 @@
     <string name="revanced_hide_flyout_menu_subscribe_title">구독 / 구독 취소 메뉴 제거</string>
     <string name="revanced_hide_flyout_menu_view_song_credit_title">노래 크레딧 보기 메뉴 제거</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_continue_watch_title">이어서 시청</string>
-    <string name="revanced_replace_flyout_menu_dismiss_queue_continue_watch_summary">\'YouTube로 시청\' 메뉴를 누르면 YouTube에서 동영상을 ReVanced Extended Music에서 멈춘 시점부터 이어서 시청합니다.</string>
+    <string name="revanced_replace_flyout_menu_dismiss_queue_continue_watch_summary">\'YouTube로 시청\' 메뉴를 누르면 YouTube로 변경하여 동영상을 현재 재생 시점부터 이어서 시청합니다.</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_watch_on_youtube_label">YouTube로 시청</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_watch_on_youtube_warning">잘못된 동영상 URL입니다.</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_title">현재 재생목록 닫기 메뉴 변경</string>
@@ -137,6 +137,11 @@
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">필터링할 구성요소를 줄바꿈으로 구분하여 설정합니다.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">잘못된 필터 값입니다: %s</string>
+    <string name="revanced_hide_settings_menu_title">설정 메뉴 제거</string>
+    <string name="revanced_hide_settings_menu_summary">"설정 메뉴 구성요소를 숨깁니다.
+YT Music 설정 메뉴뿐만 아니라 ReVanced Extended 설정 메뉴도 숨겨집니다."</string>
+    <string name="revanced_hide_settings_menu_filter_strings_title">설정 메뉴 필터</string>
+    <string name="revanced_hide_settings_menu_filter_strings_summary">필터링할 설정 메뉴 이름을 줄바꿈으로 구분하여 설정합니다.</string>
     <string name="revanced_hide_button_shelf_title">버튼형 선반 제거</string>
     <string name="revanced_hide_button_shelf_summary">피드에서 버튼형 선반을 숨깁니다.</string>
     <string name="revanced_hide_carousel_shelf_title">좌우 슬라이드형 선반 제거</string>

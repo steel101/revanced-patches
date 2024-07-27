@@ -7,9 +7,9 @@
     <string name="revanced_extended_restart_message">Ανανέωση και επανεκκίνηση</string>
     <!-- PreferenceScreen: Account -->
     <string name="revanced_preference_screen_account_title">Λογαριασμός</string>
-    <string name="revanced_hide_account_menu_title">Φιλτράρισμα μενού λογαριασμού</string>
+    <string name="revanced_hide_account_menu_title">Φιλτράρισμα του μενού λογαριασμού</string>
     <string name="revanced_hide_account_menu_summary">Απόκρυψη στοιχείων του μενού λογαριασμού χρησιμοποιώντας προσαρμοσμένο φίλτρο.</string>
-    <string name="revanced_hide_account_menu_filter_strings_title">Αλλαγή φίλτρου μενού λογαριασμού</string>
+    <string name="revanced_hide_account_menu_filter_strings_title">Αλλαγή φίλτρου του μενού λογαριασμού</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">Λίστα ονομάτων των επιλογών του μενού λογαριασμού για φιλτράρισμα, διαχωρισμένα με νέες γραμμές.</string>
     <string name="revanced_hide_account_menu_empty_component_title">Απόκρυψη κενών στοιχείων</string>
     <string name="revanced_hide_account_menu_empty_component_summary">Απόκρυψη κενών στοιχείων στο μενού λογαριασμού.</string>
@@ -137,6 +137,11 @@
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Λίστα από συμβολοσειρές στοιχείων που θα φιλτραριστούν, διαχωρισμένες με νέες γραμμές.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Μη έγκυρο φίλτρο: %s.</string>
+    <string name="revanced_hide_settings_menu_title">Φιλτράρισμα του μενού ρυθμίσεων</string>
+    <string name="revanced_hide_settings_menu_summary">"Απόκρυψη στοιχείων του μενού ρυθμίσεων YouTube.
+Αυτή η λειτουργία γίνεται να κρύψει και το μενού ρυθμίσεων ReVanced Extended."</string>
+    <string name="revanced_hide_settings_menu_filter_strings_title">Αλλαγή φίλτρου του μενού ρυθμίσεων</string>
+    <string name="revanced_hide_settings_menu_filter_strings_summary">Λίστα ονομάτων των επιλογών του μενού ρυθμίσεων για φιλτράρισμα, διαχωρισμένα με νέες γραμμές.</string>
     <string name="revanced_hide_button_shelf_title">Απόκρυψη ενότητας κουμπιών</string>
     <string name="revanced_hide_button_shelf_summary">Απόκρυψη της ενότητας κουμπιών στη ροή.</string>
     <string name="revanced_hide_carousel_shelf_title">Απόκρυψη ενότητας καρουζέλ</string>

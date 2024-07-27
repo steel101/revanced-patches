@@ -322,7 +322,7 @@
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Різне</string>
-    <string name="revanced_bypass_image_region_restrictions_title">Змінити хост зображень</string>
+    <string name="revanced_bypass_image_region_restrictions_title">Змінити домен зображень</string>
     <string name="revanced_bypass_image_region_restrictions_summary">Замінює домен для зображень, заблокований у деяких регіонах, що дозволить отримувати мініатюри списків відтворення, аватари каналів тощо.</string>
     <string name="revanced_enable_cairo_splash_animation_title">Увімкнути сплеш анімацію Каїр</string>
     <string name="revanced_enable_cairo_splash_animation_summary">Вмикає сплеш анімацію Каїр під час запуску програми.</string>

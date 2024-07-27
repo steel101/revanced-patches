@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Translations for YouTube -->
-    <string name="accessibility_settings_edu_opt_in_text">Bật điều khiển trợ năng cho trình phát video?</string>
+    <string name="accessibility_settings_edu_opt_in_text">Bật các điều khiển trợ năng cho trình phát video?</string>
     <string name="accessibility_settings_edu_opt_out_text">Các điều khiển của bạn đã được sửa đổi vì dịch vụ trợ năng đang bật.</string>
     <!-- Shared PreferenceScreen -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
@@ -82,8 +82,8 @@ Nhấn vào đây để tìm hiểu thêm về DeArrow."</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow tạm thời không khả dụng (Mã trạng thái: %s).</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow tạm thời không khả dụng.</string>
     <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
-    <string name="revanced_preference_category_image_region_restrictions">Hạn chế vùng hình ảnh</string>
-    <string name="revanced_bypass_image_region_restrictions_title">Bỏ qua hạn chế vùng hình ảnh</string>
+    <string name="revanced_preference_category_image_region_restrictions">Hạn chế về hình ảnh do khu vực</string>
+    <string name="revanced_bypass_image_region_restrictions_title">Vượt qua hạn chế khu vực cho hình ảnh</string>
     <string name="revanced_bypass_image_region_restrictions_summary_on">Sử dụng máy chủ hình ảnh yt4.ggpht.com.</string>
     <string name="revanced_bypass_image_region_restrictions_summary_off">Sử dụng máy chủ lưu trữ hình ảnh gốc.\n\nBật tính năng này có thể khắc phục tình trạng hình ảnh bị chặn ở một số khu vực.</string>
     <!-- PreferenceScreen: Feed -->
@@ -351,14 +351,14 @@ Một số thành phần có thể không bị ẩn."</string>
     <string name="revanced_miniplayer_type_entry_1">Gốc</string>
     <string name="revanced_miniplayer_type_entry_2">Điện thoại</string>
     <string name="revanced_miniplayer_type_entry_3">Máy tính bảng</string>
-    <string name="revanced_miniplayer_type_entry_4">Hiện đại 1</string>
-    <string name="revanced_miniplayer_type_entry_5">Hiện đại 2</string>
-    <string name="revanced_miniplayer_type_entry_6">Hiện đại 3</string>
+    <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
+    <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
+    <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
     <string name="revanced_miniplayer_enable_double_tap_action_title">Hành động nhấn đúp</string>
-    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"Hành động nhấn đúp được kích hoạt.
+    <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"Thao tác nhấn đúp đã được bật.
 
- • Hiện đại 1: Nhấn đúp để thay đổi video thu nhỏ thành kích thước lớn hơn.
- • Hiện đại 2, 3: Nhấn đúp để đóng video thu nhỏ"</string>
+• Nhấn đúp để phóng to video đang thu nhỏ.
+• Nhấn đúp một lần nữa để trả về kích thước ban đầu."</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_off">Thao tác nhấn đúp đã tắt.</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_title">Kích hoạt kéo và thả</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">Đã kích hoạt kéo và thả.</string>
@@ -524,6 +524,9 @@ Thẻ Bạn → Xem kênh → Trình đơn → Cài đặt."</string>
 Tính năng Tự động phát có thể thay đổi trong Cài đặt YouTube:
 Cài đặt → Tự động phát → Tự động phát video tiếp theo."</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">Video đề xuất ở màn hình kết thúc được hiển thị.</string>
+    <string name="revanced_hide_zoom_overlay_title">Ẩn lớp phủ zoom</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">Lớp phủ zoom đã bị ẩn.</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">Lớp phủ zoom đã được hiển thị.</string>
     <string name="revanced_skip_autoplay_countdown_title">Bỏ qua đếm ngược tự động phát</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Bỏ qua đếm ngược tự động phát đã bật.\nNếu tính năng Tự động phát được bật, video tiếp theo sẽ phát ngay lập tức mà không cần đếm ngược.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">Bỏ qua đếm ngược tự động phát đã tắt.\nNếu tính năng Tự động phát được bật, video tiếp theo sẽ phát sau khi hết thời gian đếm ngược.</string>
@@ -888,6 +891,9 @@ Hiệu ứng khác: Chủ đề Cairo cũng được áp dụng cho dấu chấm
     <string name="revanced_hide_chapters_section_title">Ẩn phần chương</string>
     <string name="revanced_hide_chapters_section_summary_on">Phần chương được ẩn.</string>
     <string name="revanced_hide_chapters_section_summary_off">Phần chương được hiển thị.</string>
+    <string name="revanced_hide_contents_section_title">Ẩn phần Nội dung</string>
+    <string name="revanced_hide_contents_section_summary_on">Phần \"Cách tạo Nội dung này\" đã bị ẩn.</string>
+    <string name="revanced_hide_contents_section_summary_off">Phần \"Cách tạo Nội dung này\" đã được hiển thị.</string>
     <string name="revanced_hide_info_cards_section_title">Ẩn phần thẻ thông tin</string>
     <string name="revanced_hide_info_cards_section_summary_on">Phần thẻ thông tin đã ẩn.</string>
     <string name="revanced_hide_info_cards_section_summary_off">Phần thẻ thông tin được hiển thị.</string>
@@ -1027,7 +1033,7 @@ Sự cố đã biết: Tiêu đề của thẻ chính thức đã ẩn khỏi k�
     <string name="revanced_shorts_double_tap_to_like_animation_entry_2">Thumbs up</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_3">Thumbs up (Cairo)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_4">Trái tim</string>
-    <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Trái tim (Sắc thái)</string>
+    <string name="revanced_shorts_double_tap_to_like_animation_entry_5">Trái tim (Đỏ)</string>
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Ẩn</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
     <string name="revanced_enable_shorts_time_stamp_title">Bật dấu thời gian</string>
@@ -1129,6 +1135,7 @@ Vuốt lên/xuống để chuyển đến video tiếp theo/trước đó.</stri
     <string name="revanced_skipped_preloaded_buffer">Đã bỏ qua bộ đệm tải trước.</string>
     <string name="revanced_skip_preloaded_buffer_title">Bỏ qua bộ đệm tải trước</string>
     <string name="revanced_skip_preloaded_buffer_summary">"Bỏ qua bộ đệm tải trước để tránh thời gian chờ áp dụng chất lượng video mặc định. Khi nhấn nút Phát, sẽ có một độ trễ khoảng 0.7 giây trước khi video bắt đầu phát, tuy nhiên chất lượng video chỉ định vẫn được áp dụng ngay lập tức. Tùy chọn này không áp dụng cho video HDR, video có thời lượng dưới 10 giây, sự kiện trực tiếp và buổi công chiếu."</string>
+    <string name="revanced_skip_preloaded_buffer_user_dialog_message">Việc bật cài đặt này có thể gây ra sự cố phát lại video.</string>
     <string name="revanced_skip_preloaded_buffer_toast_title">Thông báo ngắn khi bỏ qua</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">Thông báo ngắn được hiển thị.</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">Thông báo ngắn đã ẩn.</string>
@@ -1147,7 +1154,7 @@ Vuốt lên/xuống để chuyển đến video tiếp theo/trước đó.</stri
     <string name="revanced_custom_playback_speeds_invalid">Tốc độ phát tùy chỉnh không hợp lệ. Đã đặt lại về giá trị mặc định.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Tốc độ phát tùy chỉnh không hợp lệ. Sử dụng các giá trị mặc định.</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->
-    <string name="revanced_preference_screen_ryd_title">Khôi phục lượt Dislike</string>
+    <string name="revanced_preference_screen_ryd_title">Return YouTube Dislike</string>
     <string name="revanced_ryd_enable_title">Hiện số lượt không thích</string>
     <string name="revanced_ryd_enable_summary_on">Số lượt không thích được hiển thị.</string>
     <string name="revanced_ryd_enable_summary_off">Số lượt Không thích đã bị ẩn.</string>
@@ -1320,7 +1327,7 @@ Vuốt lên/xuống để chuyển đến video tiếp theo/trước đó.</stri
     <string name="revanced_sb_new_segment_choose_category">Chọn danh mục phân đoạn</string>
     <string name="revanced_sb_new_segment_disabled_category">Danh mục đã tắt trong cài đặt. Cho phép danh mục để gửi.</string>
     <string name="revanced_sb_new_segment_title">Đoạn Chặn nhà tài trợ mới</string>
-    <string name="revanced_sb_new_segment_mark_time_as_question">Đặt %1$02d:%2$02d:%3$03d làm điểm bắt đầu hoặc kết thúc của một phân đoạn mới?</string>
+    <string name="revanced_sb_new_segment_mark_current_time_as_question">Đặt %s là bắt đầu hoặc là kết thúc của một phân đoạn mới?</string>
     <string name="revanced_sb_new_segment_mark_start">Bắt đầu</string>
     <string name="revanced_sb_new_segment_mark_end">Kết thúc</string>
     <string name="revanced_sb_new_segment_now">Ngay bây giờ</string>
@@ -1484,6 +1491,7 @@ Hạn chế gồm:
  • Video bị tạm dừng có thể tiếp tục ngẫu nhiên.
  • Hình thu nhỏ trên thanh tiến trình Shorts có chất lượng thấp.
  • Video trẻ em không phát được."</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Thông tin bản vá</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

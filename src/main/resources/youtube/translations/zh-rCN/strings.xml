@@ -82,6 +82,10 @@
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow 暂时不可用 (status code: %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow 暂时不可用</string>
     <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
+    <string name="revanced_preference_category_image_region_restrictions">图像区域限制</string>
+    <string name="revanced_bypass_image_region_restrictions_title">绕过图像区域限制</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_on">使用图像主机 yt4.ggpht.com</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_off">使用原始图像主机\n\n启用此功能可以修复在某些地区被阻止的缺失图像</string>
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">首页</string>
     <string name="revanced_hide_album_card_title">隐藏专辑卡片</string>
@@ -1061,6 +1065,9 @@
     <string name="revanced_enable_swipe_volume_title">音量手势</string>
     <string name="revanced_enable_swipe_volume_summary_on">滑动控制音量已启用</string>
     <string name="revanced_enable_swipe_volume_summary_off">滑动控制音量已禁用</string>
+    <string name="revanced_enable_save_and_restore_brightness_title">启用保存和恢复亮度</string>
+    <string name="revanced_enable_save_and_restore_brightness_summary_on">退出/进入全屏时保存和恢复亮度</string>
+    <string name="revanced_enable_save_and_restore_brightness_summary_off">退出/进入全屏时不保存或恢复亮度</string>
     <string name="revanced_enable_swipe_press_to_engage_title">启用长按滑动手势</string>
     <string name="revanced_enable_swipe_press_to_engage_summary_on">长按激活滑动手势</string>
     <string name="revanced_enable_swipe_press_to_engage_summary_off">轻触激活滑动手势</string>
@@ -1319,7 +1326,6 @@
     <string name="revanced_sb_new_segment_choose_category">选择片段类别</string>
     <string name="revanced_sb_new_segment_disabled_category">类别在设置中被禁用请启用类别以提交</string>
     <string name="revanced_sb_new_segment_title">新的 SponsorBlock 片段</string>
-    <string name="revanced_sb_new_segment_mark_time_as_question">将%1$02d:%2$02d:%3$03d设置为新片段的开始或结束时间？</string>
     <string name="revanced_sb_new_segment_mark_start">开始</string>
     <string name="revanced_sb_new_segment_mark_end">结束</string>
     <string name="revanced_sb_new_segment_now">立即</string>
@@ -1493,6 +1499,7 @@
 • 暂停的视频可以随时恢复
 • 低质量的短视频滚动栏缩略图
 • 儿童视频无法播放"</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">补丁信息</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

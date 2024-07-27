@@ -322,6 +322,8 @@ Előfordulhat, hogy egyes funkciók nem működnek megfelelően a régi lejátsz
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Egyéb</string>
+    <string name="revanced_bypass_image_region_restrictions_title">Területi kép-korlátozások megkerülése</string>
+    <string name="revanced_bypass_image_region_restrictions_summary">Helyettesíti az egyes régiókban blokkolt tartományt, így a lejátszási lista miniatűrjei, csatorna avatarok stb. fogadhatóak.</string>
     <string name="revanced_enable_cairo_splash_animation_title">Betöltési animáció engedélyezése</string>
     <string name="revanced_enable_cairo_splash_animation_summary">Engedélyezi a betöltési animációt amikor az app indul.</string>
     <string name="revanced_enable_debug_logging_title">Hibanaplók engedélyezése</string>

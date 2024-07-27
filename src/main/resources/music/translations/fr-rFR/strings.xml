@@ -322,6 +322,8 @@ Certaines fonctions peuvent ne pas fonctionner sur l'ancienne mise en page."</st
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Paramètres avancés</string>
+    <string name="revanced_bypass_image_region_restrictions_title">Contourner les restrictions d\'image selon les régions</string>
+    <string name="revanced_bypass_image_region_restrictions_summary">Remplace le domaine qui est bloqué dans certaines régions afin que les miniatures des listes de lecture, les avatars des chaînes, etc. puissent être reçus.</string>
     <string name="revanced_enable_cairo_splash_animation_title">Activer l\'animation Cairo au démarrage</string>
     <string name="revanced_enable_cairo_splash_animation_summary">Active l\'animation Cairo lors du démarrage de l\'application.</string>
     <string name="revanced_enable_debug_logging_title">Activer le journal de débogage</string>

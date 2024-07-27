@@ -882,6 +882,9 @@ Yan etki: Kahire teması bildirim noktalarına da uygulanır."</string>
     <string name="revanced_hide_chapters_section_title">\"Öne çıkan yerler\"i gizle</string>
     <string name="revanced_hide_chapters_section_summary_on">Bölümler kısmı gizleniyor.</string>
     <string name="revanced_hide_chapters_section_summary_off">Bölümler kısmı gizlenmiyor.</string>
+    <string name="revanced_hide_contents_section_title">İçerikler bölümünü gizle</string>
+    <string name="revanced_hide_contents_section_summary_on">Bu içeriğin nasıl yapıldığı bölümü gizlidir.</string>
+    <string name="revanced_hide_contents_section_summary_off">Bu içeriğin nasıl yapıldığı bölümü gizlenmiyor.</string>
     <string name="revanced_hide_info_cards_section_title">Video açıklamasındaki kanal bilgileri kısmını gizle</string>
     <string name="revanced_hide_info_cards_section_summary_on">Video açıklamasındaki kanal bilgileri gizleniyor.</string>
     <string name="revanced_hide_info_cards_section_summary_off">Bilgi kartları bölümü görünür.</string>
@@ -1126,6 +1129,7 @@ Bilinen sorunlar:
 
  • Video başladığında yaklaşık 0.7 saniyelik bir gecikme olur, ancak varsayılan video kalitesi hemen uygulanır.
 • HDR videolar veya 10 saniyeden kısa videolar için geçerli değildir."</string>
+    <string name="revanced_skip_preloaded_buffer_user_dialog_message">Bu ayarı etkinleştirmek video oynatma sorunlarına yol açabilir.</string>
     <string name="revanced_skip_preloaded_buffer_toast_title">Bir kısım atlanırken uyarı ver</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">Gizlenmiyor</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">Gizleniyor</string>
@@ -1319,7 +1323,6 @@ Bir örnek görmek için buraya dokunun.</string>
     <string name="revanced_sb_new_segment_choose_category">Kategori seçin</string>
     <string name="revanced_sb_new_segment_disabled_category">Ayarlarda kategori devre dışı bırakıldı. Göndermek için kategoriyi etkinleştir.</string>
     <string name="revanced_sb_new_segment_title">Yeni SponsorBlock segmenti</string>
-    <string name="revanced_sb_new_segment_mark_time_as_question">%1$02d:%2$02d:%3$03d bu kısmın başlangıcı mı, bitişi mi olarak ayarlansın?</string>
     <string name="revanced_sb_new_segment_mark_start">başlangıç</string>
     <string name="revanced_sb_new_segment_mark_end">bitiş</string>
     <string name="revanced_sb_new_segment_now">şimdi</string>
@@ -1495,6 +1498,7 @@ Yan etkiler şunları içerir:
 • Duraklatılan videolar rastgele devam ettirilebilir.
 • Düşük kaliteli Shorts arama çubuğu küçük resimleri.
 • Çocuk videoları oynatılmıyor."</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Yama Bilgileri</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

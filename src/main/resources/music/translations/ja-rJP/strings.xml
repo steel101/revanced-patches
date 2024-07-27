@@ -322,6 +322,8 @@
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">その他</string>
+    <string name="revanced_bypass_image_region_restrictions_title">画像表示の地域制限を回避</string>
+    <string name="revanced_bypass_image_region_restrictions_summary">プレイリストのサムネイルやチャンネルアバターなどを受信できるように、一部の地域でブロックされているドメインを置き換えます。</string>
     <string name="revanced_enable_cairo_splash_animation_title">Cairo のスプラッシュアニメーションを有効化</string>
     <string name="revanced_enable_cairo_splash_animation_summary">アプリ起動時にCairo のスプラッシュアニメーションを有効にします。</string>
     <string name="revanced_enable_debug_logging_title">デバッグログ</string>

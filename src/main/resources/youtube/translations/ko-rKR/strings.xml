@@ -27,9 +27,9 @@
     <string name="revanced_hide_general_ads_title">일반 레이아웃 광고 숨기기</string>
     <string name="revanced_hide_general_ads_summary_on">일반 레이아웃 광고가 숨겨집니다.</string>
     <string name="revanced_hide_general_ads_summary_off">일반 레이아웃 광고가 노출됩니다.</string>
-    <string name="revanced_hide_merchandise_shelf_title">제품 선반 숨기기</string>
-    <string name="revanced_hide_merchandise_shelf_summary_on">제품 선반이 숨겨집니다.</string>
-    <string name="revanced_hide_merchandise_shelf_summary_off">제품 선반이 노출됩니다.</string>
+    <string name="revanced_hide_merchandise_shelf_title">태그된 제품 선반 숨기기</string>
+    <string name="revanced_hide_merchandise_shelf_summary_on">태그된 제품 선반이 숨겨집니다.</string>
+    <string name="revanced_hide_merchandise_shelf_summary_off">태그된 제품 선반이 노출됩니다.</string>
     <string name="revanced_hide_paid_promotion_label_title">유료 광고 포함 라벨 숨기기</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">유료 광고 포함 라벨이 숨겨집니다.</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">유료 광고 포함 라벨이 노출됩니다.</string>
@@ -39,9 +39,9 @@
     <string name="revanced_hide_video_ads_title">동영상 광고 숨기기</string>
     <string name="revanced_hide_video_ads_summary_on">동영상 광고가 숨겨집니다.</string>
     <string name="revanced_hide_video_ads_summary_off">동영상 광고가 노출됩니다.</string>
-    <string name="revanced_hide_view_products_title">제품 쇼핑 배너 숨기기</string>
-    <string name="revanced_hide_view_products_summary_on">플레이어에서 제품 쇼핑 배너가 숨겨집니다.</string>
-    <string name="revanced_hide_view_products_summary_off">플레이어에서 제품 쇼핑 배너가 노출됩니다.</string>
+    <string name="revanced_hide_view_products_title">제품 보기 배너 숨기기</string>
+    <string name="revanced_hide_view_products_summary_on">플레이어에서 제품 보기 배너가 숨겨집니다.</string>
+    <string name="revanced_hide_view_products_summary_off">플레이어에서 제품 보기 배너가 노출됩니다.</string>
     <string name="revanced_hide_web_search_results_title">웹 검색 결과 숨기기</string>
     <string name="revanced_hide_web_search_results_summary_on">웹 검색 결과가 숨겨집니다.</string>
     <string name="revanced_hide_web_search_results_summary_off">웹 검색 결과가 노출됩니다.</string>
@@ -55,14 +55,14 @@
     <string name="revanced_alt_thumbnail_library_title">나(보관함) 탭</string>
     <string name="revanced_alt_thumbnail_player_title">플레이어 구성요소: 재생목록, 관련 동영상 ...</string>
     <string name="revanced_alt_thumbnail_search_title">검색 결과</string>
-    <string name="revanced_alt_thumbnail_options_entry_1">원본 썸네일</string>
-    <string name="revanced_alt_thumbnail_options_entry_2">DeArrow &amp; 원본 썸네일</string>
+    <string name="revanced_alt_thumbnail_options_entry_1">기본 썸네일</string>
+    <string name="revanced_alt_thumbnail_options_entry_2">DeArrow &amp; 기본 썸네일</string>
     <string name="revanced_alt_thumbnail_options_entry_3">DeArrow &amp; 동영상 스틸 컷 썸네일</string>
     <string name="revanced_alt_thumbnail_options_entry_4">동영상 스틸 컷 썸네일</string>
     <string name="revanced_alt_thumbnail_dearrow_about_title">DeArrow에 대한 정보</string>
     <string name="revanced_alt_thumbnail_dearrow_about_summary">"DeArrow는 YouTube 동영상에 크라우드 소싱된 썸네일을 제공합니다. 이러한 썸네일은 YouTube에서 제공하는 썸네일보다 관련성이 높은 경우가 많습니다. 
 
-이 설정을 활성화하면 동영상 URL이 API 서버로 전송되며 다른 데이터는 전송되지 않습니다. 동영상에 DeArrow 썸네일이 없는 경우에는 원본 썸네일 또는 동영상 스틸 컷 썸네일을 표시합니다.
+이 설정을 활성화하면 동영상 URL이 API 서버로 전송되며 다른 데이터는 전송되지 않습니다. 동영상에 DeArrow 썸네일이 없는 경우에는 기본 썸네일 또는 동영상 스틸 컷 썸네일을 표시합니다.
 
 DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_title">API를 사용할 수 없을 때, 팝업 메시지 표시하기</string>
@@ -424,7 +424,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 자막"</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">툴바</string>
-    <string name="revanced_preference_screen_toolbar_summary">툴바에서 버튼, 검색 바, 헤더와 같은 구성 요소를 숨기거나 변경할 수 있습니다.</string>
+    <string name="revanced_preference_screen_toolbar_summary">툴바에서 버튼, 검색 바, 헤더와 같은 구성요소를 숨기거나 변경할 수 있습니다.</string>
     <string name="revanced_change_youtube_header_title">YouTube 헤더 변경하기</string>
     <string name="revanced_change_youtube_header_summary_on">Premium 헤더를 활성화합니다.</string>
     <string name="revanced_change_youtube_header_summary_off">일반 헤더를 활성화합니다.</string>
@@ -470,8 +470,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_custom_player_overlay_opacity_summary">불투명도 값은 0-100 사이이며, 0은 투명입니다.</string>
     <string name="revanced_custom_player_overlay_opacity_invalid_toast">불투명도 값은 0-100 사이어야 하므로 기본값으로 초기화합니다.</string>
     <string name="revanced_disable_auto_player_popup_panels_title">플레이어 팝업 패널 비활성화하기</string>
-    <string name="revanced_disable_auto_player_popup_panels_summary_on">자동 플레이어 팝업 패널을 비활성화합니다.\n• 재생목록, 실시간 채팅, 제품 선반 ...</string>
-    <string name="revanced_disable_auto_player_popup_panels_summary_off">자동 플레이어 팝업 패널을 활성화합니다.\n• 재생목록, 실시간 채팅, 제품 선반 ...</string>
+    <string name="revanced_disable_auto_player_popup_panels_summary_on">자동 플레이어 팝업 패널을 비활성화합니다.\n• 재생목록, 실시간 채팅, 제품 패널 ...</string>
+    <string name="revanced_disable_auto_player_popup_panels_summary_off">자동 플레이어 팝업 패널을 활성화합니다.\n• 재생목록, 실시간 채팅, 제품 패널 ...</string>
     <string name="revanced_disable_speed_overlay_title">동영상 재생 속도 오버레이 비활성화하기</string>
     <string name="revanced_disable_speed_overlay_summary">"화면을 길게 눌러서 '2배속 &gt;&gt;'을 비활성화합니다.
 
@@ -494,8 +494,9 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_end_screen_cards_summary_on">최종 화면 카드가 숨겨집니다.</string>
     <string name="revanced_hide_end_screen_cards_summary_off">최종 화면 카드가 노출됩니다.</string>
     <string name="revanced_hide_filmstrip_overlay_title">필름 스트립 오버레이 숨기기</string>
-    <string name="revanced_hide_filmstrip_overlay_summary_on">필름 스트립 오버레이가 숨겨집니다.</string>
-    <string name="revanced_hide_filmstrip_overlay_summary_off">필름 스트립 오버레이가 노출됩니다.</string>
+    <string name="revanced_hide_filmstrip_overlay_summary_on">필름 스트립 오버레이가 숨겨집니다.\n• 세밀하게 보면서 탐색 제스처</string>
+    <string name="revanced_hide_filmstrip_overlay_summary_off">필름 스트립 오버레이가 노출됩니다.\n• 
+세밀하게 보면서 탐색 제스처</string>
     <string name="revanced_hide_info_cards_title">정보 카드 숨기기</string>
     <string name="revanced_hide_info_cards_summary_on">정보 카드가 숨겨집니다.</string>
     <string name="revanced_hide_info_cards_summary_off">정보 카드가 노출됩니다.</string>
@@ -509,8 +510,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_medical_panel_summary_on">의학 정보 패널이 숨겨집니다.</string>
     <string name="revanced_hide_medical_panel_summary_off">의학 정보 패널이 노출됩니다.</string>
     <string name="revanced_hide_seek_message_title">탐색 메시지 숨기기</string>
-    <string name="revanced_hide_seek_message_summary_on">탐색 메시지가 숨겨집니다.\n• \'왼쪽이나 오른쪽으로 슬라이드하여 탐색\' </string>
-    <string name="revanced_hide_seek_message_summary_off">탐색 메시지가 노출됩니다.\n• \'왼쪽이나 오른쪽으로 슬라이드하여 탐색\' </string>
+    <string name="revanced_hide_seek_message_summary_on">다음 탐색 메시지가 숨겨집니다.\n• \'왼쪽이나 오른쪽으로 슬라이드하여 탐색\' </string>
+    <string name="revanced_hide_seek_message_summary_off">다음 탐색 메시지가 노출됩니다.\n• \'왼쪽이나 오른쪽으로 슬라이드하여 탐색\' </string>
     <string name="revanced_hide_seek_undo_message_title">탐색을 취소할 때, 메시지 숨기기</string>
     <string name="revanced_hide_seek_undo_message_summary_on">탐색을 취소할 때, 메시지가 숨겨집니다.</string>
     <string name="revanced_hide_seek_undo_message_summary_off">탐색을 취소할 때, 메시지가 노출됩니다.</string>
@@ -526,9 +527,12 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 자동재생은 YouTube 설정에서 변경할 수 있습니다:
 설정 → 자동재생 → 다음 동영상 자동재생"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">최종 화면에서 \'다음 재생 동영상 추천\'이 노출됩니다.</string>
+    <string name="revanced_hide_zoom_overlay_title">줌 오버레이 숨기기</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">줌 오버레이가 숨겨집니다.</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">줌 오버레이가 노출됩니다.</string>
     <string name="revanced_skip_autoplay_countdown_title">자동 재생 카운트다운 건너뛰기</string>
-    <string name="revanced_skip_autoplay_countdown_summary_on">자동재생이 활성화되어 있으면, 다음 동영상을 카운트다운 없이 재생합니다.</string>
-    <string name="revanced_skip_autoplay_countdown_summary_off">자동재생이 활성화되어 있으면, 다음 동영상을 카운트다운이 종료된 후에 재생합니다.</string>
+    <string name="revanced_skip_autoplay_countdown_summary_on">자동재생이 활성화되어 있으면, 카운트다운 없이 다음 동영상을 재생합니다.</string>
+    <string name="revanced_skip_autoplay_countdown_summary_off">자동재생이 활성화되어 있으면, 카운트다운 종료 후에 다음 동영상을 재생합니다</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">액션 버튼</string>
     <string name="revanced_preference_screen_action_buttons_summary">플레이어 하단에 있는 액션 버튼을 숨기거나 표시할 수 있습니다.</string>
@@ -898,6 +902,9 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_chapters_section_title">챕터 섹션 숨기기</string>
     <string name="revanced_hide_chapters_section_summary_on">챕터 섹션이 숨겨집니다.</string>
     <string name="revanced_hide_chapters_section_summary_off">챕터 섹션이 노출됩니다.</string>
+    <string name="revanced_hide_contents_section_title">콘텐츠 생성 방식 섹션 숨기기</string>
+    <string name="revanced_hide_contents_section_summary_on">콘텐츠 생성 방식 섹션이 숨겨집니다.</string>
+    <string name="revanced_hide_contents_section_summary_off">콘텐츠 생성 방식 섹션이 노출됩니다.</string>
     <string name="revanced_hide_info_cards_section_title">크리에이터 정보 카드 섹션 숨기기</string>
     <string name="revanced_hide_info_cards_section_summary_on">크리에이터 정보 카드 섹션이 숨겨집니다.</string>
     <string name="revanced_hide_info_cards_section_summary_off">크리에이터 정보 카드 섹션이 노출됩니다.</string>
@@ -1147,6 +1154,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 
 • 동영상이 시작되면 약 0.3초정도의 지연이 발생하지만 기본 동영상 화질이 즉시 적용됩니다.
 • HDR 동영상, 실시간 스트림, 15초 미만의 동영상에는 적용되지 않습니다."</string>
+    <string name="revanced_skip_preloaded_buffer_user_dialog_message">이 설정을 활성화하면 동영상 재생 문제가 발생할 수 있습니다.</string>
     <string name="revanced_skip_preloaded_buffer_toast_title">건너뛸 때, 팝업 메시지 표시하기</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">팝업 메시지를 표시합니다.</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">팝업 메시지를 표시하지 않습니다.</string>
@@ -1340,7 +1348,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_sb_new_segment_choose_category">구간 카테고리를 선택하세요.</string>
     <string name="revanced_sb_new_segment_disabled_category">이 카테고리는 비활성화되어 있습니다. 제출하려면 설정에서 활성화해야 합니다.</string>
     <string name="revanced_sb_new_segment_title">새로운 SponsorBlock 구간</string>
-    <string name="revanced_sb_new_segment_mark_time_as_question">%1$02d:%2$02d:%3$03d을 구간의 시작 또는 끝으로 설정하겠습니까?</string>
+    <string name="revanced_sb_new_segment_mark_current_time_as_question">%s 을 구간의 시작 또는 끝으로 설정하겠습니까?</string>
     <string name="revanced_sb_new_segment_mark_start">시작</string>
     <string name="revanced_sb_new_segment_mark_end">끝</string>
     <string name="revanced_sb_new_segment_now">현재</string>
@@ -1482,16 +1490,14 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_spoof_client_use_ios_summary">"클라이언트를 iOS 클라이언트로 변경합니다.
 
 알려진 문제점:
-• HDR 동영상을 재생할 수 없습니다.
-• 동영상이 초고화질 동영상 값으로 재생되지 않을 수 있습니다. (1440p, 2160p)
-• 브랜드 계정 사용자는 시청 기록을 사용할 수 없습니다.
-• 실시간 스트림에서 '백그라운드 재생'을 사용할 수 없습니다.
-• Android 8.0 사용자는 실시간 스트림을 재생할 수 없습니다."</string>
+• HDR 동영상은 하드웨어 AV1 코덱을 지원하는 AP가 장착된 기기에서만 재생할 수 있습니다.
+• 시청 기록이 작동되지 않을 수 있습니다.
+• 실시간 스트림에서 '백그라운드 재생'을 사용할 수 없습니다."</string>
     <string name="revanced_spoof_client_use_android_testsuite_title">Android TestSuite</string>
     <string name="revanced_spoof_client_use_android_testsuite_summary">"클라이언트를 Android TestSuite 클라이언트로 변경합니다.
 
 알려진 문제점:
-• HDR 동영상을 재생할 수 없습니다.
+• HDR 동영상이 재생되지 않을 수 있습니다.
 • 메뉴 구성요소에서 오디오 트랙 메뉴가 표시되지 않습니다.
 • 자막이 표시되지 않을 수 있습니다.
 • 플레이어 하단에서 오프라인 저장 버튼이 표시되지 않습니다.
@@ -1501,7 +1507,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_spoof_client_use_android_tv_summary">"클라이언트를 Android TV (YouTube TV) 클라이언트로 변경합니다.
 
 알려진 문제점:
-• HDR 동영상을 재생할 수 없습니다.
+• HDR 동영상이 재생되지 않을 수 있습니다.
 • 메뉴 구성요소에서 오디오 트랙 메뉴가 표시되지 않습니다.
 • 자막이 표시되지 않을 수 있습니다.
 • 플레이어 하단에서 오프라인 저장 버튼이 표시되지 않습니다.
@@ -1511,11 +1517,32 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_spoof_client_use_android_vr_summary">"클라이언트를 Android VR 클라이언트로 변경합니다.
 
 알려진 문제점:
-• HDR 동영상을 재생할 수 없습니다.
+• HDR 동영상이 재생되지 않을 수 있습니다.
 • 플레이어 하단에서 오프라인 저장 버튼이 표시되지 않습니다.
 • 일시 정지된 동영상이 갑자기 다시 재생될 수 있습니다.
 • 저화질 Shorts 재생바 썸네일이 표시됩니다.
 • Kids 동영상을 재생할 수 없습니다."</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
+    <string name="revanced_preference_screen_watch_history_title">시청 기록</string>
+    <string name="revanced_preference_screen_watch_history_summary">시청 기록과 관련된 설정을 변경할 수 있습니다.</string>
+    <string name="revanced_watch_history_management_title">모든 기록 관리하기</string>
+    <string name="revanced_watch_history_management_summary">여기를 누르면 YouTube 시청 기록 관리를 열 수 있습니다.</string>
+    <string name="revanced_watch_history_type_title">시청 기록 타입 설정</string>
+    <string name="revanced_watch_history_type_entry_1">기본값</string>
+    <string name="revanced_watch_history_type_entry_2">도메인 변경</string>
+    <string name="revanced_watch_history_type_entry_3">시청 기록 차단</string>
+    <string name="revanced_watch_history_about_title">시청 기록 정보</string>
+    <string name="revanced_watch_history_about_status_blocked">• 시청 기록이 작동되지 않습니다.</string>
+    <string name="revanced_watch_history_about_status_ios_replaced">"• Google 계정의 시청 기록 설정을 따릅니다.
+• 브랜드 계정에서는 시청 기록이 작동되지 않을 수 있습니다.
+('클라이언트 변경하기' 설정이 활성화되어 있고, iOS 클라이언트가 선택되어 있는 경우)"</string>
+    <string name="revanced_watch_history_about_status_ios_original">"• Google 계정의 시청 기록 설정을 따릅니다.
+• DNS 또는 VPN으로 인해 시청 기록이 작동되지 않을 수 있습니다.
+• 브랜드 계정에서는 시청 기록이 작동되지 않을 수 있습니다.
+('클라이언트 변경하기' 설정이 활성화되어 있고, iOS 클라이언트가 선택되어 있는 경우)"</string>
+    <string name="revanced_watch_history_about_status_android_replaced">• Google 계정의 시청 기록 설정을 따릅니다.</string>
+    <string name="revanced_watch_history_about_status_android_original">"• Google 계정의 시청 기록 설정을 따릅니다.
+• DNS 또는 VPN으로 인해 시청 기록이 작동되지 않을 수 있습니다."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">패치 정보</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

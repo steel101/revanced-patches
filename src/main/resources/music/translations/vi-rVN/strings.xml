@@ -137,6 +137,11 @@ Hạn chế:
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Nhập tên các mục mà bạn muốn lọc được phân cách bằng dòng.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Bộ lọc tuỳ chỉnh không hợp lệ: %s.</string>
+    <string name="revanced_hide_settings_menu_title">Ẩn menu cài đặt</string>
+    <string name="revanced_hide_settings_menu_summary">"Ẩn các thành phần của menu Cài đặt.
+Khi bật không chỉ ẩn menu Cài đặt YT Music, mà cả menu Cài đặt ReVanced Extended."</string>
+    <string name="revanced_hide_settings_menu_filter_strings_title">Cài đặt bộ lọc menu</string>
+    <string name="revanced_hide_settings_menu_filter_strings_summary">Danh sách tên menu Cài đặt cần lọc, cách nhau từng dòng một.</string>
     <string name="revanced_hide_button_shelf_title">Ẩn khối danh mục</string>
     <string name="revanced_hide_button_shelf_summary">Ẩn khối danh mục ở cuối thẻ Trang chủ và đầu thẻ Khám phá.</string>
     <string name="revanced_hide_carousel_shelf_title">Ẩn các kệ được cá nhân hoá</string>
@@ -322,6 +327,8 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Khác</string>
+    <string name="revanced_bypass_image_region_restrictions_title">Bỏ qua hạn chế khu vực cho hình ảnh</string>
+    <string name="revanced_bypass_image_region_restrictions_summary">Thay thế miền bị chặn ở một số khu vực để có thể thu được được ảnh bìa video của danh sách phát, ảnh đại diện kênh, v. v.</string>
     <string name="revanced_enable_cairo_splash_animation_title">Sử dụng hoạt ảnh kiểu Cairo</string>
     <string name="revanced_enable_cairo_splash_animation_summary">Sử dụng hoạt ảnh kiểu Cairo khi khởi động ứng dụng.</string>
     <string name="revanced_enable_debug_logging_title">Nhật ký gỡ lỗi</string>

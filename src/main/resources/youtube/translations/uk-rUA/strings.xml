@@ -523,6 +523,9 @@
 Автовідтворення можна змінити у налаштуваннях YouTube:
 'Налаштування → Автоматичне відтворення → Автовідтворення наступного відео'"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">Кінцевий екран з пропонованими відео показується.</string>
+    <string name="revanced_hide_zoom_overlay_title">Приховати накладання при масштабуванні</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">Накладання при масштабуванні приховано.</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">Накладання при масштабуванні показується.</string>
     <string name="revanced_skip_autoplay_countdown_title">Пропустити відлік автовідтворення</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Якщо автовідтворення увімкнено, наступне відео відтворюватиметься без відліку.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">Якщо автовідтворення увімкнено, наступне відео відтворюватиметься після закінчення відліку.</string>
@@ -891,6 +894,9 @@
     <string name="revanced_hide_chapters_section_title">Приховати секції розділів</string>
     <string name="revanced_hide_chapters_section_summary_on">Секції розділів приховано.</string>
     <string name="revanced_hide_chapters_section_summary_off">Секції розділів показується.</string>
+    <string name="revanced_hide_contents_section_title">Приховати секцію Контент</string>
+    <string name="revanced_hide_contents_section_summary_on">Секцію Як створювався цей контент приховано.</string>
+    <string name="revanced_hide_contents_section_summary_off">Секцію Як створювався цей контент показується.</string>
     <string name="revanced_hide_info_cards_section_title">Приховати секції інформаційних карток</string>
     <string name="revanced_hide_info_cards_section_summary_on">Секції інформаційних карток приховано.</string>
     <string name="revanced_hide_info_cards_section_summary_off">Секції інформаційних карток показується.</string>
@@ -1137,6 +1143,7 @@
 
 • Під час запуску відео є затримка приблизно 0.3 секунди, але типова якість відео застосовується відразу.
 • Не застосовується на відео HDR, прямі трансляції, менші ніж 15 секунд."</string>
+    <string name="revanced_skip_preloaded_buffer_user_dialog_message">Вмикання цього налаштування може спричинити проблеми відтворення відео.</string>
     <string name="revanced_skip_preloaded_buffer_toast_title">Показувати тост, коли пропущено</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">Тост показується.</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">Тост не показується.</string>
@@ -1330,7 +1337,7 @@
     <string name="revanced_sb_new_segment_choose_category">Вибрати категорію сегмента</string>
     <string name="revanced_sb_new_segment_disabled_category">Категорія вимкнена у налаштуваннях. Увімкніть категорію, щоб надіслати.</string>
     <string name="revanced_sb_new_segment_title">Новий сегмент Спонсорблок</string>
-    <string name="revanced_sb_new_segment_mark_time_as_question">Встановити %1$02d:%2$02d:%3$03d як початок або кінець нового сегмента?</string>
+    <string name="revanced_sb_new_segment_mark_current_time_as_question">Встановити %s як початок чи кінець нового сегмента?</string>
     <string name="revanced_sb_new_segment_mark_start">початок</string>
     <string name="revanced_sb_new_segment_mark_end">кінець</string>
     <string name="revanced_sb_new_segment_now">зараз</string>
@@ -1466,11 +1473,9 @@
     <string name="revanced_spoof_client_use_ios_summary">"Імітація клієнта для iOS.
 
 Побічні ефекти включають:
-• Немає HDR відео.
-• Вищі якості відео можуть бути недоступні.
+• Відео HDR підтримується тільки на кодеку AV1.
 • Історія перегляду не працює з акаунтом бренду.
-• Прямі трансляції не відтворюються як лише звук.
-• Прямі трансляції недоступні на Android 8.0."</string>
+• Прямі трансляції не відтворюються як лише звук."</string>
     <string name="revanced_spoof_client_use_android_testsuite_title">Тестовий Android</string>
     <string name="revanced_spoof_client_use_android_testsuite_summary">"Імітація тестового клієнта Android.
 
@@ -1500,6 +1505,7 @@
 • Призупинені відео можуть навмання продовжуватися.
 • Низька якість мініатюр панелі прогресу Shorts.
 • Відео для дітей не відтворюються."</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Інформація про патчі</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

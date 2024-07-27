@@ -1332,7 +1332,6 @@ Limitação: Dislikes pode não aparecer no modo incógnito."</string>
     <string name="revanced_sb_new_segment_choose_category">Escolha a categoria do segmento</string>
     <string name="revanced_sb_new_segment_disabled_category">A categoria está desativada nas configurações. Ative a categoria para enviar.</string>
     <string name="revanced_sb_new_segment_title">Novo segmento SponsorBlock</string>
-    <string name="revanced_sb_new_segment_mark_time_as_question">Definir %1$02d:%2$02d:%3$03d como início ou fim de um novo segmento?</string>
     <string name="revanced_sb_new_segment_mark_start">início</string>
     <string name="revanced_sb_new_segment_mark_end">fim</string>
     <string name="revanced_sb_new_segment_now">agora</string>
@@ -1503,6 +1502,7 @@ Os efeitos colaterais incluem:
 • Os vídeos pausados podem ser retomados aleatoriamente.
 • Miniaturas da barra de busca de Shorts de baixa qualidade.
 • Os vídeos infantis não são reproduzidos."</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Informações do patch</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

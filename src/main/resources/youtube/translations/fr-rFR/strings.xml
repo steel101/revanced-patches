@@ -82,6 +82,10 @@ Cliquez ici pour en savoir plus sur DeArrow."</string>
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow est momentanément indisponible. (code de statut : %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow est momentanément indisponible.</string>
     <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
+    <string name="revanced_preference_category_image_region_restrictions">Restriction des images selon les régions</string>
+    <string name="revanced_bypass_image_region_restrictions_title">Contourner les restrictions des images selon les régions</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_on">Utilisation des images hébergées par yt4.ggpht.com.</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_off">Utilisation des images originales.\n\nActiver ceci peut corriger les images manquantes qui sont bloquées dans certaines régions.</string>
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Flux</string>
     <string name="revanced_hide_album_card_title">Masquer les fiches d\'album</string>
@@ -399,11 +403,11 @@ Certains composants peuvent ne pas être masqués."</string>
     <string name="revanced_hide_navigation_label_summary_on">Le nom des catégories sont masqués.</string>
     <string name="revanced_hide_navigation_label_summary_off">Le nom des catégories sont affichés.</string>
     <string name="revanced_switch_create_with_notifications_button_title">Échanger \"Créer\" et \"Notifications\"</string>
-    <string name="revanced_switch_create_with_notifications_button_summary">"Échange les boutons \"Créer\" et \"Notifications\" en falsifiant les infos de l'appareil.
+    <string name="revanced_switch_create_with_notifications_button_summary">"Échange la position des boutons \"Créer\" et \"Notifications\" en falsifiant les informations de l'appareil.
 
 • L'appareil peut nécessiter un redémarrage pour que ce paramètre prenne effet.
-• Désactiver ce paramètre charge plus de pubs depuis le serveur.
-• Vous devez désactiver ce paramètre pour afficher les publicités vidéos."</string>
+• Désactiver ce paramètre charge plus de publicités depuis le serveur.
+• Vous devez désactiver ce paramètre afin de rendre les publicités vidéo visibles."</string>
     <string name="revanced_enable_translucent_navigation_bar_title">Activer la barre de navigation translucide</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">La barre de navigation est translucide.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">La barre de navigation est opaque.</string>
@@ -889,6 +893,9 @@ Effet secondaire : le thème Cairo peut également s'appliquer sur les points d
     <string name="revanced_hide_chapters_section_title">Masquer la section des chapitres</string>
     <string name="revanced_hide_chapters_section_summary_on">La section des chapitres est masqué.</string>
     <string name="revanced_hide_chapters_section_summary_off">La section des chapitres est affiché.</string>
+    <string name="revanced_hide_contents_section_title">Masquer la section \"Contenu\"</string>
+    <string name="revanced_hide_contents_section_summary_on">La section \"Comment ce contenu a été créé\" est masqué.</string>
+    <string name="revanced_hide_contents_section_summary_off">La section \"Comment ce contenu a été créé\" est affiché.</string>
     <string name="revanced_hide_info_cards_section_title">Masquer les fiches \"Infos\"</string>
     <string name="revanced_hide_info_cards_section_summary_on">La section des fiches info est masquée.</string>
     <string name="revanced_hide_info_cards_section_summary_off">La section des fiches info est affichée.</string>
@@ -1064,6 +1071,9 @@ Limitations :
     <string name="revanced_enable_swipe_volume_title">Activer les gestes de volume</string>
     <string name="revanced_enable_swipe_volume_summary_on">Les gestes des volumes sont activé.</string>
     <string name="revanced_enable_swipe_volume_summary_off">Les gestes de volume sont désactivé.</string>
+    <string name="revanced_enable_save_and_restore_brightness_title">Activer enregistr. et restaur. de la luminosité</string>
+    <string name="revanced_enable_save_and_restore_brightness_summary_on">Enregistrer et restaurer la luminosité en quittant ou en entrant en plein écran.</string>
+    <string name="revanced_enable_save_and_restore_brightness_summary_off">N\'enregistre et ne restaure pas la luminosité en quittant ou en entrant en plein écran.</string>
     <string name="revanced_enable_swipe_press_to_engage_title">Activer les gestes de commande</string>
     <string name="revanced_enable_swipe_press_to_engage_summary_on">Appuyez longuement pour activer les gestes de commande.</string>
     <string name="revanced_enable_swipe_press_to_engage_summary_off">Appuyez pour activer les gestes de commande.</string>
@@ -1132,6 +1142,7 @@ Limitations :
 Info :
 • Au démarrage de la vidéo, il y a un délai d'environ 0.3 seconde.
 • Ne s'applique pas aux vidéos HDR, aux diffusions en direct et aux vidéos de moins de 15 secondes."</string>
+    <string name="revanced_skip_preloaded_buffer_user_dialog_message">Activer ce paramètre peut entraîner des problèmes de lecture vidéo.</string>
     <string name="revanced_skip_preloaded_buffer_toast_title">Affic. message lors du passage</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">Le message est affiché.</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">Le message est masqué.</string>
@@ -1210,13 +1221,13 @@ Limitation : les \"Je n'aime pas\" ne seront pas affichées si vous n'êtes pas 
     <string name="revanced_sb_segments_interaction">Rappel d\'interaction (S\'abonner)</string>
     <string name="revanced_sb_segments_interaction_sum">Un bref rappel pour aimer, s\'abonner ou pour les suivre au milieu du contenu. S\'il est long ou s\'il traite d\'un sujet spécifique, il devrait être placé dans la section \"auto-promotion\".</string>
     <string name="revanced_sb_segments_highlight">Point clé</string>
-    <string name="revanced_sb_segments_highlight_sum">La partie de la vidéo que la plupart des personnes veulent voir.</string>
+    <string name="revanced_sb_segments_highlight_sum">Partie de la vidéo que la plupart des personnes veulent voir.</string>
     <string name="revanced_sb_segments_intro">Intro / Entracte</string>
     <string name="revanced_sb_segments_intro_sum">Un intervalle sans contenu réel. Il peut s\'agir d\'une pause, d\'une image fixe ou d\'une animation répétitive. Ne comprends pas des passages contenant des informations.</string>
     <string name="revanced_sb_segments_outro">Outro / Crédits</string>
     <string name="revanced_sb_segments_outro_sum">Crédits ou lorsque les cartes de fin de vidéo YouTube apparaissent. Ne pas utiliser pour des conclusions avec des informations.</string>
     <string name="revanced_sb_segments_preview">Aperçu / Récapitulatif</string>
-    <string name="revanced_sb_segments_preview_sum">Un récapitulatif montrant ce qu\'il va se passer ou qui s\'est passé dans la vidéo ou dans d\'autres vidéos de la série, lorsque des informations se répètes.</string>
+    <string name="revanced_sb_segments_preview_sum">Aperçu de clips qui montrent ce qui est à venir ou ce qui s\'est passé dans la vidéo ou dans d\'autres vidéos de la série, lorsque les informations sont répétées ailleurs.</string>
     <string name="revanced_sb_segments_filler">Remplissage / Blagues</string>
     <string name="revanced_sb_segments_filler_sum">Scènes secondaires ajoutées uniquement à des fins de remplissage ou d\'humour qui ne sont pas nécessaires à la compréhension de la vidéo. N\'inclus pas les segments fournissant un contexte ou des détails utiles.</string>
     <string name="revanced_sb_segments_nomusic">Musique : Section non musicale</string>
@@ -1239,7 +1250,7 @@ Limitation : les \"Je n'aime pas\" ne seront pas affichées si vous n'êtes pas 
     <string name="revanced_sb_skip_button_unsubmitted">Passer le segment</string>
     <string name="revanced_sb_skipped_sponsor">Sponsor passé.</string>
     <string name="revanced_sb_skipped_selfpromo">Autopromotion passée.</string>
-    <string name="revanced_sb_skipped_interaction">Passage ennuyeux passé.</string>
+    <string name="revanced_sb_skipped_interaction">Rappel ennuyeux passé.</string>
     <string name="revanced_sb_skipped_highlight">Passé au point clé.</string>
     <string name="revanced_sb_skipped_intro_beginning">Intro passée.</string>
     <string name="revanced_sb_skipped_intro_middle">Entracte passé.</string>
@@ -1254,7 +1265,7 @@ Limitation : les \"Je n'aime pas\" ne seront pas affichées si vous n'êtes pas 
     <string name="revanced_sb_skipped_multiple_segments">Plusieurs segments passés.</string>
     <string name="revanced_sb_skip_automatically">Passer automatiquement</string>
     <string name="revanced_sb_skip_automatically_once">Passer automatiquement une fois</string>
-    <string name="revanced_sb_skip_showbutton">Afficher bouton \"Passer\"</string>
+    <string name="revanced_sb_skip_showbutton">Afficher un bouton \"Passer\"</string>
     <string name="revanced_sb_skip_seekbaronly">Afficher dans la barre de progression</string>
     <string name="revanced_sb_skip_ignore">Désactiver</string>
     <string name="revanced_sb_color_dot_label">Couleur :</string>
@@ -1325,7 +1336,6 @@ Limitation : les \"Je n'aime pas\" ne seront pas affichées si vous n'êtes pas 
     <string name="revanced_sb_new_segment_choose_category">Choisissez la catégorie du segment</string>
     <string name="revanced_sb_new_segment_disabled_category">La catégorie est désactivée dans les paramètres. Activez la catégorie pour soumettre.</string>
     <string name="revanced_sb_new_segment_title">Nouveau segment SponsorBlock</string>
-    <string name="revanced_sb_new_segment_mark_time_as_question">Définir %1$02d:%2$02d:%3$03d comme début ou fin du nouveau segment ?</string>
     <string name="revanced_sb_new_segment_mark_start">début</string>
     <string name="revanced_sb_new_segment_mark_end">fin</string>
     <string name="revanced_sb_new_segment_now">maintenant</string>
@@ -1501,6 +1511,7 @@ Les effets secondaires incluent :
 • Les vidéos en pause peuvent reprendre aléatoirement.
 • Les miniatures de la barre de progression sur les Shorts sont en basses qualités.
 • Les vidéos conçues pour les enfants ne seront pas lues."</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Informations sur les patchs</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

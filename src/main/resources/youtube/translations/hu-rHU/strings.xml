@@ -83,7 +83,7 @@ Koppints ide, ha többet szeretnél megtudni a DeArrow-ról."</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">A DeArrow átmenetileg nem elérhető.</string>
     <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
     <string name="revanced_preference_category_image_region_restrictions">Régiós kép korlátozások</string>
-    <string name="revanced_bypass_image_region_restrictions_title">Kerülje meg a régiós kép korlátozásokat</string>
+    <string name="revanced_bypass_image_region_restrictions_title">Területi kép-korlátozások megkerülése</string>
     <string name="revanced_bypass_image_region_restrictions_summary_on">Az yt4.ggpht.com cím használata a képekhez.</string>
     <string name="revanced_bypass_image_region_restrictions_summary_off">Az eredeti cím használata a képekhez.\n\nEnnek engedélyezése javíthatja a hiányzó képeket, amelyek bizonyos régiókban le vannak tiltva.</string>
     <!-- PreferenceScreen: Feed -->
@@ -888,6 +888,9 @@ Mellékhatás: a Cairo stílus az értesítési pontokra is alkalmazódik."</str
     <string name="revanced_hide_chapters_section_title">Fejezetek szakaszainak elrejtése</string>
     <string name="revanced_hide_chapters_section_summary_on">A fejezetek szakaszai el vannak rejtve.</string>
     <string name="revanced_hide_chapters_section_summary_off">A fejezetek szakaszai megjelennek.</string>
+    <string name="revanced_hide_contents_section_title">A tartalmak szekció elrejtése</string>
+    <string name="revanced_hide_contents_section_summary_on">A tartalom készítésének módja rész elrejtve.</string>
+    <string name="revanced_hide_contents_section_summary_off">A tartalom készítésének módja rész látható.</string>
     <string name="revanced_hide_info_cards_section_title">Infó kártyák rész elrejtése</string>
     <string name="revanced_hide_info_cards_section_summary_on">Az infó kártyák rész el van rejtve</string>
     <string name="revanced_hide_info_cards_section_summary_off">Az infó kártyák rész látható</string>
@@ -954,7 +957,7 @@ Korlát: A hivatalos fejlécek a keresési eredményekben el lesznek rejtve."</s
     <string name="revanced_hide_shorts_subscribe_button_summary_on">A feliratkozás gomb el van rejtve</string>
     <string name="revanced_hide_shorts_subscribe_button_summary_off">A feliratkozás gomb látható</string>
     <string name="revanced_hide_shorts_paused_header_title">Szüneteltetett fejléc elrejtése</string>
-    <string name="revanced_hide_shorts_paused_header_summary_on">A szüneteltetett fejléc el van rejtve.</string>
+    <string name="revanced_hide_shorts_paused_header_summary_on">A szüneteltetett fejléc elrejtve.</string>
     <string name="revanced_hide_shorts_paused_header_summary_off">A szüneteltetett fejléc látható.</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">Szüneteltetett fedő gombok elrejtése</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">A szüneteltetett fedő gombok el vannak rejtve</string>
@@ -1133,6 +1136,7 @@ Megjegyzés: Ezzel a képernyőterület méretét is megváltoztatja, ahol érz�
 Info:
 • Amikor a videó elindul, kb. 0,3 másodperces késés van.
 • Nem vonatkozik HDR videókra, élő stream videókra, vagy 15 másodpercnél rövidebb videókra."</string>
+    <string name="revanced_skip_preloaded_buffer_user_dialog_message">A beállítás bekapcsolása videolejátszási problémákat okozhat.</string>
     <string name="revanced_skip_preloaded_buffer_toast_title">Pirítós mutatása átugoráskor</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">Felugró értesítés látható.</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">A felugró értesítés nem látható.</string>
@@ -1323,7 +1327,6 @@ Egy másik kodek kerül alkalmazásra kb. 20 másodperc pufferezés után."</str
     <string name="revanced_sb_new_segment_choose_category">Válassza ki a szakasz kategóriáját</string>
     <string name="revanced_sb_new_segment_disabled_category">A kategória letiltva a beállításokban. Engedélyezze a beküldéshez.</string>
     <string name="revanced_sb_new_segment_title">Új SponsorBlock szakasz</string>
-    <string name="revanced_sb_new_segment_mark_time_as_question">Beállítja a(z) %1$02d:%2$02d:%3$03d -t az új szakasz kezdetének vagy végének?</string>
     <string name="revanced_sb_new_segment_mark_start">kezdőpont</string>
     <string name="revanced_sb_new_segment_mark_end">végpont</string>
     <string name="revanced_sb_new_segment_now">most</string>
@@ -1488,6 +1491,7 @@ A mellékhatások a következők lehetnek:
 • A szüneteltetett videók véletlenszerűen folytatódhatnak.
 • Gyenge minőségű bélyegképek a Shorts keresősávján.
 • A gyerekeknek készült videókat nem lehet lejátszani."</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Patch információ</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

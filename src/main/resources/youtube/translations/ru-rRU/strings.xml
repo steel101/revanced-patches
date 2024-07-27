@@ -23,7 +23,7 @@
 
 Ограничение:
 Посты сообщества, в полном экране, могут быть заблокированы."</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">Реклама в полном экране была заблокирована. (Взаимодействие :%s)</string>
+    <string name="revanced_hide_fullscreen_ads_blocked_success">Реклама в полном экране была заблокирована. (Взаимодействие: %s)</string>
     <string name="revanced_hide_fullscreen_ads_closed_success">Реклама в полном экране была закрыта.</string>
     <string name="revanced_hide_general_ads_title">Реклама общего формата</string>
     <string name="revanced_hide_general_ads_summary_on">Реклама общего формата скрыта.</string>
@@ -83,6 +83,11 @@
     <string name="revanced_alt_thumbnail_dearrow_error">DeArrow временно недоступен. (код состояния: %s)</string>
     <string name="revanced_alt_thumbnail_dearrow_error_generic">DeArrow временно недоступен.</string>
     <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
+    <string name="revanced_preference_category_image_region_restrictions">Ограничения изображений по региону</string>
+    <string name="revanced_bypass_image_region_restrictions_title">Обойти ограничения изображений по региону</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_on">Использовать для изображений host yt4.ggpht.com.</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_off">Использовать оригинальный хост изображений.
+Включение может исправить недостающие изображения, в некоторых регионах.</string>
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">Лента</string>
     <string name="revanced_hide_album_card_title">Карточки альбомов</string>
@@ -534,6 +539,9 @@ Shorts
 Автовоспроизведение можно изменить в настройках YouTube:
 Настройки -> Автовоспроизведение -> Автовоспроизведение следующего видео"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">Рекомендуемое видео в конце воспроизведения отображено.</string>
+    <string name="revanced_hide_zoom_overlay_title">Увеличение наложения</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">Увеличение наложения отключено.</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">Увеличение наложения включено.</string>
     <string name="revanced_skip_autoplay_countdown_title">Задержка автовоспроизведения</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Задержка автовоспроизведения следующего видео отключена.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">Задержка автовоспроизведения следующего видео включена.</string>
@@ -903,6 +911,9 @@ Shorts
     <string name="revanced_hide_chapters_section_title">Секции глав</string>
     <string name="revanced_hide_chapters_section_summary_on">Секции глав скрыты.</string>
     <string name="revanced_hide_chapters_section_summary_off">Секции глав отображены.</string>
+    <string name="revanced_hide_contents_section_title">Секция содержимого</string>
+    <string name="revanced_hide_contents_section_summary_on">Секция содержимого скрыта.</string>
+    <string name="revanced_hide_contents_section_summary_off">Секция содержимого отображена.</string>
     <string name="revanced_hide_info_cards_section_title">Секции информационных карт</string>
     <string name="revanced_hide_info_cards_section_summary_on">Секции информационных карт скрыты.</string>
     <string name="revanced_hide_info_cards_section_summary_off">Секции информационных карт отображены.</string>
@@ -1084,6 +1095,9 @@ Shorts
     <string name="revanced_enable_swipe_volume_title">Управление громкостью жестом</string>
     <string name="revanced_enable_swipe_volume_summary_on">Громкость жестом включено.</string>
     <string name="revanced_enable_swipe_volume_summary_off">Громкость жестом отключено.</string>
+    <string name="revanced_enable_save_and_restore_brightness_title">Сохранение и восстановление яркости</string>
+    <string name="revanced_enable_save_and_restore_brightness_summary_on">Сохранять и восстанавливать яркость при переключениях полного экрана.</string>
+    <string name="revanced_enable_save_and_restore_brightness_summary_off">Не сохранять и не восстанавливать яркость при переключениях полного экрана.</string>
     <string name="revanced_enable_swipe_press_to_engage_title">Нажатие для жестов</string>
     <string name="revanced_enable_swipe_press_to_engage_summary_on">Прикосновение и удержание для активации жеста.</string>
     <string name="revanced_enable_swipe_press_to_engage_summary_off">Прикосновение для активации жеста.</string>
@@ -1152,6 +1166,8 @@ Shorts
 Ограничения:
 • При запуске видео возникает задержка примерно в 0.3 секунды.
 • Не распространяется на HDR-видео, трансляции и видео длительностью менее 15 секунд."</string>
+    <string name="revanced_skip_preloaded_buffer_user_dialog_message">Включение приведет к проблемам при воспроизведении видео.
+(Связанно с буфером предзагрузки).</string>
     <string name="revanced_skip_preloaded_buffer_toast_title">Уведомление при пропуске буфера</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">Уведомление включено.</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">Уведомление отключено.</string>
@@ -1345,7 +1361,7 @@ Shorts
     <string name="revanced_sb_new_segment_choose_category">Выберите категорию сегмента</string>
     <string name="revanced_sb_new_segment_disabled_category">Эта категория отключена в настройках. Включите ее для отправки сегмента.</string>
     <string name="revanced_sb_new_segment_title">Новый сегмент SponsorBlock</string>
-    <string name="revanced_sb_new_segment_mark_time_as_question">Установить %1$02d:%2$02d:%3$03d как начало или конец нового сегмента?</string>
+    <string name="revanced_sb_new_segment_mark_current_time_as_question">Установить %s как начало или конец нового сегмента?</string>
     <string name="revanced_sb_new_segment_mark_start">начало</string>
     <string name="revanced_sb_new_segment_mark_end">конец</string>
     <string name="revanced_sb_new_segment_now">сейчас</string>
@@ -1518,6 +1534,7 @@ Shorts
 • Пауза в видео может работать некорректно.
 • Миниатюры шкалы воспроизведения Shorts будут низкого качества.
 • Детские видео не воспроизводятся."</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Информация о патчах</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->
