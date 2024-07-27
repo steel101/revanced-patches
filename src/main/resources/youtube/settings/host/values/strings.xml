@@ -1608,11 +1608,9 @@ Limitation: Feed videos will play for less than 1 minute before encountering pla
     <string name="revanced_spoof_client_use_ios_summary">"Spoof client to iOS.
 
 Side effects include:
-• No HDR video.
-• Higher video qualities may not be available.
+• HDR video is supported only on AV1 codec.
 • Watch history does not work with a brand account.
-• Live streams cannot play as audio-only.
-• Live streams not available on Android 8.0."</string>
+• Live streams cannot play as audio-only."</string>
     <string name="revanced_spoof_client_use_android_testsuite_title">Android Testsuite</string>
     <string name="revanced_spoof_client_use_android_testsuite_summary">"Spoof client to Android Testsuite.
 
