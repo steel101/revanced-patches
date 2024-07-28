@@ -33,7 +33,7 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
             "ReVanced Colored" to "revanced_colored",
         ),
         title = "RVX settings menu icon",
-        description = "Apply different icons for RVX settings menu.",
+        description = "The icon for the RVX settings menu.",
         required = true
     )
 
