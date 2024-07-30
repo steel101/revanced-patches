@@ -522,6 +522,9 @@ Nota: disattivando la sovrapposizione della velocità verrà ripristinato lo \"S
 La riproduzione automatica può essere modificato nelle impostazioni di YouTube:
 'Impostazioni → riproduzione automatica→ riproduzione automatica del video successivo'"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">Il video suggerito della schermata finale è mostrato.</string>
+    <string name="revanced_hide_zoom_overlay_title">Nascondi sovrapposizione zoom</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">La sovrapposizione zoom è nascosta.</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">La sovrapposizione zoom è mostrata.</string>
     <string name="revanced_skip_autoplay_countdown_title">Salta il conto alla rovescia della riproduzione automatica</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Se la riproduzione automatica è abilitata, il video successivo verrà riprodotto immediatamente.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">Se la riproduzione automatica è abilitata, il video successivo verrà riprodotto al termine del conto alla rovescia.</string>
@@ -896,6 +899,9 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
     <string name="revanced_hide_chapters_section_title">Nascondi le sezioni capitoli</string>
     <string name="revanced_hide_chapters_section_summary_on">Le sezioni dei capitoli sono nascoste.</string>
     <string name="revanced_hide_chapters_section_summary_off">Le sezioni dei capitoli sono mostrate.</string>
+    <string name="revanced_hide_contents_section_title">Nascondi sezione Contenuti</string>
+    <string name="revanced_hide_contents_section_summary_on">Come questo contenuto è stato fatto sezione è nascosto.</string>
+    <string name="revanced_hide_contents_section_summary_off">Come è stato fatto questo contenuto la sezione è mostrata.</string>
     <string name="revanced_hide_info_cards_section_title">Nascondi la sezione Schede Informative</string>
     <string name="revanced_hide_info_cards_section_summary_on">La sezione Schede Informative è nascosta</string>
     <string name="revanced_hide_info_cards_section_summary_off">La sezione Schede Informative è visibile</string>
@@ -1331,6 +1337,7 @@ Limitazione: Non mi piace possono non apparire se l'utente non è registrato o i
     <string name="revanced_sb_new_segment_choose_category">Scegli la categoria del segmento</string>
     <string name="revanced_sb_new_segment_disabled_category">La categoria è disattivata nelle impostazioni. Attiva la categoria da inviare.</string>
     <string name="revanced_sb_new_segment_title">Nuovo segmento SponsorBlock</string>
+    <string name="revanced_sb_new_segment_mark_current_time_as_question">Impostare %s come inizio o fine di un nuovo segmento?</string>
     <string name="revanced_sb_new_segment_mark_start">inizio</string>
     <string name="revanced_sb_new_segment_mark_end">fine</string>
     <string name="revanced_sb_new_segment_now">adesso</string>
@@ -1502,6 +1509,26 @@ Gli effetti collaterali includono:
 • Bassa qualità miniature della barra di ricerca.
 • I video per bambini non riproducono."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
+    <string name="revanced_preference_screen_watch_history_title">Cronologia</string>
+    <string name="revanced_preference_screen_watch_history_summary">Cambia le impostazioni relative alla cronologia.</string>
+    <string name="revanced_watch_history_management_title">Gestisci tutta la cronologia</string>
+    <string name="revanced_watch_history_management_summary">Clicca per aprire la gestione della cronologia di YouTube.</string>
+    <string name="revanced_watch_history_type_title">Tipo di cronologia</string>
+    <string name="revanced_watch_history_type_entry_1">Originale</string>
+    <string name="revanced_watch_history_type_entry_2">Sostituisci dominio</string>
+    <string name="revanced_watch_history_type_entry_3">Blocca cronologia</string>
+    <string name="revanced_watch_history_about_title">Informazioni sulla cronologia</string>
+    <string name="revanced_watch_history_about_status_blocked">• La cronologia non funziona.</string>
+    <string name="revanced_watch_history_about_status_ios_replaced">"• Segue le impostazioni di cronologia dell'account Google.
+• La cronologia potrebbe non funzionare con un account brand.
+(L'impostazione di Spoof del client è attiva e il client iOS è selezionato)"</string>
+    <string name="revanced_watch_history_about_status_ios_original">"• Segue le impostazioni di cronologia dell'account Google.
+• La cronologia potrebbe non funzionare a causa di DNS o VPN.
+• La cronologia potrebbe non funzionare con un account brand.
+(L'impostazione di Spoof del client è attiva e il client iOS è selezionato)"</string>
+    <string name="revanced_watch_history_about_status_android_replaced">• Segue le impostazioni di cronologia dell\'account Google.</string>
+    <string name="revanced_watch_history_about_status_android_original">"• Segue le impostazioni di cronologia dell'account Google.
+• La cronologia potrebbe non funzionare a causa di DNS o VPN."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Informazioni patch</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

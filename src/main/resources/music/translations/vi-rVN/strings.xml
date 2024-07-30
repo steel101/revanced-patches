@@ -18,7 +18,7 @@
     <string name="revanced_hide_terms_container_title">Ẩn mục Bảo mật và Điều khoản</string>
     <string name="revanced_hide_terms_container_summary">Ẩn các mục Chính sách quyền riêng tư và Điều khoản dịch vụ khỏi trình đơn Tài khoản.</string>
     <!-- PreferenceScreen: Action Bar -->
-    <string name="revanced_preference_screen_action_bar_title">Thanh Thao tác</string>
+    <string name="revanced_preference_screen_action_bar_title">Bảng nút thao tác</string>
     <string name="revanced_hide_action_button_like_dislike_title">Ẩn các nút Thích/Không thích</string>
     <string name="revanced_hide_action_button_like_dislike_summary">Ẩn nút Thích và nút Không thích.\n\nLưu ý: Tuỳ chọn này không hoạt động trong bố cục trình phát kiểu cũ.</string>
     <string name="revanced_hide_action_button_comment_title">Ẩn nút Bình luận</string>
@@ -200,6 +200,10 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_hide_navigation_label_summary">Ẩn tên thẻ trên thanh điều hướng.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Trình phát</string>
+    <string name="revanced_disable_mini_player_gesture_title">Tắt cử chỉ trình phát thu nhỏ</string>
+    <string name="revanced_disable_mini_player_gesture_summary">Tắt vuốt để chuyển bài hát trong trình phát thu nhỏ.</string>
+    <string name="revanced_disable_player_gesture_title">Tắt cử chỉ trình phát</string>
+    <string name="revanced_disable_player_gesture_summary">Tắt vuốt để chuyển bài hát trong trình phát.</string>
     <string name="revanced_enable_black_player_background_title">Sử dụng nền trình phát màu đen</string>
     <string name="revanced_enable_black_player_background_summary">Thay đổi màu nền trình phát sang màu đen.</string>
     <string name="revanced_enable_color_match_player_title">Trình phát thu nhỏ khớp màu</string>

@@ -137,6 +137,11 @@ Informações:
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Lista de componentes a serem filtradas separadas por uma nova linha.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Filtro personalizado inválido: %s.</string>
+    <string name="revanced_hide_settings_menu_title">Ocultar menu de configurações</string>
+    <string name="revanced_hide_settings_menu_summary">"Oculte elementos do menu de configurações.
+Isso oculta não apenas o menu de configurações do YT Music, mas também o menu de configurações do ReVanced Extended."</string>
+    <string name="revanced_hide_settings_menu_filter_strings_title">Filtro do menu configurações</string>
+    <string name="revanced_hide_settings_menu_filter_strings_summary">Lista de nomes do menu de configurações para filtrar, separados por novas linhas.</string>
     <string name="revanced_hide_button_shelf_title">Ocultar painel de botões</string>
     <string name="revanced_hide_button_shelf_summary">Oculta o painel de botões no feed.</string>
     <string name="revanced_hide_carousel_shelf_title">Ocultar painel de carrossel</string>

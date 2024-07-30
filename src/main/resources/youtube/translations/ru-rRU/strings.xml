@@ -1535,6 +1535,26 @@ Shorts
 • Миниатюры шкалы воспроизведения Shorts будут низкого качества.
 • Детские видео не воспроизводятся."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
+    <string name="revanced_preference_screen_watch_history_title">История просмотра</string>
+    <string name="revanced_preference_screen_watch_history_summary">Изменить настройки истории просмотра.</string>
+    <string name="revanced_watch_history_management_title">Управление всей историей</string>
+    <string name="revanced_watch_history_management_summary">Управление истории просмотра YouTube.</string>
+    <string name="revanced_watch_history_type_title">Режим истории просмотра</string>
+    <string name="revanced_watch_history_type_entry_1">Обычный</string>
+    <string name="revanced_watch_history_type_entry_2">Замена домена</string>
+    <string name="revanced_watch_history_type_entry_3">Блокировать историю просмотра</string>
+    <string name="revanced_watch_history_about_title">Об истории просмотра</string>
+    <string name="revanced_watch_history_about_status_blocked">• История просмотра не работает.</string>
+    <string name="revanced_watch_history_about_status_ios_replaced">"• Следует настройкам истории просмотров аккаунта Google.
+• История просмотра может не работать с аккаунтом бренда.
+(Настройка клиента подмены включен и выбран клиент iOS)"</string>
+    <string name="revanced_watch_history_about_status_ios_original">"• Следует настройкам истории просмотров аккаунта Google.
+• История просмотра может не работать из-за DNS или VPN.
+• История просмотра может не работать с аккаунтом бренда.
+(Настройка клиента подмены включен и выбран клиент iOS)"</string>
+    <string name="revanced_watch_history_about_status_android_replaced">• Следует настройкам истории просмотров аккаунта Google.</string>
+    <string name="revanced_watch_history_about_status_android_original">"• Следует настройкам истории просмотров аккаунта Google.
+• История просмотра может не работать из-за DNS или VPN."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Информация о патчах</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

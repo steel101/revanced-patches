@@ -200,6 +200,10 @@
     <string name="revanced_hide_navigation_label_summary">Απόκρυψη ονομασιών των κουμπιών στη γραμμή πλοήγησης.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Οθόνη αναπαραγωγής</string>
+    <string name="revanced_disable_mini_player_gesture_title">Απενεργοποίηση χειρονομίας ελαχιστοποιημένης οθόνης αναπαραγωγής</string>
+    <string name="revanced_disable_mini_player_gesture_summary">Απενεργοποίηση της χειρονομίας σάρωσης για αλλαγή κομματιού στην ελαχιστοποιημένη οθόνη αναπαραγωγής.</string>
+    <string name="revanced_disable_player_gesture_title">Απενεργοποίηση χειρονομίας οθόνης αναπαραγωγής</string>
+    <string name="revanced_disable_player_gesture_summary">Απενεργοποίηση της χειρονομίας σάρωσης για αλλαγή κομματιού στην οθόνη αναπαραγωγής.</string>
     <string name="revanced_enable_black_player_background_title">Μαύρο φόντο οθόνης αναπαραγωγής</string>
     <string name="revanced_enable_black_player_background_summary">Αλλαγή χρώματος της οθόνης αναπαραγωγής σε μαύρο.</string>
     <string name="revanced_enable_color_match_player_title">Ταίριασμα χρωμάτων οθόνων αναπαραγωγής</string>

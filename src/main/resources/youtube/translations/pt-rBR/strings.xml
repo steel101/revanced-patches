@@ -526,6 +526,9 @@ Nota:
 A reprodução automática pode ser alterada nas configurações do YouTube:
 'Configurações → Reprodução automática → Reprodução automática do próximo vídeo'"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">A tela de vídeo sugerido no fim é exibida.</string>
+    <string name="revanced_hide_zoom_overlay_title">Ocultar sobreposição de zoom</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">A sobreposição de zoom está oculta.</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">A sobreposição de zoom será exibida.</string>
     <string name="revanced_skip_autoplay_countdown_title">Pular contagem regressiva de reprodução automática</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Se a reprodução automática estiver ativada, o próximo vídeo será reproduzido sem uma contagem regressiva.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">Se a reprodução automática estiver ativada, o próximo vídeo será reproduzido após a contagem regressiva terminar.</string>
@@ -895,6 +898,9 @@ Efeito colateral: o tema Cairo também é aplicado aos pontos de notificação."
     <string name="revanced_hide_chapters_section_title">Ocultar seções de capítulos</string>
     <string name="revanced_hide_chapters_section_summary_on">As seções de capítulos estão ocultas.</string>
     <string name="revanced_hide_chapters_section_summary_off">As seções de capítulos serão exibidas.</string>
+    <string name="revanced_hide_contents_section_title">Ocultar seção de Conteúdo</string>
+    <string name="revanced_hide_contents_section_summary_on">A seção Como este conteúdo foi feito está oculta.</string>
+    <string name="revanced_hide_contents_section_summary_off">A seção Como este conteúdo foi feito será exibida.</string>
     <string name="revanced_hide_info_cards_section_title">Ocultar seções de cartões de informação</string>
     <string name="revanced_hide_info_cards_section_summary_on">As seções de cartões de informações estão ocultas.</string>
     <string name="revanced_hide_info_cards_section_summary_off">As seções de cartões de informação serão exibidas.</string>
@@ -1139,6 +1145,7 @@ Problema conhecido: como se trata de um recurso em fase de desenvolvimento pelo 
 
 • Quando o vídeo é iniciado, há um atraso de aproximadamente 0,3 segundos, mas a qualidade de vídeo padrão é aplicada imediatamente.
 • Não se aplica a vídeos HDR, vídeos transmitidos ao vivo e vídeos com menos de 15 segundos."</string>
+    <string name="revanced_skip_preloaded_buffer_user_dialog_message">Ativar essa configuração pode causar problemas de reprodução de vídeo.</string>
     <string name="revanced_skip_preloaded_buffer_toast_title">Mostrar uma notificação flutuante quando ignorado</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">Uma notificação flutuante será exibida.</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">Uma notificação flutuante não será exibida.</string>
@@ -1332,6 +1339,7 @@ Limitação: Dislikes pode não aparecer no modo incógnito."</string>
     <string name="revanced_sb_new_segment_choose_category">Escolha a categoria do segmento</string>
     <string name="revanced_sb_new_segment_disabled_category">A categoria está desativada nas configurações. Ative a categoria para enviar.</string>
     <string name="revanced_sb_new_segment_title">Novo segmento SponsorBlock</string>
+    <string name="revanced_sb_new_segment_mark_current_time_as_question">Definir %s como início ou fim de um novo segmento?</string>
     <string name="revanced_sb_new_segment_mark_start">início</string>
     <string name="revanced_sb_new_segment_mark_end">fim</string>
     <string name="revanced_sb_new_segment_now">agora</string>
@@ -1503,6 +1511,16 @@ Os efeitos colaterais incluem:
 • Miniaturas da barra de busca de Shorts de baixa qualidade.
 • Os vídeos infantis não são reproduzidos."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
+    <string name="revanced_preference_screen_watch_history_title">Histórico de exibição</string>
+    <string name="revanced_preference_screen_watch_history_summary">Altere as configurações relacionadas ao histórico de exibição.</string>
+    <string name="revanced_watch_history_management_title">Gerenciar todo o histórico</string>
+    <string name="revanced_watch_history_management_summary">Clique para abrir o gerenciamento do histórico de exibição do YouTube.</string>
+    <string name="revanced_watch_history_type_title">Tipo de histórico de exibição</string>
+    <string name="revanced_watch_history_type_entry_1">Original</string>
+    <string name="revanced_watch_history_type_entry_2">Substituir domínio</string>
+    <string name="revanced_watch_history_type_entry_3">Bloquear histórico de exibição</string>
+    <string name="revanced_watch_history_about_title">Sobre o histórico de exibição</string>
+    <string name="revanced_watch_history_about_status_blocked">• O histórico de exibição não funciona.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Informações do patch</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

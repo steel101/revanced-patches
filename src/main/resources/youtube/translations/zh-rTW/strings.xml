@@ -525,6 +525,9 @@
  可以在 YouTube 設定中變更自動播放：
  '設定 → 自動播放 → 自動播放下一個影片'"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">顯示建議的影片結束畫面。</string>
+    <string name="revanced_hide_zoom_overlay_title">隱藏縮放疊加</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">縮放疊加被隱藏。</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">顯示縮放疊加。</string>
     <string name="revanced_skip_autoplay_countdown_title">跳過自動播放倒計時</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">如果自動播放已開啟，下一個影片將在無倒計時的情況下播放</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">如果自動播放已開啟，下一個影片將在倒計時結束後播放</string>
@@ -1336,6 +1339,7 @@
     <string name="revanced_sb_new_segment_choose_category">選擇片段類別</string>
     <string name="revanced_sb_new_segment_disabled_category">類別在設定中被停用請啟用類別以提交</string>
     <string name="revanced_sb_new_segment_title">新的 SponsorBlock 片段</string>
+    <string name="revanced_sb_new_segment_mark_current_time_as_question">將 %s 設定為新片段的開頭或結尾？</string>
     <string name="revanced_sb_new_segment_mark_start">開始</string>
     <string name="revanced_sb_new_segment_mark_end">結束</string>
     <string name="revanced_sb_new_segment_now">立即</string>
@@ -1508,6 +1512,26 @@
  • 低品質的短片搜尋欄縮圖。
  • 無法播放兒童影片。"</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
+    <string name="revanced_preference_screen_watch_history_title">觀看歷史記錄</string>
+    <string name="revanced_preference_screen_watch_history_summary">變更與觀看歷史記錄相關的設定。</string>
+    <string name="revanced_watch_history_management_title">管理所有歷史記錄</string>
+    <string name="revanced_watch_history_management_summary">按一下可開啟 YouTube 觀看記錄管理。</string>
+    <string name="revanced_watch_history_type_title">觀看歷史類型</string>
+    <string name="revanced_watch_history_type_entry_1">原始</string>
+    <string name="revanced_watch_history_type_entry_2">替換域名</string>
+    <string name="revanced_watch_history_type_entry_3">區塊觀看歷史記錄</string>
+    <string name="revanced_watch_history_about_title">關於觀看歷史記錄</string>
+    <string name="revanced_watch_history_about_status_blocked">• 觀看歷史記錄不起作用。</string>
+    <string name="revanced_watch_history_about_status_ios_replaced">"• 遵循Google帳戶的觀看記錄設定。
+• 觀看記錄可能不適用於品牌帳戶。
+(偽裝客戶端設定已開啟，並選擇iOS客戶端)"</string>
+    <string name="revanced_watch_history_about_status_ios_original">"• 遵循Google帳戶的觀看記錄設定。
+• 由於 DNS 或 VPN 的原因，觀看記錄可能無法運作。
+• 觀看記錄可能不適用於品牌帳戶。
+(偽裝客戶端設定已開啟，並選擇iOS客戶端)"</string>
+    <string name="revanced_watch_history_about_status_android_replaced">• 遵循Google帳戶的觀看記錄設定。</string>
+    <string name="revanced_watch_history_about_status_android_original">"• 遵循Google帳戶的觀看記錄設定。
+• 由於 DNS 或 VPN 的原因，觀看記錄可能無法運作。"</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">補丁訊息</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

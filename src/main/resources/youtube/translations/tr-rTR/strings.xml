@@ -514,6 +514,9 @@ Not: Bu özelliği devre dışı bırakmak, eski arayüzdeki \"Videoyu sarmak i�
 Otomatik oynatma YouTube ayarlarından değiştirilebilir:
 'Ayarlar → Otomatik oynat → Sonraki videoyu otomatik oynat'"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">Önerilen video bitiş ekranı gizlenmiyor.</string>
+    <string name="revanced_hide_zoom_overlay_title">Yakınlaştırma arayüzünü gizle</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">Yakınlaştırma arayüzü gizli.</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">Yakınlaştırma arayüzü gizlenmiyor.</string>
     <string name="revanced_skip_autoplay_countdown_title">Otomatik oynatma geri sayımını atla</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Otomatik oynatma açıksa sonraki video geri sayım olmadan oynatılır.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">Otomatik oynatma açıksa sonraki video geri sayım bitmeden oynatılır.</string>
@@ -1323,6 +1326,7 @@ Bir örnek görmek için buraya dokunun.</string>
     <string name="revanced_sb_new_segment_choose_category">Kategori seçin</string>
     <string name="revanced_sb_new_segment_disabled_category">Ayarlarda kategori devre dışı bırakıldı. Göndermek için kategoriyi etkinleştir.</string>
     <string name="revanced_sb_new_segment_title">Yeni SponsorBlock segmenti</string>
+    <string name="revanced_sb_new_segment_mark_current_time_as_question">%s bu kısmın başlangıcı mı, bitişi mi olarak ayarlansın?</string>
     <string name="revanced_sb_new_segment_mark_start">başlangıç</string>
     <string name="revanced_sb_new_segment_mark_end">bitiş</string>
     <string name="revanced_sb_new_segment_now">şimdi</string>
@@ -1464,11 +1468,9 @@ Bilinen sorun: Akış videoları, oynatma sorunlarıyla karşılaşmadan önce 1
     <string name="revanced_spoof_client_use_ios_summary">"İstemciyi iOS'a taklit et.
 
 Yan etkiler şunları içerir:
-• HDR video yok.
-• Daha yüksek video kaliteleri eksik olabilir.
+• HDR video yalnızca AV1 codec bileşeninde desteklenir.
 • İzleme geçmişi bir marka hesabıyla çalışmaz.
-• Canlı yayınlar yalnızca ses olarak oynatılamaz.
-• Canlı yayınlar Android 8.0'da mevcut değildir."</string>
+• Canlı yayınlar yalnızca ses olarak oynatılamaz."</string>
     <string name="revanced_spoof_client_use_android_testsuite_title">Android Test Paketi</string>
     <string name="revanced_spoof_client_use_android_testsuite_summary">"İstemciyi Android Testsuite'e taklit etme.
 
@@ -1499,6 +1501,16 @@ Yan etkiler şunları içerir:
 • Düşük kaliteli Shorts arama çubuğu küçük resimleri.
 • Çocuk videoları oynatılmıyor."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
+    <string name="revanced_preference_screen_watch_history_title">İzleme geçmişi</string>
+    <string name="revanced_preference_screen_watch_history_summary">İzlemek geçmişi ile alakalı ayarları değiştirir.</string>
+    <string name="revanced_watch_history_management_title">Tüm geçmişi yönet</string>
+    <string name="revanced_watch_history_management_summary">YouTube izleme geçmişi yönetimini açmak için tıklayın.</string>
+    <string name="revanced_watch_history_type_title">İzleme geçmişi tipi</string>
+    <string name="revanced_watch_history_type_entry_1">Orjinal</string>
+    <string name="revanced_watch_history_type_entry_2">Alan adını değiştir</string>
+    <string name="revanced_watch_history_type_entry_3">İzleme geçmişini durdur</string>
+    <string name="revanced_watch_history_about_title">İzleme geçmişi hakkında</string>
+    <string name="revanced_watch_history_about_status_blocked">• İzleme geçmişi çalışmaz.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Yama Bilgileri</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

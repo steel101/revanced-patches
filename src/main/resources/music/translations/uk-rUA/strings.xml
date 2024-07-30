@@ -137,6 +137,11 @@
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Список рядків конструктора шляхів компонентів для фільтрування, розділених новими рядками.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Недопустимий користувацький фільтр: %s.</string>
+    <string name="revanced_hide_settings_menu_title">Приховати меню налаштувань</string>
+    <string name="revanced_hide_settings_menu_summary">"Приховує елементи меню налаштувань.
+Це приховує не лише меню налаштувань YT Music, а й меню налаштувань ReVanced Extended."</string>
+    <string name="revanced_hide_settings_menu_filter_strings_title">Фільтр меню налаштувань</string>
+    <string name="revanced_hide_settings_menu_filter_strings_summary">Список назв меню налаштувань для фільтрування, розділених новим рядком.</string>
     <string name="revanced_hide_button_shelf_title">Приховати категорії в Навігації</string>
     <string name="revanced_hide_button_shelf_summary">Приховує кнопки \"Новинки\", \"Хіт-паради\", \"Настрій і жанри\" на вкладці \"Навігація\".</string>
     <string name="revanced_hide_carousel_shelf_title">Приховати карусель треків</string>
@@ -195,6 +200,10 @@
     <string name="revanced_hide_navigation_label_summary">Приховує підписи кнопок на панелі навігації.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Плеєр</string>
+    <string name="revanced_disable_mini_player_gesture_title">Вимкнути жести мініплеєра</string>
+    <string name="revanced_disable_mini_player_gesture_summary">Вимикає жести перемикання треків у мініплеєрі.</string>
+    <string name="revanced_disable_player_gesture_title">Вимкнути жести плеєра</string>
+    <string name="revanced_disable_player_gesture_summary">Вимикає жести перемикання треків у плеєрі.</string>
     <string name="revanced_enable_black_player_background_title">Увімкнути чорний фон плеєра</string>
     <string name="revanced_enable_black_player_background_summary">Змінює адаптивний колір фона плеєра на чорний.</string>
     <string name="revanced_enable_color_match_player_title">Увімкнути колірну відповідність плеєрів</string>

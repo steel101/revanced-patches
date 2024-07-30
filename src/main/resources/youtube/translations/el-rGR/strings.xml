@@ -1498,7 +1498,7 @@ Playlists
     <string name="revanced_preference_category_spoof_client_about">Σχετικά με</string>
     <string name="revanced_spoof_client_use_ios_title">iOS</string>
     <string name="revanced_spoof_client_use_ios_summary">"Παραποίηση σε έκδοση iOS. Παρενέργειες:
-• Η ποιότητα HDR είναι διαθέσιμη μόνο με τον κωδικοποιητή AV1.
+• Η ποιότητα HDR είναι διαθέσιμη μόνο αν η συσκευή σας υποστηρίζει τον κωδικοποιητή AV1.
 • Το ιστορικό παρακολούθησης δε λειτουργεί σε λογαριασμούς επωνυμίας (brand).
 • Η αναπαραγωγή ζωντανών μεταδόσεων σε λειτουργία ήχου μόνο δεν είναι διαθέσιμη."</string>
     <string name="revanced_spoof_client_use_android_testsuite_title">Android Testsuite</string>

@@ -525,6 +525,9 @@ Note :
 La lecture automatique peut être modifiée dans les paramètres de YouTube :
 'Paramètres → Lecture automatique → Lecture automatique de la vidéo suivante'"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">Les suggestions de vidéos à la fin sont affichés.</string>
+    <string name="revanced_hide_zoom_overlay_title">Masquer le voile du zoom</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">Le voile du zoom est masqué.</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">Le voile du zoom est affiché.</string>
     <string name="revanced_skip_autoplay_countdown_title">Ignorer le compteur lecture auto</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Si la lecture automatique est activée, la vidéo suivante sera lue immédiatement.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">Si la lecture automatique est activée, la vidéo suivante sera lue après la fin du compte à rebours.</string>
@@ -1336,6 +1339,7 @@ Limitation : les \"Je n'aime pas\" ne seront pas affichées si vous n'êtes pas 
     <string name="revanced_sb_new_segment_choose_category">Choisissez la catégorie du segment</string>
     <string name="revanced_sb_new_segment_disabled_category">La catégorie est désactivée dans les paramètres. Activez la catégorie pour soumettre.</string>
     <string name="revanced_sb_new_segment_title">Nouveau segment SponsorBlock</string>
+    <string name="revanced_sb_new_segment_mark_current_time_as_question">Définir %s comme début ou fin du nouveau segment ?</string>
     <string name="revanced_sb_new_segment_mark_start">début</string>
     <string name="revanced_sb_new_segment_mark_end">fin</string>
     <string name="revanced_sb_new_segment_now">maintenant</string>
@@ -1477,11 +1481,9 @@ Limitation : Les vidéos du flux seront lues moins d'une minute avant de rencont
     <string name="revanced_spoof_client_use_ios_summary">"Falsifie le client vers iOS.
 
 Créée des effets secondaires :
-• Pas de vidéo HDR.
-• Les hautes qualités peuvent être absent.
+• Les vidéos HDR ne fonctionnent uniquement avec le codec AV1.
 • L'historique de visionnage ne fonctionne pas pour les comptes de marques.
-• Les diffusions en direct ne peuvent pas être lu en audio uniquement.
-• Les diffusions en direct ne sont pas disponibles sur Android 8.0."</string>
+• Les diffusions en direct ne peuvent pas être lu en audio uniquement."</string>
     <string name="revanced_spoof_client_use_android_testsuite_title">Android Testsuite</string>
     <string name="revanced_spoof_client_use_android_testsuite_summary">"Falsifie le client vers Android Test suite.
 
@@ -1512,6 +1514,16 @@ Les effets secondaires incluent :
 • Les miniatures de la barre de progression sur les Shorts sont en basses qualités.
 • Les vidéos conçues pour les enfants ne seront pas lues."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
+    <string name="revanced_preference_screen_watch_history_title">Historique de visionnage</string>
+    <string name="revanced_preference_screen_watch_history_summary">Modifie les paramètres liés à l\'historique de visionnage.</string>
+    <string name="revanced_watch_history_management_title">Gérer tout l\'historique</string>
+    <string name="revanced_watch_history_management_summary">Cliquez pour ouvrir la gestion de l\'historique de visionnage YouTube.</string>
+    <string name="revanced_watch_history_type_title">Type d\'historique de visionnage</string>
+    <string name="revanced_watch_history_type_entry_1">Original</string>
+    <string name="revanced_watch_history_type_entry_2">Remplacer le domaine</string>
+    <string name="revanced_watch_history_type_entry_3">Bloquer l\'historique de visionnage</string>
+    <string name="revanced_watch_history_about_title">À propos de l\'historique de visionnage</string>
+    <string name="revanced_watch_history_about_status_blocked">• L\'historique de visionnage ne fonctionne pas.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Informations sur les patchs</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

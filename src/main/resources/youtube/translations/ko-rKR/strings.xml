@@ -1490,8 +1490,9 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_spoof_client_use_ios_summary">"클라이언트를 iOS 클라이언트로 변경합니다.
 
 알려진 문제점:
-• HDR 동영상은 하드웨어 AV1 코덱을 지원하는 AP가 장착된 기기에서만 재생할 수 있습니다.
-• 시청 기록이 작동되지 않을 수 있습니다.
+• HDR 동영상은 하드웨어 AV1 디코딩을 지원하는 AP가 탑재된 기기에서만 재생할 수 있습니다.
+(삼성 기준으로 갤럭시 S23 계열 (FE 포함) 사양급 기기)
+• 브랜드 계정에서는 시청 기록이 작동되지 않을 수 있습니다.
 • 실시간 스트림에서 '백그라운드 재생'을 사용할 수 없습니다."</string>
     <string name="revanced_spoof_client_use_android_testsuite_title">Android TestSuite</string>
     <string name="revanced_spoof_client_use_android_testsuite_summary">"클라이언트를 Android TestSuite 클라이언트로 변경합니다.
@@ -1525,8 +1526,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">시청 기록</string>
     <string name="revanced_preference_screen_watch_history_summary">시청 기록과 관련된 설정을 변경할 수 있습니다.</string>
-    <string name="revanced_watch_history_management_title">모든 기록 관리하기</string>
-    <string name="revanced_watch_history_management_summary">여기를 누르면 YouTube 시청 기록 관리를 열 수 있습니다.</string>
+    <string name="revanced_watch_history_management_title">전체 기록 관리</string>
+    <string name="revanced_watch_history_management_summary">YouTube 시청 기록을 관리하려면 여기를 누르세요.</string>
     <string name="revanced_watch_history_type_title">시청 기록 타입 설정</string>
     <string name="revanced_watch_history_type_entry_1">기본값</string>
     <string name="revanced_watch_history_type_entry_2">도메인 변경</string>
@@ -1534,15 +1535,16 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_watch_history_about_title">시청 기록 정보</string>
     <string name="revanced_watch_history_about_status_blocked">• 시청 기록이 작동되지 않습니다.</string>
     <string name="revanced_watch_history_about_status_ios_replaced">"• Google 계정의 시청 기록 설정을 따릅니다.
+• 광고 차단 기능이 내장된 DNS 또는 VPN을 우회하기 위해 도메인을 변경합니다.
 • 브랜드 계정에서는 시청 기록이 작동되지 않을 수 있습니다.
-('클라이언트 변경하기' 설정이 활성화되어 있고, iOS 클라이언트가 선택되어 있는 경우)"</string>
+('클라이언트 변경하기' 설정이 활성화되어 있고, iOS 클라이언트로 변경되어 있는 경우)"</string>
     <string name="revanced_watch_history_about_status_ios_original">"• Google 계정의 시청 기록 설정을 따릅니다.
-• DNS 또는 VPN으로 인해 시청 기록이 작동되지 않을 수 있습니다.
+• 광고 차단 기능이 내장된 DNS 또는 VPN으로 인해 시청 기록이 작동되지 않을 수 있습니다.
 • 브랜드 계정에서는 시청 기록이 작동되지 않을 수 있습니다.
-('클라이언트 변경하기' 설정이 활성화되어 있고, iOS 클라이언트가 선택되어 있는 경우)"</string>
+('클라이언트 변경하기' 설정이 활성화되어 있고, iOS 클라이언트로 변경되어 있는 경우)"</string>
     <string name="revanced_watch_history_about_status_android_replaced">• Google 계정의 시청 기록 설정을 따릅니다.</string>
     <string name="revanced_watch_history_about_status_android_original">"• Google 계정의 시청 기록 설정을 따릅니다.
-• DNS 또는 VPN으로 인해 시청 기록이 작동되지 않을 수 있습니다."</string>
+• 광고 차단 기능이 내장된 DNS 또는 VPN으로 인해 시청 기록이 작동되지 않을 수 있습니다."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">패치 정보</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

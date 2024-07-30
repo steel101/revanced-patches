@@ -137,6 +137,11 @@
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">コンポーネント名でフィルター (改行区切り)</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">無効なカスタムフィルターです: %s。</string>
+    <string name="revanced_hide_settings_menu_title">設定メニューを非表示</string>
+    <string name="revanced_hide_settings_menu_summary">"設定の要素を非表示にします。
+YT Music の設定だけでなく、ReVanced Extended の設定も非表示にします。"</string>
+    <string name="revanced_hide_settings_menu_filter_strings_title">設定メニューフィルター</string>
+    <string name="revanced_hide_settings_menu_filter_strings_summary">フィルタリングするYT Music 設定メニュー名のリスト（改行区切り）</string>
     <string name="revanced_hide_button_shelf_title">ボタン欄を非表示</string>
     <string name="revanced_hide_button_shelf_summary">ホームタブや探索タブのボタン欄を非表示にします。</string>
     <string name="revanced_hide_carousel_shelf_title">カルーセル欄を非表示</string>

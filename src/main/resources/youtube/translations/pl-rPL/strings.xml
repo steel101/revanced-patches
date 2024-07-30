@@ -1512,6 +1512,26 @@ Efekty uboczne:
 • Niska jakość podglądu podczas przewijania Shortsów
 • Filmy dla dzieci nie mogą zostać odtworzone"</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
+    <string name="revanced_preference_screen_watch_history_title">Historia oglądania</string>
+    <string name="revanced_preference_screen_watch_history_summary">Zmień ustawienia związane z historią oglądania</string>
+    <string name="revanced_watch_history_management_title">Zarządzaj całą historią</string>
+    <string name="revanced_watch_history_management_summary">Stuknij, aby otworzyć zarządzanie historią oglądania YouTube.</string>
+    <string name="revanced_watch_history_type_title">Historia</string>
+    <string name="revanced_watch_history_type_entry_1">s.youtube.com</string>
+    <string name="revanced_watch_history_type_entry_2">www.youtube.com</string>
+    <string name="revanced_watch_history_type_entry_3">Wyłączona</string>
+    <string name="revanced_watch_history_about_title">O historii oglądania</string>
+    <string name="revanced_watch_history_about_status_blocked">• Historia oglądania nie działa.</string>
+    <string name="revanced_watch_history_about_status_ios_replaced">"• Stosuje się do ustawień historii oglądania konta Google
+• Historia oglądania może nie działać jna firmowym koncie
+(Gdy oszukiwanie klienta iOS jest włączone)"</string>
+    <string name="revanced_watch_history_about_status_ios_original">"• Stosuje się do ustawień historii oglądania konta Google
+• Historia oglądania może nie działać przez DNS lub VPN
+• Historia oglądania może nie działać na firmowym koncie
+(Gdy oszukiwanie klienta iOS jest włączone)"</string>
+    <string name="revanced_watch_history_about_status_android_replaced">• Stosuje się do ustawień historii oglądania konta Google</string>
+    <string name="revanced_watch_history_about_status_android_original">"• Stosuje się do ustawień historii oglądania konta Google
+• Historia oglądania może nie działać przez DNS lub VPN"</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Lista łatek</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

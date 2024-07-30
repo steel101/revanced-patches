@@ -1506,6 +1506,26 @@
 • Низька якість мініатюр панелі прогресу Shorts.
 • Відео для дітей не відтворюються."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
+    <string name="revanced_preference_screen_watch_history_title">Історія перегляду</string>
+    <string name="revanced_preference_screen_watch_history_summary">Змінити налаштування пов\'язані з історією перегляду.</string>
+    <string name="revanced_watch_history_management_title">Керувати всією історією</string>
+    <string name="revanced_watch_history_management_summary">Натисніть, щоб відкрити керування історією перегляду YouTube.</string>
+    <string name="revanced_watch_history_type_title">Тип історії перегляду</string>
+    <string name="revanced_watch_history_type_entry_1">Оригінал</string>
+    <string name="revanced_watch_history_type_entry_2">Замінити домен</string>
+    <string name="revanced_watch_history_type_entry_3">Блокувати історію перегляду</string>
+    <string name="revanced_watch_history_about_title">Про історію перегляду</string>
+    <string name="revanced_watch_history_about_status_blocked">• Історія перегляду не працює.</string>
+    <string name="revanced_watch_history_about_status_ios_replaced">"• Дотримується налаштувань історії перегляду облікового запису Google.
+• Історія перегляду може не працювати з акаунтом бренду.
+(Налаштування імітації клієнта увімкнене та вибрано клієнт iOS)"</string>
+    <string name="revanced_watch_history_about_status_ios_original">"• Дотримується налаштувань історії перегляду облікового запису Google.
+• Історія перегляду може не працювати через DNS або VPN.
+• Історія перегляду може не працювати з акаунтом бренду.
+(Налаштування імітації клієнта увімкнене та вибрано клієнт iOS)"</string>
+    <string name="revanced_watch_history_about_status_android_replaced">• Дотримується налаштувань історії перегляду облікового запису Google.</string>
+    <string name="revanced_watch_history_about_status_android_original">"• Дотримується налаштувань історії перегляду облікового запису Google.
+• Історія перегляду може не працювати через DNS або VPN."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Інформація про патчі</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

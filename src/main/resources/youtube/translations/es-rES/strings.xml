@@ -1512,6 +1512,26 @@ Los efectos secundarios incluyen:
 • Las miniaturas de la barra de progreso de Shorts son de baja calidad.
 • Los vídeos infantiles no se reproducen."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
+    <string name="revanced_preference_screen_watch_history_title">Historial de reproducciones</string>
+    <string name="revanced_preference_screen_watch_history_summary">Cambiar ajustes relacionados con el historial de reproducciones.</string>
+    <string name="revanced_watch_history_management_title">Administrar todo el historial</string>
+    <string name="revanced_watch_history_management_summary">Pulsa para abrir la administración del historial de reproducciones de YouTube.</string>
+    <string name="revanced_watch_history_type_title">Tipo de historial de reproducciones</string>
+    <string name="revanced_watch_history_type_entry_1">Original</string>
+    <string name="revanced_watch_history_type_entry_2">Reemplazar dominio</string>
+    <string name="revanced_watch_history_type_entry_3">Bloquear historial de reproducciones</string>
+    <string name="revanced_watch_history_about_title">Acerca del historial de reproducciones</string>
+    <string name="revanced_watch_history_about_status_blocked">• El historial de reproducciones no funciona.</string>
+    <string name="revanced_watch_history_about_status_ios_replaced">"• Sigue la configuración del historial de reproducciones de la cuenta de Google.
+• Es posible que el historial de reproducciones no funcione con una cuenta de marca.
+(Se activa la configuración del cliente y se selecciona el cliente iOS)"</string>
+    <string name="revanced_watch_history_about_status_ios_original">"• Sigue la configuración del historial de reproducciones de la cuenta de Google.
+• Es posible que el historial de reproducciones no funcione debido a DNS o VPN.
+• Es posible que el historial de reproducciones no funcione con una cuenta de marca.
+(Se activa la configuración del cliente y se selecciona el cliente iOS)"</string>
+    <string name="revanced_watch_history_about_status_android_replaced">• Sigue la configuración del historial de reproducciones de la cuenta de Google.</string>
+    <string name="revanced_watch_history_about_status_android_original">"• Sigue la configuración del historial de reproducciones de la cuenta de Google.
+• Es posible que el historial de reproducciones no funcione debido a DNS o VPN."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Información de parches</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->
