@@ -505,6 +505,9 @@ You tab → View channel → Menu → Settings"</string>
 Tap and hold to open YouTube settings."</string>
     <string name="revanced_replace_toolbar_create_button_type_summary_off">"Tap to open YouTube settings.
 Tap and hold to open RVX settings."</string>
+    <string name="revanced_hook_playlist_download_button_title">Override playlist download action</string>
+    <string name="revanced_hook_playlist_download_button_summary_off">Playlist download will behave like the original, and button might not appear.</string>
+    <string name="revanced_hook_playlist_download_button_summary_on">Playlist download button will be present, and the download will be handled by YTDLnis.</string>
 
 
     <!-- PreferenceScreen: Player -->
@@ -900,6 +903,9 @@ Tap and hold to undo."</string>
     <string name="revanced_external_downloader_package_name_title">External downloader package name</string>
     <string name="revanced_external_downloader_package_name_summary">Package name of your installed external downloader app, such as NewPipe or YTDLnis.</string>
     <string name="revanced_external_downloader_dialog_title">External downloader</string>
+    <string name="revanced_playlist_external_downloader_package_name_title">Playlist external downloader package name</string>
+    <string name="revanced_playlist_external_downloader_package_name_summary">Package name of your installed external downloader app used to download from playlists, currently only YTDLnis works.</string>
+    <string name="revanced_playlist_external_downloader_dialog_title">Playlist external downloader</string>
     <string name="revanced_external_downloader_not_installed_dialog_title">Warning</string>
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s is not installed.
 Please download %2$s from the website."</string>
