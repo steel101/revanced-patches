@@ -4,16 +4,23 @@
     <string name="accessibility_settings_edu_opt_in_text">Enable accessibility controls for the video player?</string>
     <string name="accessibility_settings_edu_opt_out_text">Your controls are modified because an accessibility service is on.</string>
 
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Search %s</string>
 
-    <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">Experimental Flags</string>
     <string name="revanced_extended_confirm_user_dialog_title">Do you wish to proceed?</string>
     <string name="revanced_extended_restart_first_run">Restart to load the layout normally</string>
     <string name="revanced_extended_restart_message">Refresh and restart</string>
     <string name="revanced_playback_speed_normal">Normal</string>
+
+    <string name="revanced_external_downloader_package_name_video_title">Video downloader package name</string>
+    <string name="revanced_external_downloader_package_name_video_summary">Package name of your installed external downloader app, such as NewPipe or YTDLnis.</string>
+    <string name="revanced_external_downloader_dialog_title">External downloader</string>
+    <string name="revanced_external_downloader_not_installed_dialog_title">Warning</string>
+    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s is not installed.
+Please download %2$s from the website."</string>
+    <string name="revanced_external_downloader_not_installed_warning">%s is not installed. Please install it.</string>
 
 
     <!-- PreferenceScreen: Ads -->
@@ -334,6 +341,16 @@ This does not bypass the age restriction. It just accepts it automatically."</st
     <string name="revanced_enable_phone_layout_summary">Spoofs the dpi to use some phone layouts.</string>
     <string name="revanced_enable_tablet_layout_title">Enable tablet layout</string>
     <string name="revanced_enable_tablet_layout_summary">Spoofs the dpi to use some tablet layouts.</string>
+
+    <string name="revanced_override_video_download_button_title">Override video download button</string>
+    <string name="revanced_override_video_download_button_summary_on">Native video download button opens your external downloader.</string>
+    <string name="revanced_override_video_download_button_summary_off">Native video download button opens the native in-app downloader.</string>
+    <string name="revanced_override_playlist_download_button_title">Override playlist download button</string>
+    <string name="revanced_override_playlist_download_button_summary_on">Native playlist download button opens your external downloader.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">Native playlist download button opens the native in-app downloader.</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">Playlist downloader package name</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">Package name of your installed external downloader app, such as YTDLnis.</string>
+
     <string name="revanced_spoof_app_version_title">Spoof app version</string>
     <string name="revanced_spoof_app_version_summary_on">Version spoofed</string>
     <string name="revanced_spoof_app_version_summary_off">Version not spoofed</string>
@@ -505,9 +522,6 @@ You tab → View channel → Menu → Settings"</string>
 Tap and hold to open YouTube settings."</string>
     <string name="revanced_replace_toolbar_create_button_type_summary_off">"Tap to open YouTube settings.
 Tap and hold to open RVX settings."</string>
-    <string name="revanced_hook_playlist_download_button_title">Override playlist download action</string>
-    <string name="revanced_hook_playlist_download_button_summary_off">Playlist download will behave like the original, and button might not appear.</string>
-    <string name="revanced_hook_playlist_download_button_summary_on">Playlist download button will be present, and the download will be handled by YTDLnis.</string>
 
 
     <!-- PreferenceScreen: Player -->
@@ -899,20 +913,6 @@ Tap and hold to undo."</string>
     <string name="revanced_whitelist_playback_speed">Playback speed</string>
     <string name="revanced_whitelist_sponsor_block">SponsorBlock</string>
     <string name="revanced_whitelist_failure_generic">Failed to load channel information.</string>
-
-    <string name="revanced_external_downloader_package_name_title">External downloader package name</string>
-    <string name="revanced_external_downloader_package_name_summary">Package name of your installed external downloader app, such as NewPipe or YTDLnis.</string>
-    <string name="revanced_external_downloader_dialog_title">External downloader</string>
-    <string name="revanced_playlist_external_downloader_package_name_title">Playlist external downloader package name</string>
-    <string name="revanced_playlist_external_downloader_package_name_summary">Package name of your installed external downloader app used to download from playlists, currently only YTDLnis works.</string>
-    <string name="revanced_playlist_external_downloader_dialog_title">Playlist external downloader</string>
-    <string name="revanced_external_downloader_not_installed_dialog_title">Warning</string>
-    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s is not installed.
-Please download %2$s from the website."</string>
-    <string name="revanced_external_downloader_not_installed_warning">%s is not installed. Please install it.</string>
-    <string name="revanced_external_downloader_action_title">Override download action button</string>
-    <string name="revanced_external_downloader_action_summary_on">Native download button opens your external downloader.</string>
-    <string name="revanced_external_downloader_action_summary_off">Native download button opens the native in-app downloader.</string>
 
     <string name="revanced_overlay_button_speed_dialog_reset">Playback speed reset: %sx.</string>
     <string name="revanced_overlay_button_not_allowed_warning">Tap and hold to change button state.</string>
