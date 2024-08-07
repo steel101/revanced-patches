@@ -1613,12 +1613,16 @@ Limitation: Feed videos will play for less than 1 minute before encountering pla
     <string name="revanced_preference_category_spoof_client_about">About</string>
 
     <string name="revanced_spoof_client_use_ios_title">iOS</string>
+    <string name="revanced_spoof_client_use_ios_legacy_summary">"Spoof client to iOS.
+
+Side effects include:
+• HDR video is supported only on AV1 codec.
+• Watch time is not saved in watch history on brand account."</string>
     <string name="revanced_spoof_client_use_ios_summary">"Spoof client to iOS.
 
 Side effects include:
 • HDR video is supported only on AV1 codec.
-• Watch history does not work with a brand account.
-• Live streams cannot play as audio-only."</string>
+• Watch history does not work with a brand account."</string>
     <string name="revanced_spoof_client_use_android_testsuite_title">Android Testsuite</string>
     <string name="revanced_spoof_client_use_android_testsuite_summary">"Spoof client to Android Testsuite.
 
