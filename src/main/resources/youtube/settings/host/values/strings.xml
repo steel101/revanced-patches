@@ -1012,11 +1012,6 @@ The Expand video description option may not work if the entered string does not 
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
 
-    <string name="revanced_change_shorts_repeat_state_title">Change Shorts repeat state</string>
-    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Autoplay</string>
-    <string name="revanced_change_shorts_repeat_state_entry_default">Default</string>
-    <string name="revanced_change_shorts_repeat_state_entry_pause">Pause</string>
-    <string name="revanced_change_shorts_repeat_state_entry_repeat">Repeat</string>
     <string name="revanced_disable_resuming_shorts_player_title">Disable resuming Shorts player</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">Shorts player will not resume on app startup.</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">Shorts player will resume on app startup.</string>
@@ -1040,6 +1035,13 @@ Side effect: Official headers in search results will be hidden."</string>
     <string name="revanced_hide_shorts_shelf_history_title">Hide in watch history</string>
     <string name="revanced_hide_shorts_shelf_history_summary_on">Hidden in watch history.</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">Shown in watch history.</string>
+
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_change_shorts_repeat_state_title">Change Shorts repeat state</string>
+    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Autoplay</string>
+    <string name="revanced_change_shorts_repeat_state_entry_default">Default</string>
+    <string name="revanced_change_shorts_repeat_state_entry_pause">Pause</string>
+    <string name="revanced_change_shorts_repeat_state_entry_repeat">Repeat</string>
 
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">Shorts player</string>
