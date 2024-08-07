@@ -200,6 +200,10 @@ Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</s
     <string name="revanced_hide_navigation_label_summary">Oculta rótulos abaixo dos botões de navegação.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Reprodutor</string>
+    <string name="revanced_disable_mini_player_gesture_title">Desativar gesto do mini reprodutor</string>
+    <string name="revanced_disable_mini_player_gesture_summary">Desativar deslize para alterar faixas no mini reprodutor.</string>
+    <string name="revanced_disable_player_gesture_title">Desativar gesto do reprodutor</string>
+    <string name="revanced_disable_player_gesture_summary">Desativar deslize para alterar faixas no reprodutor.</string>
     <string name="revanced_enable_black_player_background_title">Ativar fundo do reprodutor preto</string>
     <string name="revanced_enable_black_player_background_summary">Altera a cor de fundo do reprodutor para preto.</string>
     <string name="revanced_enable_color_match_player_title">Ativar combinação de cores do reprodutor</string>
@@ -329,6 +333,8 @@ Alguns recursos podem não funcionar corretamente no layout antigo do reprodutor
     <string name="revanced_preference_screen_misc_title">Diversos</string>
     <string name="revanced_bypass_image_region_restrictions_title">Ignorar restrições de imagem por região</string>
     <string name="revanced_bypass_image_region_restrictions_summary">Substitui o domínio que está bloqueado em algumas regiões para que miniaturas para playlists, avatares de canais, etc. possam ser recebidos.</string>
+    <string name="revanced_change_share_sheet_title">Alterar menu de compartilhamento</string>
+    <string name="revanced_change_share_sheet_summary">Alterar o menu de compartilhamento do app para o meno de compartilhamento do sistema.</string>
     <string name="revanced_enable_cairo_splash_animation_title">Ativar animação inicial do Cairo</string>
     <string name="revanced_enable_cairo_splash_animation_summary">Ativa a animação inicial do Cairo quando o aplicativo é iniciado.</string>
     <string name="revanced_enable_debug_logging_title">Ativar o relatório de depuração</string>

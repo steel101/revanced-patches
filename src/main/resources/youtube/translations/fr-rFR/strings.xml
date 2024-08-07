@@ -3,15 +3,19 @@
     <!-- Translations for YouTube -->
     <string name="accessibility_settings_edu_opt_in_text">Activer les contrôles d\'accessibilité pour le lecteur vidéo ?</string>
     <string name="accessibility_settings_edu_opt_out_text">Vos contrôles sont modifiés car un service d\'accessibilité est activé.</string>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Rechercher sur %s</string>
-    <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">Options expérimentales</string>
     <string name="revanced_extended_confirm_user_dialog_title">Voulez-vous continuer ?</string>
     <string name="revanced_extended_restart_first_run">Redémarrer pour charger l\'interface correctement</string>
     <string name="revanced_extended_restart_message">Appliquer et redémarrer ?</string>
     <string name="revanced_playback_speed_normal">Normal</string>
+    <string name="revanced_external_downloader_dialog_title">Téléchargeur externe</string>
+    <string name="revanced_external_downloader_not_installed_dialog_title">Attention</string>
+    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s n'est pas installé.
+Veuillez télécharger %2$s à partir du site web."</string>
+    <string name="revanced_external_downloader_not_installed_warning">%s n\'est pas installé. Veuillez l’installer.</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Publicités</string>
     <string name="revanced_hide_fullscreen_ads_title">Masquer les publicités en plein écran</string>
@@ -829,16 +833,6 @@ Appuyez longuement pour annuler."</string>
     <string name="revanced_whitelist_playback_speed">Vitesse de lecture</string>
     <string name="revanced_whitelist_sponsor_block">SponsorBlock</string>
     <string name="revanced_whitelist_failure_generic">Impossible de charger les informations de la chaîne.</string>
-    <string name="revanced_external_downloader_package_name_title">Nom du paquet du téléchargeur externe</string>
-    <string name="revanced_external_downloader_package_name_summary">Nom du paquet de l\'appli de téléchargement externe installée, telle que NewPipe ou YTDLnis.</string>
-    <string name="revanced_external_downloader_dialog_title">Téléchargeur externe</string>
-    <string name="revanced_external_downloader_not_installed_dialog_title">Attention</string>
-    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s n'est pas installé.
-Veuillez télécharger %2$s à partir du site web."</string>
-    <string name="revanced_external_downloader_not_installed_warning">%s n\'est pas installé. Veuillez l’installer.</string>
-    <string name="revanced_external_downloader_action_title">Remplacer l\'action du bouton \"Télécharger\"</string>
-    <string name="revanced_external_downloader_action_summary_on">Le bouton \"Télécharger\" ouvre votre téléchargeur externe.</string>
-    <string name="revanced_external_downloader_action_summary_off">Le bouton \"Télécharger\" ouvre le téléchargeur de l\'appli.</string>
     <string name="revanced_overlay_button_speed_dialog_reset">Vitesse de lecture réinitialisée : %sx.</string>
     <string name="revanced_overlay_button_not_allowed_warning">Appuyez longuement pour modifier l\'état du bouton.</string>
     <string name="revanced_share_copy_timestamp_success">Lien avec horodatage copié dans le presse-papiers. (%s)</string>
@@ -902,9 +896,9 @@ Effet secondaire : le thème Cairo peut également s'appliquer sur les points d
     <string name="revanced_hide_info_cards_section_title">Masquer les fiches \"Infos\"</string>
     <string name="revanced_hide_info_cards_section_summary_on">La section des fiches info est masquée.</string>
     <string name="revanced_hide_info_cards_section_summary_off">La section des fiches info est affichée.</string>
-    <string name="revanced_hide_key_concepts_section_title">Masquer la section \"Recherches clés\"</string>
-    <string name="revanced_hide_key_concepts_section_summary_on">La section \"Recherches clés\" est masqué.</string>
-    <string name="revanced_hide_key_concepts_section_summary_off">La section \"Recherches clés\" est affiché.</string>
+    <string name="revanced_hide_key_concepts_section_title">Masquer la section \"Concepts clés\"</string>
+    <string name="revanced_hide_key_concepts_section_summary_on">La section \"Concepts clés\" est masqué.</string>
+    <string name="revanced_hide_key_concepts_section_summary_off">La section \"Concepts clés\" est affiché.</string>
     <string name="revanced_hide_podcast_section_title">Masquer la section \"Podcasts\"</string>
     <string name="revanced_hide_podcast_section_summary_on">La section \"Podcasts\" est masquée.</string>
     <string name="revanced_hide_podcast_section_summary_off">La section \"Podcasts\" est affiché.</string>
@@ -929,11 +923,6 @@ L'option \"Ouvrir la description automatiquement\" risque de ne pas fonctionner 
     <string name="revanced_expand_video_description_strings_default_value">Description</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
-    <string name="revanced_change_shorts_repeat_state_title">Répétition des shorts</string>
-    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Lecture auto.</string>
-    <string name="revanced_change_shorts_repeat_state_entry_default">Par défaut</string>
-    <string name="revanced_change_shorts_repeat_state_entry_pause">Pause</string>
-    <string name="revanced_change_shorts_repeat_state_entry_repeat">Répéter</string>
     <string name="revanced_disable_resuming_shorts_player_title">Désac. \"Reprendre la lecture\" sur les Shorts</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">Les shorts ne reprennent pas au démarrage de l\'application.</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">Les shorts reprennent au démarrage de l\'application.</string>
@@ -955,6 +944,12 @@ Effet secondaire : Les fiches officielles dans les résultats de recherche sont 
     <string name="revanced_hide_shorts_shelf_history_title">Masquer dans \"Historique\"</string>
     <string name="revanced_hide_shorts_shelf_history_summary_on">Masqué dans \"Historique\".</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">Affiché dans \"Historique\".</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_change_shorts_repeat_state_title">Répétition des shorts</string>
+    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Lecture auto.</string>
+    <string name="revanced_change_shorts_repeat_state_entry_default">Par défaut</string>
+    <string name="revanced_change_shorts_repeat_state_entry_pause">Pause</string>
+    <string name="revanced_change_shorts_repeat_state_entry_repeat">Répéter</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">Lecteur Shorts</string>
     <string name="revanced_preference_screen_shorts_player_summary">Masque ou affiche des composants dans le lecteur Shorts.</string>
@@ -1478,14 +1473,13 @@ Limitation : Les vidéos du flux seront lues moins d'une minute avant de rencont
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
     <string name="revanced_preference_category_spoof_client_about">À propos</string>
     <string name="revanced_spoof_client_use_ios_title">iOS</string>
-    <string name="revanced_spoof_client_use_ios_summary">"Falsifie le client vers iOS.
+    <string name="revanced_spoof_client_use_ios_summary">"Falsifier le client vers iOS.
 
 Créée des effets secondaires :
-• Les vidéos HDR ne fonctionnent uniquement avec le codec AV1.
-• L'historique de visionnage ne fonctionne pas pour les comptes de marques.
-• Les diffusions en direct ne peuvent pas être lu en audio uniquement."</string>
+• Les vidéos HDR supportent uniquement le codec AV1.
+• L'historique de visionnage ne fonctionne pas pour les comptes de marques."</string>
     <string name="revanced_spoof_client_use_android_testsuite_title">Android Testsuite</string>
-    <string name="revanced_spoof_client_use_android_testsuite_summary">"Falsifie le client vers Android Test suite.
+    <string name="revanced_spoof_client_use_android_testsuite_summary">"Falsifier le client vers Android Test suite.
 
 Créée des effets secondaires :
 • Pas de vidéo HDR.
@@ -1495,7 +1489,7 @@ Créée des effets secondaires :
 • Les cartes d'écran de fin ne sont pas disponibles.
 • Les miniatures de la barre de progression sont en basse qualités."</string>
     <string name="revanced_spoof_client_use_android_tv_title">Android TV</string>
-    <string name="revanced_spoof_client_use_android_tv_summary">"Falsifie le client vers Android TV (YouTube TV).
+    <string name="revanced_spoof_client_use_android_tv_summary">"Falsifier le client vers Android TV (YouTube TV).
 
 Créée des effets secondaires :
 • Pas de vidéo HDR.
@@ -1505,7 +1499,7 @@ Créée des effets secondaires :
 • Les miniatures de la barre de progression sont en basse qualités.
 • Certaines diffusions en direct ne sont pas pris en charge pour la lecture."</string>
     <string name="revanced_spoof_client_use_android_vr_title">Android VR</string>
-    <string name="revanced_spoof_client_use_android_vr_summary">"Falsifie le client vers Android VR.
+    <string name="revanced_spoof_client_use_android_vr_summary">"Falsifier le client vers Android VR.
 
 Les effets secondaires incluent :
 • Pas de vidéo HDR.
@@ -1524,6 +1518,16 @@ Les effets secondaires incluent :
     <string name="revanced_watch_history_type_entry_3">Bloquer l\'historique de visionnage</string>
     <string name="revanced_watch_history_about_title">À propos de l\'historique de visionnage</string>
     <string name="revanced_watch_history_about_status_blocked">• L\'historique de visionnage ne fonctionne pas.</string>
+    <string name="revanced_watch_history_about_status_ios_replaced">"• Suis les paramètres de l'historique de visionnage du compte Google.
+• L'historique de visionnage peut ne pas fonctionner sur les comptes de marques.
+(Le paramètre 'Falsifier le client' est activé et le client iOS est sélectionné)"</string>
+    <string name="revanced_watch_history_about_status_ios_original">"• Suis les paramètres de l'historique de visionnage du compte Google.
+• L'historique de visionnage peut ne pas fonctionner à cause d'un DNS ou d'un VPN.
+• L'historique de visionnage peut ne pas fonctionner sur les comptes de marques.
+(Le paramètre 'Falsifier le client' est activé et le client iOS est sélectionné)"</string>
+    <string name="revanced_watch_history_about_status_android_replaced">• Suis les paramètres de l\'historique de visionnage du compte Google.</string>
+    <string name="revanced_watch_history_about_status_android_original">"• Suis les paramètres de l'historique de visionnage du compte Google.
+• L'historique de visionnage peut ne pas fonctionner à cause d'un DNS ou d'un VPN."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Informations sur les patchs</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

@@ -3,15 +3,21 @@
     <!-- Translations for YouTube -->
     <string name="accessibility_settings_edu_opt_in_text">Увімкнути спеціальні можливості для відеоплеєра?</string>
     <string name="accessibility_settings_edu_opt_out_text">Керування змінено, оскільки служба спеціальних можливостей увімкнена.</string>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">Розширені</string>
     <string name="revanced_extended_settings_search_title">Пошук %s</string>
-    <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">Експериментальні опції</string>
     <string name="revanced_extended_confirm_user_dialog_title">Бажаєте продовжити?</string>
     <string name="revanced_extended_restart_first_run">Перезапустіть, щоб нормально завантажився макет</string>
     <string name="revanced_extended_restart_message">Поновити й перезапустити</string>
     <string name="revanced_playback_speed_normal">Стандартна</string>
+    <string name="revanced_external_downloader_package_name_video_title">Ім\'я пакета завантажувача відео</string>
+    <string name="revanced_external_downloader_package_name_video_summary">Ім\'я пакета встановленого зовнішнього завантажувача, наприклад NewPipe або YTDLnis.</string>
+    <string name="revanced_external_downloader_dialog_title">Зовнішній завантажувач</string>
+    <string name="revanced_external_downloader_not_installed_dialog_title">Попередження</string>
+    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s не встановлено.
+Будь ласка, завантажте %2$s з сайту."</string>
+    <string name="revanced_external_downloader_not_installed_warning">%s не встановлено. Будь ласка, встановіть його.</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Реклама</string>
     <string name="revanced_hide_fullscreen_ads_title">Приховати повноекранну рекламу</string>
@@ -303,6 +309,14 @@
     <string name="revanced_enable_phone_layout_summary">Підміняє DPI для використання інтерфейсу деяких телефонів</string>
     <string name="revanced_enable_tablet_layout_title">Увімкнути Планшетний інтерфейс</string>
     <string name="revanced_enable_tablet_layout_summary">Підміняє DPI для використання інтерфейсу деяких планшетів</string>
+    <string name="revanced_override_video_download_button_title">Перевизначити кнопку завантаження відео</string>
+    <string name="revanced_override_video_download_button_summary_on">Кнопка завантаження відео відкриває зовнішній завантажувач.</string>
+    <string name="revanced_override_video_download_button_summary_off">Кнопка завантаження відео відкриває вбудований завантажувач.</string>
+    <string name="revanced_override_playlist_download_button_title">Перевизначити кнопку завантаження списку відтворення</string>
+    <string name="revanced_override_playlist_download_button_summary_on">Кнопка завантаження списку відтворення відкриває зовнішній завантажувач.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">Кнопка завантаження списку відтворення відкриває вбудований завантажувач.</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">Ім\'я пакета завантажувача списку відтворення</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">Ім\'я пакета встановленого зовнішнього завантажувача, наприклад YTDLnis.</string>
     <string name="revanced_spoof_app_version_title">Підробити версію програми</string>
     <string name="revanced_spoof_app_version_summary_on">Версію підроблено</string>
     <string name="revanced_spoof_app_version_summary_off">Версію не підроблено</string>
@@ -827,16 +841,6 @@
     <string name="revanced_whitelist_playback_speed">Швидкість відтворення</string>
     <string name="revanced_whitelist_sponsor_block">Спонсорблок</string>
     <string name="revanced_whitelist_failure_generic">Не вдалося завантажити інформацію про канал.</string>
-    <string name="revanced_external_downloader_package_name_title">Ім\'я пакета зовнішнього завантажувача</string>
-    <string name="revanced_external_downloader_package_name_summary">Ім\'я пакета встановленого зовнішнього завантажувача, наприклад NewPipe або YTDLnis</string>
-    <string name="revanced_external_downloader_dialog_title">Зовнішній завантажувач</string>
-    <string name="revanced_external_downloader_not_installed_dialog_title">Попередження</string>
-    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s не встановлено.
-Будь ласка, завантажте %2$s з сайту."</string>
-    <string name="revanced_external_downloader_not_installed_warning">%s не встановлено. Будь ласка, встановіть його.</string>
-    <string name="revanced_external_downloader_action_title">Перевизначити дію кнопки завантаження</string>
-    <string name="revanced_external_downloader_action_summary_on">Кнопка завантаження відкриває зовнішній завантажувач.</string>
-    <string name="revanced_external_downloader_action_summary_off">Кнопка завантаження відкриває вбудований завантажувач.</string>
     <string name="revanced_overlay_button_speed_dialog_reset">Швидкість відтворення скинуто: %sx.</string>
     <string name="revanced_overlay_button_not_allowed_warning">Натисніть і утримуйте, щоб змінити стан кнопки.</string>
     <string name="revanced_share_copy_timestamp_success">Мітку часу скопійовано в буфер обміну. (%s)</string>
@@ -928,11 +932,6 @@
     <string name="revanced_expand_video_description_strings_default_value">Опис</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">YouTube Shorts</string>
-    <string name="revanced_change_shorts_repeat_state_title">Змінити стан повторення Shorts</string>
-    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Автовідворення</string>
-    <string name="revanced_change_shorts_repeat_state_entry_default">Стандартно</string>
-    <string name="revanced_change_shorts_repeat_state_entry_pause">Призупинити</string>
-    <string name="revanced_change_shorts_repeat_state_entry_repeat">Повторювати</string>
     <string name="revanced_disable_resuming_shorts_player_title">Вимкнути відновлення плеєра Shorts</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">Плеєр Shorts не відновлюватиметься при запуску додатка.</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">Плеєр Shorts відновлюватиметься при запуску додатка.</string>
@@ -954,6 +953,12 @@
     <string name="revanced_hide_shorts_shelf_history_title">Приховати в історії перегляду</string>
     <string name="revanced_hide_shorts_shelf_history_summary_on">Приховано в історії перегляду.</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">Показується в історії перегляду.</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_change_shorts_repeat_state_title">Змінити стан повторення Shorts</string>
+    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Автовідворення</string>
+    <string name="revanced_change_shorts_repeat_state_entry_default">Стандартно</string>
+    <string name="revanced_change_shorts_repeat_state_entry_pause">Призупинити</string>
+    <string name="revanced_change_shorts_repeat_state_entry_repeat">Повторювати</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">Плеєр Shorts</string>
     <string name="revanced_preference_screen_shorts_player_summary">Приховувати чи показувати компоненти у плеєрі Shorts.</string>
@@ -1470,12 +1475,16 @@
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
     <string name="revanced_preference_category_spoof_client_about">Про це</string>
     <string name="revanced_spoof_client_use_ios_title">iOS</string>
+    <string name="revanced_spoof_client_use_ios_legacy_summary">"Імітація клієнта для iOS.
+
+Побічні ефекти включають:
+• Відео HDR підтримується тільки на кодеку AV1.
+• Час перегляду не зберігається в історії перегляду на акаунті бренду."</string>
     <string name="revanced_spoof_client_use_ios_summary">"Імітація клієнта для iOS.
 
 Побічні ефекти включають:
 • Відео HDR підтримується тільки на кодеку AV1.
-• Історія перегляду не працює з акаунтом бренду.
-• Прямі трансляції не відтворюються як лише звук."</string>
+• Історія перегляду не працює з акаунтом бренду."</string>
     <string name="revanced_spoof_client_use_android_testsuite_title">Тестовий Android</string>
     <string name="revanced_spoof_client_use_android_testsuite_summary">"Імітація тестового клієнта Android.
 
@@ -1514,8 +1523,8 @@
     <string name="revanced_watch_history_type_entry_1">Оригінал</string>
     <string name="revanced_watch_history_type_entry_2">Замінити домен</string>
     <string name="revanced_watch_history_type_entry_3">Блокувати історію перегляду</string>
-    <string name="revanced_watch_history_about_title">Про історію перегляду</string>
-    <string name="revanced_watch_history_about_status_blocked">• Історія перегляду не працює.</string>
+    <string name="revanced_watch_history_about_title">Стан історії перегляду</string>
+    <string name="revanced_watch_history_about_status_blocked">• Історію перегляду заблоковано.</string>
     <string name="revanced_watch_history_about_status_ios_replaced">"• Дотримується налаштувань історії перегляду облікового запису Google.
 • Історія перегляду може не працювати з акаунтом бренду.
 (Налаштування імітації клієнта увімкнене та вибрано клієнт iOS)"</string>

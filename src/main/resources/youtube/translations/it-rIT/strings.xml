@@ -3,15 +3,21 @@
     <!-- Translations for YouTube -->
     <string name="accessibility_settings_edu_opt_in_text">Vuoi attivare i controlli di accessibilità del riproduttore?</string>
     <string name="accessibility_settings_edu_opt_out_text">I tuoi controlli sono diversi poichè un servizio di accessibilità è attivato</string>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Cerca nelle impostazioni</string>
-    <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">Opzioni sperimentali</string>
     <string name="revanced_extended_confirm_user_dialog_title">Desideri procedere?</string>
     <string name="revanced_extended_restart_first_run">Riavvia per caricare l\'interfaccia normalmente</string>
     <string name="revanced_extended_restart_message">Aggiorna e riavvia</string>
     <string name="revanced_playback_speed_normal">Normale</string>
+    <string name="revanced_external_downloader_package_name_video_title">Nome pacchetto downloader video</string>
+    <string name="revanced_external_downloader_package_name_video_summary">Nome del pacchetto dell\'app downloader esterna installata, ad esempio NewPipe o YTDLnis.</string>
+    <string name="revanced_external_downloader_dialog_title">Scaricare esterno</string>
+    <string name="revanced_external_downloader_not_installed_dialog_title">Attenzione</string>
+    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s non è installato.
+Si prega di scaricare %2$s dal sito web."</string>
+    <string name="revanced_external_downloader_not_installed_warning">%s non è installato. Per favore installalo</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Annunci</string>
     <string name="revanced_hide_fullscreen_ads_title">Nascondi gli annunci a schermo intero</string>
@@ -304,6 +310,14 @@ Problemi noti:
     <string name="revanced_enable_phone_layout_summary">Simula un diverso valore DPI per usare alcune parti dell\'interfaccia da telefono</string>
     <string name="revanced_enable_tablet_layout_title">Attiva l\'interfaccia da tablet</string>
     <string name="revanced_enable_tablet_layout_summary">Simula un diverso valore DPI per usare alcune parti dell\'interfaccia da tablet</string>
+    <string name="revanced_override_video_download_button_title">Sovrascrivi il pulsante di download video</string>
+    <string name="revanced_override_video_download_button_summary_on">Il pulsante nativo per il download video apre il tuo downloader esterno.</string>
+    <string name="revanced_override_video_download_button_summary_off">Il pulsante nativo di download video apre il nativo in-app downloader.</string>
+    <string name="revanced_override_playlist_download_button_title">Sovrascrivi il pulsante download playlist</string>
+    <string name="revanced_override_playlist_download_button_summary_on">Il pulsante nativo di download della playlist apre il tuo downloader esterno.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">Il pulsante nativo di download della playlist apre il nativo in-app downloader.</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">Nome pacchetto playlist downloader</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">Nome del pacchetto dell\'applicazione esterna di downloader installata, come YTDLnis.</string>
     <string name="revanced_spoof_app_version_title">Simula la versione dell\'app</string>
     <string name="revanced_spoof_app_version_summary_on">Versione spoofata</string>
     <string name="revanced_spoof_app_version_summary_off">Versione non spoofata</string>
@@ -828,16 +842,6 @@ Tocca e tieni premuto per annullare."</string>
     <string name="revanced_whitelist_playback_speed">Velocità di riproduzione</string>
     <string name="revanced_whitelist_sponsor_block">SponsorBlock</string>
     <string name="revanced_whitelist_failure_generic">Impossibile caricare le informazioni del canale.</string>
-    <string name="revanced_external_downloader_package_name_title">Nome del pacchetto del downloader esterno</string>
-    <string name="revanced_external_downloader_package_name_summary">Nome del pacchetto dell\'app downloader esterna installata, ad esempio NewPipe o YTDLnis</string>
-    <string name="revanced_external_downloader_dialog_title">Scaricare esterno</string>
-    <string name="revanced_external_downloader_not_installed_dialog_title">Attenzione</string>
-    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s non è installato.
-Si prega di scaricare %2$s dal sito web."</string>
-    <string name="revanced_external_downloader_not_installed_warning">%s non è installato. Per favore installalo</string>
-    <string name="revanced_external_downloader_action_title">Sovrascrivi il pulsante azione scarica</string>
-    <string name="revanced_external_downloader_action_summary_on">Il pulsante di scarica nativo apre lo scaricatore esterno.</string>
-    <string name="revanced_external_downloader_action_summary_off">Il pulsante nativo di scarica apre il nativo scaricatore in-app.</string>
     <string name="revanced_overlay_button_speed_dialog_reset">Velocità di riproduzione ripristinata al predefinito</string>
     <string name="revanced_overlay_button_not_allowed_warning">Tocca e tieni premuto per cambiare lo stato del pulsante.</string>
     <string name="revanced_share_copy_timestamp_success">Timestamp copiato negli appunti (%s)</string>
@@ -932,11 +936,6 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
     <string name="revanced_expand_video_description_strings_default_value">Descrizione</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
-    <string name="revanced_change_shorts_repeat_state_title">Cambia lo stato di ripetizione degli shorts</string>
-    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Riproduzione automatica</string>
-    <string name="revanced_change_shorts_repeat_state_entry_default">Predefinito</string>
-    <string name="revanced_change_shorts_repeat_state_entry_pause">Pausa</string>
-    <string name="revanced_change_shorts_repeat_state_entry_repeat">Ripeti</string>
     <string name="revanced_disable_resuming_shorts_player_title">Disabilita la ripresa del riproduttore Shorts</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">Il riproduttore Shorts non riprenderà all\'avvio dell\'app.</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">Il riproduttore Shorts riprenderà all\'avvio dell\'app.</string>
@@ -956,6 +955,12 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
     <string name="revanced_hide_shorts_shelf_history_title">Nascondi nella cronologia delle visualizzazioni</string>
     <string name="revanced_hide_shorts_shelf_history_summary_on">Nascosto nella cronologia delle visualizzazioni.</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">Mostrato nella cronologia delle visualizzazioni.</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_change_shorts_repeat_state_title">Cambia lo stato di ripetizione degli shorts</string>
+    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Riproduzione automatica</string>
+    <string name="revanced_change_shorts_repeat_state_entry_default">Predefinito</string>
+    <string name="revanced_change_shorts_repeat_state_entry_pause">Pausa</string>
+    <string name="revanced_change_shorts_repeat_state_entry_repeat">Ripeti</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">Riproduttore Shorts</string>
     <string name="revanced_preference_screen_shorts_player_summary">Nascondi o mostra i componenti nel produttore Shorts.</string>
@@ -1476,6 +1481,11 @@ Problema noto: i video nei feed saranno riprodotti per meno di un minuto prima d
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
     <string name="revanced_preference_category_spoof_client_about">Informazioni</string>
     <string name="revanced_spoof_client_use_ios_title">iOS</string>
+    <string name="revanced_spoof_client_use_ios_legacy_summary">"Spoof client to iOS.
+
+Gli effetti collaterali includono:
+• Il video HDR è supportato solo su codec AV1.
+• Il tempo di osservazione non viene salvato nella cronologia sull'account brand."</string>
     <string name="revanced_spoof_client_use_ios_summary">"Spoof client ad iOS.
 
 Gli effetti collaterali includono:

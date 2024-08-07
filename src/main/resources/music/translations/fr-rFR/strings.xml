@@ -137,6 +137,11 @@ Info :
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Filtrer la liste des noms du composant séparés par un saut de ligne.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Filtre personnalisé invalide : %s.</string>
+    <string name="revanced_hide_settings_menu_title">Masquer le menu \'Paramètres\'</string>
+    <string name="revanced_hide_settings_menu_summary">"Masquer les éléments du menu Paramètre.
+Cela masque non seulement le menu paramètre de YT Music, mais également le menu paramètre de ReVanced Extended."</string>
+    <string name="revanced_hide_settings_menu_filter_strings_title">Filtre du menu \'Paramètres\'</string>
+    <string name="revanced_hide_settings_menu_filter_strings_summary">Liste des noms du menu paramètre à filtrer, séparé par des sauts de lignes.</string>
     <string name="revanced_hide_button_shelf_title">Masquer les étagères de boutons</string>
     <string name="revanced_hide_button_shelf_summary">Masque les étagères à boutons dans les flux.</string>
     <string name="revanced_hide_carousel_shelf_title">Masquer les étagères à suggestions</string>
@@ -195,6 +200,10 @@ Cela ne contourne pas la restriction d'âge, mais le confirme automatiquement."<
     <string name="revanced_hide_navigation_label_summary">Masque le nom sous les boutons de la barre de navigation.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Lecteur</string>
+    <string name="revanced_disable_mini_player_gesture_title">Désactiver les gestes du minilecteur</string>
+    <string name="revanced_disable_mini_player_gesture_summary">Désactive les gestes pour changer de musique dans le minilecteur.</string>
+    <string name="revanced_disable_player_gesture_title">Désactiver les gestes du lecteur</string>
+    <string name="revanced_disable_player_gesture_summary">Désactive les gestes pour changer de musique dans le lecteur.</string>
     <string name="revanced_enable_black_player_background_title">Activer l\'interface du lecteur en noir</string>
     <string name="revanced_enable_black_player_background_summary">Change la couleur de l\'interface du lecteur en noir.</string>
     <string name="revanced_enable_color_match_player_title">Activer l\'harmonisation des couleurs du lecteur</string>

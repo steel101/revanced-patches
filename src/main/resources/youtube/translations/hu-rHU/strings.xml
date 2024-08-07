@@ -3,15 +3,21 @@
     <!-- Translations for YouTube -->
     <string name="accessibility_settings_edu_opt_in_text">Engedélyezi a videolejátszó akadálymentesítési vezérlőit?</string>
     <string name="accessibility_settings_edu_opt_out_text">Az eszközök azért módosulnak, mert egy akadálymentesítési szolgáltatás be van kapcsolva.</string>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">%s keresése</string>
-    <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">Kísérleti funkciók</string>
     <string name="revanced_extended_confirm_user_dialog_title">Szeretnéd folytatni?</string>
     <string name="revanced_extended_restart_first_run">Indítsa újra a rendszert a normál elrendezés betöltéséhez</string>
     <string name="revanced_extended_restart_message">Frissítés és újraindítás</string>
     <string name="revanced_playback_speed_normal">Normál</string>
+    <string name="revanced_external_downloader_package_name_video_title">Videó letöltő csomag neve</string>
+    <string name="revanced_external_downloader_package_name_video_summary">A telepített külső letöltő alkalmazás csomagneve, például NewPipe vagy YTDLnis.</string>
+    <string name="revanced_external_downloader_dialog_title">Külső letöltéskezelő</string>
+    <string name="revanced_external_downloader_not_installed_dialog_title">Figyelmeztetés</string>
+    <string name="revanced_external_downloader_not_installed_dialog_message">"A(z) %1$s nincs telepítve.
+Kérjük, töltsd le a(z) %2$s a weboldalról."</string>
+    <string name="revanced_external_downloader_not_installed_warning">%s nincs telepítve. Kérjük telepítse.</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Hirdetések</string>
     <string name="revanced_hide_fullscreen_ads_title">Teljes képernyős hirdetések elrejtése</string>
@@ -300,6 +306,14 @@ Ez nem kerüli meg a korhatárt. Csak automatikusan fogadja el."</string>
     <string name="revanced_enable_phone_layout_summary">Hamisítja a dpi-t néhány telefonos elrendezés használatához.</string>
     <string name="revanced_enable_tablet_layout_title">Tablet felület engedélyezése</string>
     <string name="revanced_enable_tablet_layout_summary">Hamisítja a dpi-t néhány táblagépes elrendezés használatához.</string>
+    <string name="revanced_override_video_download_button_title">Videó letöltési gomb felülbírálása</string>
+    <string name="revanced_override_video_download_button_summary_on">Az eredeti letöltés gomb megnyitja a külső letöltőt.</string>
+    <string name="revanced_override_video_download_button_summary_off">Az eredeti letöltés gomb megnyitja az eredeti, beépített letöltőt.</string>
+    <string name="revanced_override_playlist_download_button_title">Lejátszási lista letöltése gomb felülbírálása</string>
+    <string name="revanced_override_playlist_download_button_summary_on">Az eredeti lejátszási lista letöltése gomb megnyitja a külső letöltőt.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">Az eredeti lejátszási lista letöltése gomb megnyitja az eredeti, beépített letöltőt.</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">Lejátszási lista letöltő csomag neve</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">A telepített külső letöltő alkalmazás csomagneve, például YTDLnis.</string>
     <string name="revanced_spoof_app_version_title">Alkalmazásverzió hamisítása</string>
     <string name="revanced_spoof_app_version_summary_on">Verzió hamisítás</string>
     <string name="revanced_spoof_app_version_summary_off">Verzió nincs hamisítva</string>
@@ -520,6 +534,9 @@ Megjegyzés:
 Az automatikus lejátszás a YouTube beállításaiban módosítható:
 Beállítások → Automatikus lejátszás → Következő videó automatikus lejátszása"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">Megjelenik a javasolt videó záróképernyője.</string>
+    <string name="revanced_hide_zoom_overlay_title">Nagyítás fedés elrejtése</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">A nagyítás fedés el van rejtve.</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">A nagyítás fedés látható.</string>
     <string name="revanced_skip_autoplay_countdown_title">Automatikus lejátszás visszaszámlálás átugrása</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Ha az automatikus lejátszás engedélyezve van, a következő videó azonnal lejátszódik.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">Ha az automatikus lejátszás engedélyezve van, a következő videó a visszaszámlálás befejezése után lejátszódik.</string>
@@ -821,16 +838,6 @@ Tartsa nyomva a sebesség alaphelyzetbe állításához."</string>
     <string name="revanced_whitelist_playback_speed">Lejátszási sebesség</string>
     <string name="revanced_whitelist_sponsor_block">Szponzor Blokk</string>
     <string name="revanced_whitelist_failure_generic">Csatornainformációk betöltése sikertelen.</string>
-    <string name="revanced_external_downloader_package_name_title">Külső letöltő csomagneve</string>
-    <string name="revanced_external_downloader_package_name_summary">A telepített külső letöltő alkalmazás csomagneve, például NewPipe vagy YTDLnis.</string>
-    <string name="revanced_external_downloader_dialog_title">Külső letöltéskezelő</string>
-    <string name="revanced_external_downloader_not_installed_dialog_title">Figyelmeztetés</string>
-    <string name="revanced_external_downloader_not_installed_dialog_message">"A(z) %1$s nincs telepítve.
-Kérjük, töltsd le a(z) %2$s a weboldalról."</string>
-    <string name="revanced_external_downloader_not_installed_warning">%s nincs telepítve. Kérjük telepítse.</string>
-    <string name="revanced_external_downloader_action_title">Letöltés művelet gomb felülírása</string>
-    <string name="revanced_external_downloader_action_summary_on">Az eredeti letöltés gomb megnyitja a külső letöltőt.</string>
-    <string name="revanced_external_downloader_action_summary_off">Az eredeti letöltés gomb megnyitja az eredeti, beépített letöltőt.</string>
     <string name="revanced_overlay_button_speed_dialog_reset">Lejátszási sebesség visszaállítva (1.0x).</string>
     <string name="revanced_overlay_button_not_allowed_warning">Érintse meg és tartsa lenyomva a gomb állapotának megváltoztatásához.</string>
     <string name="revanced_share_copy_timestamp_success">Az időbélyeg a vágólapra másolva. (%s)</string>
@@ -921,11 +928,6 @@ A 'Videoleírások kibővítése' nem működik, ha a beírt sztring nem egyezik
     <string name="revanced_expand_video_description_strings_default_value">Leírás</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Rövidfilmek</string>
-    <string name="revanced_change_shorts_repeat_state_title">Shorts ismétlési állapotának módosítása</string>
-    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Automatikus lejátszás</string>
-    <string name="revanced_change_shorts_repeat_state_entry_default">Alapértelmezett</string>
-    <string name="revanced_change_shorts_repeat_state_entry_pause">Szünet</string>
-    <string name="revanced_change_shorts_repeat_state_entry_repeat">Ismétlés</string>
     <string name="revanced_disable_resuming_shorts_player_title">A Shorts lejátszás folytatásának kikapcsolása</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">A Shorts lejátszás nem indul el az alkalmazás indításakor</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">A Shorts lejátszás folytatódik az alkalmazás indításakor</string>
@@ -947,6 +949,12 @@ Korlát: A hivatalos fejlécek a keresési eredményekben el lesznek rejtve."</s
     <string name="revanced_hide_shorts_shelf_history_title">Elrejtés a nézési előzmények között</string>
     <string name="revanced_hide_shorts_shelf_history_summary_on">Elrejtve a nézési előzmények között.</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">Megjelenítve a nézési előzmények között.</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_change_shorts_repeat_state_title">Shorts ismétlési állapotának módosítása</string>
+    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Automatikus lejátszás</string>
+    <string name="revanced_change_shorts_repeat_state_entry_default">Alapértelmezett</string>
+    <string name="revanced_change_shorts_repeat_state_entry_pause">Szünet</string>
+    <string name="revanced_change_shorts_repeat_state_entry_repeat">Ismétlés</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">Rövidfilm lejátszó</string>
     <string name="revanced_preference_screen_shorts_player_summary">Komponensek elrejtése vagy megjelenítése a Rövid videók lejátszójában.</string>
@@ -1327,6 +1335,7 @@ Egy másik kodek kerül alkalmazásra kb. 20 másodperc pufferezés után."</str
     <string name="revanced_sb_new_segment_choose_category">Válassza ki a szakasz kategóriáját</string>
     <string name="revanced_sb_new_segment_disabled_category">A kategória letiltva a beállításokban. Engedélyezze a beküldéshez.</string>
     <string name="revanced_sb_new_segment_title">Új SponsorBlock szakasz</string>
+    <string name="revanced_sb_new_segment_mark_current_time_as_question">Beállítja a(z) %s-t az új szakasz kezdetének vagy végének?</string>
     <string name="revanced_sb_new_segment_mark_start">kezdőpont</string>
     <string name="revanced_sb_new_segment_mark_end">végpont</string>
     <string name="revanced_sb_new_segment_now">most</string>
@@ -1459,6 +1468,11 @@ Korlátozás: A hírfolyamban található videók kevesebb, mint 1 percig játsz
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
     <string name="revanced_preference_category_spoof_client_about">Névjegy</string>
     <string name="revanced_spoof_client_use_ios_title">iOS</string>
+    <string name="revanced_spoof_client_use_ios_legacy_summary">"Kliens hamisítása iOS-re.
+
+A mellékhatások a következők:
+• A HDR videót csak AV1 kodekkel támogatja.
+• A nézési idő nem kerül mentésre a márkafiók megtekintési előzményeiben."</string>
     <string name="revanced_spoof_client_use_ios_summary">"Kliens verzió hamisítása iOS-re.
 
 A mellékhatások a következők lehetnek:
@@ -1492,6 +1506,26 @@ A mellékhatások a következők lehetnek:
 • Gyenge minőségű bélyegképek a Shorts keresősávján.
 • A gyerekeknek készült videókat nem lehet lejátszani."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
+    <string name="revanced_preference_screen_watch_history_title">Megtekintési előzmények</string>
+    <string name="revanced_preference_screen_watch_history_summary">A megtekintési előzményekhez kapcsolódó beállítások módosítása.</string>
+    <string name="revanced_watch_history_management_title">Előzmények kezelése</string>
+    <string name="revanced_watch_history_management_summary">Kattintson a YouTube megtekintési előzmények kezelésének megnyitásához.</string>
+    <string name="revanced_watch_history_type_title">Megtekintési előzmények típusa</string>
+    <string name="revanced_watch_history_type_entry_1">Eredeti</string>
+    <string name="revanced_watch_history_type_entry_2">Domain cseréje</string>
+    <string name="revanced_watch_history_type_entry_3">Megtekintési előzmények tiltása</string>
+    <string name="revanced_watch_history_about_title">Megtekintési előzmények állapota</string>
+    <string name="revanced_watch_history_about_status_blocked">• A megtekintési előzmények le vannak tiltva.</string>
+    <string name="revanced_watch_history_about_status_ios_replaced">"• Követi a Google-fiók megtekintési előzményeinek beállításait.
+• Előfordulhat, hogy a megtekintési előzmények nem működnek márkafiókkal.
+(A hamis kliens beállítása engedélyezve van, és az iOS kliens ki van választva)"</string>
+    <string name="revanced_watch_history_about_status_ios_original">"• Követi a Google-fiók megtekintési előzményeinek beállításait.
+• Előfordulhat, hogy a megtekintési előzmények nem működnek a DNS vagy a VPN miatt.
+• Előfordulhat, hogy a megtekintési előzmények nem működnek márkafiókkal.
+(A hamis kliens beállítása engedélyezve van, és az iOS kliens ki van választva)"</string>
+    <string name="revanced_watch_history_about_status_android_replaced">• Követi a Google-fiók megtekintési előzményeinek beállításait.</string>
+    <string name="revanced_watch_history_about_status_android_original">"• Követi a Google-fiók megtekintési előzményeinek beállításait.
+• Előfordulhat, hogy a megtekintési előzmények nem működnek a DNS vagy a VPN miatt."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Patch információ</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

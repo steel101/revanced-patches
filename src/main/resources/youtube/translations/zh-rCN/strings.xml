@@ -3,15 +3,19 @@
     <!-- Translations for YouTube -->
     <string name="accessibility_settings_edu_opt_in_text">开启视频播放器的访问控制？</string>
     <string name="accessibility_settings_edu_opt_out_text">由于无障碍服务已启用，您的控制被修改</string>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">搜索设置</string>
-    <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">实验性功能</string>
     <string name="revanced_extended_confirm_user_dialog_title">你想继续吗?</string>
     <string name="revanced_extended_restart_first_run">重启应用以正常加载界面布局</string>
     <string name="revanced_extended_restart_message">刷新并重启</string>
     <string name="revanced_playback_speed_normal">正常</string>
+    <string name="revanced_external_downloader_dialog_title">外部下载器</string>
+    <string name="revanced_external_downloader_not_installed_dialog_title">警告</string>
+    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s 未安装
+请从网站下载 %2$s"</string>
+    <string name="revanced_external_downloader_not_installed_warning">%s未安装，请先安装</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">广告</string>
     <string name="revanced_hide_fullscreen_ads_title">隐藏全屏广告</string>
@@ -524,6 +528,9 @@
  可以在 YouTube 设置中更改自动播放：
  “设置→自动播放→自动播放下一个视频”"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">推荐视频结束界面已显示</string>
+    <string name="revanced_hide_zoom_overlay_title">隐藏缩放叠加层</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">缩放叠加层已隐藏</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">缩放叠加层已显示</string>
     <string name="revanced_skip_autoplay_countdown_title">跳过自动播放倒计时</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">如果自动播放已开启，下一个视频将在无倒计时的情况下播放</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">如果自动播放已开启，下一个视频将在倒计时结束后播放</string>
@@ -825,16 +832,6 @@
     <string name="revanced_whitelist_playback_speed">播放速度</string>
     <string name="revanced_whitelist_sponsor_block">SponsorBlock</string>
     <string name="revanced_whitelist_failure_generic">加载频道信息失败</string>
-    <string name="revanced_external_downloader_package_name_title">外部下载器应用包名</string>
-    <string name="revanced_external_downloader_package_name_summary">已安装的外部下载器应用的包名，例如 NewPipe 或 YTDLnis</string>
-    <string name="revanced_external_downloader_dialog_title">外部下载器</string>
-    <string name="revanced_external_downloader_not_installed_dialog_title">警告</string>
-    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s 未安装
-请从网站下载 %2$s"</string>
-    <string name="revanced_external_downloader_not_installed_warning">%s未安装，请先安装</string>
-    <string name="revanced_external_downloader_action_title">覆盖下载操作按钮</string>
-    <string name="revanced_external_downloader_action_summary_on">下载按钮打开您的外部下载器</string>
-    <string name="revanced_external_downloader_action_summary_off">下载按钮打开原生应用内下载器</string>
     <string name="revanced_overlay_button_speed_dialog_reset">重置播放速度: %sx</string>
     <string name="revanced_overlay_button_not_allowed_warning">长按以更改按钮状态</string>
     <string name="revanced_share_copy_timestamp_success">时间戳已复制到剪贴板 (%s)</string>
@@ -892,6 +889,9 @@
     <string name="revanced_hide_chapters_section_title">隐藏章节部分</string>
     <string name="revanced_hide_chapters_section_summary_on">章节部分已隐藏</string>
     <string name="revanced_hide_chapters_section_summary_off">章节部分已显示</string>
+    <string name="revanced_hide_contents_section_title">隐藏内容部分</string>
+    <string name="revanced_hide_contents_section_summary_on">此内容的制作过程部分已隐藏</string>
+    <string name="revanced_hide_contents_section_summary_off">此内容的制作过程部分已显示</string>
     <string name="revanced_hide_info_cards_section_title">隐藏视频中的信息卡片</string>
     <string name="revanced_hide_info_cards_section_summary_on">信息卡片已隐藏</string>
     <string name="revanced_hide_info_cards_section_summary_off">信息卡片已显示</string>
@@ -922,11 +922,6 @@
     <string name="revanced_expand_video_description_strings_default_value">描述</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">短视频</string>
-    <string name="revanced_change_shorts_repeat_state_title">更改短片重复状态</string>
-    <string name="revanced_change_shorts_repeat_state_entry_auto_play">自动播放</string>
-    <string name="revanced_change_shorts_repeat_state_entry_default">默认</string>
-    <string name="revanced_change_shorts_repeat_state_entry_pause">暂停</string>
-    <string name="revanced_change_shorts_repeat_state_entry_repeat">重复播放</string>
     <string name="revanced_disable_resuming_shorts_player_title">禁用恢复短片播放器</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">应用启动时不会恢复短片播放器</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">应用启动时恢复短片播放器</string>
@@ -948,6 +943,12 @@
     <string name="revanced_hide_shorts_shelf_history_title">在观看历史中隐藏</string>
     <string name="revanced_hide_shorts_shelf_history_summary_on">在观看历史中隐藏</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">在观看历史中显示</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_change_shorts_repeat_state_title">更改短片重复状态</string>
+    <string name="revanced_change_shorts_repeat_state_entry_auto_play">自动播放</string>
+    <string name="revanced_change_shorts_repeat_state_entry_default">默认</string>
+    <string name="revanced_change_shorts_repeat_state_entry_pause">暂停</string>
+    <string name="revanced_change_shorts_repeat_state_entry_repeat">重复播放</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">短视频播放器</string>
     <string name="revanced_preference_screen_shorts_player_summary">隐藏或显示短视频播放器中的组件</string>
@@ -1135,6 +1136,7 @@
 
 • 视频开始时约有 0.7 秒延迟，但默认视频分辨率会立即生效
 • 不适用于 HDR 视频或短于 10 秒的视频"</string>
+    <string name="revanced_skip_preloaded_buffer_user_dialog_message">开启此选项可能会导致视频不能正常播放</string>
     <string name="revanced_skip_preloaded_buffer_toast_title">跳过时的提示信息</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">提示信息已显示</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">提示信息已隐藏</string>
@@ -1326,6 +1328,7 @@
     <string name="revanced_sb_new_segment_choose_category">选择片段类别</string>
     <string name="revanced_sb_new_segment_disabled_category">类别在设置中被禁用请启用类别以提交</string>
     <string name="revanced_sb_new_segment_title">新的 SponsorBlock 片段</string>
+    <string name="revanced_sb_new_segment_mark_current_time_as_question">将 %s 设为新片段的开头或结尾？</string>
     <string name="revanced_sb_new_segment_mark_start">开始</string>
     <string name="revanced_sb_new_segment_mark_end">结束</string>
     <string name="revanced_sb_new_segment_now">立即</string>
@@ -1500,6 +1503,26 @@
 • 低质量的短视频滚动栏缩略图
 • 儿童视频无法播放"</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
+    <string name="revanced_preference_screen_watch_history_title">观看历史</string>
+    <string name="revanced_preference_screen_watch_history_summary">更改与观看历史记录相关的设置</string>
+    <string name="revanced_watch_history_management_title">管理所有历史记录</string>
+    <string name="revanced_watch_history_management_summary">点击以打开 YouTube 历史记录管理</string>
+    <string name="revanced_watch_history_type_title">历史记录类型</string>
+    <string name="revanced_watch_history_type_entry_1">原版</string>
+    <string name="revanced_watch_history_type_entry_2">替换域名</string>
+    <string name="revanced_watch_history_type_entry_3">屏蔽历史记录</string>
+    <string name="revanced_watch_history_about_title">关于历史记录</string>
+    <string name="revanced_watch_history_about_status_blocked">• 历史记录不可用</string>
+    <string name="revanced_watch_history_about_status_ios_replaced">"• 遵循谷歌帐户的观看历史设置
+• 历史记录可能无法适用于品牌帐户
+(已开启伪装客户端并选择 iOS 客户端)"</string>
+    <string name="revanced_watch_history_about_status_ios_original">"• 遵循谷歌帐户的观看历史设置
+• 由于 DNS 或 VPN 的原因，观看历史可能无法工作
+• 历史记录可能无法适用于品牌帐户
+(已开启伪装客户端并选择 iOS 客户端)"</string>
+    <string name="revanced_watch_history_about_status_android_replaced">• 遵循谷歌帐户的观看历史设置</string>
+    <string name="revanced_watch_history_about_status_android_original">"• 遵循谷歌帐户的观看历史设置
+• 由于 DNS 或 VPN 的原因，观看历史可能无法工作"</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">补丁信息</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

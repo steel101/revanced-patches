@@ -3,15 +3,19 @@
     <!-- Translations for YouTube -->
     <string name="accessibility_settings_edu_opt_in_text">Bedienungshilfen für den Video-Player aktivieren?</string>
     <string name="accessibility_settings_edu_opt_out_text">Ihre Steuerungen wurden angepasst, da ein Barrierefreiheitsdienst aktiviert ist.</string>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Suche %s</string>
-    <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">Experimentelle Flags</string>
     <string name="revanced_extended_confirm_user_dialog_title">Möchtest Du fortfahren?</string>
     <string name="revanced_extended_restart_first_run">Neustarten um das Layout zu laden</string>
     <string name="revanced_extended_restart_message">Aktualisieren und Neustarten</string>
     <string name="revanced_playback_speed_normal">Normal</string>
+    <string name="revanced_external_downloader_dialog_title">Externer Downloader</string>
+    <string name="revanced_external_downloader_not_installed_dialog_title">Warnung</string>
+    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s ist nicht installiert.
+Bitte lade %2$s von der Webseite herunter."</string>
+    <string name="revanced_external_downloader_not_installed_warning">%s ist nicht installiert. Bitte installieren.</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Werbung</string>
     <string name="revanced_hide_fullscreen_ads_title">Vollbildwerbung verstecken</string>
@@ -776,16 +780,6 @@ Tippen und gedrückt halten, um rückgängig zu machen."</string>
     <string name="revanced_whitelist_playback_speed">Wiedergabegeschwindigkeit</string>
     <string name="revanced_whitelist_sponsor_block">Sponsorenblock</string>
     <string name="revanced_whitelist_failure_generic">Fehler beim Laden der Kanalinformationen.</string>
-    <string name="revanced_external_downloader_package_name_title">Externer Downloader-Paketname</string>
-    <string name="revanced_external_downloader_package_name_summary">Paketname der installierten externen Downloader-App wie NewPipe oder YTDLnis</string>
-    <string name="revanced_external_downloader_dialog_title">Externer Downloader</string>
-    <string name="revanced_external_downloader_not_installed_dialog_title">Warnung</string>
-    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s ist nicht installiert.
-Bitte lade %2$s von der Webseite herunter."</string>
-    <string name="revanced_external_downloader_not_installed_warning">%s ist nicht installiert. Bitte installieren.</string>
-    <string name="revanced_external_downloader_action_title">Download Action überschreiben</string>
-    <string name="revanced_external_downloader_action_summary_on">Nativer Download Button öffnet den externen Downloader.</string>
-    <string name="revanced_external_downloader_action_summary_off">Nativer Download Button öffnet den nativen In-App Downloader.</string>
     <string name="revanced_overlay_button_speed_dialog_reset">Wiedergabegeschwindigkeit zurücksetzen: %sx.</string>
     <string name="revanced_overlay_button_not_allowed_warning">Tap and hold to change button state.</string>
     <string name="revanced_share_copy_timestamp_success">Time stamp copied to clipboard. (%s)</string>
@@ -868,10 +862,6 @@ Die Option \"Videobeschreibung\" kann nicht funktionieren, wenn die eingegebene 
     <string name="revanced_expand_video_description_strings_default_value">Beschreibung</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
-    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Autoplay</string>
-    <string name="revanced_change_shorts_repeat_state_entry_default">Standard</string>
-    <string name="revanced_change_shorts_repeat_state_entry_pause">Pause</string>
-    <string name="revanced_change_shorts_repeat_state_entry_repeat">Wiederholen</string>
     <string name="revanced_disable_resuming_shorts_player_title">Shorts-Player beim App-Start ausblenden</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">Shorts-Player aktiv beim Start der Anwendung.</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">Shorts-Player aktiv beim Start der Anwendung</string>
@@ -890,6 +880,11 @@ Nebeneffekt: Offizielle Kopfzeilen in Suchergebnissen werden ausgeblendet."</str
     <string name="revanced_hide_shorts_shelf_search_summary_on">Versteckt in Suchergebnissen.</string>
     <string name="revanced_hide_shorts_shelf_search_summary_off">In den Suchergebnissen angezeigt.</string>
     <string name="revanced_hide_shorts_shelf_history_title">Verstecke im Beobachtungsverlauf</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Autoplay</string>
+    <string name="revanced_change_shorts_repeat_state_entry_default">Standard</string>
+    <string name="revanced_change_shorts_repeat_state_entry_pause">Pause</string>
+    <string name="revanced_change_shorts_repeat_state_entry_repeat">Wiederholen</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_summary">Elemente im YouTube-Einstellungsmenü verstecken</string>
     <string name="revanced_hide_shorts_join_button_title">Teilnehmen-Schaltfläche verstecken</string>

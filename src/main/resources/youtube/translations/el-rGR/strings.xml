@@ -3,15 +3,21 @@
     <!-- Translations for YouTube -->
     <string name="accessibility_settings_edu_opt_in_text">Ενεργοποίηση των στοιχείων ελέγχου προσβασιμότητας για το πρόγραμμα αναπαραγωγής βίντεο;</string>
     <string name="accessibility_settings_edu_opt_out_text">Τα στοιχεία ελέγχου σας τροποποιούνται επειδή είναι ενεργή κάποια υπηρεσία προσβασιμότητας.</string>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Αναζήτηση %s</string>
-    <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">Πειραματικές Λειτουργίες</string>
     <string name="revanced_extended_confirm_user_dialog_title">Θέλετε να συνεχίσετε;</string>
     <string name="revanced_extended_restart_first_run">Επανεκκίνηση ώστε να φορτωθεί σωστά η διάταξη</string>
     <string name="revanced_extended_restart_message">Ανανέωση και επανεκκίνηση</string>
     <string name="revanced_playback_speed_normal">Κανονική</string>
+    <string name="revanced_external_downloader_package_name_video_title">Όνομα πακέτου προγράμματος λήψης βίντεο</string>
+    <string name="revanced_external_downloader_package_name_video_summary">Όνομα πακέτου της εγκατεστημένης σας εξωτερικής εφαρμογής λήψης (π.χ NewPipe, YTLDnis).</string>
+    <string name="revanced_external_downloader_dialog_title">Εξωτερικό πρόγραμμα λήψης</string>
+    <string name="revanced_external_downloader_not_installed_dialog_title">Προειδοποίηση</string>
+    <string name="revanced_external_downloader_not_installed_dialog_message">"Το %1$s δεν είναι εγκατεστημένο.
+Παρακαλούμε εγκαταστήστε το %2$s από την ιστοσελίδα."</string>
+    <string name="revanced_external_downloader_not_installed_warning">%s δεν έχει εγκατασταθεί. Παρακαλούμε εγκαταστήστε το.</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Διαφημίσεις</string>
     <string name="revanced_hide_fullscreen_ads_title">Διαφημίσεις πλήρους οθόνης</string>
@@ -303,6 +309,14 @@ Playlists
     <string name="revanced_enable_phone_layout_summary">Παραποίηση του dpi συσκευής ώστε να χρησιμοποιηθεί η διεπαφή κινητού.</string>
     <string name="revanced_enable_tablet_layout_title">Λειτουργία διεπαφής τάμπλετ</string>
     <string name="revanced_enable_tablet_layout_summary">Παραποίηση του dpi συσκευής ώστε να χρησιμοποιηθεί η διεπαφή τάμπλετ.</string>
+    <string name="revanced_override_video_download_button_title">Μετατροπή κουμπιού λήψης βίντεο</string>
+    <string name="revanced_override_video_download_button_summary_on">Το κουμπί λήψης του YouTube ανοίγει το εξωτερικό πρόγραμμα λήψης σας.</string>
+    <string name="revanced_override_video_download_button_summary_off">Το κουμπί λήψης του YouTube ανοίγει το εγγενές πρόγραμμα λήψης της εφαρμογής.</string>
+    <string name="revanced_override_playlist_download_button_title">Μετατροπή κουμπιού λήψης playlist</string>
+    <string name="revanced_override_playlist_download_button_summary_on">Το κουμπί λήψης του YouTube ανοίγει το εξωτερικό πρόγραμμα λήψης σας.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">Το κουμπί λήψης του YouTube ανοίγει το εγγενές πρόγραμμα λήψης της εφαρμογής.</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">Όνομα πακέτου προγράμματος λήψης playlist</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">Όνομα πακέτου της εγκατεστημένης σας εξωτερικής εφαρμογής λήψης (π.χ YTLDnis).</string>
     <string name="revanced_spoof_app_version_title">Τροποποίηση έκδοσης εφαρμογής</string>
     <string name="revanced_spoof_app_version_summary_on">Η έκδοση τροποποιείται</string>
     <string name="revanced_spoof_app_version_summary_off">Η έκδοση δεν τροποποιείται</string>
@@ -839,16 +853,6 @@ Playlists
     <string name="revanced_whitelist_playback_speed">Ταχύτητα αναπαραγωγής</string>
     <string name="revanced_whitelist_sponsor_block">SponsorBlock</string>
     <string name="revanced_whitelist_failure_generic">Αποτυχία φόρτωσης πληροφοριών καναλιού.</string>
-    <string name="revanced_external_downloader_package_name_title">Όνομα πακέτου εξωτερικού προγράμματος λήψης</string>
-    <string name="revanced_external_downloader_package_name_summary">Όνομα πακέτου της εγκατεστημένης σας εξωτερικής εφαρμογής λήψης (π.χ NewPipe, YTLDnis).</string>
-    <string name="revanced_external_downloader_dialog_title">Εξωτερικό πρόγραμμα λήψης</string>
-    <string name="revanced_external_downloader_not_installed_dialog_title">Προειδοποίηση</string>
-    <string name="revanced_external_downloader_not_installed_dialog_message">"Το %1$s δεν είναι εγκατεστημένο.
-Παρακαλούμε εγκαταστήστε το %2$s από την ιστοσελίδα."</string>
-    <string name="revanced_external_downloader_not_installed_warning">%s δεν έχει εγκατασταθεί. Παρακαλούμε εγκαταστήστε το.</string>
-    <string name="revanced_external_downloader_action_title">Μετατροπή κουμπιού ενέργειας «Λήψη»</string>
-    <string name="revanced_external_downloader_action_summary_on">Το κουμπί ενέργειας «Λήψη» ανοίγει το εξωτερικό πρόγραμμα λήψης σας.</string>
-    <string name="revanced_external_downloader_action_summary_off">Το κουμπί ενέργειας «Λήψη» ανοίγει το πρόγραμμα λήψης του YouTube.</string>
     <string name="revanced_overlay_button_speed_dialog_reset">Η ταχύτητας αναπαραγωγής επαναφέρθηκε: %sx.</string>
     <string name="revanced_overlay_button_not_allowed_warning">Πατήστε παρατεταμένα για αλλαγή της κατάστασης κουμπιού.</string>
     <string name="revanced_share_copy_timestamp_success">Η χρονική σήμανση αντιγράφηκε στο πρόχειρο. (%s)</string>
@@ -947,11 +951,6 @@ Playlists
     <string name="revanced_expand_video_description_strings_default_value">Περιγραφή</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
-    <string name="revanced_change_shorts_repeat_state_title">Αλλαγή κατάστασης επανάληψης Shorts</string>
-    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Αυτόματη αναπαραγωγή</string>
-    <string name="revanced_change_shorts_repeat_state_entry_default">Προεπιλογή</string>
-    <string name="revanced_change_shorts_repeat_state_entry_pause">Παύση</string>
-    <string name="revanced_change_shorts_repeat_state_entry_repeat">Επανάληψη</string>
     <string name="revanced_disable_resuming_shorts_player_title">Απενεργοποίηση συνέχισης των Shorts</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">Ο αναπαραγωγέας Shorts δεν θα συνεχιστεί κατά την εκκίνηση της εφαρμογής.</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">Ο αναπαραγωγέας Shorts θα συνεχιστεί κατά την εκκίνηση της εφαρμογής.</string>
@@ -971,6 +970,12 @@ Playlists
     <string name="revanced_hide_shorts_shelf_history_title">Απόκρυψη στο ιστορικό παρακολούθησης</string>
     <string name="revanced_hide_shorts_shelf_history_summary_on">Κρυμμένη.</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">Εμφανίζεται.</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_change_shorts_repeat_state_title">Αλλαγή κατάστασης επανάληψης Shorts</string>
+    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Αυτόματη αναπαραγωγή</string>
+    <string name="revanced_change_shorts_repeat_state_entry_default">Προεπιλογή</string>
+    <string name="revanced_change_shorts_repeat_state_entry_pause">Παύση</string>
+    <string name="revanced_change_shorts_repeat_state_entry_repeat">Επανάληψη</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">Οθόνη αναπαραγωγής Shorts</string>
     <string name="revanced_preference_screen_shorts_player_summary">Απόκρυψη ή εμφάνιση στοιχείων στην οθόνη αναπαραγωγής Shorts.</string>
@@ -1497,10 +1502,12 @@ Playlists
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
     <string name="revanced_preference_category_spoof_client_about">Σχετικά με</string>
     <string name="revanced_spoof_client_use_ios_title">iOS</string>
+    <string name="revanced_spoof_client_use_ios_legacy_summary">"Παραποίηση σε έκδοση iOS. Παρενέργειες:
+• Η ποιότητα HDR είναι διαθέσιμη μόνο αν η συσκευή σας υποστηρίζει τον κωδικοποιητή AV1.
+• Το ιστορικό παρακολούθησης δεν αποθηκεύεται σε λογαριασμούς επωνυμίας (brand)."</string>
     <string name="revanced_spoof_client_use_ios_summary">"Παραποίηση σε έκδοση iOS. Παρενέργειες:
 • Η ποιότητα HDR είναι διαθέσιμη μόνο αν η συσκευή σας υποστηρίζει τον κωδικοποιητή AV1.
-• Το ιστορικό παρακολούθησης δε λειτουργεί σε λογαριασμούς επωνυμίας (brand).
-• Η αναπαραγωγή ζωντανών μεταδόσεων σε λειτουργία ήχου μόνο δεν είναι διαθέσιμη."</string>
+• Το ιστορικό παρακολούθησης δε λειτουργεί σε λογαριασμούς επωνυμίας (brand)."</string>
     <string name="revanced_spoof_client_use_android_testsuite_title">Android Testsuite</string>
     <string name="revanced_spoof_client_use_android_testsuite_summary">"Παραποίηση σε έκδοση Android Testsuite. Παρενέργειες:
 • Η ποιότητα HDR δεν είναι διαθέσιμη.
@@ -1533,8 +1540,8 @@ Playlists
     <string name="revanced_watch_history_type_entry_1">Αρχικό</string>
     <string name="revanced_watch_history_type_entry_2">Αντικατάσταση του domain</string>
     <string name="revanced_watch_history_type_entry_3">Αποκλεισμός ιστορικού παρακολούθησης</string>
-    <string name="revanced_watch_history_about_title">Σχετικά με το ιστορικό παρακολούθησης</string>
-    <string name="revanced_watch_history_about_status_blocked">Το ιστορικό παρακολούθησης δεν λειτουργεί.</string>
+    <string name="revanced_watch_history_about_title">Κατάσταση ιστορικού παρακολούθησης</string>
+    <string name="revanced_watch_history_about_status_blocked">Το ιστορικό παρακολούθησης είναι αποκλεισμένο.</string>
     <string name="revanced_watch_history_about_status_ios_replaced">"• Προεπιλεγμένες ρυθμίσεις ιστορικού παρακολούθησης του λογαριασμού Google σας.
 • Το ιστορικό παρακολούθησης ενδέχεται να μη λειτουργεί χρησιμοποιώντας λογαριασμό επωνυμίας αν έχετε ενεργοποιημένη τη ρύθμιση παραποίησης προγράμματος αναπαραγωγής σε έκδοση iOS."</string>
     <string name="revanced_watch_history_about_status_ios_original">"• Προεπιλεγμένες ρυθμίσεις ιστορικού παρακολούθησης του λογαριασμού Google σας.

@@ -3,15 +3,21 @@
     <!-- Translations for YouTube -->
     <string name="accessibility_settings_edu_opt_in_text">動画プレーヤーのアクセシビリティコントロールをオンにしますか？</string>
     <string name="accessibility_settings_edu_opt_out_text">ユーザー補助サービスがオンになっているため、操作方法が変わります。</string>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">設定を検索</string>
-    <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">実験的な機能</string>
     <string name="revanced_extended_confirm_user_dialog_title">続行しますか？</string>
     <string name="revanced_extended_restart_first_run">再起動してレイアウトを正常に読み込みます</string>
     <string name="revanced_extended_restart_message">再起動して更新</string>
     <string name="revanced_playback_speed_normal">通常</string>
+    <string name="revanced_external_downloader_package_name_video_title">外部ダウンローダーのパッケージ名</string>
+    <string name="revanced_external_downloader_package_name_video_summary">NewPipe や YTDLnis などの、インストールされている外部ダウンローダーアプリのパッケージ名です。</string>
+    <string name="revanced_external_downloader_dialog_title">外部ダウンローダーを選択</string>
+    <string name="revanced_external_downloader_not_installed_dialog_title">注意</string>
+    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s はインストールされていません。
+ウェブサイトから %2$s をダウンロードしてください。"</string>
+    <string name="revanced_external_downloader_not_installed_warning">%s はインストールされていません。インストールしてください。</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">広告</string>
     <string name="revanced_hide_fullscreen_ads_title">全画面広告を非表示</string>
@@ -303,6 +309,14 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_enable_phone_layout_summary">スマートフォン用レイアウトの一部を使用できるように、dpi を偽装します。</string>
     <string name="revanced_enable_tablet_layout_title">タブレット用のレイアウトを有効化</string>
     <string name="revanced_enable_tablet_layout_summary">タブレット用レイアウトの一部を使用できるように、dpi を偽装します。</string>
+    <string name="revanced_override_video_download_button_title">ダウンロードボタンを置き換え</string>
+    <string name="revanced_override_video_download_button_summary_on">「オフライン」ボタンで外部ダウンローダーを開きます。</string>
+    <string name="revanced_override_video_download_button_summary_off">「オフライン」ボタンで外部ダウンローダーを開きます。</string>
+    <string name="revanced_override_playlist_download_button_title">プレイリストにダウンロードボタンを追加</string>
+    <string name="revanced_override_playlist_download_button_summary_on">「ダウンロード」ボタンで外部ダウンローダーを開きます。</string>
+    <string name="revanced_override_playlist_download_button_summary_off">「ダウンロード」ボタンで外部ダウンローダーを開きます。</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">プレイリストの外部ダウンローダーのパッケージ名</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">NewPipe や YTDLnis などの、インストールされている外部ダウンローダーアプリのパッケージ名です。</string>
     <string name="revanced_spoof_app_version_title">アプリのバージョンを偽装</string>
     <string name="revanced_spoof_app_version_summary_on">アプリのバージョンは偽装されています。</string>
     <string name="revanced_spoof_app_version_summary_off">アプリのバージョンは偽装されていません。</string>
@@ -823,16 +837,6 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_whitelist_playback_speed">再生速度</string>
     <string name="revanced_whitelist_sponsor_block">SponsorBlock</string>
     <string name="revanced_whitelist_failure_generic">チャンネル情報の読み込みに失敗しました。</string>
-    <string name="revanced_external_downloader_package_name_title">外部ダウンローダーのパッケージ名</string>
-    <string name="revanced_external_downloader_package_name_summary">NewPipe や YTDLnis などの、インストールされている外部ダウンローダーアプリのパッケージ名</string>
-    <string name="revanced_external_downloader_dialog_title">外部ダウンローダーを選択</string>
-    <string name="revanced_external_downloader_not_installed_dialog_title">注意</string>
-    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s はインストールされていません。
-ウェブサイトから %2$s をダウンロードしてください。"</string>
-    <string name="revanced_external_downloader_not_installed_warning">%s はインストールされていません。インストールしてください。</string>
-    <string name="revanced_external_downloader_action_title">ダウンロードボタンを置き換え</string>
-    <string name="revanced_external_downloader_action_summary_on">「オフライン」ボタンで外部ダウンローダーを開きます。</string>
-    <string name="revanced_external_downloader_action_summary_off">「オフライン」ボタンで外部ダウンローダーを開きます。</string>
     <string name="revanced_overlay_button_speed_dialog_reset">再生速度を %s 倍速にリセットしました。</string>
     <string name="revanced_overlay_button_not_allowed_warning">ボタンの状態を変更するには、長押ししてください。</string>
     <string name="revanced_share_copy_timestamp_success">タイムスタンプをクリップボードにコピーしました。 (%s)</string>
@@ -923,11 +927,6 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_expand_video_description_strings_default_value">概要</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">ショート</string>
-    <string name="revanced_change_shorts_repeat_state_title">リピート状態を変更</string>
-    <string name="revanced_change_shorts_repeat_state_entry_auto_play">次の動画を自動再生</string>
-    <string name="revanced_change_shorts_repeat_state_entry_default">デフォルト</string>
-    <string name="revanced_change_shorts_repeat_state_entry_pause">一時停止</string>
-    <string name="revanced_change_shorts_repeat_state_entry_repeat">リピート再生</string>
     <string name="revanced_disable_resuming_shorts_player_title">プレーヤーの再開を無効化</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">アプリを閉じる前に視聴していたショート動画をアプリ起動時に再開しないようにします。</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">アプリを閉じる前に視聴していたショート動画をアプリ起動時に再開しないようにします。</string>
@@ -949,6 +948,12 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_shorts_shelf_history_title">再生履歴から非表示</string>
     <string name="revanced_hide_shorts_shelf_history_summary_on">再生履歴から非表示にします。</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">再生履歴から非表示にします。</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_change_shorts_repeat_state_title">リピート状態を変更</string>
+    <string name="revanced_change_shorts_repeat_state_entry_auto_play">次の動画を自動再生</string>
+    <string name="revanced_change_shorts_repeat_state_entry_default">デフォルト</string>
+    <string name="revanced_change_shorts_repeat_state_entry_pause">一時停止</string>
+    <string name="revanced_change_shorts_repeat_state_entry_repeat">リピート再生</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">プレーヤー</string>
     <string name="revanced_preference_screen_shorts_player_summary">ショートのプレーヤー内のコンポーネントを非表示または表示します。</string>
@@ -1472,12 +1477,16 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
     <string name="revanced_preference_category_spoof_client_about">偽装するクライアントについて</string>
     <string name="revanced_spoof_client_use_ios_title">iOS</string>
+    <string name="revanced_spoof_client_use_ios_legacy_summary">"iOS クライアントに偽装します。
+
+以下の副作用があります:
+• HDR 画質は AV1 コーデック対応端末以外では使用できません。
+• 再生履歴はブランドアカウントでは保存されません。"</string>
     <string name="revanced_spoof_client_use_ios_summary">"iOS クライアントに偽装します。
 
 以下の副作用があります:
 • HDR 画質は AV1 コーデック対応端末以外では使用できません。
-• 再生履歴がブランドアカウントでは保存されません。
-• ライブ配信を音声のみで再生できません。"</string>
+• 再生履歴がブランドアカウントでは保存されません。"</string>
     <string name="revanced_spoof_client_use_android_testsuite_title">Android Testsuite</string>
     <string name="revanced_spoof_client_use_android_testsuite_summary">"Android Testsuite に偽装します。
 
@@ -1516,15 +1525,15 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_watch_history_type_entry_1">オリジナル</string>
     <string name="revanced_watch_history_type_entry_2">ドメインを置き換え</string>
     <string name="revanced_watch_history_type_entry_3">再生履歴をブロック</string>
-    <string name="revanced_watch_history_about_title">再生履歴について</string>
-    <string name="revanced_watch_history_about_status_blocked">• 再生履歴が動作しません。</string>
+    <string name="revanced_watch_history_about_title">再生履歴のステータス</string>
+    <string name="revanced_watch_history_about_status_blocked">• 再生履歴をブロックします。</string>
     <string name="revanced_watch_history_about_status_ios_replaced">"• Google アカウントの再生履歴の設定に従います。
 • ブランドアカウントでは再生履歴が表示されない可能性があります。
-(クライアント偽装の設定がオンになっていて iOS クライアントが選択されている場合)"</string>
+(クライアント偽装の設定が有効になっており iOS クライアントが選択されている場合)"</string>
     <string name="revanced_watch_history_about_status_ios_original">"• Google アカウントの再生履歴の設定に従います。
 • DNS や VPN が原因で再生履歴が表示されない可能性があります。
 • ブランドアカウントでは再生履歴が表示されない可能性があります。
-(クライアント偽装の設定がオンになっていて iOS クライアントが選択されている場合)"</string>
+(クライアント偽装の設定が有効になっており iOS クライアントが選択されている場合)"</string>
     <string name="revanced_watch_history_about_status_android_replaced">• Google アカウントの再生履歴の設定に従います。</string>
     <string name="revanced_watch_history_about_status_android_original">"• Google アカウントの再生履歴の設定に従います。
 • DNS や VPN が原因で再生履歴が動作しない可能性があります。"</string>

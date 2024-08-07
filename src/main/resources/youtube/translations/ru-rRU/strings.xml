@@ -3,15 +3,21 @@
     <!-- Translations for YouTube -->
     <string name="accessibility_settings_edu_opt_in_text">Включить специальные возможности в плеере?</string>
     <string name="accessibility_settings_edu_opt_out_text">Служба специальных возможностей включена. Управление изменено.</string>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Поиск настроек</string>
-    <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">Экспериментальные опции</string>
     <string name="revanced_extended_confirm_user_dialog_title">Подтверждаете действие?</string>
     <string name="revanced_extended_restart_first_run">Перезапустить для правильной загрузки интерфейса?</string>
     <string name="revanced_extended_restart_message">Перезапустить для применения?</string>
     <string name="revanced_playback_speed_normal">Обычная</string>
+    <string name="revanced_external_downloader_package_name_video_title">Внешний загрузчик для видео, название пакета</string>
+    <string name="revanced_external_downloader_package_name_video_summary">Например: NewPipe или YTDLnis, или др.</string>
+    <string name="revanced_external_downloader_dialog_title">Внешний загрузчик</string>
+    <string name="revanced_external_downloader_not_installed_dialog_title">Предупреждение</string>
+    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s не установлен.
+Пожалуйста, скачайте %2$s с сайта."</string>
+    <string name="revanced_external_downloader_not_installed_warning">%s не установлен. Установите его.</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Реклама</string>
     <string name="revanced_hide_fullscreen_ads_title">Полноэкранная реклама</string>
@@ -318,6 +324,14 @@ Shorts
     <string name="revanced_enable_phone_layout_summary">Подмена DPI для телефонного интерфейса.</string>
     <string name="revanced_enable_tablet_layout_title">Планшетный интерфейс</string>
     <string name="revanced_enable_tablet_layout_summary">Подмена DPI для планшетного интерфейса.</string>
+    <string name="revanced_override_video_download_button_title">Действие кнопки \"Скачать\" для видео</string>
+    <string name="revanced_override_video_download_button_summary_on">Кнопка \"Скачать\" использует внешний загрузчик.</string>
+    <string name="revanced_override_video_download_button_summary_off">Кнопка \"Скачать\" использует внутренний загрузчик.</string>
+    <string name="revanced_override_playlist_download_button_title">Действие кнопки \"Скачать\" для плейлиста</string>
+    <string name="revanced_override_playlist_download_button_summary_on">Кнопка \"Скачать\" для плейлиста, использует внешний загрузчик.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">Кнопка \"Скачать\" для плейлиста, использует внутренний загрузчик.</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">Внешний загрузчик для плейлиста, название пакета</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">Например: NewPipe или YTDLnis, или др. (Для плейлиста).</string>
     <string name="revanced_spoof_app_version_title">Подмена версии приложения</string>
     <string name="revanced_spoof_app_version_summary_on">Версия приложения подменена</string>
     <string name="revanced_spoof_app_version_summary_off">Версия приложения не подменена</string>
@@ -843,16 +857,6 @@ Shorts
     <string name="revanced_whitelist_playback_speed">Скорость воспроизведения</string>
     <string name="revanced_whitelist_sponsor_block">SponsorBlock</string>
     <string name="revanced_whitelist_failure_generic">Ошибка загрузки данных канала.</string>
-    <string name="revanced_external_downloader_package_name_title">Имя пакета внешнего загрузчика</string>
-    <string name="revanced_external_downloader_package_name_summary">Имя пакета вашего внешнего загрузчика, например NewPipe или YTDLnis.</string>
-    <string name="revanced_external_downloader_dialog_title">Внешний загрузчик</string>
-    <string name="revanced_external_downloader_not_installed_dialog_title">Предупреждение</string>
-    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s не установлен.
-Пожалуйста, скачайте %2$s с сайта."</string>
-    <string name="revanced_external_downloader_not_installed_warning">%s не установлен. Установите его.</string>
-    <string name="revanced_external_downloader_action_title">Изменить действие кнопки загрузки</string>
-    <string name="revanced_external_downloader_action_summary_on">Стандартная кнопка скачивания использует ваш внешний загрузчик.</string>
-    <string name="revanced_external_downloader_action_summary_off">Стандартная кнопка скачивания использует внутренний загрузчик.</string>
     <string name="revanced_overlay_button_speed_dialog_reset">Скорость сброшена на: %sx.</string>
     <string name="revanced_overlay_button_not_allowed_warning">Нажать и удерживать - изменить состояние кнопки.</string>
     <string name="revanced_share_copy_timestamp_success">Метка времени скопирована в буфер. (%s)</string>
@@ -945,11 +949,6 @@ Shorts
     <string name="revanced_expand_video_description_strings_default_value">Описание</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
-    <string name="revanced_change_shorts_repeat_state_title">Состояние повторов в Shorts</string>
-    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Автопереход</string>
-    <string name="revanced_change_shorts_repeat_state_entry_default">По умолчанию</string>
-    <string name="revanced_change_shorts_repeat_state_entry_pause">Остановить</string>
-    <string name="revanced_change_shorts_repeat_state_entry_repeat">Повторять</string>
     <string name="revanced_disable_resuming_shorts_player_title">Возобновление Shorts при запуске приложения</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">Возобновление Shorts отключено.</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">Возобновление Shorts включено.</string>
@@ -972,6 +971,12 @@ Shorts
     <string name="revanced_hide_shorts_shelf_history_title">Shorts в истории просмотра</string>
     <string name="revanced_hide_shorts_shelf_history_summary_on">В истории просмотра скрыты.</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">В истории просмотра отображены.</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_change_shorts_repeat_state_title">Состояние повторов в Shorts</string>
+    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Автопереход</string>
+    <string name="revanced_change_shorts_repeat_state_entry_default">По умолчанию</string>
+    <string name="revanced_change_shorts_repeat_state_entry_pause">Остановить</string>
+    <string name="revanced_change_shorts_repeat_state_entry_repeat">Повторять</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">Плеер Shorts</string>
     <string name="revanced_preference_screen_shorts_player_summary">Компоненты в плеере Shorts.</string>
@@ -1502,6 +1507,11 @@ Shorts
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
     <string name="revanced_preference_category_spoof_client_about">О подмене клиента</string>
     <string name="revanced_spoof_client_use_ios_title">Используется iOS</string>
+    <string name="revanced_spoof_client_use_ios_legacy_summary">"Подмена клиента на iOS.
+
+Ограничения:
+• HDR видео поддерживается только с кодеком AV1.
+• Время просмотра не сохраняется в истории, на каналах бренда."</string>
     <string name="revanced_spoof_client_use_ios_summary">"При подмене клиента под iOS.
 
 Ограничения:

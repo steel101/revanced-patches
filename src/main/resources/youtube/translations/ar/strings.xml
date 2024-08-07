@@ -3,15 +3,21 @@
     <!-- Translations for YouTube -->
     <string name="accessibility_settings_edu_opt_in_text">تمكين عناصر التحكم في إمكانية الوصول لمشغل الفيديو؟</string>
     <string name="accessibility_settings_edu_opt_out_text">تم تعديل عناصر التحكم الخاصة بك لأن خدمة إمكانية الوصول قيد التشغيل.</string>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">بحث %s</string>
-    <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">تعديلات تجريبية</string>
     <string name="revanced_extended_confirm_user_dialog_title">هل ترغب في المتابعة؟</string>
     <string name="revanced_extended_restart_first_run">إعادة التشغيل لتحميل التخطيط بشكل طبيعي</string>
     <string name="revanced_extended_restart_message">تحديث و إعادة تشغيل</string>
     <string name="revanced_playback_speed_normal">عادي</string>
+    <string name="revanced_external_downloader_package_name_video_title">اسم حزمة تنزيل الفيديو</string>
+    <string name="revanced_external_downloader_package_name_video_summary">اسم الحزمة لتطبيق التنزيل الخارجي المثبت لديك، مثل NewPipe أو YTDLnis.</string>
+    <string name="revanced_external_downloader_dialog_title">التنزيل الخارجي</string>
+    <string name="revanced_external_downloader_not_installed_dialog_title">تحذير</string>
+    <string name="revanced_external_downloader_not_installed_dialog_message">"لم يتم تثبيت %1$s.
+الرجاء تنزيل %2$s من الموقع."</string>
+    <string name="revanced_external_downloader_not_installed_warning">%s لم يتم تثبيته. الرجاء تثبيته.</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">الإعلانات</string>
     <string name="revanced_hide_fullscreen_ads_title">إخفاء إعلانات ملء الشاشة</string>
@@ -304,6 +310,14 @@
     <string name="revanced_enable_phone_layout_summary">محاكاة Dpi لاستخدام بعض تخطيطات الجوال.</string>
     <string name="revanced_enable_tablet_layout_title">تمكين تخطيط الجهاز اللوحي</string>
     <string name="revanced_enable_tablet_layout_summary">محاكاة Dpi لاستخدام بعض تخطيطات الجهاز اللوحي.</string>
+    <string name="revanced_override_video_download_button_title">تجاوز زر تنزيل الفيديو</string>
+    <string name="revanced_override_video_download_button_summary_on">يفتح زر تنزيل الفيديو الأصلي أداة التنزيل الخارجية.</string>
+    <string name="revanced_override_video_download_button_summary_off">يفتح زر تنزيل الفيديو أداة التنزيل الأصلية داخل التطبيق.</string>
+    <string name="revanced_override_playlist_download_button_title">تجاوز زر تنزيل قائمة التشغيل</string>
+    <string name="revanced_override_playlist_download_button_summary_on">يفتح زر تنزيل قائمة التشغيل الأصلية أداة التنزيل الخارجية.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">يفتح زر تنزيل قائمة التشغيل الأصلية أداة التنزيل الأصلية داخل التطبيق.</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">اسم حزمة تنزيل قائمة التشغيل</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">اسم الحزمة لتطبيق التنزيل الخارجي المثبت لديك، مثل YTDLnis.</string>
     <string name="revanced_spoof_app_version_title">إصدار تطبيق وهمي</string>
     <string name="revanced_spoof_app_version_summary_on">تم تغيير اصدار التطبيق</string>
     <string name="revanced_spoof_app_version_summary_off">لم يتم تغيير اصدار التطبيق</string>
@@ -828,16 +842,6 @@
     <string name="revanced_whitelist_playback_speed">سرعة التشغيل</string>
     <string name="revanced_whitelist_sponsor_block">SponsorBlock</string>
     <string name="revanced_whitelist_failure_generic">فشل تحميل معلومات القناة.</string>
-    <string name="revanced_external_downloader_package_name_title">اسم حزمة التنزيل الخارجي</string>
-    <string name="revanced_external_downloader_package_name_summary">اسم الحزمة لتطبيق التنزيل الخارجي المثبت لديك، مثل NewPipe أو YTDLnis.</string>
-    <string name="revanced_external_downloader_dialog_title">التنزيل الخارجي</string>
-    <string name="revanced_external_downloader_not_installed_dialog_title">تحذير</string>
-    <string name="revanced_external_downloader_not_installed_dialog_message">"لم يتم تثبيت %1$s.
-الرجاء تنزيل %2$s من الموقع."</string>
-    <string name="revanced_external_downloader_not_installed_warning">%s لم يتم تثبيته. الرجاء تثبيته.</string>
-    <string name="revanced_external_downloader_action_title">تجاوز زر إجراء التنزيل</string>
-    <string name="revanced_external_downloader_action_summary_on">يفتح زر التنزيل الأصلي أداة التنزيل الخارجية.</string>
-    <string name="revanced_external_downloader_action_summary_off">يفتح زر التنزيل أداة التنزيل الأصلية داخل التطبيق.</string>
     <string name="revanced_overlay_button_speed_dialog_reset">إعادة تعيين سرعة التشغيل: %sx.</string>
     <string name="revanced_overlay_button_not_allowed_warning">انقر مع الاستمرار لتغيير حالة الزر.</string>
     <string name="revanced_share_copy_timestamp_success">تم نسخ الطابع الزمني إلى الحافظة. (%s)</string>
@@ -928,11 +932,6 @@
     <string name="revanced_expand_video_description_strings_default_value">الوصف</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
-    <string name="revanced_change_shorts_repeat_state_title">تغيير حالة تكرار Shorts</string>
-    <string name="revanced_change_shorts_repeat_state_entry_auto_play">التشغيل التلقائي</string>
-    <string name="revanced_change_shorts_repeat_state_entry_default">الافتراضي</string>
-    <string name="revanced_change_shorts_repeat_state_entry_pause">إيقاف</string>
-    <string name="revanced_change_shorts_repeat_state_entry_repeat">تكرار</string>
     <string name="revanced_disable_resuming_shorts_player_title">تعطيل استئناف مشغل Shorts</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">لن يتم استئناف تشغيل مشغل Shorts عند بدء تشغيل التطبيق.</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">سيتم استئناف تشغيل مشغل Shorts عند بدء تشغيل التطبيق.</string>
@@ -954,6 +953,12 @@
     <string name="revanced_hide_shorts_shelf_history_title">إخفاء في سجل المشاهدة</string>
     <string name="revanced_hide_shorts_shelf_history_summary_on">مخفي في سجل المشاهدة.</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">يُعرض في سجل المشاهدة.</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_change_shorts_repeat_state_title">تغيير حالة تكرار Shorts</string>
+    <string name="revanced_change_shorts_repeat_state_entry_auto_play">التشغيل التلقائي</string>
+    <string name="revanced_change_shorts_repeat_state_entry_default">الافتراضي</string>
+    <string name="revanced_change_shorts_repeat_state_entry_pause">إيقاف</string>
+    <string name="revanced_change_shorts_repeat_state_entry_repeat">تكرار</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">مُشَغِل Shorts</string>
     <string name="revanced_preference_screen_shorts_player_summary">إخفاء أو عرض المكونات في مشغل Shorts.</string>
@@ -1484,12 +1489,16 @@
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
     <string name="revanced_preference_category_spoof_client_about">لمحة</string>
     <string name="revanced_spoof_client_use_ios_title">iOS</string>
+    <string name="revanced_spoof_client_use_ios_legacy_summary">"تتم محاكاة العميل إلـى iOS.
+
+تشمل الآثار الجانبية ما يلي:
+• فيديو HDR مدعوم فقط على الترميز AV1.
+• لا يتم حفظ وقت المشاهدة في سجل المشاهدة على حساب العلامة التجارية."</string>
     <string name="revanced_spoof_client_use_ios_summary">"تتم محاكاة العميل إلـى iOS.
 
 تشمل الآثار الجانبية ما يلي:
 • فيديو HDR مدعوم فقط على الترميز AV1.
-• سجل المشاهدة لا يعمل مع حساب العلامة التجارية.
-• لا يمكن تشغيل البث المباشر كصوت فقط."</string>
+• سجل المشاهدة لا يعمل مع حساب العلامة التجارية."</string>
     <string name="revanced_spoof_client_use_android_testsuite_title">Android Testsuite</string>
     <string name="revanced_spoof_client_use_android_testsuite_summary">"تتم محاكاة العميل إلـى Android Testsuite.
 
@@ -1528,15 +1537,15 @@
     <string name="revanced_watch_history_type_entry_1">الأصلي</string>
     <string name="revanced_watch_history_type_entry_2">استبدال النطاق</string>
     <string name="revanced_watch_history_type_entry_3">حظر سجل المشاهدة</string>
-    <string name="revanced_watch_history_about_title">حول سجل المشاهدة</string>
-    <string name="revanced_watch_history_about_status_blocked">• سجل المشاهدة لا يعمل.</string>
+    <string name="revanced_watch_history_about_title">حالة سجل المشاهدة</string>
+    <string name="revanced_watch_history_about_status_blocked">• سجل المشاهدة محظور.</string>
     <string name="revanced_watch_history_about_status_ios_replaced">"• يتبع إعدادات سجل المشاهدة لحساب Google.
 • قد لا يعمل سجل المشاهدة مع حساب العلامة التجارية.
-(يتم تشغيل إعداد Spoof Client وتحديد عميل iOS)"</string>
+(يتم تمكين إعداد Spoof Client وتحديد عميل iOS)"</string>
     <string name="revanced_watch_history_about_status_ios_original">"• يتبع إعدادات سجل المشاهدة لحساب Google.
 • قد لا يعمل سجل المشاهدة بسبب DNS أو VPN.
 • قد لا يعمل سجل المشاهدة مع حساب العلامة التجارية.
-(يتم تشغيل إعداد Spoof Client وتحديد عميل iOS)"</string>
+(يتم تمكين إعداد Spoof Client وتحديد عميل iOS)"</string>
     <string name="revanced_watch_history_about_status_android_replaced">• يتبع إعدادات سجل المشاهدة لحساب Google.</string>
     <string name="revanced_watch_history_about_status_android_original">"• يتبع إعدادات سجل المشاهدة لحساب Google.
 • قد لا يعمل سجل المشاهدة بسبب DNS أو VPN."</string>

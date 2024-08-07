@@ -3,15 +3,21 @@
     <!-- Translations for YouTube -->
     <string name="accessibility_settings_edu_opt_in_text">¿Activar controles de accesibilidad para el reproductor de vídeo?</string>
     <string name="accessibility_settings_edu_opt_out_text">Tus controles se modifican porque un servicio de accesibilidad está activado.</string>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Buscar en ajustes</string>
-    <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">Funciones experimentales</string>
     <string name="revanced_extended_confirm_user_dialog_title">¿Quieres continuar?</string>
     <string name="revanced_extended_restart_first_run">Reiniciar para cargar el diseño normalmente</string>
     <string name="revanced_extended_restart_message">Actualizar y reiniciar</string>
     <string name="revanced_playback_speed_normal">Normal</string>
+    <string name="revanced_external_downloader_package_name_video_title">Nombre del paquete del descargador de vídeo</string>
+    <string name="revanced_external_downloader_package_name_video_summary">Nombre del paquete de tu aplicación de descargas externas instalada, como NewPipe o YTDLnis.</string>
+    <string name="revanced_external_downloader_dialog_title">Descargador externo</string>
+    <string name="revanced_external_downloader_not_installed_dialog_title">Advertencia</string>
+    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s no está instalado.
+Descarga %2$s desde el sitio web."</string>
+    <string name="revanced_external_downloader_not_installed_warning">%s no está instalado. Por favor, instálalo.</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Anuncios</string>
     <string name="revanced_hide_fullscreen_ads_title">Ocultar anuncios en pantalla completa</string>
@@ -306,6 +312,14 @@ Esto no evita la restricción de edad. Solo la acepta automáticamente."</string
     <string name="revanced_enable_phone_layout_summary">Modifica los DPI para utilizar algunos diseños de teléfono.</string>
     <string name="revanced_enable_tablet_layout_title">Activar diseño de tableta</string>
     <string name="revanced_enable_tablet_layout_summary">Modifica los DPI para utilizar algunos diseños de tableta.</string>
+    <string name="revanced_override_video_download_button_title">Reemplazar botón de descarga de vídeo</string>
+    <string name="revanced_override_video_download_button_summary_on">El botón nativo de descarga de vídeo abre tu descargador externo.</string>
+    <string name="revanced_override_video_download_button_summary_off">El botón nativo de descarga de vídeo abre el descargador nativo de la aplicación.</string>
+    <string name="revanced_override_playlist_download_button_title">Reemplazar botón de descarga de listas de reproducción</string>
+    <string name="revanced_override_playlist_download_button_summary_on">El botón nativo de descarga de listas de reproducción abre tu descargador externo.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">El botón nativo de descarga de listas de reproducción abre el descargador nativo de la aplicación.</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">Nombre del paquete del descargador de listas de reproducción</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">Nombre del paquete de tu aplicación de descargas externas instalada, como YTDLnis.</string>
     <string name="revanced_spoof_app_version_title">Falsificar versión de la app</string>
     <string name="revanced_spoof_app_version_summary_on">Versión falsificada</string>
     <string name="revanced_spoof_app_version_summary_off">Versión no falsificada</string>
@@ -830,16 +844,6 @@ Toca y mantén para deshacer."</string>
     <string name="revanced_whitelist_playback_speed">Velocidad de reproducción</string>
     <string name="revanced_whitelist_sponsor_block">SponsorBlock</string>
     <string name="revanced_whitelist_failure_generic">Error al cargar la información del canal.</string>
-    <string name="revanced_external_downloader_package_name_title">Nombre del paquete del descargador externo</string>
-    <string name="revanced_external_downloader_package_name_summary">Nombre del paquete de tu aplicación de descargas externas instalada, como NewPipe o YTDLnis.</string>
-    <string name="revanced_external_downloader_dialog_title">Descargador externo</string>
-    <string name="revanced_external_downloader_not_installed_dialog_title">Advertencia</string>
-    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s no está instalado.
-Descarga %2$s desde el sitio web."</string>
-    <string name="revanced_external_downloader_not_installed_warning">%s no está instalado. Por favor, instálalo.</string>
-    <string name="revanced_external_downloader_action_title">Reemplazar botón de acción de descarga</string>
-    <string name="revanced_external_downloader_action_summary_on">El botón de descarga abre tu descargador externo</string>
-    <string name="revanced_external_downloader_action_summary_off">El botón de descarga abre el descargador nativo de la app</string>
     <string name="revanced_overlay_button_speed_dialog_reset">Velocidad de reproducción restablecida (1.0x).</string>
     <string name="revanced_overlay_button_not_allowed_warning">Mantén pulsado para cambiar el estado del botón.</string>
     <string name="revanced_share_copy_timestamp_success">Marca de tiempo copiada en el portapapeles. (%s)</string>
@@ -931,11 +935,6 @@ Estos caracteres varían dependiendo de tu idioma.
     <string name="revanced_expand_video_description_strings_default_value">Descripción</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
-    <string name="revanced_change_shorts_repeat_state_title">Cambiar estado de repetición de Shorts</string>
-    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Reproducción automática</string>
-    <string name="revanced_change_shorts_repeat_state_entry_default">Predeterminada</string>
-    <string name="revanced_change_shorts_repeat_state_entry_pause">Pausar</string>
-    <string name="revanced_change_shorts_repeat_state_entry_repeat">Repetir</string>
     <string name="revanced_disable_resuming_shorts_player_title">Desactivar reanudación del reproductor de Shorts</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">El reproductor de Shorts no se reanudará al iniciar la app</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">El reproductor de Shorts se reanudará al iniciar la app</string>
@@ -957,6 +956,12 @@ Limitación: las cabeceras oficiales en los resultados de búsqueda estarán ocu
     <string name="revanced_hide_shorts_shelf_history_title">Ocultar en historial de reproducciones</string>
     <string name="revanced_hide_shorts_shelf_history_summary_on">Oculto en el historial de reproducciones.</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">Visible en el historial de reproducciones.</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_change_shorts_repeat_state_title">Cambiar estado de repetición de Shorts</string>
+    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Reproducción automática</string>
+    <string name="revanced_change_shorts_repeat_state_entry_default">Predeterminada</string>
+    <string name="revanced_change_shorts_repeat_state_entry_pause">Pausar</string>
+    <string name="revanced_change_shorts_repeat_state_entry_repeat">Repetir</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">Reproductor de Shorts</string>
     <string name="revanced_preference_screen_shorts_player_summary">Ocultar o mostrar los componentes en el reproductor de Shorts.</string>
@@ -1479,6 +1484,11 @@ Limitación: los vídeos en el feed se reproducen durante menos de 1 minuto ante
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
     <string name="revanced_preference_category_spoof_client_about">Información</string>
     <string name="revanced_spoof_client_use_ios_title">iOS</string>
+    <string name="revanced_spoof_client_use_ios_legacy_summary">"Falsifica el cliente a iOS.
+
+Los efectos secundarios incluyen:
+• El vídeo HDR solo es compatible con el códec AV1.
+• El tiempo de visualización no se guarda en el historial de visualizaciones de la cuenta de marca."</string>
     <string name="revanced_spoof_client_use_ios_summary">"Falsifica el cliente a iOS.
 
 Los efectos secundarios incluyen:

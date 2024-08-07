@@ -72,12 +72,12 @@ Nếu tính năng này tắt, quảng cáo toàn màn hình sẽ bị chặn (c�
 Hạn chế:
 • Ảnh bìa Album trong thẻ Thư viện (Danh sách phát, Podcast, Bài hát, Đĩa nhạc, Nghệ sĩ,...) cũng thu gọn theo.
 • Bố cục Hẹn giờ ngủ có thể xuất hiện bất thường."</string>
-    <string name="revanced_enable_trim_silence_title">Thêm công tắc Cắt bỏ khoảng im lặng</string>
-    <string name="revanced_enable_trim_silence_summary">"Thêm nút Trim silence vào trình đơn tuỳ chọn tốc độ phát lại.
+    <string name="revanced_enable_trim_silence_title">Bật/Tắt Cắt bỏ khoảng im lặng</string>
+    <string name="revanced_enable_trim_silence_summary">"Thêm nút Cắt bỏ khoảng im lặng vào tuỳ chọn tốc độ phát.
 
  Cụ thể:
- • Tính năng này dành cho podcast.
- • Tính năng này vẫn đang được phát triển nên có thể chưa ổn định."</string>
+ • Tính năng dành cho podcast.
+ • Tính năng vẫn đang được phát triển nên có thể chưa ổn định."</string>
     <string name="revanced_hide_flyout_menu_like_dislike_title">Ẩn các nút Thích và Không thích</string>
     <string name="revanced_hide_flyout_menu_3_column_component_title">Ẩn thành phần có 3 dòng</string>
     <string name="revanced_hide_flyout_menu_add_to_queue_title">Ẩn mục Thêm vào danh sách chờ</string>
@@ -113,7 +113,7 @@ Hạn chế:
     <string name="revanced_replace_flyout_menu_dismiss_queue_title">Thay thế mục Loại bỏ danh sách chờ</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_summary">Thay thế mục Loại bỏ danh sách chờ bằng mục Xem trên YouTube.</string>
     <string name="revanced_replace_flyout_menu_report_title">Thay thế mục Phản hồi</string>
-    <string name="revanced_replace_flyout_menu_report_summary">Thay thế mục Phản hồi bằng mục Tốc độ phát lại.</string>
+    <string name="revanced_replace_flyout_menu_report_summary">Thay thế mục Phản hồi bằng mục Tốc độ phát.</string>
     <string name="revanced_replace_flyout_menu_report_only_player_title">Giữ nút Phản hồi trong phần bình luận</string>
     <string name="revanced_replace_flyout_menu_report_only_player_summary">Giữ nguyên mục Phản hồi trong phần bình luận.</string>
     <!-- PreferenceScreen: General -->
@@ -333,6 +333,8 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_preference_screen_misc_title">Khác</string>
     <string name="revanced_bypass_image_region_restrictions_title">Bỏ qua hạn chế khu vực cho hình ảnh</string>
     <string name="revanced_bypass_image_region_restrictions_summary">Thay thế miền bị chặn ở một số khu vực để có thể thu được được ảnh bìa video của danh sách phát, ảnh đại diện kênh, v. v.</string>
+    <string name="revanced_change_share_sheet_title">Đổi bảng chia sẻ</string>
+    <string name="revanced_change_share_sheet_summary">Chuyển bảng chia sẻ của ứng dụng sang của hệ thống.</string>
     <string name="revanced_enable_cairo_splash_animation_title">Sử dụng hoạt ảnh kiểu Cairo</string>
     <string name="revanced_enable_cairo_splash_animation_summary">Sử dụng hoạt ảnh kiểu Cairo khi khởi động ứng dụng.</string>
     <string name="revanced_enable_debug_logging_title">Nhật ký gỡ lỗi</string>

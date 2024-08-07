@@ -3,15 +3,21 @@
     <!-- Translations for YouTube -->
     <string name="accessibility_settings_edu_opt_in_text">Włączyć gesty ułatwień dostępu dla odtwarzacza filmów?</string>
     <string name="accessibility_settings_edu_opt_out_text">Twoje ustawienia są zmienione, ponieważ serwis ułatwień dostępu jest włączony.</string>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Wyszukaj w %s</string>
-    <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">Ustawienia Eksperymentalne</string>
     <string name="revanced_extended_confirm_user_dialog_title">Czy chcesz kontynuować?</string>
     <string name="revanced_extended_restart_first_run">Uruchom ponownie, aby wczytać poprawnie układ aplikacji</string>
     <string name="revanced_extended_restart_message">Odśwież i uruchom ponownie</string>
     <string name="revanced_playback_speed_normal">Normalna</string>
+    <string name="revanced_external_downloader_package_name_video_title">Nazwa pakietu aplikacji od pobierania</string>
+    <string name="revanced_external_downloader_package_name_video_summary">Nazwa pakietu zainstalowanej zewnętrznej aplikacji od pobierania, takiej jak NewPipe lub YTDLnis.</string>
+    <string name="revanced_external_downloader_dialog_title">Zewnętrzna aplikacja od pobierania</string>
+    <string name="revanced_external_downloader_not_installed_dialog_title">Ostrzeżenie</string>
+    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s nie jest zainstalowany.
+Pobierz %2$s ze strony internetowej."</string>
+    <string name="revanced_external_downloader_not_installed_warning">%s nie jest zainstalowany. Proszę go zainstalować.</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Reklamy</string>
     <string name="revanced_hide_fullscreen_ads_title">Pełnoekranowe reklamy</string>
@@ -303,6 +309,14 @@ Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie."</string>
     <string name="revanced_enable_phone_layout_summary">Oszukuje dpi, aby używać układu telefonu</string>
     <string name="revanced_enable_tablet_layout_title">Układ tabletu</string>
     <string name="revanced_enable_tablet_layout_summary">Oszukuje dpi, aby używać układu tabletu</string>
+    <string name="revanced_override_video_download_button_title">Metoda pobierania filmów</string>
+    <string name="revanced_override_video_download_button_summary_on">Zewnętrzna aplikacja</string>
+    <string name="revanced_override_video_download_button_summary_off">Natywne pobieranie</string>
+    <string name="revanced_override_playlist_download_button_title">Metoda pobierania playlist</string>
+    <string name="revanced_override_playlist_download_button_summary_on">Zewnętrzna aplikacja</string>
+    <string name="revanced_override_playlist_download_button_summary_off">Natywne pobieranie</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">Nazwa pakietu aplikacji od pobierania</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">Nazwa pakietu zainstalowanej zewnętrznej aplikacji od pobierania, takiej jak YTDLnis.</string>
     <string name="revanced_spoof_app_version_title">Oszukiwanie wersji aplikacji</string>
     <string name="revanced_spoof_app_version_summary_on">Włączone</string>
     <string name="revanced_spoof_app_version_summary_off">Wyłączone</string>
@@ -827,16 +841,6 @@ Stuknij i przytrzymaj, by cofnąć generowanie playlisty."</string>
     <string name="revanced_whitelist_playback_speed">Prędkość odtwarzania</string>
     <string name="revanced_whitelist_sponsor_block">SponsorBlock</string>
     <string name="revanced_whitelist_failure_generic">Nie udało się załadować informacji o kanale.</string>
-    <string name="revanced_external_downloader_package_name_title">Nazwa pakietu aplikacji od pobierania</string>
-    <string name="revanced_external_downloader_package_name_summary">Nazwa pakietu zainstalowanej aplikacji od pobierania, takiej jak NewPipe lub YTDLnis</string>
-    <string name="revanced_external_downloader_dialog_title">Aplikacja od pobierania</string>
-    <string name="revanced_external_downloader_not_installed_dialog_title">Ostrzeżenie</string>
-    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s nie jest zainstalowany.
-Pobierz %2$s ze strony internetowej."</string>
-    <string name="revanced_external_downloader_not_installed_warning">%s nie jest zainstalowany. Proszę go zainstalować.</string>
-    <string name="revanced_external_downloader_action_title">Zastąp przycisk od pobierania</string>
-    <string name="revanced_external_downloader_action_summary_on">Natywny przycisk od pobierania otwiera zewnetrzną aplikację od pobierania</string>
-    <string name="revanced_external_downloader_action_summary_off">Natywny przycisk od pobierania otwiera natywne pobieranie w aplikacji</string>
     <string name="revanced_overlay_button_speed_dialog_reset">Prędkość odtwarzania została zresetowana: %sx.</string>
     <string name="revanced_overlay_button_not_allowed_warning">Stuknij i przytrzymaj, by zmienić działanie przycisku</string>
     <string name="revanced_share_copy_timestamp_success">Skopiowano czas do schowka. (%s)</string>
@@ -927,11 +931,6 @@ Opcja rozwijania opisu filmu może nie działać, jeśli wprowadzony ciąg znak�
     <string name="revanced_expand_video_description_strings_default_value">Opis</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shortsy</string>
-    <string name="revanced_change_shorts_repeat_state_title">Zmień stan powtarzania Shortsów</string>
-    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Automatyczne odtwarzanie</string>
-    <string name="revanced_change_shorts_repeat_state_entry_default">Domyślny</string>
-    <string name="revanced_change_shorts_repeat_state_entry_pause">Wstrzymywanie</string>
-    <string name="revanced_change_shorts_repeat_state_entry_repeat">Powtarzanie</string>
     <string name="revanced_disable_resuming_shorts_player_title">Start od Shortsów</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">Shortsy nie będą włączane podczas startu aplikacji</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">Shortsy będą włączane podczas startu aplikacji</string>
@@ -953,6 +952,12 @@ Ograniczenie: Nagłówki z tytułami będą ukryte w wynikach wyszukiwania."</st
     <string name="revanced_hide_shorts_shelf_history_title">W historii oglądania</string>
     <string name="revanced_hide_shorts_shelf_history_summary_on">Ukryte</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">Widoczne</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_change_shorts_repeat_state_title">Zmień stan powtarzania Shortsów</string>
+    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Automatyczne odtwarzanie</string>
+    <string name="revanced_change_shorts_repeat_state_entry_default">Domyślny</string>
+    <string name="revanced_change_shorts_repeat_state_entry_pause">Wstrzymywanie</string>
+    <string name="revanced_change_shorts_repeat_state_entry_repeat">Powtarzanie</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">Odtwarzacz Shortsów</string>
     <string name="revanced_preference_screen_shorts_player_summary">Ukryj lub pokazuj przyciski w odtwarzaczu Shortsów</string>
@@ -1476,12 +1481,16 @@ Ograniczenie: filmy na stronie głównej będą odtwarzane przez mniej niż minu
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
     <string name="revanced_preference_category_spoof_client_about">O ustawieniu</string>
     <string name="revanced_spoof_client_use_ios_title">iOS</string>
+    <string name="revanced_spoof_client_use_ios_legacy_summary">"Oszukuje klienta do iOS.
+
+Efekty uboczne:
+• Filmy z HDR są wspierane jedynie przy kodeku AV1
+• Czas oglądania filmu w historii oglądania nie jest zapisywany na firmowych kontach"</string>
     <string name="revanced_spoof_client_use_ios_summary">"Oszukuje klienta do iOS.
 
 Efekty uboczne:
 • Filmy z HDR są wspierane jedynie przy kodeku AV1
-• Historia odtwarzania nie działa na firmowych kontach
-• Nie można odtwarzać transmisji na żywo w trybie samego dźwięku"</string>
+• Historia odtwarzania nie działa na firmowych kontach"</string>
     <string name="revanced_spoof_client_use_android_testsuite_title">Klient Testowy dla Androida</string>
     <string name="revanced_spoof_client_use_android_testsuite_summary">"Oszukuje klienta do Klienta Testowego dla Androida.
 
@@ -1521,14 +1530,14 @@ Efekty uboczne:
     <string name="revanced_watch_history_type_entry_2">www.youtube.com</string>
     <string name="revanced_watch_history_type_entry_3">Wyłączona</string>
     <string name="revanced_watch_history_about_title">O historii oglądania</string>
-    <string name="revanced_watch_history_about_status_blocked">• Historia oglądania nie działa.</string>
+    <string name="revanced_watch_history_about_status_blocked">• Historia oglądania nie działa</string>
     <string name="revanced_watch_history_about_status_ios_replaced">"• Stosuje się do ustawień historii oglądania konta Google
-• Historia oglądania może nie działać jna firmowym koncie
-(Gdy oszukiwanie klienta iOS jest włączone)"</string>
+• Historia oglądania może nie działać na firmowym koncie
+(Gdy oszukiwanie klienta jest włączone i wybrano klienta iOS)"</string>
     <string name="revanced_watch_history_about_status_ios_original">"• Stosuje się do ustawień historii oglądania konta Google
 • Historia oglądania może nie działać przez DNS lub VPN
 • Historia oglądania może nie działać na firmowym koncie
-(Gdy oszukiwanie klienta iOS jest włączone)"</string>
+(Gdy oszukiwanie klienta jest włączone i wybrano klienta iOS)"</string>
     <string name="revanced_watch_history_about_status_android_replaced">• Stosuje się do ustawień historii oglądania konta Google</string>
     <string name="revanced_watch_history_about_status_android_original">"• Stosuje się do ustawień historii oglądania konta Google
 • Historia oglądania może nie działać przez DNS lub VPN"</string>

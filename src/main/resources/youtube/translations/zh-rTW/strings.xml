@@ -3,15 +3,19 @@
     <!-- Translations for YouTube -->
     <string name="accessibility_settings_edu_opt_in_text">要啟用影片播放器的無障礙控制嗎？</string>
     <string name="accessibility_settings_edu_opt_out_text">由於已啟用無障礙服務，因此您的控制項被修改。</string>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">搜尋設定</string>
-    <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">實驗性功能</string>
     <string name="revanced_extended_confirm_user_dialog_title">你想繼續嗎？</string>
     <string name="revanced_extended_restart_first_run">重新啟動以套用更改後的介面</string>
     <string name="revanced_extended_restart_message">重新啟動以重新整理介面</string>
     <string name="revanced_playback_speed_normal">一般</string>
+    <string name="revanced_external_downloader_dialog_title">外部下載器</string>
+    <string name="revanced_external_downloader_not_installed_dialog_title">警告</string>
+    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s 未安裝
+請從網站下載 %2$s"</string>
+    <string name="revanced_external_downloader_not_installed_warning">%s 未安裝，請先安裝</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">廣告</string>
     <string name="revanced_hide_fullscreen_ads_title">隱藏全螢幕廣告</string>
@@ -829,16 +833,6 @@
     <string name="revanced_whitelist_playback_speed">播放速度</string>
     <string name="revanced_whitelist_sponsor_block">SponsorBlock</string>
     <string name="revanced_whitelist_failure_generic">載入頻道資訊失敗。</string>
-    <string name="revanced_external_downloader_package_name_title">外部下載程式的套件名稱</string>
-    <string name="revanced_external_downloader_package_name_summary">已安裝的外部下載程式的套件名稱，例如 NewPipe 或 YTDLnis</string>
-    <string name="revanced_external_downloader_dialog_title">外部下載器</string>
-    <string name="revanced_external_downloader_not_installed_dialog_title">警告</string>
-    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s 未安裝
-請從網站下載 %2$s"</string>
-    <string name="revanced_external_downloader_not_installed_warning">%s 未安裝，請先安裝</string>
-    <string name="revanced_external_downloader_action_title">覆蓋下載操作按鈕</string>
-    <string name="revanced_external_downloader_action_summary_on">原生下載按鈕會打開你的外部下載器。</string>
-    <string name="revanced_external_downloader_action_summary_off">原生下載按鈕會打開應用內建的下載器。</string>
     <string name="revanced_overlay_button_speed_dialog_reset">播放速度重置：%sx。</string>
     <string name="revanced_overlay_button_not_allowed_warning">長按以更改按鈕狀態</string>
     <string name="revanced_share_copy_timestamp_success">時間戳記已複製到剪貼簿。（%s）</string>
@@ -928,11 +922,6 @@
     <string name="revanced_expand_video_description_strings_default_value">描述</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">短片</string>
-    <string name="revanced_change_shorts_repeat_state_title">更改短片重複狀態</string>
-    <string name="revanced_change_shorts_repeat_state_entry_auto_play">自動播放</string>
-    <string name="revanced_change_shorts_repeat_state_entry_default">預設</string>
-    <string name="revanced_change_shorts_repeat_state_entry_pause">暫停</string>
-    <string name="revanced_change_shorts_repeat_state_entry_repeat">重複播放</string>
     <string name="revanced_disable_resuming_shorts_player_title">停用恢復短片播放器</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">短片播放器在應用程式啟動時不會恢復播放。</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">短片播放器在應用程式啟動時會恢復播放。</string>
@@ -954,6 +943,12 @@
     <string name="revanced_hide_shorts_shelf_history_title">在觀看歷史中隱藏</string>
     <string name="revanced_hide_shorts_shelf_history_summary_on">在觀看歷史中隱藏</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">在觀看歷史中顯示</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_change_shorts_repeat_state_title">更改短片重複狀態</string>
+    <string name="revanced_change_shorts_repeat_state_entry_auto_play">自動播放</string>
+    <string name="revanced_change_shorts_repeat_state_entry_default">預設</string>
+    <string name="revanced_change_shorts_repeat_state_entry_pause">暫停</string>
+    <string name="revanced_change_shorts_repeat_state_entry_repeat">重複播放</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">短片播放器</string>
     <string name="revanced_preference_screen_shorts_player_summary">隱藏或顯示短片播放器中的組件</string>

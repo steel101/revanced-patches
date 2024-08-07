@@ -137,6 +137,11 @@ Info:
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">A szűrendő elemek útvonal-építő stringjeinek listája, új sorokkal elválasztva.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Érvénytelen egyedi szűrő: %s.</string>
+    <string name="revanced_hide_settings_menu_title">Beállítások menü elrejtése</string>
+    <string name="revanced_hide_settings_menu_summary">"A beállítások menü elemeinek elrejtése.
+Ez nemcsak az YT Music beállítások menüjét, hanem a ReVanced Extended beállítások menüjét is elrejti."</string>
+    <string name="revanced_hide_settings_menu_filter_strings_title">Beállítások menü szűrő</string>
+    <string name="revanced_hide_settings_menu_filter_strings_summary">A beállítások menüben szűrendő nevek listája, új sorokkal elválasztva.</string>
     <string name="revanced_hide_button_shelf_title">Gomb polc elrejtése</string>
     <string name="revanced_hide_button_shelf_summary">Elrejti a gomb polcot a főoldalon.</string>
     <string name="revanced_hide_carousel_shelf_title">Forduló polc elrejtése</string>
@@ -195,6 +200,10 @@ Ez nem kerüli meg a korhatárkorlátozást. Csak automatikusan elfogadja azt."<
     <string name="revanced_hide_navigation_label_summary">Elrejti a szöveget a navigációs gombok alatt.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Lejátszó</string>
+    <string name="revanced_disable_mini_player_gesture_title">Minilejátszó gesztus letiltása</string>
+    <string name="revanced_disable_mini_player_gesture_summary">Kikapcsolja a zeneszámok váltását a minialejátszóban.</string>
+    <string name="revanced_disable_player_gesture_title">Lejtászó gesztus letiltása</string>
+    <string name="revanced_disable_player_gesture_summary">Kikapcsolja a zeneszámok váltását a lejátszóban.</string>
     <string name="revanced_enable_black_player_background_title">Fekete hátterű lejátszó engedélyezése</string>
     <string name="revanced_enable_black_player_background_summary">Megváltoztatja a lejátszó háttér színét feketére.</string>
     <string name="revanced_enable_color_match_player_title">Megegyező színű lejátszó bekapcsolása</string>

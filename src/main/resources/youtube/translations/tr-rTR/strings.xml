@@ -3,15 +3,21 @@
     <!-- Translations for YouTube -->
     <string name="accessibility_settings_edu_opt_in_text">Video oynatıcı için erişilebilirlik kontrolleri açılsın mı?</string>
     <string name="accessibility_settings_edu_opt_out_text">Bir erişilebilirlik hizmeti açık olduğundan kontrolleriniz değiştirildi.</string>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Arama %s</string>
-    <!-- Shared Category -->
     <string name="revanced_preference_category_experimental_flag">Deneysel Parametreler</string>
     <string name="revanced_extended_confirm_user_dialog_title">Devam etmek istiyor musunuz?</string>
     <string name="revanced_extended_restart_first_run">Düzeni normal şekilde yüklemek için yeniden başlatın</string>
     <string name="revanced_extended_restart_message">Yenile ve yeniden başlat</string>
     <string name="revanced_playback_speed_normal">Normal</string>
+    <string name="revanced_external_downloader_package_name_video_title">Video indirici paket adı</string>
+    <string name="revanced_external_downloader_package_name_video_summary">Yüklü olan harici indirme uygulamanızın paket adı, örneğin NewPipe veya YTDLnis gibi.</string>
+    <string name="revanced_external_downloader_dialog_title">Harici indirici</string>
+    <string name="revanced_external_downloader_not_installed_dialog_title">Dikkat</string>
+    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s yüklü değil.
+Lütfen web sitesinden %2$s dosyasını indirin."</string>
+    <string name="revanced_external_downloader_not_installed_warning">%s kurulmamış. Lütfen önce indiriniz.</string>
     <!-- PreferenceScreen: Ads -->
     <string name="revanced_preference_screen_ads_title">Reklamlar</string>
     <string name="revanced_hide_fullscreen_ads_title">Tam ekran reklamlarını gizle</string>
@@ -818,16 +824,6 @@ Geri almak için dokunun ve basılı tutun."</string>
     <string name="revanced_whitelist_playback_speed">Oynatma hızı</string>
     <string name="revanced_whitelist_sponsor_block">SponsorBlock</string>
     <string name="revanced_whitelist_failure_generic">Kanal bilgileri yüklenemedi.</string>
-    <string name="revanced_external_downloader_package_name_title">Harici indirici paket adı</string>
-    <string name="revanced_external_downloader_package_name_summary">Yüklü olan harici indirme uygulamanızın paket adı, örneğin NewPipe veya YTDLnis gibi.</string>
-    <string name="revanced_external_downloader_dialog_title">Harici indirici</string>
-    <string name="revanced_external_downloader_not_installed_dialog_title">Dikkat</string>
-    <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s yüklü değil.
-Lütfen web sitesinden %2$s dosyasını indirin."</string>
-    <string name="revanced_external_downloader_not_installed_warning">%s kurulmamış. Lütfen önce indiriniz.</string>
-    <string name="revanced_external_downloader_action_title">İndirme eylem düğmesini kullan</string>
-    <string name="revanced_external_downloader_action_summary_on">İndirme düğmesi harici indiricinizi açar</string>
-    <string name="revanced_external_downloader_action_summary_off">İndirme düğmesi yerel uygulama içi indiriciyi açar</string>
     <string name="revanced_overlay_button_speed_dialog_reset">Oynatma hızı sıfırlandı: %sx.</string>
     <string name="revanced_overlay_button_not_allowed_warning">Buton durumunu değiştirmek için buraya dokunup basılı tutun.</string>
     <string name="revanced_share_copy_timestamp_success">Süre Sayacı panoya kopyalandı. (%s)</string>
@@ -917,11 +913,6 @@ Yan etki: Kahire teması bildirim noktalarına da uygulanır."</string>
     <string name="revanced_expand_video_description_strings_default_value">Açıklama</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
-    <string name="revanced_change_shorts_repeat_state_title">Shorts tekrarlama durumunu değiştirme</string>
-    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Otomatik Oynat</string>
-    <string name="revanced_change_shorts_repeat_state_entry_default">Varsayılan</string>
-    <string name="revanced_change_shorts_repeat_state_entry_pause">Duraklat</string>
-    <string name="revanced_change_shorts_repeat_state_entry_repeat">Tekrarla</string>
     <string name="revanced_disable_resuming_shorts_player_title">Shorts oynatıcıya devam edilmesini devre dışı bırak</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">Shorts oynatıcı açılışta devam etmeyecek</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">Shorts oynatıcı açılışta devam edecek</string>
@@ -943,6 +934,12 @@ Bilinen sorun: Arama sonuçlarındaki resmi başlıklar da gizlenebiliyor."</str
     <string name="revanced_hide_shorts_shelf_history_title">İzleme geçmişinde gizle</string>
     <string name="revanced_hide_shorts_shelf_history_summary_on">İzleme geçmişinde gizli.</string>
     <string name="revanced_hide_shorts_shelf_history_summary_off">İzleme geçmişinde gizlenmiyor.</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_change_shorts_repeat_state_title">Shorts tekrarlama durumunu değiştirme</string>
+    <string name="revanced_change_shorts_repeat_state_entry_auto_play">Otomatik Oynat</string>
+    <string name="revanced_change_shorts_repeat_state_entry_default">Varsayılan</string>
+    <string name="revanced_change_shorts_repeat_state_entry_pause">Duraklat</string>
+    <string name="revanced_change_shorts_repeat_state_entry_repeat">Tekrarla</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
     <string name="revanced_preference_screen_shorts_player_title">Shorts oynatıcı</string>
     <string name="revanced_preference_screen_shorts_player_summary">Shorts oynatıcıdaki bileşenleri gizleyin veya gösterin.</string>
@@ -1465,7 +1462,7 @@ Bilinen sorun: Akış videoları, oynatma sorunlarıyla karşılaşmadan önce 1
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
     <string name="revanced_preference_category_spoof_client_about">Hakkında</string>
     <string name="revanced_spoof_client_use_ios_title">iOS</string>
-    <string name="revanced_spoof_client_use_ios_summary">"İstemciyi iOS'a taklit et.
+    <string name="revanced_spoof_client_use_ios_summary">"İstemci iOS'a taklit ediliyor.
 
 Yan etkiler şunları içerir:
 • HDR video yalnızca AV1 codec bileşeninde desteklenir.
@@ -1511,6 +1508,16 @@ Yan etkiler şunları içerir:
     <string name="revanced_watch_history_type_entry_3">İzleme geçmişini durdur</string>
     <string name="revanced_watch_history_about_title">İzleme geçmişi hakkında</string>
     <string name="revanced_watch_history_about_status_blocked">• İzleme geçmişi çalışmaz.</string>
+    <string name="revanced_watch_history_about_status_ios_replaced">"• Google hesabının izleme geçmişi ayarlarını takip eder.
+ • İzleme geçmişi bir marka hesabıyla çalışmayabilir.
+ (Sahte istemci ayarı açık ve iOS istemcisi seçili)"</string>
+    <string name="revanced_watch_history_about_status_ios_original">"• Google hesabının izleme geçmişi ayarlarını takip eder.
+• İzleme geçmişi DNS veya VPN nedeniyle çalışmayabilir.
+• İzleme geçmişi bir marka hesabıyla çalışmayabilir.
+(Sahte istemci ayarı açılınca iOS istemcisi seçilir)"</string>
+    <string name="revanced_watch_history_about_status_android_replaced">• Google hesabının izleme geçmişi ayarlarını takip eder.</string>
+    <string name="revanced_watch_history_about_status_android_original">"• Google hesabının izleme geçmişi ayarlarını takip eder.
+• İzleme geçmişi DNS veya VPN nedeniyle çalışmayabilir."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Yama Bilgileri</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->
