@@ -549,8 +549,8 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_clip_button_summary_on">「クリップ」ボタンを非表示にします。</string>
     <string name="revanced_hide_clip_button_summary_off">「クリップ」ボタンを非表示にします。</string>
     <string name="revanced_hide_download_button_title">「オフライン」ボタンを非表示</string>
-    <string name="revanced_hide_download_button_summary_on">「ダウンロード」ボタンを非表示にします。</string>
-    <string name="revanced_hide_download_button_summary_off">「ダウンロード」ボタンを非表示にします。</string>
+    <string name="revanced_hide_download_button_summary_on">「オフライン」ボタンを非表示にします。</string>
+    <string name="revanced_hide_download_button_summary_off">「オフライン」ボタンを非表示にします。</string>
     <string name="revanced_hide_like_dislike_button_title">高評価と低評価ボタンを非表示</string>
     <string name="revanced_hide_like_dislike_button_summary_on">高評価と低評価ボタンを非表示にします。</string>
     <string name="revanced_hide_like_dislike_button_summary_off">高評価と低評価ボタンを非表示にします。</string>

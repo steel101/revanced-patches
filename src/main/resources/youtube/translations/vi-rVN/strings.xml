@@ -1485,8 +1485,7 @@ Hạn chế gồm:
 
 Hạn chế:
 • Video HDR chỉ được hỗ trợ trên codec AV1.
-• Lịch sử xem không hoạt động với tài khoản doanh nghiệp.
-• Chỉ phát mỗi âm thanh khi xem Live streams."</string>
+• Lịch sử xem không hoạt động với tài khoản doanh nghiệp."</string>
     <string name="revanced_spoof_client_use_android_testsuite_title">Thử nghiệm Android</string>
     <string name="revanced_spoof_client_use_android_testsuite_summary">"Giả mạo máy khách thành thử nghiệm Android.
 

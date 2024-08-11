@@ -3,7 +3,10 @@
     <!-- Shared PreferenceScreen -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <!-- Shared Category -->
+    <string name="revanced_extended_restart_first_run"></string>
+    <string name="revanced_extended_restart_message">Obnovit a restartovat</string>
     <!-- PreferenceScreen: Account -->
+    <string name="revanced_preference_screen_account_title"></string>
     <!-- PreferenceScreen: Action Bar -->
     <string name="revanced_external_downloader_package_name_title">Název balíčku pro externí stahování</string>
     <string name="revanced_external_downloader_package_name_summary">Název balíčku externí nainstalované aplikace na stahování, jako jsou např. NewPipe nebo Seal</string>
