@@ -11,6 +11,8 @@
     <string name="revanced_extended_restart_first_run">重启应用以正常加载界面布局</string>
     <string name="revanced_extended_restart_message">刷新并重启</string>
     <string name="revanced_playback_speed_normal">正常</string>
+    <string name="revanced_external_downloader_package_name_video_title">视频下载器应用包名</string>
+    <string name="revanced_external_downloader_package_name_video_summary">已安装的外部下载器应用的包名，例如 NewPipe 或 YTDLnis</string>
     <string name="revanced_external_downloader_dialog_title">外部下载器</string>
     <string name="revanced_external_downloader_not_installed_dialog_title">警告</string>
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s 未安装
@@ -310,6 +312,14 @@
     <string name="revanced_enable_phone_layout_summary">伪装 DPI 以使用一些手机布局</string>
     <string name="revanced_enable_tablet_layout_title">启用平板布局</string>
     <string name="revanced_enable_tablet_layout_summary">伪装 DPI 以使用一些平板布局</string>
+    <string name="revanced_override_video_download_button_title">覆盖视频下载按钮</string>
+    <string name="revanced_override_video_download_button_summary_on">视频下载按钮打开外部下载器</string>
+    <string name="revanced_override_video_download_button_summary_off">视频下载按钮打开应用内下载器</string>
+    <string name="revanced_override_playlist_download_button_title">覆盖播放列表下载按钮</string>
+    <string name="revanced_override_playlist_download_button_summary_on">播放列表下载按钮打开外部下载器</string>
+    <string name="revanced_override_playlist_download_button_summary_off">播放列表下载按钮打开应用内下载器</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">播放列表下载器名称</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">已安装的外部下载器应用包名，例如 YTDLnis</string>
     <string name="revanced_spoof_app_version_title">伪装应用版本</string>
     <string name="revanced_spoof_app_version_summary_on">客户端版本已伪装</string>
     <string name="revanced_spoof_app_version_summary_off">客户端版本未伪装</string>
@@ -1467,6 +1477,11 @@
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
     <string name="revanced_preference_category_spoof_client_about">关于</string>
     <string name="revanced_spoof_client_use_ios_title">iOS</string>
+    <string name="revanced_spoof_client_use_ios_legacy_summary">"伪装客户端为 iOS 客户端
+
+副作用：
+• 仅在 AV1 编解码器上支持 HDR 视频
+• 观看时间不保存在品牌帐户的历史记录中"</string>
     <string name="revanced_spoof_client_use_ios_summary">"伪装客户端到iOS
 
 副作用:

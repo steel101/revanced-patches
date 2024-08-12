@@ -333,6 +333,8 @@ Some features may not work properly in the old player layout."</string>
     <string name="revanced_preference_screen_misc_title">Miscellaneous</string>
     <string name="revanced_bypass_image_region_restrictions_title">Bypass gambar larangan wilayah</string>
     <string name="revanced_bypass_image_region_restrictions_summary">Mengganti domain yang ke blokir di negara tertentu sehingga playlist thumbnail, channel avatar, dll bisa di terima.</string>
+    <string name="revanced_change_share_sheet_title">Ubah lembar berbagi</string>
+    <string name="revanced_change_share_sheet_summary">Mengubah dari lembar berbagi dalam aplikasi ke lembar berbagi sistem.</string>
     <string name="revanced_enable_cairo_splash_animation_title">Aktifkan animasi splash Cairo</string>
     <string name="revanced_enable_cairo_splash_animation_summary">Mengaktifkan Animasi splash Cairo ketika app dibuka.</string>
     <string name="revanced_enable_debug_logging_title">Aktifkan pencatatan debug</string>

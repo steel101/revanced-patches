@@ -333,8 +333,6 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_preference_screen_misc_title">Khác</string>
     <string name="revanced_bypass_image_region_restrictions_title">Bỏ qua hạn chế khu vực cho hình ảnh</string>
     <string name="revanced_bypass_image_region_restrictions_summary">Thay thế miền bị chặn ở một số khu vực để có thể thu được được ảnh bìa video của danh sách phát, ảnh đại diện kênh, v. v.</string>
-    <string name="revanced_change_share_sheet_title">Đổi bảng chia sẻ</string>
-    <string name="revanced_change_share_sheet_summary">Chuyển bảng chia sẻ của ứng dụng sang của hệ thống.</string>
     <string name="revanced_enable_cairo_splash_animation_title">Sử dụng hoạt ảnh kiểu Cairo</string>
     <string name="revanced_enable_cairo_splash_animation_summary">Sử dụng hoạt ảnh kiểu Cairo khi khởi động ứng dụng.</string>
     <string name="revanced_enable_debug_logging_title">Nhật ký gỡ lỗi</string>

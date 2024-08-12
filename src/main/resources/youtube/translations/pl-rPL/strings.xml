@@ -1415,6 +1415,9 @@ Kontynuuj i wyłącz optymalizację baterii."</string>
     <string name="revanced_sanitize_sharing_links_summary">Usuwa śledzące parametry z adresów URL podczas udostępniania linków</string>
     <string name="revanced_disable_quic_protocol_title">Wyłącz protokół QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Wyłącz protokół QUIC w CronetEngine"</string>
+    <string name="revanced_change_share_sheet_title">Wygląd panelu udostępniania</string>
+    <string name="revanced_change_share_sheet_summary_on">Systemowy</string>
+    <string name="revanced_change_share_sheet_summary_off">Aplikacji</string>
     <string name="revanced_enable_opus_codec_title">Włącz kodek OPUS</string>
     <string name="revanced_enable_opus_codec_summary">Włącza kodek OPUS, jeśli odpowiedź odtwarzacza zawiera ten kodek.</string>
     <string name="revanced_spoof_player_parameter_title">Oszukaj parametry odtwarzacza</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Translations for YouTube -->
-    <string name="accessibility_settings_edu_opt_in_text">플레이어에서 접근성 컨트롤을 표시하시겠습니까?</string>
+    <string name="accessibility_settings_edu_opt_in_text">플레이어에 접근성 컨트롤을 표시하시겠습니까?</string>
     <string name="accessibility_settings_edu_opt_out_text">접근성 서비스가 켜져있기 때문에 플레이어 컨트롤을 변경합니다.</string>
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended 설정</string>
@@ -90,33 +90,36 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <!-- PreferenceScreen: Alternative thumbnails, PreferenceCategory: Image region restrictions -->
     <string name="revanced_preference_category_image_region_restrictions">이미지 표시 제한 국가</string>
     <string name="revanced_bypass_image_region_restrictions_title">이미지 표시 제한 국가 우회하기</string>
-    <string name="revanced_bypass_image_region_restrictions_summary_on">이미지 호스트로 yt4.ggpht.com를 사용합니다.</string>
-    <string name="revanced_bypass_image_region_restrictions_summary_off">기본 이미지 호스트를 사용합니다.\n\n이 설정을 활성화하면 일부 국가에서 차단된 이미지를 수신할 수 있습니다. (채널 프로필 사진, 커뮤니티 게시물 이미지 ...)</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_on">대체 이미지 도메인을 사용합니다.\n\n대체 이미지 도메인 기본값: yt4.ggpht.com</string>
+    <string name="revanced_bypass_image_region_restrictions_summary_off">기본 이미지 도메인을 사용합니다.\n\n이 설정을 활성화하면 일부 국가에서 차단된 이미지를 수신할 수 있습니다. (채널 프로필 사진, 커뮤니티 게시물 이미지 ...)</string>
     <!-- PreferenceScreen: Feed -->
     <string name="revanced_preference_screen_feed_title">피드</string>
     <string name="revanced_hide_album_card_title">음악 앨범 카드 숨기기</string>
     <string name="revanced_hide_album_card_summary_on">검색 결과에서 음악 앨범 카드가 숨겨집니다.</string>
     <string name="revanced_hide_album_card_summary_off">검색 결과에서 음악 앨범 카드가 표시됩니다.</string>
     <string name="revanced_hide_carousel_shelf_summary">"다음 선반들이 숨겨집니다:
-• 뉴스 속보
-• 계속 시청하기
-• 더 많은 채널 살펴보기
 • 다시 듣기
-• 쇼핑
-• 다시 보기"</string>
+• 다시 시청하기
+• 이어서 시청하기
+• 채널 더보기
+• 이 게임 더보기
+• 주요 뉴스, 뉴스 속보
+• 맞춤 실시간 스트림
+• 라이브 쇼핑
+• 보건 정보 출처 ..."</string>
     <string name="revanced_hide_carousel_shelf_title">좌우 슬라이드형 선반 숨기기</string>
-    <string name="revanced_hide_chips_shelf_title">더 많은 주제 선반 숨기기</string>
-    <string name="revanced_hide_chips_shelf_on">더 많은 주제 선반이 숨겨집니다.</string>
-    <string name="revanced_hide_chips_shelf_off">더 많은 주제 선반이 표시됩니다.</string>
-    <string name="revanced_hide_expandable_chip_title">동영상 하단에서 동영상 관련 정보 숨기기</string>
+    <string name="revanced_hide_chips_shelf_title">더 많은 주제 탐색 선반 숨기기</string>
+    <string name="revanced_hide_chips_shelf_on">더 많은 주제 탐색 선반이 숨겨집니다.</string>
+    <string name="revanced_hide_chips_shelf_off">더 많은 주제 탐색 선반이 표시됩니다.</string>
+    <string name="revanced_hide_expandable_chip_title">썸네일 하단에서 동영상 관련 정보 숨기기</string>
     <string name="revanced_hide_expandable_chip_summary_on">다음 정보들이 숨겨집니다:\n동영상 설명, 챕터, 주요 순간, 스크립트,\n재생목록의 동영상, 이 동영상에 나온 제품 ...</string>
     <string name="revanced_hide_expandable_chip_summary_off">다음 정보들이 표시됩니다:\n동영상 설명, 챕터, 주요 순간, 스크립트,\n재생목록의 동영상, 이 동영상에 나온 제품 ...</string>
     <string name="revanced_hide_feed_captions_button_title">피드 자막 버튼 숨기기</string>
     <string name="revanced_hide_feed_captions_button_on">자막 버튼이 숨겨집니다.</string>
     <string name="revanced_hide_feed_captions_button_off">자막 버튼이 표시됩니다.</string>
-    <string name="revanced_hide_feed_search_bar_title">피드 검색 바 숨기기</string>
-    <string name="revanced_hide_feed_search_bar_summary_on">피드 검색 바가 숨겨집니다.</string>
-    <string name="revanced_hide_feed_search_bar_summary_off">피드 검색 바가 표시됩니다.</string>
+    <string name="revanced_hide_feed_search_bar_title">피드 검색창 숨기기</string>
+    <string name="revanced_hide_feed_search_bar_summary_on">피드 검색창이 숨겨집니다.</string>
+    <string name="revanced_hide_feed_search_bar_summary_off">피드 검색창이 표시됩니다.</string>
     <string name="revanced_hide_feed_survey_title">피드 설문 조사 숨기기</string>
     <string name="revanced_hide_feed_survey_summary_on">피드 설문 조사가 숨겨집니다.</string>
     <string name="revanced_hide_feed_survey_summary_off">피드 설문 조사가 표시됩니다.</string>
@@ -225,7 +228,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_keyword_content_phrases_title">키워드 필터</string>
     <string name="revanced_hide_keyword_content_phrases_summary">"필터링할 키워드 및 구문을 줄바꿈으로 구분하여 설정합니다.
 
-영어 키워드는 대소문자를 구분하여 입력해야 합니다 (예: iPhone, TikTok, LeBlanc)."</string>
+영어 키워드는 대소문자를 구분하여 입력해야 합니다."</string>
     <string name="revanced_hide_keyword_content_about_title">키워드 필터링 정보</string>
     <string name="revanced_hide_keyword_content_about_summary">"홈 피드 / 구독 피드 / 검색 결과 / 댓글 섹션에서 키워드와 일치하는 콘텐츠가 숨겨집니다.
 
@@ -301,9 +304,9 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_gray_separator_title">회색 구분선 숨기기</string>
     <string name="revanced_hide_gray_separator_summary_on">동영상들 사이에서 회색 구분선이 숨겨집니다.</string>
     <string name="revanced_hide_gray_separator_summary_off">동영상들 사이에서 회색 구분선이 표시됩니다.</string>
-    <string name="revanced_hide_snack_bar_title">스낵바(하단 팝업 메시지) 숨기기</string>
-    <string name="revanced_hide_snack_bar_summary_on">스낵바(하단 팝업 메시지)가 숨겨집니다.</string>
-    <string name="revanced_hide_snack_bar_summary_off">스낵바(하단 팝업 메시지)가 표시됩니다.</string>
+    <string name="revanced_hide_snack_bar_title">스낵바(팝업 메시지바) 숨기기</string>
+    <string name="revanced_hide_snack_bar_summary_on">스낵바(팝업 메시지바)가 숨겨집니다.</string>
+    <string name="revanced_hide_snack_bar_summary_off">스낵바(팝업 메시지바)가 표시됩니다.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">시청 경고 다이얼로그 제거하기</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"시청 경고 다이얼로그를 제거합니다.
 
@@ -311,7 +314,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_enable_phone_layout_title">휴대폰 레이아웃 활성화하기</string>
     <string name="revanced_enable_phone_layout_summary">dpi를 변경하여 일부 레이아웃을 휴대폰 레이아웃으로 활성화합니다.</string>
     <string name="revanced_enable_tablet_layout_title">태블릿 레이아웃 활성화하기</string>
-    <string name="revanced_enable_tablet_layout_summary">dpi를 변경하여 일부 레이아웃을 태블릿 레이아웃으로 활성화합니다.\n\n이 설정을 활성화하면 다음 RVX 설정이 잠겨질 수 있습니다:\n• 커뮤니티 게시물\n• 전체 화면의 일부 기능</string>
+    <string name="revanced_enable_tablet_layout_summary">dpi를 변경하여 일부 레이아웃을 태블릿 레이아웃으로 활성화합니다.\n\n이 설정을 활성화하면 다음 RVX 설정이 잠겨질 수 있습니다:\n• 최신 동영상 버튼 숨기기\n• 믹스 재생목록 숨기기\n• 커뮤니티 게시물 설정\n• 전체 화면의 일부 설정 (빠른 작업)</string>
     <string name="revanced_override_video_download_button_title">동영상 오프라인 저장 버튼 재정의하기</string>
     <string name="revanced_override_video_download_button_summary_on">동영상 오프라인 저장 버튼으로 외부 다운로더를 실행할 수 있습니다.</string>
     <string name="revanced_override_video_download_button_summary_off">동영상 오프라인 저장 버튼으로 기본 다운로더를 실행할 수 있습니다. (YouTube Premium 기능)</string>
@@ -434,17 +437,17 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 자막"</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">툴바</string>
-    <string name="revanced_preference_screen_toolbar_summary">툴바에서 버튼, 검색 바, 헤더와 같은 구성요소를 숨기거나 변경할 수 있습니다.</string>
+    <string name="revanced_preference_screen_toolbar_summary">툴바에서 버튼, 검색창, 헤더와 같은 구성요소를 숨기거나 변경할 수 있습니다.</string>
     <string name="revanced_change_youtube_header_title">YouTube 헤더 변경하기</string>
     <string name="revanced_change_youtube_header_summary_on">Premium 헤더를 활성화합니다.</string>
     <string name="revanced_change_youtube_header_summary_off">일반 헤더를 활성화합니다.</string>
-    <string name="revanced_enable_wide_search_bar_title">넓은 검색 바 활성화하기</string>
-    <string name="revanced_enable_wide_search_bar_summary_on">넓은 검색 바를 활성화합니다.</string>
-    <string name="revanced_enable_wide_search_bar_summary_off">넓은 검색 바를 비활성화합니다.</string>
-    <string name="revanced_enable_wide_search_bar_with_header_title">헤더가 있는 넓은 검색 바 활성화하기</string>
-    <string name="revanced_enable_wide_search_bar_with_header_summary_on">YouTube 헤더가 있는 넓은 검색 바</string>
-    <string name="revanced_enable_wide_search_bar_with_header_summary_off">YouTube 헤더가 없는 넓은 검색 바</string>
-    <string name="revanced_enable_wide_search_bar_in_you_tab_title">나 탭에서 넓은 검색 바 활성화하기</string>
+    <string name="revanced_enable_wide_search_bar_title">넓은 검색창 활성화하기</string>
+    <string name="revanced_enable_wide_search_bar_summary_on">넓은 검색창을 활성화합니다.</string>
+    <string name="revanced_enable_wide_search_bar_summary_off">넓은 검색창을 비활성화합니다.</string>
+    <string name="revanced_enable_wide_search_bar_with_header_title">헤더가 있는 넓은 검색창 활성화하기</string>
+    <string name="revanced_enable_wide_search_bar_with_header_summary_on">YouTube 헤더가 있는 넓은 검색창</string>
+    <string name="revanced_enable_wide_search_bar_with_header_summary_off">YouTube 헤더가 없는 넓은 검색창</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_title">나 탭에서 넓은 검색창 활성화하기</string>
     <string name="revanced_enable_wide_search_bar_in_you_tab_summary">"이 설정을 활성화하면 나 탭의 설정 버튼이 비활성화됩니다.
 
 이 경우에 설정 메뉴를 보려면 다음 경로를 사용하세요:
@@ -522,21 +525,21 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_seek_message_title">탐색 메시지 숨기기</string>
     <string name="revanced_hide_seek_message_summary_on">다음 탐색 메시지가 숨겨집니다.\n• \'왼쪽이나 오른쪽으로 슬라이드하여 탐색\' </string>
     <string name="revanced_hide_seek_message_summary_off">다음 탐색 메시지가 표시됩니다.\n• \'왼쪽이나 오른쪽으로 슬라이드하여 탐색\' </string>
-    <string name="revanced_hide_seek_undo_message_title">탐색을 취소할 때, 메시지 숨기기</string>
-    <string name="revanced_hide_seek_undo_message_summary_on">탐색을 취소할 때, 메시지가 숨겨집니다.</string>
-    <string name="revanced_hide_seek_undo_message_summary_off">탐색을 취소할 때, 메시지가 표시됩니다.</string>
+    <string name="revanced_hide_seek_undo_message_title">탐색 취소 메시지 숨기기</string>
+    <string name="revanced_hide_seek_undo_message_summary_on">탐색 취소 메시지가 숨겨집니다.\n• \'손가락을 떼어 취소\'</string>
+    <string name="revanced_hide_seek_undo_message_summary_off">탐색 취소 메시지가 표시됩니다.\n• \'손가락을 떼어 취소\'</string>
     <string name="revanced_hide_suggested_actions_title">동작 추천바 숨기기</string>
     <string name="revanced_hide_suggested_actions_summary_on">동작 추천바가 숨겨집니다.</string>
     <string name="revanced_hide_suggested_actions_summary_off">동작 추천바가 표시됩니다.</string>
     <string name="revanced_hide_timed_reactions_title">실시간 이모티콘 리액션 숨기기</string>
     <string name="revanced_hide_timed_reactions_summary_on">실시간 이모티콘 리액션이 숨겨집니다.</string>
     <string name="revanced_hide_timed_reactions_summary_off">실시간 이모티콘 리액션이 표시됩니다.</string>
-    <string name="revanced_hide_suggested_video_end_screen_title">최종 화면에서 \'다음 재생 동영상 추천\' 숨기기</string>
-    <string name="revanced_hide_suggested_video_end_screen_summary_on">"자동재생을 비활성화하면 최종 화면에서 '다음 재생 동영상 추천'이 숨겨집니다.
+    <string name="revanced_hide_suggested_video_end_screen_title">최종 화면에서 \'다음 재생 추천 동영상\' 숨기기</string>
+    <string name="revanced_hide_suggested_video_end_screen_summary_on">"자동재생을 비활성화하면 최종 화면에서 '다음 재생 추천 동영상'이 숨겨집니다.
 
 자동재생은 YouTube 설정에서 변경할 수 있습니다:
 설정 → 자동재생 → 다음 동영상 자동재생"</string>
-    <string name="revanced_hide_suggested_video_end_screen_summary_off">최종 화면에서 \'다음 재생 동영상 추천\'이 표시됩니다.</string>
+    <string name="revanced_hide_suggested_video_end_screen_summary_off">최종 화면에서 \'다음 재생 추천 동영상\'이 표시됩니다.</string>
     <string name="revanced_hide_zoom_overlay_title">줌 오버레이 숨기기</string>
     <string name="revanced_hide_zoom_overlay_summary_on">줌 오버레이가 숨겨집니다.</string>
     <string name="revanced_hide_zoom_overlay_summary_off">줌 오버레이가 표시됩니다.</string>
@@ -546,7 +549,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">액션 버튼</string>
     <string name="revanced_preference_screen_action_buttons_summary">플레이어 하단에 있는 액션 버튼을 숨기거나 표시할 수 있습니다.</string>
-    <string name="revanced_disable_like_dislike_glow_title">일정시점부터 업데이트된 동영상에서 유튜버가 \'LIke\' 또는 \'Subscribe\'라고 말을 하면 버튼에서 빛이 나는 효과가 발생합니다 (시간제한 횟수제한이 있음). 하지만 한국어(\'좋아요\'와 \'구독\')은 인식되지 않는 거로 보입니다.</string>
+    <string name="revanced_disable_like_dislike_glow_title">빛나는 \'좋아요 &amp; 싫어요\' 버튼 비활성화하기</string>
     <string name="revanced_disable_like_dislike_glow_summary_on">동영상에서 \'Like (좋아요)\' 버튼이 언급되었을 때, 해당 버튼에 빛나는 애니메이션을 적용하지 않습니다.\n• 일부 언어는 아직 지원되지 않습니다.</string>
     <string name="revanced_disable_like_dislike_glow_summary_off">동영상에서 \'Like (좋아요)\' 버튼이 언급되었을 때, 해당 버튼에 빛나는 애니메이션을 적용합니다.\n• 일부 언어는 아직 지원되지 않습니다.</string>
     <string name="revanced_hide_clip_button_title">클립 버튼 숨기기</string>
@@ -996,9 +999,9 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_shorts_location_label_title">위치 라벨 숨기기</string>
     <string name="revanced_hide_shorts_location_label_summary_on">위치 라벨이 숨겨집니다.</string>
     <string name="revanced_hide_shorts_location_label_summary_off">위치 라벨이 표시됩니다.</string>
-    <string name="revanced_hide_shorts_save_sound_button_title">(사운드를 재생목록에) 저장 버튼 숨기기</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">(사운드를 재생목록에) 저장 버튼이 숨겨집니다.</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">(사운드를 재생목록에) 저장 버튼이 표시됩니다.</string>
+    <string name="revanced_hide_shorts_save_sound_button_title">(재생목록에) 음악 저장 버튼 숨기기</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_on">(재생목록에) 음악 저장 버튼이 숨겨집니다.</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_off">(재생목록에) 음악 저장 버튼이 표시됩니다.</string>
     <string name="revanced_hide_shorts_search_suggestions_title">검색 추천 숨기기</string>
     <string name="revanced_hide_shorts_search_suggestions_summary_on">검색 추천이 숨겨집니다.</string>
     <string name="revanced_hide_shorts_search_suggestions_summary_off">검색 추천이 표시됩니다.</string>
@@ -1161,7 +1164,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">팝업 메시지를 표시하지 않습니다.</string>
     <string name="revanced_spoof_device_dimensions_title">기기 크기 정보 변경하기</string>
     <string name="revanced_spoof_device_dimensions_summary">"기기 크기 정보를 최대값으로 변경합니다.
-높은 기기 크기 정보가 필요한 일부 동영상에서는 초고화질 동영상 값이 잠금 해제될 수 있지만 모든 동영상에는 적용되지 않습니다. (1440p, 2160p)"</string>
+높은 기기 크기 정보가 필요한 일부 동영상에서는 고화질 동영상 값이 잠금 해제될 수 있지만 모든 동영상에는 적용되지 않습니다."</string>
     <string name="revanced_replace_av1_codec_title">소프트웨어 AV1 코덱 변경하기</string>
     <string name="revanced_replace_av1_codec_summary">소프트웨어 AV1 코덱을 VP9 코덱으로 변경합니다.</string>
     <string name="revanced_reject_av1_codec_title">소프트웨어 AV1 코덱 응답 거부하기</string>
@@ -1311,12 +1314,12 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_sb_general_skipcount_sum_on">구간 건너뛰기를 통해 절약한 시간을 SponsorBlock의 리더보드 시스템에 알려줍니다. 건너뛴 구간에 대한 정보가 서버에 전송됩니다.</string>
     <string name="revanced_sb_general_skipcount_sum_off">건너뛴 횟수 기록을 비활성화합니다.</string>
     <string name="revanced_sb_general_min_duration">건너뛸 최소 구간 길이</string>
-    <string name="revanced_sb_general_min_duration_sum">설정한 값(초)보다 작은 구간은 건너뛰지 않으며, 재생바에도 표시하지 않습니다.</string>
+    <string name="revanced_sb_general_min_duration_sum">설정한 값(초)보다 작은 구간은 건너뛰지 않으며, 재생바에도 표시되지 않습니다.</string>
     <string name="revanced_sb_general_uuid">비공개 사용자 아이디</string>
     <string name="revanced_sb_general_uuid_sum">비공개 사용자 아이디는 SponsorBlock 서버에서 구간을 제출하거나 건너뛴 구간 정보를 기록하는데 사용되는 고유 아이디입니다. 절대 다른 이에게 공개하지 마세요.</string>
     <string name="revanced_sb_general_uuid_invalid">비공개 사용자 아이디는 30자 이상이어야 합니다.</string>
     <string name="revanced_sb_general_api_url">API URL 변경하기</string>
-    <string name="revanced_sb_general_api_url_sum">SponsorBlock이 요청을 보낼 서버 URL입니다.이것이 무슨 역할을 하는지 모르는 경우에는 이 URL을 변경하지 마세요.</string>
+    <string name="revanced_sb_general_api_url_sum">SponsorBlock이 요청을 보낼 서버 URL입니다. 이것이 무슨 역할을 하는지 모르는 경우에는 이 URL을 변경하지 마세요.</string>
     <string name="revanced_sb_api_url_reset">API URL을 초기화하였습니다.</string>
     <string name="revanced_sb_api_url_invalid">잘못된 API URL입니다.</string>
     <string name="revanced_sb_api_url_changed">API URL을 변경하였습니다.</string>
@@ -1422,6 +1425,9 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_sanitize_sharing_links_summary">링크를 공유할 때, URL에서 추적 쿼리 매개변수를 제거합니다. (URL의 뒷부분 \'?si=...\' 이 제거됨.)</string>
     <string name="revanced_disable_quic_protocol_title">QUIC 프로토콜 비활성화하기</string>
     <string name="revanced_disable_quic_protocol_summary">"QUIC 프로토콜을 비활성화해서 동영상을 불러올 때 발생하는 동영상 압축과 푸는 과정을 제거하여 동영상 로딩 속도를 향상시킵니다. 모바일 데이터 사용량이 증가할 수 있으니 주의하세요."</string>
+    <string name="revanced_change_share_sheet_title">공유 시트 변경하기</string>
+    <string name="revanced_change_share_sheet_summary_on">Android 기본 공유 시트를 사용합니다.\n\n• 공유 버튼으로 바로 Android 기본 공유 메뉴를 실행할 수 있습니다.</string>
+    <string name="revanced_change_share_sheet_summary_off">YouTube 기본 공유 시트를 사용합니다.</string>
     <string name="revanced_enable_opus_codec_title">OPUS 코덱 활성화하기</string>
     <string name="revanced_enable_opus_codec_summary">플레이어 응답에 OPUS 코덱이 포함된 경우에는 OPUS 코덱을 활성화합니다.</string>
     <string name="revanced_spoof_player_parameter_title">플레이어 매개변수 변경하기</string>
@@ -1492,7 +1498,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 
 알려진 문제점:
 • HDR 동영상은 하드웨어 AV1 디코딩을 지원하는 AP가 탑재된 기기에서만 재생할 수 있습니다.
-• 브랜드 계정의 시청 기록에서 '마지막으로 시청한 동영상 시점'이 저장되지 않습니다."</string>
+• 브랜드 계정의 시청 기록에서 '마지막으로 시청한 동영상 시간'이 저장되지 않습니다."</string>
     <string name="revanced_spoof_client_use_ios_summary">"클라이언트를 iOS 클라이언트로 변경합니다.
 
 알려진 문제점:
@@ -1546,7 +1552,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 • 광고 차단기, 광고 차단 기능이 내장된 DNS 또는 VPN으로 인해 시청 기록이 작동되지 않을 수 있습니다.
 • 브랜드 계정에서는 시청 기록이 작동되지 않을 수 있습니다.
 ('클라이언트 변경하기' 설정이 활성화되어 있고, iOS 클라이언트로 변경되어 있는 경우)"</string>
-    <string name="revanced_watch_history_about_status_android_replaced">• Google 계정의 시청 기록 설정을 따릅니다.</string>
+    <string name="revanced_watch_history_about_status_android_replaced">• Google 계정의 시청 기록 설정을 따릅니다.\n• 광고 차단기, 광고 차단 기능이 내장된 DNS 또는 VPN을 우회하기 위해 도메인을 변경합니다.</string>
     <string name="revanced_watch_history_about_status_android_original">"• Google 계정의 시청 기록 설정을 따릅니다.
 • 광고 차단기, 광고 차단 기능이 내장된 DNS 또는 VPN으로 인해 시청 기록이 작동되지 않을 수 있습니다."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->

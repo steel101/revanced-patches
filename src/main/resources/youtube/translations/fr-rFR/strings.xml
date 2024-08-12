@@ -11,6 +11,8 @@
     <string name="revanced_extended_restart_first_run">Redémarrer pour charger l\'interface correctement</string>
     <string name="revanced_extended_restart_message">Appliquer et redémarrer ?</string>
     <string name="revanced_playback_speed_normal">Normal</string>
+    <string name="revanced_external_downloader_package_name_video_title">Nom du paquet du téléchargeur vidéo</string>
+    <string name="revanced_external_downloader_package_name_video_summary">Nom du paquet de l\'appli de téléchargement externe installée, telle que NewPipe ou YTDLnis.</string>
     <string name="revanced_external_downloader_dialog_title">Téléchargeur externe</string>
     <string name="revanced_external_downloader_not_installed_dialog_title">Attention</string>
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s n'est pas installé.
@@ -309,6 +311,14 @@ Cela ne contourne pas la restriction d'âge, mais le confirme automatiquement."<
     <string name="revanced_enable_phone_layout_summary">Falsifie le dpi pour activer l\'interface téléphone.</string>
     <string name="revanced_enable_tablet_layout_title">Activer l\'interface tablette</string>
     <string name="revanced_enable_tablet_layout_summary">Falsifie le dpi pour activer l\'interface tablette.</string>
+    <string name="revanced_override_video_download_button_title">Remplacer le bouton de téléchargement de la vidéo</string>
+    <string name="revanced_override_video_download_button_summary_on">Le bouton \"Télécharger\" natif ouvre votre téléchargeur externe.</string>
+    <string name="revanced_override_video_download_button_summary_off">Le bouton \"Télécharger\" natif ouvre le téléchargeur de l\'appli.</string>
+    <string name="revanced_override_playlist_download_button_title">Remplacer le bouton de téléchargement de la playlist</string>
+    <string name="revanced_override_playlist_download_button_summary_on">Le bouton \"Télécharger\" natif de la playlist ouvre votre téléchargeur externe.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">Le bouton \"Télécharger\" natif de la playlist ouvre votre téléchargeur de l\'appli.</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">Nom du paquet du téléchargeur de la playlist</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">Nom de package du téléchargeur externe installé, telle que YTDLnis.</string>
     <string name="revanced_spoof_app_version_title">Falsifier la version de l\'app</string>
     <string name="revanced_spoof_app_version_summary_on">Version falsifiée</string>
     <string name="revanced_spoof_app_version_summary_off">Version non falsifiée</string>
@@ -1407,6 +1417,9 @@ Cliquez sur le bouton Continuer et désactivez les optimisations de la batterie.
     <string name="revanced_sanitize_sharing_links_summary">Supprime les paramètres de suivi (tracking) des URL lors du partage de liens.</string>
     <string name="revanced_disable_quic_protocol_title">Protocole QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Désactiver le protocole QUIC de CronetEngine."</string>
+    <string name="revanced_change_share_sheet_title">Modifier la feuille de partage</string>
+    <string name="revanced_change_share_sheet_summary_on">La feuille de partage du système est utilisée.</string>
+    <string name="revanced_change_share_sheet_summary_off">La feuille de partage de l\'application est utilisée.</string>
     <string name="revanced_enable_opus_codec_title">Activer le Codec OPUS</string>
     <string name="revanced_enable_opus_codec_summary">Active le codec OPUS si la réponse du lecteur inclut le codec OPUS.</string>
     <string name="revanced_spoof_player_parameter_title">Falsifier les paramètres du lecteur</string>
@@ -1473,6 +1486,11 @@ Limitation : Les vidéos du flux seront lues moins d'une minute avant de rencont
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
     <string name="revanced_preference_category_spoof_client_about">À propos</string>
     <string name="revanced_spoof_client_use_ios_title">iOS</string>
+    <string name="revanced_spoof_client_use_ios_legacy_summary">"Falsifier le client vers iOS.
+
+Créée des effets secondaires :
+• Les vidéos HDR supportent uniquement le codec AV1.
+• Le temps de visionnage n'es pas enregistré dans l'historique de visionnage pour les comptes de marques."</string>
     <string name="revanced_spoof_client_use_ios_summary">"Falsifier le client vers iOS.
 
 Créée des effets secondaires :
@@ -1516,8 +1534,8 @@ Les effets secondaires incluent :
     <string name="revanced_watch_history_type_entry_1">Original</string>
     <string name="revanced_watch_history_type_entry_2">Remplacer le domaine</string>
     <string name="revanced_watch_history_type_entry_3">Bloquer l\'historique de visionnage</string>
-    <string name="revanced_watch_history_about_title">À propos de l\'historique de visionnage</string>
-    <string name="revanced_watch_history_about_status_blocked">• L\'historique de visionnage ne fonctionne pas.</string>
+    <string name="revanced_watch_history_about_title">Statut de l\'historique de visionnage</string>
+    <string name="revanced_watch_history_about_status_blocked">• L\'historique de visionnage est bloqué.</string>
     <string name="revanced_watch_history_about_status_ios_replaced">"• Suis les paramètres de l'historique de visionnage du compte Google.
 • L'historique de visionnage peut ne pas fonctionner sur les comptes de marques.
 (Le paramètre 'Falsifier le client' est activé et le client iOS est sélectionné)"</string>
