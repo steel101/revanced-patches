@@ -111,7 +111,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_chips_shelf_title">더 많은 주제 탐색 선반 숨기기</string>
     <string name="revanced_hide_chips_shelf_on">더 많은 주제 탐색 선반이 숨겨집니다.</string>
     <string name="revanced_hide_chips_shelf_off">더 많은 주제 탐색 선반이 표시됩니다.</string>
-    <string name="revanced_hide_expandable_chip_title">동영상 하단에서 동영상 관련 정보 숨기기</string>
+    <string name="revanced_hide_expandable_chip_title">썸네일 하단에서 동영상 관련 정보 숨기기</string>
     <string name="revanced_hide_expandable_chip_summary_on">다음 정보들이 숨겨집니다:\n동영상 설명, 챕터, 주요 순간, 스크립트,\n재생목록의 동영상, 이 동영상에 나온 제품 ...</string>
     <string name="revanced_hide_expandable_chip_summary_off">다음 정보들이 표시됩니다:\n동영상 설명, 챕터, 주요 순간, 스크립트,\n재생목록의 동영상, 이 동영상에 나온 제품 ...</string>
     <string name="revanced_hide_feed_captions_button_title">피드 자막 버튼 숨기기</string>
@@ -314,7 +314,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_enable_phone_layout_title">휴대폰 레이아웃 활성화하기</string>
     <string name="revanced_enable_phone_layout_summary">dpi를 변경하여 일부 레이아웃을 휴대폰 레이아웃으로 활성화합니다.</string>
     <string name="revanced_enable_tablet_layout_title">태블릿 레이아웃 활성화하기</string>
-    <string name="revanced_enable_tablet_layout_summary">dpi를 변경하여 일부 레이아웃을 태블릿 레이아웃으로 활성화합니다.\n\n이 설정을 활성화하면 다음 RVX 설정이 잠겨질 수 있습니다:\n• 커뮤니티 게시물\n• 전체 화면의 일부 기능</string>
+    <string name="revanced_enable_tablet_layout_summary">dpi를 변경하여 일부 레이아웃을 태블릿 레이아웃으로 활성화합니다.\n\n이 설정을 활성화하면 다음 RVX 설정이 잠겨질 수 있습니다:\n• 최신 동영상 버튼 숨기기\n• 믹스 재생목록 숨기기\n• 커뮤니티 게시물 설정\n• 전체 화면의 일부 설정 (빠른 작업)</string>
     <string name="revanced_override_video_download_button_title">동영상 오프라인 저장 버튼 재정의하기</string>
     <string name="revanced_override_video_download_button_summary_on">동영상 오프라인 저장 버튼으로 외부 다운로더를 실행할 수 있습니다.</string>
     <string name="revanced_override_video_download_button_summary_off">동영상 오프라인 저장 버튼으로 기본 다운로더를 실행할 수 있습니다. (YouTube Premium 기능)</string>
@@ -1425,6 +1425,9 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_sanitize_sharing_links_summary">링크를 공유할 때, URL에서 추적 쿼리 매개변수를 제거합니다. (URL의 뒷부분 \'?si=...\' 이 제거됨.)</string>
     <string name="revanced_disable_quic_protocol_title">QUIC 프로토콜 비활성화하기</string>
     <string name="revanced_disable_quic_protocol_summary">"QUIC 프로토콜을 비활성화해서 동영상을 불러올 때 발생하는 동영상 압축과 푸는 과정을 제거하여 동영상 로딩 속도를 향상시킵니다. 모바일 데이터 사용량이 증가할 수 있으니 주의하세요."</string>
+    <string name="revanced_change_share_sheet_title">공유 시트 변경하기</string>
+    <string name="revanced_change_share_sheet_summary_on">Android 기본 공유 시트를 사용합니다.\n\n• 공유 버튼으로 바로 Android 기본 공유 메뉴를 실행할 수 있습니다.</string>
+    <string name="revanced_change_share_sheet_summary_off">YouTube 기본 공유 시트를 사용합니다.</string>
     <string name="revanced_enable_opus_codec_title">OPUS 코덱 활성화하기</string>
     <string name="revanced_enable_opus_codec_summary">플레이어 응답에 OPUS 코덱이 포함된 경우에는 OPUS 코덱을 활성화합니다.</string>
     <string name="revanced_spoof_player_parameter_title">플레이어 매개변수 변경하기</string>

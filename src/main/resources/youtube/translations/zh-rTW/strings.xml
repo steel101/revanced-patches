@@ -11,6 +11,8 @@
     <string name="revanced_extended_restart_first_run">重新啟動以套用更改後的介面</string>
     <string name="revanced_extended_restart_message">重新啟動以重新整理介面</string>
     <string name="revanced_playback_speed_normal">一般</string>
+    <string name="revanced_external_downloader_package_name_video_title">影片下載套件名</string>
+    <string name="revanced_external_downloader_package_name_video_summary">您安裝的外部下載器應用程式的套件名稱，例如 NewPipe 或 YTDLnis。</string>
     <string name="revanced_external_downloader_dialog_title">外部下載器</string>
     <string name="revanced_external_downloader_not_installed_dialog_title">警告</string>
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s 未安裝
@@ -309,6 +311,14 @@
     <string name="revanced_enable_phone_layout_summary">以 DPI 欺騙系統使用手機版面配置</string>
     <string name="revanced_enable_tablet_layout_title">啟用平板版面配置</string>
     <string name="revanced_enable_tablet_layout_summary">偽裝 DPI 以使用一些平板電腦版面配置</string>
+    <string name="revanced_override_video_download_button_title">覆蓋影片下載按鈕</string>
+    <string name="revanced_override_video_download_button_summary_on">原生影片下載按鈕可開啟你的外部下載器。</string>
+    <string name="revanced_override_video_download_button_summary_off">原生影片下載按鈕可開啟本機應用程式內下載器。</string>
+    <string name="revanced_override_playlist_download_button_title">覆蓋播放清單下載按鈕</string>
+    <string name="revanced_override_playlist_download_button_summary_on">原生播放清單下載按鈕可開啟您的外部下載器。</string>
+    <string name="revanced_override_playlist_download_button_summary_off">原生播放清單下載按鈕可開啟本機應用程式內下載器。</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">播放清單下載器套件名稱</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">你安裝的外部下載器應用程式的套件名稱，例如 YTDLnis。</string>
     <string name="revanced_spoof_app_version_title">偽裝應用程式版本</string>
     <string name="revanced_spoof_app_version_summary_on">已偽裝版本</string>
     <string name="revanced_spoof_app_version_summary_off">未偽裝版本</string>
@@ -1408,6 +1418,9 @@
     <string name="revanced_sanitize_sharing_links_summary">共享連結時，刪除 URL 中的跟蹤查詢參數</string>
     <string name="revanced_disable_quic_protocol_title">停用 QUIC 協議</string>
     <string name="revanced_disable_quic_protocol_summary">"停用 Cronet 引擎的 QUIC 協議"</string>
+    <string name="revanced_change_share_sheet_title">更改分享擴展</string>
+    <string name="revanced_change_share_sheet_summary_on">使用系統分享擴展。</string>
+    <string name="revanced_change_share_sheet_summary_off">使用應用程式內分享擴展。</string>
     <string name="revanced_enable_opus_codec_title">啟用 OPUS 編解碼器</string>
     <string name="revanced_enable_opus_codec_summary">如果播放器回應包含 OPUS 編解碼器，則啟用 OPUS 編解碼器。</string>
     <string name="revanced_spoof_player_parameter_title">偽裝播放器參數</string>
@@ -1475,6 +1488,11 @@
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
     <string name="revanced_preference_category_spoof_client_about">關於</string>
     <string name="revanced_spoof_client_use_ios_title">iOS</string>
+    <string name="revanced_spoof_client_use_ios_legacy_summary">"偽裝客戶端到iOS。
+
+ 副作用包括：
+ • HDR影片僅在AV1編解碼器上支援。
+ • 觀看時間不會保存在品牌帳戶的觀看記錄中。"</string>
     <string name="revanced_spoof_client_use_ios_summary">"偽裝用戶端到 iOS。
 
  副作用包括：

@@ -1439,6 +1439,9 @@ Shorts
     <string name="revanced_sanitize_sharing_links_summary">Убирает параметры отслеживания запросов из URL при отправке ссылки.</string>
     <string name="revanced_disable_quic_protocol_title">Отключить протокол QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Отключает протокол, построенный поверх UDP, переходя на TCP."</string>
+    <string name="revanced_change_share_sheet_title">Список приложений общего доступа</string>
+    <string name="revanced_change_share_sheet_summary_on">Список приложений общего доступа - системный.</string>
+    <string name="revanced_change_share_sheet_summary_off">Список приложений общего доступа - встроенный.</string>
     <string name="revanced_enable_opus_codec_title">Включить кодек OPUS</string>
     <string name="revanced_enable_opus_codec_summary">Включить кодек OPUS, если содержимое в плеере подходит для кодека.</string>
     <string name="revanced_spoof_player_parameter_title">Подмена параметров плеера</string>

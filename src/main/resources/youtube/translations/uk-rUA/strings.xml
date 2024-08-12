@@ -1409,6 +1409,9 @@
     <string name="revanced_sanitize_sharing_links_summary">Вилучає параметри запиту відстеження з посилань під час поширення посилань.</string>
     <string name="revanced_disable_quic_protocol_title">Вимкнути протокол QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Вимкнути протокол CronetEngine's QUIC"</string>
+    <string name="revanced_change_share_sheet_title">Змінити діалог Поділитися</string>
+    <string name="revanced_change_share_sheet_summary_on">Використовується системний діалог поширення.</string>
+    <string name="revanced_change_share_sheet_summary_off">Використовується діалог Поділитися додатка.</string>
     <string name="revanced_enable_opus_codec_title">Увімкнути кодек OPUS</string>
     <string name="revanced_enable_opus_codec_summary">Вмикає кодек OPUS, якщо відповідь плеєра включає кодек OPUS.</string>
     <string name="revanced_spoof_player_parameter_title">Підробити параметр плеєра</string>

@@ -72,11 +72,11 @@ Ha tiltva van, akkor blokkolja a t. k. hírdetéseket. (lehetnek mellékhatások
 Korlátozások:
 • A könyvtár lapon lévő albumok képei kisebbek lesznek, ha rácsba vannak rendezve.
 • Az alvásidőzítő elrendezése szokatlannak tűnhet."</string>
-    <string name="revanced_enable_trim_silence_title">Trim csendkapcsoló hozzáadása</string>
-    <string name="revanced_enable_trim_silence_summary">"A 'Trim csend' kapcsoló hozzáadása a lejátszási sebesség flyout menühöz.
+    <string name="revanced_enable_trim_silence_title">Csend kivágás kapcsoló hozzáadása</string>
+    <string name="revanced_enable_trim_silence_summary">"A 'Csend kivágás' kapcsoló hozzáadása a lejátszási sebesség felugró menühöz.
 
-Info:
-• Ez a funkció podcastok számára készült.
+Információ:
+• Ez a funkció podcastek számára készült.
 • Ez a funkció még fejlesztés alatt áll, ezért instabil lehet."</string>
     <string name="revanced_hide_flyout_menu_like_dislike_title">A tetszik és nem tetszik gombok elrejtése</string>
     <string name="revanced_hide_flyout_menu_3_column_component_title">3 oszlopos komponens elrejtése</string>
@@ -127,16 +127,16 @@ Info:
     <string name="revanced_change_start_page_entry_subscription">Feliratkozások</string>
     <string name="revanced_disable_auto_captions_title">Kényszerített automatikus feliratok letiltása</string>
     <string name="revanced_disable_auto_captions_summary">Letiltja a feliratokat, hogy ne jelenjenek meg automatikusan.</string>
-    <string name="revanced_disable_dislike_redirection_title">Dislike átirányítás letiltása</string>
-    <string name="revanced_disable_dislike_redirection_summary">Letiltja az átirányítást a következő számra, amikor rányomsz a dislike gombra.</string>
+    <string name="revanced_disable_dislike_redirection_title">Nem tetszik átirányítás letiltása</string>
+    <string name="revanced_disable_dislike_redirection_summary">Letiltja az átirányítást a következő számra, amikor rányomsz a nem tetszik gombra.</string>
     <string name="revanced_enable_landscape_mode_title">Fekvő mód engedélyezése</string>
     <string name="revanced_enable_landscape_mode_summary">Engedélyezi a fekvő módot, amikor elforgatod a telefonodat.</string>
-    <string name="revanced_custom_filter_title">Egyedi szűrők engedélyezése</string>
+    <string name="revanced_custom_filter_title">Egyéni szűrők engedélyezése</string>
     <string name="revanced_custom_filter_summary">Engedélyezi, hogy saját menüket is elrejts.</string>
     <string name="revanced_custom_filter_strings_title">Egyéni szűrő</string>
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">A szűrendő elemek útvonal-építő stringjeinek listája, új sorokkal elválasztva.</string>
-    <string name="revanced_custom_filter_toast_invalid_syntax">Érvénytelen egyedi szűrő: %s.</string>
+    <string name="revanced_custom_filter_toast_invalid_syntax">Érvénytelen egyéni szűrő: %s.</string>
     <string name="revanced_hide_settings_menu_title">Beállítások menü elrejtése</string>
     <string name="revanced_hide_settings_menu_summary">"A beállítások menü elemeinek elrejtése.
 Ez nemcsak az YT Music beállítások menüjét, hanem a ReVanced Extended beállítások menüjét is elrejti."</string>
@@ -162,7 +162,7 @@ Ez nemcsak az YT Music beállítások menüjét, hanem a ReVanced Extended beál
     <string name="revanced_hide_history_button_summary">Elrejti az előzmények gombot az eszköztáron.</string>
     <string name="revanced_hide_notification_button_title">Értesítés gomb elrejtése</string>
     <string name="revanced_hide_notification_button_summary">Elrejti az értesítés gombot az eszköztáron.</string>
-    <string name="revanced_hide_sound_search_button_title">Hangkeresés gomb elrejtése</string>
+    <string name="revanced_hide_sound_search_button_title">Zenekeresés gomb elrejtése</string>
     <string name="revanced_hide_sound_search_button_summary">Elrejti a zene keresés gombot a kereső sávban.</string>
     <string name="revanced_hide_voice_search_button_title">Hangkeresés gomb elrejtése</string>
     <string name="revanced_hide_voice_search_button_summary">Elrejti a hang keresés gombot a kereső sávban.</string>
@@ -196,7 +196,7 @@ Ez nem kerüli meg a korhatárkorlátozást. Csak automatikusan elfogadja azt."<
     <string name="revanced_hide_navigation_upgrade_button_summary">Elrejti az előfizetés gombot.</string>
     <string name="revanced_hide_navigation_bar_title">Navigációs sáv elrejtése</string>
     <string name="revanced_hide_navigation_bar_summary">Elrejti a navigációs sávot.</string>
-    <string name="revanced_hide_navigation_label_title">Navigációs sáv elrejtése</string>
+    <string name="revanced_hide_navigation_label_title">Navigációs címkék elrejtése</string>
     <string name="revanced_hide_navigation_label_summary">Elrejti a szöveget a navigációs gombok alatt.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Lejátszó</string>
@@ -221,7 +221,7 @@ Ez nem kerüli meg a korhatárkorlátozást. Csak automatikusan elfogadja azt."<
     <string name="revanced_enable_zen_mode_podcast_title">Zen mód engedélyezése podcastekben</string>
     <string name="revanced_enable_zen_mode_podcast_summary">A zen mód a podcast-ekben is működni fog.</string>
     <string name="revanced_hide_audio_video_switch_toggle_title">Hang/Videó gomb elrejtése</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">Elrejti a hang/videó kapcsolót a lejátszóban.</string>
+    <string name="revanced_hide_audio_video_switch_toggle_summary">Elrejti a hang/videó gombot a lejátszóban.</string>
     <string name="revanced_hide_comment_channel_guidelines_title">Csatorna irányelveinek elrejtése</string>
     <string name="revanced_hide_comment_channel_guidelines_summary">Elrejti a csatorna irányelveit a komment szekció tetején.</string>
     <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">Elrejti az edőbélyeg és az emoji gombokat</string>
@@ -256,21 +256,21 @@ Előfordulhat, hogy egyes funkciók nem működnek megfelelően a régi lejátsz
     <string name="revanced_remember_video_quality_none">Nem sikerült beállítani a minőséget.</string>
     <string name="revanced_remember_video_quality_wifi">Az alapértelmezett Wi-Fi-minőség módosítása a következőre: %s.</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->
-    <string name="revanced_preference_screen_ryd_title">YouTube Dislike visszaállítása</string>
-    <string name="revanced_ryd_enabled_title">Return YouTube Dislike engedélyezése</string>
-    <string name="revanced_ryd_enabled_summary">Megjeleníti a videók dislike-számát.</string>
-    <string name="revanced_ryd_dislike_percentage_title">Dislike-ok megjelenítése százalékban</string>
+    <string name="revanced_preference_screen_ryd_title">YouTube nem tetszések visszaállítása</string>
+    <string name="revanced_ryd_enabled_title">YouTube nem tetszések visszaállításának engedélyezése</string>
+    <string name="revanced_ryd_enabled_summary">Megjeleníti a videók nem tetszésének számát.</string>
+    <string name="revanced_ryd_dislike_percentage_title">Nem tetszések megjelenítése százalékban</string>
     <string name="revanced_ryd_dislike_percentage_summary">A nem tetszések százalékos arányát jeleníti meg a nem tetszések száma helyett.</string>
     <string name="revanced_ryd_compact_layout_title">Kompakt kedvelés gomb</string>
     <string name="revanced_ryd_compact_layout_summary">Elrejti a kedvelés gomb elválasztóját.</string>
     <string name="revanced_ryd_toast_on_connection_error_title">Köszöntő megjelenítése, ha az API nem elérhető</string>
-    <string name="revanced_ryd_toast_on_connection_error_summary">Megjelenik egy üzenet, ha a Return YouTube Dislike API nem érhető el.</string>
+    <string name="revanced_ryd_toast_on_connection_error_summary">Megjelenik egy üzenet, ha a YouTube nem tetszések visszaállítása API nem érhető el.</string>
     <string name="revanced_ryd_about">Névjegy</string>
     <string name="revanced_ryd_attribution_title">ReturnYouTubeDislike.com</string>
-    <string name="revanced_ryd_attribution_summary">Az adatokat a Return YouTube Dislike API biztosítja. További információért nyomj ide.</string>
-    <string name="revanced_ryd_failure_connection_timeout">Dislike-ok átmenetileg nem érhetőek el (API időkorlát lejárt).</string>
+    <string name="revanced_ryd_attribution_summary">Az adatokat a YouTube nem tetszések visszaállítása API biztosítja. További információért nyomj ide.</string>
+    <string name="revanced_ryd_failure_connection_timeout">Nem tetszések átmenetileg nem érhetőek el (API időkorlát lejárt).</string>
     <string name="revanced_ryd_failure_connection_status_code">A nem tetszik funkció nem elérhető (állapot: %d).</string>
-    <string name="revanced_ryd_failure_client_rate_limit_requested">Dislike-ok nem érhetőek el (kliens API limit elérve).</string>
+    <string name="revanced_ryd_failure_client_rate_limit_requested">Nem tetszések nem érhetőek el (kliens API limit elérve).</string>
     <string name="revanced_ryd_failure_generic">A nem tetszik funkció nem elérhető (%s).</string>
     <string name="revanced_ryd_video_likes_hidden_by_video_owner">Rejtett</string>
     <!-- PreferenceScreen: SponsorBlock -->
@@ -333,6 +333,8 @@ Előfordulhat, hogy egyes funkciók nem működnek megfelelően a régi lejátsz
     <string name="revanced_preference_screen_misc_title">Egyéb</string>
     <string name="revanced_bypass_image_region_restrictions_title">Területi kép-korlátozások megkerülése</string>
     <string name="revanced_bypass_image_region_restrictions_summary">Helyettesíti az egyes régiókban blokkolt tartományt, így a lejátszási lista miniatűrjei, csatorna avatarok stb. fogadhatóak.</string>
+    <string name="revanced_change_share_sheet_title">Megosztási lap megváltoztatása</string>
+    <string name="revanced_change_share_sheet_summary">Váltás az alkalmazáson belüli megosztási lapról a rendszer megosztási lapjára.</string>
     <string name="revanced_enable_cairo_splash_animation_title">Betöltési animáció engedélyezése</string>
     <string name="revanced_enable_cairo_splash_animation_summary">Engedélyezi a betöltési animációt amikor az app indul.</string>
     <string name="revanced_enable_debug_logging_title">Hibanaplók engedélyezése</string>

@@ -1418,6 +1418,9 @@ Pulsa el botón de continuar y desactiva las optimizaciones de la batería."</st
     <string name="revanced_sanitize_sharing_links_summary">Elimina los parámetros de consulta de seguimiento de las URL al compartir enlaces.</string>
     <string name="revanced_disable_quic_protocol_title">Desactivar protocolo QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Desactiva el protocolo QUIC de CronetEngine."</string>
+    <string name="revanced_change_share_sheet_title">Cambiar hoja de compartir</string>
+    <string name="revanced_change_share_sheet_summary_on">Se utiliza la hoja de compartir del sistema.</string>
+    <string name="revanced_change_share_sheet_summary_off">Se utiliza la hoja de compartir incorporada.</string>
     <string name="revanced_enable_opus_codec_title">Activar códec OPUS</string>
     <string name="revanced_enable_opus_codec_summary">Activa el códec OPUS si la respuesta del reproductor incluye el códec OPUS.</string>
     <string name="revanced_spoof_player_parameter_title">Falsificar parámetro del reproductor</string>

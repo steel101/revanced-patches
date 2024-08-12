@@ -1410,6 +1410,9 @@ Nhấn vào Tiếp tục và tắt tối ưu hóa pin."</string>
     <string name="revanced_sanitize_sharing_links_summary">Loại bỏ các tham số truy vấn theo dõi khỏi URL khi chia sẻ liên kết.</string>
     <string name="revanced_disable_quic_protocol_title">Tắt giao thức QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"Tắt giao thức QUIC của CronetEngine để giảm độ trễ khi phát video."</string>
+    <string name="revanced_change_share_sheet_title">Thay đổi hộp thoại chia sẻ</string>
+    <string name="revanced_change_share_sheet_summary_on">Sử dụng hộp thoại chia sẻ của hệ thống.</string>
+    <string name="revanced_change_share_sheet_summary_off">Sử dụng hộp thoại chia sẻ trong ứng dụng.</string>
     <string name="revanced_enable_opus_codec_title">Bật Codec OPUS</string>
     <string name="revanced_enable_opus_codec_summary">Bật codec OPUS nếu phản hồi của trình phát bao gồm codec OPUS.</string>
     <string name="revanced_spoof_player_parameter_title">Giả mạo thông số trình phát</string>
