@@ -271,8 +271,12 @@ Some features may not work properly in the old player layout."</string>
     <string name="revanced_custom_playback_speeds_summary">Add or change available playback speeds.</string>
     <string name="revanced_remember_playback_speed_last_selected_title">Remember playback speed changes</string>
     <string name="revanced_remember_playback_speed_last_selected_summary">Remembers the last playback speed selected.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Show a toast</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary">Show a toast when changing the default playback speed.</string>
     <string name="revanced_remember_video_quality_last_selected_title">Remember video quality changes</string>
     <string name="revanced_remember_video_quality_last_selected_summary">Remembers the last video quality selected.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Show a toast</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary">Show a toast when changing the default video quality.</string>
     <string name="revanced_custom_playback_speeds_invalid">Custom speeds must be less than %sx. Using default values.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Invalid custom playback speeds. Using default values.</string>
     <string name="revanced_remember_playback_speed_toast">Changing default speed to %s.</string>
