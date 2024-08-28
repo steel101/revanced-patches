@@ -11,7 +11,7 @@
     <string name="revanced_extended_restart_first_run">Uruchom ponownie, aby wczytać poprawnie układ aplikacji</string>
     <string name="revanced_extended_restart_message">Odśwież i uruchom ponownie</string>
     <string name="revanced_playback_speed_normal">Normalna</string>
-    <string name="revanced_external_downloader_package_name_video_title">Nazwa pakietu aplikacji od pobierania</string>
+    <string name="revanced_external_downloader_package_name_video_title">Nazwa pakietu aplikacji od pobierania (filmy)</string>
     <string name="revanced_external_downloader_package_name_video_summary">Nazwa pakietu zainstalowanej zewnętrznej aplikacji od pobierania, takiej jak NewPipe lub YTDLnis.</string>
     <string name="revanced_external_downloader_dialog_title">Zewnętrzna aplikacja od pobierania</string>
     <string name="revanced_external_downloader_not_installed_dialog_title">Ostrzeżenie</string>
@@ -315,7 +315,7 @@ Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie."</string>
     <string name="revanced_override_playlist_download_button_title">Metoda pobierania playlist</string>
     <string name="revanced_override_playlist_download_button_summary_on">Zewnętrzna aplikacja</string>
     <string name="revanced_override_playlist_download_button_summary_off">Natywne pobieranie</string>
-    <string name="revanced_external_downloader_package_name_playlist_title">Nazwa pakietu aplikacji od pobierania</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">Nazwa pakietu aplikacji od pobierania (playlisty)</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Nazwa pakietu zainstalowanej zewnętrznej aplikacji od pobierania, takiej jak YTDLnis.</string>
     <string name="revanced_spoof_app_version_title">Oszukiwanie wersji aplikacji</string>
     <string name="revanced_spoof_app_version_summary_on">Włączone</string>

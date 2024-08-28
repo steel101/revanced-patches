@@ -524,13 +524,13 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_seek_undo_message_title">シーク取り消しメッセージを非表示</string>
     <string name="revanced_hide_seek_undo_message_summary_on">シーク取り消しのメッセージを非表示にします。</string>
     <string name="revanced_hide_seek_undo_message_summary_off">シーク取り消しのメッセージを非表示にします。</string>
-    <string name="revanced_hide_suggested_actions_title">提案されたアクションを非表示</string>
+    <string name="revanced_hide_suggested_actions_title">提案されるアクションを非表示</string>
     <string name="revanced_hide_suggested_actions_summary_on">プレーヤー上の「Premium のコントロール」などの提案を非表示にします。</string>
     <string name="revanced_hide_suggested_actions_summary_off">プレーヤー上の「Premium のコントロール」などの提案を非表示にします。</string>
     <string name="revanced_hide_timed_reactions_title">リアクションを非表示</string>
     <string name="revanced_hide_timed_reactions_summary_on">Timed Reactions を非表示にします。</string>
     <string name="revanced_hide_timed_reactions_summary_off">Timed Reactions を非表示にします。</string>
-    <string name="revanced_hide_suggested_video_end_screen_title">おすすめされた動画の終了画面を非表示</string>
+    <string name="revanced_hide_suggested_video_end_screen_title">おすすめされる動画の終了画面を非表示</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_on">"自動再生がオフの場合、おすすめの動画は動画の終了画面で表示されません。\n\n自動再生は YouTube の設定で変更できます: 「設定 → 自動再生 → 次の動画を自動再生」"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">自動再生がオフの場合、おすすめの動画は動画の終了画面で表示されません。\n\n自動再生は YouTube の設定で変更できます: 「設定 → 自動再生 → 次の動画を自動再生」</string>
     <string name="revanced_hide_zoom_overlay_title">ズームオーバーレイを非表示</string>
@@ -979,8 +979,8 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_shorts_super_thanks_button_summary_on">「Super Thanks」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_super_thanks_button_summary_off">「Super Thanks」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_tagged_products_title">タグ付き商品を非表示</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_on">タグ付けされた商品を非表示にします。</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_off">タグ付けされた商品を非表示にします。</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_on">タグ付けされている商品を非表示にします。</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_off">タグ付けされている商品を非表示にします。</string>
     <string name="revanced_hide_shorts_location_label_title">位置情報のラベルを非表示</string>
     <string name="revanced_hide_shorts_location_label_summary_on">プレーヤー下部に表示される、位置情報のラベルを非表示にします。</string>
     <string name="revanced_hide_shorts_location_label_summary_off">プレーヤー下部に表示される、位置情報のラベルを非表示にします。</string>
@@ -1412,8 +1412,8 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_disable_quic_protocol_title">QUIC プロトコルを無効化</string>
     <string name="revanced_disable_quic_protocol_summary">"CronetEngine の QUIC プロトコルを無効化します。これにより動画の読み込み速度が多少改善されます。"</string>
     <string name="revanced_change_share_sheet_title">共有メニューを変更</string>
-    <string name="revanced_change_share_sheet_summary_on">「共有」ボタンをタップした際に表示される共有メニューを、システムのデフォルトの共有メニューに置き換えます。</string>
-    <string name="revanced_change_share_sheet_summary_off">「共有」ボタンをタップした際に表示される共有メニューを、システムのデフォルトの共有メニューに置き換えます。</string>
+    <string name="revanced_change_share_sheet_summary_on">「共有」ボタンをタップした際に表示される共有メニューを、システムの共有メニューに置き換えます。</string>
+    <string name="revanced_change_share_sheet_summary_off">「共有」ボタンをタップした際に表示される共有メニューを、システムの共有メニューに置き換えます。</string>
     <string name="revanced_enable_opus_codec_title">OPUS コーデックを有効化</string>
     <string name="revanced_enable_opus_codec_summary">プレーヤーの応答に OPUS コーデックが含まれている場合、OPUS コーデックを有効化します。</string>
     <string name="revanced_spoof_player_parameter_title">プレーヤーのパラメーターを偽装</string>
@@ -1544,7 +1544,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_preference_category_patch_information">パッチ情報</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->
     <string name="revanced_preference_screen_patch_information_title">パッチ情報</string>
-    <string name="revanced_preference_screen_patch_information_summary">適用されたパッチに関する情報</string>
+    <string name="revanced_preference_screen_patch_information_summary">適用されたパッチに関する情報です。</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Tool used -->
     <string name="revanced_preference_category_tool_used">使用されたツール</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->

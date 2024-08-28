@@ -348,7 +348,7 @@
 • Останні YouTube Music клієнти за умовчанням використовують аудіокодек OPUS.
 • Це буде корисно лише для користувачів, які користуються дуже старими клієнтами."</string>
     <string name="gms_core_settings_title">Відкрити GmsCore</string>
-    <string name="gms_core_settings_summary">Увімкніть \"Харні повідомлення\", щоб отримувати сповіщення.</string>
+    <string name="gms_core_settings_summary">Увімкніть \"Хмарні повідомлення\", щоб отримувати сповіщення.</string>
     <string name="gms_core_toast_not_installed_message">GmsCore не встановлено. Встановіть.</string>
     <string name="gms_core_dialog_title">Потрібна дія</string>
     <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"GmsCore не дозволено працювати у фоні.

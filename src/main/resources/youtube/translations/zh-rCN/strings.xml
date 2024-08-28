@@ -1131,9 +1131,15 @@
     <string name="revanced_remember_playback_speed_last_selected_title">记住播放速度更改</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_on">播放速度更改适用于所有视频</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_off">播放速度更改仅适用于当前视频</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">显示 Toast</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">更改默认播放速度时，显示 Toast</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">更改默认播放速度时，不显示 Toast</string>
     <string name="revanced_remember_video_quality_last_selected_title">记住视频画质更改</string>
     <string name="revanced_remember_video_quality_last_selected_summary_on">画质更改适用于所有视频</string>
     <string name="revanced_remember_video_quality_last_selected_summary_off">画质更改仅适用于当前视频</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">显示 Toast</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_on">更改默认视频画质时，显示 Toast</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_off">更改默认视频画质时，不显示 Toast</string>
     <string name="revanced_restore_old_video_quality_menu_title">恢复旧的视频画质菜单</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">显示旧的视频画质菜单</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">不显示旧的视频画质菜单</string>
@@ -1411,6 +1417,9 @@
     <string name="revanced_sanitize_sharing_links_summary">共享链接时，删除 URL 中的跟踪查询参数</string>
     <string name="revanced_disable_quic_protocol_title">禁用 QUIC 协议</string>
     <string name="revanced_disable_quic_protocol_summary">"禁用 Cronet 引擎的 QUIC 协议"</string>
+    <string name="revanced_change_share_sheet_title">更改分享菜单</string>
+    <string name="revanced_change_share_sheet_summary_on">系统分享菜单已启用</string>
+    <string name="revanced_change_share_sheet_summary_off">应用内分享菜单已启用</string>
     <string name="revanced_enable_opus_codec_title">启用 OPUS 编解码器</string>
     <string name="revanced_enable_opus_codec_summary">如果播放器支持 OPUS 编解码器，则启用 OPUS 编解码器</string>
     <string name="revanced_spoof_player_parameter_title">伪装播放器参数</string>

@@ -200,6 +200,10 @@ YT Music の設定だけでなく、ReVanced Extended の設定も非表示に�
     <string name="revanced_hide_navigation_label_summary">ナビゲーションバーのラベルを非表示にします。</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">プレーヤー</string>
+    <string name="revanced_disable_mini_player_gesture_title">ミニプレーヤージェスチャーを無効にする</string>
+    <string name="revanced_disable_mini_player_gesture_summary">ミニプレーヤーでスワイプによる曲の変更を無効にします</string>
+    <string name="revanced_disable_player_gesture_title">プレイヤージェスチャーを無効にする</string>
+    <string name="revanced_disable_player_gesture_summary">プレイヤーでスワイプによる曲の変更を無効にします。</string>
     <string name="revanced_enable_black_player_background_title">黒のプレイヤー背景を有効化</string>
     <string name="revanced_enable_black_player_background_summary">プレイヤーの背景の色を黒に固定します。</string>
     <string name="revanced_enable_color_match_player_title">カラーマッチプレーヤーを有効化</string>
@@ -329,6 +333,8 @@ YT Music の設定だけでなく、ReVanced Extended の設定も非表示に�
     <string name="revanced_preference_screen_misc_title">その他</string>
     <string name="revanced_bypass_image_region_restrictions_title">画像表示の地域制限を回避</string>
     <string name="revanced_bypass_image_region_restrictions_summary">プレイリストのサムネイルやチャンネルアバターなどを受信できるように、一部の地域でブロックされているドメインを置き換えます。</string>
+    <string name="revanced_change_share_sheet_title">共有メニューを変更</string>
+    <string name="revanced_change_share_sheet_summary">アプリ内共有メニューからシステムの共有メニューに置き換えます。</string>
     <string name="revanced_enable_cairo_splash_animation_title">Cairo のスプラッシュアニメーションを有効化</string>
     <string name="revanced_enable_cairo_splash_animation_summary">アプリ起動時にCairo のスプラッシュアニメーションを有効にします。</string>
     <string name="revanced_enable_debug_logging_title">デバッグログ</string>

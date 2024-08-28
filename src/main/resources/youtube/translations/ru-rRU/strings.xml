@@ -912,9 +912,9 @@ Shorts
     <string name="revanced_hide_attributes_section_title">Секция \"Атрибуты\"</string>
     <string name="revanced_hide_attributes_section_summary_on">Секция \"Атрибуты\" (Особенные места, Игры, Музыка) скрыта.</string>
     <string name="revanced_hide_attributes_section_summary_off">Секция \"Атрибуты\" (Особенные места, Игры, Музыка) отображена.</string>
-    <string name="revanced_hide_chapters_section_title">Секции глав</string>
-    <string name="revanced_hide_chapters_section_summary_on">Секции глав скрыты.</string>
-    <string name="revanced_hide_chapters_section_summary_off">Секции глав отображены.</string>
+    <string name="revanced_hide_chapters_section_title">Секция \"Главы\"</string>
+    <string name="revanced_hide_chapters_section_summary_on">Секция \"Главы\" скрыта.</string>
+    <string name="revanced_hide_chapters_section_summary_off">Секция \"Главы\" отображена.</string>
     <string name="revanced_hide_contents_section_title">Секция содержимого</string>
     <string name="revanced_hide_contents_section_summary_on">Секция содержимого скрыта.</string>
     <string name="revanced_hide_contents_section_summary_off">Секция содержимого отображена.</string>
@@ -930,9 +930,9 @@ Shorts
     <string name="revanced_hide_shopping_links_title">Ссылки покупок</string>
     <string name="revanced_hide_shopping_links_summary_on">Ссылки на покупки скрыты.</string>
     <string name="revanced_hide_shopping_links_summary_off">Ссылки на покупки отображены.</string>
-    <string name="revanced_hide_transcript_section_title">Секции транскрипций</string>
-    <string name="revanced_hide_transcript_section_summary_on">Секции транскрипций скрыты.</string>
-    <string name="revanced_hide_transcript_section_summary_off">Секции транскрипций отображены.</string>
+    <string name="revanced_hide_transcript_section_title">Секция \"Расшифровка видео\"</string>
+    <string name="revanced_hide_transcript_section_summary_on">Секция \"Расшифровка видео\" скрыта.</string>
+    <string name="revanced_hide_transcript_section_summary_off">Секция \"Расшифровка видео\" отображена.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description, PreferenceCategory: Experimental Flags -->
     <string name="revanced_disable_video_description_interaction_title">Взаимодействие с описанием видео</string>
     <string name="revanced_disable_video_description_interaction_summary">"Отключает следующее взаимодействие при расширении описания видео:
