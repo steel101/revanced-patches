@@ -1421,6 +1421,7 @@ Limitation: Dislikes may not appear if the user is not logged in or in incognito
     <string name="revanced_sb_general_skipcount_sum_off">Skip count tracking is not enabled.</string>
     <string name="revanced_sb_general_min_duration">Minimum segment duration</string>
     <string name="revanced_sb_general_min_duration_sum">Segments shorter than this value (in seconds) will not be shown or skipped.</string>
+    <string name="revanced_sb_general_min_duration_invalid">Invalid time duration.</string>
     <string name="revanced_sb_general_uuid">Your private user id</string>
     <string name="revanced_sb_general_uuid_sum">This should be kept private. This is like a password and should not be shared with anyone. If someone has this, they can impersonate you.</string>
     <string name="revanced_sb_general_uuid_invalid">Private user id must be at least 30 characters long.</string>
