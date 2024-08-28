@@ -1600,6 +1600,13 @@ Limitation: Feed videos will play for less than 1 minute before encountering pla
     <string name="revanced_spoof_client_summary_on">Client is spoofed.</string>
     <string name="revanced_spoof_client_summary_off">"Client is not spoofed. Video playback may not work."</string>
     <string name="revanced_spoof_client_user_dialog_message">Turning off this setting may cause video playback issues.</string>
+    <string name="revanced_spoof_client_type_title">Spoof client type</string>
+    <string name="revanced_spoof_client_ios_force_avc_title">Force iOS AVC (H.264)</string>
+    <string name="revanced_spoof_client_ios_force_avc_summary_on">iOS video codec is AVC (H.264).</string>
+    <string name="revanced_spoof_client_ios_force_avc_summary_off">iOS video codec is AVC (H.264), VP9, or AV1.</string>
+    <string name="revanced_spoof_client_ios_force_avc_user_dialog_message">"Enabling this might improve battery life and fix playback stuttering.
+
+AVC (H.264) has a maximum resolution of 1080p, and video playback will use more internet data than VP9 or AV1."</string>
     <string name="revanced_spoof_client_stats_for_nerds_title">Show in Stats for nerds</string>
     <string name="revanced_spoof_client_stats_for_nerds_summary_on">Spoofed client is shown in Stats for nerds.</string>
     <string name="revanced_spoof_client_stats_for_nerds_summary_off">Spoofed client is hidden in Stats for nerds.</string>
@@ -1626,12 +1633,12 @@ Limitation: Feed videos will play for less than 1 minute before encountering pla
     <string name="revanced_spoof_client_use_ios_legacy_summary">"Spoof client to iOS.
 
 Side effects include:
-• HDR video is supported only on AV1 codec.
+• HDR is supported only with AV1 codec.
 • Watch time is not saved in watch history on brand account."</string>
     <string name="revanced_spoof_client_use_ios_summary">"Spoof client to iOS.
 
 Side effects include:
-• HDR video is supported only on AV1 codec.
+• HDR is supported only with AV1 codec.
 • Watch history does not work with a brand account."</string>
     <string name="revanced_spoof_client_use_android_testsuite_title">Android Testsuite</string>
     <string name="revanced_spoof_client_use_android_testsuite_summary">"Spoof client to Android Testsuite.
