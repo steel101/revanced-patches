@@ -1226,9 +1226,15 @@ Limitations:
     <string name="revanced_remember_playback_speed_last_selected_title">Remember playback speed changes</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_on">Playback speed changes apply to all videos.</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_off">Playback speed changes only apply to the current video.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Show a toast</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">A toast will be shown when changing the default playback speed.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">A toast will not be shown when changing the default playback speed.</string>
     <string name="revanced_remember_video_quality_last_selected_title">Remember video quality changes</string>
     <string name="revanced_remember_video_quality_last_selected_summary_on">Quality changes apply to all videos.</string>
     <string name="revanced_remember_video_quality_last_selected_summary_off">Quality changes only apply to the current video.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Show a toast</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_on">A toast will be shown when changing the default video quality.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_off">A toast will not be shown when changing the default video quality.</string>
     <string name="revanced_restore_old_video_quality_menu_title">Restore old video quality menu</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Old video quality menu is shown.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Old video quality menu is not shown.</string>
