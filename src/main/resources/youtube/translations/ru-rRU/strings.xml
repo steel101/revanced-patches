@@ -237,7 +237,6 @@ Shorts
 • Некоторые компоненты интерфейса могут быть не скрыты.
 • Поиск по ключевому слову может не дать результатов."</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Недопустимо. \'%s\' не подходит в качестве фильтра.</string>
-    <string name="revanced_hide_keyword_toast_invalid_keyword">Недопустимое ключевое слово. \'%1$s\' это менее %2$d символов</string>
     <string name="revanced_hide_keyword_toast_invalid_broad">Ключевое слово \'%1$s\' не точное и скроет все видео</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Рекомендованное видео</string>
@@ -298,7 +297,7 @@ Shorts
     <string name="revanced_change_start_page_entry_watch_later">Смотреть позже</string>
     <string name="revanced_change_start_page_invalid_toast">Недопустимая начальная страница, сброс по умолчанию.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Принудительные автоматические звуковые дорожки</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">Принудительные автоматические звуковые дорожки отключены.</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_on">"Принудительные автоматические звуковые дорожки отключены."</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Принудительные автоматические звуковые дорожки включены.</string>
     <string name="revanced_disable_auto_captions_title">Принудительные автоматические субтитры</string>
     <string name="revanced_disable_auto_captions_summary_on">Принудительные автоматические субтитры отключены.</string>
@@ -681,9 +680,6 @@ Shorts
     <string name="revanced_hide_player_flyout_menu_report_summary_off">Меню \"Пожаловаться\" отображено.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu, PreferenceCategory: Additional settings -->
     <string name="revanced_preference_category_additional_settings">Дополнительные настройки</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_title">Меню \"Окружающая подсветка\"</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_on">Меню \"Окружающая подсветка\" скрыто.</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">Меню \"Окружающая подсветка\" отображено.</string>
     <string name="revanced_hide_player_flyout_menu_help_title">Меню \"Справка и Отзывы\"</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_on">Меню \"Справка и Отзывы\" скрыто.</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_off">Меню \"Справка и Отзывы\" отображено.</string>
@@ -699,6 +695,9 @@ Shorts
     <string name="revanced_hide_player_flyout_menu_premium_controls_title">Меню \"Настройки Premium\"</string>
     <string name="revanced_hide_player_flyout_menu_premium_controls_summary_on">Меню \"Настройки Premium\" скрыто.</string>
     <string name="revanced_hide_player_flyout_menu_premium_controls_summary_off">Меню \"Настройки Premium\" отображено.</string>
+    <string name="revanced_hide_player_flyout_menu_sleep_timer_title">Меню таймера сна</string>
+    <string name="revanced_hide_player_flyout_menu_sleep_timer_summary_on">Меню таймера сна скрыто.</string>
+    <string name="revanced_hide_player_flyout_menu_sleep_timer_summary_off">Меню таймера сна отображено.</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_title">Меню \"Постоянный уровень громкости\"</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_summary_off">Меню \"Постоянный уровень громкости\" отображено.</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_summary_on">Меню \"Постоянный уровень громкости\" скрыто.</string>
@@ -1155,9 +1154,15 @@ Shorts
     <string name="revanced_remember_playback_speed_last_selected_title">Запомнить скорость воспроизведения</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_on">Изменяется скорость воспроизведения у всех видео.</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_off">Изменяется скорость воспроизведения у текущего видео.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Уведомление о выбранной скорости</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">Всплывающее уведомление отображено.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">Всплывающее уведомление скрыто.</string>
     <string name="revanced_remember_video_quality_last_selected_title">Запомнить изменения качества видео</string>
     <string name="revanced_remember_video_quality_last_selected_summary_on">Изменяется качество у всех видео.</string>
     <string name="revanced_remember_video_quality_last_selected_summary_off">Изменяется качество у текущего видео.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Уведомление о выбранном качестве</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_on">Всплывающее уведомление отображено.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_off">Всплывающее уведомление скрыто.</string>
     <string name="revanced_restore_old_video_quality_menu_title">Старое меню качества</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Старое меню качества отображено.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Старое меню качества скрыто.</string>
@@ -1329,6 +1334,7 @@ Shorts
     <string name="revanced_sb_general_skipcount_sum_off">Отслеживание количества пропусков не включено.</string>
     <string name="revanced_sb_general_min_duration">Минимальная длительность сегмента</string>
     <string name="revanced_sb_general_min_duration_sum">Сегменты, продолжительность которых короче, чем установленное значение (в секундах), не будут пропущены или показаны в плеере.</string>
+    <string name="revanced_sb_general_min_duration_invalid">Недопустимая, минимальная, длительность времени.</string>
     <string name="revanced_sb_general_uuid">Ваш приватный ID</string>
     <string name="revanced_sb_general_uuid_sum">Его нужно держать в секрете. Это как пароль, не стоит им ни с кем делиться. Если он у кого-то есть, он сможет выдать себя за вас.</string>
     <string name="revanced_sb_general_uuid_invalid">Приватный ID должен иметь длину не менее 30 символов.</string>
@@ -1444,23 +1450,6 @@ Shorts
     <string name="revanced_change_share_sheet_summary_off">Список приложений общего доступа - встроенный.</string>
     <string name="revanced_enable_opus_codec_title">Включить кодек OPUS</string>
     <string name="revanced_enable_opus_codec_summary">Включить кодек OPUS, если содержимое в плеере подходит для кодека.</string>
-    <string name="revanced_spoof_player_parameter_title">Подмена параметров плеера</string>
-    <string name="revanced_spoof_player_parameter_summary">"Подменяет параметры плеера для предотвращения проблем с воспроизведением.
-
-Ограничения:
-• Высокий битрейт недоступен.
-• Миниатюры шкалы воспроизведения не работают в видео \"Только для спонсоров\".
-• Офлайн загрузка видео может не работать.
-• Видео может начинаться не с последнего времени просмотра."</string>
-    <string name="revanced_spoof_player_parameter_in_feed_title">Подмена параметров плеера в ленте</string>
-    <string name="revanced_spoof_player_parameter_in_feed_summary_on">"Подмена параметров плеера в ленте включена.
-
-Ограничения:
-Видео, воспроизводимые автоматически в ленте, будут появляться в истории просмотра."</string>
-    <string name="revanced_spoof_player_parameter_in_feed_summary_off">"Подмена параметров плеера в ленте отключена.
-
-Известная проблема:
-Видео в ленте смогут нормально воспроизводиться меньше минуты до начала проблем с воспроизведением."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->
     <string name="revanced_preference_screen_import_export_title">Импорт/экспорт настроек</string>
     <string name="revanced_preference_screen_import_export_summary">Настройки импорта/экспорта.</string>
@@ -1483,70 +1472,7 @@ Shorts
     <string name="revanced_extended_settings_import_success">Настройки успешно импортированы.</string>
     <string name="revanced_extended_settings_reset">Сброс</string>
     <string name="revanced_share_copy_settings_success">Настройки скопированы в буфер обмена.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client -->
-    <string name="revanced_preference_screen_spoof_client_title">Подмена клиента</string>
-    <string name="revanced_preference_screen_spoof_client_summary">Подменить клиент для предотвращения проблем с воспроизведением видео.</string>
-    <string name="revanced_spoof_client_title">Состояние подмены клиента</string>
-    <string name="revanced_spoof_client_summary_on">Клиент подменен.</string>
-    <string name="revanced_spoof_client_summary_off">"Клиент не подменен.\nВоспроизведение видео может не работать."</string>
-    <string name="revanced_spoof_client_user_dialog_message">Отключение этой настройки вызовет проблемы с воспроизведением видео.</string>
-    <string name="revanced_spoof_client_stats_for_nerds_title">Клиент подмены в статистике для сисадминов</string>
-    <string name="revanced_spoof_client_stats_for_nerds_summary_on">Клиент подмены в статистике для сисадминов отображен.</string>
-    <string name="revanced_spoof_client_stats_for_nerds_summary_off">Клиент подмены в статистике для сисадминов скрыт.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: Spoof client options -->
-    <string name="revanced_preference_category_spoof_client_options">Параметры подмены клиента</string>
-    <string name="revanced_spoof_client_general_title">Подмена для основных видео</string>
-    <string name="revanced_spoof_client_livestream_title">Подмена для трансляций</string>
-    <string name="revanced_spoof_client_shorts_title">Подмена для Shorts и Эпизодов</string>
-    <string name="revanced_spoof_client_fallback_title">Подмена для невоспроизводимых видео</string>
-    <string name="revanced_spoof_client_options_entry_ios">iOS</string>
-    <string name="revanced_spoof_client_options_entry_android">Android</string>
-    <string name="revanced_spoof_client_options_entry_android_embedded_player">Встроенный плеер Android</string>
-    <string name="revanced_spoof_client_options_entry_android_testsuite">Тестовый набор Android</string>
-    <string name="revanced_spoof_client_options_entry_android_unplugged">Android TV</string>
-    <string name="revanced_spoof_client_options_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_client_options_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
-    <string name="revanced_spoof_client_options_entry_web">Web</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
-    <string name="revanced_preference_category_spoof_client_about">О подмене клиента</string>
-    <string name="revanced_spoof_client_use_ios_title">Используется iOS</string>
-    <string name="revanced_spoof_client_use_ios_legacy_summary">"Подмена клиента на iOS.
-
-Ограничения:
-• HDR видео поддерживается только с кодеком AV1.
-• Время просмотра не сохраняется в истории, на каналах бренда."</string>
-    <string name="revanced_spoof_client_use_ios_summary">"При подмене клиента под iOS.
-
-Ограничения:
-• Нет HDR-видео.
-• Отсутствует меню скорости воспроизведения.
-• Видео высокого качества может отсутствовать.
-• История просмотра не работает с учетной записью бренда.
-• Прямые трансляции не могут воспроизводиться в фоновом режиме
-• Прямые трансляции недоступны на Android 8.0."</string>
-    <string name="revanced_spoof_client_use_android_testsuite_title">Используется тестовый набор Android</string>
-    <string name="revanced_spoof_client_use_android_testsuite_summary">"При подмене клиента под тестовый набор Android.
-
-Ограничения:
-• Нет HDR-видео.
-• Отсутствует меню аудиодорожки и меню скорости воспроизведения.
-• Субтитры могут быть недоступны."</string>
-    <string name="revanced_spoof_client_use_android_tv_title">Используется Android TV</string>
-    <string name="revanced_spoof_client_use_android_tv_summary">"При подмене клиента под Android TV (YouTube TV).
-
-Ограничения:
-• Нет HDR-видео.
-• Отсутствует меню аудиодорожки и меню скорости воспроизведения.
-• Субтитры могут быть недоступны.
-• Некоторые трансляции не поддерживают воспроизведение."</string>
-    <string name="revanced_spoof_client_use_android_vr_title">Используется Android VR</string>
-    <string name="revanced_spoof_client_use_android_vr_summary">"При подмене клиента под Android VR.
-
-Ограничения:
-• Нет HDR-видео.
-• Пауза в видео может работать некорректно.
-• Миниатюры шкалы воспроизведения Shorts будут низкого качества.
-• Детские видео не воспроизводятся."</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">История просмотра</string>
     <string name="revanced_preference_screen_watch_history_summary">Изменить настройки истории просмотра.</string>
@@ -1558,16 +1484,9 @@ Shorts
     <string name="revanced_watch_history_type_entry_3">Блокировать историю просмотра</string>
     <string name="revanced_watch_history_about_title">Об истории просмотра</string>
     <string name="revanced_watch_history_about_status_blocked">• История просмотра не работает.</string>
-    <string name="revanced_watch_history_about_status_ios_replaced">"• Следует настройкам истории просмотров аккаунта Google.
-• История просмотра может не работать с аккаунтом бренда.
-(Настройка клиента подмены включен и выбран клиент iOS)"</string>
-    <string name="revanced_watch_history_about_status_ios_original">"• Следует настройкам истории просмотров аккаунта Google.
-• История просмотра может не работать из-за DNS или VPN.
-• История просмотра может не работать с аккаунтом бренда.
-(Настройка клиента подмены включен и выбран клиент iOS)"</string>
-    <string name="revanced_watch_history_about_status_android_replaced">• Следует настройкам истории просмотров аккаунта Google.</string>
-    <string name="revanced_watch_history_about_status_android_original">"• Следует настройкам истории просмотров аккаунта Google.
-• История просмотра может не работать из-за DNS или VPN."</string>
+    <string name="revanced_watch_history_about_status_replaced">• Статус истории просмотров изменен.</string>
+    <string name="revanced_watch_history_about_status_original">"• Статус истории просмотров обычный.
+• История просмотров может не работать с DNS или VPN."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Информация о патчах</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

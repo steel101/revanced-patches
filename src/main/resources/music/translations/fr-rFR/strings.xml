@@ -247,8 +247,12 @@ Certaines fonctions peuvent ne pas fonctionner sur l'ancienne mise en page."</st
     <string name="revanced_custom_playback_speeds_summary">Ajoute ou modifie les vitesses de lecture disponibles.</string>
     <string name="revanced_remember_playback_speed_last_selected_title">Enregistrer la modification de la vitesse de lecture</string>
     <string name="revanced_remember_playback_speed_last_selected_summary">Enregistre la dernière vitesse de lecture sélectionnée.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Afficher un message</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary">Afficher un message lorsque vous modifiez la vitesse de lecture par défaut.</string>
     <string name="revanced_remember_video_quality_last_selected_title">Enregistrer la modification de la résolution</string>
     <string name="revanced_remember_video_quality_last_selected_summary">Enregistre la dernière qualité vidéo sélectionnée.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Afficher un message</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary">Afficher un message lorsque vous modifiez la qualité vidéo par défaut.</string>
     <string name="revanced_custom_playback_speeds_invalid">Les vitesses personnalisées doivent être inférieures à %sx. Valeur réinitialisée par défaut.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Vitesses de lecture invalides. Valeur réinitialisée par défaut.</string>
     <string name="revanced_remember_playback_speed_toast">Vitesse de lecture modifiée par %s.</string>

@@ -214,8 +214,8 @@ Lejátszási listák
     <string name="revanced_hide_keyword_content_home_summary_on">A videók a kezdőlapon kulcsszavak alapján szűrve</string>
     <string name="revanced_hide_keyword_content_home_summary_off">A videók a kezdőlapon nincsenek szűrve</string>
     <string name="revanced_hide_keyword_content_search_title">Keresési eredmények elrejtése kulcsszavak alapján</string>
-    <string name="revanced_hide_keyword_content_search_summary_on">A keresési eredmények kulcsszavak alapján szűrve</string>
-    <string name="revanced_hide_keyword_content_search_summary_off">A keresési eredmények nincsenek szűrve</string>
+    <string name="revanced_hide_keyword_content_search_summary_on">A keresési eredmények szűrve vannak.</string>
+    <string name="revanced_hide_keyword_content_search_summary_off">A keresési eredmények nincsenek szűrve.</string>
     <string name="revanced_hide_keyword_content_subscriptions_title">Videók elrejtése a feliratkozások lapon kulcsszavak alapján</string>
     <string name="revanced_hide_keyword_content_subscriptions_summary_on">A videók a feliratkozások lapon kulcsszavak alapján szűrve</string>
     <string name="revanced_hide_keyword_content_subscriptions_summary_off">A videók a feliratkozások lapon nincsenek szűrve</string>
@@ -227,7 +227,6 @@ Lejátszási listák
     <string name="revanced_hide_keyword_content_about_title">A kulcsszó alapú szűrésről</string>
     <string name="revanced_hide_keyword_content_about_summary">"A Kezdőlap/Feliratkozások/Keresés eredményei a kulcsszóval megegyező tartalom elrejtésére vannak szűrve\n\nKorlátozások\n• Néhány Shorts lehet, hogy nem lesz elrejtve\n• Néhány UI elem lehet, hogy nem lesz elrejtve\n• Előfordulhat, hogy a kulcsszó keresése nem hoz eredményt"</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Érvénytelen kulcsszó.\'%s\'nem használható szűrőként</string>
-    <string name="revanced_hide_keyword_toast_invalid_keyword">Érvénytelen kulcsszó. A(z) %1$s kevesebb, mint %2$d karakter.</string>
     <string name="revanced_hide_keyword_toast_invalid_broad">A(z) %1$s kulcsszó elrejtené az összes videót.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Ajánlott videó</string>
@@ -279,7 +278,7 @@ Lejátszási listák
     <string name="revanced_change_start_page_entry_watch_later">Megnézem később</string>
     <string name="revanced_change_start_page_invalid_toast">Érvénytelen kezdőlap, visszaállítás az eredetire.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Kényszerített automatikus hangsávok letiltása</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">A kényszerített automatikus hangsávok le vannak tiltva.</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_on">"A kényszerített automatikus hangsávok le vannak tiltva."</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">A kényszerített automatikus hangsávok engedélyezve vannak.</string>
     <string name="revanced_disable_auto_captions_title">Kényszerített automatikus feliratok letiltása</string>
     <string name="revanced_disable_auto_captions_summary_on">A kényszerített automatikus feliratok le vannak tiltva.</string>
@@ -662,9 +661,6 @@ Beállítások → Automatikus lejátszás → Következő videó automatikus le
     <string name="revanced_hide_player_flyout_menu_report_summary_off">A jelentés menü megjelenik.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu, PreferenceCategory: Additional settings -->
     <string name="revanced_preference_category_additional_settings">További beállítások</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_title">Környezeti mód menü elrejtése</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_on">Az ambient mód menü el van rejtve.</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">Az ambient mód menü megjelenik.</string>
     <string name="revanced_hide_player_flyout_menu_help_title">Segítség és visszajelzés menü elrejtése</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_on">A segítség és visszajelzés menü el van rejtve.</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_off">A segítség és visszajelzés menü megjelenik.</string>
@@ -1128,9 +1124,15 @@ Megjegyzés: Ezzel a képernyőterület méretét is megváltoztatja, ahol érz�
     <string name="revanced_remember_playback_speed_last_selected_title">Lejátszási sebesség módosításainak megjegyzése</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_on">A lejátszási sebesség módosítása minden videóra érvényes</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_off">A lejátszási sebesség módosítása csak a jelenlegi videóra érvényes</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Mutass egy felugró értesítést</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">Egy felugró értesítés fog látszani, amikor megváltozik az alapértelmezett lejátszási sebesség.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">Nem fog felugró értesítés látszani, amikor megváltozik az alapértelmezett lejátszási sebesség.</string>
     <string name="revanced_remember_video_quality_last_selected_title">Felbontás változtatások mentése</string>
     <string name="revanced_remember_video_quality_last_selected_summary_on">Felbontás változtatások alkalmazása az összes videóra</string>
     <string name="revanced_remember_video_quality_last_selected_summary_off">Felbontás változtatások alkalmazása a jelenlegi videóra</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Mutass egy felugró értesítést</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_on">Egy felugró értesítés fog látszani, amikor megváltozik az alapértelmezett videó minőség.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_off">Nem fog felugró értesítés látszani, amikor megváltozik az alapértelmezett videó minőség.</string>
     <string name="revanced_restore_old_video_quality_menu_title">Régi videóminőség menü visszaállítása</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">A régi videóminőség menü jelenik meg</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">A régi videóminőség menü nem jelenik meg</string>
@@ -1298,6 +1300,7 @@ Egy másik kodek kerül alkalmazásra kb. 20 másodperc pufferezés után."</str
     <string name="revanced_sb_general_skipcount_sum_off">A kihagyások számának követése nem engedélyezett</string>
     <string name="revanced_sb_general_min_duration">Minimális szegmens időtartam</string>
     <string name="revanced_sb_general_min_duration_sum">A beállított értéknél (másodpercben) rövidebb szakaszokat nem hagyja ki vagy nem jeleníti meg</string>
+    <string name="revanced_sb_general_min_duration_invalid">Érvénytelen időtartam.</string>
     <string name="revanced_sb_general_uuid">Az Ön privát felhasználói azonosítója</string>
     <string name="revanced_sb_general_uuid_sum">Ezt bizalmasan kell kezelni. Olyan mint egy jelszó és senkivel sem ajánlott megosztani. Ha valaki megszerzi, meg tudja személyesíteni önt</string>
     <string name="revanced_sb_general_uuid_invalid">A privát felhasználói azonosítónak legalább 30 karakter hosszúnak kell lennie</string>
@@ -1407,21 +1410,6 @@ Egy másik kodek kerül alkalmazásra kb. 20 másodperc pufferezés után."</str
     <string name="revanced_change_share_sheet_summary_off">Az app-on belüli megosztási lap van használatban.</string>
     <string name="revanced_enable_opus_codec_title">OPUS kodek engedélyezése</string>
     <string name="revanced_enable_opus_codec_summary">Engedélyezi az OPUS kodeket, ha a lejátszó válasza tartalmazza az OPUS kodeket.</string>
-    <string name="revanced_spoof_player_parameter_title">Lejátszó paraméter hamisítása</string>
-    <string name="revanced_spoof_player_parameter_summary">"Meghamisítja a lejátszó paramétereit a lejátszási problémák megelőzése érdekében.
-
-Korlátozások:
-• A fokozott bitráta nem érhető el.
-• Nincsenek előnézeti képek a fizetős videókhoz.
-• Az offline letöltések lehet, hogy nem működnek.
-• Lehet, hogy a videó nem a legutóbbi lejátszott időponttól indul."</string>
-    <string name="revanced_spoof_player_parameter_in_feed_title">Lejátszási paraméter hamisítása a hírfolyamban</string>
-    <string name="revanced_spoof_player_parameter_in_feed_summary_on">"A lejátszóparaméterek meghamisítva a hírfolyam-videók esetében.
-
-Korlátozás: Az automatikusan lejátszott hírfolyam-videók megjelennek a megtekintett videók listájában."</string>
-    <string name="revanced_spoof_player_parameter_in_feed_summary_off">"A lejátszóparaméterek nincsenek meghamisítva a hírfolyam-videók esetében.
-
-Korlátozás: A hírfolyamban található videók kevesebb, mint 1 percig játszódnak le, mielőtt lejátszási problémákat tapasztalnának."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->
     <string name="revanced_preference_screen_import_export_title">Beállítások importálása / exportálása</string>
     <string name="revanced_preference_screen_import_export_summary">Beállítások importálása vagy exportálása.</string>
@@ -1444,70 +1432,7 @@ Korlátozás: A hírfolyamban található videók kevesebb, mint 1 percig játsz
     <string name="revanced_extended_settings_import_success">A beállítások sikeresen importálva.</string>
     <string name="revanced_extended_settings_reset">Visszaállítás</string>
     <string name="revanced_share_copy_settings_success">A beállítások a vágólapra másolva.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client -->
-    <string name="revanced_preference_screen_spoof_client_title">Kliens verzió meghamisítása</string>
-    <string name="revanced_preference_screen_spoof_client_summary">Kliens verzió meghamisítása a lejátszási hibák elkerüléséhez.</string>
-    <string name="revanced_spoof_client_title">Kliens verzió meghamisítása</string>
-    <string name="revanced_spoof_client_summary_on">Kliens verzió meghamisítva.</string>
-    <string name="revanced_spoof_client_summary_off">"Kliens verzió nincs hamisítva. Lehet, hogy a videó lejátszás nem működik."</string>
-    <string name="revanced_spoof_client_user_dialog_message">Ez a beállítás kikapcsolása videólejátszási problémákat okozhat.</string>
-    <string name="revanced_spoof_client_stats_for_nerds_title">Megjelenítés a statisztikákban kockáknak</string>
-    <string name="revanced_spoof_client_stats_for_nerds_summary_on">A meghamisított kliens látszik a statisztikában kockáknak.</string>
-    <string name="revanced_spoof_client_stats_for_nerds_summary_off">A meghamisított kliens el van rejtve a statisztikában kockáknak.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: Spoof client options -->
-    <string name="revanced_preference_category_spoof_client_options">Kliens verzió hamisítási lehetőségek</string>
-    <string name="revanced_spoof_client_general_title">Általános</string>
-    <string name="revanced_spoof_client_livestream_title">Élő közvetítések</string>
-    <string name="revanced_spoof_client_shorts_title">Shortok, klippek</string>
-    <string name="revanced_spoof_client_fallback_title">Lejátszhatatlan videó</string>
-    <string name="revanced_spoof_client_options_entry_ios">iOS</string>
-    <string name="revanced_spoof_client_options_entry_android">Android</string>
-    <string name="revanced_spoof_client_options_entry_android_embedded_player">Android beágyazott lejátszó</string>
-    <string name="revanced_spoof_client_options_entry_android_testsuite">Android tesztcsomag</string>
-    <string name="revanced_spoof_client_options_entry_android_unplugged">Android TV</string>
-    <string name="revanced_spoof_client_options_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_client_options_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
-    <string name="revanced_spoof_client_options_entry_web">Web</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
-    <string name="revanced_preference_category_spoof_client_about">Névjegy</string>
-    <string name="revanced_spoof_client_use_ios_title">iOS</string>
-    <string name="revanced_spoof_client_use_ios_legacy_summary">"Kliens hamisítása iOS-re.
-
-A mellékhatások a következők:
-• A HDR videót csak AV1 kodekkel támogatja.
-• A nézési idő nem kerül mentésre a márkafiók megtekintési előzményeiben."</string>
-    <string name="revanced_spoof_client_use_ios_summary">"Kliens verzió hamisítása iOS-re.
-
-A mellékhatások a következők lehetnek:
-• Nincs HDR videó.
-• Hiányzik a lejátszási sebesség menü.
-• Előfordulhat, hogy a jobb videóminőség hiányzik.
-• A megtekintési előzmények nem működnek márkafiókkal.
-• Az élő közvetítések nem játszhatók le csak hangként.
-• Az élő közvetítések nem érhetők el Android 8.0 rendszeren."</string>
-    <string name="revanced_spoof_client_use_android_testsuite_title">Android tesztcsomag</string>
-    <string name="revanced_spoof_client_use_android_testsuite_summary">"Kliens verzió hamisítása Android Testsuite-ra.
-
-A mellékhatások a következők lehetnek:
-• Nincs HDR videó.
-• Hiányzik a hangsáv- és a lejátszási sebesség menü.
-• Előfordulhat, hogy a feliratok nem érhetők el."</string>
-    <string name="revanced_spoof_client_use_android_tv_title">Android TV</string>
-    <string name="revanced_spoof_client_use_android_tv_summary">"Kliens verzió hamisítása Android TV-re (YouTube TV).
-
-A mellékhatások a következők lehetnek:
-• Nincs HDR videó.
-• Hiányzik a hangsáv- és a lejátszási sebesség menü.
-• Előfordulhat, hogy a feliratok nem érhetők el.
-• Egyes élő közvetítések lejátszása nem támogatott."</string>
-    <string name="revanced_spoof_client_use_android_vr_title">Android VR</string>
-    <string name="revanced_spoof_client_use_android_vr_summary">"Kliens verzió hamisítása Android VR-ra.
-
-A mellékhatások a következők lehetnek:
-• Nincs HDR videó.
-• A szüneteltetett videók véletlenszerűen folytatódhatnak.
-• Gyenge minőségű bélyegképek a Shorts keresősávján.
-• A gyerekeknek készült videókat nem lehet lejátszani."</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">Megtekintési előzmények</string>
     <string name="revanced_preference_screen_watch_history_summary">A megtekintési előzményekhez kapcsolódó beállítások módosítása.</string>
@@ -1519,16 +1444,6 @@ A mellékhatások a következők lehetnek:
     <string name="revanced_watch_history_type_entry_3">Megtekintési előzmények tiltása</string>
     <string name="revanced_watch_history_about_title">Megtekintési előzmények állapota</string>
     <string name="revanced_watch_history_about_status_blocked">• A megtekintési előzmények le vannak tiltva.</string>
-    <string name="revanced_watch_history_about_status_ios_replaced">"• Követi a Google-fiók megtekintési előzményeinek beállításait.
-• Előfordulhat, hogy a megtekintési előzmények nem működnek márkafiókkal.
-(A hamis kliens beállítása engedélyezve van, és az iOS kliens ki van választva)"</string>
-    <string name="revanced_watch_history_about_status_ios_original">"• Követi a Google-fiók megtekintési előzményeinek beállításait.
-• Előfordulhat, hogy a megtekintési előzmények nem működnek a DNS vagy a VPN miatt.
-• Előfordulhat, hogy a megtekintési előzmények nem működnek márkafiókkal.
-(A hamis kliens beállítása engedélyezve van, és az iOS kliens ki van választva)"</string>
-    <string name="revanced_watch_history_about_status_android_replaced">• Követi a Google-fiók megtekintési előzményeinek beállításait.</string>
-    <string name="revanced_watch_history_about_status_android_original">"• Követi a Google-fiók megtekintési előzményeinek beállításait.
-• Előfordulhat, hogy a megtekintési előzmények nem működnek a DNS vagy a VPN miatt."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Patch információ</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

@@ -247,8 +247,12 @@
     <string name="revanced_custom_playback_speeds_summary">Налаштувати доступні швидкості відтворення.</string>
     <string name="revanced_remember_playback_speed_last_selected_title">Запам\'ятовувати зміни швидкості відтворення</string>
     <string name="revanced_remember_playback_speed_last_selected_summary">Запам\'ятовує останню вибрану швидкість відтворення.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Показувати тост</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary">Показує тост під час зміни стандартної швидкості відтворення.</string>
     <string name="revanced_remember_video_quality_last_selected_title">Запам\'ятовувати зміни якості відео</string>
     <string name="revanced_remember_video_quality_last_selected_summary">Запам\'ятовує останню вибрану якість відео.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Показувати тост</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary">Показує тост під час зміни стандартної якості відео.</string>
     <string name="revanced_custom_playback_speeds_invalid">Користувацькі швидкості мають бути меншими за %sx. Швидкості скинуто до стандартних значень.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Неправильні користувацькі швидкості відтворення. Використовуються типові значення.</string>
     <string name="revanced_remember_playback_speed_toast">Зміна типової швидкості на %s.</string>
@@ -264,7 +268,7 @@
     <string name="revanced_ryd_compact_layout_title">Компактна кнопка \"Подобається\"</string>
     <string name="revanced_ryd_compact_layout_summary">Приховує лінію між кнопкою \"Подобається\" та кількістю лайків.</string>
     <string name="revanced_ryd_toast_on_connection_error_title">Показувати тост, якщо API не доступний</string>
-    <string name="revanced_ryd_toast_on_connection_error_summary">Показується тост, якщо API ReturnYouTubeDislike не доступний.</string>
+    <string name="revanced_ryd_toast_on_connection_error_summary">Показує тост, якщо API ReturnYouTubeDislike не доступний.</string>
     <string name="revanced_ryd_about">Про інтеграцію</string>
     <string name="revanced_ryd_attribution_title">ReturnYouTubeDislike.com</string>
     <string name="revanced_ryd_attribution_summary">Дані дизлайків надаються за допомогою Return YouTube Dislike API. Натисніть тут, щоб дізнатися більше.</string>
@@ -278,9 +282,9 @@
     <string name="revanced_sb_enabled">Увімкнути SponsorBlock</string>
     <string name="revanced_sb_enabled_sum">SponsorBlock - це краудсорсингова система для пропускання дратівливих частин відео на YouTube.</string>
     <string name="revanced_sb_toast_on_connection_error">Показувати тост, якщо API недоступний</string>
-    <string name="revanced_sb_toast_on_connection_error_sum">Показується тост, якщо API SponsorBlock не доступний.</string>
+    <string name="revanced_sb_toast_on_connection_error_sum">Показує тост, якщо API SponsorBlock не доступний.</string>
     <string name="revanced_sb_toast_on_skip">Показати тост, коли сегмент пропущено автоматично</string>
-    <string name="revanced_sb_toast_on_skip_sum">Показується тост, коли сегмент автоматично пропущено.</string>
+    <string name="revanced_sb_toast_on_skip_sum">Показує тост, коли сегмент автоматично пропущено.</string>
     <string name="revanced_sb_api_url">Змінити URL-адресу API</string>
     <string name="revanced_sb_api_url_sum">Адреса, яку SponsorBlock використовує для звернень до сервера. Не змінюйте це, якщо не знаєте, що робите.</string>
     <string name="revanced_sb_api_url_reset">Адресу сервера API скинуто.</string>

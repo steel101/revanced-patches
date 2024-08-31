@@ -224,17 +224,21 @@ Cửa hàng"</string>
     <string name="revanced_hide_keyword_content_comments_summary_off">Bình luận không lọc theo từ khoá đã đặt.</string>
     <string name="revanced_hide_keyword_content_phrases_title">Bộ lọc từ khoá</string>
     <string name="revanced_hide_keyword_content_phrases_summary">"Nhập từ hoặc cụm từ cần ẩn được phân cách bằng dòng.
+
+Từ khóa có thể là tên kênh hoặc bất kỳ văn bản nào hiển thị trong tiêu đề video.
+
 Bộ lọc có phân biệt chữ hoa chữ thường, vì vậy bạn cần nhập chính xác định dạng để lọc (Ví dụ: iPhone, TikTok, LeBlanc)."</string>
     <string name="revanced_hide_keyword_content_about_title">Giới thiệu về lọc từ khoá</string>
     <string name="revanced_hide_keyword_content_about_summary">"Nội dung khớp với từ khoá bạn đã đặt sẽ bị ẩn trên thẻ Trang chủ/Kênh đăng ký và kết quả tìm kiếm.
 
  Hạn chế:
-• Một số video ngắn có thể không bị ẩn.
+• Video Shorts không bị ẩn theo tên kênh.
 • Một số thành phần giao diện người dùng có thể không bị ẩn.
 • Tìm kiếm từ khoá có thể không cho kết quả nào."</string>
-    <string name="revanced_hide_keyword_toast_invalid_common">Từ khoá không hợp lệ. Không thể sử dụng: \"%s\" làm điều kiện lọc.</string>
-    <string name="revanced_hide_keyword_toast_invalid_keyword">Từ khoá không hợp lệ. \'%1$s\' phải ít hơn %2$d ký tự.</string>
-    <string name="revanced_hide_keyword_toast_invalid_broad">Từ khóa \'%1$s\' sẽ ẩn toàn bộ video.</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_title">Khớp toàn bộ từ</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_summary">Việc đặt từ/cụm từ cần lọc trong dấu ngoặc kép sẽ ngăn chặn các kết quả chỉ trùng một phần với tiêu đề video và tên kênh.&lt;br&gt;&lt;br&gt;Ví dụ,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; sẽ ẩn video: &lt;b&gt;How does AI work?&lt;/b&gt;&lt;br&gt;nhưng sẽ không ẩn: &lt;b&gt;What does fair use mean?&lt;/b&gt;</string>
+    <string name="revanced_hide_keyword_toast_invalid_common">Không thể sử dụng từ khoá: %s.</string>
+    <string name="revanced_hide_keyword_toast_invalid_broad">Từ khóa sẽ ẩn tất cả video: %s.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Video được đề xuất</string>
     <string name="revanced_hide_recommended_video_title">Ẩn video đề xuất</string>
@@ -283,9 +287,11 @@ Bộ lọc có phân biệt chữ hoa chữ thường, vì vậy bạn cần nh�
     <string name="revanced_change_start_page_entry_trending">Thịnh hành</string>
     <string name="revanced_change_start_page_entry_watch_later">Xem sau</string>
     <string name="revanced_change_start_page_invalid_toast">Trang khởi động không hợp lệ. Đã đặt lại về mặc định.</string>
-    <string name="revanced_disable_auto_audio_tracks_title">Tắt tự động phát bản âm thanh</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">Tự động phát bản âm thanh khi phát video có bản âm thanh đã tắt.</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_off">Tự động phát bản âm thanh khi phát video có bản âm thanh đã bật.</string>
+    <string name="revanced_disable_auto_audio_tracks_title">Tắt buộc tự động phát bản âm thanh</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_on">"Buộc tự động phát bản âm thanh đã bị tắt.
+
+Hạn chế: Tính năng này hiện chưa áp dụng cho trình Shorts."</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_off">Buộc tự động phát bản âm thanh đã được bật.</string>
     <string name="revanced_disable_auto_captions_title">Tắt tự động hiển thị phụ đề</string>
     <string name="revanced_disable_auto_captions_summary_on">Tự động hiển thị phụ đề khi phát video có phụ đề đã tắt.</string>
     <string name="revanced_disable_auto_captions_summary_off">Tự động hiển thị phụ đề khi phát video có phụ đề đã bật.</string>
@@ -440,7 +446,7 @@ Phụ đề"</string>
     <string name="revanced_preference_screen_toolbar_summary">Ẩn hoặc thay đổi các thành phần trên thanh công cụ, chẳng hạn như thanh tìm kiếm, các nút trên thanh công cụ và tiêu đề YouTube.</string>
     <string name="revanced_change_youtube_header_title">Thay đổi tiêu đề YouTube</string>
     <string name="revanced_change_youtube_header_summary_on">Tiêu đề Premium được kích hoạt.</string>
-    <string name="revanced_change_youtube_header_summary_off">Tiêu đề Youtube được kích hoạt.</string>
+    <string name="revanced_change_youtube_header_summary_off">Tiêu đề Youtube mặc định.</string>
     <string name="revanced_enable_wide_search_bar_title">Thanh tìm kiếm rộng</string>
     <string name="revanced_enable_wide_search_bar_summary_on">Thanh tìm kiếm rộng đã bật.</string>
     <string name="revanced_enable_wide_search_bar_summary_off">Thanh tìm kiếm rộng đã tắt.</string>
@@ -666,9 +672,6 @@ Cài đặt → Tự động phát → Tự động phát video tiếp theo."</s
     <string name="revanced_hide_player_flyout_menu_report_summary_off">Mục Báo vi phạm được hiển thị.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu, PreferenceCategory: Additional settings -->
     <string name="revanced_preference_category_additional_settings">Cài đặt bổ sung</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_title">Ẩn mục Chế độ môi trường xung quanh</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_on">Mục Chế độ môi trường xung quanh đã ẩn.</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">Mục Chế độ môi trường xung quanh được hiển thị.</string>
     <string name="revanced_hide_player_flyout_menu_help_title">Ẩn Trợ giúp &amp; Phản hồi</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_on">Trợ giúp &amp; Phản hồi đã ẩn.</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_off">Trợ giúp &amp; Phản hồi được hiển thị.</string>
@@ -684,6 +687,9 @@ Cài đặt → Tự động phát → Tự động phát video tiếp theo."</s
     <string name="revanced_hide_player_flyout_menu_premium_controls_title">Ẩn mục Nút điều khiển cho gói Premium</string>
     <string name="revanced_hide_player_flyout_menu_premium_controls_summary_on">Mục Nút điều khiển cho gói Premium đã ẩn.</string>
     <string name="revanced_hide_player_flyout_menu_premium_controls_summary_off">Mục Nút điều khiển cho gói Premium được hiển thị.</string>
+    <string name="revanced_hide_player_flyout_menu_sleep_timer_title">Ẩn mục Hẹn giờ đi ngủ</string>
+    <string name="revanced_hide_player_flyout_menu_sleep_timer_summary_on">Mục Hẹn giờ đi ngủ đã ẩn.</string>
+    <string name="revanced_hide_player_flyout_menu_sleep_timer_summary_off">Mục Hẹn giờ đi ngủ đã hiển thị.</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_title">Ẩn mục Âm lượng ổn định</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_summary_off">Mục Âm lượng ổn định được hiển thị.</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_summary_on">Mục Âm lượng ổn định đã ẩn.</string>
@@ -1428,21 +1434,6 @@ Nhấn vào Tiếp tục và tắt tối ưu hóa pin."</string>
     <string name="revanced_change_share_sheet_summary_off">Sử dụng giao diện chia sẻ của ứng dụng.</string>
     <string name="revanced_enable_opus_codec_title">Bật Codec OPUS</string>
     <string name="revanced_enable_opus_codec_summary">Bật codec OPUS nếu phản hồi của trình phát bao gồm codec OPUS.</string>
-    <string name="revanced_spoof_player_parameter_title">Giả mạo thông số trình phát</string>
-    <string name="revanced_spoof_player_parameter_summary">"Giả mạo thông số trình phát để khắc phục vấn đề giật hình khi phát video.
-
-Hạn chế:
-• Tốc độ bit nâng cao không khả dụng.
-• Không có hình xem trước khi tua đối với video dành cho hội viên.
-• Tải xuống ngoại tuyến có thể không hoạt động.
-• Video có thể không bắt đầu từ thời điểm đã xem gần nhất."</string>
-    <string name="revanced_spoof_player_parameter_in_feed_title">Giả mạo thông số trình phát trên bảng tin</string>
-    <string name="revanced_spoof_player_parameter_in_feed_summary_on">"Giả mạo thông số trình phát cho các video ở bảng tin đã bật.
-
-Hạn chế: Video được phát tự động sẽ hiển thị trong lịch sử xem của bạn."</string>
-    <string name="revanced_spoof_player_parameter_in_feed_summary_off">"Giả mạo thông số trình phát cho các video ở bảng tin đã tắt.
-
-Hạn chế: Video được phát tự động sẽ phát dưới 1 phút trước khi bị giật hình."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->
     <string name="revanced_preference_screen_import_export_title">Nhập/Xuất cài đặt</string>
     <string name="revanced_preference_screen_import_export_summary">Nhập hoặc xuất cài đặt.</string>
@@ -1465,79 +1456,7 @@ Hạn chế: Video được phát tự động sẽ phát dưới 1 phút trư�
     <string name="revanced_extended_settings_import_success">Cài đặt đã được nhập thành công.</string>
     <string name="revanced_extended_settings_reset">Đặt lại</string>
     <string name="revanced_share_copy_settings_success">Đã sao chép cài đặt sang bảng nhớ tạm.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client -->
-    <string name="revanced_preference_screen_spoof_client_title">Giả mạo máy khách</string>
-    <string name="revanced_preference_screen_spoof_client_summary">Giả mạo máy khách để ngăn chặn sự cố phát.</string>
-    <string name="revanced_spoof_client_title">Giả mạo máy khách</string>
-    <string name="revanced_spoof_client_summary_on">Máy khách đã được giả mạo.</string>
-    <string name="revanced_spoof_client_summary_off">"Máy khách hiện không được giả mạo. Phát video có thể không hoạt động."</string>
-    <string name="revanced_spoof_client_user_dialog_message">Việc tắt cài đặt này có thể gây ra sự cố phát video.</string>
-    <string name="revanced_spoof_client_type_title">Kiểu giả mạo máy khách</string>
-    <string name="revanced_spoof_client_ios_force_avc_title">Buộc iOS sử dụng AVC (H.264)</string>
-    <string name="revanced_spoof_client_ios_force_avc_summary_on">Codec video trên iOS là AVC (H.264).</string>
-    <string name="revanced_spoof_client_ios_force_avc_summary_off">Codec video trên iOS là AVC (H.264), VP9, or AV1.</string>
-    <string name="revanced_spoof_client_ios_force_avc_user_dialog_message">"Bật chức năng này có thể tăng cường thời lượng pin và khắc phục tình trạng giật lag khi phát video.
-
-AVC (H.264) có độ phân giải tối đa 1080p, và phát video sẽ dùng nhiều dữ liệu di động hơn với VP9 hoặc AV1."</string>
-    <string name="revanced_spoof_client_stats_for_nerds_title">Hiển thị trong Thống kê chi tiết</string>
-    <string name="revanced_spoof_client_stats_for_nerds_summary_on">Giả mạo máy khách được hiển thị trong Thống kê chi tiết.</string>
-    <string name="revanced_spoof_client_stats_for_nerds_summary_off">Giả mạo máy khách bị ẩn trong Thống kê chi tiết.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: Spoof client options -->
-    <string name="revanced_preference_category_spoof_client_options">Tùy chọn giả mạo máy khách</string>
-    <string name="revanced_spoof_client_general_title">Chung</string>
-    <string name="revanced_spoof_client_livestream_title">Phát trực tiếp</string>
-    <string name="revanced_spoof_client_shorts_title">Shorts, Clips</string>
-    <string name="revanced_spoof_client_fallback_title">Video không thể phát</string>
-    <string name="revanced_spoof_client_options_entry_ios">iOS</string>
-    <string name="revanced_spoof_client_options_entry_android">Android</string>
-    <string name="revanced_spoof_client_options_entry_android_embedded_player">Trình phát Android Embedded</string>
-    <string name="revanced_spoof_client_options_entry_android_testsuite">Thử nghiệm Android</string>
-    <string name="revanced_spoof_client_options_entry_android_unplugged">Android TV</string>
-    <string name="revanced_spoof_client_options_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_client_options_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
-    <string name="revanced_spoof_client_options_entry_web">Web</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
-    <string name="revanced_preference_category_spoof_client_about">Giới thiệu</string>
-    <string name="revanced_spoof_client_use_ios_title">iOS</string>
-    <string name="revanced_spoof_client_use_ios_legacy_summary">"Giả mạo máy khách sang iOS.
-
-Hạn chế gồm:
-• Video HDR chỉ được hỗ trợ trên codec AV1.
-• Thời gian xem không được lưu trong Lịch sử xem khi dùng tài khoản doanh nghiệp."</string>
-    <string name="revanced_spoof_client_use_ios_summary">"Giả mạo máy khách sang iOS.
-
-Hạn chế:
-• Video HDR chỉ được hỗ trợ trên codec AV1.
-• Lịch sử xem không hoạt động với tài khoản doanh nghiệp."</string>
-    <string name="revanced_spoof_client_use_android_testsuite_title">Thử nghiệm Android</string>
-    <string name="revanced_spoof_client_use_android_testsuite_summary">"Giả mạo máy khách thành thử nghiệm Android.
-
-Hạn chế:
-• Không có video HDR.
-• Menu theo dõi âm thanh bị thiếu.
-• Chú thích có thể không có sẵn.
-• Thiếu nút tải xuống.
-• Thẻ kết thúc video bị thiếu.
-• Ảnh trên thanh tiến trình có chất lượng thấp."</string>
-    <string name="revanced_spoof_client_use_android_tv_title">Android TV</string>
-    <string name="revanced_spoof_client_use_android_tv_summary">"Giả mạo máy khách thành Android TV (YouTube TV).
-
- Hạn chế gồm:
- • Không có video HDR.
- • Thiếu menu âm thanh.
- • Phụ đề có thể không khả dụng.
- • Thiếu nút tải xuống.
- • Ảnh trên thanh tiến trình có chất lượng thấp.
- • Một số phát trực tiếp không được hỗ trợ phát lại."</string>
-    <string name="revanced_spoof_client_use_android_vr_title">Android VR</string>
-    <string name="revanced_spoof_client_use_android_vr_summary">"Giả mạo máy khách thành Android VR.
-
-Hạn chế:
-• Không có video HDR.
-• Nút tải xuống trên thanh thao tác video bị thiếu.
-• Tạm dừng video có thể bất ngờ tiếp tục.
-• Ảnh trên thanh tiến trình của Shorts có chất lượng thấp.
-• Video dành cho trẻ em không khởi chạy được."</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">Lịch sử xem</string>
     <string name="revanced_preference_screen_watch_history_summary">Thay đổi cài đặt liên quan đến Lịch sử xem.</string>
@@ -1547,17 +1466,10 @@ Hạn chế:
     <string name="revanced_watch_history_type_entry_1">Gốc</string>
     <string name="revanced_watch_history_type_entry_2">Thay thế miền</string>
     <string name="revanced_watch_history_type_entry_3">Chặn Lịch sử xem</string>
-    <string name="revanced_watch_history_about_title">Giới thiệu về Lịch sử xem</string>
-    <string name="revanced_watch_history_about_status_blocked">• Lịch sử xem không hoạt động.</string>
-    <string name="revanced_watch_history_about_status_ios_replaced">"• Thực hiện theo cài đặt Lịch sử xem của tài khoản Google.
-• Lịch sử xem có thể không hoạt động với tài khoản doanh nghiệp.
-(Cài đặt giả mạo máy khách được bật và máy khách iOS được chọn)"</string>
-    <string name="revanced_watch_history_about_status_ios_original">"• Thực hiện theo cài đặt Lịch sử xem của tài khoản Google.
-• Lịch sử xem có thể không hoạt động do DNS hoặc VPN.
-• Lịch sử xem có thể không hoạt động với tài khoản doanh nghiệp.
-(Cài đặt giả mạo máy khách được bật và máy khách iOS được chọn)"</string>
-    <string name="revanced_watch_history_about_status_android_replaced">• Thực hiện theo cài đặt Lịch sử xem của tài khoản Google.</string>
-    <string name="revanced_watch_history_about_status_android_original">"• Thực hiện theo cài đặt Lịch sử xem của tài khoản Google.
+    <string name="revanced_watch_history_about_title">Trạng thái của Lịch sử xem</string>
+    <string name="revanced_watch_history_about_status_blocked">• Lịch sử xem bị chặn.</string>
+    <string name="revanced_watch_history_about_status_replaced">• Tuân theo cài đặt Lịch sử xem của tài khoản Google.</string>
+    <string name="revanced_watch_history_about_status_original">"• Tuân theo cài đặt lịch sử xem của tài khoản Google.
 • Lịch sử xem có thể không hoạt động do DNS hoặc VPN."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Thông tin bản vá</string>

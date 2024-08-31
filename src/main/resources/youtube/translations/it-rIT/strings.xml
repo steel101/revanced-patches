@@ -233,7 +233,6 @@ Limitazioni:
 - Alcuni componenti della interfaccia utente potrebbero non essere nascosti.
 - La ricerca di una parola chiave potrebbe non mostrare alcun risultato."</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Parola chiave non valida. Non è possibile usare: \'%s\' come filtro</string>
-    <string name="revanced_hide_keyword_toast_invalid_keyword">Parola chiave non valida. \'%1$s\' è lunga meno di %2$d caratteri.</string>
     <string name="revanced_hide_keyword_toast_invalid_broad">La parola chiave \'%1$s\' nasconderà tutti i video.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Video consigliati</string>
@@ -284,7 +283,7 @@ Limitazioni:
     <string name="revanced_change_start_page_entry_watch_later">Guarda più tardi</string>
     <string name="revanced_change_start_page_invalid_toast">Scheda iniziale non valida, ripristinata al valore predefinito.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Disabilita le tracce audio automatiche forzate</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">Le tracce audio automatiche forzate sono disattivate.</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_on">"Le tracce audio automatiche forzate sono disattivate."</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Le tracce audio automatiche forzate sono abilitate.</string>
     <string name="revanced_disable_auto_captions_title">Disattiva i sottotitoli automatici forzati</string>
     <string name="revanced_disable_auto_captions_summary_on">I sottotitoli automatici forzati sono disattivati.</string>
@@ -667,9 +666,6 @@ Impostazioni → Riproduzione automatica → Riproduzione automatica del video s
     <string name="revanced_hide_player_flyout_menu_report_summary_off">Il menu Segnala è visibile.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu, PreferenceCategory: Additional settings -->
     <string name="revanced_preference_category_additional_settings">Impostazioni aggiuntive</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_title">Nascondi il menu Modalità Ambient</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_on">Il menu Modalità Ambient è nascosto.</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">Il menu Modalità Ambient è visibile.</string>
     <string name="revanced_hide_player_flyout_menu_help_title">Nascondi menu Guida &amp; feedback</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_on">Il menu Guida &amp; feedback è nascosto.</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_off">Il menu Guida &amp; feedback è visibile.</string>
@@ -1136,9 +1132,15 @@ Problema noto: Poiché questa è una caratteristica nella fase di sviluppo di Go
     <string name="revanced_remember_playback_speed_last_selected_title">Ricorda le modifiche della velocità di riproduzione</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_on">Le modifiche della velocità di riproduzione si applicano a tutti i video.</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_off">Le modifiche della velocità di riproduzione si applicano solo al video corrente.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Mostra un toast</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">Un toast verrà mostrato quando si cambia la velocità di riproduzione predefinita.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">Un toast non verrà mostrato quando si cambia la velocità di riproduzione predefinita.</string>
     <string name="revanced_remember_video_quality_last_selected_title">Ricorda i cambiamenti di qualità video</string>
     <string name="revanced_remember_video_quality_last_selected_summary_on">I cambiamenti di qualità si applicano a tutti i video.</string>
     <string name="revanced_remember_video_quality_last_selected_summary_off">I cambiamenti di qualità si applicano solo al video corrente.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Mostra un toast</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_on">Un toast verrà mostrato quando si cambia la velocità di riproduzione predefinita.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_off">Un toast non verrà mostrato quando si cambia la qualità video predefinita.</string>
     <string name="revanced_restore_old_video_quality_menu_title">Ripristina il vecchio menu di qualità video</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Vecchio menu di qualità video è mostrato.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Il vecchio menu di qualità video non è mostrato.</string>
@@ -1308,6 +1310,7 @@ Limitazione: Non mi piace possono non apparire se l'utente non è registrato o i
     <string name="revanced_sb_general_skipcount_sum_off">Il tracciamento del contatore dei salti non è abilitato.</string>
     <string name="revanced_sb_general_min_duration">Durata minima del segmento</string>
     <string name="revanced_sb_general_min_duration_sum">I segmenti più brevi di questo valore (in secondi) non verranno mostrati o saltati.</string>
+    <string name="revanced_sb_general_min_duration_invalid">Durata di tempo non valida.</string>
     <string name="revanced_sb_general_uuid">Il tuo Id utente privato</string>
     <string name="revanced_sb_general_uuid_sum">Questo dovrebbe essere tenuto privato. È come una password e non dovrebbe essere condiviso con nessuno. Se qualcuno dovesse ottenerlo, potrebbe impersonarti.</string>
     <string name="revanced_sb_general_uuid_invalid">L\'id utente privato deve essere lungo almeno 30 caratteri.</string>
@@ -1423,21 +1426,6 @@ Tocca il pulsante continua e disabilita le ottimizzazioni della batteria."</stri
     <string name="revanced_change_share_sheet_summary_off">Schermata di condivisione nativa in utilizzo.</string>
     <string name="revanced_enable_opus_codec_title">Abilita codec OPUS</string>
     <string name="revanced_enable_opus_codec_summary">Abilita il codec OPUS se la risposta del riproduttore include il codec OPUS.</string>
-    <string name="revanced_spoof_player_parameter_title">Simula i parametri del riproduttore</string>
-    <string name="revanced_spoof_player_parameter_summary">"Simula i parametri del riproduttore per prevenire problemi di riproduzione.
-
-Problemi noti:
-• Il bitrate migliorato non sarà disponibile
-• La barra di avanzamento nel thumbnail dei video a pagamento sarà nascosta
-• Il download offline potrebbe non funzionare
-• Il video potrebbe non iniziare dall'ultimo minutaggio visto"</string>
-    <string name="revanced_spoof_player_parameter_in_feed_title">Simula i parametri del riproduttore nei feed</string>
-    <string name="revanced_spoof_player_parameter_in_feed_summary_on">"I parametri del riproduttore sono simulati per i video nei feed.
-
-Problema noto: i video nei feed riprodotti automaticamente appariranno nella cronologia"</string>
-    <string name="revanced_spoof_player_parameter_in_feed_summary_off">"I parametri del riproduttore non sono simulati per i video nei feed.
-
-Problema noto: i video nei feed saranno riprodotti per meno di un minuto prima di avere problemi di riproduzione"</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->
     <string name="revanced_preference_screen_import_export_title">Importa / Esporta impostazioni</string>
     <string name="revanced_preference_screen_import_export_summary">Importa o esporta le impostazioni.</string>
@@ -1460,70 +1448,7 @@ Problema noto: i video nei feed saranno riprodotti per meno di un minuto prima d
     <string name="revanced_extended_settings_import_success">Impostazioni importate con successo</string>
     <string name="revanced_extended_settings_reset">Ripristina</string>
     <string name="revanced_share_copy_settings_success">Impostazioni copiate negli appunti</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client -->
-    <string name="revanced_preference_screen_spoof_client_title">Spoof client</string>
-    <string name="revanced_preference_screen_spoof_client_summary">Spoof il client per prevenire problemi di riproduzione.</string>
-    <string name="revanced_spoof_client_title">Spoof client</string>
-    <string name="revanced_spoof_client_summary_on">Client è spoofato.</string>
-    <string name="revanced_spoof_client_summary_off">"Client non è spoofato. La riproduzione video potrebbe non funzionare."</string>
-    <string name="revanced_spoof_client_user_dialog_message">Disattivare questa impostazione potrebbe causare problemi di riproduzione video.</string>
-    <string name="revanced_spoof_client_stats_for_nerds_title">Mostra nelle statistiche per nerd</string>
-    <string name="revanced_spoof_client_stats_for_nerds_summary_on">Il client spoofato è mostrato nelle statistiche per nerd.</string>
-    <string name="revanced_spoof_client_stats_for_nerds_summary_off">Il client spoofato è nascosto nelle statistiche per nerd.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: Spoof client options -->
-    <string name="revanced_preference_category_spoof_client_options">Opzioni client Spoof</string>
-    <string name="revanced_spoof_client_general_title">Generale</string>
-    <string name="revanced_spoof_client_livestream_title">Live streams</string>
-    <string name="revanced_spoof_client_shorts_title">Shorts, Clips</string>
-    <string name="revanced_spoof_client_fallback_title">Alternativa</string>
-    <string name="revanced_spoof_client_options_entry_ios">iOS</string>
-    <string name="revanced_spoof_client_options_entry_android">Android</string>
-    <string name="revanced_spoof_client_options_entry_android_embedded_player">Riproduttore Incorporato Android</string>
-    <string name="revanced_spoof_client_options_entry_android_testsuite">Suite di test Android</string>
-    <string name="revanced_spoof_client_options_entry_android_unplugged">Android TV</string>
-    <string name="revanced_spoof_client_options_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_client_options_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
-    <string name="revanced_spoof_client_options_entry_web">Web</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
-    <string name="revanced_preference_category_spoof_client_about">Informazioni</string>
-    <string name="revanced_spoof_client_use_ios_title">iOS</string>
-    <string name="revanced_spoof_client_use_ios_legacy_summary">"Spoof client to iOS.
-
-Gli effetti collaterali includono:
-• Il video HDR è supportato solo su codec AV1.
-• Il tempo di osservazione non viene salvato nella cronologia sull'account brand."</string>
-    <string name="revanced_spoof_client_use_ios_summary">"Spoof client ad iOS.
-
-Gli effetti collaterali includono:
-• Nessun video HDR.
-• Manca il menu velocità di riproduzione.
-• Potrebbero mancare qualità video più elevate.
-• La cronologia delle visualizzazioni non funziona con un account brand.
-• Le live Streams non possono essere riprodotti solo come audio.
-• Le live streams non sono disponibili su Android 8.0."</string>
-    <string name="revanced_spoof_client_use_android_testsuite_title">Suite di test Android</string>
-    <string name="revanced_spoof_client_use_android_testsuite_summary">"Spoof client ad Suite di test Android.
-
-Gli effetti collaterali includono:
-• Nessun video HDR.
-• Manca il menu traccia audio e la velocità di riproduzione.
-• I sottotitoli potrebbero non essere disponibili."</string>
-    <string name="revanced_spoof_client_use_android_tv_title">Android TV</string>
-    <string name="revanced_spoof_client_use_android_tv_summary">"Spoof client per Android TV (YouTube TV).
-
-Effetti collaterali includono:
-• Nessun video HDR.
-• Manca il menu traccia audio e la velocità di riproduzione.
-• I sottotitoli potrebbero non essere disponibili.
-• Alcune live streams non sono supportati per la riproduzione."</string>
-    <string name="revanced_spoof_client_use_android_vr_title">Android VR</string>
-    <string name="revanced_spoof_client_use_android_vr_summary">"Spoof client ad Android VR.
-
-Gli effetti collaterali includono:
-• Nessun video HDR.
-• I video in pausa possono riprendere in modo casuale.
-• Bassa qualità miniature della barra di ricerca.
-• I video per bambini non riproducono."</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">Cronologia</string>
     <string name="revanced_preference_screen_watch_history_summary">Cambia le impostazioni relative alla cronologia.</string>
@@ -1535,16 +1460,6 @@ Gli effetti collaterali includono:
     <string name="revanced_watch_history_type_entry_3">Blocca cronologia</string>
     <string name="revanced_watch_history_about_title">Informazioni sulla cronologia</string>
     <string name="revanced_watch_history_about_status_blocked">• La cronologia non funziona.</string>
-    <string name="revanced_watch_history_about_status_ios_replaced">"• Segue le impostazioni di cronologia dell'account Google.
-• La cronologia potrebbe non funzionare con un account brand.
-(L'impostazione di Spoof del client è attiva e il client iOS è selezionato)"</string>
-    <string name="revanced_watch_history_about_status_ios_original">"• Segue le impostazioni di cronologia dell'account Google.
-• La cronologia potrebbe non funzionare a causa di DNS o VPN.
-• La cronologia potrebbe non funzionare con un account brand.
-(L'impostazione di Spoof del client è attiva e il client iOS è selezionato)"</string>
-    <string name="revanced_watch_history_about_status_android_replaced">• Segue le impostazioni di cronologia dell\'account Google.</string>
-    <string name="revanced_watch_history_about_status_android_original">"• Segue le impostazioni di cronologia dell'account Google.
-• La cronologia potrebbe non funzionare a causa di DNS o VPN."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Informazioni patch</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

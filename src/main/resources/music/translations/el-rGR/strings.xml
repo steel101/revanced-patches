@@ -247,8 +247,12 @@
     <string name="revanced_custom_playback_speeds_summary">Ρύθμιση των διαθέσιμων ταχυτήτων αναπαραγωγής.</string>
     <string name="revanced_remember_playback_speed_last_selected_title">Απομνημόνευση αλλαγών ταχύτητας αναπαραγωγής</string>
     <string name="revanced_remember_playback_speed_last_selected_summary">Απομνημόνευση της τελευταίας ταχύτητας αναπαραγωγής που επιλέχθηκε.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Εμφάνιση μηνύματος</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary">Εμφάνιση μηνύματος στο κάτω μέρος της οθόνης κατά την αλλαγή προεπιλεγμένης ταχύτητας αναπαραγωγής.</string>
     <string name="revanced_remember_video_quality_last_selected_title">Απομνημόνευση αλλαγών ποιότητας βίντεο</string>
     <string name="revanced_remember_video_quality_last_selected_summary">Απομνημόνευση της τελευταίας ποιότητας βίντεο που επιλέχθηκε.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Εμφάνιση μηνύματος</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary">Εμφάνιση μηνύματος στο κάτω μέρος της οθόνης κατά την αλλαγή προεπιλεγμένης ποιότητας βίντεο.</string>
     <string name="revanced_custom_playback_speeds_invalid">Οι ταχύτητες πρέπει να είναι μικρότερες από %sx, επαναφέρθηκαν.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Μη έγκυρες ταχύτητες αναπαραγωγής, επαναφέρθηκαν.</string>
     <string name="revanced_remember_playback_speed_toast">Η προεπιλεγμένη ταχύτητα άλλαξε σε %s.</string>

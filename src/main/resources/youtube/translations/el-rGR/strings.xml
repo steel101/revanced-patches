@@ -231,7 +231,6 @@ Playlists
 • Κάποια στοιχεία UI ενδέχεται να μην κρύβονται.
 • Η αναζήτηση για μια λέξη-κλειδί ενδέχεται να μην εμφανίζει κανένα αποτέλεσμα."</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Μη έγκυρη λέξη-κλειδί. Αδυναμία χρήσης: \'%s\' ως φίλτρο</string>
-    <string name="revanced_hide_keyword_toast_invalid_keyword">Μη έγκυρη λέξη-κλειδί. \'%1$s\' είναι μικρότερο από %2$d χαρακτήρες</string>
     <string name="revanced_hide_keyword_toast_invalid_broad">Η λέξη-κλειδί \'%1$s\' θα κρύβει όλα τα βίντεο.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Προτεινόμενα βίντεο</string>
@@ -282,7 +281,9 @@ Playlists
     <string name="revanced_change_start_page_entry_watch_later">Παρακολούθηση αργότερα</string>
     <string name="revanced_change_start_page_invalid_toast">Μη έγκυρη αρχική σελίδα, επαναφέρθηκε.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Απενεργοποίηση υποχρεωτικών κομματιών ήχου</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">Τα υποχρεωτικά κομμάτια ήχου είναι απενεργοποιημένα.</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_on">"Τα υποχρεωτικά κομμάτια ήχου είναι απενεργοποιημένα.
+
+Περιορισμός: Αυτή η λειτουργία δεν ισχύει για τα Shorts."</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Τα υποχρεωτικά κομμάτια ήχου είναι ενεργοποιημένα.</string>
     <string name="revanced_disable_auto_captions_title">Απενεργοποίηση αυτόματων υπότιτλων</string>
     <string name="revanced_disable_auto_captions_summary_on">Οι υποχρεωτικοί αυτόματοι υπότιτλοι είναι απενεργοποιημένοι.</string>
@@ -665,9 +666,6 @@ Playlists
     <string name="revanced_hide_player_flyout_menu_report_summary_off">Εμφανίζεται.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu, PreferenceCategory: Additional settings -->
     <string name="revanced_preference_category_additional_settings">Πρόσθετες ρυθμίσεις</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_title">Μενού «Λειτουργία περιβάλλοντος»</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_on">Κρυμμένο.</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">Εμφανίζεται.</string>
     <string name="revanced_hide_player_flyout_menu_help_title">Μενού «Βοήθεια &amp; σχόλια»</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_off">Εμφανίζεται.</string>
@@ -683,6 +681,9 @@ Playlists
     <string name="revanced_hide_player_flyout_menu_premium_controls_title">Μενού «Έλεγχοι Premium»</string>
     <string name="revanced_hide_player_flyout_menu_premium_controls_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_player_flyout_menu_premium_controls_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_player_flyout_menu_sleep_timer_title">Μενού «Χρονόμετρο ύπνου»</string>
+    <string name="revanced_hide_player_flyout_menu_sleep_timer_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_player_flyout_menu_sleep_timer_summary_off">Εμφανίζεται.</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_title">Μενού «Σταθερή ένταση»</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_summary_off">Εμφανίζεται.</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_summary_on">Κρυμμένο.</string>
@@ -1152,9 +1153,15 @@ Playlists
     <string name="revanced_remember_playback_speed_last_selected_title">Απομνημόνευση αλλαγών ταχύτητας αναπαραγωγής</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_on">Οι αλλαγές ταχύτητας αναπαραγωγής ισχύουν για όλα τα βίντεο.</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_off">Οι αλλαγές ταχύτητας αναπαραγωγής ισχύουν μόνο για το τρέχον βίντεο.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Εμφάνιση μηνύματος</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">Εμφανίζεται μήνυμα στο κάτω μέρος της οθόνης κατά την αλλαγή προεπιλεγμένης ταχύτητας αναπαραγωγής.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">Δεν εμφανίζεται μήνυμα στο κάτω μέρος της οθόνης κατά την αλλαγή προεπιλεγμένης ταχύτητας αναπαραγωγής.</string>
     <string name="revanced_remember_video_quality_last_selected_title">Απομνημόνευση αλλαγών ποιότητας βίντεο</string>
     <string name="revanced_remember_video_quality_last_selected_summary_on">Οι αλλαγές ποιότητας ισχύουν για όλα τα βίντεο.</string>
     <string name="revanced_remember_video_quality_last_selected_summary_off">Οι αλλαγές ποιότητας ισχύουν μόνο για το τρέχον βίντεο.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Εμφάνιση μηνύματος</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_on">Εμφανίζεται μήνυμα στο κάτω μέρος της οθόνης κατά την αλλαγή προεπιλεγμένης ποιότητας βίντεο.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_off">Δεν εμφανίζεται μήνυμα στο κάτω μέρος της οθόνης κατά την αλλαγή προεπιλεγμένης ποιότητας βίντεο.</string>
     <string name="revanced_restore_old_video_quality_menu_title">Μενού ποιότητας βίντεο παλιού στυλ</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Εμφανίζεται το μενού αλλαγής ποιότητας βίντεο παλιού στυλ.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Εμφανίζεται το μενού αλλαγής ποιότητας βίντεο νέου στυλ.</string>
@@ -1324,6 +1331,7 @@ Playlists
     <string name="revanced_sb_general_skipcount_sum_off">Ο μετρητής παραλείψεων δεν είναι ενεργός.</string>
     <string name="revanced_sb_general_min_duration">Ελάχιστη διάρκεια τμήματος</string>
     <string name="revanced_sb_general_min_duration_sum">Τμήματα μικρότερα από την καθορισμένη τιμή (σε δευτερόλεπτα) δε θα παραλείπονται ούτε θα εμφανίζονται.</string>
+    <string name="revanced_sb_general_min_duration_invalid">Μη έγκυρη διάρκεια χρόνου.</string>
     <string name="revanced_sb_general_uuid">Το ιδιωτικό σας αναγνωριστικό χρήστη</string>
     <string name="revanced_sb_general_uuid_sum">Αυτό πρέπει να μείνει μυστικό. Είναι σαν έναν κωδικό που δεν πρέπει να μοιραστείτε με κανέναν. Εάν κάποιος αποκτήσει αυτόν τον κωδικό, μπορεί να σας υποδυθεί.</string>
     <string name="revanced_sb_general_uuid_invalid">Το ιδιωτικό αναγνωριστικό χρήστη πρέπει να είναι τουλάχιστον 30 χαρακτήρες.</string>
@@ -1441,21 +1449,6 @@ Playlists
     <string name="revanced_change_share_sheet_summary_off">Χρησιμοποιείται το μενού κοινοποίηση της εφαρμογής.</string>
     <string name="revanced_enable_opus_codec_title">Ενεργοποίηση κωδικοποιητή OPUS</string>
     <string name="revanced_enable_opus_codec_summary">Ενεργοποίηση του κωδικοποιητή OPUS αν η ανταπόκριση του προγράμματος αναπαραγωγής τον περιλαμβάνει.</string>
-    <string name="revanced_spoof_player_parameter_title">Τροποποίηση παραμέτρου αναπαραγωγέα</string>
-    <string name="revanced_spoof_player_parameter_summary">"Τροποποίηση παραμέτρων του αναπαραγωγέα για την αποφυγή προβλημάτων αναπαραγωγής.
-
-Περιορισμοί:
-• Δεν είναι διαθέσιμος ο υψηλός ρυθμός bitrate.
-• Οι μικρογραφίες της γραμμής προόδου δεν λειτουργούν σε πληρωμένα βίντεο.
-• Η λήψη εκτός σύνδεσης ενδέχεται να μη λειτουργεί.
-• Τα βίντεο ενδέχεται να μην ξεκινούν από το σημείο που τα αφήσατε."</string>
-    <string name="revanced_spoof_player_parameter_in_feed_title">Τροποποίηση παραμέτρου στη ροή</string>
-    <string name="revanced_spoof_player_parameter_in_feed_summary_on">"Η παράμετρος του αναπαραγωγέα θα τροποποιηθεί για βίντεο στη ροή.
-
-Περιορισμός: Τα βίντεο που αναπαράγονται αυτόματα στη ροή θα εμφανιστούν στο ιστορικό σας."</string>
-    <string name="revanced_spoof_player_parameter_in_feed_summary_off">"Η παράμετρος του αναπαραγωγέα δε θα τροποποιηθεί για βίντεο στη ροή.
-
-Περιορισμός: Τα βίντεο στη ροή θα αναπαράγονται για λιγότερο από 1 λεπτό πριν αντιμετωπίσουν προβλήματα αναπαραγωγής."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->
     <string name="revanced_preference_screen_import_export_title">Εισαγωγή / Εξαγωγή ρυθμίσεων</string>
     <string name="revanced_preference_screen_import_export_summary">Εισαγωγή ή εξαγωγή των ρυθμίσεων σας.</string>
@@ -1478,62 +1471,17 @@ Playlists
     <string name="revanced_extended_settings_import_success">Οι ρυθμίσεις εισήχθησαν με επιτυχία.</string>
     <string name="revanced_extended_settings_reset">Επαναφορά</string>
     <string name="revanced_share_copy_settings_success">Οι ρυθμίσεις αντιγράφηκαν στο πρόχειρο.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client -->
-    <string name="revanced_preference_screen_spoof_client_title">Παραποίηση προγράμματος αναπαραγωγής</string>
-    <string name="revanced_preference_screen_spoof_client_summary">Παραποίηση του προγράμματος αναπαραγωγής για την αποφυγή προβλημάτων αναπαραγωγής.</string>
-    <string name="revanced_spoof_client_title">Παραποίηση προγράμματος αναπαραγωγής</string>
-    <string name="revanced_spoof_client_summary_on">Το πρόγραμμα αναπαραγωγής παραποιείται.</string>
-    <string name="revanced_spoof_client_summary_off">"Το πρόγραμμα αναπαραγωγής δεν παραποιείται. Η αναπαραγωγή βίντεο ενδέχεται να μη λειτουργεί."</string>
-    <string name="revanced_spoof_client_user_dialog_message">Η απενεργοποίηση αυτής της ρύθμισης ενδέχεται να προκαλέσει προβλήματα αναπαραγωγής βίντεο.</string>
-    <string name="revanced_spoof_client_stats_for_nerds_title">Εμφάνιση στο «Στατιστικά για σπασίκλες»</string>
-    <string name="revanced_spoof_client_stats_for_nerds_summary_on">Η έκδοση παραποίησης εμφανίζεται στο μενού «Στατιστικά για σπασίκλες».</string>
-    <string name="revanced_spoof_client_stats_for_nerds_summary_off">Η έκδοση παραποίησης δεν εμφανίζεται στο μενού «Στατιστικά για σπασίκλες».</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: Spoof client options -->
-    <string name="revanced_preference_category_spoof_client_options">Ρυθμίσεις παραποίησης</string>
-    <string name="revanced_spoof_client_general_title">Γενικά βίντεο</string>
-    <string name="revanced_spoof_client_livestream_title">Ζωντανές μεταδόσεις</string>
-    <string name="revanced_spoof_client_shorts_title">Shorts, Κλιπ</string>
-    <string name="revanced_spoof_client_fallback_title">Περίπτωση μη αναπαραγόμενου βίντεο</string>
-    <string name="revanced_spoof_client_options_entry_ios">iOS</string>
-    <string name="revanced_spoof_client_options_entry_android">Android</string>
-    <string name="revanced_spoof_client_options_entry_android_embedded_player">Ενσωματωμένος αναπαραγωγέας Android</string>
-    <string name="revanced_spoof_client_options_entry_android_testsuite">Android Testsuite</string>
-    <string name="revanced_spoof_client_options_entry_android_unplugged">Android TV</string>
-    <string name="revanced_spoof_client_options_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_client_options_entry_tvhtml5_simply_embedded_player">Τηλεόραση HTML5</string>
-    <string name="revanced_spoof_client_options_entry_web">Ιστός (Web)</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
-    <string name="revanced_preference_category_spoof_client_about">Σχετικά με</string>
-    <string name="revanced_spoof_client_use_ios_title">iOS</string>
-    <string name="revanced_spoof_client_use_ios_legacy_summary">"Παραποίηση σε έκδοση iOS. Παρενέργειες:
-• Η ποιότητα HDR είναι διαθέσιμη μόνο αν η συσκευή σας υποστηρίζει τον κωδικοποιητή AV1.
-• Το ιστορικό παρακολούθησης δεν αποθηκεύεται σε λογαριασμούς επωνυμίας (brand)."</string>
-    <string name="revanced_spoof_client_use_ios_summary">"Παραποίηση σε έκδοση iOS. Παρενέργειες:
-• Η ποιότητα HDR είναι διαθέσιμη μόνο αν η συσκευή σας υποστηρίζει τον κωδικοποιητή AV1.
-• Το ιστορικό παρακολούθησης δε λειτουργεί σε λογαριασμούς επωνυμίας (brand)."</string>
-    <string name="revanced_spoof_client_use_android_testsuite_title">Android Testsuite</string>
-    <string name="revanced_spoof_client_use_android_testsuite_summary">"Παραποίηση σε έκδοση Android Testsuite. Παρενέργειες:
-• Η ποιότητα HDR δεν είναι διαθέσιμη.
-• Το μενού «Κομμάτι ήχου» δεν είναι διαθέσιμο.
-• Οι υπότιτλοι ενδέχεται να μην είναι διαθέσιμοι.
-• Το κουμπί ενέργειας «Λήψη» δεν είναι διαθέσιμο.
-• Οι κάρτες τελικής οθόνης δεν είναι διαθέσιμες.
-• Οι μικρογραφίες γραμμής προόδου είναι χαμηλής ποιότητας."</string>
-    <string name="revanced_spoof_client_use_android_tv_title">Android TV</string>
-    <string name="revanced_spoof_client_use_android_tv_summary">"Παραποίηση σε έκδοση Android TV (YouTube TV). Παρενέργειες:
-• Η ποιότητα HDR δεν είναι διαθέσιμη.
-• Το μενού «Κομμάτι ήχου» δεν είναι διαθέσιμο.
-• Οι υπότιτλοι ενδέχεται να μην είναι διαθέσιμοι.
-• Το κουμπί ενέργειας «Λήψη» δεν είναι διαθέσιμο.
-• Οι μικρογραφίες γραμμής προόδου είναι χαμηλής ποιότητας.
-• Κάποιες ζωντανές μεταδόσεις δεν είναι διαθέσιμες για αναπαραγωγή."</string>
-    <string name="revanced_spoof_client_use_android_vr_title">Android VR</string>
-    <string name="revanced_spoof_client_use_android_vr_summary">"Παραποίηση σε έκδοση Android VR. Παρενέργειες:
-• Η ποιότητα HDR δεν είναι διαθέσιμη.
-• Το κουμπί ενέργειας «Λήψη» δεν είναι διαθέσιμο.
-• Τα βίντεο σε παύση μπορεί να συνεχίσουν να παίζουν τυχαία από μόνα τους.
-• Οι μικρογραφίες γραμμής προόδου Shorts είναι χαμηλής ποιότητας.
-• Τα βίντεο YouTube Kids (για παιδιά) δεν αναπαράγονται."</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data -->
+    <string name="revanced_spoof_streaming_data_type_title">Προεπιλογή</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Ενσωματωμένος αναπαραγωγέας Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android Testsuite</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
+    <string name="revanced_spoof_streaming_data_type_entry_web">Ιστός (Web)</string>
+    <string name="revanced_spoof_streaming_data_side_effects_title">Παρενέργειες παραποίησης</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">Ιστορικό παρακολούθησης</string>
     <string name="revanced_preference_screen_watch_history_summary">Διαχείριση των ρυθμίσεων που σχετίζονται με το ιστορικό παρακολούθησης.</string>
@@ -1545,14 +1493,9 @@ Playlists
     <string name="revanced_watch_history_type_entry_3">Αποκλεισμός ιστορικού παρακολούθησης</string>
     <string name="revanced_watch_history_about_title">Κατάσταση ιστορικού παρακολούθησης</string>
     <string name="revanced_watch_history_about_status_blocked">Το ιστορικό παρακολούθησης είναι αποκλεισμένο.</string>
-    <string name="revanced_watch_history_about_status_ios_replaced">"• Προεπιλεγμένες ρυθμίσεις ιστορικού παρακολούθησης του λογαριασμού Google σας.
-• Το ιστορικό παρακολούθησης ενδέχεται να μη λειτουργεί χρησιμοποιώντας λογαριασμό επωνυμίας αν έχετε ενεργοποιημένη τη ρύθμιση παραποίησης προγράμματος αναπαραγωγής σε έκδοση iOS."</string>
-    <string name="revanced_watch_history_about_status_ios_original">"• Προεπιλεγμένες ρυθμίσεις ιστορικού παρακολούθησης του λογαριασμού Google σας.
-• Το ιστορικό παρακολούθησης μπορεί να μη λειτουργεί λόγω DNS ή χρήσης VPN.
-• Το ιστορικό παρακολούθησης ενδέχεται να μη λειτουργεί χρησιμοποιώντας λογαριασμό επωνυμίας αν έχετε ενεργοποιημένη τη ρύθμιση παραποίησης προγράμματος αναπαραγωγής σε έκδοση iOS."</string>
-    <string name="revanced_watch_history_about_status_android_replaced">• Προεπιλεγμένες ρυθμίσεις ιστορικού παρακολούθησης του λογαριασμού Google σας.</string>
-    <string name="revanced_watch_history_about_status_android_original">"• Προεπιλεγμένες ρυθμίσεις ιστορικού παρακολούθησης του λογαριασμού Google σας.
-• Το ιστορικό παρακολούθησης μπορεί να μη λειτουργεί λόγω DNS ή χρήσης VPN."</string>
+    <string name="revanced_watch_history_about_status_replaced">• Ακολουθούνται οι ρυθμίσεις ιστορικού παρακολούθησης του λογαριασμού Google σας.</string>
+    <string name="revanced_watch_history_about_status_original">"• Ακολουθούνται οι ρυθμίσεις ιστορικού παρακολούθησης του λογαριασμού Google σας.
+• Το ιστορικό παρακολούθησης μπορεί να μη λειτουργεί λόγω του DNS ή χρήσης VPN."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Πληροφορίες τροποποίησης</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

@@ -247,8 +247,12 @@ Algunas características pueden no funcionar correctamente en la disposición de
     <string name="revanced_custom_playback_speeds_summary">Agregar o cambiar las velocidades de reproducción disponibles</string>
     <string name="revanced_remember_playback_speed_last_selected_title">Recordar cambios de velocidad de reproducción</string>
     <string name="revanced_remember_playback_speed_last_selected_summary">Recuerda la última velocidad de reproducción seleccionada.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Mostrar un mensaje</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary">Mostrar un mensaje al cambiar la velocidad de reproducción predeterminada.</string>
     <string name="revanced_remember_video_quality_last_selected_title">Recordar cambios de calidad de vídeo</string>
     <string name="revanced_remember_video_quality_last_selected_summary">Recuerda la última calidad de vídeo seleccionada.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Mostrar un mensaje</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary">Mostrar un mensaje al cambiar la calidad de vídeo por defecto.</string>
     <string name="revanced_custom_playback_speeds_invalid">Las velocidades de reproducción personalizadas no son válidas. Restablezca a los valores predeterminados.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Velocidades de reproducción personalizadas no válidas. Utilizando valores predeterminados.</string>
     <string name="revanced_remember_playback_speed_toast">Cambiando la velocidad predeterminada a %s.</string>

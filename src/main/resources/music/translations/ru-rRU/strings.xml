@@ -247,8 +247,12 @@
     <string name="revanced_custom_playback_speeds_summary">Настройте доступные скорости воспроизведения.</string>
     <string name="revanced_remember_playback_speed_last_selected_title">Запоминать изменения скорости</string>
     <string name="revanced_remember_playback_speed_last_selected_summary">Запоминает последнюю выбранную скорость воспроизведения.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Показывать всплывающее уведомление</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary">Показывать всплывающее уведомление при смене скорости воспроизведения по умолчанию.</string>
     <string name="revanced_remember_video_quality_last_selected_title">Запоминать изменения качества видео</string>
     <string name="revanced_remember_video_quality_last_selected_summary">Запоминает последнее выбранное качество видео.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Показывать всплывающее уведомление</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary">Показывать всплывающее уведомление при смене качества видео по умолчанию.</string>
     <string name="revanced_custom_playback_speeds_invalid">Недопустимые скорости. Значения сброшены к начальным.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Недопустимые пользовательские скорости воспроизведения. Используются значения по умолчанию.</string>
     <string name="revanced_remember_playback_speed_toast">Скорость по умолчанию изменена на %s.</string>

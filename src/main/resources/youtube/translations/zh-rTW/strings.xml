@@ -233,7 +233,6 @@
  • 部分介面元件可能不會隱藏
  • 搜尋關鍵字可能不會顯示任何結果"</string>
     <string name="revanced_hide_keyword_toast_invalid_common">無效的關鍵字。不能使用：「%s」作為篩選器</string>
-    <string name="revanced_hide_keyword_toast_invalid_keyword">無效的關鍵字。%1$s 少於 %2$d 個字元</string>
     <string name="revanced_hide_keyword_toast_invalid_broad">關鍵字 \'%1$s\' 將隱藏所有影片。</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">推薦影片</string>
@@ -284,7 +283,7 @@
     <string name="revanced_change_start_page_entry_watch_later">稍後觀看</string>
     <string name="revanced_change_start_page_invalid_toast">起始頁無效，正在重設為預設值。</string>
     <string name="revanced_disable_auto_audio_tracks_title">停用強制自動音軌</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">強制自動音軌已停用</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_on">"強制自動音軌已停用"</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">強制自動音軌已啟用</string>
     <string name="revanced_disable_auto_captions_title">停用強制顯示字幕</string>
     <string name="revanced_disable_auto_captions_summary_on">強制顯示字幕已停用</string>
@@ -667,9 +666,6 @@
     <string name="revanced_hide_player_flyout_menu_report_summary_off">舉報選單已顯示</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu, PreferenceCategory: Additional settings -->
     <string name="revanced_preference_category_additional_settings">其他設定</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_title">隱藏微光模式選單</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_on">微光模式選單已隱藏</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">微光模式選單已顯示</string>
     <string name="revanced_hide_player_flyout_menu_help_title">隱藏幫助與反饋選單</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_on">幫助與反饋選單已隱藏</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_off">幫助與反饋選單已顯示</string>
@@ -1129,9 +1125,15 @@
     <string name="revanced_remember_playback_speed_last_selected_title">記住播放速度更改</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_on">播放速度更改適用於所有影片</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_off">播放速度更改僅適用於當前影片</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">顯示提示訊息</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">變更預設播放速度時會顯示提示訊息。</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">變更預設播放速度時不會顯示提示訊息。</string>
     <string name="revanced_remember_video_quality_last_selected_title">記住影片畫質更改</string>
     <string name="revanced_remember_video_quality_last_selected_summary_on">畫質更改適用於所有影片</string>
     <string name="revanced_remember_video_quality_last_selected_summary_off">畫質更改僅適用於當前影片</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">顯示提示訊息</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_on">更改預設影片畫質時將顯示提示訊息。</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_off">更改預設影片畫質時不會顯示提示訊息。</string>
     <string name="revanced_restore_old_video_quality_menu_title">恢復舊的影片畫質選單</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">顯示舊的影片畫質選單</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">不顯示舊的影片畫質選單</string>
@@ -1304,6 +1306,7 @@
     <string name="revanced_sb_general_skipcount_sum_off">未啟用跳過計數跟蹤</string>
     <string name="revanced_sb_general_min_duration">最短片段持續時間</string>
     <string name="revanced_sb_general_min_duration_sum">小於此值（以秒為單位）的片段將不會顯示或跳過</string>
+    <string name="revanced_sb_general_min_duration_invalid">持續時間無效。</string>
     <string name="revanced_sb_general_uuid">您的私人用戶 ID</string>
     <string name="revanced_sb_general_uuid_sum">此 ID 應保密這類似於密碼，不應與任何人分享如果有人獲取此 ID，他們可以冒充您</string>
     <string name="revanced_sb_general_uuid_invalid">私人用戶 ID 長度必須至少為30個字符</string>
@@ -1423,22 +1426,6 @@
     <string name="revanced_change_share_sheet_summary_off">使用應用程式內分享擴展。</string>
     <string name="revanced_enable_opus_codec_title">啟用 OPUS 編解碼器</string>
     <string name="revanced_enable_opus_codec_summary">如果播放器回應包含 OPUS 編解碼器，則啟用 OPUS 編解碼器。</string>
-    <string name="revanced_spoof_player_parameter_title">偽裝播放器參數</string>
-    <string name="revanced_spoof_player_parameter_summary">"偽裝播放器參數以回避播放問題
-
-已知問題：
- • 進階位元率無法使用
- • 付費影片無進度條縮圖
- • 離線下載可能無法使用
- • 影片可能無法從上次播放的位置開始"</string>
-    <string name="revanced_spoof_player_parameter_in_feed_title">偽裝探索播放器參數</string>
-    <string name="revanced_spoof_player_parameter_in_feed_summary_on">"偽裝播放器參數針對探索內影片
-
-已知問題：自動播放的動態影片將出現在你的觀看記錄裡"</string>
-    <string name="revanced_spoof_player_parameter_in_feed_summary_off">"未偽裝播放器參數針對探索內影片
-
-已知問題
- • 動態影片播放時間不滿1分鐘會出現播放問題"</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->
     <string name="revanced_preference_screen_import_export_title">導入/導出設定</string>
     <string name="revanced_preference_screen_import_export_summary">導入或導出設定</string>
@@ -1461,69 +1448,7 @@
     <string name="revanced_extended_settings_import_success">導入配置成功</string>
     <string name="revanced_extended_settings_reset">重置</string>
     <string name="revanced_share_copy_settings_success">設定已複製到剪貼簿。</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client -->
-    <string name="revanced_preference_screen_spoof_client_title">偽裝客戶端</string>
-    <string name="revanced_preference_screen_spoof_client_summary">偽裝客戶端以防止播放問題。</string>
-    <string name="revanced_spoof_client_title">偽裝客戶端</string>
-    <string name="revanced_spoof_client_summary_on">已偽裝客戶端。</string>
-    <string name="revanced_spoof_client_summary_off">"客戶端未偽裝。 影片可能無法播放。"</string>
-    <string name="revanced_spoof_client_user_dialog_message">關閉此設定可能會導致影片播放發生問題。</string>
-    <string name="revanced_spoof_client_stats_for_nerds_title">在「數據統計」中顯示</string>
-    <string name="revanced_spoof_client_stats_for_nerds_summary_on">已偽裝的用戶端顯示在「數據統計」中。</string>
-    <string name="revanced_spoof_client_stats_for_nerds_summary_off">已偽裝的用戶端隱藏在「數據統計」中。</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: Spoof client options -->
-    <string name="revanced_preference_category_spoof_client_options">偽裝客戶端選項</string>
-    <string name="revanced_spoof_client_general_title">一般設定</string>
-    <string name="revanced_spoof_client_livestream_title">實況直播</string>
-    <string name="revanced_spoof_client_shorts_title">短片, 片段</string>
-    <string name="revanced_spoof_client_fallback_title">回復</string>
-    <string name="revanced_spoof_client_options_entry_ios">iOS</string>
-    <string name="revanced_spoof_client_options_entry_android">Android</string>
-    <string name="revanced_spoof_client_options_entry_android_embedded_player">Android 嵌入播放器</string>
-    <string name="revanced_spoof_client_options_entry_android_testsuite">Android 測試套件</string>
-    <string name="revanced_spoof_client_options_entry_android_unplugged">Android TV</string>
-    <string name="revanced_spoof_client_options_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_client_options_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
-    <string name="revanced_spoof_client_options_entry_web">網頁</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
-    <string name="revanced_preference_category_spoof_client_about">關於</string>
-    <string name="revanced_spoof_client_use_ios_title">iOS</string>
-    <string name="revanced_spoof_client_use_ios_legacy_summary">"偽裝客戶端到iOS。
-
- 副作用包括：
- • HDR影片僅在AV1編解碼器上支援。
- • 觀看時間不會保存在品牌帳戶的觀看記錄中。"</string>
-    <string name="revanced_spoof_client_use_ios_summary">"偽裝用戶端到 iOS。
-
- 副作用包括：
- • 沒有 HDR 影片
- • 更高的影片畫質可能不可用
- • 觀看記錄不適用於品牌帳戶
- • 即時串流不能只作為音訊播放
- • Android 8.0 上不支援直播"</string>
-    <string name="revanced_spoof_client_use_android_testsuite_title">Android 測試套件</string>
-    <string name="revanced_spoof_client_use_android_testsuite_summary">"偽裝用戶端為 Android 測試套件。
-
-副作用包括：
-・沒有 HDR 影片
-・缺少音訊選單
-・字幕可能不可用"</string>
-    <string name="revanced_spoof_client_use_android_tv_title">安卓電視</string>
-    <string name="revanced_spoof_client_use_android_tv_summary">"偽裝用戶端到 Android 電視 (YouTube TV)。
-
- 副作用包括：
- • 沒有 HDR 影片
- • 缺少音訊選單
- • 字幕可能不可用
- • 部分直播串流不支援回放"</string>
-    <string name="revanced_spoof_client_use_android_vr_title">Android VR</string>
-    <string name="revanced_spoof_client_use_android_vr_summary">"偽裝 Android VR 用戶端。
-
- 副作用包括：
- • 無 HDR 影片。
- • 暫停的影片可以隨機恢復。
- • 低品質的短片搜尋欄縮圖。
- • 無法播放兒童影片。"</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">觀看歷史記錄</string>
     <string name="revanced_preference_screen_watch_history_summary">變更與觀看歷史記錄相關的設定。</string>
@@ -1535,16 +1460,6 @@
     <string name="revanced_watch_history_type_entry_3">區塊觀看歷史記錄</string>
     <string name="revanced_watch_history_about_title">關於觀看歷史記錄</string>
     <string name="revanced_watch_history_about_status_blocked">• 觀看歷史記錄不起作用。</string>
-    <string name="revanced_watch_history_about_status_ios_replaced">"• 遵循Google帳戶的觀看記錄設定。
-• 觀看記錄可能不適用於品牌帳戶。
-(偽裝客戶端設定已開啟，並選擇iOS客戶端)"</string>
-    <string name="revanced_watch_history_about_status_ios_original">"• 遵循Google帳戶的觀看記錄設定。
-• 由於 DNS 或 VPN 的原因，觀看記錄可能無法運作。
-• 觀看記錄可能不適用於品牌帳戶。
-(偽裝客戶端設定已開啟，並選擇iOS客戶端)"</string>
-    <string name="revanced_watch_history_about_status_android_replaced">• 遵循Google帳戶的觀看記錄設定。</string>
-    <string name="revanced_watch_history_about_status_android_original">"• 遵循Google帳戶的觀看記錄設定。
-• 由於 DNS 或 VPN 的原因，觀看記錄可能無法運作。"</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">補丁訊息</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

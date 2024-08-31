@@ -247,8 +247,12 @@ YT Music の設定だけでなく、ReVanced Extended の設定も非表示に�
     <string name="revanced_custom_playback_speeds_summary">利用可能な再生速度を編集します。</string>
     <string name="revanced_remember_playback_speed_last_selected_title">再生速度の変更を保存</string>
     <string name="revanced_remember_playback_speed_last_selected_summary">再生速度を変更するたびに、再生速度を保存します。</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">トーストを表示</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary">デフォルトの再生速度を変更するときにトーストを表示します。</string>
     <string name="revanced_remember_video_quality_last_selected_title">ビデオ画質の変更を保存</string>
     <string name="revanced_remember_video_quality_last_selected_summary">画質を変更するたびに、画質を保存します。</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">トーストを表示</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary">デフォルトの画質を変更するときにトーストを表示します。</string>
     <string name="revanced_custom_playback_speeds_invalid">無効なカスタム再生速度です。デフォルト値にリセットします。</string>
     <string name="revanced_custom_playback_speeds_parse_exception">無効なカスタム再生速度です。デフォルトの値を使用します。</string>
     <string name="revanced_remember_playback_speed_toast">デフォルトの再生速度を %s に変更しました。</string>

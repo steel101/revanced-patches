@@ -233,7 +233,6 @@ Limitations :
 • Certains éléments de l'interface utilisateur peuvent ne pas être masqués.
 • La recherche par mot-clé peut n'afficher aucun résultat."</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Mot-clé invalide. Impossible d\'utiliser : \'%s\' comme filtre.</string>
-    <string name="revanced_hide_keyword_toast_invalid_keyword">Mot-clé invalide. \'%1$s\' contient moins de %2$d caractères.</string>
     <string name="revanced_hide_keyword_toast_invalid_broad">Le mot-clé \'%1$s\' masquera toutes les vidéos.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Vidéo recommandée</string>
@@ -284,7 +283,7 @@ Limitations :
     <string name="revanced_change_start_page_entry_watch_later">Regarder plus tard</string>
     <string name="revanced_change_start_page_invalid_toast">Page de démarrage invalide, valeur réinitialisée par défaut.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Désact. les pistes audio forcés</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">Les pistes audio automatiques forcées sont désactivé.</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_on">"Les pistes audio automatiques forcées sont désactivé."</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Les pistes audio automatiques forcées sont activés.</string>
     <string name="revanced_disable_auto_captions_title">Désact. les sous-titres forcés</string>
     <string name="revanced_disable_auto_captions_summary_on">Les sous-titres automatiques forcés sont désactivés.</string>
@@ -667,9 +666,6 @@ La lecture automatique peut être modifiée dans les paramètres de YouTube :
     <string name="revanced_hide_player_flyout_menu_report_summary_off">Le menu \"Signaler\" est affiché.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu, PreferenceCategory: Additional settings -->
     <string name="revanced_preference_category_additional_settings">Paramètres supplémentaires</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_title">Masquer le menu \"Mode ambiant\"</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_on">Le menu \"Mode ambiant\" est masqué.</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">Le menu \"Mode ambiant\" est affiché.</string>
     <string name="revanced_hide_player_flyout_menu_help_title">Masquer le menu \"Aide et commentaires\"</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_on">Le menu \"Aide et commentaires\" est masqué.</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_off">Le menu \"Aide et commentaires\" est affiché.</string>
@@ -1134,9 +1130,15 @@ Limitations :
     <string name="revanced_remember_playback_speed_last_selected_title">Enreg. modif. de la vitesse de lecture</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_on">La modification de vitesse de lecture est appliqué pour toutes les vidéos.</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_off">La modification de la vitesse de lecture est appliqué pour la vidéo en cours.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Afficher un message</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">Un message sera affiché lorsque vous modifiez la vitesse de lecture par défaut.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">Un message ne sera pas affiché lorsque vous modifiez la vitesse de lecture par défaut.</string>
     <string name="revanced_remember_video_quality_last_selected_title">Enreg. modification de la qualité</string>
     <string name="revanced_remember_video_quality_last_selected_summary_on">La modification de la résolution est appliqué pour toutes les vidéos.</string>
     <string name="revanced_remember_video_quality_last_selected_summary_off">La modification de la résolution est appliqué pour la vidéo en cours.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Afficher un message</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_on">Un message sera affiché lorsque vous modifiez la qualité vidéo par défaut.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_off">Un message ne sera pas affiché lorsque vous modifiez la qualité vidéo par défaut.</string>
     <string name="revanced_restore_old_video_quality_menu_title">Restaur. ancien. interface de qualité vidéo</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Affiche l\'ancienne interface de qualité vidéo.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Masque la nouvelle interface de qualité vidéo.</string>
@@ -1307,6 +1309,7 @@ Limitation : les \"Je n'aime pas\" ne seront pas affichées si vous n'êtes pas 
     <string name="revanced_sb_general_skipcount_sum_off">Le compteur de segments passés n\'est pas activé.</string>
     <string name="revanced_sb_general_min_duration">Durée minimale du segment</string>
     <string name="revanced_sb_general_min_duration_sum">Les segments plus courts que cette valeur (en secondes) ne pourront être affichés ou passés.</string>
+    <string name="revanced_sb_general_min_duration_invalid">Durée invalide.</string>
     <string name="revanced_sb_general_uuid">Votre identifiant privé</string>
     <string name="revanced_sb_general_uuid_sum">Cela doit rester privé. Il s\'agit d\'un mot de passe qui ne doit être communiqué à personne. Si quelqu’un l\'a, il peut usurper votre identité !</string>
     <string name="revanced_sb_general_uuid_invalid">L\'identifiant d\'utilisateur privé doit comporter au moins 30 caractères.</string>
@@ -1422,21 +1425,6 @@ Cliquez sur le bouton Continuer et désactivez les optimisations de la batterie.
     <string name="revanced_change_share_sheet_summary_off">La feuille de partage de l\'application est utilisée.</string>
     <string name="revanced_enable_opus_codec_title">Activer le Codec OPUS</string>
     <string name="revanced_enable_opus_codec_summary">Active le codec OPUS si la réponse du lecteur inclut le codec OPUS.</string>
-    <string name="revanced_spoof_player_parameter_title">Falsifier les paramètres du lecteur</string>
-    <string name="revanced_spoof_player_parameter_summary">"Falsifie les paramètres du lecteur pour empêcher les problèmes de lecture.
-
-Limitations :
-• Les bitrates améliorés ne sont pas disponibles.
-• Les miniatures sur la barre de progression ne sont pas disponibles sur les vidéos payantes .
-• Les téléchargements hors ligne peux ne pas fonctionner.
-• Les vidéos peuvent ne pas démarrer à partir du dernier moment visionné."</string>
-    <string name="revanced_spoof_player_parameter_in_feed_title">Falsifier les param. lecteur dans les flux</string>
-    <string name="revanced_spoof_player_parameter_in_feed_summary_on">"Les paramètres du lecteur sont falsifiés dans les flux vidéos.
-
-Limitation : Les vidéos lues automatiquement dans les flux peuvent apparaître dans votre historique de visionnage."</string>
-    <string name="revanced_spoof_player_parameter_in_feed_summary_off">"Les paramètres du lecteur ne sont pas falsifiés dans les flux vidéos.
-
-Limitation : Les vidéos du flux seront lues moins d'une minute avant de rencontrer des problèmes de lecture."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->
     <string name="revanced_preference_screen_import_export_title">Importer / Exporter les paramètres</string>
     <string name="revanced_preference_screen_import_export_summary">Importer ou exporter les paramètres.</string>
@@ -1459,72 +1447,7 @@ Limitation : Les vidéos du flux seront lues moins d'une minute avant de rencont
     <string name="revanced_extended_settings_import_success">Les paramètres ont été importés avec succès.</string>
     <string name="revanced_extended_settings_reset">Réinitialiser</string>
     <string name="revanced_share_copy_settings_success">Paramètres copiés dans le presse-papier.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client -->
-    <string name="revanced_preference_screen_spoof_client_title">Falsifier le client</string>
-    <string name="revanced_preference_screen_spoof_client_summary">Falsifie le client pour empêcher les problèmes de lecture.</string>
-    <string name="revanced_spoof_client_title">Falsifier le client</string>
-    <string name="revanced_spoof_client_summary_on">Le client est falsifié.</string>
-    <string name="revanced_spoof_client_summary_off">"Le client n'est pas falsifié, la lecture des vidéos peut ne pas fonctionner."</string>
-    <string name="revanced_spoof_client_user_dialog_message">Désactiver ce paramètre peut entraîner des problèmes de lecture vidéo.</string>
-    <string name="revanced_spoof_client_stats_for_nerds_title">Afficher dans \"Statistiques avancées\"</string>
-    <string name="revanced_spoof_client_stats_for_nerds_summary_on">Le client falsifié est affiché dans les Statistiques avancées.</string>
-    <string name="revanced_spoof_client_stats_for_nerds_summary_off">Le client falsifié est masqué dans les Statistiques avancées.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: Spoof client options -->
-    <string name="revanced_preference_category_spoof_client_options">Falsifier les options du client</string>
-    <string name="revanced_spoof_client_general_title">Général</string>
-    <string name="revanced_spoof_client_livestream_title">Diffusions en direct</string>
-    <string name="revanced_spoof_client_shorts_title">Shorts, Clips</string>
-    <string name="revanced_spoof_client_fallback_title">Lecture impossible</string>
-    <string name="revanced_spoof_client_options_entry_ios">iOS</string>
-    <string name="revanced_spoof_client_options_entry_android">Android</string>
-    <string name="revanced_spoof_client_options_entry_android_embedded_player">Lecteur intégré Android</string>
-    <string name="revanced_spoof_client_options_entry_android_testsuite">Android Test suite</string>
-    <string name="revanced_spoof_client_options_entry_android_unplugged">Android TV</string>
-    <string name="revanced_spoof_client_options_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_client_options_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
-    <string name="revanced_spoof_client_options_entry_web">Web</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
-    <string name="revanced_preference_category_spoof_client_about">À propos</string>
-    <string name="revanced_spoof_client_use_ios_title">iOS</string>
-    <string name="revanced_spoof_client_use_ios_legacy_summary">"Falsifier le client vers iOS.
-
-Créée des effets secondaires :
-• Les vidéos HDR supportent uniquement le codec AV1.
-• Le temps de visionnage n'es pas enregistré dans l'historique de visionnage pour les comptes de marques."</string>
-    <string name="revanced_spoof_client_use_ios_summary">"Falsifier le client vers iOS.
-
-Créée des effets secondaires :
-• Les vidéos HDR supportent uniquement le codec AV1.
-• L'historique de visionnage ne fonctionne pas pour les comptes de marques."</string>
-    <string name="revanced_spoof_client_use_android_testsuite_title">Android Testsuite</string>
-    <string name="revanced_spoof_client_use_android_testsuite_summary">"Falsifier le client vers Android Test suite.
-
-Créée des effets secondaires :
-• Pas de vidéo HDR.
-• Le menu \"piste audio\" est absent.
-• Les sous-titres peuvent ne pas être disponibles.
-• Le bouton \"Télécharger\" n'es pas disponible.
-• Les cartes d'écran de fin ne sont pas disponibles.
-• Les miniatures de la barre de progression sont en basse qualités."</string>
-    <string name="revanced_spoof_client_use_android_tv_title">Android TV</string>
-    <string name="revanced_spoof_client_use_android_tv_summary">"Falsifier le client vers Android TV (YouTube TV).
-
-Créée des effets secondaires :
-• Pas de vidéo HDR.
-• Le menu \"piste audio\" est absent.
-• Les sous-titres peuvent ne pas être disponibles.
-• Le bouton \"Télécharger\" est absent.
-• Les miniatures de la barre de progression sont en basse qualités.
-• Certaines diffusions en direct ne sont pas pris en charge pour la lecture."</string>
-    <string name="revanced_spoof_client_use_android_vr_title">Android VR</string>
-    <string name="revanced_spoof_client_use_android_vr_summary">"Falsifier le client vers Android VR.
-
-Les effets secondaires incluent :
-• Pas de vidéo HDR.
-• Le bouton \"Télécharger\" de la barre d'action vidéo est absent.
-• Les vidéos en pause peuvent reprendre aléatoirement.
-• Les miniatures de la barre de progression sur les Shorts sont en basses qualités.
-• Les vidéos conçues pour les enfants ne seront pas lues."</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">Historique de visionnage</string>
     <string name="revanced_preference_screen_watch_history_summary">Modifie les paramètres liés à l\'historique de visionnage.</string>
@@ -1536,16 +1459,6 @@ Les effets secondaires incluent :
     <string name="revanced_watch_history_type_entry_3">Bloquer l\'historique de visionnage</string>
     <string name="revanced_watch_history_about_title">Statut de l\'historique de visionnage</string>
     <string name="revanced_watch_history_about_status_blocked">• L\'historique de visionnage est bloqué.</string>
-    <string name="revanced_watch_history_about_status_ios_replaced">"• Suis les paramètres de l'historique de visionnage du compte Google.
-• L'historique de visionnage peut ne pas fonctionner sur les comptes de marques.
-(Le paramètre 'Falsifier le client' est activé et le client iOS est sélectionné)"</string>
-    <string name="revanced_watch_history_about_status_ios_original">"• Suis les paramètres de l'historique de visionnage du compte Google.
-• L'historique de visionnage peut ne pas fonctionner à cause d'un DNS ou d'un VPN.
-• L'historique de visionnage peut ne pas fonctionner sur les comptes de marques.
-(Le paramètre 'Falsifier le client' est activé et le client iOS est sélectionné)"</string>
-    <string name="revanced_watch_history_about_status_android_replaced">• Suis les paramètres de l\'historique de visionnage du compte Google.</string>
-    <string name="revanced_watch_history_about_status_android_original">"• Suis les paramètres de l'historique de visionnage du compte Google.
-• L'historique de visionnage peut ne pas fonctionner à cause d'un DNS ou d'un VPN."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Informations sur les patchs</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->
