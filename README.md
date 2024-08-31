@@ -60,7 +60,7 @@ ReVanced Extended Patches.
 | `Shorts components` | Adds options to hide or change components related to YouTube Shorts. | 18.29.38 ~ 19.16.39 |
 | `SponsorBlock` | Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as sponsored content. | 18.29.38 ~ 19.16.39 |
 | `Spoof app version` | Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features. | 18.29.38 ~ 19.16.39 |
-| `Spoof client` | Adds options to spoof the client to allow video playback. | 18.29.38 ~ 19.16.39 |
+| `Spoof streaming data` | Adds options to spoof the streaming data to allow video playback. | 18.29.38 ~ 19.16.39 |
 | `Swipe controls` | Adds options for controlling volume and brightness with swiping, and whether to enter fullscreen when swiping down below the player. | 18.29.38 ~ 19.16.39 |
 | `Theme` | Changes the app's theme to the values specified in options.json. | 18.29.38 ~ 19.16.39 |
 | `Toolbar components` | Adds options to hide or change components located on the toolbar, such as toolbar buttons, search bar, and header. | 18.29.38 ~ 19.16.39 |
