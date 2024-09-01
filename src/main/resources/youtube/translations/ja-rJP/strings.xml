@@ -229,7 +229,12 @@ DeArrowの詳細については、ここをタップしてください。"</stri
 • 一部のショート動画は非表示にならない場合があります。
 • 一部の UI コンポーネントは非表示にならない場合があります。
 • キーワードで検索しても結果が表示されない場合があります。"</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_title">単語全体を一致させる</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_summary">キーワードやフレーズを二重引用符 (\" \") で囲むことで、動画のタイトルやチャンネル名の部分一致を防ぐことができます。&lt;br&gt;&lt;br&gt;例えば、&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; とすると、動画 &lt;b&gt;「AI はどのように機能するのか？」&lt;/b&gt;&lt;br&gt; は表示されなくなりますが、&lt;b&gt;「フェアユースとは何か？ (What does f“ai”r use mean?) 」&lt;/b&gt; は表示されます。</string>
     <string name="revanced_hide_keyword_toast_invalid_common">無効なキーワードです。\'%s\' はフィルターとして使用できません</string>
+    <string name="revanced_hide_keyword_toast_invalid_common_whole_word_required">キーワードを使用するには、引用符を追加してください: %s</string>
+    <string name="revanced_hide_keyword_toast_invalid_conflicting">キーワードに矛盾する宣言があります: %s</string>
+    <string name="revanced_hide_keyword_toast_invalid_length">キーワードが短すぎるため、引用符が必要です: %s</string>
     <string name="revanced_hide_keyword_toast_invalid_broad">キーワード「%1$s」は範囲が広すぎるため、すべての動画を非表示にします。</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">おすすめ動画</string>
@@ -933,6 +938,9 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_disable_resuming_shorts_player_title">プレーヤーの再開を無効化</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">アプリを閉じる前に視聴していたショート動画をアプリ起動時に再開しないようにします。</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">アプリを閉じる前に視聴していたショート動画をアプリ起動時に再開しないようにします。</string>
+    <string name="revanced_hide_shorts_floating_button_title">フローティングボタンを非表示</string>
+    <string name="revanced_hide_shorts_floating_button_summary_on">"「このサウンドを使用する」のようなフローティングボタンを、ショートタブから非表示にします。"</string>
+    <string name="revanced_hide_shorts_floating_button_summary_off">"「このサウンドを使用する」のようなフローティングボタンを、ショートタブから非表示にします。"</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelf -->
     <string name="revanced_preference_category_shorts_shelf">ショート欄</string>
     <string name="revanced_hide_shorts_shelf_title">ショート欄を非表示</string>
@@ -975,6 +983,12 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_shorts_paid_promotion_label_title">有料プロモーションラベルを非表示</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_on">プレーヤー左上の「プロモーションを含みます」を非表示にします。</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_off">プレーヤー左上の「プロモーションを含みます」を非表示にします。</string>
+    <string name="revanced_hide_shorts_trends_button_title">「トレンド」ボタンを非表示</string>
+    <string name="revanced_hide_shorts_trends_button_summary_on">「トレンド」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_trends_button_summary_off">「トレンド」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_shopping_button_title">「購入」ボタンを非表示</string>
+    <string name="revanced_hide_shorts_shopping_button_summary_on">ショートで左下に表示される「購入」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_shopping_button_summary_off">ショートで左下に表示される「購入」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_shop_button_title">「ショップ」ボタンを非表示</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">「ショップ」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">「ショップ」ボタンを非表示にします。</string>
@@ -984,15 +998,21 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_shorts_tagged_products_title">タグ付き商品を非表示</string>
     <string name="revanced_hide_shorts_tagged_products_summary_on">タグ付けされている商品を非表示にします。</string>
     <string name="revanced_hide_shorts_tagged_products_summary_off">タグ付けされている商品を非表示にします。</string>
-    <string name="revanced_hide_shorts_location_label_title">位置情報のラベルを非表示</string>
-    <string name="revanced_hide_shorts_location_label_summary_on">プレーヤー下部に表示される、位置情報のラベルを非表示にします。</string>
-    <string name="revanced_hide_shorts_location_label_summary_off">プレーヤー下部に表示される、位置情報のラベルを非表示にします。</string>
+    <string name="revanced_hide_shorts_location_button_title">位置情報のボタンを非表示</string>
+    <string name="revanced_hide_shorts_location_button_summary_on">位置情報のボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_location_button_summary_off">位置情報のボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_save_sound_button_title">「保存」ボタンを非表示</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_on">音楽の「保存」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_off">音楽の「保存」ボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_search_suggestions_title">検索候補を非表示</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_on">検索候補を非表示にします</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_off">検索候補を非表示にします</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_title">検索候補のボタンを非表示</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">検索候補のボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">検索候補のボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_title">「このサウンドを使用する」を非表示</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">ショートで楽曲ボタンを押した際に表示される「このサウンドを使用する」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">ショートで楽曲ボタンを押した際に表示される「このサウンドを使用する」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_use_template_button_title">「テンプレートを使用する」ボタンを非表示</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_on">「テンプレートを使用する」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_off">「テンプレートを使用する」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_info_panel_title">情報パネルを非表示</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">情報パネルを非表示にします。</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">情報パネルを非表示にします。</string>
@@ -1449,6 +1469,35 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_extended_settings_reset">リセット</string>
     <string name="revanced_share_copy_settings_success">設定をクリップボードにコピーしました。</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data -->
+    <string name="revanced_preference_screen_spoof_streaming_data_title">ストリーミングデータを偽装</string>
+    <string name="revanced_preference_screen_spoof_streaming_data_summary">バッファリングの問題を防ぐためにストリーミングデータを偽装します。</string>
+    <string name="revanced_spoof_streaming_data_title">ストリーミングデータを偽装</string>
+    <string name="revanced_spoof_streaming_data_summary_on">ストリーミングデータを偽装していない場合、動画の再生ができない可能性があります。</string>
+    <string name="revanced_spoof_streaming_data_summary_off">"ストリーミングデータを偽装していない場合、動画の再生ができない可能性があります。"</string>
+    <string name="revanced_spoof_streaming_data_user_dialog_message">この設定をオフにした場合、バッファリングの問題が発生する可能性があります。</string>
+    <string name="revanced_spoof_streaming_data_type_title">偽装するクライアントの種類</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Android 埋め込みプレーヤー</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android Testsuite</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
+    <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
+    <string name="revanced_spoof_streaming_data_side_effects_title">ストリーミングデータを偽装することによる副作用</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• 映画や有料動画は再生できない場合があります。</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">・「音声トラック」メニューは表示されません。</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">・「音声トラック」メニューは表示されません。</string>
+    <string name="revanced_spoof_streaming_data_side_effects_unknown">• 動画が再生できない可能性があります。</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_title">iOS クライアントで AVC (H.264) を強制</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">iOS クライアントで AVC コーデック (H.264) を強制します。</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">iOS クライアントで AVC コーデック (H.264) を強制します。</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"これを有効にすると、バッテリーの持ちが改善され、再生時のカクつきが修正される可能性があります。
+
+注意: \n・AVC コーデック (H.264) の最大解像度は 1080p です。\n・動画の再生には VP9 や AV1 よりも多くの通信量を消費します。"</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_title">統計情報に偽装したクライアントを表示</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">統計情報に偽装したストリーミングデータを表示します。</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">統計情報に偽装したストリーミングデータを表示します。</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">再生履歴</string>
     <string name="revanced_preference_screen_watch_history_summary">再生履歴に関連する設定を変更します。</string>

@@ -1003,15 +1003,9 @@ Shorts
     <string name="revanced_hide_shorts_tagged_products_title">Товары с тегом</string>
     <string name="revanced_hide_shorts_tagged_products_summary_on">Товары с тегом скрыты.</string>
     <string name="revanced_hide_shorts_tagged_products_summary_off">Товары с тегом отображены.</string>
-    <string name="revanced_hide_shorts_location_label_title">Метка местоположения</string>
-    <string name="revanced_hide_shorts_location_label_summary_on">Метка местоположения скрыта.</string>
-    <string name="revanced_hide_shorts_location_label_summary_off">Метка местоположения отображена.</string>
     <string name="revanced_hide_shorts_save_sound_button_title">Кнопка \"Сохранить звук в плейлист\"</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_on">Кнопка \"Сохранить звук в плейлист\" скрыта.</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_off">Кнопка \"Сохранить звук в плейлист\" отображена.</string>
-    <string name="revanced_hide_shorts_search_suggestions_title">Подсказки поиска</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_on">Подсказки поиска скрыты.</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_off">Подсказки поиска отображены.</string>
     <string name="revanced_hide_shorts_info_panel_title">Информационные панели</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Информационные панели скрыты.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Информационные панели отображены.</string>

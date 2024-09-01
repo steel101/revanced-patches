@@ -986,15 +986,9 @@ Limitação: Os cabeçalhos oficiais nos resultados da pesquisa serão ocultados
     <string name="revanced_hide_shorts_tagged_products_title">Ocultar produtos marcados</string>
     <string name="revanced_hide_shorts_tagged_products_summary_on">Os produtos marcados estão ocultos.</string>
     <string name="revanced_hide_shorts_tagged_products_summary_off">Os produtos marcados serão exibidos.</string>
-    <string name="revanced_hide_shorts_location_label_title">Ocultar rótulo de localização</string>
-    <string name="revanced_hide_shorts_location_label_summary_on">O rótulo de localização está oculto.</string>
-    <string name="revanced_hide_shorts_location_label_summary_off">O rótulo de localização será exibido.</string>
     <string name="revanced_hide_shorts_save_sound_button_title">Ocultar botão salvar música na lista de reprodução</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_on">Salvar música na lista de reprodução está oculta.</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_off">Salvar música na lista de reprodução será exibida.</string>
-    <string name="revanced_hide_shorts_search_suggestions_title">Ocultar sugestões de pesquisa</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_on">As sugestõrs de pesquisa estão ocultas.</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_off">As sugestões de pesquisa serão exibidas.</string>
     <string name="revanced_hide_shorts_info_panel_title">Ocultar painéis de informações</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Os painéis de informação estão ocultos.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Os painéis de informação serão exibidos.</string>

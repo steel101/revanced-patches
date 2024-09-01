@@ -232,7 +232,12 @@ Limitazioni:
 - Alcuni Short potrebbero non essere nascosti.
 - Alcuni componenti della interfaccia utente potrebbero non essere nascosti.
 - La ricerca di una parola chiave potrebbe non mostrare alcun risultato."</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_title">Abbina parole intere</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_summary">Circondare una parola chiave/frase con doppie virgolette impedirà partite parziali di titoli video e nomi di canale.&lt;br&gt;&lt;br&gt;Ad esempio,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; nasconderà il video: &lt;b&gt;Come funziona l\'intelligenza artificiale?&lt;/b&gt;&lt;br&gt;ma non si nasconde: &lt;b&gt;Cosa significa un uso equo?&lt;/b&gt;</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Parola chiave non valida. Non è possibile usare: \'%s\' come filtro</string>
+    <string name="revanced_hide_keyword_toast_invalid_common_whole_word_required">Aggiungi virgolette da usare parola chiave: %s.</string>
+    <string name="revanced_hide_keyword_toast_invalid_conflicting">La parola chiave ha dichiarazioni in conflitto: %s.</string>
+    <string name="revanced_hide_keyword_toast_invalid_length">Parola chiave troppo corta e richiede le virgolette: %s.</string>
     <string name="revanced_hide_keyword_toast_invalid_broad">La parola chiave \'%1$s\' nasconderà tutti i video.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Video consigliati</string>
@@ -681,6 +686,9 @@ Impostazioni → Riproduzione automatica → Riproduzione automatica del video s
     <string name="revanced_hide_player_flyout_menu_premium_controls_title">Nascondi menu Controlli premium</string>
     <string name="revanced_hide_player_flyout_menu_premium_controls_summary_on">Il menu Controlli premium è nascosto.</string>
     <string name="revanced_hide_player_flyout_menu_premium_controls_summary_off">Il menu Controlli premium è visibile.</string>
+    <string name="revanced_hide_player_flyout_menu_sleep_timer_title">Nascondi il menu Timer del sonno</string>
+    <string name="revanced_hide_player_flyout_menu_sleep_timer_summary_on">Il menu del timer del sonno è nascosto.</string>
+    <string name="revanced_hide_player_flyout_menu_sleep_timer_summary_off">Il menu del timer del sonno è mostrato.</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_title">Nascondi il menu Volume stabile</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_summary_off">Il menu Volume stabile è visibile.</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_summary_on">Il menu Volume stabile è nascosto.</string>
@@ -987,15 +995,12 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
     <string name="revanced_hide_shorts_tagged_products_title">Nascondi prodotti taggati</string>
     <string name="revanced_hide_shorts_tagged_products_summary_on">Prodotti taggati sono nascosti.</string>
     <string name="revanced_hide_shorts_tagged_products_summary_off">Prodotti taggati sono mostrati.</string>
-    <string name="revanced_hide_shorts_location_label_title">Nascondi etichetta posizione</string>
-    <string name="revanced_hide_shorts_location_label_summary_on">L\'etichetta posizione è nascosta.</string>
-    <string name="revanced_hide_shorts_location_label_summary_off">L\'etichetta posizione è mostrata.</string>
     <string name="revanced_hide_shorts_save_sound_button_title">Nascondi il pulsante Salva suono nella playlist</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_on">Il pulsante Salva suono nella playlist è nascosto.</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_off">Il pulsante Salva suono nella playlist è mostrato.</string>
-    <string name="revanced_hide_shorts_search_suggestions_title">Nascondi suggerimenti di ricerca</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_on">I suggerimenti della ricerca sono nascosti.</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_off">I suggerimenti della ricerca sono mostrati.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_title">Nascondi Usa questo pulsante sonoro</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">Usa il pulsante sonoro è nascosto.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">Usa il pulsante sonoro è mostrato.</string>
     <string name="revanced_hide_shorts_info_panel_title">Nascondi i pannelli informativi</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">I pannelli informativi sono nascosti.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">I pannelli informativi sono mostrati.</string>
@@ -1449,6 +1454,35 @@ Tocca il pulsante continua e disabilita le ottimizzazioni della batteria."</stri
     <string name="revanced_extended_settings_reset">Ripristina</string>
     <string name="revanced_share_copy_settings_success">Impostazioni copiate negli appunti</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data -->
+    <string name="revanced_preference_screen_spoof_streaming_data_title">Camuffa data streaming</string>
+    <string name="revanced_preference_screen_spoof_streaming_data_summary">Camuffa il data streaming per prevenire problemi di riproduzione.</string>
+    <string name="revanced_spoof_streaming_data_title">Camuffa data streaming</string>
+    <string name="revanced_spoof_streaming_data_summary_on">I dati in streaming sono camuffati.</string>
+    <string name="revanced_spoof_streaming_data_summary_off">"I dati di streaming non sono camuffati. La riproduzione video potrebbe non funzionare."</string>
+    <string name="revanced_spoof_streaming_data_user_dialog_message">Disattivare questa impostazione potrebbe causare problemi di riproduzione video.</string>
+    <string name="revanced_spoof_streaming_data_type_title">Client predefinito</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Riproduttore Incorporato Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Suite di test Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
+    <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
+    <string name="revanced_spoof_streaming_data_side_effects_title">Effetti collaterali del camuffamento</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• I film o i video a pagamento potrebbero non essere riprodotti.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• il menu traccia audio è mancante.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">• il menu traccia audio è mancante.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_unknown">• Il video potrebbe non essere riprodotto.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_title">Forza iOS AVC (H.264)</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">il codec video iOS è AVC (H.264).</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Il codec video iOS è AVC (H.264), VP9 o AV1.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Abilitando questo si potrebbe migliorare la durata della batteria e correggere i problemi di riproduzione.
+
+AVC (H. 264) ha una risoluzione massima di 1080p e la riproduzione video utilizzerà più dati internet rispetto a VP9 o AV1."</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Mostra nelle statistiche per nerd</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Il client utilizzato per recuperare i dati streaming è mostrato nelle statistiche per nerd.</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Il client utilizzato per recuperare i dati di streaming è nascosto nelle statistiche per nerd.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">Cronologia</string>
     <string name="revanced_preference_screen_watch_history_summary">Cambia le impostazioni relative alla cronologia.</string>
@@ -1460,6 +1494,9 @@ Tocca il pulsante continua e disabilita le ottimizzazioni della batteria."</stri
     <string name="revanced_watch_history_type_entry_3">Blocca cronologia</string>
     <string name="revanced_watch_history_about_title">Informazioni sulla cronologia</string>
     <string name="revanced_watch_history_about_status_blocked">• La cronologia non funziona.</string>
+    <string name="revanced_watch_history_about_status_replaced">• Segue le impostazioni di cronologia dell\'account Google.</string>
+    <string name="revanced_watch_history_about_status_original">"• Segue le impostazioni di cronologia dell'account Google.
+• La cronologia potrebbe non funzionare a causa di DNS o VPN."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Informazioni patch</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

@@ -978,15 +978,9 @@ Korlát: A hivatalos fejlécek a keresési eredményekben el lesznek rejtve."</s
     <string name="revanced_hide_shorts_tagged_products_title">Címkézett termékek elrejtése</string>
     <string name="revanced_hide_shorts_tagged_products_summary_on">A címkézett termékek el vannak rejtve</string>
     <string name="revanced_hide_shorts_tagged_products_summary_off">A címkézett termékek megjelennek</string>
-    <string name="revanced_hide_shorts_location_label_title">Helycímke elrejtése</string>
-    <string name="revanced_hide_shorts_location_label_summary_on">A helycímke el van rejtve</string>
-    <string name="revanced_hide_shorts_location_label_summary_off">A helycímke megjelenik</string>
     <string name="revanced_hide_shorts_save_sound_button_title">Hang mentése a lejátszási listára gomb elrejtése</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_on">A hang mentése a lejátszási listára gomb el van rejtve</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_off">A hang mentése a lejátszási listára gomb megjelenik</string>
-    <string name="revanced_hide_shorts_search_suggestions_title">Keresési javaslatok elrejtése</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_on">A keresési javaslatok el vannak rejtve</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_off">A keresési javaslatok megjelennek</string>
     <string name="revanced_hide_shorts_info_panel_title">Infó panel elrejtése</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Az infó panel rejtett</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Az infó panel megjelenik</string>

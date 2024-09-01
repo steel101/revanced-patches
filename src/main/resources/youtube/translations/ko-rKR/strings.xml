@@ -228,9 +228,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_keyword_content_phrases_title">키워드 필터</string>
     <string name="revanced_hide_keyword_content_phrases_summary">"필터링할 키워드 및 구문을 줄바꿈으로 구분하여 설정합니다.
 
-필터링 키워드는 채널 이름 또는 동영상 제목에 표시되는 모든 텍스트가 될 수 있습니다.
-
-가운데 대문자가 있는 단어는 대소문자를 함께 입력해야 합니다 (예: iPhone, TikTok, LeBlanc)."</string>
+• 필터링 키워드는 채널 이름 또는 동영상 제목에 표시되는 모든 텍스트가 될 수 있습니다.
+• 가운데 대문자가 있는 단어는 대소문자를 함께 입력해야 합니다 (예: iPhone, TikTok, LeBlanc)."</string>
     <string name="revanced_hide_keyword_content_about_title">키워드 필터링 정보</string>
     <string name="revanced_hide_keyword_content_about_summary">"홈 / 구독 / 검색 결과가 필터링되어 키워드 구문과 일치하는 콘텐츠가 숨겨집니다.
 
@@ -239,7 +238,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 • 일부 화면 구성요소는 숨겨지지 않을 수 있습니다.
 • 필터링 키워드를 검색하면 검색 결과가 표시되지 않을 수 있습니다."</string>
     <string name="revanced_hide_keyword_content_about_whole_words_title">전체 단어 일치시키기</string>
-    <string name="revanced_hide_keyword_content_about_whole_words_summary">필터링할 키워드 및 구문을 큰따옴표로 묶으면 동영상 제목과 채널 이름이 부분적으로 일치하지 않도록 방지할 수 있습니다.&lt;br&gt;&lt;br&gt;예를 들어,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt;라는 키워드로 &lt;b&gt;How does AI work?&lt;/b&gt;&lt;br&gt;라는 제목의 동영상을 숨길 수 있지만, &lt;b&gt;What does fair use mean?&lt;/b&gt;라는 제목의 동영상은 숨길 수 없습니다.</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_summary">필터링할 키워드 및 구문을 큰따옴표로 묶으면 동영상 제목과 채널 이름이 부분적으로 일치하지 않도록 방지할 수 있습니다.&lt;br&gt;&lt;br&gt;예를 들어,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt;라는 키워드로 &lt;b&gt;AI 커리어 완벽 가이드&lt;/b&gt;라는 제목의 동영상을 숨길 수 있지만, &lt;b&gt;생성형AI가 바꿔논 세계&lt;/b&gt; 또는 &lt;b&gt;What does fair use mean?&lt;/b&gt;라는 제목의 동영상은 숨길 수 없습니다.</string>
     <string name="revanced_hide_keyword_toast_invalid_common">키워드를 사용할 수 없습니다: %s</string>
     <string name="revanced_hide_keyword_toast_invalid_common_whole_word_required">따옴표를 추가하여 키워드를 사용합니다: %s</string>
     <string name="revanced_hide_keyword_toast_invalid_conflicting">키워드에 충돌하는 선언이 있습니다: %s</string>
@@ -320,7 +319,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 
 이 설정은 다이얼로그를 자동으로 허용하기만 하며 연령 제한(성인인증 절차)을 우회할 수 없습니다."</string>
     <string name="revanced_enable_phone_layout_title">휴대폰 레이아웃 활성화하기</string>
-    <string name="revanced_enable_phone_layout_summary">dpi를 변경하여 일부 레이아웃을 휴대폰 레이아웃으로 활성화합니다.</string>
+    <string name="revanced_enable_phone_layout_summary">dpi를 변경하여 일부 레이아웃을 휴대폰 레이아웃으로 활성화합니다.\n\n• \'태블릿 레이아웃으로 활성화하면 잠겨지는 RVX 설정\'이 태블릿 또는 폴더블 폰에서도 잠겨져 있으므로, 이 설정을 사용하고 싶으면 휴대폰 레이아웃으로 활성화해야 합니다.</string>
     <string name="revanced_enable_tablet_layout_title">태블릿 레이아웃 활성화하기</string>
     <string name="revanced_enable_tablet_layout_summary">dpi를 변경하여 일부 레이아웃을 태블릿 레이아웃으로 활성화합니다.\n\n이 설정을 활성화하면 다음 RVX 설정이 잠겨질 수 있습니다:\n• 최신 동영상 버튼 숨기기\n• 믹스 재생목록 숨기기\n• 커뮤니티 게시물 설정\n• 전체 화면의 일부 설정 (빠른 작업)</string>
     <string name="revanced_override_video_download_button_title">동영상 오프라인 저장 버튼 재정의하기</string>
@@ -949,6 +948,9 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_disable_resuming_shorts_player_title">앱을 시작할 때, Shorts 플레이어 비활성화하기</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">앱을 시작할 때, Shorts 플레이어를 다시 실행하지 않습니다.</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">앱을 시작할 때, Shorts 플레이어를 다시 실행합니다.</string>
+    <string name="revanced_hide_shorts_floating_button_title">플로팅 버튼 숨기기</string>
+    <string name="revanced_hide_shorts_floating_button_summary_on">"'이 사운드 사용'과 같은 플로팅 버튼이 Shorts 채널 탭에서 숨겨집니다."</string>
+    <string name="revanced_hide_shorts_floating_button_summary_off">"'이 사운드 사용'과 같은 플로팅 버튼이 Shorts 채널 탭에서 표시됩니다."</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelf -->
     <string name="revanced_preference_category_shorts_shelf">Shorts 선반</string>
     <string name="revanced_hide_shorts_shelf_title">Shorts 선반 숨기기</string>
@@ -995,6 +997,12 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_shorts_paid_promotion_label_title">유료 광고 포함 라벨 숨기기</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_on">유료 광고 포함 라벨이 숨겨집니다.</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_off">유료 광고 포함 라벨이 표시됩니다.</string>
+    <string name="revanced_hide_shorts_trends_button_title">트렌드 버튼 숨기기</string>
+    <string name="revanced_hide_shorts_trends_button_summary_on">트렌드 버튼이 숨겨집니다.</string>
+    <string name="revanced_hide_shorts_trends_button_summary_off">트렌드 버튼이 숨겨집니다.</string>
+    <string name="revanced_hide_shorts_shopping_button_title">쇼핑 버튼 숨기기</string>
+    <string name="revanced_hide_shorts_shopping_button_summary_on">쇼핑 버튼이 숨겨집니다.</string>
+    <string name="revanced_hide_shorts_shopping_button_summary_off">쇼핑 버튼이 표시됩니다.</string>
     <string name="revanced_hide_shorts_shop_button_title">쇼핑 버튼 숨기기</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">쇼핑 버튼이 숨겨집니다.\n\n일시 정지 오버레이에서도 쇼핑 버튼이 숨겨집니다.</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">쇼핑 버튼이 표시됩니다.</string>
@@ -1004,18 +1012,21 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_shorts_tagged_products_title">태그된 제품 숨기기</string>
     <string name="revanced_hide_shorts_tagged_products_summary_on">태그된 제품이 숨겨집니다.</string>
     <string name="revanced_hide_shorts_tagged_products_summary_off">태그된 제품이 표시됩니다.</string>
-    <string name="revanced_hide_shorts_location_label_title">위치 라벨 숨기기</string>
-    <string name="revanced_hide_shorts_location_label_summary_on">위치 라벨이 숨겨집니다.</string>
-    <string name="revanced_hide_shorts_location_label_summary_off">위치 라벨이 표시됩니다.</string>
+    <string name="revanced_hide_shorts_location_button_title">위치 버튼 숨기기</string>
+    <string name="revanced_hide_shorts_location_button_summary_on">위치 버튼이 숨겨집니다.</string>
+    <string name="revanced_hide_shorts_location_button_summary_off">위치 버튼이 표시됩니다.</string>
     <string name="revanced_hide_shorts_save_sound_button_title">(재생목록에) 음악 저장 버튼 숨기기</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_on">(재생목록에) 음악 저장 버튼이 숨겨집니다.</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_off">(재생목록에) 음악 저장 버튼이 표시됩니다.</string>
-    <string name="revanced_hide_shorts_search_suggestions_title">검색 추천 숨기기</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_on">검색 추천이 숨겨집니다.</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_off">검색 추천이 표시됩니다.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_title">검색 추천 버튼 숨기기</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">검색 추천 버튼이 숨겨집니다.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">검색 추천 버튼이 표시됩니다.</string>
     <string name="revanced_hide_shorts_use_this_sound_button_title">\'이 사운드 사용\' 버튼 숨기기</string>
     <string name="revanced_hide_shorts_use_this_sound_button_summary_on">\'이 사운드 사용\' 버튼이 숨겨집니다.</string>
     <string name="revanced_hide_shorts_use_this_sound_button_summary_off">\'이 사운드 사용\' 버튼이 표시됩니다.</string>
+    <string name="revanced_hide_shorts_use_template_button_title">템플릿 사용 버튼 숨기기</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_on">템플릿 사용 버튼이 숨겨집니다.</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_off">템플릿 사용 버튼이 표시됩니다.</string>
     <string name="revanced_hide_shorts_info_panel_title">정보 패널 숨기기</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">정보 패널이 숨겨집니다.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">정보 패널이 표시됩니다.</string>
@@ -1475,7 +1486,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_preference_screen_spoof_streaming_data_summary">스트리밍 데이터를 변경하여 재생 문제를 방지할 수 있습니다.</string>
     <string name="revanced_spoof_streaming_data_title">스트리밍 데이터 변경하기</string>
     <string name="revanced_spoof_streaming_data_summary_on">스트리밍 데이터를 변경합니다.</string>
-    <string name="revanced_spoof_streaming_data_summary_off">"스트리밍 데이터를 변경하지 않습니다.\n동영상이 재생되지 않을 수 있습니다."</string>
+    <string name="revanced_spoof_streaming_data_summary_off">"스트리밍 데이터를 변경하지 않습니다.\n동영상 재생 문제가 발생할 수 있습니다."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">이 설정을 비활성화하면 동영상 재생 문제가 발생할 수 있습니다.</string>
     <string name="revanced_spoof_streaming_data_type_title">기본 클라이언트</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
@@ -1486,14 +1497,14 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
     <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
-    <string name="revanced_spoof_streaming_data_side_effects_title">알려진 문제점 변경하기</string>
+    <string name="revanced_spoof_streaming_data_side_effects_title">알려진 문제점</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">• 영화 또는 유료 동영상이 재생되지 않을 수 있습니다.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• 오디오 트랙 메뉴가 표시되지 않습니다.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">• 오디오 트랙 메뉴가 표시되지 않습니다.</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• 동영상이 재생되지 않을 수 있습니다.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">iOS AVC (H.264) 강제로 활성화하기</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">iOS 동영상 코덱을 AVC (H.264)로 활성화합니다.\n\n• 일부 동영상을 재생하면 누락되었던 화질 값들이 표시될 수 있습니다.\n• 최대 화질 값이 1080p이므로 초고화질 동영상은 재생할 수 없습니다.</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">iOS 동영상 코덱을 AVC (H.264), VP9 또는 AV1으로 활성화합니다.\n\n• VP9 코덱 응답만 받는 기기에서 일부 동영상을 재생하면 일부 화질 값들이 누락될 수 있습니다.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">iOS 동영상 코덱을 AVC (H.264)로 활성화합니다.\n\n• 일부 VP9 코덱 동영상을 재생하면 누락되었던 화질 값들이 표시될 수 있습니다.\n• 최대 화질 값이 1080p이므로 초고화질 동영상을 재생할 수 없습니다.\n• HDR 동영상을 재생할 수 없습니다.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">iOS 동영상 코덱을 AVC (H.264), VP9 또는 AV1으로 활성화합니다.\n\n• VP9 코덱 응답을 받는 경우, 일부 동영상을 재생하면 일부 화질 값들이 누락될 수 있습니다.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"이 설정을 활성화하면 배터리 수명이 향상되고 재생 끊김 현상이 해결될 수 있습니다. 
 
 AVC (H.264)의 최대 화질 값은 1080p이며 동영상을 재생하면 VP9 또는 AV1보다 더 많은 인터넷 데이터가 사용됩니다."</string>

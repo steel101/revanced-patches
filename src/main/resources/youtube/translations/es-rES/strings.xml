@@ -993,15 +993,9 @@ Limitación: las cabeceras oficiales en los resultados de búsqueda estarán ocu
     <string name="revanced_hide_shorts_tagged_products_title">Ocultar productos etiquetados</string>
     <string name="revanced_hide_shorts_tagged_products_summary_on">Los productos etiquetados están ocultos.</string>
     <string name="revanced_hide_shorts_tagged_products_summary_off">Los productos etiquetados están visibles.</string>
-    <string name="revanced_hide_shorts_location_label_title">Ocultar etiqueta de ubicación</string>
-    <string name="revanced_hide_shorts_location_label_summary_on">La etiqueta de ubicación está oculta.</string>
-    <string name="revanced_hide_shorts_location_label_summary_off">La etiqueta de ubicación está visible.</string>
     <string name="revanced_hide_shorts_save_sound_button_title">Ocultar botón de guardar sonido</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_on">El botón de guardar sonido está oculto.</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_off">El botón de guardar sonido está visible.</string>
-    <string name="revanced_hide_shorts_search_suggestions_title">Ocultar sugerencias de búsqueda</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_on">Las sugerencias de búsqueda están ocultas.</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_off">Las sugerencias de búsqueda están visibles.</string>
     <string name="revanced_hide_shorts_use_this_sound_button_title">Ocultar botón de utilizar este sonido</string>
     <string name="revanced_hide_shorts_use_this_sound_button_summary_on">El botón de utilizar este sonido está oculto.</string>
     <string name="revanced_hide_shorts_use_this_sound_button_summary_off">El botón de utilizar este sonido está visible.</string>

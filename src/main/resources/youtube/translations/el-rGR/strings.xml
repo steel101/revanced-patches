@@ -222,16 +222,22 @@ Playlists
     <string name="revanced_hide_keyword_content_comments_summary_off">Τα σχόλια δε φιλτράρονται από λέξεις-κλειδιά.</string>
     <string name="revanced_hide_keyword_content_phrases_title">Λέξεις-κλειδιά για απόκρυψη</string>
     <string name="revanced_hide_keyword_content_phrases_summary">"Λέξεις-κλειδιά και φράσεις προς απόκρυψη, διαχωρισμένες με νέες γραμμές.
+Οι λέξεις-κλειδιά μπορεί να είναι ονόματα καναλιών ή κείμενο που εμφανίζεται σε τίτλους των βίντεο.
 Οι λέξεις με κεφαλαία γράμματα στη μέση πρέπει να είναι ευαίσθητες στην πεζότητα (π.χ: iPhone, TikTok, LeBlanc)."</string>
     <string name="revanced_hide_keyword_content_about_title">Σχετικά με το φιλτράρισμα λέξεων-κλειδιών</string>
     <string name="revanced_hide_keyword_content_about_summary">"Οι καρτέλες «Αρχική», «Εγγραφές» και τα αποτελέσματα αναζήτησης φιλτράρονται για απόκρυψη περιεχομένου που ταιριάζει με τις λέξεις-κλειδιά.
 
 Περιορισμοί:
-• Κάποια Shorts ενδέχεται να μην κρύβονται.
+• Τα Shorts δεν γίνεται να κρύβονται με βάση το όνομα καναλιού.
 • Κάποια στοιχεία UI ενδέχεται να μην κρύβονται.
 • Η αναζήτηση για μια λέξη-κλειδί ενδέχεται να μην εμφανίζει κανένα αποτέλεσμα."</string>
-    <string name="revanced_hide_keyword_toast_invalid_common">Μη έγκυρη λέξη-κλειδί. Αδυναμία χρήσης: \'%s\' ως φίλτρο</string>
-    <string name="revanced_hide_keyword_toast_invalid_broad">Η λέξη-κλειδί \'%1$s\' θα κρύβει όλα τα βίντεο.</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_title">Ταίριασμα ολόκληρων λέξεων</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_summary">Περιβάλλοντας μια λέξη-κλειδί / φράση με διπλά εισαγωγικά θα αποτρέψει μερικές αντιστοιχίες των τίτλων βίντεο και των ονομάτων καναλιών&lt;br&gt;&lt;br&gt;Για παράδειγμα,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; θα κρύψει το βίντεο: &lt;b&gt;How does AI work?&lt;/b&gt;&lt;br&gt;αλλά δεν θα κρύψει: &lt;b&gt;What does fair use mean?&lt;/b&gt;</string>
+    <string name="revanced_hide_keyword_toast_invalid_common">Αδυναμία χρήσης λέξης: %s.</string>
+    <string name="revanced_hide_keyword_toast_invalid_common_whole_word_required">Προσθέστε εισαγωγικά για χρήση της λέξης: %s.</string>
+    <string name="revanced_hide_keyword_toast_invalid_conflicting">Η λέξη έχει αντικρουόμενες δηλώσεις: %s.</string>
+    <string name="revanced_hide_keyword_toast_invalid_length">Η λέξη είναι πολύ μικρή και απαιτεί εισαγωγικά: %s.</string>
+    <string name="revanced_hide_keyword_toast_invalid_broad">Η λέξη θα κρύβει όλα τα βίντεο: %s.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Προτεινόμενα βίντεο</string>
     <string name="revanced_hide_recommended_video_title">Απόκρυψη προτεινόμενων βίντεο</string>
@@ -955,6 +961,13 @@ Playlists
     <string name="revanced_disable_resuming_shorts_player_title">Απενεργοποίηση συνέχισης των Shorts</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">Ο αναπαραγωγέας Shorts δεν θα συνεχιστεί κατά την εκκίνηση της εφαρμογής.</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">Ο αναπαραγωγέας Shorts θα συνεχιστεί κατά την εκκίνηση της εφαρμογής.</string>
+    <string name="revanced_hide_shorts_floating_button_title">Αιωρούμενα κουμπιά</string>
+    <string name="revanced_hide_shorts_floating_button_summary_on">"Κρυμμένα.
+
+Αφορά τα αιωρούμενα κουμπιά όπως το «Χρήση αυτού του ήχου» στην καρτέλα Shorts του καναλιού."</string>
+    <string name="revanced_hide_shorts_floating_button_summary_off">"Εμφανίζονται.
+
+Αφορά τα αιωρούμενα κουμπιά όπως το «Χρήση αυτού του ήχου» στην καρτέλα Shorts του καναλιού."</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelf -->
     <string name="revanced_preference_category_shorts_shelf">Ενότητα Shorts</string>
     <string name="revanced_hide_shorts_shelf_title">Απόκρυψη των Shorts</string>
@@ -995,6 +1008,12 @@ Playlists
     <string name="revanced_hide_shorts_paid_promotion_label_title">Ετικέτες προώθησης επί πληρωμή</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_on">Κρυμμένες.</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_off">Εμφανίζονται.</string>
+    <string name="revanced_hide_shorts_trends_button_title">Κουμπί «Τάσεις»</string>
+    <string name="revanced_hide_shorts_trends_button_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_shorts_trends_button_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_shorts_shopping_button_title">Κουμπί «Κατάστημα»</string>
+    <string name="revanced_hide_shorts_shopping_button_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_shorts_shopping_button_summary_off">Εμφανίζεται.</string>
     <string name="revanced_hide_shorts_shop_button_title">Κουμπί «Κατάστημα»</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">Εμφανίζεται.</string>
@@ -1004,15 +1023,21 @@ Playlists
     <string name="revanced_hide_shorts_tagged_products_title">Ετικέτες προϊόντων</string>
     <string name="revanced_hide_shorts_tagged_products_summary_on">Κρυμμένες.</string>
     <string name="revanced_hide_shorts_tagged_products_summary_off">Εμφανίζονται.</string>
-    <string name="revanced_hide_shorts_location_label_title">Ετικέτα τοποθεσίας</string>
-    <string name="revanced_hide_shorts_location_label_summary_on">Κρυμμένη.</string>
-    <string name="revanced_hide_shorts_location_label_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_shorts_location_button_title">Κουμπί τοποθεσίας</string>
+    <string name="revanced_hide_shorts_location_button_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_shorts_location_button_summary_off">Εμφανίζεται.</string>
     <string name="revanced_hide_shorts_save_sound_button_title">Κουμπί αποθήκευσης ήχου σε λίστα αναπαραγωγής</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_off">Εμφανίζεται.</string>
-    <string name="revanced_hide_shorts_search_suggestions_title">Προτάσεις αναζήτησης</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_on">Κρυμμένες.</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_off">Εμφανίζονται.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_title">Κουμπί προτάσεων αναζήτησης</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_title">Κουμπί «Χρήση αυτού του ήχου»</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_shorts_use_template_button_title">Κουμπί «Χρήση προτύπου»</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_off">Εμφανίζεται.</string>
     <string name="revanced_hide_shorts_info_panel_title">Πάνελ πληροφοριών</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Κρυμμένα.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Εμφανίζονται.</string>
@@ -1472,6 +1497,12 @@ Playlists
     <string name="revanced_extended_settings_reset">Επαναφορά</string>
     <string name="revanced_share_copy_settings_success">Οι ρυθμίσεις αντιγράφηκαν στο πρόχειρο.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data -->
+    <string name="revanced_preference_screen_spoof_streaming_data_title">Παραποίηση δεδομένων ροής</string>
+    <string name="revanced_preference_screen_spoof_streaming_data_summary">Παραποίηση των δεδομένων ροής για την αποφυγή προβλημάτων αναπαραγωγής.</string>
+    <string name="revanced_spoof_streaming_data_title">Παραποίηση δεδομένων ροής</string>
+    <string name="revanced_spoof_streaming_data_summary_on">Τα δεδομένα ροής παραποιούνται.</string>
+    <string name="revanced_spoof_streaming_data_summary_off">"Τα δεδομένα ροής δεν παραποιούνται. Η αναπαραγωγή βίντεο ενδέχεται να μη λειτουργεί σωστά."</string>
+    <string name="revanced_spoof_streaming_data_user_dialog_message">Η απενεργοποίηση αυτής της ρύθμισης ενδέχεται να προκαλέσει προβλήματα αναπαραγωγής βίντεο.</string>
     <string name="revanced_spoof_streaming_data_type_title">Προεπιλογή</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
     <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
@@ -1482,6 +1513,19 @@ Playlists
     <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
     <string name="revanced_spoof_streaming_data_type_entry_web">Ιστός (Web)</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Παρενέργειες παραποίησης</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• Οι ταινίες ή τα επί πληρωμή βίντεο ενδέχεται να μην αναπαράγονται.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Το μενού «Κομμάτι ήχου» λείπει.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">• Το μενού «Κομμάτι ήχου» λείπει.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_unknown">• Τα βίντεο ενδέχεται να μην αναπαράγονται σωστά.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_title">Εξαναγκασμός iOS AVC (H.264)</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Ο κωδικοποιητής βίντεο iOS είναι ο AVC (H.264).</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Ο κωδικοποιητής βίντεο iOS είναι ο AVC (H.264), ο VP9 ή ο AV1.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Ενεργοποιώντας αυτόν τον κωδικοποιητή ίσως βελτιωθεί η κατανάλωση ενέργειας και ίσως διορθωθούν κολλήματα αναπαραγωγής.
+
+Ο AVC (H.264) έχει μέγιστη ανάλυση 1080p, και η αναπαραγωγή βίντεο καταναλώνει περισσότερα δεδομένα internet από τον VP9 ή τον AV1."</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Εμφάνιση στο «Στατιστικά για σπασίκλες»</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Το πρόγραμμα πελάτη που χρησιμοποιείται για τη λήψη δεδομένων ροής εμφανίζεται στο μενού «Στατιστικά για σπασίκλες».</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Το πρόγραμμα πελάτη που χρησιμοποιείται για τη λήψη δεδομένων ροής δεν εμφανίζεται στο μενού «Στατιστικά για σπασίκλες».</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">Ιστορικό παρακολούθησης</string>
     <string name="revanced_preference_screen_watch_history_summary">Διαχείριση των ρυθμίσεων που σχετίζονται με το ιστορικό παρακολούθησης.</string>

@@ -975,15 +975,9 @@
     <string name="revanced_hide_shorts_tagged_products_title">Скриване на маркираните продукти</string>
     <string name="revanced_hide_shorts_tagged_products_summary_on">Маркираните продукти са скрити.</string>
     <string name="revanced_hide_shorts_tagged_products_summary_off">Маркираните продукти се показват.</string>
-    <string name="revanced_hide_shorts_location_label_title">Етикет за местоположение</string>
-    <string name="revanced_hide_shorts_location_label_summary_on">Етикет за местоположение е скрит.</string>
-    <string name="revanced_hide_shorts_location_label_summary_off">Етикет за местоположение се показва.</string>
     <string name="revanced_hide_shorts_save_sound_button_title">Бутон за запазване на аудиото в плейлиста</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_on">Бутонът за Запазване в плейлиста е скрит.</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_off">Бутонът за Запазване в плейлиста се показва.</string>
-    <string name="revanced_hide_shorts_search_suggestions_title">Скриване на предложенията за търсене</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_on">Предложенията за търсене са скрити.</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_off">Предложенията за търсене се показват.</string>
     <string name="revanced_hide_shorts_info_panel_title">Скриване на информационните панели</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Информационните панели са скрити.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Информационните панели се показват.</string>

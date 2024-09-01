@@ -894,7 +894,6 @@ Nebeneffekt: Offizielle Kopfzeilen in Suchergebnissen werden ausgeblendet."</str
     <string name="revanced_hide_shorts_tagged_products_title">Markierte Produkte ausblenden</string>
     <string name="revanced_hide_shorts_tagged_products_summary_on">Markierte Produkte sind ausgeblendet.</string>
     <string name="revanced_hide_shorts_tagged_products_summary_off">Markierte Produkte werden angezeigt.</string>
-    <string name="revanced_hide_shorts_search_suggestions_title">Suchvorschläge ausblenden</string>
     <string name="revanced_hide_shorts_info_panel_title">Info-Panels ausblenden</string>
     <string name="revanced_hide_shorts_live_header_title">Live-Chat-Kopfzeile ausblenden</string>
     <string name="revanced_hide_shorts_live_header_summary_on">Live-Chat-Kopfzeile wird ausgeblendet.\n\nZurück Button wird nicht ausgeblendet.</string>

@@ -223,17 +223,25 @@
     <string name="revanced_hide_keyword_content_comments_summary_on">يتم تصفية التعليقات.</string>
     <string name="revanced_hide_keyword_content_comments_summary_off">لا يتم تصفية التعليقات.</string>
     <string name="revanced_hide_keyword_content_phrases_title">الكلمات الرئيسية المراد إخفاؤها</string>
-    <string name="revanced_hide_keyword_content_phrases_summary">"الكلمات الرئيسية والعبارات المطلوب إخفاءها، مفصولة بأسطر جديدة.
-يجب إدخال الكلمات التي تحتوي على أحرف كبيرة في المنتصف مع الغلاف (كمثال: iPhone، TikTok، LeBlanc)."</string>
+    <string name="revanced_hide_keyword_content_phrases_summary">"الكلمات والعبارات الرئيسية التي يجب إخفاؤها، مفصولة بأسطر جديدة.
+
+يمكن أن تكون الكلمات الرئيسية عبارة عن أسماء قنوات أو أي نص يظهر في عناوين الفيديو.
+
+يجب إدخال الكلمات التي تحتوي على أحرف كبيرة في المنتصف باستخدام الأحرف الكبيرة (على سبيل المثال: iPhone، TikTok، LeBlanc)."</string>
     <string name="revanced_hide_keyword_content_about_title">حول تصفية الكلمات الرئيسية</string>
-    <string name="revanced_hide_keyword_content_about_summary">"الصفحة الرئيسية / الاشتراكات / يتم تصفية نتائج البحث لإخفاء المحتوى الذي يطابق عبارات الكلمات الرئيسية
+    <string name="revanced_hide_keyword_content_about_summary">"الصفحة الرئيسية / الاشتراكات / يتم تصفية نتائج البحث لإخفاء المحتوى الذي يطابق عبارات الكلمات الرئيسية.
 
  القيود:
- • قد لا تكون بعض فيديوهات Shorts مخفية.
+ • لا يمكن إخفاء فيديوهات Shorts حسب اسم القناة.
  • قد لا تكون بعض مكونات واجهة المستخدم مخفية.
  • قد لا يؤدي البحث عن كلمة رئيسية إلى ظهور أية نتائج."</string>
-    <string name="revanced_hide_keyword_toast_invalid_common">الكلمة الرئيسية غير صالحة. لا يمكن استخدام: \'%s\' كعامل تصفية</string>
-    <string name="revanced_hide_keyword_toast_invalid_broad">الكلمة الرئيسية \'%1$s\' ستؤدي إلى إخفاء جميع مقاطع الفيديو.</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_title">مطابقة الكلمات كاملة</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_summary">سيؤدي وضع علامة اقتباس مزدوجة حول كلمة رئيسية/عبارة إلى منع التطابقات الجزئية لعناوين الفيديو وأسماء القنوات.&lt;br&gt;&lt;br&gt;على سبيل المثال،&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; سيخفي الفيديو: &lt;b&gt;كيف يعمل الذكاء الاصطناعي؟&lt;/b&gt;&lt;br&gt;ولكن لن يخفي: &lt;b&gt;What does fair use mean?&lt;/b&gt;</string>
+    <string name="revanced_hide_keyword_toast_invalid_common">لا يمكن استخدام الكلمة الرئيسية: %s.</string>
+    <string name="revanced_hide_keyword_toast_invalid_common_whole_word_required">إضافة اقتباسات لاستخدام الكلمة الرئيسية: %s.</string>
+    <string name="revanced_hide_keyword_toast_invalid_conflicting">الكلمة الرئيسية لها بيانات متضاربة: %s.</string>
+    <string name="revanced_hide_keyword_toast_invalid_length">الكلمة الرئيسية قصيرة جدًا وتتطلب اقتباسات: %s.</string>
+    <string name="revanced_hide_keyword_toast_invalid_broad">الكلمة الرئيسية ستخفي جميع الفيديوهات: %s.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">الفيديو الموصى به</string>
     <string name="revanced_hide_recommended_video_title">إخفاء الفيديوهات الموصى بها</string>
@@ -936,6 +944,9 @@
     <string name="revanced_disable_resuming_shorts_player_title">تعطيل استئناف مشغل Shorts</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">لن يتم استئناف تشغيل مشغل Shorts عند بدء تشغيل التطبيق.</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">سيتم استئناف تشغيل مشغل Shorts عند بدء تشغيل التطبيق.</string>
+    <string name="revanced_hide_shorts_floating_button_title">إخفاء الزر العائم</string>
+    <string name="revanced_hide_shorts_floating_button_summary_on">"تم إخفاء الأزرار العائمة مثل 'استخدام هذا الصوت' في علامة تبويب قناة Shorts."</string>
+    <string name="revanced_hide_shorts_floating_button_summary_off">"يتم عرض الأزرار العائمة مثل 'استخدام هذا الصوت' في علامة تبويب قناة Shorts."</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelf -->
     <string name="revanced_preference_category_shorts_shelf">رفوف Shorts</string>
     <string name="revanced_hide_shorts_shelf_title">إخفاء رفوف Shorts</string>
@@ -978,6 +989,12 @@
     <string name="revanced_hide_shorts_paid_promotion_label_title">إخفاء تصنيف الترويج المدفوع</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_on">تم إخفاء تصنيف الترويج المدفوع.</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_off">يتم عرض تصنيف الترويج المدفوع.</string>
+    <string name="revanced_hide_shorts_trends_button_title">إخفاء زر الرائجة</string>
+    <string name="revanced_hide_shorts_trends_button_summary_on">تم إخفاء زر الرائجة.</string>
+    <string name="revanced_hide_shorts_trends_button_summary_off">يتم عرض زر الرائجة.</string>
+    <string name="revanced_hide_shorts_shopping_button_title">إخفاء زر التسوق</string>
+    <string name="revanced_hide_shorts_shopping_button_summary_on">تم إخفاء زر التسوق.</string>
+    <string name="revanced_hide_shorts_shopping_button_summary_off">يتم عرض زر التسوق.</string>
     <string name="revanced_hide_shorts_shop_button_title">إخفاء زر التسوق</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">تم إخفاء زر المتجر.</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">يتم عرض زر المتجر.</string>
@@ -987,15 +1004,21 @@
     <string name="revanced_hide_shorts_tagged_products_title">إخفاء المنتجات الموسومة</string>
     <string name="revanced_hide_shorts_tagged_products_summary_on">تم إخفاء المنتجات المعلمة.</string>
     <string name="revanced_hide_shorts_tagged_products_summary_off">يتم عرض المنتجات المعلمة.</string>
-    <string name="revanced_hide_shorts_location_label_title">إخفاء تسمية الموقع</string>
-    <string name="revanced_hide_shorts_location_label_summary_on">تم إخفاء تسمية الموقع.</string>
-    <string name="revanced_hide_shorts_location_label_summary_off">يتم عرض تسمية الموقع.</string>
+    <string name="revanced_hide_shorts_location_button_title">إخفاء زر الموقع</string>
+    <string name="revanced_hide_shorts_location_button_summary_on">تم إخفاء زر الموقع.</string>
+    <string name="revanced_hide_shorts_location_button_summary_off">يتم عرض زر الموقع.</string>
     <string name="revanced_hide_shorts_save_sound_button_title">إخفاء زر حفظ الصوت إلى قائمة التشغيل</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_on">تم إخفاء زر حفظ الصوت في قائمة التشغيل.</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_off">يتم عرض زر حفظ الصوت في قائمة التشغيل.</string>
-    <string name="revanced_hide_shorts_search_suggestions_title">إخفاء اقتراحات البحث</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_on">تم إخفاء اقتراحات البحث.</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_off">يتم عرض اقتراحات البحث.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_title">إخفاء زر اقتراحات البحث</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">تم إخفاء زر اقتراحات البحث.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">يتم عرض زر اقتراحات البحث.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_title">إخفاء زر استخدام هذا الصوت</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">تم إخفاء زر استخدام هذا الصوت.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">يتم عرض زر استخدام هذا الصوت.</string>
+    <string name="revanced_hide_shorts_use_template_button_title">إخفاء زر استخدام القالب</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_on">تم إخفاء زر القالب.</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_off">يتم عرض زر القالب.</string>
     <string name="revanced_hide_shorts_info_panel_title">إخفاء لوحات المعلومات</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">تم إخفاء لوحات المعلومات.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">يتم عرض لوحات المعلومات.</string>
@@ -1456,6 +1479,35 @@
     <string name="revanced_extended_settings_reset">إعادة تعيين</string>
     <string name="revanced_share_copy_settings_success">تم نسخ الإعدادات إلى الحافظة.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data -->
+    <string name="revanced_preference_screen_spoof_streaming_data_title">Spoof Streaming Data</string>
+    <string name="revanced_preference_screen_spoof_streaming_data_summary">تزييف بيانات البث لمنع حدوث مشكلات أثناء التشغيل.</string>
+    <string name="revanced_spoof_streaming_data_title">Spoof Streaming Data</string>
+    <string name="revanced_spoof_streaming_data_summary_on">يتم تزييف بيانات البث.</string>
+    <string name="revanced_spoof_streaming_data_summary_off">"لا يتم تزييف بيانات البث. قد لا يعمل تشغيل الفيديو."</string>
+    <string name="revanced_spoof_streaming_data_user_dialog_message">إيقاف تشغيل هذا الإعداد قد يسبب مشاكل في تشغيل الفيديو.</string>
+    <string name="revanced_spoof_streaming_data_type_title">العميل الافتراضي</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">مشغل Android المضمّن</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android Testsuite</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
+    <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
+    <string name="revanced_spoof_streaming_data_side_effects_title">التأثيرات الجانبية للتزييف</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• قد لا يتم تشغيل الأفلام أو الفيديوهات المدفوعة.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• قائمة المقطع الصوتي مفقودة.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">• قائمة المقطع الصوتي مفقودة.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_unknown">• قد لا يتم تشغيل الفيديو.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_title">فرض iOS AVC (H.264)</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">ترميز فيديو iOS هو AVC (H.264).</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">ترميز فيديو iOS هو AVC (H.264) أو VP9 أو AV1.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"قد يؤدي تمكين هذا إلى تحسين عمر البطارية وإصلاح مشكلة تقطيع التشغيل.
+
+يتمتع تنسيق AVC (H.264) بدقة قصوى تبلغ 1080P، وسيستخدم تشغيل الفيديو بيانات إنترنت اكثر من VP9 أو AV1."</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_title">عرض في إحصاءات تقنية</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">يتم عرض العميل المستخدم لجلب بيانات البث في إحصاءات تقنية.</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">تم إخفاء العميل المستخدم لجلب بيانات البث في إحصاءات تقنية.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">سجل المشاهدة</string>
     <string name="revanced_preference_screen_watch_history_summary">تغيير الإعدادات المتعلقة بسجل المشاهدة.</string>

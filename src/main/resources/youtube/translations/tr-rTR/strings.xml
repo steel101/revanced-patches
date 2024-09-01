@@ -963,15 +963,9 @@ Bilinen sorun: Arama sonuçlarındaki resmi başlıklar da gizlenebiliyor."</str
     <string name="revanced_hide_shorts_tagged_products_title">Etiketli ürünleri gizle</string>
     <string name="revanced_hide_shorts_tagged_products_summary_on">Etiketli ürünler gizli.</string>
     <string name="revanced_hide_shorts_tagged_products_summary_off">Etiketli ürünler görünür.</string>
-    <string name="revanced_hide_shorts_location_label_title">Konum etiketini gizle</string>
-    <string name="revanced_hide_shorts_location_label_summary_on">Konum etiketi gizli.</string>
-    <string name="revanced_hide_shorts_location_label_summary_off">Konum etiketi görünür</string>
     <string name="revanced_hide_shorts_save_sound_button_title">Sesi oynatma listesine kaydetme butonunu gizle</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_on">Sesi oynatma listesine kaydetme butonu gizleniyor</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_off">Sesi oynatma listesine kaydetme butonu gösteriliyor.</string>
-    <string name="revanced_hide_shorts_search_suggestions_title">Arama önerilerini gizle</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_on">Arama önerileri gizleniyor</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_off">Arama önerileri gösteriliyor</string>
     <string name="revanced_hide_shorts_info_panel_title">Bilgi panellerini gizle</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Bilgi panelleri gizleniyor.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Bilgi panelleri gizlenmiyor.</string>
