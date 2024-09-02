@@ -355,8 +355,8 @@ This does not bypass the age restriction. It just accepts it automatically."</st
     <string name="revanced_override_video_download_button_summary_on">Native video download button opens your external downloader.</string>
     <string name="revanced_override_video_download_button_summary_off">Native video download button opens the native in-app downloader.</string>
     <string name="revanced_override_playlist_download_button_title">Override playlist download button</string>
-    <string name="revanced_override_playlist_download_button_summary_on">Native playlist download button opens your external downloader.</string>
-    <string name="revanced_override_playlist_download_button_summary_off">Native playlist download button opens the native in-app downloader.</string>
+    <string name="revanced_override_playlist_download_button_summary_on">Native playlist download button is always shown, and in public playlists, it opens your external downloader.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">If shown, the native playlist download button opens the native in-app downloader.</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Playlist downloader package name</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Package name of your installed external downloader app, such as YTDLnis.</string>
 
