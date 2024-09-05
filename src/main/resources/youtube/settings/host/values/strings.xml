@@ -45,6 +45,9 @@ Side effect: Community post images may be blocked in fullscreen."</string>
     <string name="revanced_hide_paid_promotion_label_title">Hide paid promotion label</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">Paid promotion label is hidden.</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">Paid promotion label is shown.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Hide promotion alert banner</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_on">Promotion alert banner is hidden.</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_off">Promotion alert banner is shown.</string>
     <string name="revanced_hide_self_sponsor_cards_title">Hide self sponsored cards</string>
     <string name="revanced_hide_self_sponsor_cards_summary_on">Self sponsored cards are hidden.</string>
     <string name="revanced_hide_self_sponsor_cards_summary_off">Self sponsored cards are shown.</string>
