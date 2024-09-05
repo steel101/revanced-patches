@@ -73,6 +73,8 @@ If it is disabled, fullscreen ads are blocked. (there may be side effects)"</str
     <string name="revanced_hide_premium_promotion_summary">Hides premium promotion popups.</string>
     <string name="revanced_hide_premium_renewal_title">Hide premium renewal banner</string>
     <string name="revanced_hide_premium_renewal_summary">Hides the premium renewal banner.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Hide promotion alert banner</string>
+    <string name="revanced_hide_promotion_alert_banner_summary">Hides the promotion alert banner.</string>
 
 
     <!-- PreferenceScreen: Flyout -->

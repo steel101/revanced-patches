@@ -212,5 +212,10 @@ object AdsPatch : BaseBytecodePatch(
             "revanced_hide_premium_renewal",
             "true"
         )
+        SettingsPatch.addSwitchPreference(
+            CategoryType.ADS,
+            "revanced_hide_promotion_alert_banner",
+            "true"
+        )
     }
 }
