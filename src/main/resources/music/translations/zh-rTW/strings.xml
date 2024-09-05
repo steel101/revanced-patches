@@ -258,7 +258,6 @@
     <string name="revanced_ryd_failure_connection_status_code">倒讚數無法使用 (狀態 %d)</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">倒讚顯示不正常（已達到客戶端 API 限制）</string>
     <string name="revanced_ryd_failure_generic">倒讚數無法使用 (狀態 %s)</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">隱藏</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">贊助區塊阻擋（SponsorBlock）</string>
     <string name="revanced_sb_enabled">啟用SponsorBlock</string>

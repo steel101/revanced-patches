@@ -236,7 +236,7 @@
  • قد لا تكون بعض مكونات واجهة المستخدم مخفية.
  • قد لا يؤدي البحث عن كلمة رئيسية إلى ظهور أية نتائج."</string>
     <string name="revanced_hide_keyword_content_about_whole_words_title">مطابقة الكلمات كاملة</string>
-    <string name="revanced_hide_keyword_content_about_whole_words_summary">سيؤدي وضع علامة اقتباس مزدوجة حول كلمة رئيسية/عبارة إلى منع التطابقات الجزئية لعناوين الفيديو وأسماء القنوات.&lt;br&gt;&lt;br&gt;على سبيل المثال،&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; سيخفي الفيديو: &lt;b&gt;كيف يعمل الذكاء الاصطناعي؟&lt;/b&gt;&lt;br&gt;ولكن لن يخفي: &lt;b&gt;What does fair use mean?&lt;/b&gt;</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_summary">سيؤدي وضع علامة اقتباس مزدوجة حول كلمة رئيسية/عبارة إلى منع التطابقات الجزئية لعناوين الفيديو وأسماء القنوات.&lt;br&gt;&lt;br&gt;على سبيل المثال،&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; سيخفي الفيديو: &lt;b&gt;How does AI work?&lt;/b&gt;&lt;br&gt;ولكن لن يخفي: &lt;b&gt;What does fair use mean?&lt;/b&gt;</string>
     <string name="revanced_hide_keyword_toast_invalid_common">لا يمكن استخدام الكلمة الرئيسية: %s.</string>
     <string name="revanced_hide_keyword_toast_invalid_common_whole_word_required">إضافة اقتباسات لاستخدام الكلمة الرئيسية: %s.</string>
     <string name="revanced_hide_keyword_toast_invalid_conflicting">الكلمة الرئيسية لها بيانات متضاربة: %s.</string>
@@ -291,9 +291,9 @@
     <string name="revanced_change_start_page_entry_watch_later">المشاهدة لاحقًا</string>
     <string name="revanced_change_start_page_invalid_toast">صفحة البداية غير صالحة، تتم إعادة التعيين إلى الوضع الافتراضي.</string>
     <string name="revanced_disable_auto_audio_tracks_title">تعطيل المقطع الصوتي التلقائي المفروض</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">"تم تعطيل المقطع الصوتي التلقائي المفروض.
+    <string name="revanced_disable_auto_audio_tracks_summary_on">تم تعطيل المقطع الصوتي التلقائي المفروض.
 
-التقييد: لا ينطبق هذا الإعداد على فيديوهات Shorts."</string>
+التقييد: لا ينطبق هذا الإعداد على فيديوهات Shorts.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">تم تمكين المقطع الصوتي التلقائي المفروض.</string>
     <string name="revanced_disable_auto_captions_title">تعطيل التَّرْجَمَة التلقائية المفروضة</string>
     <string name="revanced_disable_auto_captions_summary_on">تم تعطيل التَّرْجَمَة التلقائية المفروضة.</string>
@@ -1234,7 +1234,6 @@
     <string name="revanced_ryd_failure_client_rate_limit_requested">لم يعجبني غير متوفر (تم الوصول إلى حد API العميل).</string>
     <string name="revanced_ryd_failure_generic">لم يعجبني غير متوفر (%s).</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">أعد تحميل الفيديو للتصويت باستخدام Return YouTube Dislike</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">مخفي</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">تمكين SponsorBlock</string>
@@ -1454,6 +1453,9 @@
     <string name="revanced_sanitize_sharing_links_summary">يزيل معلمات استعلام التتبع من عناوين URL عند مشاركة الروابط.</string>
     <string name="revanced_disable_quic_protocol_title">تعطيل بروتوكول QUIC</string>
     <string name="revanced_disable_quic_protocol_summary">"تعطيل بروتوكول QUIC الخاص بـ CronetEngine."</string>
+    <string name="revanced_change_share_sheet_title">تغيير لوح مشاركة</string>
+    <string name="revanced_change_share_sheet_summary_on">يتم استخدام لوح مشاركة النظام.</string>
+    <string name="revanced_change_share_sheet_summary_off">يتم استخدام لوح مشاركة داخل التطبيق.</string>
     <string name="revanced_enable_opus_codec_title">تمكين ترميز OPUS</string>
     <string name="revanced_enable_opus_codec_summary">تمكين ترميز OPUS إذا كانت استجابة المشغل تتضمن برنامج ترميز OPUS.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->

@@ -287,9 +287,9 @@ Playlists
     <string name="revanced_change_start_page_entry_watch_later">Παρακολούθηση αργότερα</string>
     <string name="revanced_change_start_page_invalid_toast">Μη έγκυρη αρχική σελίδα, επαναφέρθηκε.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Απενεργοποίηση υποχρεωτικών κομματιών ήχου</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">"Τα υποχρεωτικά κομμάτια ήχου είναι απενεργοποιημένα.
+    <string name="revanced_disable_auto_audio_tracks_summary_on">Τα υποχρεωτικά κομμάτια ήχου είναι απενεργοποιημένα.
 
-Περιορισμός: Αυτή η λειτουργία δεν ισχύει για τα Shorts."</string>
+Περιορισμός: Αυτή η λειτουργία δεν ισχύει για τα Shorts.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Τα υποχρεωτικά κομμάτια ήχου είναι ενεργοποιημένα.</string>
     <string name="revanced_disable_auto_captions_title">Απενεργοποίηση αυτόματων υπότιτλων</string>
     <string name="revanced_disable_auto_captions_summary_on">Οι υποχρεωτικοί αυτόματοι υπότιτλοι είναι απενεργοποιημένοι.</string>
@@ -1247,7 +1247,6 @@ Playlists
     <string name="revanced_ryd_failure_client_rate_limit_requested">Δεδομένα dislike μη διαθέσιμα (το όριο API έχει επιτευχθεί).</string>
     <string name="revanced_ryd_failure_generic">Δεδομένα dislike μη διαθέσιμα (%s).</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">Επαναφορτώστε το βίντεο για να ψηφίσετε χρησιμοποιώντας το Return YouTube Dislike</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Κρυφό</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">Ενεργοποίηση του SponsorBlock</string>

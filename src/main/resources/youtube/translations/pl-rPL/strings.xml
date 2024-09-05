@@ -39,6 +39,9 @@ Ograniczenie: obrazy postów społeczności w trybie pełnoekranowym mogą być 
     <string name="revanced_hide_paid_promotion_label_title">Etykiety oznaczające płatne promocje</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">Ukryte</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">Widoczne</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Banery z alertami promocyjnymi</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_on">Ukryte</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_off">Widoczne</string>
     <string name="revanced_hide_self_sponsor_cards_title">Karty z autopromocją</string>
     <string name="revanced_hide_self_sponsor_cards_summary_on">Ukryte</string>
     <string name="revanced_hide_self_sponsor_cards_summary_off">Widoczne</string>
@@ -196,7 +199,7 @@ Sklep"</string>
     <string name="revanced_hide_community_posts_subscriptions_summary_on">Ukryte</string>
     <string name="revanced_hide_community_posts_subscriptions_summary_off">Widoczne</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Flyout menu -->
-    <string name="revanced_preference_screen_feed_flyout_menu_title">Menu ustawień filmu</string>
+    <string name="revanced_preference_screen_feed_flyout_menu_title">Menu ustawień ze strony głównej</string>
     <string name="revanced_preference_screen_feed_flyout_menu_summary">Ukryj lub pokazuj menu na stronie głównej</string>
     <string name="revanced_hide_feed_flyout_menu_title">Filtr menu ze strony głównej</string>
     <string name="revanced_hide_feed_flyout_menu_summary_on">Włączony</string>
@@ -289,9 +292,9 @@ Ograniczenia:
     <string name="revanced_change_start_page_entry_watch_later">Do obejrzenia</string>
     <string name="revanced_change_start_page_invalid_toast">Nieprawidłowa strona startowa, zresetowano do domyślnej.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Wymuszone ścieżki dźwiękowe</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">"Wyłączone
+    <string name="revanced_disable_auto_audio_tracks_summary_on">Wyłączone
 
-Ograniczenie: ustawienie nie działa na Shortsy."</string>
+Ograniczenie: ustawienie nie działa na Shortsy.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Włączone</string>
     <string name="revanced_disable_auto_captions_title">Wymuszone napisy</string>
     <string name="revanced_disable_auto_captions_summary_on">Wyłączone</string>
@@ -492,6 +495,8 @@ Stuknij i przytrzymaj, by otworzyć ustawienia RVX."</string>
     <string name="revanced_disable_auto_player_popup_panels_title">Wyskakujące panele w odtwarzaczu</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_on">Widoczne</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_off">Ukryte</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_title">Automatyczne zmienianie playlist mix</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_on">Wyłączone</string>
     <string name="revanced_disable_speed_overlay_title">Wyłącz nakładkę prędkości odtwarzania</string>
     <string name="revanced_disable_speed_overlay_summary">"Wyłącz 'Odtwarzam 2x szybciej' podczas przytrzymywania.
 
@@ -674,6 +679,9 @@ Autoodtwarzanie można zmienić w ustawieniach YouTube:
     <string name="revanced_hide_player_flyout_menu_report_summary_off">Widoczne</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu, PreferenceCategory: Additional settings -->
     <string name="revanced_preference_category_additional_settings">Dodatkowe ustawienia</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_title">Menu od oświetlenia kinowego</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_on">Ukryte</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">Widoczne</string>
     <string name="revanced_hide_player_flyout_menu_help_title">Menu od pomocy i opinii</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_on">Ukryte</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_off">Widoczne</string>
@@ -861,7 +869,7 @@ Stuknij i przytrzymaj, by cofnąć generowanie playlisty."</string>
     <string name="revanced_append_time_stamp_information_title">Dodatkowa informacja obok czasu</string>
     <string name="revanced_append_time_stamp_information_summary_on">Widoczna</string>
     <string name="revanced_append_time_stamp_information_summary_off">Niewidoczna</string>
-    <string name="revanced_append_time_stamp_information_type_title">Informacja</string>
+    <string name="revanced_append_time_stamp_information_type_title">Typ informacji</string>
     <string name="revanced_append_time_stamp_information_type_summary_on">Jakość filmu</string>
     <string name="revanced_append_time_stamp_information_type_summary_off">Prędkość odtwarzania</string>
     <string name="revanced_replace_time_stamp_action_title">Działanie informacji obok czasu</string>
@@ -1226,7 +1234,6 @@ Ograniczenie: Liczba łapek w dół może nie być widoczna, gdy użytkownik nie
     <string name="revanced_ryd_failure_client_rate_limit_requested">Liczba łapek w dół nie jest dostępna (limit API użytkownika został osiągnięty).</string>
     <string name="revanced_ryd_failure_generic">Liczba łapek w dół nie jest dostępna (%s).</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">Odśwież film, aby zagłosować używając Return YouTube Dislike</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Ukryte</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">SponsorBlock</string>
@@ -1518,9 +1525,9 @@ Kodek AVC (H.264) obsługuje maksymalnie rozdzielczość 1080p, a odtwarzanie fi
     <string name="revanced_watch_history_about_status_original">"• Stosuje się do ustawień historii oglądania konta Google
 • Historia oglądania może nie działać przy używaniu DNS lub VPN"</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
-    <string name="revanced_preference_category_patch_information">Lista łatek</string>
+    <string name="revanced_preference_category_patch_information">Informacje o łatkach</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->
-    <string name="revanced_preference_screen_patch_information_title">Lista łatek</string>
+    <string name="revanced_preference_screen_patch_information_title">Informacje o łatkach</string>
     <string name="revanced_preference_screen_patch_information_summary">Informacje na temat zastosowanych łatek.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Tool used -->
     <string name="revanced_preference_category_tool_used">Użyte narzędzie</string>

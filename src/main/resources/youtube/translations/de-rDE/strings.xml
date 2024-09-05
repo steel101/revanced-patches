@@ -278,7 +278,7 @@ Einschränkungen:
     <string name="revanced_change_start_page_entry_watch_later">Später ansehen</string>
     <string name="revanced_change_start_page_invalid_toast">Ungültige Startseite, zurücksetzen auf Standard.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Erzwungene automatische Audiospuren sind deaktivieren</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">"Erzwungene automatische Audiospuren sind deaktiviert."</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_on">Erzwungene automatische Audiospuren sind deaktiviert.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Erzwungene automatische Audiospuren sind aktiviert.</string>
     <string name="revanced_disable_auto_captions_title">Deaktiviere erzwungene automatische Untertitel</string>
     <string name="revanced_disable_auto_captions_summary_on">Erzwungene automatische Untertitel sind deaktiviert</string>
@@ -1060,7 +1060,6 @@ Einschränkung: Dislikes werden im Inkognito Modus nicht angezeigt."</string>
     <string name="revanced_ryd_attribution_title">ReturnYouTubeDislike.com</string>
     <string name="revanced_ryd_attribution_summary">Dislikes Daten werden von der True RYD Worker API zur Verfügung gestellt. Tippe hier, um mehr zu erfahren.</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Dislikes nicht verfügbar (Client-API Limit erreicht)</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Versteckt</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">SponsorBlock aktivieren</string>

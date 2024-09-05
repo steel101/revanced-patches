@@ -276,7 +276,6 @@ Alguns recursos podem não funcionar corretamente no layout antigo do reprodutor
     <string name="revanced_ryd_failure_connection_status_code">Deslikes indisponível (status %d).</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Dislikes indisponível (limite de API do cliente atingido).</string>
     <string name="revanced_ryd_failure_generic">Deslikes indisponível (%s).</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Oculto</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enabled">Ativar SponsorBlock</string>

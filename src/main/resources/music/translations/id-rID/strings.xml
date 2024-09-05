@@ -276,7 +276,6 @@ Some features may not work properly in the old player layout."</string>
     <string name="revanced_ryd_failure_connection_status_code">Dislikes are unavailable (status %d).</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Dislike tidak tersedia (batas API client tercapai).</string>
     <string name="revanced_ryd_failure_generic">Dislikes are unavailable (%s).</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Sembunyikan</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enabled">Enable SponsorBlock</string>

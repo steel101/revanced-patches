@@ -235,10 +235,10 @@ Limitazioni:
     <string name="revanced_hide_keyword_content_about_whole_words_title">Abbina parole intere</string>
     <string name="revanced_hide_keyword_content_about_whole_words_summary">Circondare una parola chiave/frase con doppie virgolette impedirà partite parziali di titoli video e nomi di canale.&lt;br&gt;&lt;br&gt;Ad esempio,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; nasconderà il video: &lt;b&gt;Come funziona l\'intelligenza artificiale?&lt;/b&gt;&lt;br&gt;ma non si nasconde: &lt;b&gt;Cosa significa un uso equo?&lt;/b&gt;</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Parola chiave non valida. Non è possibile usare: \'%s\' come filtro</string>
-    <string name="revanced_hide_keyword_toast_invalid_common_whole_word_required">Aggiungi virgolette da usare parola chiave: %s.</string>
+    <string name="revanced_hide_keyword_toast_invalid_common_whole_word_required">Aggiungi le virgolette per usare parola chiave: %s.</string>
     <string name="revanced_hide_keyword_toast_invalid_conflicting">La parola chiave ha dichiarazioni in conflitto: %s.</string>
-    <string name="revanced_hide_keyword_toast_invalid_length">Parola chiave troppo corta e richiede le virgolette: %s.</string>
-    <string name="revanced_hide_keyword_toast_invalid_broad">La parola chiave \'%1$s\' nasconderà tutti i video.</string>
+    <string name="revanced_hide_keyword_toast_invalid_length">La parola chiave è troppo corta e richiede le virgolette: %s.</string>
+    <string name="revanced_hide_keyword_toast_invalid_broad">La parola chiave nasconderà tutti i video: %s.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Video consigliati</string>
     <string name="revanced_hide_recommended_video_title">Nascondi video consigliati</string>
@@ -288,7 +288,7 @@ Limitazioni:
     <string name="revanced_change_start_page_entry_watch_later">Guarda più tardi</string>
     <string name="revanced_change_start_page_invalid_toast">Scheda iniziale non valida, ripristinata al valore predefinito.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Disabilita le tracce audio automatiche forzate</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">"Le tracce audio automatiche forzate sono disattivate."</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_on">Le tracce audio automatiche forzate sono disattivate.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Le tracce audio automatiche forzate sono abilitate.</string>
     <string name="revanced_disable_auto_captions_title">Disattiva i sottotitoli automatici forzati</string>
     <string name="revanced_disable_auto_captions_summary_on">I sottotitoli automatici forzati sono disattivati.</string>
@@ -537,7 +537,7 @@ Nota:
     <string name="revanced_hide_timed_reactions_title">Nascondi le reazioni temporizzate</string>
     <string name="revanced_hide_timed_reactions_summary_on">Le reazioni temporizzate sono nascoste</string>
     <string name="revanced_hide_timed_reactions_summary_off">Le reazioni temporizzate sono visibili</string>
-    <string name="revanced_hide_suggested_video_end_screen_title">Nascondi il video suggerito della schermata finale</string>
+    <string name="revanced_hide_suggested_video_end_screen_title">Nascondi il video suggerito nella schermata finale</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_on">"Il video suggerito della schermata finale è nascosto quando la riproduzione automatica è disattivata.
 
 La riproduzione automatica può essere modificata nelle impostazioni di YouTube:
@@ -792,7 +792,7 @@ Problema noto: potrebbe rompere la funzione Picture-in-Picture</string>
     <string name="revanced_preference_screen_player_buttons_summary">Nascondi o mostra i pulsanti nel riproduttore video.</string>
     <string name="revanced_hide_player_autoplay_button_title">Nascondi il pulsante Riproduzione Automatica</string>
     <string name="revanced_hide_player_autoplay_button_summary_on">Il pulsante Riproduzione Automatica è nascosto.</string>
-    <string name="revanced_hide_player_autoplay_button_summary_off">Il pulsante Riproduzione Automatica è mostrato.</string>
+    <string name="revanced_hide_player_autoplay_button_summary_off">Il pulsante Riproduzione Automatica è visibile.</string>
     <string name="revanced_hide_player_captions_button_title">Nascondi il pulsante Sottotitoli</string>
     <string name="revanced_hide_player_captions_button_summary_on">Il pulsante Sottotitoli è nascosto.</string>
     <string name="revanced_hide_player_captions_button_summary_off">Il pulsante Sottotitoli è mostrato.</string>
@@ -946,6 +946,9 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
     <string name="revanced_disable_resuming_shorts_player_title">Disabilita la ripresa del riproduttore Shorts</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">Il riproduttore Shorts non riprenderà all\'avvio dell\'app.</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">Il riproduttore Shorts riprenderà all\'avvio dell\'app.</string>
+    <string name="revanced_hide_shorts_floating_button_title">Nascondi pulsante fluttuante</string>
+    <string name="revanced_hide_shorts_floating_button_summary_on">"I pulsanti fluttuanti come 'Usa questo suono' sono nascosti nella scheda del Canale degli short."</string>
+    <string name="revanced_hide_shorts_floating_button_summary_off">"I pulsanti fluttuanti come 'Usa questo suono' sono mostrati nella scheda del Canale degli short."</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelf -->
     <string name="revanced_preference_category_shorts_shelf">Scaffali Shorts</string>
     <string name="revanced_hide_shorts_shelf_title">Nascondi lo scaffale degli Shorts</string>
@@ -986,6 +989,12 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
     <string name="revanced_hide_shorts_paid_promotion_label_title">Nascondi l\'etichetta della promozione a pagamento</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_on">L\'etichetta della promozione a pagamento è nascosta.</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_off">L\'etichetta della promozione a pagamento è mostrato.</string>
+    <string name="revanced_hide_shorts_trends_button_title">Nascondi pulsante Tendenze</string>
+    <string name="revanced_hide_shorts_trends_button_summary_on">Il pulsante Tendenze è nascosto.</string>
+    <string name="revanced_hide_shorts_trends_button_summary_off">Il pulsante Tendenze è mostrato.</string>
+    <string name="revanced_hide_shorts_shopping_button_title">Nascondi pulsante Shopping</string>
+    <string name="revanced_hide_shorts_shopping_button_summary_on">Il pulsante shopping è nascosto.</string>
+    <string name="revanced_hide_shorts_shopping_button_summary_off">Il pulsante shopping è mostrato.</string>
     <string name="revanced_hide_shorts_shop_button_title">Nascondi il pulsante Negozio</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">Il pulsante Negozio è nascosto.</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">Il pulsante negozio è mostrato.</string>
@@ -995,12 +1004,21 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
     <string name="revanced_hide_shorts_tagged_products_title">Nascondi prodotti taggati</string>
     <string name="revanced_hide_shorts_tagged_products_summary_on">Prodotti taggati sono nascosti.</string>
     <string name="revanced_hide_shorts_tagged_products_summary_off">Prodotti taggati sono mostrati.</string>
+    <string name="revanced_hide_shorts_location_button_title">Nascondi pulsante posizione</string>
+    <string name="revanced_hide_shorts_location_button_summary_on">Il pulsante posizione è nascosto.</string>
+    <string name="revanced_hide_shorts_location_button_summary_off">Il pulsante posizione è mostrato.</string>
     <string name="revanced_hide_shorts_save_sound_button_title">Nascondi il pulsante Salva suono nella playlist</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_on">Il pulsante Salva suono nella playlist è nascosto.</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_off">Il pulsante Salva suono nella playlist è mostrato.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_title">Nascondi il pulsante suggerimenti di ricerca</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">Il pulsante suggerimenti di ricerca è nascosto.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">Il pulsante suggerimenti di ricerca è mostrato.</string>
     <string name="revanced_hide_shorts_use_this_sound_button_title">Nascondi Usa questo pulsante sonoro</string>
     <string name="revanced_hide_shorts_use_this_sound_button_summary_on">Usa il pulsante sonoro è nascosto.</string>
     <string name="revanced_hide_shorts_use_this_sound_button_summary_off">Usa il pulsante sonoro è mostrato.</string>
+    <string name="revanced_hide_shorts_use_template_button_title">Nascondi il pulsante Usa modello</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_on">Il pulsante Usa modello è nascosto.</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_off">Il pulsante Usa modello è mostrato.</string>
     <string name="revanced_hide_shorts_info_panel_title">Nascondi i pannelli informativi</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">I pannelli informativi sono nascosti.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">I pannelli informativi sono mostrati.</string>
@@ -1206,7 +1224,6 @@ Limitazione: Non mi piace possono non apparire se l'utente non è registrato o i
     <string name="revanced_ryd_failure_client_rate_limit_requested">Non Mi Piace non disponibili (è stato raggiunto il limite del client API)</string>
     <string name="revanced_ryd_failure_generic">Non Mi Piace non disponibili (%s)</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">Ricarica il video per votare utilizzando Return YouTube Dislike</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Nascosto</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">Abilita SponsorBlock</string>

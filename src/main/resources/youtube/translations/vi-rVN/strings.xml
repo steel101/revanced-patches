@@ -291,9 +291,9 @@ Bộ lọc có phân biệt chữ hoa chữ thường, vì vậy bạn cần nh�
     <string name="revanced_change_start_page_entry_watch_later">Xem sau</string>
     <string name="revanced_change_start_page_invalid_toast">Trang khởi động không hợp lệ. Đã đặt lại về mặc định.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Tắt buộc tự động phát bản âm thanh</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">"Buộc tự động phát bản âm thanh đã bị tắt.
+    <string name="revanced_disable_auto_audio_tracks_summary_on">Buộc tự động phát bản âm thanh đã bị tắt.
 
-Hạn chế: Tính năng này hiện chưa áp dụng cho trình Shorts."</string>
+Hạn chế: Tính năng này hiện chưa áp dụng cho trình Shorts.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Buộc tự động phát bản âm thanh đã được bật.</string>
     <string name="revanced_disable_auto_captions_title">Tắt tự động hiển thị phụ đề</string>
     <string name="revanced_disable_auto_captions_summary_on">Tự động hiển thị phụ đề khi phát video có phụ đề đã tắt.</string>
@@ -1227,7 +1227,6 @@ Hạn chế: Lượt không thích có thể không hiển thị nếu người 
     <string name="revanced_ryd_failure_client_rate_limit_requested">Số lượt không thích không khả dụng (đã đạt đến giới hạn API máy khách).</string>
     <string name="revanced_ryd_failure_generic">Số lượt không thích không khả dụng (%s).</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">Tải lại video để bình chọn sử dụng Return YouTube Dislike</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Ẩn</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">Bật SponsorBlock</string>

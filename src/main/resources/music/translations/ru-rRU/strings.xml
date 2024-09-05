@@ -276,7 +276,6 @@
     <string name="revanced_ryd_failure_connection_status_code">Отметки \"Не нравится\" недоступны (состояние %d).</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Отметки \"Не нравится\" недоступны (достигнут лимит клиентов сервера API).</string>
     <string name="revanced_ryd_failure_generic">Отметки \"Не нравится\" недоступны (%s).</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Скрыты</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enabled">Включить SponsorBlock</string>

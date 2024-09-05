@@ -5,7 +5,7 @@
     <string name="accessibility_settings_edu_opt_out_text">Служба специальных возможностей включена. Управление изменено.</string>
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
-    <string name="revanced_extended_settings_search_title">Поиск настроек</string>
+    <string name="revanced_extended_settings_search_title">Поиск %s</string>
     <string name="revanced_preference_category_experimental_flag">Экспериментальные опции</string>
     <string name="revanced_extended_confirm_user_dialog_title">Подтверждаете действие?</string>
     <string name="revanced_extended_restart_first_run">Перезапустить для правильной загрузки интерфейса?</string>
@@ -236,7 +236,13 @@ Shorts
 • Некоторые Shorts могут быть не скрыты.
 • Некоторые компоненты интерфейса могут быть не скрыты.
 • Поиск по ключевому слову может не дать результатов."</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_title">Ключевые слова обрабатываются целиком</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_summary">Ключевые слова/фразы с двойными кавычками, принудительно, используют набор символов между кавычками &lt;br&gt;&lt;br&gt;, как слово.
+Например:&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; скроет видео: &lt;b&gt;How does AI work?&lt;/b&gt;&lt;br&gt;но не будет скрывать: &lt;b&gt;What does fair use mean?&lt;/b&gt;</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Недопустимо. \'%s\' не подходит в качестве фильтра.</string>
+    <string name="revanced_hide_keyword_toast_invalid_common_whole_word_required">Добавьте кавычки для использования ключевого слова: %s.</string>
+    <string name="revanced_hide_keyword_toast_invalid_conflicting">У ключевого слова %s есть конфликт.</string>
+    <string name="revanced_hide_keyword_toast_invalid_length">Ключевое слово короткое и необходимо взятие в кавычки: %s.</string>
     <string name="revanced_hide_keyword_toast_invalid_broad">Ключевое слово \'%1$s\' не точное и скроет все видео</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Рекомендованное видео</string>
@@ -297,7 +303,7 @@ Shorts
     <string name="revanced_change_start_page_entry_watch_later">Смотреть позже</string>
     <string name="revanced_change_start_page_invalid_toast">Недопустимая начальная страница, сброс по умолчанию.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Принудительные автоматические звуковые дорожки</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">"Принудительные автоматические звуковые дорожки отключены."</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_on">Принудительные автоматические звуковые дорожки отключены.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Принудительные автоматические звуковые дорожки включены.</string>
     <string name="revanced_disable_auto_captions_title">Принудительные автоматические субтитры</string>
     <string name="revanced_disable_auto_captions_summary_on">Принудительные автоматические субтитры отключены.</string>
@@ -951,6 +957,9 @@ Shorts
     <string name="revanced_disable_resuming_shorts_player_title">Возобновление Shorts при запуске приложения</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">Возобновление Shorts отключено.</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">Возобновление Shorts включено.</string>
+    <string name="revanced_hide_shorts_floating_button_title">Всплывающая кнопка</string>
+    <string name="revanced_hide_shorts_floating_button_summary_on">"Всплывающие кнопки, такие как «Использовать этот звук», во вкладке Shorts скрыты."</string>
+    <string name="revanced_hide_shorts_floating_button_summary_off">"Всплывающие кнопки, такие как «Использовать этот звук», во вкладке Shorts отображены."</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelf -->
     <string name="revanced_preference_category_shorts_shelf">Настройки скрытия Shorts</string>
     <string name="revanced_hide_shorts_shelf_title">Секции Shorts</string>
@@ -994,6 +1003,12 @@ Shorts
     <string name="revanced_hide_shorts_paid_promotion_label_title">Метка \"Содержит прямую рекламу\"</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_on">Метка \"Содержит прямую рекламу\" скрыта.</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_off">Метка \"Содержит прямую рекламу\" отображена.</string>
+    <string name="revanced_hide_shorts_trends_button_title">Кнопка \"В тренде\"</string>
+    <string name="revanced_hide_shorts_trends_button_summary_on">Кнопка \"В тренде\" скрыта.</string>
+    <string name="revanced_hide_shorts_trends_button_summary_off">Кнопка \"В тренде\" отображена.</string>
+    <string name="revanced_hide_shorts_shopping_button_title">Кнопка \"Покупки\"</string>
+    <string name="revanced_hide_shorts_shopping_button_summary_on">Кнопка \"Покупки\" скрыта.</string>
+    <string name="revanced_hide_shorts_shopping_button_summary_off">Кнопка \"Покупки\" отображена.</string>
     <string name="revanced_hide_shorts_shop_button_title">Кнопка \"Магазин\"</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">Кнопка \"Магазин\" скрыта.</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">Кнопка \"Магазин\" отображена.</string>
@@ -1003,9 +1018,21 @@ Shorts
     <string name="revanced_hide_shorts_tagged_products_title">Товары с тегом</string>
     <string name="revanced_hide_shorts_tagged_products_summary_on">Товары с тегом скрыты.</string>
     <string name="revanced_hide_shorts_tagged_products_summary_off">Товары с тегом отображены.</string>
+    <string name="revanced_hide_shorts_location_button_title">Кнопка \"Местоположение\"</string>
+    <string name="revanced_hide_shorts_location_button_summary_on">Кнопка \"Местоположение\" скрыта.</string>
+    <string name="revanced_hide_shorts_location_button_summary_off">Кнопка \"Местоположение\" отображена.</string>
     <string name="revanced_hide_shorts_save_sound_button_title">Кнопка \"Сохранить звук в плейлист\"</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_on">Кнопка \"Сохранить звук в плейлист\" скрыта.</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_off">Кнопка \"Сохранить звук в плейлист\" отображена.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_title">Кнопка \"Подсказки поиска\"</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">Кнопка \"Подсказки поиска\" скрыта.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">Кнопка \"Подсказки поиска\" отображена.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_title">Кнопка \"Использовать этот звук\"</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">Кнопка \"Использовать этот звук\" скрыта.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">Кнопка \"Использовать этот звук\" отображена.</string>
+    <string name="revanced_hide_shorts_use_template_button_title">Кнопка \"Использовать шаблон\"</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_on">Кнопка \"Использовать шаблон\" скрыта.</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_off">Кнопка \"Использовать шаблон\" отображена.</string>
     <string name="revanced_hide_shorts_info_panel_title">Информационные панели</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Информационные панели скрыты.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Информационные панели отображены.</string>
@@ -1219,7 +1246,6 @@ Shorts
     <string name="revanced_ryd_failure_client_rate_limit_requested">Return YouTube Dislike недоступен (достигнут лимит клиента API).</string>
     <string name="revanced_ryd_failure_generic">Return YouTube Dislike недоступен (%s).</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">Обновите видео для использования Return YouTube Dislike</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Скрыто</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">Включить SponsorBlock</string>
@@ -1266,7 +1292,7 @@ Shorts
     <string name="revanced_sb_skip_button_sponsor">Пропустить спонсорскую рекламу</string>
     <string name="revanced_sb_skip_button_selfpromo">Пропустить саморекламу</string>
     <string name="revanced_sb_skip_button_interaction">Пропустить напоминание о взаимодействии</string>
-    <string name="revanced_sb_skip_button_highlight">Пропустить основные моменты</string>
+    <string name="revanced_sb_skip_button_highlight">Ключевой момент</string>
     <string name="revanced_sb_skip_button_intro_beginning">Пропустить вступление</string>
     <string name="revanced_sb_skip_button_intro_middle">Пропустить перерыв</string>
     <string name="revanced_sb_skip_button_intro_end">Пропустить перерыв</string>
@@ -1467,6 +1493,36 @@ Shorts
     <string name="revanced_extended_settings_reset">Сброс</string>
     <string name="revanced_share_copy_settings_success">Настройки скопированы в буфер обмена.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data -->
+    <string name="revanced_preference_screen_spoof_streaming_data_title">Подмена потоковых данных</string>
+    <string name="revanced_preference_screen_spoof_streaming_data_summary">Подменяет потоковые данные при проблемах с воспроизведением видео.</string>
+    <string name="revanced_spoof_streaming_data_title">Подмена потоковых данных</string>
+    <string name="revanced_spoof_streaming_data_summary_on">Подмена потоковых данных включена.</string>
+    <string name="revanced_spoof_streaming_data_summary_off">"Подмена потоковых данных отключена.
+Воспроизведение видео может не работать."</string>
+    <string name="revanced_spoof_streaming_data_user_dialog_message">Отключение этой настройки вызовет проблемы с воспроизведением видео.</string>
+    <string name="revanced_spoof_streaming_data_type_title">Клиент по умолчанию</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Встроенный Android плеер</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android Тестовый набор</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
+    <string name="revanced_spoof_streaming_data_type_entry_web">Веб</string>
+    <string name="revanced_spoof_streaming_data_side_effects_title">Эффекты от подмены</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• Фильмы или платные видео могут не проигрываться.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Меню \"Звуковая дорожка\" не доступно.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">• Меню \"Звуковая дорожка\" VR не доступно.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_unknown">• Видео может не воспроизводиться.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_title">Принудительно подмена как iOS, AVC (H.264)</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Видео кодек подмены как iOS - AVC (H.264).</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Видео кодек подмены как iOS - VP9 или AV1.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Включение - может улучшить время работы батареи и исправить задержки воспроизведения.
+
+AVC (H.264) имеет максимальное разрешение 1080p, и будет использовать больше интернет данных, чем VP9 или AV1."</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Показывать в Статистике для сисадминов</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Клиент, используемый для получения данных потока, отображается в Статистике для сисадминов.</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Клиент, используемый для получения данных потока, скрыт в Статистике для сисадминов.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">История просмотра</string>
     <string name="revanced_preference_screen_watch_history_summary">Изменить настройки истории просмотра.</string>

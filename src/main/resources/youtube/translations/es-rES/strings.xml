@@ -289,7 +289,7 @@ Limitaciones:
     <string name="revanced_change_start_page_entry_watch_later">Ver más tarde</string>
     <string name="revanced_change_start_page_invalid_toast">Página de inicio no válida, restableciendo a la predeterminada.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Desactivar pistas de audio automáticas forzadas</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">"Las pistas de audio automáticas forzadas están desactivadas."</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_on">Las pistas de audio automáticas forzadas están desactivadas.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Las pistas de audio automáticas forzadas están activadas.</string>
     <string name="revanced_disable_auto_captions_title">Desactivar subtítulos automáticos forzados</string>
     <string name="revanced_disable_auto_captions_summary_on">Los subtítulos automáticos forzados están desactivados.</string>
@@ -942,6 +942,9 @@ Estos caracteres varían dependiendo de tu idioma.
     <string name="revanced_disable_resuming_shorts_player_title">Desactivar reanudación del reproductor de Shorts</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">El reproductor de Shorts no se reanudará al iniciar la app</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">El reproductor de Shorts se reanudará al iniciar la app</string>
+    <string name="revanced_hide_shorts_floating_button_title">Ocultar botón flotante</string>
+    <string name="revanced_hide_shorts_floating_button_summary_on">"Los botones flotantes como \"Utilizar este sonido\" se ocultan en la pestaña Shorts del canal."</string>
+    <string name="revanced_hide_shorts_floating_button_summary_off">"Los botones flotantes como \"Utilizar este sonido\" se muestran en la pestaña Shorts del canal."</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelf -->
     <string name="revanced_preference_category_shorts_shelf">Estantes de Shorts</string>
     <string name="revanced_hide_shorts_shelf_title">Ocultar estantes de Shorts</string>
@@ -984,6 +987,12 @@ Limitación: las cabeceras oficiales en los resultados de búsqueda estarán ocu
     <string name="revanced_hide_shorts_paid_promotion_label_title">Ocultar etiqueta de promoción pagada</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_on">La etiqueta de promoción pagada está oculta.</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_off">La etiqueta de promoción pagada está visible.</string>
+    <string name="revanced_hide_shorts_trends_button_title">Ocultar botón de tendencias</string>
+    <string name="revanced_hide_shorts_trends_button_summary_on">El botón de tendencias está oculto.</string>
+    <string name="revanced_hide_shorts_trends_button_summary_off">El botón de tendencias está visible.</string>
+    <string name="revanced_hide_shorts_shopping_button_title">Ocultar botón de compras</string>
+    <string name="revanced_hide_shorts_shopping_button_summary_on">El botón de compras está oculto.</string>
+    <string name="revanced_hide_shorts_shopping_button_summary_off">El botón de compras está visible.</string>
     <string name="revanced_hide_shorts_shop_button_title">Ocultar botón de comprar</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">El botón de comprar está oculto.</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">El botón de comprar está visible.</string>
@@ -993,12 +1002,21 @@ Limitación: las cabeceras oficiales en los resultados de búsqueda estarán ocu
     <string name="revanced_hide_shorts_tagged_products_title">Ocultar productos etiquetados</string>
     <string name="revanced_hide_shorts_tagged_products_summary_on">Los productos etiquetados están ocultos.</string>
     <string name="revanced_hide_shorts_tagged_products_summary_off">Los productos etiquetados están visibles.</string>
+    <string name="revanced_hide_shorts_location_button_title">Ocultar botón de ubicación</string>
+    <string name="revanced_hide_shorts_location_button_summary_on">El botón de ubicación está oculto.</string>
+    <string name="revanced_hide_shorts_location_button_summary_off">El botón de ubicación está visible.</string>
     <string name="revanced_hide_shorts_save_sound_button_title">Ocultar botón de guardar sonido</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_on">El botón de guardar sonido está oculto.</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_off">El botón de guardar sonido está visible.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_title">Ocultar botón de sugerencias de búsqueda</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">El botón de sugerencias de búsqueda está oculto.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">El botón de sugerencias de búsqueda está visible.</string>
     <string name="revanced_hide_shorts_use_this_sound_button_title">Ocultar botón de utilizar este sonido</string>
     <string name="revanced_hide_shorts_use_this_sound_button_summary_on">El botón de utilizar este sonido está oculto.</string>
     <string name="revanced_hide_shorts_use_this_sound_button_summary_off">El botón de utilizar este sonido está visible.</string>
+    <string name="revanced_hide_shorts_use_template_button_title">Ocultar botón de utilizar plantilla</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_on">El botón de utilizar plantilla está oculto.</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_off">El botón de utilizar plantilla está visible.</string>
     <string name="revanced_hide_shorts_info_panel_title">Ocultar paneles de información</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Los paneles de información están ocultos.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Los paneles de información están visibles.</string>
@@ -1206,7 +1224,6 @@ Pulsa aquí para obtener más información.</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Los no me gusta no están disponibles (se alcanzó el límite de la API del cliente).</string>
     <string name="revanced_ryd_failure_generic">Los no me gusta no están disponibles (%s).</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">Recargar vídeo para votar utilizando Return YouTube Dislike</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Oculto</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">Activar SponsorBlock</string>

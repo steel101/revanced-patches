@@ -242,7 +242,6 @@
     <string name="revanced_ryd_failure_connection_status_code">点踩数不可用（状态 %d）</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">点踩数不可用（已达到客户端 API 限制）</string>
     <string name="revanced_ryd_failure_generic">点踩数不可用（%s）</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">隐藏</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_enable_debug_logging_title">Debug 日志</string>

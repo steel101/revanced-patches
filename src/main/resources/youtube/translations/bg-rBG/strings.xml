@@ -226,7 +226,12 @@
 •Някои Shorts може да не са скрити.
 • Някои елементи на потребителския интерфейс може да не са скрити.
 • Търсенето на дума -ключ може да не покаже никакви резултати."</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_title">Съвпадение на цялата дума</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_summary">Ограждането на ключова дума/фраза с двойни кавички ще предотврати частични съвпадения на заглавия на видеоклипове и имена на канали&lt;br&gt;&lt;br&gt;Например,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; ще скрие видеоклипа: &lt;b&gt;How does AI work?&lt;/b&gt;&lt;br&gt;но няма да скрие: &lt;b&gt;What does fair use mean?&lt;/b&gt;</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Невалидна ключова дума. Не може да се използва: „%s“ като филтър</string>
+    <string name="revanced_hide_keyword_toast_invalid_common_whole_word_required">Добавете кавички, за да използвате ключова дума: %s.</string>
+    <string name="revanced_hide_keyword_toast_invalid_conflicting">Ключовата дума има противоречиви твърдения: %s.</string>
+    <string name="revanced_hide_keyword_toast_invalid_length">Ключовата дума е твърде кратка и изисква кавички: %s.</string>
     <string name="revanced_hide_keyword_toast_invalid_broad">Ключовата дума „%1$s“ ще скрие всички видеоклипове.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Препоръчани видеоклипове</string>
@@ -278,7 +283,7 @@
     <string name="revanced_change_start_page_entry_watch_later">За Гледане по-късно</string>
     <string name="revanced_change_start_page_invalid_toast">Невалидна начална страница, нулиране по подразбиране.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Принудителните автоматични аудио пътеки са деактивирани</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">"Задължителните аудио записи са деактивирани."</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_on">Задължителните аудио записи са деактивирани.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Задължителните аудио записи са активирани.</string>
     <string name="revanced_disable_auto_captions_title">Изкл. принудителни автоматични субтититри</string>
     <string name="revanced_disable_auto_captions_summary_on">Принудителните автоматични субтититри са изключени.</string>
@@ -671,6 +676,9 @@
     <string name="revanced_hide_player_flyout_menu_premium_controls_title">Скриване на менюто за премиум контроли</string>
     <string name="revanced_hide_player_flyout_menu_premium_controls_summary_on">Менюто за премиум контроли е скрито.</string>
     <string name="revanced_hide_player_flyout_menu_premium_controls_summary_off">Менюто за премиум контроли се пказва.</string>
+    <string name="revanced_hide_player_flyout_menu_sleep_timer_title">Скрийте менюто „Изчакване на заспиване“</string>
+    <string name="revanced_hide_player_flyout_menu_sleep_timer_summary_on">Менюто на таймера за заспиване е скрито.</string>
+    <string name="revanced_hide_player_flyout_menu_sleep_timer_summary_off">Менюто на таймера за заспиване се показва.</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_title">Скрийте елемента \"Стабилно ниво на звука\"</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_summary_off">Стабилно ниво на звука се показва.</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_summary_on">Постоянно ниво на звука е скрито.</string>
@@ -924,6 +932,9 @@
     <string name="revanced_disable_resuming_shorts_player_title">Скриване на Shorts плейъра при стартиране на приложението</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">Shorts плейъра при стартиране на приложението е скрит.</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">Shorts плейъра при стартиране на приложението се показва.</string>
+    <string name="revanced_hide_shorts_floating_button_title">Скриване на изскачащ бутон</string>
+    <string name="revanced_hide_shorts_floating_button_summary_on">"Изскачащи бутони като „Използване на този звук“ са скрити в раздела Shorts."</string>
+    <string name="revanced_hide_shorts_floating_button_summary_off">"Изскачащи бутони като „Използване на този звук“ Се показват в раздела Shorts."</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelf -->
     <string name="revanced_preference_category_shorts_shelf">Shorts рафтове</string>
     <string name="revanced_hide_shorts_shelf_title">Скрийте рафтовете Shorts</string>
@@ -966,6 +977,12 @@
     <string name="revanced_hide_shorts_paid_promotion_label_title">Скриване на платените промоции</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_on">Промоционалните етикети са скрити.</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_off">Промоционалните етикети се показват.</string>
+    <string name="revanced_hide_shorts_trends_button_title">Бутон „Набиращи популярност“</string>
+    <string name="revanced_hide_shorts_trends_button_summary_on">Скрит.</string>
+    <string name="revanced_hide_shorts_trends_button_summary_off">Показва се.</string>
+    <string name="revanced_hide_shorts_shopping_button_title">Бутон \"Пазаруване\"</string>
+    <string name="revanced_hide_shorts_shopping_button_summary_on">Бутона за пазаруване е скрит.</string>
+    <string name="revanced_hide_shorts_shopping_button_summary_off">Бутона за пазаруване се показва.</string>
     <string name="revanced_hide_shorts_shop_button_title">Скриване на бутона за пазаруване</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">Бутона за пазаруване е скрит.</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">Бутона за пазаруване се показва.</string>
@@ -975,9 +992,21 @@
     <string name="revanced_hide_shorts_tagged_products_title">Скриване на маркираните продукти</string>
     <string name="revanced_hide_shorts_tagged_products_summary_on">Маркираните продукти са скрити.</string>
     <string name="revanced_hide_shorts_tagged_products_summary_off">Маркираните продукти се показват.</string>
+    <string name="revanced_hide_shorts_location_button_title">Бутон за \"Местоположение\"</string>
+    <string name="revanced_hide_shorts_location_button_summary_on">Бутон за \"Местоположение\" е скрит.</string>
+    <string name="revanced_hide_shorts_location_button_summary_off">Бутон за \"Местоположение\" се показва.</string>
     <string name="revanced_hide_shorts_save_sound_button_title">Бутон за запазване на аудиото в плейлиста</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_on">Бутонът за Запазване в плейлиста е скрит.</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_off">Бутонът за Запазване в плейлиста се показва.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_title">Бутон „Предложения за търсене“</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">Бутон „Предложения за търсене“ е скрит.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">Бутон „Предложения за търсене“ се показва.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_title">Бутон „Използване на този звук“</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">Бутон „Използване на този звук“ е скрит.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">Бутон „Използване на този звук“ се показва.</string>
+    <string name="revanced_hide_shorts_use_template_button_title">Бутон за \"Използване на шаблон\"</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_on">Бутон за \"Използване на шаблон\" е скрит.</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_off">Бутон за \"Използване на шаблон\" се показва.</string>
     <string name="revanced_hide_shorts_info_panel_title">Скриване на информационните панели</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Информационните панели са скрити.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Информационните панели се показват.</string>
@@ -1183,7 +1212,6 @@
     <string name="revanced_ryd_failure_client_rate_limit_requested">Нехаресванията не са достъпни (достигнат лимит на API).</string>
     <string name="revanced_ryd_failure_generic">Нехаресванията не са налични (%s).</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">Презареждане на видеото за гласуване чрез ReturnYouTubeDislike</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Скрито</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">Включване на SponsorBlock</string>
@@ -1429,6 +1457,35 @@
     <string name="revanced_extended_settings_reset">Нулирай</string>
     <string name="revanced_share_copy_settings_success">Настройките са копирани в клипборда.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data -->
+    <string name="revanced_preference_screen_spoof_streaming_data_title">Подправяне на поточни данни</string>
+    <string name="revanced_preference_screen_spoof_streaming_data_summary">Подправете поточно предаваните данни, за да предотвратите проблеми с възпроизвеждането.</string>
+    <string name="revanced_spoof_streaming_data_title">Подправяне на поточни данни</string>
+    <string name="revanced_spoof_streaming_data_summary_on">Данните за поточно предаване са подправени.</string>
+    <string name="revanced_spoof_streaming_data_summary_off">"Данните за поточно предаване не са подправени. Възпроизвеждането на видео може да не работи."</string>
+    <string name="revanced_spoof_streaming_data_user_dialog_message">Изключването на тази настройка може да причини проблеми с възпроизвеждането на видео.</string>
+    <string name="revanced_spoof_streaming_data_type_title">Клиент по подразбиране</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Вграден Android плейър</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Тестов пакет за Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
+    <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
+    <string name="revanced_spoof_streaming_data_side_effects_title">Ефекти от замяната</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• Филми или платени видеоклипове може да не се възпроизвеждат.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Липсва менюто за избор на аудио.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">• Липсва менюто за избор на аудио.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_unknown">• Видеото може да не се възпроизведе.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_title">Принудително AVC (H.264) за iOS</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">видео кодекът на iOS е AVC (H.264).</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">видео кодекът на iOS е AVC (H.264), VP9, or AV1.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Активирането на това може да подобри живота на батерията и да коригира прекъсванията при възпроизвеждане.
+
+AVC (H.264) има максимална разделителна способност при 1080p и възпроизвеждането на видео ще използва повече интернет данни от VP9 или AV1."</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Показване в \"Разширени статистики\"</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Клиентът, използван за получаване на данни за потока, се показва в Статистика за системни администратори.</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Клиентът, използван за получаване на данни за поток, е скрит в Статистика за системни администратори.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">История на гледане</string>
     <string name="revanced_preference_screen_watch_history_summary">Променя настройките, за хронологията на гледане.</string>
@@ -1440,6 +1497,9 @@
     <string name="revanced_watch_history_type_entry_3">Блокиране на хронологията на гледане</string>
     <string name="revanced_watch_history_about_title">Преглед на състоянието на хронологията</string>
     <string name="revanced_watch_history_about_status_blocked">• Хронологията на гледане е блокирана.</string>
+    <string name="revanced_watch_history_about_status_replaced">• Следва настройките на хронологията на сърфирането в акаунта ви в Google.</string>
+    <string name="revanced_watch_history_about_status_original">"• Следва настройките на хронологията на сърфирането в акаунта ви в Google.
+• Историята на сърфиране може да не работи поради DNS или VPN."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Информация за корекции</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

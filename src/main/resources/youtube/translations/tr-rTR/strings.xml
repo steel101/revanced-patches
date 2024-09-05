@@ -276,7 +276,7 @@ Kısıtlamalar:
     <string name="revanced_change_start_page_entry_watch_later">Daha sonra izlenecekler</string>
     <string name="revanced_change_start_page_invalid_toast">Başlangıç sayfası geçersiz, varsayılana dönülüyor.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Ses parçalarının kendiliğinden açılmasını kapat</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">"Ses parçalarının kendiliğinden açılması kapalı."</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_on">Ses parçalarının kendiliğinden açılması kapalı.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Ses parçalarının kendiliğinden açılması etkin.</string>
     <string name="revanced_disable_auto_captions_title">Altyazıların kendiliğinden açılmasını kapat</string>
     <string name="revanced_disable_auto_captions_summary_on">Altyazıların kendiliğinden açılması kapalı</string>
@@ -1166,7 +1166,6 @@ Kısıtlama: Gizli modda beğenmeme sayıları görünmeyebilir."</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Beğenmeme sayısı mevcut değil (istemci API sınırına ulaşıldı).</string>
     <string name="revanced_ryd_failure_generic">Beğenmemeler mevcut değil (%s).</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">ReturnYouTubeDislike\'ı kullanarak oy vermek için videoyu yeniden yükleyin</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Gizlendi</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">SponsorBlock\'u etkinleştir</string>
