@@ -36,8 +36,9 @@ object OverlayButtonsPatch : BaseResourcePatch(
     ),
     compatiblePackages = COMPATIBLE_PACKAGE
 ) {
-    private const val DEFAULT_MARGIN = "0.0dip"
-    private const val WIDER_MARGIN = "6.0dip"
+    private const val MARGIN_NONE = "0.0dip"
+    private const val MARGIN_DEFAULT = "2.5dip"
+    private const val MARGIN_WIDER = "5.0dip"
 
     private const val DEFAULT_ICON = "bold"
 
@@ -58,10 +59,11 @@ object OverlayButtonsPatch : BaseResourcePatch(
     // Option to set bottom margin
     private val BottomMargin = stringPatchOption(
         key = "BottomMargin",
-        default = DEFAULT_MARGIN,
+        default = MARGIN_DEFAULT,
         values = mapOf(
-            "Wider" to WIDER_MARGIN,
-            "Default" to DEFAULT_MARGIN
+            "Default" to MARGIN_DEFAULT,
+            "None" to MARGIN_NONE,
+            "Wider" to MARGIN_WIDER,
         ),
         title = "Bottom margin",
         description = "The bottom margin for the overlay buttons and timestamp.",
