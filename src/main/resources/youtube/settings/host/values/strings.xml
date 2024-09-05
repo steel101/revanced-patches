@@ -319,9 +319,7 @@ Limitations:
     <string name="revanced_change_start_page_entry_watch_later">Watch later</string>
     <string name="revanced_change_start_page_invalid_toast">Invalid start page, resetting to default.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Disable forced auto audio tracks</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">"Forced auto audio tracks are disabled.
-
-Limitation: This setting does not apply to Shorts."</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_on">Forced auto audio tracks are disabled.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Forced auto audio tracks are enabled.</string>
     <string name="revanced_disable_auto_captions_title">Disable forced auto captions</string>
     <string name="revanced_disable_auto_captions_summary_on">Forced auto captions are disabled.</string>
