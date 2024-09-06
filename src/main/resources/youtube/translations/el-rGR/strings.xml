@@ -39,6 +39,9 @@
     <string name="revanced_hide_paid_promotion_label_title">Ετικέτες προώθησης επί πληρωμή</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">Κρυμμένες.</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">Εμφανίζονται.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Ετικέτες προειδοποίησης προώθησης</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_on">Κρυμμένες.</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_off">Εμφανίζονται.</string>
     <string name="revanced_hide_self_sponsor_cards_title">Κάρτες αυτοχρηματοδότησης</string>
     <string name="revanced_hide_self_sponsor_cards_summary_on">Κρυμμένες.</string>
     <string name="revanced_hide_self_sponsor_cards_summary_off">Εμφανίζονται.</string>
@@ -287,9 +290,7 @@ Playlists
     <string name="revanced_change_start_page_entry_watch_later">Παρακολούθηση αργότερα</string>
     <string name="revanced_change_start_page_invalid_toast">Μη έγκυρη αρχική σελίδα, επαναφέρθηκε.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Απενεργοποίηση υποχρεωτικών κομματιών ήχου</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">Τα υποχρεωτικά κομμάτια ήχου είναι απενεργοποιημένα.
-
-Περιορισμός: Αυτή η λειτουργία δεν ισχύει για τα Shorts.</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_on">Τα υποχρεωτικά κομμάτια ήχου είναι απενεργοποιημένα.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Τα υποχρεωτικά κομμάτια ήχου είναι ενεργοποιημένα.</string>
     <string name="revanced_disable_auto_captions_title">Απενεργοποίηση αυτόματων υπότιτλων</string>
     <string name="revanced_disable_auto_captions_summary_on">Οι υποχρεωτικοί αυτόματοι υπότιτλοι είναι απενεργοποιημένοι.</string>
@@ -320,8 +321,8 @@ Playlists
     <string name="revanced_override_video_download_button_summary_on">Το κουμπί λήψης του YouTube ανοίγει το εξωτερικό πρόγραμμα λήψης σας.</string>
     <string name="revanced_override_video_download_button_summary_off">Το κουμπί λήψης του YouTube ανοίγει το εγγενές πρόγραμμα λήψης της εφαρμογής.</string>
     <string name="revanced_override_playlist_download_button_title">Μετατροπή κουμπιού λήψης playlist</string>
-    <string name="revanced_override_playlist_download_button_summary_on">Το κουμπί λήψης του YouTube ανοίγει το εξωτερικό πρόγραμμα λήψης σας.</string>
-    <string name="revanced_override_playlist_download_button_summary_off">Το κουμπί λήψης του YouTube ανοίγει το εγγενές πρόγραμμα λήψης της εφαρμογής.</string>
+    <string name="revanced_override_playlist_download_button_summary_on">Το κουμπί λήψης λίστας αναπαραγωγής εμφανίζεται πάντα, και σε δημόσιες λίστες αναπαραγωγής ανοίγει το εξωτερικό πρόγραμμα λήψης σας.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">Αν εμφανίζεται, το κουμπί λήψης λίστας αναπαραγωγής ανοίγει το εγγενές πρόγραμμα λήψης του YouTube.</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Όνομα πακέτου προγράμματος λήψης playlist</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Όνομα πακέτου της εγκατεστημένης σας εξωτερικής εφαρμογής λήψης (π.χ YTLDnis).</string>
     <string name="revanced_spoof_app_version_title">Τροποποίηση έκδοσης εφαρμογής</string>
@@ -489,6 +490,13 @@ Playlists
     <string name="revanced_disable_auto_player_popup_panels_title">Αναδυόμενα παράθυρα του αναπαραγωγέα</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_on">Κρυμμένα.</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_off">Εμφανίζονται.</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_title">Απενεργοποίηση εναλλαγής λιστών αναπαραγωγής μίξης</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_on">Η αυτόματη εναλλαγή λιστών αναπαραγωγής μίξης είναι απενεργοποιημένη.</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"Η αυτόματη εναλλαγή λιστών αναπαραγωγής μίξης είναι ενεργοποιημένη όταν η αυτόματη αναπαραγωγή είναι επίσης ενεργοποιημένη.
+
+Η αυτόματη αναπαραγωγή μπορεί να αλλαχτεί στις ρυθμίσεις YouTube:
+Ρυθμίσεις → Αυτόματη αναπαραγωγή → Αυτόματη αναπαραγωγή επόμενου βίντεο"</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_user_dialog_message">Η ενεργοποίηση αυτής της ρύθμισης θα απενεργοποιήσει την αυτόματη εναλλαγή σε YouTube Mix κατά την αναπαραγωγή μουσικής ενώ η αυτόματη αναπαραγωγή είναι ενεργοποιημένη.</string>
     <string name="revanced_disable_speed_overlay_title">Απενεργοποίηση διεπαφής ταχύτητας</string>
     <string name="revanced_disable_speed_overlay_summary">"Απενεργοποίηση του «Παίζοντας με 2x ταχύτητα» κατά το παρατεταμένο πάτημα.
 
@@ -672,6 +680,9 @@ Playlists
     <string name="revanced_hide_player_flyout_menu_report_summary_off">Εμφανίζεται.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu, PreferenceCategory: Additional settings -->
     <string name="revanced_preference_category_additional_settings">Πρόσθετες ρυθμίσεις</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_title">Μενού «Λειτουργία περιβάλλοντος»</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">Εμφανίζεται.</string>
     <string name="revanced_hide_player_flyout_menu_help_title">Μενού «Βοήθεια &amp; σχόλια»</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_off">Εμφανίζεται.</string>
@@ -1190,9 +1201,14 @@ Playlists
     <string name="revanced_restore_old_video_quality_menu_title">Μενού ποιότητας βίντεο παλιού στυλ</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Εμφανίζεται το μενού αλλαγής ποιότητας βίντεο παλιού στυλ.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Εμφανίζεται το μενού αλλαγής ποιότητας βίντεο νέου στυλ.</string>
-    <string name="revanced_enable_default_playback_speed_shorts_title">Εφαρμογή της ταχύτητας σε Shorts</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_on">Η προεπιλεγμένη ταχύτητα αναπαραγωγής ισχύει για τα Shorts.</string>
-    <string name="revanced_enable_default_playback_speed_shorts_summary_off">Η προεπιλεγμένη ταχύτητα αναπαραγωγής δεν ισχύει για τα Shorts.</string>
+    <string name="revanced_disable_default_playback_speed_music_title">Αποτροπή αλλαγής ταχύτητας για μουσική</string>
+    <string name="revanced_disable_default_playback_speed_music_on">"Η προεπιλεγμένη ταχύτητα αναπαραγωγής δεν εφαρμόζεται για τα βίντεο μουσικής.
+
+Περιορισμός: Αυτή η ρύθμιση ενδέχεται να μην ισχύει για τα βίντεο που δεν περιλαμβάνουν την λειτουργία «Ακρόαση με YouTube Music»."</string>
+    <string name="revanced_disable_default_playback_speed_music_off">Η προεπιλεγμένη ταχύτητα εφαρμόζεται σε βίντεο μουσικής.</string>
+    <string name="revanced_enable_default_playback_speed_shorts_title">Αλλαγή προεπιλεγμένης ταχύτητας Shorts</string>
+    <string name="revanced_enable_default_playback_speed_shorts_summary_on">Η προεπιλεγμένη ταχύτητα αναπαραγωγής εφαρμόζεται στα Shorts.</string>
+    <string name="revanced_enable_default_playback_speed_shorts_summary_off">Η προεπιλεγμένη ταχύτητα αναπαραγωγής δεν εφαρμόζεται στα Shorts.</string>
     <string name="revanced_skipped_preloaded_buffer">Η προφόρτωση βίντεο παραλείφθηκε.</string>
     <string name="revanced_skip_preloaded_buffer_title">Παράλειψη προφόρτωσης βίντεο</string>
     <string name="revanced_skip_preloaded_buffer_summary">"Παράλειψη της προφόρτωσης στην αρχή του βίντεο, για να γίνει παράκαμψη της καθυστέρησης στην εφαρμογή της προεπιλεγμένης ποιότητας.

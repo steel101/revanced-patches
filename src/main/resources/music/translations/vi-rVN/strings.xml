@@ -64,6 +64,8 @@ Nếu tính năng này tắt, quảng cáo toàn màn hình sẽ bị chặn (c�
     <string name="revanced_hide_premium_promotion_summary">Ẩn quảng cáo mua Music Premium bật lên.</string>
     <string name="revanced_hide_premium_renewal_title">Ẩn quảng cáo biểu ngữ</string>
     <string name="revanced_hide_premium_renewal_summary">Ẩn quảng cáo biểu ngữ mua Music Premium.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Ẩn biểu ngữ thông báo khuyến mãi</string>
+    <string name="revanced_hide_promotion_alert_banner_summary">Ẩn biểu ngữ thông báo khuyến mãi.</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">Trình đơn tuỳ chọn</string>
     <string name="revanced_enable_compact_dialog_title">Trình đơn tuỳ chọn thu gọn</string>
@@ -338,8 +340,6 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_bypass_image_region_restrictions_summary">Thay thế miền bị chặn ở một số khu vực để có thể thu được được ảnh bìa video của danh sách phát, ảnh đại diện kênh, v. v.</string>
     <string name="revanced_change_share_sheet_title">Thay đổi giao diện chia sẻ</string>
     <string name="revanced_change_share_sheet_summary">Chuyển giao diện chia sẻ trong ứng dụng sang của hệ thống.</string>
-    <string name="revanced_enable_cairo_splash_animation_title">Sử dụng hoạt ảnh kiểu Cairo</string>
-    <string name="revanced_enable_cairo_splash_animation_summary">Sử dụng hoạt ảnh kiểu Cairo khi khởi động ứng dụng.</string>
     <string name="revanced_enable_debug_logging_title">Nhật ký gỡ lỗi</string>
     <string name="revanced_enable_debug_logging_summary">Bật ghi nhật ký gỡ lỗi.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Bật nhật ký gỡ lỗi bộ đệm</string>

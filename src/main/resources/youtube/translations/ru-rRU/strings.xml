@@ -40,6 +40,9 @@
     <string name="revanced_hide_paid_promotion_label_title">Метка \"Прямая реклама\"</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">Метка \"Прямая реклама\" скрыта.</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">Метка \"Прямая реклама\" отображена.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Баннер оповещения о промо акциях</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_on">Баннер скрыт.</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_off">Баннер отображен.</string>
     <string name="revanced_hide_self_sponsor_cards_title">Карточки саморекламы</string>
     <string name="revanced_hide_self_sponsor_cards_summary_on">Карточки саморекламы скрыты.</string>
     <string name="revanced_hide_self_sponsor_cards_summary_off">Карточки саморекламы отображены.</string>
@@ -504,6 +507,13 @@ Shorts
     <string name="revanced_disable_auto_player_popup_panels_title">Всплывающие панели плеера</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_on">Всплывающие панели плеера отключены.</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_off">Всплывающие панели плеера включены.</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_title">Переключатель списков \"Джем\"</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_on">Авто-переключатель списков \"Джем\" отключен.</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"Авто-переключение списков \"Джем\", при активном автовоспроизведении, включено.
+
+Автовоспроизведение настраивается в:
+Настройки YouTube → Автовоспроизведение → Автовоспроизведение следующего видео"</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_user_dialog_message">Авто-переключение списков \"Джем\", при активном автовоспроизведении, отключено.</string>
     <string name="revanced_disable_speed_overlay_title">Наложение скорости</string>
     <string name="revanced_disable_speed_overlay_summary">"Отключить наложение скорости при нажатии и удержании.
 
@@ -686,6 +696,9 @@ Shorts
     <string name="revanced_hide_player_flyout_menu_report_summary_off">Меню \"Пожаловаться\" отображено.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu, PreferenceCategory: Additional settings -->
     <string name="revanced_preference_category_additional_settings">Дополнительные настройки</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_title">Меню режима окружающей подсветки</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_on">Меню скрыто.</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">Меню отображено.</string>
     <string name="revanced_hide_player_flyout_menu_help_title">Меню \"Справка и Отзывы\"</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_on">Меню \"Справка и Отзывы\" скрыто.</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_off">Меню \"Справка и Отзывы\" отображено.</string>
@@ -1187,6 +1200,12 @@ Shorts
     <string name="revanced_restore_old_video_quality_menu_title">Старое меню качества</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Старое меню качества отображено.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Старое меню качества скрыто.</string>
+    <string name="revanced_disable_default_playback_speed_music_title">Скорость воспроизведения для музыки</string>
+    <string name="revanced_disable_default_playback_speed_music_on">"Скорость воспроизведения по умолчанию для музыки отключена.
+
+Ограничение:
+Этот параметр не может применяться к видео, которые не содержат баннер 'Слушать в YouTube Music'."</string>
+    <string name="revanced_disable_default_playback_speed_music_off">Скорость воспроизведения по умолчанию для музыки включена.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Скорость воспроизведения по умолчанию в Shorts</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">Скорость воспроизведения по умолчанию в Shorts включена.</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">Скорость воспроизведения по умолчанию в Shorts отключена.</string>

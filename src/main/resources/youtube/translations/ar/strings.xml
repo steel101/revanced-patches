@@ -39,6 +39,9 @@
     <string name="revanced_hide_paid_promotion_label_title">إخفاء تصنيف الترويج المدفوع</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">تم إخفاء تصنيف الترويج المدفوع.</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">يتم عرض تصنيف الترويج المدفوع.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">إخفاء لافتة تنبيه الترقية</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_on">تم إخفاء لافتة تنبيه الترقية.</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_off">يتم عرض لافتة تنبيه الترقية.</string>
     <string name="revanced_hide_self_sponsor_cards_title">إخفاء بطاقات الرعاية الذاتية</string>
     <string name="revanced_hide_self_sponsor_cards_summary_on">تم إخفاء بطاقات الرعاية الذاتية.</string>
     <string name="revanced_hide_self_sponsor_cards_summary_off">يتم عرض بطاقات الرعاية الذاتية.</string>
@@ -291,9 +294,7 @@
     <string name="revanced_change_start_page_entry_watch_later">المشاهدة لاحقًا</string>
     <string name="revanced_change_start_page_invalid_toast">صفحة البداية غير صالحة، تتم إعادة التعيين إلى الوضع الافتراضي.</string>
     <string name="revanced_disable_auto_audio_tracks_title">تعطيل المقطع الصوتي التلقائي المفروض</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">تم تعطيل المقطع الصوتي التلقائي المفروض.
-
-التقييد: لا ينطبق هذا الإعداد على فيديوهات Shorts.</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_on">تم تعطيل المقطع الصوتي التلقائي المفروض.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">تم تمكين المقطع الصوتي التلقائي المفروض.</string>
     <string name="revanced_disable_auto_captions_title">تعطيل التَّرْجَمَة التلقائية المفروضة</string>
     <string name="revanced_disable_auto_captions_summary_on">تم تعطيل التَّرْجَمَة التلقائية المفروضة.</string>
@@ -323,8 +324,8 @@
     <string name="revanced_override_video_download_button_summary_on">يفتح زر تنزيل الفيديو الأصلي أداة التنزيل الخارجية.</string>
     <string name="revanced_override_video_download_button_summary_off">يفتح زر تنزيل الفيديو أداة التنزيل الأصلية داخل التطبيق.</string>
     <string name="revanced_override_playlist_download_button_title">تجاوز زر تنزيل قائمة التشغيل</string>
-    <string name="revanced_override_playlist_download_button_summary_on">يفتح زر تنزيل قائمة التشغيل الأصلية أداة التنزيل الخارجية.</string>
-    <string name="revanced_override_playlist_download_button_summary_off">يفتح زر تنزيل قائمة التشغيل الأصلية أداة التنزيل الأصلية داخل التطبيق.</string>
+    <string name="revanced_override_playlist_download_button_summary_on">يتم دائمًا عرض زر تنزيل قائمة التشغيل الأصلية، وفي قوائم التشغيل العامة، يتم فتح أداة التنزيل الخارجية لديك.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">إذا تم عرضه، فإن زر تنزيل قائمة التشغيل الأصلية يفتح أداة التنزيل الأصلية داخل التطبيق.</string>
     <string name="revanced_external_downloader_package_name_playlist_title">اسم حزمة تنزيل قائمة التشغيل</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">اسم الحزمة لتطبيق التنزيل الخارجي المثبت لديك، مثل YTDLnis.</string>
     <string name="revanced_spoof_app_version_title">إصدار تطبيق وهمي</string>
@@ -493,6 +494,13 @@
     <string name="revanced_disable_auto_player_popup_panels_title">تعطيل لوحات المشغل المنبثقة</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_on">تم تعطيل لوحات المشغل المنبثقة تلقائيًا.</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_off">تم تمكين لوحات المشغل المنبثقة تلقائيًا.</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_title">تعطيل تبديل قوائم تشغيل التشكيلة</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_on">تم تعطيل التبديل التلقائي لقوائم تشغيل التشكيلة.</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"تم تمكين التبديل التلقائي لقوائم تشغيل التشكيلة عند تمكين التشغيل التلقائي.
+
+يمكن تغيير التشغيل التلقائي في إعدادات YouTube:
+الإعدادات ← التشغيل التلقائي ← تشغيل الفيديو التالي تلقائيًا"</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_user_dialog_message">سيؤدي تمكين هذه الميزة إلى تعطيل التبديل التلقائي إلى YouTube Mix عند تشغيل الموسيقى أثناء تمكين التشغيل التلقائي.</string>
     <string name="revanced_disable_speed_overlay_title">تعطيل تراكب السرعة</string>
     <string name="revanced_disable_speed_overlay_summary">"تعطيل '2x&gt;&gt;' أثناء الضغط باستمرار.
 
@@ -675,6 +683,9 @@
     <string name="revanced_hide_player_flyout_menu_report_summary_off">يتم عرض قائمة الإبلاغ.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu, PreferenceCategory: Additional settings -->
     <string name="revanced_preference_category_additional_settings">إعدادات إضافية</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_title">إخفاء قائمة الإضاءة السينمائية</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_on">تم إخفاء قائمة الإضاءة السينمائية.</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">يتم عرض قائمة الإضاءة السينمائية.</string>
     <string name="revanced_hide_player_flyout_menu_help_title">إخفاء قائمة المساعدة &amp; الملاحظات</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_on">تم إخفاء قائمة المساعدة &amp; الملاحظات.</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_off">يتم عرض قائمة المساعدة &amp; الملاحظات.</string>
@@ -1177,6 +1188,11 @@
     <string name="revanced_restore_old_video_quality_menu_title">استعادة قائمة جودة الفيديو القديمة</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">يتم عرض قائمة جودة الفيديو القديمة.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">لا يتم عرض قائمة جودة الفيديو القديمة.</string>
+    <string name="revanced_disable_default_playback_speed_music_title">تعطيل سرعة التشغيل للموسيقى</string>
+    <string name="revanced_disable_default_playback_speed_music_on">"تم تعطيل سرعة التشغيل الافتراضية للموسيقى.
+
+التقييد: قد لا ينطبق هذا الإعداد على مقاطع الفيديو التي لا تتضمن لافتة \"الاستماع على YouTube Music\"."</string>
+    <string name="revanced_disable_default_playback_speed_music_off">تم تمكين سرعة التشغيل الافتراضية للموسيقى.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">تمكين سرعة التشغيل الافتراضية لفيديوهات Shorts</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">تنطبق سرعة التشغيل الافتراضية على Shorts.</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">لا تنطبق سرعة التشغيل الافتراضية على Shorts.</string>

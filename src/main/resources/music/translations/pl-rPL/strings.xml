@@ -64,6 +64,8 @@ Jeśli opcja jest wyłączona, pełnoekranowe reklamy są blokowane (mogą wyst�
     <string name="revanced_hide_premium_promotion_summary">Ukrywa wyskakujące okienka promocyjne Premium.</string>
     <string name="revanced_hide_premium_renewal_title">Ukryj baner odnawiania Premium</string>
     <string name="revanced_hide_premium_renewal_summary">Ukrywa baner odnawiania Premium.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Ukryj banery z alertami promocyjnymi</string>
+    <string name="revanced_hide_promotion_alert_banner_summary">Ukrywa banery z alertami promocyjnymi.</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">Menu ustawień utworu</string>
     <string name="revanced_enable_compact_dialog_title">Włącz kompaktowe dialogi</string>
@@ -251,8 +253,8 @@ Niektóre ustawienia mogą nie działać poprawnie ze starym układem odtwarzacz
     <string name="revanced_remember_playback_speed_last_selected_toast_summary">Komunikaty będą wyświetlane po zmianie domyślnej prędkości odtwarzania.</string>
     <string name="revanced_remember_video_quality_last_selected_title">Zapamiętuj zmiany jakości teledysku</string>
     <string name="revanced_remember_video_quality_last_selected_summary">Zapisuje ostatnią wybraną jakość teledysku.</string>
-    <string name="revanced_remember_video_quality_last_selected_toast_title">Komunikaty o zmianie domyślnej jakości filmów</string>
-    <string name="revanced_remember_video_quality_last_selected_toast_summary">Komunikaty będą wyświetlane po zmianie domyślnej jakości filmów.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Komunikaty o zmianie domyślnej jakości teledysków</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary">Komunikaty będą wyświetlane po zmianie domyślnej jakości teledysków.</string>
     <string name="revanced_custom_playback_speeds_invalid">Nieprawidłowe niestandardowe prędkości odtwarzania. Przywrócono domyślne wartości.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Nieprawidłowe niestandardowe prędkości odtwarzania. Przywrócono domyślne wartości.</string>
     <string name="revanced_remember_playback_speed_toast">Zmieniono domyślną prędkość odtwarzania na %s.</string>
@@ -338,8 +340,8 @@ Niektóre ustawienia mogą nie działać poprawnie ze starym układem odtwarzacz
     <string name="revanced_bypass_image_region_restrictions_summary">Zastępuje domenę, która jest blokowana w niektórych regionach, aby można było otrzymywać miniaturki playlist, awatary kanałów itp.</string>
     <string name="revanced_change_share_sheet_title">Zmień wygląd panelu udostępniania</string>
     <string name="revanced_change_share_sheet_summary">Zmienia wygląd panelu udostępniania z natywnego aplikacji na systemowy.</string>
-    <string name="revanced_enable_cairo_splash_animation_title">Włącz animację uruchamiania aplikacji</string>
-    <string name="revanced_enable_cairo_splash_animation_summary">Włącza animację ładowania aplikacji związaną z motywem Cairo podczas otwierania aplikacji.</string>
+    <string name="revanced_disable_cairo_splash_animation_title">Wyłącz animację uruchamiania aplikacji</string>
+    <string name="revanced_disable_cairo_splash_animation_summary">Wyłącza animację ładowania aplikacji związaną z motywem Cairo podczas otwierania aplikacji.</string>
     <string name="revanced_enable_debug_logging_title">Włącz logowanie debugowania</string>
     <string name="revanced_enable_debug_logging_summary">Wyświetla log od debugowania.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Logi do debugowania buforu</string>

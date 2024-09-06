@@ -338,8 +338,6 @@ YT Music の設定だけでなく、ReVanced Extended の設定も非表示に�
     <string name="revanced_bypass_image_region_restrictions_summary">プレイリストのサムネイルやチャンネルアバターなどを受信できるように、一部の地域でブロックされているドメインを置き換えます。</string>
     <string name="revanced_change_share_sheet_title">共有メニューを変更</string>
     <string name="revanced_change_share_sheet_summary">アプリ内共有メニューからシステムの共有メニューに置き換えます。</string>
-    <string name="revanced_enable_cairo_splash_animation_title">Cairo のスプラッシュアニメーションを有効化</string>
-    <string name="revanced_enable_cairo_splash_animation_summary">アプリ起動時にCairo のスプラッシュアニメーションを有効にします。</string>
     <string name="revanced_enable_debug_logging_title">デバッグログ</string>
     <string name="revanced_enable_debug_logging_summary">デバッグログを出力します。</string>
     <string name="revanced_enable_debug_buffer_logging_title">デバッグバッファログを有効化</string>

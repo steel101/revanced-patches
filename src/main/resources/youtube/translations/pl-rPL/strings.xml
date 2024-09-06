@@ -292,9 +292,7 @@ Ograniczenia:
     <string name="revanced_change_start_page_entry_watch_later">Do obejrzenia</string>
     <string name="revanced_change_start_page_invalid_toast">Nieprawidłowa strona startowa, zresetowano do domyślnej.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Wymuszone ścieżki dźwiękowe</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">Wyłączone
-
-Ograniczenie: ustawienie nie działa na Shortsy.</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_on">Wyłączone</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Włączone</string>
     <string name="revanced_disable_auto_captions_title">Wymuszone napisy</string>
     <string name="revanced_disable_auto_captions_summary_on">Wyłączone</string>
@@ -495,8 +493,13 @@ Stuknij i przytrzymaj, by otworzyć ustawienia RVX."</string>
     <string name="revanced_disable_auto_player_popup_panels_title">Wyskakujące panele w odtwarzaczu</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_on">Widoczne</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_off">Ukryte</string>
-    <string name="revanced_disable_auto_switch_mix_playlists_title">Automatyczne zmienianie playlist mix</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_title">Automatyczne przełączanie na playlisty mix</string>
     <string name="revanced_disable_auto_switch_mix_playlists_summary_on">Wyłączone</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"Włączone, gdy autoodtwarzanie jest włączone.
+
+Autoodtwarzanie może być zmienione w ustawieniach YouTube:
+Ustawienia → Autoodtwarzanie → Autoodtwarzanie następnego filmu"</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_user_dialog_message">Włączenie tej funkcji wyłączy automatyczne zmienianie na YouTube Mix, podczas odtwarzania muzyki z włączonym autoodtwarzaniem.</string>
     <string name="revanced_disable_speed_overlay_title">Wyłącz nakładkę prędkości odtwarzania</string>
     <string name="revanced_disable_speed_overlay_summary">"Wyłącz 'Odtwarzam 2x szybciej' podczas przytrzymywania.
 
@@ -1176,6 +1179,11 @@ Ograniczenia:
     <string name="revanced_restore_old_video_quality_menu_title">Stare menu od jakości filmu</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Widoczne</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Niewidoczne</string>
+    <string name="revanced_disable_default_playback_speed_music_title">Domyślna prędkość odtwarzania dla muzyki</string>
+    <string name="revanced_disable_default_playback_speed_music_on">"Wyłączona
+
+Ograniczenie: To ustawienie może nie działać dla filmów bez baneru 'Słuchaj w YouTube Music'."</string>
+    <string name="revanced_disable_default_playback_speed_music_off">Włączona</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Domyślna prędkość odtwarzania w Shortsach</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">Włączona</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">Wyłączona</string>

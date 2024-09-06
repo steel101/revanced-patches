@@ -39,6 +39,9 @@
     <string name="revanced_hide_paid_promotion_label_title">隱藏付費推廣標籤</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">付費推廣標籤已隱藏</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">付費推廣標籤已顯示</string>
+    <string name="revanced_hide_promotion_alert_banner_title">隱藏促銷警報橫幅</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_on">促銷警報橫幅已隱藏。</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_off">顯示促銷警報橫幅。</string>
     <string name="revanced_hide_self_sponsor_cards_title">隱藏自我推廣卡片</string>
     <string name="revanced_hide_self_sponsor_cards_summary_on">自我推廣卡片已隱藏</string>
     <string name="revanced_hide_self_sponsor_cards_summary_off">自我推廣卡片已顯示</string>
@@ -489,6 +492,13 @@
     <string name="revanced_disable_auto_player_popup_panels_title">停用播放器彈出面板</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_on">自動播放器彈出面板已啟用</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_off">自動播放器彈出面板已停用</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_title">停用切換混合播放列表</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_on">自動切換混合播放清單已停用。</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"自動播放開啟時會啟用自動切換混合播放清單。
+
+可以在 YouTube 設定中變更自動播放：
+設定 → 自動播放 → 自動播放下一個影片"</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_user_dialog_message">啟用此功能將禁止在自動播放開啟時播放音樂時自動切換到 YouTube Mix。</string>
     <string name="revanced_disable_speed_overlay_title">停用速度疊加</string>
     <string name="revanced_disable_speed_overlay_summary">"停用「按住即可將播放速度設為 2 倍」功能
 
@@ -671,6 +681,9 @@
     <string name="revanced_hide_player_flyout_menu_report_summary_off">舉報選單已顯示</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu, PreferenceCategory: Additional settings -->
     <string name="revanced_preference_category_additional_settings">其他設定</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_title">隱藏微光模式選單</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_on">微光模式選單已隱藏。</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">微光模式選單已顯示。</string>
     <string name="revanced_hide_player_flyout_menu_help_title">隱藏幫助與反饋選單</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_on">幫助與反饋選單已隱藏</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_off">幫助與反饋選單已顯示</string>
@@ -1160,6 +1173,11 @@
     <string name="revanced_restore_old_video_quality_menu_title">恢復舊的影片畫質選單</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">顯示舊的影片畫質選單</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">不顯示舊的影片畫質選單</string>
+    <string name="revanced_disable_default_playback_speed_music_title">停用音樂的播放速度</string>
+    <string name="revanced_disable_default_playback_speed_music_on">"音樂的預設播放速度被停用。
+
+限制：此設定可能不適用於不包含「在 YouTube 音樂上收聽」橫幅影片。"</string>
+    <string name="revanced_disable_default_playback_speed_music_off">音樂的預設播放速度已啟用。</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">啟用短片預設播放速度</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">預設播放速度適用於短片</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">預設播放速度不適用於短片</string>

@@ -39,6 +39,9 @@ Hạn chế: Hình ảnh của bài đăng cộng đồng ở chế độ toàn 
     <string name="revanced_hide_paid_promotion_label_title">Ẩn nhãn quảng cáo được tài trợ</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">Nhãn Nội dung được trả tiền để quảng cáo đã ẩn.</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">Nhãn Nội dung được trả tiền để quảng cáo được hiển thị.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Ẩn biểu ngữ thông báo khuyến mãi</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_on">Biểu ngữ thông báo khuyến mãi đã ẩn.</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_off">Biểu ngữ thông báo khuyến mãi đã hiển thị.</string>
     <string name="revanced_hide_self_sponsor_cards_title">Ẩn thẻ được tài trợ</string>
     <string name="revanced_hide_self_sponsor_cards_summary_on">Thẻ được tài trợ đã ẩn.</string>
     <string name="revanced_hide_self_sponsor_cards_summary_off">Thẻ được tài trợ được hiển thị.</string>
@@ -291,9 +294,7 @@ Bộ lọc có phân biệt chữ hoa chữ thường, vì vậy bạn cần nh�
     <string name="revanced_change_start_page_entry_watch_later">Xem sau</string>
     <string name="revanced_change_start_page_invalid_toast">Trang khởi động không hợp lệ. Đã đặt lại về mặc định.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Tắt buộc tự động phát bản âm thanh</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">Buộc tự động phát bản âm thanh đã bị tắt.
-
-Hạn chế: Tính năng này hiện chưa áp dụng cho trình Shorts.</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_on">Buộc tự động phát bản âm thanh đã bị tắt.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Buộc tự động phát bản âm thanh đã được bật.</string>
     <string name="revanced_disable_auto_captions_title">Tắt tự động hiển thị phụ đề</string>
     <string name="revanced_disable_auto_captions_summary_on">Tự động hiển thị phụ đề khi phát video có phụ đề đã tắt.</string>
@@ -324,8 +325,8 @@ Tuỳ chọn này chỉ tự động chấp nhận hộp thoại cảnh báo, kh
     <string name="revanced_override_video_download_button_summary_on">Nút tải xuống video sẽ mở trình tải xuống bên ngoài của bạn.</string>
     <string name="revanced_override_video_download_button_summary_off">Nút tải xuống video sẽ mở trình tải xuống gốc trong ứng dụng.</string>
     <string name="revanced_override_playlist_download_button_title">Ghi đè nút tải xuống danh sách phát</string>
-    <string name="revanced_override_playlist_download_button_summary_on">Nút tải xuống danh sách phát sẽ mở trình tải xuống bên ngoài của bạn.</string>
-    <string name="revanced_override_playlist_download_button_summary_off">Nút tải xuống danh sách phát sẽ mở trình tải xuống gốc trong ứng dụng.</string>
+    <string name="revanced_override_playlist_download_button_summary_on">Nút tải xuống danh sách phát sẽ luôn được hiển thị, và khi thao tác sẽ mở trình tải xuống bên ngoài đối với các danh sách phát công khai.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">Nếu được hiển thị, nút tải xuống danh sách phát sẽ mở trình tải xuống gốc trong ứng dụng.</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Tên gói ứng dụng trình tải xuống danh sách phát</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Nhập tên gói ứng dụng trình tải xuống đã cài đặt trên thiết bị của bạn, chẳng hạn như YTDLnis.</string>
     <string name="revanced_spoof_app_version_title">Giả mạo phiên bản ứng dụng</string>
@@ -494,6 +495,13 @@ Nhấn và giữ để mở cài đặt RVX."</string>
     <string name="revanced_disable_auto_player_popup_panels_title">Tắt bảng tự động bật lên khi phát</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_on">Bảng tự động bật lên khi phát video (Danh sách phát, Trò chuyện trực tiếp,...) đã tắt.</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_off">Bảng tự động bật lên khi phát video (Danh sách phát, Trò chuyện trực tiếp,...) đã bật.</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_title">Tắt chuyển đổi danh sách phát kết hợp</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_on">Tự động chuyển sang danh sách phát kết hợp đã bị vô hiệu hóa.</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"Tự động chuyển sang danh sách phát kết hợp đã được kích hoạt khi bật tính năng Tự động phát.
+
+Tính năng Tự động phát có thể thay đổi trong Cài đặt YouTube:
+Cài đặt → Tự động phát → Tự động phát video tiếp theo"</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_user_dialog_message">Việc bật tính năng này sẽ vô hiệu hóa việc tự động chuyển sang YouTube Mix khi phát nhạc đồng thời chế độ phát tự động cũng được bật.</string>
     <string name="revanced_disable_speed_overlay_title">Tắt nhấn và giữ để phát nhanh 2x</string>
     <string name="revanced_disable_speed_overlay_summary">"Tắt tính năng Nhấn và giữ trong trình phát để xem ở tốc độ nhanh gấp 2 lần.
 
@@ -675,6 +683,9 @@ Cài đặt → Tự động phát → Tự động phát video tiếp theo."</s
     <string name="revanced_hide_player_flyout_menu_report_summary_off">Mục Báo vi phạm được hiển thị.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu, PreferenceCategory: Additional settings -->
     <string name="revanced_preference_category_additional_settings">Cài đặt bổ sung</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_title">Ẩn mục Chế độ môi trường xung quanh</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_on">Mục Chế độ môi trường xung quanh đã ẩn.</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">Mục Chế độ môi trường xung quanh được hiển thị.</string>
     <string name="revanced_hide_player_flyout_menu_help_title">Ẩn Trợ giúp &amp; Phản hồi</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_on">Trợ giúp &amp; Phản hồi đã ẩn.</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_off">Trợ giúp &amp; Phản hồi được hiển thị.</string>
@@ -962,9 +973,9 @@ Hạn chế: Tiêu đề chính thức trong kết quả tìm kiếm sẽ đư�
     <string name="revanced_hide_shorts_shelf_search_title">Ẩn trong kết quả tìm kiếm</string>
     <string name="revanced_hide_shorts_shelf_search_summary_on">Ẩn trong kết quả tìm kiếm.</string>
     <string name="revanced_hide_shorts_shelf_search_summary_off">Hiển thị trong kết quả tìm kiếm.</string>
-    <string name="revanced_hide_shorts_shelf_history_title">Ẩn trong phần Lịch sử xem</string>
-    <string name="revanced_hide_shorts_shelf_history_summary_on">Ẩn trong phần Lịch sử xem.</string>
-    <string name="revanced_hide_shorts_shelf_history_summary_off">Hiển thị trong phần Lịch sử xem.</string>
+    <string name="revanced_hide_shorts_shelf_history_title">Ẩn trong phần Nhật ký xem</string>
+    <string name="revanced_hide_shorts_shelf_history_summary_on">Ẩn trong phần Nhật ký xem.</string>
+    <string name="revanced_hide_shorts_shelf_history_summary_off">Hiển thị trong phần Nhật ký xem.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Experimental Flags -->
     <string name="revanced_change_shorts_repeat_state_title">Thay đổi trạng thái lặp lại của trình phát Shorts</string>
     <string name="revanced_change_shorts_repeat_state_entry_auto_play">Tự động phát</string>
@@ -1169,6 +1180,11 @@ Hạn chế:
     <string name="revanced_restore_old_video_quality_menu_title">Khôi phục mục chất lượng video kiểu cũ</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Mục chất lượng video kiểu cũ được hiển thị.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Mục chất lượng video kiểu cũ không được hiển thị.</string>
+    <string name="revanced_disable_default_playback_speed_music_title">Tắt tùy chọn tốc độ phát khi phát nhạc</string>
+    <string name="revanced_disable_default_playback_speed_music_on">"Tốc độ phát mặc định đã bị vô hiệu hoá khi phát nhạc.
+
+Hạn chế: Cài đặt này có thể sẽ không áp dụng cho các video không bao gồm biểu ngữ 'Nghe nhạc trên YouTube Music'."</string>
+    <string name="revanced_disable_default_playback_speed_music_off">Tốc độ phát mặc định đã được kích hoạt khi phát nhạc.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Tốc độ phát mặc định cho video ngắn</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">Đang áp dụng tốc độ phát mặc định (bạn đã đặt) khi xem Shorts.</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">Tốc độ phát mặc định không áp dụng cho Shorts.</string>
@@ -1504,19 +1520,19 @@ AVC (H.264) có độ phân giải tối đa 1080p, và phát video sẽ dùng n
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Máy khách được sử dụng để lấy dữ liệu truyền trực tuyến sẽ được hiển thị trong Thống kê chi tiết.</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Máy khách được sử dụng để lấy dữ liệu phát trực tiếp sẽ bị ẩn trong Thống kê chi tiết.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
-    <string name="revanced_preference_screen_watch_history_title">Lịch sử xem</string>
-    <string name="revanced_preference_screen_watch_history_summary">Thay đổi cài đặt liên quan đến Lịch sử xem.</string>
+    <string name="revanced_preference_screen_watch_history_title">Nhật ký xem</string>
+    <string name="revanced_preference_screen_watch_history_summary">Thay đổi cài đặt liên quan đến Nhật ký xem.</string>
     <string name="revanced_watch_history_management_title">Quản lý toàn bộ lịch sử</string>
-    <string name="revanced_watch_history_management_summary">Nhấn để mở mục quản lý Lịch sử xem trên YouTube.</string>
-    <string name="revanced_watch_history_type_title">Kiểu Lịch sử xem</string>
+    <string name="revanced_watch_history_management_summary">Nhấn để mở mục quản lý Nhật ký xem trên YouTube.</string>
+    <string name="revanced_watch_history_type_title">Kiểu Nhật ký xem</string>
     <string name="revanced_watch_history_type_entry_1">Gốc</string>
     <string name="revanced_watch_history_type_entry_2">Thay thế miền</string>
-    <string name="revanced_watch_history_type_entry_3">Chặn Lịch sử xem</string>
-    <string name="revanced_watch_history_about_title">Trạng thái của Lịch sử xem</string>
-    <string name="revanced_watch_history_about_status_blocked">• Lịch sử xem bị chặn.</string>
-    <string name="revanced_watch_history_about_status_replaced">• Tuân theo cài đặt Lịch sử xem của tài khoản Google.</string>
-    <string name="revanced_watch_history_about_status_original">"• Tuân theo cài đặt lịch sử xem của tài khoản Google.
-• Lịch sử xem có thể không hoạt động do DNS hoặc VPN."</string>
+    <string name="revanced_watch_history_type_entry_3">Chặn Nhật ký xem</string>
+    <string name="revanced_watch_history_about_title">Trạng thái</string>
+    <string name="revanced_watch_history_about_status_blocked">• Nhật ký xem bị chặn.</string>
+    <string name="revanced_watch_history_about_status_replaced">• Tuân theo cài đặt Nhật ký xem của tài khoản Google.</string>
+    <string name="revanced_watch_history_about_status_original">"• Tuân theo cài đặt Nhật ký xem của tài khoản Google.
+• Nhật ký xem có thể không hoạt động do DNS hoặc VPN."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Thông tin bản vá</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

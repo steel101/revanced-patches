@@ -39,6 +39,9 @@ Limitação: A imagem do post da comunidade em tela cheia pode ser bloqueada."</
     <string name="revanced_hide_paid_promotion_label_title">Ocultar rótulo de promoção paga</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">O rótulo de promoção pago está oculto.</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">O rótulo de promoção pago será exibido.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Ocultar banner de alerta de promoção</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_on">O banner de alerta de promoção está oculto.</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_off">O banner de alerta de promoção será exibido.</string>
     <string name="revanced_hide_self_sponsor_cards_title">Ocultar cartões auto-patrocinados</string>
     <string name="revanced_hide_self_sponsor_cards_summary_on">Os cartões auto-patrocinados estão ocultos.</string>
     <string name="revanced_hide_self_sponsor_cards_summary_off">Os cartões auto-patrocinados serão exibidos.</string>
@@ -672,6 +675,9 @@ A reprodução automática pode ser alterada nas configurações do YouTube:
     <string name="revanced_hide_player_flyout_menu_report_summary_off">O menu denunciar será exibido.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu, PreferenceCategory: Additional settings -->
     <string name="revanced_preference_category_additional_settings">Configurações adicionais</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_title">Ocultar menu do Modo Ambiente</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_on">O menu modo ambiente está oculto.</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">O menu modo ambiente será exibido.</string>
     <string name="revanced_hide_player_flyout_menu_help_title">Ocultar menu ajuda &amp; feedback</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_on">O menu ajuda &amp; feedback está oculto.</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_off">O menu ajuda &amp; feedback será exibido.</string>

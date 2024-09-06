@@ -64,6 +64,8 @@ Si désactivé, Les publicités en plein écran seront bloquées. (peut avoir de
     <string name="revanced_hide_premium_promotion_summary">Masque les publicités pour YouTube Premium.</string>
     <string name="revanced_hide_premium_renewal_title">Masquer la bannière \"Renouveler votre abonnement Premium\"</string>
     <string name="revanced_hide_premium_renewal_summary">Masque la bannière \"Renouveler votre abonnement Premium\".</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Masquer la bannière d\'alerte de promotion</string>
+    <string name="revanced_hide_promotion_alert_banner_summary">Masque la bannière d\'alerte de promotion.</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">Menu déroulant</string>
     <string name="revanced_enable_compact_dialog_title">Activer la boîte de dialogue compacte</string>
@@ -338,8 +340,6 @@ Certaines fonctions peuvent ne pas fonctionner sur l'ancienne mise en page."</st
     <string name="revanced_bypass_image_region_restrictions_summary">Remplace le domaine qui est bloqué dans certaines régions afin que les miniatures des listes de lecture, les avatars des chaînes, etc. puissent être reçus.</string>
     <string name="revanced_change_share_sheet_title">Modifier la fiche de partage</string>
     <string name="revanced_change_share_sheet_summary">Remplace la fiche de partage de l\'appli par celui du système.</string>
-    <string name="revanced_enable_cairo_splash_animation_title">Activer l\'animation Cairo au démarrage</string>
-    <string name="revanced_enable_cairo_splash_animation_summary">Active l\'animation Cairo lors du démarrage de l\'application.</string>
     <string name="revanced_enable_debug_logging_title">Activer le journal de débogage</string>
     <string name="revanced_enable_debug_logging_summary">Enregistrer le journal de débogage.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Activer les informations sur la mémoire tampon dans le journal de débogage</string>

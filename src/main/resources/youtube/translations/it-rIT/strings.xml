@@ -39,6 +39,9 @@ Limitazione: Le immagini dei post della community a schermo intero potrebbero es
     <string name="revanced_hide_paid_promotion_label_title">Nascondi l\'etichetta della promozione a pagamento</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">L\'etichetta della promozione a pagamento è nascosta.</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">L\'etichetta della promozione a pagamento è visibile.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Nascondi banner di avviso promozionale</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_on">Il banner di avviso promozionale è nascosto.</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_off">Il banner di avviso promozionale è visibile.</string>
     <string name="revanced_hide_self_sponsor_cards_title">Nascondi le schede auto promozionali</string>
     <string name="revanced_hide_self_sponsor_cards_summary_on">Le schede auto promozionali sono nascoste.</string>
     <string name="revanced_hide_self_sponsor_cards_summary_off">Le schede auto promozionali sono visibili.</string>
@@ -273,7 +276,7 @@ Limitazioni:
     <string name="revanced_change_start_page_entry_browse">Esplora canali</string>
     <string name="revanced_change_start_page_entry_default">Predefinita</string>
     <string name="revanced_change_start_page_entry_explore">Esplora</string>
-    <string name="revanced_change_start_page_entry_gaming">Gaming</string>
+    <string name="revanced_change_start_page_entry_gaming">Giochi</string>
     <string name="revanced_change_start_page_entry_history">Cronologia</string>
     <string name="revanced_change_start_page_entry_library">Libreria</string>
     <string name="revanced_change_start_page_entry_liked_videos">Video piaciuti</string>
@@ -295,7 +298,7 @@ Limitazioni:
     <string name="revanced_disable_auto_captions_summary_off">I sottotitoli automatici forzati sono attivati.</string>
     <string name="revanced_disable_splash_animation_title">Disabilita l\'animazione all\'avvio</string>
     <string name="revanced_disable_splash_animation_summary_on">L\'animazione di avvio è disabilitata.</string>
-    <string name="revanced_disable_splash_animation_summary_off">L\'animazione di avvio è abilitata.</string>
+    <string name="revanced_disable_splash_animation_summary_off">L\'animazione di avvio è attivata.</string>
     <string name="revanced_enable_gradient_loading_screen_title">Attiva la schermata di caricamento gradiente</string>
     <string name="revanced_enable_gradient_loading_screen_summary_on">La schermata di caricamento gradiente è attivata.</string>
     <string name="revanced_enable_gradient_loading_screen_summary_off">La schermata di caricamento gradiente è disattivata.</string>
@@ -315,12 +318,12 @@ Questo non aggira la restrizione di età. La accetta solamente in automatico."</
     <string name="revanced_enable_phone_layout_summary">Camuffa i dpi per usare alcune interfacce da telefono.</string>
     <string name="revanced_enable_tablet_layout_title">Attiva l\'interfaccia da tablet</string>
     <string name="revanced_enable_tablet_layout_summary">Camuffa i dpi per usare alcune interfacce da tablet.</string>
-    <string name="revanced_override_video_download_button_title">Sovrascrivi il pulsante di download video</string>
+    <string name="revanced_override_video_download_button_title">Sovrascrivi il pulsante per scaricare i video</string>
     <string name="revanced_override_video_download_button_summary_on">Il pulsante nativo per scaricare il video apre il tuo scaricatore esterno.</string>
     <string name="revanced_override_video_download_button_summary_off">Il pulsante nativo per scaricare il video apre lo scaricatore nativo.</string>
-    <string name="revanced_override_playlist_download_button_title">Sovrascrivi il pulsante per scaricare una playlist</string>
-    <string name="revanced_override_playlist_download_button_summary_on">Il pulsante nativo per scaricare una playlist apre il tuo scaricatore esterno.</string>
-    <string name="revanced_override_playlist_download_button_summary_off">Il pulsante nativo per scaricare una playlist apre lo scaricatore nativo.</string>
+    <string name="revanced_override_playlist_download_button_title">Sovrascrivi il pulsante per scaricare le playlist</string>
+    <string name="revanced_override_playlist_download_button_summary_on">Il pulsante nativo di download della playlist è sempre visualizzato, e nelle playlist pubbliche, apre il tuo scaricatore esterno.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">Se visualizzato, il pulsante nativo di download della playlist apre lo scaricatore nativo.</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Nome del pacchetto dello scaricatore di playlist</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Nome del pacchetto dello scaricatore esterno installato, come YTDLnis.</string>
     <string name="revanced_spoof_app_version_title">Camuffa la versione dell\'app</string>
@@ -414,7 +417,7 @@ Alcuni componenti potrebbero non essere nascosti"</string>
     <string name="revanced_hide_navigation_shorts_button_title">Nascondi il pulsante Shorts</string>
     <string name="revanced_hide_navigation_shorts_button_summary_on">Il pulsante Shorts è nascosto.</string>
     <string name="revanced_hide_navigation_shorts_button_summary_off">Il pulsante Shorts è visibile.</string>
-    <string name="revanced_hide_navigation_subscriptions_button_title">Nascondi la pagina Iscrizioni</string>
+    <string name="revanced_hide_navigation_subscriptions_button_title">Nascondi il pulsante Iscrizioni</string>
     <string name="revanced_hide_navigation_subscriptions_button_summary_on">Il pulsante Iscrizioni è nascosto.</string>
     <string name="revanced_hide_navigation_subscriptions_button_summary_off">Il pulsante Iscrizioni è visibile.</string>
     <string name="revanced_hide_navigation_label_title">Nascondi le etichette della barra di navigazione</string>
@@ -489,6 +492,13 @@ Tocca e tieni premuto per aprire le impostazioni di RVX."</string>
     <string name="revanced_disable_auto_player_popup_panels_title">Disabilita i pannelli popup del riproduttore</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_on">I pannelli popup del riproduttore automatico sono disabilitati.</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_off">I pannelli popup del riproduttore automatico sono abilitati.</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_title">Disabilita interruttori delle playlist miste</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_on">L\'interruttore automatico delle playlist miste è disabilitato.</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"L'interruttore automatico delle playlist miste è abilitato quando la riproduzione automatica è attivato.
+
+La riproduzione automatica può essere modificato nelle impostazioni di YouTube:
+Impostazioni → riproduzione automatica→ riproduzione automatica video successivo"</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_user_dialog_message">Abilitando questa funzionalità si disabiliterà l\'interruttore automatico a YouTube Misto quando si riproduce musica mentre la riproduzione automatica è attivata.</string>
     <string name="revanced_disable_speed_overlay_title">Disattiva la sovrapposizione della velocità quando tieni premuto</string>
     <string name="revanced_disable_speed_overlay_summary">"Disabilita la funzione '2x&gt;&gt;' tenendo premuto.
 
@@ -671,6 +681,9 @@ Impostazioni → Riproduzione automatica → Riproduzione automatica del video s
     <string name="revanced_hide_player_flyout_menu_report_summary_off">Il menu Segnala è visibile.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu, PreferenceCategory: Additional settings -->
     <string name="revanced_preference_category_additional_settings">Impostazioni aggiuntive</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_title">Nascondi il menu Modalità Ambient</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_on">Il menu Modalità Ambient è nascosto.</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">Il menu Modalità Ambient è mostrato.</string>
     <string name="revanced_hide_player_flyout_menu_help_title">Nascondi menu Guida &amp; feedback</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_on">Il menu Guida &amp; feedback è nascosto.</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_off">Il menu Guida &amp; feedback è visibile.</string>
@@ -1167,6 +1180,11 @@ Problema noto: Poiché questa è una caratteristica nella fase di sviluppo di Go
     <string name="revanced_restore_old_video_quality_menu_title">Ripristina il vecchio menu di qualità video</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Vecchio menu di qualità video è mostrato.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Il vecchio menu di qualità video non è mostrato.</string>
+    <string name="revanced_disable_default_playback_speed_music_title">Disabilita la velocità di riproduzione per la musica</string>
+    <string name="revanced_disable_default_playback_speed_music_on">"La velocità di riproduzione predefinita è disabilitata per la musica.
+
+Limitazione: Questa impostazione potrebbe non applicarsi ai video che non includono il banner 'Ascolta su YouTube Music'."</string>
+    <string name="revanced_disable_default_playback_speed_music_off">La velocità di riproduzione predefinita è abilitata per la musica.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Attiva la velocità di riproduzione predefinita negli Shorts</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">La velocità di riproduzione predefinita negli Shorts è attivata</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">La velocità di riproduzione predefinita negli Shorts è disattivata</string>

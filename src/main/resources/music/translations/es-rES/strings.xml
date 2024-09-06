@@ -338,8 +338,6 @@ Algunas características pueden no funcionar correctamente en la disposición de
     <string name="revanced_bypass_image_region_restrictions_summary">Reemplaza el dominio que está bloqueado en algunas regiones para que las miniaturas de la lista de reproducción, avatares de canales, etc. puedan ser recibidas.</string>
     <string name="revanced_change_share_sheet_title">Cambiar la hoja de compartir</string>
     <string name="revanced_change_share_sheet_summary">Cambia la hoja de compartir en la app a la hoja de compartir del sistema.</string>
-    <string name="revanced_enable_cairo_splash_animation_title">Activar nueva animación de bienvenida</string>
-    <string name="revanced_enable_cairo_splash_animation_summary">Habilita la animación de bienvenida \"Cairo\" cuando se inicia la aplicación.</string>
     <string name="revanced_enable_debug_logging_title">Activar registro de depuración</string>
     <string name="revanced_enable_debug_logging_summary">Imprime el registro de depuración.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Incluir búfer en registro de depuración</string>

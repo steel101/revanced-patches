@@ -1183,7 +1183,7 @@
     <string name="revanced_disable_default_playback_speed_music_title">Вимкнути швидкість відтворення для музики</string>
     <string name="revanced_disable_default_playback_speed_music_on">"Типову швидкість відтворення вимкнено для музики.
 
-Застереження: Це налаштування застосовується лише до відео, які містять напис 'Слухати через YouTube Music'."</string>
+Застереження: Це налаштування може не застосовуватись до відео, які не містять напис 'Слухати через YouTube Music'."</string>
     <string name="revanced_disable_default_playback_speed_music_off">Типову швидкість відтворення увімкнено для музики.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Увімкнути типову швидкість відтворення Shorts</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">Типову швидкість відтворення застосовується для Shorts.</string>

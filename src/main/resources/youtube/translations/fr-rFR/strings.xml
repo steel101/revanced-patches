@@ -39,6 +39,9 @@ Effet secondaire : Les images des posts communautaires peuvent être bloquées e
     <string name="revanced_hide_paid_promotion_label_title">Masquer la bannière \"Communication commerciale\"</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">La bannière \"Inclut une communication commerciale\" est masqué.</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">La bannière \"Inclut une communication commerciale\" est affiché.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Masquer la bannière d\'alerte de promotion</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_on">La bannière d\'alerte de promotion est masquée.</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_off">La bannière d\'alerte de promotion est affichée.</string>
     <string name="revanced_hide_self_sponsor_cards_title">Masquer les cartes autosponsorisées</string>
     <string name="revanced_hide_self_sponsor_cards_summary_on">Les cartes autosponsorisées sont masquées.</string>
     <string name="revanced_hide_self_sponsor_cards_summary_off">Les cartes autosponsorisées sont affichées.</string>
@@ -291,9 +294,7 @@ Limitations :
     <string name="revanced_change_start_page_entry_watch_later">Regarder plus tard</string>
     <string name="revanced_change_start_page_invalid_toast">Page de démarrage invalide, valeur réinitialisée par défaut.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Désact. les pistes audio forcés</string>
-    <string name="revanced_disable_auto_audio_tracks_summary_on">Les pistes audio automatiques forcées sont désactivé.
-
-Limitation : Ce paramètre ne s\'applique pas pour les Shorts.</string>
+    <string name="revanced_disable_auto_audio_tracks_summary_on">Les pistes audio automatiques forcées sont désactivé.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Les pistes audio automatiques forcées sont activés.</string>
     <string name="revanced_disable_auto_captions_title">Désact. les sous-titres forcés</string>
     <string name="revanced_disable_auto_captions_summary_on">Les sous-titres automatiques forcés sont désactivés.</string>
@@ -324,8 +325,8 @@ Cela ne contourne pas la restriction d'âge, mais le confirme automatiquement."<
     <string name="revanced_override_video_download_button_summary_on">Le bouton \"Télécharger\" natif ouvre votre téléchargeur externe.</string>
     <string name="revanced_override_video_download_button_summary_off">Le bouton \"Télécharger\" natif ouvre le téléchargeur de l\'appli.</string>
     <string name="revanced_override_playlist_download_button_title">Remplacer le bouton de téléchargement de la playlist</string>
-    <string name="revanced_override_playlist_download_button_summary_on">Le bouton \"Télécharger\" natif de la playlist ouvre votre téléchargeur externe.</string>
-    <string name="revanced_override_playlist_download_button_summary_off">Le bouton \"Télécharger\" natif de la playlist ouvre votre téléchargeur de l\'appli.</string>
+    <string name="revanced_override_playlist_download_button_summary_on">Le bouton de téléchargement natif de la playlist est toujours affiché, et dans les playlists publiques, il ouvre votre téléchargeur externe.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">Si affiché, le bouton \"Télécharger\" natif de la playlist ouvre le téléchargeur natif de l\'appli.</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Nom du paquet du téléchargeur de la playlist</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Nom de package du téléchargeur externe installé, telle que YTDLnis.</string>
     <string name="revanced_spoof_app_version_title">Falsifier la version de l\'app</string>
@@ -494,6 +495,13 @@ Appuyez longuement pour ouvrir les paramètres RVX."</string>
     <string name="revanced_disable_auto_player_popup_panels_title">Fenêtres pop-up du lecteur automatique</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_on">Les fenêtres pop-up du lecteur automatique sont désactivées.</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_off">Les fenêtres pop-up du lecteur automatique sont activés.</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_title">Désactiver le mélange des playlists mix</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_on">Le mélange auto des playlists est désactivé.</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"Le mélange auto des playlists est activé lorsque la lecture automatique est activé.
+
+La lecture automatique peut être modifiée dans les paramètres de YouTube :
+Paramètres → Lecture automatique → Lecture automatique de la vidéo suivante"</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_user_dialog_message">Activer cette fonction désactive le passage automatique à YouTube Mix lors de la lecture de musique lorsque la lecture automatique est activée.</string>
     <string name="revanced_disable_speed_overlay_title">Désactiver le contrôle de la vitesse</string>
     <string name="revanced_disable_speed_overlay_summary">"Désactive '2x&gt;&gt;' en appuyant longuement.
 
@@ -676,6 +684,9 @@ La lecture automatique peut être modifiée dans les paramètres de YouTube :
     <string name="revanced_hide_player_flyout_menu_report_summary_off">Le menu \"Signaler\" est affiché.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu, PreferenceCategory: Additional settings -->
     <string name="revanced_preference_category_additional_settings">Paramètres supplémentaires</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_title">Masquer le menu \"Mode Ambiant\"</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_on">Le menu \"Mode Ambiant\" est masqué.</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">Le menu \"Mode Ambiant\" est affiché.</string>
     <string name="revanced_hide_player_flyout_menu_help_title">Masquer le menu \"Aide et commentaires\"</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_on">Le menu \"Aide et commentaires\" est masqué.</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_off">Le menu \"Aide et commentaires\" est affiché.</string>
@@ -1170,6 +1181,11 @@ Limitations :
     <string name="revanced_restore_old_video_quality_menu_title">Restaur. ancien. interface de qualité vidéo</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Affiche l\'ancienne interface de qualité vidéo.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Masque la nouvelle interface de qualité vidéo.</string>
+    <string name="revanced_disable_default_playback_speed_music_title">Désactiver la vitesse de lecture pour la musique</string>
+    <string name="revanced_disable_default_playback_speed_music_on">"La vitesse de lecture par défaut est désactivée pour la musique.
+
+Limitation : Ce paramètre peut ne pas s'appliquer aux vidéos qui n'incluent pas la bannière \"Écouter sur YouTube Music\"."</string>
+    <string name="revanced_disable_default_playback_speed_music_off">La vitesse de lecture par défaut est activée pour la musique.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Activ. vitesses de lecture shorts par défaut</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">La vitesse de lecture par défaut s\'applique aux Shorts.</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">La vitesse de lecture par défaut ne s\'applique pas aux Shorts.</string>

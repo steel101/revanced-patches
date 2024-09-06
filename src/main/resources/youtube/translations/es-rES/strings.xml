@@ -39,6 +39,9 @@ Limitación: la imagen de la publicación de la comunidad en pantalla completa p
     <string name="revanced_hide_paid_promotion_label_title">Ocultar etiqueta de promoción pagada</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">La etiqueta de promoción pagada está oculta.</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">La etiqueta de promoción pagada está visible.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Ocultar banner de alerta de promoción</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_on">El banner de alerta de promoción está oculto.</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_off">El banner de alerta de promoción está visible.</string>
     <string name="revanced_hide_self_sponsor_cards_title">Ocultar tarjetas autopatrocinadas</string>
     <string name="revanced_hide_self_sponsor_cards_summary_on">Las tarjetas autopatrocinadas están ocultas.</string>
     <string name="revanced_hide_self_sponsor_cards_summary_off">Las tarjetas autopatrocinadas están visibles.</string>
@@ -490,6 +493,13 @@ Mantén pulsado para abrir los ajustes de RVX."</string>
     <string name="revanced_disable_auto_player_popup_panels_title">Desactivar paneles emergentes del reproductor</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_on">Los paneles emergentes del reproductor automático están activados.</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_off">Los paneles emergentes del reproductor automático están desactivados.</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_title">Desactivar cambio de listas de reproducción Mix</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_on">El cambio automático de listas de reproducción Mix está desactivado.</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"El cambio automático de listas de reproducción Mix está activado cuando la reproducción automática está activada.
+
+La reproducción automática se puede cambiar en la configuración de YouTube:
+Configuración → Reproducción automática → Reproducción automática del siguiente vídeo"</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_user_dialog_message">Al activar esta función, se desactivará el cambio automático a YouTube Mix al reproducir música con la reproducción automática activada.</string>
     <string name="revanced_disable_speed_overlay_title">Desactivar superposición de velocidad</string>
     <string name="revanced_disable_speed_overlay_summary">"Desactiva \"Reproducir a velocidad x2\" mientras mantienes pulsado.
 
@@ -672,6 +682,9 @@ La reproducción automática se puede cambiar en la configuración de YouTube:
     <string name="revanced_hide_player_flyout_menu_report_summary_off">El menú de denunciar está visible.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu, PreferenceCategory: Additional settings -->
     <string name="revanced_preference_category_additional_settings">Ajustes adicionales</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_title">Ocultar menú del modo ambiente</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_on">El menú del modo ambiente está oculto.</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">El menú del modo ambiente está visible.</string>
     <string name="revanced_hide_player_flyout_menu_help_title">Ocultar menú de ayuda y comentarios</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_on">El menú de ayuda y comentarios está oculto.</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_off">El menú de ayuda y comentarios está visible.</string>
@@ -1167,6 +1180,11 @@ Desliza hacia arriba / abajo para reproducir el vídeo siguiente / anterior.</st
     <string name="revanced_restore_old_video_quality_menu_title">Restaurar antiguo menú de calidad de vídeo</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">El antiguo menú de calidad de vídeo está visible.</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">El antiguo menú de calidad de vídeo está oculto.</string>
+    <string name="revanced_disable_default_playback_speed_music_title">Desactivar velocidad de reproducción para música</string>
+    <string name="revanced_disable_default_playback_speed_music_on">"La velocidad predeterminada de reproducción está desactivada para la música.
+
+Limitación: Es posible que este ajuste no se aplique a los vídeos que no incluyan el banner \"Escuchar en YouTube Music\"."</string>
+    <string name="revanced_disable_default_playback_speed_music_off">La velocidad predeterminada de reproducción está activada para la música.</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">Activar velocidad predeterminada de reproducción de Shorts</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">La velocidad predeterminada de reproducción se aplica a los Shorts.</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">La velocidad predeterminada de reproducción no se aplica a los Shorts.</string>

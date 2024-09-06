@@ -39,6 +39,9 @@
     <string name="revanced_hide_paid_promotion_label_title">有料プロモーションラベルを非表示</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">プレーヤー上に表示される「プロモーションを含みます」の文章を非表示にします。</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">プレーヤー上に表示される「プロモーションを含みます」の文章を非表示にします。</string>
+    <string name="revanced_hide_promotion_alert_banner_title">プロモーションバナーを非表示</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_on">YouTube Premium の価格の値上げなどのプロモーションバナーを非表示にします。</string>
+    <string name="revanced_hide_promotion_alert_banner_summary_off">YouTube Premium の価格の値上げなどのプロモーションバナーを非表示にします。</string>
     <string name="revanced_hide_self_sponsor_cards_title">自己スポンサーカードを非表示</string>
     <string name="revanced_hide_self_sponsor_cards_summary_on">概要欄下部に表示されるセルフスポンサーカードを非表示にします。</string>
     <string name="revanced_hide_self_sponsor_cards_summary_off">概要欄下部に表示されるセルフスポンサーカードを非表示にします。</string>
@@ -491,9 +494,9 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_disable_auto_player_popup_panels_summary_on">再生リストとライブチャットのパネルが自動で開くのを無効化します。</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_off">再生リストとライブチャットのパネルが自動で開くのを無効化します。</string>
     <string name="revanced_disable_auto_switch_mix_playlists_title">ミックスプレイリストの切り替えを無効化</string>
-    <string name="revanced_disable_auto_switch_mix_playlists_summary_on">自動再生がオフの場合、ミックスプレイリストの自動再生を無効化できます。\n\n自動再生は YouTube の設定で変更できます: 「設定 → 自動再生 → 次の動画を自動再生」</string>
-    <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"自動再生がオフの場合、ミックスプレイリストの自動再生を無効化できます。\n\n自動再生は YouTube の設定で変更できます: 「設定 → 自動再生 → 次の動画を自動再生」"</string>
-    <string name="revanced_disable_auto_switch_mix_playlists_user_dialog_message">この設定をオンにした場合、自動再生がオフになっているときに音楽を再生すると、ミックスプレイリストの自動再生が無効になります。</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_on">自動再生がオフの場合、音楽を再生した際に自動的にミックスプレイリストに切り替わるのを無効化できます。\n\n自動再生は YouTube の設定で変更できます: 「設定 → 自動再生 → 次の動画を自動再生」</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"自動再生がオフの場合、音楽を再生した際にミックスプレイリストへの自動切り替えを無効化できます。\n\n自動再生は YouTube の設定で変更できます: 「設定 → 自動再生 → 次の動画を自動再生」"</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_user_dialog_message">自動再生がオフの場合、音楽を再生した際にミックスプレイリストへの自動切り替えを無効化できます。\n\n自動再生は YouTube の設定で変更できます: 「設定 → 自動再生 → 次の動画を自動再生」</string>
     <string name="revanced_disable_speed_overlay_title">再生速度のオーバーレイを無効化</string>
     <string name="revanced_disable_speed_overlay_summary">"画面を長押しして2倍速で再生する機能を無効にします。
 
@@ -691,7 +694,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_player_flyout_menu_premium_controls_title">「Premium のコントロール」を非表示</string>
     <string name="revanced_hide_player_flyout_menu_premium_controls_summary_on">「Premium のコントロール」メニューを非表示にします。</string>
     <string name="revanced_hide_player_flyout_menu_premium_controls_summary_off">「Premium のコントロール」メニューを非表示にします。</string>
-    <string name="revanced_hide_player_flyout_menu_sleep_timer_title">スリープタイマーメニューを非表示</string>
+    <string name="revanced_hide_player_flyout_menu_sleep_timer_title">「スリープタイマー」を非表示</string>
     <string name="revanced_hide_player_flyout_menu_sleep_timer_summary_on">「スリープタイマー」メニューを非表示にします。</string>
     <string name="revanced_hide_player_flyout_menu_sleep_timer_summary_off">「スリープタイマー」メニューを非表示にします。</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_title">「一定音量」を非表示</string>
@@ -1017,7 +1020,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_shorts_use_this_sound_button_title">「このサウンドを使用する」を非表示</string>
     <string name="revanced_hide_shorts_use_this_sound_button_summary_on">ショートで楽曲ボタンを押した際に表示される「このサウンドを使用する」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_use_this_sound_button_summary_off">ショートで楽曲ボタンを押した際に表示される「このサウンドを使用する」ボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_use_template_button_title">「テンプレートを使用する」ボタンを非表示</string>
+    <string name="revanced_hide_shorts_use_template_button_title">「テンプレートを使用する」を非表示</string>
     <string name="revanced_hide_shorts_use_template_button_summary_on">「テンプレートを使用する」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_use_template_button_summary_off">「テンプレートを使用する」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_info_panel_title">情報パネルを非表示</string>
@@ -1171,11 +1174,11 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_restore_old_video_quality_menu_title">古いスタイルの画質メニューを復元</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">古いスタイルの画質設定メニューを復活させます。</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">古いスタイルの画質設定メニューを復活させます。</string>
-    <string name="revanced_disable_default_playback_speed_music_title">音楽でデフォルトの再生速度を無効化</string>
-    <string name="revanced_disable_default_playback_speed_music_on">"音楽でデフォルトの再生速度を無効化します。
+    <string name="revanced_disable_default_playback_speed_music_title">音楽再生時にデフォルトの再生速度を無効化</string>
+    <string name="revanced_disable_default_playback_speed_music_on">"音楽を再生する際に、「デフォルトの再生速度」で設定した再生速度を無効化します。
 
-注意: この設定は、「YouTube Musicで聴く」バナーが表示されている動画にのみ適用されます。"</string>
-    <string name="revanced_disable_default_playback_speed_music_off">音楽でデフォルトの再生速度を無効化します。\n\n注意: この設定は、「YouTube Musicで聴く」バナーが表示されている動画にのみ適用されます。</string>
+注意: この設定は、「YouTube Music で聴く」バナーが表示されている動画にのみ適用されます。"</string>
+    <string name="revanced_disable_default_playback_speed_music_off">音楽を再生する際に、「デフォルトの再生速度」で設定した再生速度を無効化します。\n\n注意: この設定は、「YouTube Music で聴く」バナーが表示されている動画にのみ適用されます。</string>
     <string name="revanced_enable_default_playback_speed_shorts_title">ショートのデフォルト再生速度を有効化</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">デフォルトの再生速度をショートに適用します。</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">デフォルトの再生速度をショートに適用します。</string>

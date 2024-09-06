@@ -64,6 +64,8 @@
     <string name="revanced_hide_premium_promotion_summary">Приховує спливаючі вікна реклами підписки Music Premium.</string>
     <string name="revanced_hide_premium_renewal_title">Приховати банер поновлення Premium</string>
     <string name="revanced_hide_premium_renewal_summary">Приховує банер поновлення підписки Music Premium.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Приховати рекламні сповіщення</string>
+    <string name="revanced_hide_promotion_alert_banner_summary">Приховує банер рекламних сповіщень.</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">Спливаюче меню</string>
     <string name="revanced_enable_compact_dialog_title">Увімкнути компактний вигляд меню</string>
@@ -338,8 +340,6 @@
     <string name="revanced_bypass_image_region_restrictions_summary">Замінює домен для зображень, заблокований у деяких регіонах, що дозволить отримувати мініатюри списків відтворення, аватари каналів тощо.</string>
     <string name="revanced_change_share_sheet_title">Змінити діалог поширення</string>
     <string name="revanced_change_share_sheet_summary">Змінює тип вікна діалогу поширення з вбудованого до системного.</string>
-    <string name="revanced_enable_cairo_splash_animation_title">Увімкнути сплеш анімацію Каїр</string>
-    <string name="revanced_enable_cairo_splash_animation_summary">Вмикає сплеш анімацію Каїр під час запуску програми.</string>
     <string name="revanced_enable_debug_logging_title">Увімкнути протоколи налагодження</string>
     <string name="revanced_enable_debug_logging_summary">Виводить протокол налагодження.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Увімкнути ведення журналу буфера налагодження</string>

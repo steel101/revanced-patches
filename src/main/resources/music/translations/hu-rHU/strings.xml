@@ -334,8 +334,6 @@ Előfordulhat, hogy egyes funkciók nem működnek megfelelően a régi lejátsz
     <string name="revanced_bypass_image_region_restrictions_summary">Helyettesíti az egyes régiókban blokkolt tartományt, így a lejátszási lista miniatűrjei, csatorna avatarok stb. fogadhatóak.</string>
     <string name="revanced_change_share_sheet_title">Megosztási lap megváltoztatása</string>
     <string name="revanced_change_share_sheet_summary">Váltás az alkalmazáson belüli megosztási lapról a rendszer megosztási lapjára.</string>
-    <string name="revanced_enable_cairo_splash_animation_title">Betöltési animáció engedélyezése</string>
-    <string name="revanced_enable_cairo_splash_animation_summary">Engedélyezi a betöltési animációt amikor az app indul.</string>
     <string name="revanced_enable_debug_logging_title">Hibanaplók engedélyezése</string>
     <string name="revanced_enable_debug_logging_summary">Kiírja a hibanaplót.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Hibakeresési puffer naplózásának engedélyezése</string>
