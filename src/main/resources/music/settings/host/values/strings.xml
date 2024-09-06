@@ -378,8 +378,8 @@ Some features may not work properly in the old player layout."</string>
     <string name="revanced_bypass_image_region_restrictions_summary">Replaces the domain that is blocked in some regions so that playlist thumbnails, channel avatars, etc. can be received.</string>
     <string name="revanced_change_share_sheet_title">Change share sheet</string>
     <string name="revanced_change_share_sheet_summary">Change from in-app share sheet to system share sheet.</string>
-    <string name="revanced_enable_cairo_splash_animation_title">Enable Cairo splash animation</string>
-    <string name="revanced_enable_cairo_splash_animation_summary">Enables Cairo splash animation when the app starts up.</string>
+    <string name="revanced_disable_cairo_splash_animation_title">Disable Cairo splash animation</string>
+    <string name="revanced_disable_cairo_splash_animation_summary">Disables Cairo splash animation when the app starts up.</string>
     <string name="revanced_enable_debug_logging_title">Enable debug logging</string>
     <string name="revanced_enable_debug_logging_summary">Prints the debug log.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Enable debug buffer logging</string>
