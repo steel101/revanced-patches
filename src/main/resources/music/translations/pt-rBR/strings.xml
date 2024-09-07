@@ -64,6 +64,8 @@ Se estiver desativado, os anúncios em tela cheia serão bloqueados. (pode haver
     <string name="revanced_hide_premium_promotion_summary">Oculta pop-ups de promoção premium.</string>
     <string name="revanced_hide_premium_renewal_title">Ocultar banner de renovação premium</string>
     <string name="revanced_hide_premium_renewal_summary">Oculta o banner de renovação premium.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Ocultar banner de alerta de promoção</string>
+    <string name="revanced_hide_promotion_alert_banner_summary">Oculta o banner de alerta de promoção.</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">Menu flutuante</string>
     <string name="revanced_enable_compact_dialog_title">Ativar diálogo compacto</string>
@@ -247,8 +249,12 @@ Alguns recursos podem não funcionar corretamente no layout antigo do reprodutor
     <string name="revanced_custom_playback_speeds_summary">Adicionar ou alterar as velocidades de reprodução disponíveis.</string>
     <string name="revanced_remember_playback_speed_last_selected_title">Lembrar mudança na velocidade de reprodução</string>
     <string name="revanced_remember_playback_speed_last_selected_summary">Lembra a última velocidade de reprodução selecionada.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Exibir uma notificação flutuante</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary">Exibir uma notificação flutuante quando alterar a velocidade padrão de reprodução.</string>
     <string name="revanced_remember_video_quality_last_selected_title">Lembrar mudança na qualidade do vídeo</string>
     <string name="revanced_remember_video_quality_last_selected_summary">Lembra a última qualidade de vídeo selecionada.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Exibir uma notificação flutuante</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary">Exibir uma notificação flutuante quando alterar a qualidade padrão do vídeo.</string>
     <string name="revanced_custom_playback_speeds_invalid">Velocidades personalizadas devem ser menores que %sx. Usando valores padrão.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Velocidade personalizada de reprodução inválida. Usando valores padrão.</string>
     <string name="revanced_remember_playback_speed_toast">Alterando a velocidade padrão para %s.</string>
@@ -272,13 +278,12 @@ Alguns recursos podem não funcionar corretamente no layout antigo do reprodutor
     <string name="revanced_ryd_failure_connection_status_code">Deslikes indisponível (status %d).</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Dislikes indisponível (limite de API do cliente atingido).</string>
     <string name="revanced_ryd_failure_generic">Deslikes indisponível (%s).</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Oculto</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enabled">Ativar SponsorBlock</string>
     <string name="revanced_sb_enabled_sum">SponsorBlock é um sistema coletivo para pular partes irritantes de vídeos do YouTube.</string>
     <string name="revanced_sb_toast_on_connection_error">Exibir uma notificação flutuante se a API não estiver disponível</string>
-    <string name="revanced_sb_toast_on_connection_error_sum">Mostra uma notificação flutuante se a API SponsorBlock não estiver disponível.</string>
+    <string name="revanced_sb_toast_on_connection_error_sum">Exibe uma notificação flutuante se a API SponsorBlock não estiver disponível.</string>
     <string name="revanced_sb_toast_on_skip">Exibir uma notificação flutuante quando pular automaticamente</string>
     <string name="revanced_sb_toast_on_skip_sum">Uma notificação flutuante é exibida quando um segmento é ignorado automaticamente.</string>
     <string name="revanced_sb_api_url">Alterar URL da API</string>
@@ -335,8 +340,6 @@ Alguns recursos podem não funcionar corretamente no layout antigo do reprodutor
     <string name="revanced_bypass_image_region_restrictions_summary">Substitui o domínio que está bloqueado em algumas regiões para que miniaturas para playlists, avatares de canais, etc. possam ser recebidos.</string>
     <string name="revanced_change_share_sheet_title">Alterar menu de compartilhamento</string>
     <string name="revanced_change_share_sheet_summary">Alterar o menu de compartilhamento do app para o meno de compartilhamento do sistema.</string>
-    <string name="revanced_enable_cairo_splash_animation_title">Ativar animação inicial do Cairo</string>
-    <string name="revanced_enable_cairo_splash_animation_summary">Ativa a animação inicial do Cairo quando o aplicativo é iniciado.</string>
     <string name="revanced_enable_debug_logging_title">Ativar o relatório de depuração</string>
     <string name="revanced_enable_debug_logging_summary">Imprime o relatório de depuração</string>
     <string name="revanced_enable_debug_buffer_logging_title">Ativar o registro de depuração do buffer</string>

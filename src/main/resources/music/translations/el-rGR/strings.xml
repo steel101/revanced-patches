@@ -64,6 +64,8 @@
     <string name="revanced_hide_premium_promotion_summary">Απόκρυψη των αναδυόμενων παραθύρων προώθησης Premium.</string>
     <string name="revanced_hide_premium_renewal_title">Απόκρυψη διαφημιστικού ανανέωσης Premium</string>
     <string name="revanced_hide_premium_renewal_summary">Απόκρυψη του διαφημιστικού ανανέωσης YT Premium.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Απόκρυψη ετικετών προειδοποίησης προώθησης</string>
+    <string name="revanced_hide_promotion_alert_banner_summary">Απόκρυψη των ετικετών προειδοποίησης προώθησης.</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">Αναδυόμενο μενού ρυθμίσεων</string>
     <string name="revanced_enable_compact_dialog_title">Αναδυόμενο μενού μικρότερου στυλ</string>
@@ -247,8 +249,12 @@
     <string name="revanced_custom_playback_speeds_summary">Ρύθμιση των διαθέσιμων ταχυτήτων αναπαραγωγής.</string>
     <string name="revanced_remember_playback_speed_last_selected_title">Απομνημόνευση αλλαγών ταχύτητας αναπαραγωγής</string>
     <string name="revanced_remember_playback_speed_last_selected_summary">Απομνημόνευση της τελευταίας ταχύτητας αναπαραγωγής που επιλέχθηκε.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Εμφάνιση μηνύματος</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary">Εμφάνιση μηνύματος στο κάτω μέρος της οθόνης κατά την αλλαγή προεπιλεγμένης ταχύτητας αναπαραγωγής.</string>
     <string name="revanced_remember_video_quality_last_selected_title">Απομνημόνευση αλλαγών ποιότητας βίντεο</string>
     <string name="revanced_remember_video_quality_last_selected_summary">Απομνημόνευση της τελευταίας ποιότητας βίντεο που επιλέχθηκε.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Εμφάνιση μηνύματος</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary">Εμφάνιση μηνύματος στο κάτω μέρος της οθόνης κατά την αλλαγή προεπιλεγμένης ποιότητας βίντεο.</string>
     <string name="revanced_custom_playback_speeds_invalid">Οι ταχύτητες πρέπει να είναι μικρότερες από %sx, επαναφέρθηκαν.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Μη έγκυρες ταχύτητες αναπαραγωγής, επαναφέρθηκαν.</string>
     <string name="revanced_remember_playback_speed_toast">Η προεπιλεγμένη ταχύτητα άλλαξε σε %s.</string>
@@ -272,7 +278,6 @@
     <string name="revanced_ryd_failure_connection_status_code">Δεδομένα dislike μη διαθέσιμα (κατάσταση %d).</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Δεδομένα dislike μη διαθέσιμα (το όριο API έχει επιτευχθεί).</string>
     <string name="revanced_ryd_failure_generic">Δεδομένα dislike μη διαθέσιμα (%s).</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Κρυμμένα</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enabled">Ενεργοποίηση του SponsorBlock</string>
@@ -335,8 +340,8 @@
     <string name="revanced_bypass_image_region_restrictions_summary">Αντικατάσταση του domain για την φόρτωση εικόνων όπου είναι μπλοκαρισμένες σε ορισμένες περιοχές ώστε να μπορούν να ληφθούν μικρογραφίες βίντεο, εικόνες δημοσιεύσεων, κλπ.</string>
     <string name="revanced_change_share_sheet_title">Αλλαγή μενού κοινοποίησης</string>
     <string name="revanced_change_share_sheet_summary">Αλλαγή του μενού κοινοποίησης σε αυτό του συστήματος σας αντί του YouTube.</string>
-    <string name="revanced_enable_cairo_splash_animation_title">Εφέ εκκίνησης θέματος Cairo</string>
-    <string name="revanced_enable_cairo_splash_animation_summary">Ενεργοποίηση των εφέ θέματος Cairo κατά την εκκίνηση της εφαρμογής.</string>
+    <string name="revanced_disable_cairo_splash_animation_title">Απενεργοποίηση εφέ εκκίνησης θέματος Cairo</string>
+    <string name="revanced_disable_cairo_splash_animation_summary">Απενεργοποίηση των εφέ θέματος Cairo κατά την εκκίνηση της εφαρμογής.</string>
     <string name="revanced_enable_debug_logging_title">Ενεργοποίηση καταγραφής σφαλμάτων</string>
     <string name="revanced_enable_debug_logging_summary">Εκτύπωση του αρχείου καταγραφής σφαλμάτων.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Συμπερίληψη του buffer στην καταγραφή</string>

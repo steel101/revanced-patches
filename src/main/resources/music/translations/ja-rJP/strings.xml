@@ -200,6 +200,10 @@ YT Music の設定だけでなく、ReVanced Extended の設定も非表示に�
     <string name="revanced_hide_navigation_label_summary">ナビゲーションバーのラベルを非表示にします。</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">プレーヤー</string>
+    <string name="revanced_disable_mini_player_gesture_title">ミニプレーヤージェスチャーを無効にする</string>
+    <string name="revanced_disable_mini_player_gesture_summary">ミニプレーヤーでスワイプによる曲の変更を無効にします</string>
+    <string name="revanced_disable_player_gesture_title">プレイヤージェスチャーを無効にする</string>
+    <string name="revanced_disable_player_gesture_summary">プレイヤーでスワイプによる曲の変更を無効にします。</string>
     <string name="revanced_enable_black_player_background_title">黒のプレイヤー背景を有効化</string>
     <string name="revanced_enable_black_player_background_summary">プレイヤーの背景の色を黒に固定します。</string>
     <string name="revanced_enable_color_match_player_title">カラーマッチプレーヤーを有効化</string>
@@ -243,8 +247,12 @@ YT Music の設定だけでなく、ReVanced Extended の設定も非表示に�
     <string name="revanced_custom_playback_speeds_summary">利用可能な再生速度を編集します。</string>
     <string name="revanced_remember_playback_speed_last_selected_title">再生速度の変更を保存</string>
     <string name="revanced_remember_playback_speed_last_selected_summary">再生速度を変更するたびに、再生速度を保存します。</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">トーストを表示</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary">デフォルトの再生速度を変更するときにトーストを表示します。</string>
     <string name="revanced_remember_video_quality_last_selected_title">ビデオ画質の変更を保存</string>
     <string name="revanced_remember_video_quality_last_selected_summary">画質を変更するたびに、画質を保存します。</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">トーストを表示</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary">デフォルトの画質を変更するときにトーストを表示します。</string>
     <string name="revanced_custom_playback_speeds_invalid">無効なカスタム再生速度です。デフォルト値にリセットします。</string>
     <string name="revanced_custom_playback_speeds_parse_exception">無効なカスタム再生速度です。デフォルトの値を使用します。</string>
     <string name="revanced_remember_playback_speed_toast">デフォルトの再生速度を %s に変更しました。</string>
@@ -268,7 +276,6 @@ YT Music の設定だけでなく、ReVanced Extended の設定も非表示に�
     <string name="revanced_ryd_failure_connection_status_code">低評価数は一時的に利用できません。(ステータス %d)</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">低評価数は利用できません (クライアント API 制限)</string>
     <string name="revanced_ryd_failure_generic">低評価数は一時的に利用できません。(%s)</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">非表示</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enabled">Sponsor Block を有効化</string>
@@ -329,8 +336,8 @@ YT Music の設定だけでなく、ReVanced Extended の設定も非表示に�
     <string name="revanced_preference_screen_misc_title">その他</string>
     <string name="revanced_bypass_image_region_restrictions_title">画像表示の地域制限を回避</string>
     <string name="revanced_bypass_image_region_restrictions_summary">プレイリストのサムネイルやチャンネルアバターなどを受信できるように、一部の地域でブロックされているドメインを置き換えます。</string>
-    <string name="revanced_enable_cairo_splash_animation_title">Cairo のスプラッシュアニメーションを有効化</string>
-    <string name="revanced_enable_cairo_splash_animation_summary">アプリ起動時にCairo のスプラッシュアニメーションを有効にします。</string>
+    <string name="revanced_change_share_sheet_title">共有メニューを変更</string>
+    <string name="revanced_change_share_sheet_summary">アプリ内共有メニューからシステムの共有メニューに置き換えます。</string>
     <string name="revanced_enable_debug_logging_title">デバッグログ</string>
     <string name="revanced_enable_debug_logging_summary">デバッグログを出力します。</string>
     <string name="revanced_enable_debug_buffer_logging_title">デバッグバッファログを有効化</string>

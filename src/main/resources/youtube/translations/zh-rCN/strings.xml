@@ -232,8 +232,12 @@
 • 某些Shorts可能不会隐藏
 • 某些UI组件可能不会隐藏
 • 搜索关键词可能不会显示任何结果"</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_title">全词匹配</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_summary">环绕一个关键字/短语带双引号会防止视频标题和频道名称&lt;br&gt;&lt;br&gt;例如，&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; 将隐藏视频： &lt;b&gt;How does AI work?&lt;/b&gt;&lt;br&gt;但不会隐藏： &lt;b&gt;What does fair use mean?&lt;/b&gt;</string>
     <string name="revanced_hide_keyword_toast_invalid_common">关键词无效无法使用：\'%s\' 作为过滤器</string>
-    <string name="revanced_hide_keyword_toast_invalid_keyword">关键字无效。\'%1$s\' 少于 %2$d 个字符</string>
+    <string name="revanced_hide_keyword_toast_invalid_common_whole_word_required">添加引号以使用关键词： %s</string>
+    <string name="revanced_hide_keyword_toast_invalid_conflicting">关键词有冲突声明： %s</string>
+    <string name="revanced_hide_keyword_toast_invalid_length">关键词太短，需要引号： %s</string>
     <string name="revanced_hide_keyword_toast_invalid_broad">关键词 \'%1$s\' 太宽，这将隐藏所有视频</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">推荐视频</string>
@@ -666,9 +670,6 @@
     <string name="revanced_hide_player_flyout_menu_report_summary_off">举报菜单已显示</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu, PreferenceCategory: Additional settings -->
     <string name="revanced_preference_category_additional_settings">其他设置</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_title">隐藏氛围模式菜单</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_on">氛围模式菜单已隐藏</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">氛围模式菜单已显示</string>
     <string name="revanced_hide_player_flyout_menu_help_title">隐藏帮助 &amp; 反馈菜单</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_on">帮助 &amp; 反馈菜单已隐藏</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_off">帮助 &amp; 反馈菜单已显示</string>
@@ -684,6 +685,9 @@
     <string name="revanced_hide_player_flyout_menu_premium_controls_title">隐藏高级控件菜单</string>
     <string name="revanced_hide_player_flyout_menu_premium_controls_summary_on">高级控件菜单已隐藏</string>
     <string name="revanced_hide_player_flyout_menu_premium_controls_summary_off">高级控件菜单已显示</string>
+    <string name="revanced_hide_player_flyout_menu_sleep_timer_title">隐藏睡眠计时器菜单</string>
+    <string name="revanced_hide_player_flyout_menu_sleep_timer_summary_on">睡眠计时器已隐藏</string>
+    <string name="revanced_hide_player_flyout_menu_sleep_timer_summary_off">睡眠计时器已显示</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_title">隐藏稳定音量菜单</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_summary_off">稳定音量菜单已显示</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_summary_on">稳定音量菜单已隐藏</string>
@@ -935,6 +939,9 @@
     <string name="revanced_disable_resuming_shorts_player_title">禁用恢复短片播放器</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">应用启动时不会恢复短片播放器</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">应用启动时恢复短片播放器</string>
+    <string name="revanced_hide_shorts_floating_button_title">隐蔽悬浮按钮</string>
+    <string name="revanced_hide_shorts_floating_button_summary_on">"‘使用此声音’等浮动按钮已在短视频频道标签中隐藏"</string>
+    <string name="revanced_hide_shorts_floating_button_summary_off">"‘使用此声音’等浮动按钮已在短视频频道标签中显示"</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelf -->
     <string name="revanced_preference_category_shorts_shelf">Shorts 栏</string>
     <string name="revanced_hide_shorts_shelf_title">隐藏 Shorts 栏</string>
@@ -977,6 +984,12 @@
     <string name="revanced_hide_shorts_paid_promotion_label_title">隐藏付费推广横幅</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_on">付费推广横幅已隐藏</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_off">付费推广横幅标签已显示</string>
+    <string name="revanced_hide_shorts_trends_button_title">隐藏趋势按钮</string>
+    <string name="revanced_hide_shorts_trends_button_summary_on">趋势按钮已隐藏</string>
+    <string name="revanced_hide_shorts_trends_button_summary_off">趋势按钮已显示</string>
+    <string name="revanced_hide_shorts_shopping_button_title">隐藏商店按钮</string>
+    <string name="revanced_hide_shorts_shopping_button_summary_on">商店按钮已隐藏</string>
+    <string name="revanced_hide_shorts_shopping_button_summary_off">商店按钮已显示</string>
     <string name="revanced_hide_shorts_shop_button_title">隐藏商店按钮</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">商店按钮已隐藏</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">商店按钮已显示</string>
@@ -986,15 +999,21 @@
     <string name="revanced_hide_shorts_tagged_products_title">隐藏标记的产品</string>
     <string name="revanced_hide_shorts_tagged_products_summary_on">标记的产品已隐藏</string>
     <string name="revanced_hide_shorts_tagged_products_summary_off">标记的产品已显示</string>
-    <string name="revanced_hide_shorts_location_label_title">隐藏位置标签</string>
-    <string name="revanced_hide_shorts_location_label_summary_on">位置标签已隐藏</string>
-    <string name="revanced_hide_shorts_location_label_summary_off">位置标签已显示</string>
+    <string name="revanced_hide_shorts_location_button_title">隐藏位置按钮</string>
+    <string name="revanced_hide_shorts_location_button_summary_on">位置按钮已隐藏</string>
+    <string name="revanced_hide_shorts_location_button_summary_off">位置按钮已显示</string>
     <string name="revanced_hide_shorts_save_sound_button_title">隐藏保存声音到播放列表按钮</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_on">保存声音到播放列表按钮已隐藏</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_off">保存声音到播放列表按钮已显示</string>
-    <string name="revanced_hide_shorts_search_suggestions_title">隐藏搜索建议</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_on">搜索建议已隐藏</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_off">搜索建议已显示</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_title">隐藏搜索建议按钮</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">搜索建议按钮已隐藏</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">搜索建议按钮已显示</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_title">隐藏使用此声音按钮</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">使用此声音按钮已隐藏</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">使用此声音按钮已显示</string>
+    <string name="revanced_hide_shorts_use_template_button_title">隐藏使用模板按钮</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_on">使用模板按钮已隐藏</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_off">使用模板按钮已显示</string>
     <string name="revanced_hide_shorts_info_panel_title">隐藏信息面板</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">信息面板已隐藏</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">信息面板已显示</string>
@@ -1131,9 +1150,15 @@
     <string name="revanced_remember_playback_speed_last_selected_title">记住播放速度更改</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_on">播放速度更改适用于所有视频</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_off">播放速度更改仅适用于当前视频</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">显示 Toast</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_on">更改默认播放速度时，显示 Toast</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary_off">更改默认播放速度时，不显示 Toast</string>
     <string name="revanced_remember_video_quality_last_selected_title">记住视频画质更改</string>
     <string name="revanced_remember_video_quality_last_selected_summary_on">画质更改适用于所有视频</string>
     <string name="revanced_remember_video_quality_last_selected_summary_off">画质更改仅适用于当前视频</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">显示 Toast</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_on">更改默认视频画质时，显示 Toast</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary_off">更改默认视频画质时，不显示 Toast</string>
     <string name="revanced_restore_old_video_quality_menu_title">恢复旧的视频画质菜单</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">显示旧的视频画质菜单</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">不显示旧的视频画质菜单</string>
@@ -1192,7 +1217,6 @@
     <string name="revanced_ryd_failure_client_rate_limit_requested">点踩数不可用(已达到客户端 API 限制)</string>
     <string name="revanced_ryd_failure_generic">点踩数不可用(%s)</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">重新加载视频以使用 Return YouTube Dislike进行投票</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">隐藏</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">启用 SponsorBlock</string>
@@ -1301,6 +1325,7 @@
     <string name="revanced_sb_general_skipcount_sum_off">未启用跳过计数跟踪</string>
     <string name="revanced_sb_general_min_duration">最短片段持续时间</string>
     <string name="revanced_sb_general_min_duration_sum">短于此值 (以秒为单位) 的片段将不会被显示或跳过</string>
+    <string name="revanced_sb_general_min_duration_invalid">无效的时长</string>
     <string name="revanced_sb_general_uuid">您的私人用户 ID</string>
     <string name="revanced_sb_general_uuid_sum">此 ID 应被保密。这类似于密码，不应与任何人分享。如果有人获取此 ID，他就可以冒充您</string>
     <string name="revanced_sb_general_uuid_invalid">私人用户 ID 长度必须至少为30个字符</string>
@@ -1411,23 +1436,11 @@
     <string name="revanced_sanitize_sharing_links_summary">共享链接时，删除 URL 中的跟踪查询参数</string>
     <string name="revanced_disable_quic_protocol_title">禁用 QUIC 协议</string>
     <string name="revanced_disable_quic_protocol_summary">"禁用 Cronet 引擎的 QUIC 协议"</string>
+    <string name="revanced_change_share_sheet_title">更改分享菜单</string>
+    <string name="revanced_change_share_sheet_summary_on">系统分享菜单已启用</string>
+    <string name="revanced_change_share_sheet_summary_off">应用内分享菜单已启用</string>
     <string name="revanced_enable_opus_codec_title">启用 OPUS 编解码器</string>
     <string name="revanced_enable_opus_codec_summary">如果播放器支持 OPUS 编解码器，则启用 OPUS 编解码器</string>
-    <string name="revanced_spoof_player_parameter_title">伪装播放器参数</string>
-    <string name="revanced_spoof_player_parameter_summary">"伪装播放器参数以回避播放问题
-
-已知问题:
-• 高码率不可用
-• 付费视频无进度条缩略图
-• 离线下载可能不可用
-• 视频可能不会从上次播放时开始"</string>
-    <string name="revanced_spoof_player_parameter_in_feed_title">伪装动态播放器参数</string>
-    <string name="revanced_spoof_player_parameter_in_feed_summary_on">"播放器参数针对动态内视频进行伪装
-
-已知问题: 自动播放的动态视频将出现在你的观看历史"</string>
-    <string name="revanced_spoof_player_parameter_in_feed_summary_off">"播放器参数未针对动态内视频进行伪装
-
-已知问题: 动态视频播放时间不满1分钟会出现播放问题"</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->
     <string name="revanced_preference_screen_import_export_title">导入/导出设置</string>
     <string name="revanced_preference_screen_import_export_summary">导入或导出设置</string>
@@ -1450,73 +1463,36 @@
     <string name="revanced_extended_settings_import_success">导入配置成功</string>
     <string name="revanced_extended_settings_reset">重置</string>
     <string name="revanced_share_copy_settings_success">设置已复制到剪贴板</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client -->
-    <string name="revanced_preference_screen_spoof_client_title">伪装客户端</string>
-    <string name="revanced_preference_screen_spoof_client_summary">伪装客户端以防止播放问题</string>
-    <string name="revanced_spoof_client_title">伪装客户端</string>
-    <string name="revanced_spoof_client_summary_on">客户端已伪装</string>
-    <string name="revanced_spoof_client_summary_off">"客户端未伪装，视频可能无法正常播放"</string>
-    <string name="revanced_spoof_client_user_dialog_message">关闭此选项可能会导致视频不能正常播放</string>
-    <string name="revanced_spoof_client_stats_for_nerds_title">显示详细统计信息</string>
-    <string name="revanced_spoof_client_stats_for_nerds_summary_on">伪装客户端已在统计信息中显示</string>
-    <string name="revanced_spoof_client_stats_for_nerds_summary_off">伪装客户端已在统计信息中隐藏</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: Spoof client options -->
-    <string name="revanced_preference_category_spoof_client_options">伪装客户端选项</string>
-    <string name="revanced_spoof_client_general_title">常规设置</string>
-    <string name="revanced_spoof_client_livestream_title">直播</string>
-    <string name="revanced_spoof_client_shorts_title">短视频，剪辑</string>
-    <string name="revanced_spoof_client_fallback_title">无法播放的视频</string>
-    <string name="revanced_spoof_client_options_entry_ios">iOS</string>
-    <string name="revanced_spoof_client_options_entry_android">Android</string>
-    <string name="revanced_spoof_client_options_entry_android_embedded_player">Android 嵌入式播放器</string>
-    <string name="revanced_spoof_client_options_entry_android_testsuite">Android 测试套件</string>
-    <string name="revanced_spoof_client_options_entry_android_unplugged">Android TV</string>
-    <string name="revanced_spoof_client_options_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_client_options_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
-    <string name="revanced_spoof_client_options_entry_web">网址</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
-    <string name="revanced_preference_category_spoof_client_about">关于</string>
-    <string name="revanced_spoof_client_use_ios_title">iOS</string>
-    <string name="revanced_spoof_client_use_ios_legacy_summary">"伪装客户端为 iOS 客户端
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data -->
+    <string name="revanced_preference_screen_spoof_streaming_data_title">伪装流媒体数据</string>
+    <string name="revanced_preference_screen_spoof_streaming_data_summary">伪装流媒体数据以防止播放问题</string>
+    <string name="revanced_spoof_streaming_data_title">伪装流媒体数据</string>
+    <string name="revanced_spoof_streaming_data_summary_on">流媒体数据已伪装</string>
+    <string name="revanced_spoof_streaming_data_summary_off">"流媒体数据未伪装，视频可能无法正常播放"</string>
+    <string name="revanced_spoof_streaming_data_user_dialog_message">关闭此选项可能会导致视频不能正常播放</string>
+    <string name="revanced_spoof_streaming_data_type_title">默认客户端</string>
+    <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Android 嵌入式播放器</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android 测试套件</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
+    <string name="revanced_spoof_streaming_data_type_entry_web">网址</string>
+    <string name="revanced_spoof_streaming_data_side_effects_title">伪装副作用</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">• 电影或付费视频可能无法播放</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• 音轨菜单缺失</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">• 音轨菜单缺失</string>
+    <string name="revanced_spoof_streaming_data_side_effects_unknown">• 视频可能无法播放</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_title">强制使用 iOS AVC (H.264)</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">iOS 视频编解码器是 AVC (H.264)</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">iOS 视频编解码器是 AVC (H.264), VP9, 或 AV1</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"启用此功能可能会改善耗电并修复播放卡顿问题
 
-副作用：
-• 仅在 AV1 编解码器上支持 HDR 视频
-• 观看时间不保存在品牌帐户的历史记录中"</string>
-    <string name="revanced_spoof_client_use_ios_summary">"伪装客户端到iOS
-
-副作用:
-• 无 HDR 视频
-• 缺少播放速度菜单
-• 可能失去更高视频画质
-• 历史记录不适用于品牌帐号
-• 直播不能只作为音频播放
-• 直播在 Android 8.0 上不可用"</string>
-    <string name="revanced_spoof_client_use_android_testsuite_title">Android 测试套件</string>
-    <string name="revanced_spoof_client_use_android_testsuite_summary">"伪装客户端到 Android 测试套件
-
-副作用:
-• 无 HDR 视频
-• 缺少音轨菜单和播放速度菜单
-• 字幕可能不可用"</string>
-    <string name="revanced_spoof_client_use_android_tv_title">Android TV</string>
-    <string name="revanced_spoof_client_use_android_tv_summary">"伪装客户端到 Android TV (YouTube TV) 
-
-副作用：
-• 无 HDR 视频
-• 缺少音轨菜单
-• 字幕可能不可用
-• 缺少下载按钮
-• 低质量的搜索栏缩略图
-• 某些直播流不支持播放"</string>
-    <string name="revanced_spoof_client_use_android_vr_title">Android VR</string>
-    <string name="revanced_spoof_client_use_android_vr_summary">"伪装客户端到 Android VR 
-
-副作用：
-• 无 HDR 视频
-• 视频操作栏的下载按钮缺失
-• 暂停的视频可以随时恢复
-• 低质量的短视频滚动栏缩略图
-• 儿童视频无法播放"</string>
+AVC (H.264) 的最大解析度为 1080p，且视频播放将使用比 VP9 或 AV1 更多的网路数据"</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_title">显示统计信息</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">用于获取流媒体数据的客户端已在统计信息中显示</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">用于获取流媒体数据的客户端已在统计信息中隐藏</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">观看历史</string>
     <string name="revanced_preference_screen_watch_history_summary">更改与观看历史记录相关的设置</string>
@@ -1528,15 +1504,8 @@
     <string name="revanced_watch_history_type_entry_3">屏蔽历史记录</string>
     <string name="revanced_watch_history_about_title">关于历史记录</string>
     <string name="revanced_watch_history_about_status_blocked">• 历史记录不可用</string>
-    <string name="revanced_watch_history_about_status_ios_replaced">"• 遵循谷歌帐户的观看历史设置
-• 历史记录可能无法适用于品牌帐户
-(已开启伪装客户端并选择 iOS 客户端)"</string>
-    <string name="revanced_watch_history_about_status_ios_original">"• 遵循谷歌帐户的观看历史设置
-• 由于 DNS 或 VPN 的原因，观看历史可能无法工作
-• 历史记录可能无法适用于品牌帐户
-(已开启伪装客户端并选择 iOS 客户端)"</string>
-    <string name="revanced_watch_history_about_status_android_replaced">• 遵循谷歌帐户的观看历史设置</string>
-    <string name="revanced_watch_history_about_status_android_original">"• 遵循谷歌帐户的观看历史设置
+    <string name="revanced_watch_history_about_status_replaced">• 遵循谷歌帐户的观看历史设置</string>
+    <string name="revanced_watch_history_about_status_original">"• 遵循谷歌帐户的观看历史设置
 • 由于 DNS 或 VPN 的原因，观看历史可能无法工作"</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">补丁信息</string>

@@ -137,6 +137,11 @@
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Настройте, какие компоненты фильтровать, обозначая конец каждого из них новой строкой.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Недопустимый пользовательский фильтр: %s.</string>
+    <string name="revanced_hide_settings_menu_title">Скрыть меню настроек</string>
+    <string name="revanced_hide_settings_menu_summary">"Скрывает элементы меню настроек.
+При этом скрывается не только меню настроек YT Music, но и меню настроек ReVanced Extended."</string>
+    <string name="revanced_hide_settings_menu_filter_strings_title">Фильтр настроек меню</string>
+    <string name="revanced_hide_settings_menu_filter_strings_summary">Список названий меню настроек для фильтрации, разделенных новыми строками.</string>
     <string name="revanced_hide_button_shelf_title">Скрыть ряд кнопок</string>
     <string name="revanced_hide_button_shelf_summary">Скрывает ряд кнопок с главной страницы и со вкладки \"Навигатор\".</string>
     <string name="revanced_hide_carousel_shelf_title">Скрыть карусель треков</string>
@@ -195,6 +200,10 @@
     <string name="revanced_hide_navigation_label_summary">Скрывает подписи под кнопками навигации.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Плеер</string>
+    <string name="revanced_disable_mini_player_gesture_title">Отключить жест мини плеера</string>
+    <string name="revanced_disable_mini_player_gesture_summary">Отключает свайп для переключения треков в миниплеере.</string>
+    <string name="revanced_disable_player_gesture_title">Отключить жест плеера</string>
+    <string name="revanced_disable_player_gesture_summary">Отключает свайп для переключения треков в плеере.</string>
     <string name="revanced_enable_black_player_background_title">Включить черный фон плеера</string>
     <string name="revanced_enable_black_player_background_summary">Меняет адаптивный цвет фона плеера на черный.</string>
     <string name="revanced_enable_color_match_player_title">Цветовое соответствие проигрывателей</string>
@@ -238,8 +247,12 @@
     <string name="revanced_custom_playback_speeds_summary">Настройте доступные скорости воспроизведения.</string>
     <string name="revanced_remember_playback_speed_last_selected_title">Запоминать изменения скорости</string>
     <string name="revanced_remember_playback_speed_last_selected_summary">Запоминает последнюю выбранную скорость воспроизведения.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Показывать всплывающее уведомление</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary">Показывать всплывающее уведомление при смене скорости воспроизведения по умолчанию.</string>
     <string name="revanced_remember_video_quality_last_selected_title">Запоминать изменения качества видео</string>
     <string name="revanced_remember_video_quality_last_selected_summary">Запоминает последнее выбранное качество видео.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Показывать всплывающее уведомление</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary">Показывать всплывающее уведомление при смене качества видео по умолчанию.</string>
     <string name="revanced_custom_playback_speeds_invalid">Недопустимые скорости. Значения сброшены к начальным.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Недопустимые пользовательские скорости воспроизведения. Используются значения по умолчанию.</string>
     <string name="revanced_remember_playback_speed_toast">Скорость по умолчанию изменена на %s.</string>
@@ -263,7 +276,6 @@
     <string name="revanced_ryd_failure_connection_status_code">Отметки \"Не нравится\" недоступны (состояние %d).</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Отметки \"Не нравится\" недоступны (достигнут лимит клиентов сервера API).</string>
     <string name="revanced_ryd_failure_generic">Отметки \"Не нравится\" недоступны (%s).</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Скрыты</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enabled">Включить SponsorBlock</string>
@@ -322,8 +334,10 @@
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Разное</string>
-    <string name="revanced_enable_cairo_splash_animation_title">Анимация заставки Каир</string>
-    <string name="revanced_enable_cairo_splash_animation_summary">Включает анимацию заставки Каир при запуске приложения.</string>
+    <string name="revanced_bypass_image_region_restrictions_title">Обойти ограничения изображений по региону</string>
+    <string name="revanced_bypass_image_region_restrictions_summary">Заменяет заблокированный в некоторых регионах домен, чтобы можно было получать миниатюры плейлистов, аватары каналов и т. д.</string>
+    <string name="revanced_change_share_sheet_title">Изменить список \"Поделиться\"</string>
+    <string name="revanced_change_share_sheet_summary">Меняет встроенное диалоговое окно \"Поделиться\" на системное.</string>
     <string name="revanced_enable_debug_logging_title">Ведение журнала отладки</string>
     <string name="revanced_enable_debug_logging_summary">Выводит журнал отладки.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Ведение журналов отладки буфера</string>

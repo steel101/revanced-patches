@@ -9,8 +9,8 @@
     <string name="revanced_preference_screen_account_title">Tài khoản</string>
     <string name="revanced_hide_account_menu_title">Ẩn trình đơn Tài khoản</string>
     <string name="revanced_hide_account_menu_summary">Ẩn các thành phần của trình đơn Tài khoản bằng bộ lọc tuỳ chỉnh.</string>
-    <string name="revanced_hide_account_menu_filter_strings_title">Bộ lọc menu tài khoản</string>
-    <string name="revanced_hide_account_menu_filter_strings_summary">Danh sách tên menu tài khoản cần lọc, cách nhau từng dòng một.</string>
+    <string name="revanced_hide_account_menu_filter_strings_title">Bộ lọc mục Tài khoản</string>
+    <string name="revanced_hide_account_menu_filter_strings_summary">Nhập tên các mục Tài khoản mà bạn muốn lọc được phân cách bằng dòng.</string>
     <string name="revanced_hide_account_menu_empty_component_title">Ẩn mục trống</string>
     <string name="revanced_hide_account_menu_empty_component_summary">Ẩn các mục trống khỏi trình đơn Tài khoản.</string>
     <string name="revanced_hide_handle_title">Ẩn tên người dùng</string>
@@ -40,7 +40,7 @@
 • Không ghi đè lên nút Tải xuống trong Trình đơn tuỳ chọn hoặc Thư viện."</string>
     <string name="revanced_external_downloader_package_name_title">Tên gói ứng dụng trình tải xuống</string>
     <string name="revanced_external_downloader_package_name_summary">Nhập tên gói ứng dụng trình tải xuống đã cài đặt trên thiết bị của bạn, chẳng hạn như NewPipe hoặc YTDLnis.</string>
-    <string name="revanced_external_downloader_dialog_title">Trình tải xuống bên thứ ba</string>
+    <string name="revanced_external_downloader_dialog_title">Trình tải xuống bên ngoài</string>
     <string name="revanced_external_downloader_not_installed_dialog_title">Chú ý</string>
     <string name="revanced_external_downloader_not_installed_dialog_message">"%1$s chưa được cài đặt.
  Vui lòng tải xuống %2$s từ trang web."</string>
@@ -64,6 +64,8 @@ Nếu tính năng này tắt, quảng cáo toàn màn hình sẽ bị chặn (c�
     <string name="revanced_hide_premium_promotion_summary">Ẩn quảng cáo mua Music Premium bật lên.</string>
     <string name="revanced_hide_premium_renewal_title">Ẩn quảng cáo biểu ngữ</string>
     <string name="revanced_hide_premium_renewal_summary">Ẩn quảng cáo biểu ngữ mua Music Premium.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Ẩn biểu ngữ thông báo khuyến mãi</string>
+    <string name="revanced_hide_promotion_alert_banner_summary">Ẩn biểu ngữ thông báo khuyến mãi.</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">Trình đơn tuỳ chọn</string>
     <string name="revanced_enable_compact_dialog_title">Trình đơn tuỳ chọn thu gọn</string>
@@ -73,13 +75,13 @@ Hạn chế:
 • Ảnh bìa Album trong thẻ Thư viện (Danh sách phát, Podcast, Bài hát, Đĩa nhạc, Nghệ sĩ,...) cũng thu gọn theo.
 • Bố cục Hẹn giờ ngủ có thể xuất hiện bất thường."</string>
     <string name="revanced_enable_trim_silence_title">Bật/Tắt Cắt bỏ khoảng im lặng</string>
-    <string name="revanced_enable_trim_silence_summary">"Thêm nút Cắt bỏ khoảng im lặng vào tuỳ chọn tốc độ phát.
+    <string name="revanced_enable_trim_silence_summary">"Thêm nút Bật/Tắt Cắt bỏ khoảng im lặng vào tuỳ chọn tốc độ phát.
 
  Cụ thể:
  • Tính năng dành cho podcast.
  • Tính năng vẫn đang được phát triển nên có thể chưa ổn định."</string>
     <string name="revanced_hide_flyout_menu_like_dislike_title">Ẩn các nút Thích và Không thích</string>
-    <string name="revanced_hide_flyout_menu_3_column_component_title">Ẩn thành phần có 3 dòng</string>
+    <string name="revanced_hide_flyout_menu_3_column_component_title">Ẩn thành phần 3 cột</string>
     <string name="revanced_hide_flyout_menu_add_to_queue_title">Ẩn mục Thêm vào danh sách chờ</string>
     <string name="revanced_hide_flyout_menu_captions_title">Ẩn mục Phụ đề</string>
     <string name="revanced_hide_flyout_menu_delete_playlist_title">Ẩn mục Xoá danh sách phát</string>
@@ -247,8 +249,12 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_custom_playback_speeds_summary">Thêm giá trị tốc độ phát mà bạn muốn thay đổi hoặc chỉnh sửa các giá trị tốc độ phát hiện có.</string>
     <string name="revanced_remember_playback_speed_last_selected_title">Ghi nhớ thay đổi tốc độ phát</string>
     <string name="revanced_remember_playback_speed_last_selected_summary">Ghi nhớ giá trị tốc độ phát được chọn gần đây nhất.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Hiện một thông báo ngắn</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary">Hiện một thông báo ngắn khi thay đổi tốc độ phát mặc định.</string>
     <string name="revanced_remember_video_quality_last_selected_title">Ghi nhớ chất lượng video</string>
     <string name="revanced_remember_video_quality_last_selected_summary">Ghi nhớ chất lượng video nhạc được chọn gần đây nhất.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Hiện một thông báo ngắn</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary">Hiện một thông báo ngắn khi thay đổi chất lượng mặc định của video.</string>
     <string name="revanced_custom_playback_speeds_invalid">Tốc độ phát tuỳ chỉnh không hợp lệ. Đã đặt lại tốc độ phát về mặc định.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Tốc độ phát tùy chỉnh không hợp lệ. Đã khôi phục lại các giá trị mặc định.</string>
     <string name="revanced_remember_playback_speed_toast">Đã lưu tốc độ phát mặc định thành %s.</string>
@@ -272,7 +278,6 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_ryd_failure_connection_status_code">Số lượt không thích không khả dụng (trạng thái %d).</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Số lượt không thích không khả dụng (đã đạt đến giới hạn API máy khách).</string>
     <string name="revanced_ryd_failure_generic">Số lượt không thích không khả dụng (%s).</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Ẩn</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enabled">Kích hoạt SponsorBlock</string>
@@ -333,8 +338,10 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_preference_screen_misc_title">Khác</string>
     <string name="revanced_bypass_image_region_restrictions_title">Bỏ qua hạn chế khu vực cho hình ảnh</string>
     <string name="revanced_bypass_image_region_restrictions_summary">Thay thế miền bị chặn ở một số khu vực để có thể thu được được ảnh bìa video của danh sách phát, ảnh đại diện kênh, v. v.</string>
-    <string name="revanced_enable_cairo_splash_animation_title">Sử dụng hoạt ảnh kiểu Cairo</string>
-    <string name="revanced_enable_cairo_splash_animation_summary">Sử dụng hoạt ảnh kiểu Cairo khi khởi động ứng dụng.</string>
+    <string name="revanced_change_share_sheet_title">Thay đổi giao diện chia sẻ</string>
+    <string name="revanced_change_share_sheet_summary">Chuyển giao diện chia sẻ trong ứng dụng sang của hệ thống.</string>
+    <string name="revanced_disable_cairo_splash_animation_title">Vô hiệu hóa hoạt ảnh Cairo</string>
+    <string name="revanced_disable_cairo_splash_animation_summary">Vô hiệu hóa hoạt ảnh Cairo khi ứng dụng khởi chạy.</string>
     <string name="revanced_enable_debug_logging_title">Nhật ký gỡ lỗi</string>
     <string name="revanced_enable_debug_logging_summary">Bật ghi nhật ký gỡ lỗi.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Bật nhật ký gỡ lỗi bộ đệm</string>

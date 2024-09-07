@@ -226,7 +226,6 @@ Kısıtlamalar:
 • Bazı arayüz bileşenleri gizlenemeyebilir
 • Anahtar kelime aratmak hiçbir sonuç göstermeyebilir"</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Geçersiz anahtar kelime. \'%s\' kullanılamaz</string>
-    <string name="revanced_hide_keyword_toast_invalid_keyword">Geçersiz anahtar kelime. \'%1$s\', %2$d karakterden az.</string>
     <string name="revanced_hide_keyword_toast_invalid_broad">\'%1$s\' anahtar kelimesi tüm videoları gizleyecek.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Önerilen video</string>
@@ -648,9 +647,6 @@ Otomatik oynatma YouTube ayarlarından değiştirilebilir:
     <string name="revanced_hide_player_flyout_menu_report_summary_off">\"Bildir\" butonu gösteriliyor.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu, PreferenceCategory: Additional settings -->
     <string name="revanced_preference_category_additional_settings">Ek ayarlar</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_title">\"Ambiyans modu\" menüsünü gizle</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_on">\"Ambiyans modu\" menüsü gizleniyor.</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">\"Ambiyans modu\" menüsü gösteriliyor.</string>
     <string name="revanced_hide_player_flyout_menu_help_title">Yardım &amp; geri bildirim menüsünü gizle</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_on">Yardım &amp; geri bildirim menüsü gizleniyor.</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_off">Yardım &amp; geri bildirim menüsü gösteriliyor.</string>
@@ -967,15 +963,9 @@ Bilinen sorun: Arama sonuçlarındaki resmi başlıklar da gizlenebiliyor."</str
     <string name="revanced_hide_shorts_tagged_products_title">Etiketli ürünleri gizle</string>
     <string name="revanced_hide_shorts_tagged_products_summary_on">Etiketli ürünler gizli.</string>
     <string name="revanced_hide_shorts_tagged_products_summary_off">Etiketli ürünler görünür.</string>
-    <string name="revanced_hide_shorts_location_label_title">Konum etiketini gizle</string>
-    <string name="revanced_hide_shorts_location_label_summary_on">Konum etiketi gizli.</string>
-    <string name="revanced_hide_shorts_location_label_summary_off">Konum etiketi görünür</string>
     <string name="revanced_hide_shorts_save_sound_button_title">Sesi oynatma listesine kaydetme butonunu gizle</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_on">Sesi oynatma listesine kaydetme butonu gizleniyor</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_off">Sesi oynatma listesine kaydetme butonu gösteriliyor.</string>
-    <string name="revanced_hide_shorts_search_suggestions_title">Arama önerilerini gizle</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_on">Arama önerileri gizleniyor</string>
-    <string name="revanced_hide_shorts_search_suggestions_summary_off">Arama önerileri gösteriliyor</string>
     <string name="revanced_hide_shorts_info_panel_title">Bilgi panellerini gizle</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Bilgi panelleri gizleniyor.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Bilgi panelleri gizlenmiyor.</string>
@@ -1176,7 +1166,6 @@ Kısıtlama: Gizli modda beğenmeme sayıları görünmeyebilir."</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Beğenmeme sayısı mevcut değil (istemci API sınırına ulaşıldı).</string>
     <string name="revanced_ryd_failure_generic">Beğenmemeler mevcut değil (%s).</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">ReturnYouTubeDislike\'ı kullanarak oy vermek için videoyu yeniden yükleyin</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Gizlendi</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">SponsorBlock\'u etkinleştir</string>
@@ -1398,21 +1387,6 @@ Devam düğmesine dokunun ve pil optimizasyonlarını devre dışı bırakın."<
     <string name="revanced_disable_quic_protocol_summary">"CronetEngine'in QUIC protokolünü devre dışı bırak"</string>
     <string name="revanced_enable_opus_codec_title">OPUS kodek bileşenini etkinleştir</string>
     <string name="revanced_enable_opus_codec_summary">Oynatıcı yanıtı OPUS codec bileşenini içeriyorsa OPUS codec bileşenini etkinleştirin.</string>
-    <string name="revanced_spoof_player_parameter_title">Oynatıcı parametresini taklit et</string>
-    <string name="revanced_spoof_player_parameter_summary">"Oynatma sorunlarını önlemek için oynatıcı parametrelerini taklit eder
-
-Bilinen sorunlar:
-• Gelişmiş bit hızı mevcut değildir
-• Ücretli videolar için arama çubuğu küçük resimleri yoktur
-• Çevrimdışı indirmeler çalışmayabilir
-• Video son İzlenen kısımdan başlamayabilir"</string>
-    <string name="revanced_spoof_player_parameter_in_feed_title">Ana sayfada da oynatıcı parametresini taklit et</string>
-    <string name="revanced_spoof_player_parameter_in_feed_summary_on">"Akış videoları için oynatıcı parametresi sahtekarlığı 
-
-Bilinen sorun: Otomatik olarak oynatılan yayın videoları izleme geçmişinizde görünecek"</string>
-    <string name="revanced_spoof_player_parameter_in_feed_summary_off">"Akış videoları için oynatıcı parametresi sahteciliği yapılmıyor
-
-Bilinen sorun: Akış videoları, oynatma sorunlarıyla karşılaşmadan önce 1 dakikadan daha kısa bir süre oynatılacak"</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->
     <string name="revanced_preference_screen_import_export_title">Ayarları içe / dışa aktar</string>
     <string name="revanced_preference_screen_import_export_summary">Ayarları içe veya dışa aktarın.</string>
@@ -1435,68 +1409,7 @@ Bilinen sorun: Akış videoları, oynatma sorunlarıyla karşılaşmadan önce 1
     <string name="revanced_extended_settings_import_success">%d ayar içe aktarıldı.</string>
     <string name="revanced_extended_settings_reset">Sıfırla</string>
     <string name="revanced_share_copy_settings_success">Ayarlar panoya kopyalandı</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client -->
-    <string name="revanced_preference_screen_spoof_client_title">İstemciyi taklit et</string>
-    <string name="revanced_preference_screen_spoof_client_summary">Oynatma sorunlarını önlemek için istemciyi taklit et.</string>
-    <string name="revanced_spoof_client_title">İstemciyi taklit et</string>
-    <string name="revanced_spoof_client_summary_on">İstemci taklit ediliyor.</string>
-    <string name="revanced_spoof_client_summary_off">"İstemci taklit edilmiyor. Video oynatma çalışmayabilir."</string>
-    <string name="revanced_spoof_client_user_dialog_message">Bu ayarı devre dışı bırakmak video oynatma sorunlarına yol açabilir.</string>
-    <string name="revanced_spoof_client_stats_for_nerds_title">Meraklılar için istatiklerde göster</string>
-    <string name="revanced_spoof_client_stats_for_nerds_summary_on">Taklit edilen istemci meraklılar için istatiklerde gösteriliyor.</string>
-    <string name="revanced_spoof_client_stats_for_nerds_summary_off">Taklit edilen istemci meraklılar için istatiklerde gösterilmiyor.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: Spoof client options -->
-    <string name="revanced_preference_category_spoof_client_options">İstemci ayarlarını taklit et</string>
-    <string name="revanced_spoof_client_general_title">Genel</string>
-    <string name="revanced_spoof_client_livestream_title">Canlı yayınlar</string>
-    <string name="revanced_spoof_client_shorts_title">Shorts, Klipler</string>
-    <string name="revanced_spoof_client_fallback_title">Oynatılamaz video</string>
-    <string name="revanced_spoof_client_options_entry_ios">iOS</string>
-    <string name="revanced_spoof_client_options_entry_android">Android</string>
-    <string name="revanced_spoof_client_options_entry_android_embedded_player">Android Gömülü Oynatıcı</string>
-    <string name="revanced_spoof_client_options_entry_android_testsuite">Android Test Paketi</string>
-    <string name="revanced_spoof_client_options_entry_android_unplugged">Android TV</string>
-    <string name="revanced_spoof_client_options_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_client_options_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
-    <string name="revanced_spoof_client_options_entry_web">Web</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
-    <string name="revanced_preference_category_spoof_client_about">Hakkında</string>
-    <string name="revanced_spoof_client_use_ios_title">iOS</string>
-    <string name="revanced_spoof_client_use_ios_summary">"İstemci iOS'a taklit ediliyor.
-
-Yan etkiler şunları içerir:
-• HDR video yalnızca AV1 codec bileşeninde desteklenir.
-• İzleme geçmişi bir marka hesabıyla çalışmaz.
-• Canlı yayınlar yalnızca ses olarak oynatılamaz."</string>
-    <string name="revanced_spoof_client_use_android_testsuite_title">Android Test Paketi</string>
-    <string name="revanced_spoof_client_use_android_testsuite_summary">"İstemciyi Android Testsuite'e taklit etme.
-
-Yan etkiler şunları içerir:
-• HDR video yok.
-• Ses parçası menüsü eksik.
-• Altyazılar mevcut olmayabilir.
-• İndirme düğmesi eksik.
-• Bitiş ekranı kartları eksik.
-• Düşük kaliteli zaman çubuğu küçük resmi."</string>
-    <string name="revanced_spoof_client_use_android_tv_title">Android TV</string>
-    <string name="revanced_spoof_client_use_android_tv_summary">"İstemciyi Android TV'ye (YouTube TV) taklit etme.
-
-Yan etkiler şunları içerir:
-• HDR video yok.
-• Ses parçası menüsü eksik.
-• Altyazılar mevcut olmayabilir.
-• İndirme düğmesi eksik.
-• Düşük kaliteli arama çubuğu küçük resmi.
-• Bazı canlı yayınlar oynatma için desteklenmez."</string>
-    <string name="revanced_spoof_client_use_android_vr_title">Android VR</string>
-    <string name="revanced_spoof_client_use_android_vr_summary">"İstemciyi Android VR'a taklit etme.
-
-Yan etkiler şunları içerir:
-• HDR video yok.
-• Video aksiyon çubuğunda indirme butonu gizlidir.
-• Duraklatılan videolar rastgele devam ettirilebilir.
-• Düşük kaliteli Shorts arama çubuğu küçük resimleri.
-• Çocuk videoları oynatılmıyor."</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <string name="revanced_preference_screen_watch_history_title">İzleme geçmişi</string>
     <string name="revanced_preference_screen_watch_history_summary">İzlemek geçmişi ile alakalı ayarları değiştirir.</string>
@@ -1508,16 +1421,6 @@ Yan etkiler şunları içerir:
     <string name="revanced_watch_history_type_entry_3">İzleme geçmişini durdur</string>
     <string name="revanced_watch_history_about_title">İzleme geçmişi hakkında</string>
     <string name="revanced_watch_history_about_status_blocked">• İzleme geçmişi çalışmaz.</string>
-    <string name="revanced_watch_history_about_status_ios_replaced">"• Google hesabının izleme geçmişi ayarlarını takip eder.
- • İzleme geçmişi bir marka hesabıyla çalışmayabilir.
- (Sahte istemci ayarı açık ve iOS istemcisi seçili)"</string>
-    <string name="revanced_watch_history_about_status_ios_original">"• Google hesabının izleme geçmişi ayarlarını takip eder.
-• İzleme geçmişi DNS veya VPN nedeniyle çalışmayabilir.
-• İzleme geçmişi bir marka hesabıyla çalışmayabilir.
-(Sahte istemci ayarı açılınca iOS istemcisi seçilir)"</string>
-    <string name="revanced_watch_history_about_status_android_replaced">• Google hesabının izleme geçmişi ayarlarını takip eder.</string>
-    <string name="revanced_watch_history_about_status_android_original">"• Google hesabının izleme geçmişi ayarlarını takip eder.
-• İzleme geçmişi DNS veya VPN nedeniyle çalışmayabilir."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Yama Bilgileri</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->

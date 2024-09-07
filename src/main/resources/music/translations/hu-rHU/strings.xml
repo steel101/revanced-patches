@@ -272,7 +272,6 @@ Előfordulhat, hogy egyes funkciók nem működnek megfelelően a régi lejátsz
     <string name="revanced_ryd_failure_connection_status_code">A nem tetszik funkció nem elérhető (állapot: %d).</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Nem tetszések nem érhetőek el (kliens API limit elérve).</string>
     <string name="revanced_ryd_failure_generic">A nem tetszik funkció nem elérhető (%s).</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Rejtett</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">Szponzor Blokk</string>
     <string name="revanced_sb_enabled">SzponsorBlokk engedélyezése</string>
@@ -335,8 +334,6 @@ Előfordulhat, hogy egyes funkciók nem működnek megfelelően a régi lejátsz
     <string name="revanced_bypass_image_region_restrictions_summary">Helyettesíti az egyes régiókban blokkolt tartományt, így a lejátszási lista miniatűrjei, csatorna avatarok stb. fogadhatóak.</string>
     <string name="revanced_change_share_sheet_title">Megosztási lap megváltoztatása</string>
     <string name="revanced_change_share_sheet_summary">Váltás az alkalmazáson belüli megosztási lapról a rendszer megosztási lapjára.</string>
-    <string name="revanced_enable_cairo_splash_animation_title">Betöltési animáció engedélyezése</string>
-    <string name="revanced_enable_cairo_splash_animation_summary">Engedélyezi a betöltési animációt amikor az app indul.</string>
     <string name="revanced_enable_debug_logging_title">Hibanaplók engedélyezése</string>
     <string name="revanced_enable_debug_logging_summary">Kiírja a hibanaplót.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Hibakeresési puffer naplózásának engedélyezése</string>

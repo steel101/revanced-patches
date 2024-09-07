@@ -228,7 +228,6 @@ Einschränkungen:
 • Einige UI-Komponenten können nicht ausgeblendet werden.
 • Die Suche nach einem Schlüsselwort kann keine Ergebnisse zeigen."</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Ungültiges Schlüsselwort. Kann \'%s\' nicht als Filter verwenden</string>
-    <string name="revanced_hide_keyword_toast_invalid_keyword">Ungültiges Schlüsselwort. \'%1$s\' ist weniger als %2$d Zeichen.</string>
     <string name="revanced_hide_keyword_toast_invalid_broad">Schlüsselwort \'%1$s\' wird alle Videos ausblenden.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
     <string name="revanced_preference_category_recommended_video">Empfohlene Videos</string>
@@ -639,9 +638,6 @@ Einstellungen → Autoplay → Nächstes Video automatisch abspielen"</string>
     <string name="revanced_hide_player_flyout_menu_report_summary_off">Report menu is shown.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu, PreferenceCategory: Additional settings -->
     <string name="revanced_preference_category_additional_settings">Additional settings</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_title">Hide ambient mode menu</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_on">Ambient mode menu is hidden.</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">Ambient mode menu is shown.</string>
     <string name="revanced_hide_player_flyout_menu_help_title">Hide help &amp; feedback menu</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_on">Help &amp; feedback menu is hidden.</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_off">Help &amp; feedback menu is shown.</string>
@@ -898,7 +894,6 @@ Nebeneffekt: Offizielle Kopfzeilen in Suchergebnissen werden ausgeblendet."</str
     <string name="revanced_hide_shorts_tagged_products_title">Markierte Produkte ausblenden</string>
     <string name="revanced_hide_shorts_tagged_products_summary_on">Markierte Produkte sind ausgeblendet.</string>
     <string name="revanced_hide_shorts_tagged_products_summary_off">Markierte Produkte werden angezeigt.</string>
-    <string name="revanced_hide_shorts_search_suggestions_title">Suchvorschläge ausblenden</string>
     <string name="revanced_hide_shorts_info_panel_title">Info-Panels ausblenden</string>
     <string name="revanced_hide_shorts_live_header_title">Live-Chat-Kopfzeile ausblenden</string>
     <string name="revanced_hide_shorts_live_header_summary_on">Live-Chat-Kopfzeile wird ausgeblendet.\n\nZurück Button wird nicht ausgeblendet.</string>
@@ -1065,7 +1060,6 @@ Einschränkung: Dislikes werden im Inkognito Modus nicht angezeigt."</string>
     <string name="revanced_ryd_attribution_title">ReturnYouTubeDislike.com</string>
     <string name="revanced_ryd_attribution_summary">Dislikes Daten werden von der True RYD Worker API zur Verfügung gestellt. Tippe hier, um mehr zu erfahren.</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Dislikes nicht verfügbar (Client-API Limit erreicht)</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Versteckt</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">SponsorBlock aktivieren</string>
@@ -1276,14 +1270,6 @@ Drücke Weiter und deaktiviere Akku-Optimierungen."</string>
     <string name="revanced_disable_quic_protocol_summary">"CronetEngine's QUIC-Protokoll deaktivieren"</string>
     <string name="revanced_enable_opus_codec_title">OPUS Codec aktivieren</string>
     <string name="revanced_enable_opus_codec_summary">Aktiviere den OPUS-Codec, wenn die Antwort des Players den OPUS-Codec enthält.</string>
-    <string name="revanced_spoof_player_parameter_title">Spoof player parameter</string>
-    <string name="revanced_spoof_player_parameter_summary">"Spoofs Player Parameter, um Wiedergabeprobleme zu vermeiden.
-
-Einschränkungen:
-• Erweiterte Bitrate ist nicht verfügbar.
-• Keine Suchleisten-Thumbnails für kostenpflichtige Videos.
-• Offline-Downloads können nicht funktionieren.
-• Video darf nicht von der letzten Uhrzeit gestartet werden."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->
     <string name="revanced_preference_screen_import_export_title">Einstellungen importieren / exportieren</string>
     <string name="revanced_preference_screen_import_export_summary">Einstellungen importieren / exportieren</string>
@@ -1305,70 +1291,7 @@ Einschränkungen:
     <string name="revanced_extended_settings_import_reset">Einstellungen zurücksetzen</string>
     <string name="revanced_extended_settings_import_success">Einstellungen wurden erfolgreich importiert.</string>
     <string name="revanced_extended_settings_reset">Zurücksetzen</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client -->
-    <string name="revanced_preference_screen_spoof_client_title">Spoof Client</string>
-    <string name="revanced_preference_screen_spoof_client_summary">Spoof des Clients, um Wiedergabeprobleme zu vermeiden.</string>
-    <string name="revanced_spoof_client_title">Spoof Client</string>
-    <string name="revanced_spoof_client_summary_on">Client ist verschleiert.</string>
-    <string name="revanced_spoof_client_summary_off">"Client ist nicht verschleiert. Video-Wiedergabe kann nicht funktionieren."</string>
-    <string name="revanced_spoof_client_user_dialog_message">Das Deaktivieren dieser Einstellung kann zu Videowiedergabeproblemen führen.</string>
-    <string name="revanced_spoof_client_stats_for_nerds_title">Zeigt Statistiken für Nerds</string>
-    <string name="revanced_spoof_client_stats_for_nerds_summary_on">Spoofed Client wird in Statistiken für Nerds angezeigt.</string>
-    <string name="revanced_spoof_client_stats_for_nerds_summary_off">Spoofed Client ist in Statistik für Nerds versteckt.</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: Spoof client options -->
-    <string name="revanced_preference_category_spoof_client_options">Spoof-Clientoptionen</string>
-    <string name="revanced_spoof_client_general_title">Allgemein</string>
-    <string name="revanced_spoof_client_livestream_title">Livestreams</string>
-    <string name="revanced_spoof_client_shorts_title">Shorts, Clips</string>
-    <string name="revanced_spoof_client_fallback_title">Nicht abspielbares Video</string>
-    <string name="revanced_spoof_client_options_entry_ios">iOS</string>
-    <string name="revanced_spoof_client_options_entry_android">Android</string>
-    <string name="revanced_spoof_client_options_entry_android_embedded_player">Android eingebetteter Player</string>
-    <string name="revanced_spoof_client_options_entry_android_testsuite">Android Testsuite</string>
-    <string name="revanced_spoof_client_options_entry_android_unplugged">Android TV</string>
-    <string name="revanced_spoof_client_options_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_client_options_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
-    <string name="revanced_spoof_client_options_entry_web">Web</string>
-    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof client, PreferenceCategory: About -->
-    <string name="revanced_preference_category_spoof_client_about">Info</string>
-    <string name="revanced_spoof_client_use_ios_title">iOS</string>
-    <string name="revanced_spoof_client_use_ios_summary">"Spoof Client zu iOS.
-
-Nebeneffekte beinhalten:
-• Keine HDR Videos.
-• Höhere Video Qualitäten sind möglicherweise nicht verfügbar.
-• Die Historie funktioniert nicht mit einem Markenkonto.
-• Livestreams können nicht nur als Ton abgespielt werden.
-• Livestreams sind nicht auf Android 8.0 verfügbar."</string>
-    <string name="revanced_spoof_client_use_android_testsuite_title">Android Testsuite</string>
-    <string name="revanced_spoof_client_use_android_testsuite_summary">"Spoof Client für Android Testsuite.
-
-Nebeneffekte beinhalten:
-• Keine HDR Videos.
-• Audio Track Menü fehlt.
-• Untertitel sind möglicherweise nicht verfügbar.
-• Download Button fehlt.
-• Endbildschirmkarten fehlen.
-• Niedrige Suchleistenvorschau."</string>
-    <string name="revanced_spoof_client_use_android_tv_title">Android TV</string>
-    <string name="revanced_spoof_client_use_android_tv_summary">"Spoof Client für Android TV (YouTube TV).
-
-Nebeneffekte beinhalten:
-• Keine HDR Videos.
-• Audiospurmenü fehlt.
-• Untertitel sind möglicherweise nicht verfügbar.
-• Download Button fehlt.
-• Niedrigere Suchleisten Vorschaubilder.
-• Einige Livestreams werden für die Wiedergabe nicht unterstützt."</string>
-    <string name="revanced_spoof_client_use_android_vr_title">Android VR</string>
-    <string name="revanced_spoof_client_use_android_vr_summary">"Spoof Client für Android VR.
-
-Nebeneffekte beinhalten:
-• Keine HDR Videos.
-• Download Button, der Video Aktionsleiste, fehlt.
-• Pausierte Videos können zufällig wiederaufgenommen werden.
-• Niedrige Shorts Suchleiste Vorschaubilder.
-• Kindervideos werden nicht abgespielt."</string>
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Spoof streaming data -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Watch history -->
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Patch-Informationen</string>

@@ -73,6 +73,8 @@ If it is disabled, fullscreen ads are blocked. (there may be side effects)"</str
     <string name="revanced_hide_premium_promotion_summary">Hides premium promotion popups.</string>
     <string name="revanced_hide_premium_renewal_title">Hide premium renewal banner</string>
     <string name="revanced_hide_premium_renewal_summary">Hides the premium renewal banner.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Hide promotion alert banner</string>
+    <string name="revanced_hide_promotion_alert_banner_summary">Hides the promotion alert banner.</string>
 
 
     <!-- PreferenceScreen: Flyout -->
@@ -271,8 +273,12 @@ Some features may not work properly in the old player layout."</string>
     <string name="revanced_custom_playback_speeds_summary">Add or change available playback speeds.</string>
     <string name="revanced_remember_playback_speed_last_selected_title">Remember playback speed changes</string>
     <string name="revanced_remember_playback_speed_last_selected_summary">Remembers the last playback speed selected.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Show a toast</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary">Show a toast when changing the default playback speed.</string>
     <string name="revanced_remember_video_quality_last_selected_title">Remember video quality changes</string>
     <string name="revanced_remember_video_quality_last_selected_summary">Remembers the last video quality selected.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Show a toast</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary">Show a toast when changing the default video quality.</string>
     <string name="revanced_custom_playback_speeds_invalid">Custom speeds must be less than %sx. Using default values.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Invalid custom playback speeds. Using default values.</string>
     <string name="revanced_remember_playback_speed_toast">Changing default speed to %s.</string>
@@ -299,7 +305,6 @@ Some features may not work properly in the old player layout."</string>
     <string name="revanced_ryd_failure_connection_status_code">Dislikes are unavailable (status %d).</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Dislikes are unavailable (client API limit reached).</string>
     <string name="revanced_ryd_failure_generic">Dislikes are unavailable (%s).</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Hidden</string>
 
 
     <!-- PreferenceScreen: SponsorBlock -->
@@ -373,8 +378,8 @@ Some features may not work properly in the old player layout."</string>
     <string name="revanced_bypass_image_region_restrictions_summary">Replaces the domain that is blocked in some regions so that playlist thumbnails, channel avatars, etc. can be received.</string>
     <string name="revanced_change_share_sheet_title">Change share sheet</string>
     <string name="revanced_change_share_sheet_summary">Change from in-app share sheet to system share sheet.</string>
-    <string name="revanced_enable_cairo_splash_animation_title">Enable Cairo splash animation</string>
-    <string name="revanced_enable_cairo_splash_animation_summary">Enables Cairo splash animation when the app starts up.</string>
+    <string name="revanced_disable_cairo_splash_animation_title">Disable Cairo splash animation</string>
+    <string name="revanced_disable_cairo_splash_animation_summary">Disables Cairo splash animation when the app starts up.</string>
     <string name="revanced_enable_debug_logging_title">Enable debug logging</string>
     <string name="revanced_enable_debug_logging_summary">Prints the debug log.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Enable debug buffer logging</string>

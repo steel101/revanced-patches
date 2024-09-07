@@ -64,6 +64,8 @@ Si désactivé, Les publicités en plein écran seront bloquées. (peut avoir de
     <string name="revanced_hide_premium_promotion_summary">Masque les publicités pour YouTube Premium.</string>
     <string name="revanced_hide_premium_renewal_title">Masquer la bannière \"Renouveler votre abonnement Premium\"</string>
     <string name="revanced_hide_premium_renewal_summary">Masque la bannière \"Renouveler votre abonnement Premium\".</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Masquer la bannière d\'alerte de promotion</string>
+    <string name="revanced_hide_promotion_alert_banner_summary">Masque la bannière d\'alerte de promotion.</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">Menu déroulant</string>
     <string name="revanced_enable_compact_dialog_title">Activer la boîte de dialogue compacte</string>
@@ -247,8 +249,12 @@ Certaines fonctions peuvent ne pas fonctionner sur l'ancienne mise en page."</st
     <string name="revanced_custom_playback_speeds_summary">Ajoute ou modifie les vitesses de lecture disponibles.</string>
     <string name="revanced_remember_playback_speed_last_selected_title">Enregistrer la modification de la vitesse de lecture</string>
     <string name="revanced_remember_playback_speed_last_selected_summary">Enregistre la dernière vitesse de lecture sélectionnée.</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">Afficher un message</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_summary">Afficher un message lorsque vous modifiez la vitesse de lecture par défaut.</string>
     <string name="revanced_remember_video_quality_last_selected_title">Enregistrer la modification de la résolution</string>
     <string name="revanced_remember_video_quality_last_selected_summary">Enregistre la dernière qualité vidéo sélectionnée.</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">Afficher un message</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_summary">Afficher un message lorsque vous modifiez la qualité vidéo par défaut.</string>
     <string name="revanced_custom_playback_speeds_invalid">Les vitesses personnalisées doivent être inférieures à %sx. Valeur réinitialisée par défaut.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">Vitesses de lecture invalides. Valeur réinitialisée par défaut.</string>
     <string name="revanced_remember_playback_speed_toast">Vitesse de lecture modifiée par %s.</string>
@@ -272,7 +278,6 @@ Certaines fonctions peuvent ne pas fonctionner sur l'ancienne mise en page."</st
     <string name="revanced_ryd_failure_connection_status_code">Les \"Je n\'aime pas\" sont indisponible (status %d).</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Les \"Je n\'aime pas\" sont indisponibles (le client a atteint la limite de l\'API).</string>
     <string name="revanced_ryd_failure_generic">Les \"Je n\'aime pas\" sont indisponible (%s).</string>
-    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Masqué</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enabled">Activer Sponsorblock</string>
@@ -335,8 +340,6 @@ Certaines fonctions peuvent ne pas fonctionner sur l'ancienne mise en page."</st
     <string name="revanced_bypass_image_region_restrictions_summary">Remplace le domaine qui est bloqué dans certaines régions afin que les miniatures des listes de lecture, les avatars des chaînes, etc. puissent être reçus.</string>
     <string name="revanced_change_share_sheet_title">Modifier la fiche de partage</string>
     <string name="revanced_change_share_sheet_summary">Remplace la fiche de partage de l\'appli par celui du système.</string>
-    <string name="revanced_enable_cairo_splash_animation_title">Activer l\'animation Cairo au démarrage</string>
-    <string name="revanced_enable_cairo_splash_animation_summary">Active l\'animation Cairo lors du démarrage de l\'application.</string>
     <string name="revanced_enable_debug_logging_title">Activer le journal de débogage</string>
     <string name="revanced_enable_debug_logging_summary">Enregistrer le journal de débogage.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Activer les informations sur la mémoire tampon dans le journal de débogage</string>

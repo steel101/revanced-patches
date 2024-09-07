@@ -276,7 +276,7 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
         "revanced_preference_screen_seekbar",
         "revanced_preference_screen_settings_menu",
         "revanced_preference_screen_shorts_player",
-        "revanced_preference_screen_spoof_client",
+        "revanced_preference_screen_spoof_streaming_data",
         "revanced_preference_screen_toolbar",
         "revanced_preference_screen_video_description",
         "revanced_preference_screen_video_filter",
