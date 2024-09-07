@@ -1524,7 +1524,7 @@ AVC (H.264) có độ phân giải tối đa 1080p, và phát video sẽ dùng n
     <string name="revanced_preference_screen_watch_history_summary">Thay đổi cài đặt liên quan đến Nhật ký xem.</string>
     <string name="revanced_watch_history_management_title">Quản lý toàn bộ lịch sử</string>
     <string name="revanced_watch_history_management_summary">Nhấn để mở mục quản lý Nhật ký xem trên YouTube.</string>
-    <string name="revanced_watch_history_type_title">Kiểu Nhật ký xem</string>
+    <string name="revanced_watch_history_type_title">Kiểu nhật ký</string>
     <string name="revanced_watch_history_type_entry_1">Gốc</string>
     <string name="revanced_watch_history_type_entry_2">Thay thế miền</string>
     <string name="revanced_watch_history_type_entry_3">Chặn Nhật ký xem</string>

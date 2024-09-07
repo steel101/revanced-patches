@@ -325,7 +325,7 @@ Cela ne contourne pas la restriction d'âge, mais le confirme automatiquement."<
     <string name="revanced_override_video_download_button_summary_on">Le bouton \"Télécharger\" natif ouvre votre téléchargeur externe.</string>
     <string name="revanced_override_video_download_button_summary_off">Le bouton \"Télécharger\" natif ouvre le téléchargeur de l\'appli.</string>
     <string name="revanced_override_playlist_download_button_title">Remplacer le bouton de téléchargement de la playlist</string>
-    <string name="revanced_override_playlist_download_button_summary_on">Le bouton de téléchargement natif de la playlist est toujours affiché, et dans les playlists publiques, il ouvre votre téléchargeur externe.</string>
+    <string name="revanced_override_playlist_download_button_summary_on">Le bouton de téléchargement natif de la playlist est toujours affiché, tandis que les playlists publiques utilisera votre téléchargeur externe.</string>
     <string name="revanced_override_playlist_download_button_summary_off">Si affiché, le bouton \"Télécharger\" natif de la playlist ouvre le téléchargeur natif de l\'appli.</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Nom du paquet du téléchargeur de la playlist</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Nom de package du téléchargeur externe installé, telle que YTDLnis.</string>
@@ -501,7 +501,7 @@ Appuyez longuement pour ouvrir les paramètres RVX."</string>
 
 La lecture automatique peut être modifiée dans les paramètres de YouTube :
 Paramètres → Lecture automatique → Lecture automatique de la vidéo suivante"</string>
-    <string name="revanced_disable_auto_switch_mix_playlists_user_dialog_message">Activer cette fonction désactive le passage automatique à YouTube Mix lors de la lecture de musique lorsque la lecture automatique est activée.</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_user_dialog_message">Activer cette fonction désactivera le passage automatique à YouTube Mix lors de la lecture de musique lorsque la lecture automatique est activée.</string>
     <string name="revanced_disable_speed_overlay_title">Désactiver le contrôle de la vitesse</string>
     <string name="revanced_disable_speed_overlay_summary">"Désactive '2x&gt;&gt;' en appuyant longuement.
 
