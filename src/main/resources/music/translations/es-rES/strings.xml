@@ -49,11 +49,6 @@ Descarga %2$s desde el sitio web."</string>
     <string name="revanced_preference_screen_ads_title">Anuncios</string>
     <string name="revanced_hide_fullscreen_ads_title">Ocultar anuncios en pantalla completa</string>
     <string name="revanced_hide_fullscreen_ads_summary">Oculta anuncios en pantalla completa.</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">Cerrar anuncios en pantalla completa</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary">"Si está habilitado, los anuncios a pantalla completa se cierran mediante el botón Cerrar.
-Si está deshabilitado, se bloquean los anuncios a pantalla completa. (puede haber efectos secundarios)"</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">Se han bloqueado anuncios en pantalla completa. (Tipo de diálogo: %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">Se han cerrado anuncios en pantalla completa.</string>
     <string name="revanced_hide_general_ads_title">Ocultar anuncios generales</string>
     <string name="revanced_hide_general_ads_summary">Oculta anuncios generales.</string>
     <string name="revanced_hide_music_ads_title">Ocultar anuncios de música</string>
@@ -64,6 +59,8 @@ Si está deshabilitado, se bloquean los anuncios a pantalla completa. (puede hab
     <string name="revanced_hide_premium_promotion_summary">Oculta popups de promoción premium.</string>
     <string name="revanced_hide_premium_renewal_title">Ocultar banner de renovación premium</string>
     <string name="revanced_hide_premium_renewal_summary">Oculta banner de renovación premium.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Ocultar banner de alerta de promoción</string>
+    <string name="revanced_hide_promotion_alert_banner_summary">Oculta el banner de alerta de promoción.</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">Menú desplegable</string>
     <string name="revanced_enable_compact_dialog_title">Activar diálogo compacto</string>
@@ -338,6 +335,8 @@ Algunas características pueden no funcionar correctamente en la disposición de
     <string name="revanced_bypass_image_region_restrictions_summary">Reemplaza el dominio que está bloqueado en algunas regiones para que las miniaturas de la lista de reproducción, avatares de canales, etc. puedan ser recibidas.</string>
     <string name="revanced_change_share_sheet_title">Cambiar la hoja de compartir</string>
     <string name="revanced_change_share_sheet_summary">Cambia la hoja de compartir en la app a la hoja de compartir del sistema.</string>
+    <string name="revanced_disable_cairo_splash_animation_title">Desactiva la animación Cairo</string>
+    <string name="revanced_disable_cairo_splash_animation_summary">Deshabilita la animación de bienvenida \"Cairo\" cuando se inicia la aplicación.</string>
     <string name="revanced_enable_debug_logging_title">Activar registro de depuración</string>
     <string name="revanced_enable_debug_logging_summary">Imprime el registro de depuración.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Incluir búfer en registro de depuración</string>

@@ -23,13 +23,6 @@ Veuillez télécharger %2$s à partir du site web."</string>
     <string name="revanced_hide_fullscreen_ads_title">Masquer les publicités en plein écran</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Les publicités en plein écran sont masquées.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Les publicités en plein écran sont affichées.</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">Fermer les publicités en plein écran</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary_on">Les publicités en plein écran sont fermées grâce au bouton \"Fermer\".</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary_off">"Les publicités en plein écran sont bloquées.
-
-Effet secondaire : Les images des posts communautaires peuvent être bloquées en plein écran."</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">La publicité en plein écran a été bloquée. (Type de dialogue : %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">La publicité en plein écran a été fermée.</string>
     <string name="revanced_hide_general_ads_title">Masquer les publicités générales</string>
     <string name="revanced_hide_general_ads_summary_on">Les publicités générales sont masquées.</string>
     <string name="revanced_hide_general_ads_summary_off">Les publicités générales sont affichées.</string>
@@ -114,6 +107,9 @@ Cliquez ici pour en savoir plus sur DeArrow."</string>
     <string name="revanced_hide_expandable_chip_title">Masquer les menus déroulants sous les vidéos</string>
     <string name="revanced_hide_expandable_chip_summary_on">Les menus déroulants sont masqués.</string>
     <string name="revanced_hide_expandable_chip_summary_off">Les menus déroulants sont affichés.</string>
+    <string name="revanced_hide_expandable_shelf_title">Masquer les étagères coulissantes</string>
+    <string name="revanced_hide_expandable_shelf_summary_on">Les étagères coulissantes sont masqués.</string>
+    <string name="revanced_hide_expandable_shelf_summary_off">Les étagères coulissantes sont affichés.</string>
     <string name="revanced_hide_feed_captions_button_title">Masquer les \"Sous-titres\" dans les flux</string>
     <string name="revanced_hide_feed_captions_button_on">Le bouton \"Sous-titres\" est masqué.</string>
     <string name="revanced_hide_feed_captions_button_off">Le bouton \"Sous-titres\" est affiché.</string>
@@ -254,18 +250,8 @@ Limitations :
 • Les vidéos avec des phrases telles que \"Les internautes ont aussi regardé cette vidéo\" en dessous."</string>
     <string name="revanced_hide_low_views_video_title">Masquer les vidéos peu vues</string>
     <string name="revanced_hide_low_views_video_summary">Masque les vidéos avec moins de 1,000 vues dans le flux \"accueil\" qui ont été mis en ligne par des personnes dont vous n\'êtes pas abonnés.</string>
-    <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Duration filter -->
-    <string name="revanced_preference_category_duration_filter">Filtre de durée</string>
-    <string name="revanced_hide_video_by_duration_title">Masquer des vidéos selon la durée</string>
-    <string name="revanced_hide_video_by_duration_summary">Masque les vidéos inférieure ou supérieure à la durée.\n\nProblème connu : cela ne masque pas les vidéos similaires du lecteur, mais l\'horodatage sera masqué.</string>
-    <string name="revanced_hide_video_by_duration_longer_than_title">Supérieur à la durée</string>
-    <string name="revanced_hide_video_by_duration_longer_than_summary">Les vidéos supérieures à cette durée sont masqués.</string>
-    <string name="revanced_hide_video_by_duration_shorter_than_title">Inférieur à la durée</string>
-    <string name="revanced_hide_video_by_duration_shorter_than_summary">Les vidéos inférieures à cette durée sont masqués.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Filtre du compteur de vues</string>
-    <string name="revanced_hide_video_by_view_counts_title">Masquer les vidéos recommandées par vues</string>
-    <string name="revanced_hide_video_by_view_counts_summary">Masque les vidéos recommandées ayant un nombre spécifié inférieur au nombre de vues.\n\nProblème connu : Les vidéos avec 0 vue ne sont pas filtrés.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">Supérieur au nombre de vues</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">Les vidéos supérieurs à ce nombre de vues sont masqués.</string>
     <string name="revanced_hide_video_view_counts_less_than_title">Inférieur au nombre de vues</string>
@@ -427,11 +413,15 @@ Certains composants peuvent ne pas être masqués."</string>
     <string name="revanced_hide_navigation_label_summary_on">Le nom des catégories sont masqués.</string>
     <string name="revanced_hide_navigation_label_summary_off">Le nom des catégories sont affichés.</string>
     <string name="revanced_switch_create_with_notifications_button_title">Échanger \"Créer\" et \"Notifications\"</string>
-    <string name="revanced_switch_create_with_notifications_button_summary">"Échange la position des boutons \"Créer\" et \"Notifications\" en falsifiant les informations de l'appareil.
+    <string name="revanced_switch_create_with_notifications_button_summary_on">"Le bouton \"Créer\" est échangé avec le bouton \"Notification\".
 
-• L'appareil peut nécessiter un redémarrage pour que ce paramètre prenne effet.
-• Désactiver ce paramètre charge plus de publicités depuis le serveur.
-• Vous devez désactiver ce paramètre afin de rendre les publicités vidéo visibles."</string>
+Note : Activer ceci masquera également les publicités vidéos."</string>
+    <string name="revanced_switch_create_with_notifications_button_summary_off">Le bouton \"Créer\" n\'est pas échangé avec le bouton \"Notification\".</string>
+    <string name="revanced_switch_create_with_notifications_button_user_dialog_message">"Désactiver ceci pourrait charger plus de publicités depuis le serveur.
+
+Également, les publicités ne seront plus bloquées sur les Shorts.
+
+Si ce paramètre ne fait pas effet, essayer de passer en mode Incognito."</string>
     <string name="revanced_enable_translucent_navigation_bar_title">Activer la barre de navigation translucide</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">La barre de navigation est translucide.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">La barre de navigation est opaque.</string>
@@ -556,12 +546,12 @@ Note :
 La lecture automatique peut être modifiée dans les paramètres de YouTube :
 'Paramètres → Lecture automatique → Lecture automatique de la vidéo suivante'"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">Les suggestions de vidéos à la fin sont affichés.</string>
-    <string name="revanced_hide_zoom_overlay_title">Masquer le voile du zoom</string>
-    <string name="revanced_hide_zoom_overlay_summary_on">Le voile du zoom est masqué.</string>
-    <string name="revanced_hide_zoom_overlay_summary_off">Le voile du zoom est affiché.</string>
     <string name="revanced_skip_autoplay_countdown_title">Ignorer le compteur lecture auto</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Si la lecture automatique est activée, la vidéo suivante sera lue immédiatement.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">Si la lecture automatique est activée, la vidéo suivante sera lue après la fin du compte à rebours.</string>
+    <string name="revanced_hide_zoom_overlay_title">Masquer le voile du zoom</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">Le voile du zoom est masqué.</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">Le voile du zoom est affiché.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">Boutons sous la vidéo</string>
     <string name="revanced_preference_screen_action_buttons_summary">Masque ou affiche les boutons sous les vidéos.</string>
@@ -1203,6 +1193,13 @@ Info :
     <string name="revanced_spoof_device_dimensions_title">Falsifier les dimensions de l\'appareil</string>
     <string name="revanced_spoof_device_dimensions_summary">"Falsifie les dimensions de l'appareil a la valeur maximale.
 Les hautes qualités peuvent être débloquées sur certaines vidéos qui requièrent des appareils ayant des dimensions élevées, mais pas sur toutes les vidéos."</string>
+    <string name="revanced_disable_vp9_codec_title">Désactiver le codec VP9</string>
+    <string name="revanced_disable_vp9_codec_summary_on">"Le codec VP9 est désactivé.
+
+• La résolution maximale est en 1080p.
+• La lecture vidéo utilisera plus de données internet que le VP9.
+• Pour utiliser la lecture en HDR, les vidéos HDR utilisent toujours le codec VP9."</string>
+    <string name="revanced_disable_vp9_codec_summary_off">Le codec VP9 est activé.</string>
     <string name="revanced_replace_av1_codec_title">Remplacer le codec AV1</string>
     <string name="revanced_replace_av1_codec_summary">Remplacer le codec AV1 par le codec VP9.</string>
     <string name="revanced_reject_av1_codec_title">Rejeter la réponse du codec AV1</string>
@@ -1415,6 +1412,7 @@ Limitation : les \"Je n'aime pas\" ne seront pas affichées si vous n'êtes pas 
     <string name="revanced_sb_stats_username_changed">Nom d\'utilisateur modifié avec succès.</string>
     <string name="revanced_sb_stats_reputation">Votre réputation est de &lt;b&gt;%.2f&lt;/b&gt;</string>
     <string name="revanced_sb_stats_submissions">Vous avez créé &lt;b&gt;%s&lt;/b&gt; segment(s)</string>
+    <string name="revanced_sb_stats_submissions_sum">Appuyez ici pour voir vos segments.</string>
     <string name="revanced_sb_stats_saved_zero">Classement SponsorBlock</string>
     <string name="revanced_sb_stats_saved">Vous avez sauvé les utilisateurs de &lt;b&gt;%s&lt;/b&gt; segments</string>
     <string name="revanced_sb_stats_saved_sum_zero">Appuyez ici pour voir les statistiques globales et les meilleurs contributeurs.</string>
@@ -1507,7 +1505,8 @@ Cliquez sur le bouton Continuer et désactivez les optimisations de la batterie.
     <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
     <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Effets inconnus de la falsification</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Les films ou les vidéos payantes peuvent ne pas être lus.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">"• Les films ou les vidéos payantes peuvent ne pas être lus.
+• Les diffusions en direct commencent au début."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Le menu \"Piste Audio\" est manquant.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">• Le menu \"Piste Audio\" est manquant.</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Les vidéos peuvent ne pas être lus.</string>

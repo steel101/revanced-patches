@@ -23,13 +23,6 @@
     <string name="revanced_hide_fullscreen_ads_title">Διαφημίσεις πλήρους οθόνης</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Κρυμμένες.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Εμφανίζονται.</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">Κλείσιμο διαφημίσεων πλήρους οθόνης</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary_on">Οι διαφημίσεις πλήρους οθόνης κλείνουν μέσω του κουμπιού κλεισίματος.</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary_off">"Οι διαφημίσεις πλήρους οθόνης έχουν αποκλειστεί.
-
-Περιορισμός: Οι εικόνες δημοσιεύσεων κοινότητας ενδέχεται να μην ανοίγουν σε λειτουργία πλήρους οθόνης."</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">Οι διαφημίσεις πλήρους οθόνης αποκλείστηκαν. (Τύπος: %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">Οι διαφημίσεις πλήρους οθόνης έκλεισαν.</string>
     <string name="revanced_hide_general_ads_title">Γενικές διαφημίσεις</string>
     <string name="revanced_hide_general_ads_summary_on">Κρυμμένες.</string>
     <string name="revanced_hide_general_ads_summary_off">Εμφανίζονται.</string>
@@ -112,6 +105,9 @@
     <string name="revanced_hide_expandable_chip_title">Επεκτάσιμα πλαίσια κάτω από τα βίντεο</string>
     <string name="revanced_hide_expandable_chip_summary_on">Κρυμμένα.</string>
     <string name="revanced_hide_expandable_chip_summary_off">Εμφανίζονται.</string>
+    <string name="revanced_hide_expandable_shelf_title">Επεκτάσιμες ενότητες</string>
+    <string name="revanced_hide_expandable_shelf_summary_on">Κρυμμένες.</string>
+    <string name="revanced_hide_expandable_shelf_summary_off">Εμφανίζονται.</string>
     <string name="revanced_hide_feed_captions_button_title">Κουμπί υπότιτλων στη ροή</string>
     <string name="revanced_hide_feed_captions_button_on">Κρυμμένο.</string>
     <string name="revanced_hide_feed_captions_button_off">Εμφανίζεται.</string>
@@ -250,18 +246,8 @@ Playlists
 • Βίντεο με φράσεις όπως «Άλλοι χρήστες παρακολούθησαν επίσης» στο κάτω μέρος τους."</string>
     <string name="revanced_hide_low_views_video_title">Απόκρυψη βίντεο χαμηλών προβολών</string>
     <string name="revanced_hide_low_views_video_summary">Απόκρυψη των βίντεο με λιγότερες από 1,000 προβολές από τη ροή τα οποία ανήκουν σε κανάλια που δεν είστε συνδρομητές.</string>
-    <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Duration filter -->
-    <string name="revanced_preference_category_duration_filter">Φίλτρο διάρκειας</string>
-    <string name="revanced_hide_video_by_duration_title">Απόκρυψη βίντεο βάσει διάρκειάς τους</string>
-    <string name="revanced_hide_video_by_duration_summary">Απόκρυψη των βίντεο με διάρκεια μικρότερη ή μεγαλύτερη από την προτίμησή σας.\n\nΓνωστό θέμα: Δε λειτουργεί στα προτεινόμενα βίντεο κάτω από τον αναπαραγωγέα, θα κρύβεται όμως η χρονοσφραγίδα τους.</string>
-    <string name="revanced_hide_video_by_duration_longer_than_title">Μέγιστο όριο διάρκειας</string>
-    <string name="revanced_hide_video_by_duration_longer_than_summary">Τα βίντεο με διάρκεια μεγαλύτερη από αυτόν τον αριθμό δεν θα εμφανίζονται.</string>
-    <string name="revanced_hide_video_by_duration_shorter_than_title">Ελάχιστο όριο διάρκειας</string>
-    <string name="revanced_hide_video_by_duration_shorter_than_summary">Τα βίντεο με διάρκεια μικρότερη από αυτόν τον αριθμό δεν θα εμφανίζονται.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Φίλτρο αριθμού προβολών</string>
-    <string name="revanced_hide_video_by_view_counts_title">Απόκρυψη βίντεο βάσει αριθμού προβολών</string>
-    <string name="revanced_hide_video_by_view_counts_summary">Απόκρυψη των βίντεο με προβολές λιγότερες ή περισσότερες από την προτίμησή σας.\n\nΓνωστό θέμα: Τα βίντεο με 0 προβολές δε φιλτράρονται σωστά.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">Μέγιστο όριο προβολών</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">Τα βίντεο με περισσότερες προβολές από αυτόν τον αριθμό δεν θα εμφανίζονται.</string>
     <string name="revanced_hide_video_view_counts_less_than_title">Ελάχιστο όριο προβολών</string>
@@ -423,10 +409,15 @@ Playlists
     <string name="revanced_hide_navigation_label_summary_on">Κρυμμένες.</string>
     <string name="revanced_hide_navigation_label_summary_off">Εμφανίζονται.</string>
     <string name="revanced_switch_create_with_notifications_button_title">Εναλλαγή «Δημιουργία» με «Ειδοποιήσεις»</string>
-    <string name="revanced_switch_create_with_notifications_button_summary">"Εναλλαγή θέσεων των κουμπιών «Δημιουργία» και «Ειδοποιήσεις» παραποιώντας τις πληροφορίες συσκευής.
+    <string name="revanced_switch_create_with_notifications_button_summary_on">"Γίνεται εναλλαγή θέσεων των κουμπιών «Δημιουργία» και «Ειδοποιήσεις».
 
-• Όταν ενεργοποιηθεί, μπορεί να μη λειτουργήσει μέχρι να γίνει επανεκκίνηση της συσκευής σας.
-• Η ενεργοποίηση αυτής της ρύθμισης εξαναγκάζει επίσης την απενεργοποίηση των διαφημίσεων βίντεο."</string>
+Σημείωση: Η ενεργοποίηση αυτής της ρύθμισης εξαναγκάζει επίσης την απόκρυψη των διαφημίσεων βίντεο."</string>
+    <string name="revanced_switch_create_with_notifications_button_summary_off">Δεν γίνεται εναλλαγή θέσεων των κουμπιών «Δημιουργία» και «Ειδοποιήσεις».</string>
+    <string name="revanced_switch_create_with_notifications_button_user_dialog_message">"Η απενεργοποίηση αυτής της ρύθμισης μπορεί να χει ως αποτέλεσμα την φόρτωση περισσότερων διαφημίσεων από τον διακομιστή.
+
+Επίσης, ενδέχεται να εμφανίζονται διαφημίσεις στα Shorts.
+
+Αν η απενεργοποίηση δεν τεθεί σε ισχύ, δοκιμάστε να μεταβείτε σε λειτουργία ανώνυμης περιήγησης."</string>
     <string name="revanced_enable_translucent_navigation_bar_title">Ημιδιαφανή γραμμή πλοήγησης</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">Η γραμμή πλοήγησης είναι ημιδιαφανής.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">Η γραμμή πλοήγησης είναι αδιαφανής.</string>
@@ -552,12 +543,12 @@ Playlists
 Η αυτόματη αναπαραγωγή μπορεί να αλλαχτεί στις ρυθμίσεις YouTube:
 'Ρυθμίσεις → Αυτόματη αναπαραγωγή → Αυτόματη αναπαραγωγή επόμενου βίντεο'"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">Εμφανίζεται.</string>
-    <string name="revanced_hide_zoom_overlay_title">Διεπαφή ζουμ</string>
-    <string name="revanced_hide_zoom_overlay_summary_on">Κρυμμένη.</string>
-    <string name="revanced_hide_zoom_overlay_summary_off">Εμφανίζεται.</string>
     <string name="revanced_skip_autoplay_countdown_title">Άμεση αυτόματη αναπαραγωγή</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Αν είναι ενεργοποιημένη η αυτόματη αναπαραγωγή, το επόμενο βίντεο παίζει χωρίς αντίστροφη μέτρηση.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">Αν είναι ενεργοποιημένη η αυτόματη αναπαραγωγή, το επόμενο βίντεο παίζει αφού τελειώσει η αντίστροφη μέτρηση.</string>
+    <string name="revanced_hide_zoom_overlay_title">Διεπαφή ζουμ</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">Κρυμμένη.</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">Εμφανίζεται.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">Κουμπιά ενεργειών</string>
     <string name="revanced_preference_screen_action_buttons_summary">Απόκρυψη ή εμφάνιση κουμπιών κάτω από τα βίντεο.</string>
@@ -982,7 +973,9 @@ Playlists
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelf -->
     <string name="revanced_preference_category_shorts_shelf">Ενότητα Shorts</string>
     <string name="revanced_hide_shorts_shelf_title">Απόκρυψη των Shorts</string>
-    <string name="revanced_hide_shorts_shelf_summary">"Απόκρυψη της ενότητας Shorts.\n\nΠεριορισμός: Οι τίτλοι ενοτήτων στα αποτελέσματα αναζήτησης δεν εμφανίζονται."</string>
+    <string name="revanced_hide_shorts_shelf_summary">"Απόκρυψη της ενότητας Shorts.
+
+Παρενέργεια: Οι τίτλοι ενοτήτων στα αποτελέσματα αναζήτησης δεν εμφανίζονται."</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_title">Απόκρυψη στην καρτέλα «Αρχική» και στα σχετικά βίντεο</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_on">Κρυμμένη.</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_off">Εμφανίζεται.</string>
@@ -1222,6 +1215,13 @@ Playlists
     <string name="revanced_spoof_device_dimensions_title">Παραποίηση διαστάσεων συσκευής</string>
     <string name="revanced_spoof_device_dimensions_summary">"Παραποίηση διαστάσεων συσκευής στη μέγιστη τιμή.
 Ενδέχεται να ξεκλειδωθούν υψηλότερες ποιότητες σε κάποια βίντεο που απαιτούν υψηλές διαστάσεις συσκευής, αλλά όχι σε όλα τα βίντεο."</string>
+    <string name="revanced_disable_vp9_codec_title">Απενεργοποίηση κωδικοποιητή VP9</string>
+    <string name="revanced_disable_vp9_codec_summary_on">"Ο κωδικοποιητής VP9 είναι ενεργοποιημένος.
+
+• Η μέγιστη ανάλυση είναι 1080p.
+• Η αναπαραγωγή βίντεο θα χρησιμοποιεί περισσότερα δεδομένα Internet από τον VP9.
+• Για την αναπαραγωγή με ποιότητα HDR, τα βίντεο HDR εξακολουθούν να χρησιμοποιούν τον κωδικοποιητή VP9."</string>
+    <string name="revanced_disable_vp9_codec_summary_off">Ο κωδικοποιητής VP9 είναι απενεργοποιημένος.</string>
     <string name="revanced_replace_av1_codec_title">Αντικατάσταση κωδικοποιητή AV1</string>
     <string name="revanced_replace_av1_codec_summary">Αντικατάσταση του κωδικοποιητή λογισμικού AV1 με τον κωδικοποιητή VP9.</string>
     <string name="revanced_reject_av1_codec_title">Απόρριψη απόκρισης κωδικοποιητή AV1</string>
@@ -1434,6 +1434,7 @@ Playlists
     <string name="revanced_sb_stats_username_changed">Το όνομα χρήστη άλλαξε επιτυχώς.</string>
     <string name="revanced_sb_stats_reputation">Η φήμη σας είναι &lt;b&gt;%.2f&lt;/b&gt;</string>
     <string name="revanced_sb_stats_submissions">Δημιουργήσατε &lt;b&gt;%s&lt;/b&gt; τμήματα</string>
+    <string name="revanced_sb_stats_submissions_sum">Πατήστε για να δείτε τα τμήματα σας.</string>
     <string name="revanced_sb_stats_saved_zero">Πίνακας κατάταξης SponsorBlock</string>
     <string name="revanced_sb_stats_saved">Έχετε σώσει άλλους από &lt;b&gt;%s&lt;/b&gt; τμήματα</string>
     <string name="revanced_sb_stats_saved_sum_zero">Πατήστε για να δείτε τα παγκόσμια στατιστικά και τους κορυφαίους συνεισφέροντες.</string>
@@ -1528,16 +1529,17 @@ Playlists
     <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
     <string name="revanced_spoof_streaming_data_type_entry_web">Ιστός (Web)</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Παρενέργειες παραποίησης</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Οι ταινίες ή τα επί πληρωμή βίντεο ενδέχεται να μην αναπαράγονται.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">"• Οι ταινίες ή τα επί πληρωμή βίντεο ενδέχεται να μην αναπαράγονται.
+• Οι ζωντανές μεταδόσεις ξεκινούν από την αρχή κατά την αναπαραγωγή."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Το μενού «Κομμάτι ήχου» λείπει.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">• Το μενού «Κομμάτι ήχου» λείπει.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_unknown">• Τα βίντεο ενδέχεται να μην αναπαράγονται σωστά.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_unknown">• Τα βίντεο ενδέχεται να μην αναπαράγονται.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Εξαναγκασμός iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Ο κωδικοποιητής βίντεο iOS είναι ο AVC (H.264).</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Ο κωδικοποιητής βίντεο iOS είναι ο AVC (H.264), ο VP9 ή ο AV1.</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Ενεργοποιώντας αυτόν τον κωδικοποιητή ίσως βελτιωθεί η κατανάλωση ενέργειας και ίσως διορθωθούν κολλήματα αναπαραγωγής.
+    <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Ενεργοποιώντας αυτόν τον κωδικοποιητή ίσως βελτιωθεί η κατανάλωση ενέργειας και ίσως διορθωθούν μικροκολλήματα αναπαραγωγής.
 
-Ο AVC (H.264) έχει μέγιστη ανάλυση 1080p, και η αναπαραγωγή βίντεο καταναλώνει περισσότερα δεδομένα internet από τον VP9 ή τον AV1."</string>
+Ο AVC (H.264) ωστόσο έχει μέγιστη ανάλυση 1080p, και η αναπαραγωγή βίντεο καταναλώνει περισσότερα δεδομένα internet από τον VP9 ή τον AV1."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Εμφάνιση στο «Στατιστικά για σπασίκλες»</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Το πρόγραμμα πελάτη που χρησιμοποιείται για τη λήψη δεδομένων ροής εμφανίζεται στο μενού «Στατιστικά για σπασίκλες».</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Το πρόγραμμα πελάτη που χρησιμοποιείται για τη λήψη δεδομένων ροής δεν εμφανίζεται στο μενού «Στατιστικά για σπασίκλες».</string>
@@ -1547,7 +1549,7 @@ Playlists
     <string name="revanced_watch_history_management_title">Διαχείριση όλου του ιστορικού</string>
     <string name="revanced_watch_history_management_summary">Πατήστε για άνοιγμα της διαχείρισης του ιστορικού παρακολούθησης του YouTube.</string>
     <string name="revanced_watch_history_type_title">Τύπος ιστορικού παρακολούθησης</string>
-    <string name="revanced_watch_history_type_entry_1">Αρχικό</string>
+    <string name="revanced_watch_history_type_entry_1">Αρχικός</string>
     <string name="revanced_watch_history_type_entry_2">Αντικατάσταση του domain</string>
     <string name="revanced_watch_history_type_entry_3">Αποκλεισμός ιστορικού παρακολούθησης</string>
     <string name="revanced_watch_history_about_title">Κατάσταση ιστορικού παρακολούθησης</string>

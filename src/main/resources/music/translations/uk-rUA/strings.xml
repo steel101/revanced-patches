@@ -49,11 +49,6 @@
     <string name="revanced_preference_screen_ads_title">Реклама</string>
     <string name="revanced_hide_fullscreen_ads_title">Приховати повноекранну рекламу</string>
     <string name="revanced_hide_fullscreen_ads_summary">Приховує повноекранну рекламу.</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">Закривати повноекранну рекламу</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary">"Якщо ввімкнено, повноекранна реклама закривається за допомогою кнопки Закрити.
-Якщо вимкнено, повноекранна реклама блокується. (можуть бути побічні ефекти)"</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">Повноекранну рекламу заблоковано. (Тип діалогу: %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">Повноекранну рекламу закрито.</string>
     <string name="revanced_hide_general_ads_title">Приховати загальну рекламу</string>
     <string name="revanced_hide_general_ads_summary">Приховує загальну рекламу.</string>
     <string name="revanced_hide_music_ads_title">Приховати медіарекламу</string>
@@ -340,6 +335,8 @@
     <string name="revanced_bypass_image_region_restrictions_summary">Замінює домен для зображень, заблокований у деяких регіонах, що дозволить отримувати мініатюри списків відтворення, аватари каналів тощо.</string>
     <string name="revanced_change_share_sheet_title">Змінити діалог поширення</string>
     <string name="revanced_change_share_sheet_summary">Змінює тип вікна діалогу поширення з вбудованого до системного.</string>
+    <string name="revanced_disable_cairo_splash_animation_title">Вимкнути сплеш анімацію Каїр</string>
+    <string name="revanced_disable_cairo_splash_animation_summary">Вимикає сплеш анімацію Каїр під час запуску застосунку.</string>
     <string name="revanced_enable_debug_logging_title">Увімкнути протоколи налагодження</string>
     <string name="revanced_enable_debug_logging_summary">Виводить протокол налагодження.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Увімкнути ведення журналу буфера налагодження</string>

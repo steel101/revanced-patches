@@ -23,13 +23,6 @@
     <string name="revanced_hide_fullscreen_ads_title">隱藏全螢幕廣告</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">全螢幕廣告已隱藏</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">全螢幕廣告已顯示</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">隱藏全螢幕廣告</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary_on">全螢幕廣告可透過關閉按鈕隱藏。</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary_off">"全螢幕廣告已攔截。
-
-限制：全螢幕上的社群貼文圖片可能會被攔截。"</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">全螢幕廣告已攔截。（對話方塊類型： %s）</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">全螢幕廣告已隱藏。</string>
     <string name="revanced_hide_general_ads_title">隱藏一般廣告</string>
     <string name="revanced_hide_general_ads_summary_on">一般廣告已隱藏</string>
     <string name="revanced_hide_general_ads_summary_off">一般廣告已顯示</string>
@@ -114,6 +107,9 @@
     <string name="revanced_hide_expandable_chip_title">隱藏影片下方的章節選擇欄</string>
     <string name="revanced_hide_expandable_chip_summary_on">影片下方的章節選擇欄已隱藏</string>
     <string name="revanced_hide_expandable_chip_summary_off">影片下方的章節選擇欄已顯示</string>
+    <string name="revanced_hide_expandable_shelf_title">隱藏可展開的選單</string>
+    <string name="revanced_hide_expandable_shelf_summary_on">可展開的選單已隱藏。</string>
+    <string name="revanced_hide_expandable_shelf_summary_off">可展開的選單已顯示。</string>
     <string name="revanced_hide_feed_captions_button_title">隱藏動態字幕按鈕</string>
     <string name="revanced_hide_feed_captions_button_on">字幕按鈕已隱藏</string>
     <string name="revanced_hide_feed_captions_button_off">字幕按鈕已顯示</string>
@@ -251,18 +247,8 @@
 ・下方標有「其他人還看了」字樣的影片。"</string>
     <string name="revanced_hide_low_views_video_title">隱藏低觀看次數的影片</string>
     <string name="revanced_hide_low_views_video_summary">在首頁隱藏來自未訂閱頻道的、觀看次數少於 1,000 次的影片。</string>
-    <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Duration filter -->
-    <string name="revanced_preference_category_duration_filter">影片時長篩選器</string>
-    <string name="revanced_hide_video_by_duration_title">根據時長隱藏影片</string>
-    <string name="revanced_hide_video_by_duration_summary">隱藏時長過短或過長的影片。\n\n已知問題：這不會隱藏影片播放器中的相關影片，只會隱藏影片的時間戳記。</string>
-    <string name="revanced_hide_video_by_duration_longer_than_title">時長高於這個值</string>
-    <string name="revanced_hide_video_by_duration_longer_than_summary">時長高於這個值的推薦影片會被隱藏</string>
-    <string name="revanced_hide_video_by_duration_shorter_than_title">時長小於這個值</string>
-    <string name="revanced_hide_video_by_duration_shorter_than_summary">時長小於這個值的影片會被隱藏</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">觀看次數篩選器</string>
-    <string name="revanced_hide_video_by_view_counts_title">依觀看次數隱藏推薦影片</string>
-    <string name="revanced_hide_video_by_view_counts_summary">隱藏觀看次數低於這個值的推薦影片</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">高於觀看次數</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">播放量大於此數字的影片將被隱藏。</string>
     <string name="revanced_hide_video_view_counts_less_than_title">低於觀看次數</string>
@@ -424,11 +410,15 @@
     <string name="revanced_hide_navigation_label_summary_on">導覽列已隱藏</string>
     <string name="revanced_hide_navigation_label_summary_off">導覽列已顯示</string>
     <string name="revanced_switch_create_with_notifications_button_title">交換創作和通知按鈕</string>
-    <string name="revanced_switch_create_with_notifications_button_summary">"交換創作按鈕與通知按鈕的位置，透過偽裝裝置資訊來實現
+    <string name="revanced_switch_create_with_notifications_button_summary_on">"「建立」按鈕已與「通知」按鈕交換。
 
-• 變更這項設定可能需要重新啟動裝置
-• 停用這項設定會從伺服器端載入更多廣告
-• 你應該停用這項設定以顯示影片廣告"</string>
+注意：啟用此功能也會強制隱藏影片廣告。"</string>
+    <string name="revanced_switch_create_with_notifications_button_summary_off">「建立」按鈕未與「通知」按鈕交換。</string>
+    <string name="revanced_switch_create_with_notifications_button_user_dialog_message">"停用此功能可能會從伺服器載入更多廣告。
+
+此外，廣告將不再在 Shorts 中被封鎖。
+
+若此設定未生效，請嘗試切換至無痕模式。"</string>
     <string name="revanced_enable_translucent_navigation_bar_title">啟用半透明導覽列</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">導覽列是半透明的。</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">導覽列不透明。</string>
@@ -553,12 +543,12 @@
  可以在 YouTube 設定中變更自動播放：
  '設定 → 自動播放 → 自動播放下一個影片'"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">顯示建議的影片結束畫面。</string>
-    <string name="revanced_hide_zoom_overlay_title">隱藏縮放疊加</string>
-    <string name="revanced_hide_zoom_overlay_summary_on">縮放疊加被隱藏。</string>
-    <string name="revanced_hide_zoom_overlay_summary_off">顯示縮放疊加。</string>
     <string name="revanced_skip_autoplay_countdown_title">跳過自動播放倒計時</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">如果自動播放已開啟，下一個影片將在無倒計時的情況下播放</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">如果自動播放已開啟，下一個影片將在倒計時結束後播放</string>
+    <string name="revanced_hide_zoom_overlay_title">隱藏縮放疊加</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">縮放疊加被隱藏。</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">顯示縮放疊加。</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">操作按鈕</string>
     <string name="revanced_preference_screen_action_buttons_summary">隱藏或顯示影片下方的操作按鈕</string>
@@ -1194,6 +1184,13 @@
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">提示訊息已隱藏</string>
     <string name="revanced_spoof_device_dimensions_title">偽裝裝置尺寸</string>
     <string name="revanced_spoof_device_dimensions_summary">"變更裝置尺寸設定，以便解鎖在您目前的裝置上原本不支援的較高影片品質。"</string>
+    <string name="revanced_disable_vp9_codec_title">停用 VP9 編解碼器</string>
+    <string name="revanced_disable_vp9_codec_summary_on">"VP9 編解碼器已停用。
+
+• 最高解析度為 1080p。
+• 影片播放將使用比 VP9 更多的網路數據。
+• 若要獲得 HDR 播放，HDR 影片仍會使用 VP9 編解碼器。"</string>
+    <string name="revanced_disable_vp9_codec_summary_off">VP9 編解碼器已啟用。</string>
     <string name="revanced_replace_av1_codec_title">替換軟體 AV1 編解碼器</string>
     <string name="revanced_replace_av1_codec_summary">將軟體 AV1 編解碼器替換為 VP9 編解碼器。</string>
     <string name="revanced_reject_av1_codec_title">拒絕軟體 AV1 編解碼器回應</string>
@@ -1412,6 +1409,7 @@
     <string name="revanced_sb_stats_username_changed">用戶名成功更改。</string>
     <string name="revanced_sb_stats_reputation">您的聲譽為 &lt;b&gt;%.2f&lt;/b&gt;</string>
     <string name="revanced_sb_stats_submissions">你已經創建了 &lt;b&gt;%s&lt;/b&gt; 段影片</string>
+    <string name="revanced_sb_stats_submissions_sum">點擊此處查看您的片段。</string>
     <string name="revanced_sb_stats_saved_zero">SponsorBlock 排行榜</string>
     <string name="revanced_sb_stats_saved">您為人們節省了 &lt;b&gt;%s&lt;/b&gt; 個片段</string>
     <string name="revanced_sb_stats_saved_sum_zero">點擊此處查看全球統計數據和前幾名貢獻者</string>
@@ -1505,7 +1503,7 @@
     <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
     <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">偽裝副作用</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• 電影或付費影片可能無法播放。</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">"• 電影或付費影片可能無法播放。"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• 音軌選單遺失。</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">• 音軌選單遺失。</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• 影片可能無法播放。</string>

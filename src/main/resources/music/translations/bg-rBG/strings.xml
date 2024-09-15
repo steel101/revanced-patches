@@ -49,11 +49,6 @@
     <string name="revanced_preference_screen_ads_title">Реклами</string>
     <string name="revanced_hide_fullscreen_ads_title">Скриване на рекламите в режим на цял екран</string>
     <string name="revanced_hide_fullscreen_ads_summary">Скриване на рекламите в режим на цял екран.</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">Как да затворите реклами на цял екран</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary">"Ако е активирана, рекламата на цял екран се затваря чрез бутона Затвори.
-Ако е деактивирано, рекламата на цял екран е блокирана. (могат да възникнат нежелани реакции)"</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">Рекламите на цял екран са блокирани. (Тип на диалоговия прозорец: %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">Рекламите на цял екран са затворени.</string>
     <string name="revanced_hide_general_ads_title">Скриване на общите реклами</string>
     <string name="revanced_hide_general_ads_summary">Скриване на общите реклами.</string>
     <string name="revanced_hide_music_ads_title">Скриване на музикални реклами</string>

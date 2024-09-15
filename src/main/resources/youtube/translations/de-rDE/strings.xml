@@ -21,13 +21,6 @@ Bitte lade %2$s von der Webseite herunter."</string>
     <string name="revanced_hide_fullscreen_ads_title">Vollbildwerbung verstecken</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Vollbildwerbung wird versteckt.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Vollbildwerbung wird angezeigt.</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">Vollbildanzeige schließen</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary_on">Vollbildanzeigen werden über die Schaltfläche „Schließen“ geschlossen.</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary_off">"Vollbildwerbung ist blockiert.
-
-Nebeneffekt: Community-Beitragsbilder können im Vollbildmodus blockiert werden."</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">Vollbildwerbung wurde blockiert. (Dialog-Typ: %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">Vollbildwerbung wurde geschlossen.</string>
     <string name="revanced_hide_general_ads_title">Allgemeine Werbung ausblenden</string>
     <string name="revanced_hide_general_ads_summary_on">Allgemeine Werbung ist ausgeblendet.</string>
     <string name="revanced_hide_general_ads_summary_off">Allgemeine Werbung wird angezeigt.</string>
@@ -238,18 +231,8 @@ Einschränkungen:
 • Videos mit Sätzen wie \"Menschen auch gesehen\" unten."</string>
     <string name="revanced_hide_low_views_video_title">Videos mit wenigen Aufrufen verstecken</string>
     <string name="revanced_hide_low_views_video_summary">Verstecke Videos mit weniger als 1000 Aufrufen von nicht abonnierten Kanälen von der Startseite.</string>
-    <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Duration filter -->
-    <string name="revanced_preference_category_duration_filter">Filterdauer</string>
-    <string name="revanced_hide_video_by_duration_title">Videos je nach Dauer ausblenden</string>
-    <string name="revanced_hide_video_by_duration_summary">Verstecke Videos mit kürzer oder länger als die Dauer.\n\nBekanntes Problem: Videos werden nicht in den Player-bezogenen Videos ausgeblendet, sondern der Zeitstempel wird versteckt.</string>
-    <string name="revanced_hide_video_by_duration_longer_than_title">Länger als Dauer</string>
-    <string name="revanced_hide_video_by_duration_longer_than_summary">Videos mit einer Dauer, die länger als diese Zahl ist, werden ausgeblendet.</string>
-    <string name="revanced_hide_video_by_duration_shorter_than_title">Kürzer als Dauer</string>
-    <string name="revanced_hide_video_by_duration_shorter_than_summary">Videos mit einer Dauer, die länger als diese Zahl ist, werden ausgeblendet.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Zählerfilter anzeigen</string>
-    <string name="revanced_hide_video_by_view_counts_title">Empfohlene Videos nach Ansichten ausblenden.</string>
-    <string name="revanced_hide_video_by_view_counts_summary">Empfohlene Videos mit weniger als einer bestimmten Anzahl von Ansichten ausblenden.\n\nBekanntes Problem: Videos mit 0 Ansichten werden nicht gefiltert.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">Größer als Ansichten</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">Videos mit Ansichten, die größer als diese Zahl sind, werden ausgeblendet.</string>
     <string name="revanced_hide_video_view_counts_less_than_title">Weniger als Anrufe</string>
@@ -403,11 +386,6 @@ Manche Komponenten könnten nicht versteckt werden."</string>
     <string name="revanced_hide_navigation_label_summary_on">Navigationslabel ist versteckt</string>
     <string name="revanced_hide_navigation_label_summary_off">Navigationslabel wird angezeigt</string>
     <string name="revanced_switch_create_with_notifications_button_title">Erstellungs- und Benachrichtigungs-Buttons tauschen</string>
-    <string name="revanced_switch_create_with_notifications_button_summary">"Tauscht die Positionen des Knopfes Erstellen mit der Schaltfläche \"Benachrichtigungen\" aus, indem die Geräteinformationen getäuscht werden.
-
-• Das Gerät muss neu gestartet werden, um diese Einstellung zu ändern.
-• Deaktivieren dieser Einstellung lädt mehr Werbung von der Serverseite.
-• Sie sollten diese Einstellung deaktivieren, um Video-Werbung sichtbar zu machen."</string>
     <string name="revanced_enable_translucent_navigation_bar_title">Transparente Navigationsleiste aktivieren</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">Navigationsleiste ist transparent.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">Navigationsleiste ist nicht transparent.</string>
@@ -525,12 +503,12 @@ Information:
 Autoplay kann in den YouTube-Einstellungen geändert werden:
 Einstellungen → Autoplay → Nächstes Video automatisch abspielen"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">Empfohlene Video-Endbildschirm wird angezeigt.</string>
-    <string name="revanced_hide_zoom_overlay_title">Zoom-Overlay ausblenden</string>
-    <string name="revanced_hide_zoom_overlay_summary_on">Zoom-Overlay ist ausgeblendet.</string>
-    <string name="revanced_hide_zoom_overlay_summary_off">Zoom-Overlay wird angezeigt.</string>
     <string name="revanced_skip_autoplay_countdown_title">Autotoplay Countdown überspringen</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Ist Autoplay aktiviert, wird das nächste Video sofort abgespielt.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">Wenn Autoplay aktiviert ist, wird das nächste Video nach dem Countdown abgespielt.</string>
+    <string name="revanced_hide_zoom_overlay_title">Zoom-Overlay ausblenden</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">Zoom-Overlay ist ausgeblendet.</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">Zoom-Overlay wird angezeigt.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">Aktionsschaltflächen</string>
     <string name="revanced_preference_screen_action_buttons_summary">Aktionsschaltflächen unter Videos ausblenden oder anzeigen.</string>

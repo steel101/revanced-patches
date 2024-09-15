@@ -49,11 +49,6 @@
     <string name="revanced_preference_screen_ads_title">Διαφημίσεις</string>
     <string name="revanced_hide_fullscreen_ads_title">Απόκρυψη διαφημίσεων πλήρους οθόνης</string>
     <string name="revanced_hide_fullscreen_ads_summary">Απόκρυψη των ενδιάμεσων διαφημίσεων πλήρους οθόνης.</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">Κλείσιμο διαφημίσεων πλήρους οθόνης</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary">"Αν είναι ενεργοποιημένο, οι διαφημίσεις πλήρους οθόνης κλείνουν μέσω του κουμπιού κλεισίματος.
-Αν είναι απενεργοποιημένο, οι διαφημίσεις πλήρους οθόνης είναι αυτόματα αποκλεισμένες. (μπορεί να υπάρχουν παρενέργειες)"</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">Οι διαφημίσεις πλήρους οθόνης αποκλείστηκαν. (Τύπος: %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">Οι διαφημίσεις πλήρους οθόνης έκλεισαν.</string>
     <string name="revanced_hide_general_ads_title">Απόκρυψη γενικών διαφημίσεων</string>
     <string name="revanced_hide_general_ads_summary">Απόκρυψη των γενικών διαφημίσεων.</string>
     <string name="revanced_hide_music_ads_title">Απόκρυψη διαφημίσεων μουσικής</string>

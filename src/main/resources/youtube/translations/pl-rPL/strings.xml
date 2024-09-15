@@ -23,13 +23,6 @@ Pobierz %2$s ze strony internetowej."</string>
     <string name="revanced_hide_fullscreen_ads_title">Pełnoekranowe reklamy</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Ukryte</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Widoczne</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">Pełnoekranowe reklamy</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary_on">Zamykane poprzez przycisk zamknięcia</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary_off">"Blokowane
-
-Ograniczenie: obrazy postów społeczności w trybie pełnoekranowym mogą być zablokowane"</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">Zablokowano reklamy pełnoekranowe. (Typ okna: %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">Zamknięto reklamy pełnoekranowe.</string>
     <string name="revanced_hide_general_ads_title">Ogólne reklamy</string>
     <string name="revanced_hide_general_ads_summary_on">Ukryte</string>
     <string name="revanced_hide_general_ads_summary_off">Widoczne</string>
@@ -112,6 +105,9 @@ Stuknij tutaj, aby dowiedzieć się więcej o DeArrow."</string>
     <string name="revanced_hide_expandable_chip_title">Produkty i rozdziały pod filmami</string>
     <string name="revanced_hide_expandable_chip_summary_on">Ukryte</string>
     <string name="revanced_hide_expandable_chip_summary_off">Widoczne</string>
+    <string name="revanced_hide_expandable_shelf_title">Rozszeralne półki</string>
+    <string name="revanced_hide_expandable_shelf_summary_on">Ukryte</string>
+    <string name="revanced_hide_expandable_shelf_summary_off">Widoczne</string>
     <string name="revanced_hide_feed_captions_button_title">Przycisk od napisów na stronie głównej</string>
     <string name="revanced_hide_feed_captions_button_on">Ukryty</string>
     <string name="revanced_hide_feed_captions_button_off">Widoczny</string>
@@ -252,18 +248,8 @@ Ograniczenia:
 • Filmy z takimi frazami jak 'Inne osoby również obejrzały' u dołu filmu"</string>
     <string name="revanced_hide_low_views_video_title">Ukryj filmy z małą ilością wyświetleń</string>
     <string name="revanced_hide_low_views_video_summary">Ukrywa filmy poniżej 1000 wyświetleń ze strony głównej, które zostały przesłane z niesubskrybowanych kanałów.</string>
-    <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Duration filter -->
-    <string name="revanced_preference_category_duration_filter">Filtrowanie według czasu trwania</string>
-    <string name="revanced_hide_video_by_duration_title">Ukryj filmy na podstawie czasu trwania</string>
-    <string name="revanced_hide_video_by_duration_summary">Ukrywa filmy krótsze lub dłuższe od czasu trwania.\n\nZnany problem: Nie ukrywa filmów w rekomendacjach YouTube na końcach filmów - zamiast tego ukrywa czas.</string>
-    <string name="revanced_hide_video_by_duration_longer_than_title">Dłuższe od czasu trwania</string>
-    <string name="revanced_hide_video_by_duration_longer_than_summary">Filmy o czasie trwania większym od tej liczby zostaną ukryte</string>
-    <string name="revanced_hide_video_by_duration_shorter_than_title">Krótsze od czasu trwania</string>
-    <string name="revanced_hide_video_by_duration_shorter_than_summary">Filmy o czasie trwania mniejszym od tej liczby zostaną ukryte</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Filtr ilości wyświetleń</string>
-    <string name="revanced_hide_video_by_view_counts_title">Ukryj rekomendowane filmy według ilości wyświetleń</string>
-    <string name="revanced_hide_video_by_view_counts_summary">Ukrywa rekomendowane filmy, które mają mniejszą ilość wyświetleń niż zadeklarowana.\n\nZnany problem: Filmy z zerem wyświetleń nie są filtrowane.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">Popularniejsze</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">Filmy z wyświetleniami większymi niż ta liczba zostaną ukryte</string>
     <string name="revanced_hide_video_view_counts_less_than_title">Mniej popularne</string>
@@ -425,11 +411,15 @@ Niektóre komponenty mogą nie być ukryte."</string>
     <string name="revanced_hide_navigation_label_summary_on">Ukryte</string>
     <string name="revanced_hide_navigation_label_summary_off">Widoczne</string>
     <string name="revanced_switch_create_with_notifications_button_title">Zamień przyciski przesyłania i powiadomień</string>
-    <string name="revanced_switch_create_with_notifications_button_summary">"Zamienia pozycję przycisku od przesyłania z przyciskiem do powiadomień oszukując informacje o urządzeniu.
+    <string name="revanced_switch_create_with_notifications_button_summary_on">"Zamienione
 
-• Nawet jeśli zmienisz to ustawienie, może się nic nie zmienić dopóki nie zrestartujesz urządzenia.
-• Wyłączenie tego ustawienia powoduje zwiększenie ilości reklam.
-• Powinieneś wyłączyć to ustawienie jeśli chcesz, by reklamy w filmach były widoczne."</string>
+Notka: włączenie tej opcji wymusza ukrywanie reklam w filmach."</string>
+    <string name="revanced_switch_create_with_notifications_button_summary_off">Nie zamienone</string>
+    <string name="revanced_switch_create_with_notifications_button_user_dialog_message">"Wyłączenie tej opcji może spowodować załadowanie się większej ilości reklam z serwera.
+
+Dodatkowo, reklamy nie będą już blokowane w Shortsach.
+
+Jeśli opcja nie przynosi skutku, spróbuj przełączyć się na tryb incognito."</string>
     <string name="revanced_enable_translucent_navigation_bar_title">Wygląd paska nawigacji</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">Półprzezroczysty</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">Nieprzezroczysty</string>
@@ -554,12 +544,12 @@ Notki:
 Autoodtwarzanie można zmienić w ustawieniach YouTube:
 'Ustawienia → Autoodtwarzanie → Autoodtwarzanie następnego filmu'"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">Widoczne</string>
-    <string name="revanced_hide_zoom_overlay_title">Poświata przy powiększaniu filmu</string>
-    <string name="revanced_hide_zoom_overlay_summary_on">Ukryta</string>
-    <string name="revanced_hide_zoom_overlay_summary_off">Widoczna</string>
     <string name="revanced_skip_autoplay_countdown_title">Pomiń odliczanie do automatycznego odtwarzania</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Jeżeli automatyczne odtwarzanie jest włączone, następny film zostanie odtworzony bez odliczania.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">Jeżeli automatyczne odtwarzanie jest włączone, następny film zostanie odtworzony po ukończeniu odliczania.</string>
+    <string name="revanced_hide_zoom_overlay_title">Poświata przy powiększaniu filmu</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">Ukryta</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">Widoczna</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">Przyciski akcji</string>
     <string name="revanced_preference_screen_action_buttons_summary">Ukryj lub pokazuj przyciski akcji pod odtwarzaczem</string>
@@ -1002,7 +992,7 @@ Ograniczenie: Nagłówki z tytułami będą ukryte w wynikach wyszukiwania."</st
     <string name="revanced_hide_shorts_trends_button_title">Przycisk od trendów</string>
     <string name="revanced_hide_shorts_trends_button_summary_on">Ukryty</string>
     <string name="revanced_hide_shorts_trends_button_summary_off">Widoczny</string>
-    <string name="revanced_hide_shorts_shopping_button_title">Przycisk od sklepu</string>
+    <string name="revanced_hide_shorts_shopping_button_title">Przycisk od kupowania</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">Ukryty</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">Widoczny</string>
     <string name="revanced_hide_shorts_shop_button_title">Przycisk do sklepu</string>
@@ -1201,6 +1191,13 @@ Informacje:
     <string name="revanced_spoof_device_dimensions_title">Oszukaj rozdzielczość urządzenia</string>
     <string name="revanced_spoof_device_dimensions_summary">"Oszukuje rozdzielczość urządzenia do maksymalnej wartości.
 Wysoka jakość może być odblokowana na niektórych filmach, które wymagają wysokiej rozdzielczości urządzenia, lecz nie na wszystkich."</string>
+    <string name="revanced_disable_vp9_codec_title">Wyłącz kodek VP9</string>
+    <string name="revanced_disable_vp9_codec_summary_on">"Wyłączone
+
+• Maksymalną rozdzielczością filmów jest 1080p
+• Odtwarzanie filmów wykorzystuje więcej danych internetowych niż VP9
+• Aby filmy w HDR się odtwarzały, będą one nadal używać kodeka VP9"</string>
+    <string name="revanced_disable_vp9_codec_summary_off">Włączone</string>
     <string name="revanced_replace_av1_codec_title">Zmień kodek AV1 programu</string>
     <string name="revanced_replace_av1_codec_summary">Zastąp kodek AV1 programu kodekiem VP9</string>
     <string name="revanced_reject_av1_codec_title">Odrzucaj kodek AV1 programu</string>
@@ -1413,6 +1410,7 @@ Ograniczenie: Liczba łapek w dół może nie być widoczna, gdy użytkownik nie
     <string name="revanced_sb_stats_username_changed">Nazwa użytkownika została zmieniona.</string>
     <string name="revanced_sb_stats_reputation">Twoja reputacja to &lt;b&gt;%.2f&lt;/b&gt;</string>
     <string name="revanced_sb_stats_submissions">Stworzyłeś &lt;b&gt;%s&lt;/b&gt; segmentów</string>
+    <string name="revanced_sb_stats_submissions_sum">Kliknij, by zobaczyć swoje segmenty</string>
     <string name="revanced_sb_stats_saved_zero">Tablica wyników SponsorBlock</string>
     <string name="revanced_sb_stats_saved">Uchroniłeś ludzi przed &lt;b&gt;%s&lt;/b&gt; segmentami</string>
     <string name="revanced_sb_stats_saved_sum_zero">Stuknij tutaj, aby zobaczyć globalne statystyki i najlepszych użytkowników.</string>
@@ -1505,7 +1503,8 @@ Kontynuuj i wyłącz optymalizację baterii."</string>
     <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
     <string name="revanced_spoof_streaming_data_type_entry_web">Przeglądarka</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Efekty uboczne oszukiwania</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Filmy kinowe lub płatne filmy mogą się nie odtwarzać</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">"• Filmy kinowe lub płatne filmy mogą się nie odtwarzać
+• Transmisje na żywo rozpoczynają się od początku"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Brakuje menu od ścieżki dźwiękowej</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">• Brakuje menu od ścieżki dźwiękowej</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Filmy mogą się nie odtwarzać</string>

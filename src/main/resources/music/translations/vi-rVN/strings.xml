@@ -49,11 +49,6 @@
     <string name="revanced_preference_screen_ads_title">Quảng cáo</string>
     <string name="revanced_hide_fullscreen_ads_title">Ẩn quảng cáo toàn màn hình</string>
     <string name="revanced_hide_fullscreen_ads_summary">Ẩn quảng cáo toàn màn hình.</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">Đóng quảng cáo toàn màn hình</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary">"Nếu tính năng này bật, quảng cáo toàn màn hình sẽ được đóng thông qua nút Đóng.
-Nếu tính năng này tắt, quảng cáo toàn màn hình sẽ bị chặn (có thể có tác dụng phụ)."</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">Quảng cáo toàn màn hình đã bị chặn. (Loại hộp thoại: %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">Quảng cáo toàn màn hình đã được đóng.</string>
     <string name="revanced_hide_general_ads_title">Ẩn quảng cáo chung</string>
     <string name="revanced_hide_general_ads_summary">Ẩn quảng cáo xuất hiện trước khi phát.</string>
     <string name="revanced_hide_music_ads_title">Ẩn quảng cáo</string>

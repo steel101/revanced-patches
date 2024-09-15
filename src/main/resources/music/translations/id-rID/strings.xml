@@ -49,11 +49,6 @@ Download %2$s dari website."</string>
     <string name="revanced_preference_screen_ads_title">Iklan</string>
     <string name="revanced_hide_fullscreen_ads_title">Sembunyikan iklan fullscreen</string>
     <string name="revanced_hide_fullscreen_ads_summary">Menyembunyikan iklan fullscreen.</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">Tutup iklan fullscreen</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary">"Jika diaktifkan, iklan fullscreen akan ditutup lewat tombol Close.
-Jika dimatikan, iklan fullscreen akan di block. (kemungkinan akan ada side effect)"</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">Iklan fullscreen telah diblok. (Blokir: %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">Iklan fullscreen telah ditutup.</string>
     <string name="revanced_hide_general_ads_title">Sembunyikan Iklan Umum</string>
     <string name="revanced_hide_general_ads_summary">Menyembunyikan Iklan Umum.</string>
     <string name="revanced_hide_music_ads_title">Sembunyikan iklan musik</string>

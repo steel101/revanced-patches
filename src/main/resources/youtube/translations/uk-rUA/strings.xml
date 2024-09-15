@@ -23,13 +23,6 @@
     <string name="revanced_hide_fullscreen_ads_title">Приховати повноекранну рекламу</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Повноекранну рекламу приховано.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Повноекранну рекламу показується.</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">Закривати повноекранну рекламу</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary_on">Повноекранну рекламу закривається за допомогою кнопки Закрити.</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary_off">"Повноекранну рекламу блокується.
-
-Застереження: Зображення публікації спільноти в повноекранному режимі може бути блоковано."</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">Повноекранну рекламу заблоковано. (Тип діалогу: %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">Повноекранну рекламу закрито.</string>
     <string name="revanced_hide_general_ads_title">Приховати загальну рекламу</string>
     <string name="revanced_hide_general_ads_summary_on">Загальну рекламу приховано.</string>
     <string name="revanced_hide_general_ads_summary_off">Загальну рекламу показується.</string>
@@ -112,6 +105,9 @@
     <string name="revanced_hide_expandable_chip_title">Приховати розширювану фішку під відео</string>
     <string name="revanced_hide_expandable_chip_summary_on">Розширювані фішки приховано.</string>
     <string name="revanced_hide_expandable_chip_summary_off">Розширювані фішки показується.</string>
+    <string name="revanced_hide_expandable_shelf_title">Приховати висувні полиці</string>
+    <string name="revanced_hide_expandable_shelf_summary_on">Висувні полиці приховано.</string>
+    <string name="revanced_hide_expandable_shelf_summary_off">Висувні полиці показується.</string>
     <string name="revanced_hide_feed_captions_button_title">Приховати кнопку субтитрів в стрічці</string>
     <string name="revanced_hide_feed_captions_button_on">Кнопку субтитрів приховано.</string>
     <string name="revanced_hide_feed_captions_button_off">Кнопку субтитрів показується.</string>
@@ -252,18 +248,8 @@
 • Відео з фразами на кшталт 'Людей також дивилися' внизу."</string>
     <string name="revanced_hide_low_views_video_title">Приховати відео з малою кількістю переглядів</string>
     <string name="revanced_hide_low_views_video_summary">Приховати відео з менш ніж 1,000 переглядів з головної стрічки, вантажені з каналів, на які не підписані.</string>
-    <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Duration filter -->
-    <string name="revanced_preference_category_duration_filter">Фільтр тривалості</string>
-    <string name="revanced_hide_video_by_duration_title">Приховати відео за тривалістю</string>
-    <string name="revanced_hide_video_by_duration_summary">Приховати відео з меншою або більшою тривалістю.\n\nВідома проблема: Не приховуватимуться пов\'язані відео у плеєрі, натомість приховуватиметься мітку часу.</string>
-    <string name="revanced_hide_video_by_duration_longer_than_title">Довші за тривалістю</string>
-    <string name="revanced_hide_video_by_duration_longer_than_summary">Відео з тривалістю більше цього числа приховуватимуться.</string>
-    <string name="revanced_hide_video_by_duration_shorter_than_title">Коротші за тривалістю</string>
-    <string name="revanced_hide_video_by_duration_shorter_than_summary">Відео з тривалістю менше цього числа приховуватимуться.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Фільтр за кількістю переглядів</string>
-    <string name="revanced_hide_video_by_view_counts_title">Приховати рекомендовані відео за переглядами</string>
-    <string name="revanced_hide_video_by_view_counts_summary">Приховати рекомендовані відео з меншою за вказану кількість переглядів.\n\nВідома проблема: Відео з 0 переглядами не фільтруються.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">Більші за переглядами</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">Відео з більше ніж ця кількість переглядів приховуватимуться.</string>
     <string name="revanced_hide_video_view_counts_less_than_title">Менші за переглядами</string>
@@ -425,11 +411,15 @@
     <string name="revanced_hide_navigation_label_summary_on">Навігаційну мітку приховано.</string>
     <string name="revanced_hide_navigation_label_summary_off">Навігаційну мітку показується.</string>
     <string name="revanced_switch_create_with_notifications_button_title">Поміняти Створити зі Сповіщення</string>
-    <string name="revanced_switch_create_with_notifications_button_summary">"Поміняти місцями кнопку створення та кнопку сповіщення підробленням інформації про пристрій.
+    <string name="revanced_switch_create_with_notifications_button_summary_on">"Кнопку Створити міняється з кнопкою Сповіщення.
 
-• Навіть якщо ви зміните це налаштування, воно може не набути чинності, доки ви не перезапустите пристрій.
-• Вимкнувши це налаштування, вантажиться більше реклами з боку сервера.
-• Ви повинні вимкнути це налаштування, щоб зробити відеорекламу видимою."</string>
+Примітка: Увімкнення також примусово приховує відеорекламу."</string>
+    <string name="revanced_switch_create_with_notifications_button_summary_off">Кнопку Створити не міняється з кнопкою Сповіщення.</string>
+    <string name="revanced_switch_create_with_notifications_button_user_dialog_message">"Вимкнення може спричинити вантаження більше реклами з сервера.
+
+А також, рекламу більше не блокуватиметься в Shorts.
+
+Якщо це налаштування не діє, спробуйте перемкнути Анонімний режим."</string>
     <string name="revanced_enable_translucent_navigation_bar_title">Увімкнути напівпрозорість панелі навігації</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">Панель навігації напівпрозора.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">Панель навігації непрозора.</string>
@@ -554,12 +544,12 @@
 Автовідтворення можна змінити у налаштуваннях YouTube:
 'Налаштування → Автоматичне відтворення → Автовідтворення наступного відео'"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">Кінцевий екран з пропонованими відео показується.</string>
-    <string name="revanced_hide_zoom_overlay_title">Приховати накладання при масштабуванні</string>
-    <string name="revanced_hide_zoom_overlay_summary_on">Накладання при масштабуванні приховано.</string>
-    <string name="revanced_hide_zoom_overlay_summary_off">Накладання при масштабуванні показується.</string>
     <string name="revanced_skip_autoplay_countdown_title">Пропустити відлік автовідтворення</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Якщо автовідтворення увімкнено, наступне відео відтворюватиметься без відліку.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">Якщо автовідтворення увімкнено, наступне відео відтворюватиметься після закінчення відліку.</string>
+    <string name="revanced_hide_zoom_overlay_title">Приховати накладання при масштабуванні</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">Накладання при масштабуванні приховано.</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">Накладання при масштабуванні показується.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">Кнопки дії</string>
     <string name="revanced_preference_screen_action_buttons_summary">Приховувати чи показувати кнопки дії під відео.</string>
@@ -1201,6 +1191,13 @@
     <string name="revanced_spoof_device_dimensions_title">Підробити розміри пристрою</string>
     <string name="revanced_spoof_device_dimensions_summary">"Підробка розмірів пристрою до максимального значення.
 Високу якість може бути розблоковано для деяких відео, які вимагають великих розмірів пристрою, але не для всіх відео."</string>
+    <string name="revanced_disable_vp9_codec_title">Вимкнути кодек VP9</string>
+    <string name="revanced_disable_vp9_codec_summary_on">"Кодек VP9 вимкнено.
+
+• Максимальна роздільна здатність - 1080p.
+• Відтворення відео використовуватиме більше інтернет даних ніж VP9.
+• Щоб отримати відтворювання HDR, HDR відео використовує кодек VP9."</string>
+    <string name="revanced_disable_vp9_codec_summary_off">Кодек VP9 увімкнено.</string>
     <string name="revanced_replace_av1_codec_title">Замінити програмний кодек AV1</string>
     <string name="revanced_replace_av1_codec_summary">Замінити програмний кодек AV1 кодеком VP9.</string>
     <string name="revanced_reject_av1_codec_title">Відкинути відповідь програмного кодека AV1</string>
@@ -1413,6 +1410,7 @@
     <string name="revanced_sb_stats_username_changed">Ім\'я користувача успішно змінено</string>
     <string name="revanced_sb_stats_reputation">Ваша репутація — &lt;b&gt;%.2f&lt;/b&gt;</string>
     <string name="revanced_sb_stats_submissions">Ви створили &lt;b&gt;%s&lt;/b&gt; сегментів</string>
+    <string name="revanced_sb_stats_submissions_sum">Натисніть тут для перегляду Ваших сегментів.</string>
     <string name="revanced_sb_stats_saved_zero">Таблиця лідерів Спонсорблок</string>
     <string name="revanced_sb_stats_saved">Ви врятували людей від &lt;b&gt;%s&lt;/b&gt; сегментів</string>
     <string name="revanced_sb_stats_saved_sum_zero">Натисніть тут, щоб побачити глобальну статистику та найкращих учасників</string>
@@ -1499,7 +1497,8 @@
     <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
     <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Побічні ефекти імітування</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Фільми чи платні відео можуть не відтворюватися.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">"• Фільми чи платні відео можуть не відтворюватися.
+• Прямі трансляції починаються з початку."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Меню звукової доріжки відсутнє.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">• Меню звукової доріжки відсутнє.</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Відео може не відтворюватися.</string>

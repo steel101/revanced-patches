@@ -23,14 +23,6 @@
     <string name="revanced_hide_fullscreen_ads_title">Полноэкранная реклама</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Полноэкранная реклама скрыта.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Полноэкранная реклама отображена.</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">Способ закрытия рекламы в полном экране</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary_on">Реклама в полном экране закрыта кнопкой.</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary_off">"Реклама в полном экране заблокирована.
-
-Ограничение:
-Посты сообщества, в полном экране, могут быть заблокированы."</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">Реклама в полном экране была заблокирована. (Взаимодействие: %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">Реклама в полном экране была закрыта.</string>
     <string name="revanced_hide_general_ads_title">Реклама общего формата</string>
     <string name="revanced_hide_general_ads_summary_on">Реклама общего формата скрыта.</string>
     <string name="revanced_hide_general_ads_summary_off">Реклама общего формата отображена.</string>
@@ -116,6 +108,9 @@
     <string name="revanced_hide_expandable_chip_title">Расширенные эпизоды под видео</string>
     <string name="revanced_hide_expandable_chip_summary_on">Расширенные эпизоды скрыты.</string>
     <string name="revanced_hide_expandable_chip_summary_off">Расширенные эпизоды отображены.</string>
+    <string name="revanced_hide_expandable_shelf_title">Расширяемые секции</string>
+    <string name="revanced_hide_expandable_shelf_summary_on">Расширяемые секции скрыты.</string>
+    <string name="revanced_hide_expandable_shelf_summary_off">Расширяемые секции отображены.</string>
     <string name="revanced_hide_feed_captions_button_title">Кнопка \"Субтитры\" в ленте</string>
     <string name="revanced_hide_feed_captions_button_on">Кнопка \"Субтитры\" в ленте скрыта.</string>
     <string name="revanced_hide_feed_captions_button_off">Кнопка \"Субтитры\" в ленте отображена.</string>
@@ -257,18 +252,8 @@ Shorts
 • С каналов, на которые вы не подписаны (менее 1000 просмотров)."</string>
     <string name="revanced_hide_low_views_video_title">Скрыть видео с низкими просмотрами</string>
     <string name="revanced_hide_low_views_video_summary">Скрыть видео с менее 1000 просмотров из ленты, из каналов от которых Вы отписались.</string>
-    <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Duration filter -->
-    <string name="revanced_preference_category_duration_filter">Фильтр по продолжительности</string>
-    <string name="revanced_hide_video_by_duration_title">Скрыть видео по продолжительности</string>
-    <string name="revanced_hide_video_by_duration_summary">Скрывает видео с продолжительностью меньше или больше заданной.</string>
-    <string name="revanced_hide_video_by_duration_longer_than_title">Продолжительность больше указанной</string>
-    <string name="revanced_hide_video_by_duration_longer_than_summary">Видео с большей продолжительностью будут скрыты.</string>
-    <string name="revanced_hide_video_by_duration_shorter_than_title">Продолжительность меньше указанной</string>
-    <string name="revanced_hide_video_by_duration_shorter_than_summary">Видео с меньшей продолжительностью будут скрыты.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Фильтр по количеству просмотров</string>
-    <string name="revanced_hide_video_by_view_counts_title">Скрыть рекомендованные видео по количеству просмотров</string>
-    <string name="revanced_hide_video_by_view_counts_summary">Скрывает рекомендованные видео с заданным количеством просмотров.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">Больше по просмотрам</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">Видео с большим количеством просмотров будут скрыты.</string>
     <string name="revanced_hide_video_view_counts_less_than_title">Меньше по просмотрам</string>
@@ -439,14 +424,18 @@ Shorts
     <string name="revanced_hide_navigation_label_summary_on">Подписи кнопок навигации скрыты.</string>
     <string name="revanced_hide_navigation_label_summary_off">Подписи кнопок навигации отображены.</string>
     <string name="revanced_switch_create_with_notifications_button_title">Подмена кнопки \"Создать\" на \"Уведомления\"</string>
-    <string name="revanced_switch_create_with_notifications_button_summary">"Подмена осуществляется с помощью подмены габаритов устройства.
+    <string name="revanced_switch_create_with_notifications_button_summary_on">"Кнопки \"Создать\" и \"Уведомления\" поменяны местами.
 
-• Если подмена кнопки не происходит, перезагрузите устройство.
-• Отключение этого параметра загружает больше рекламы со стороны сервера.
-• Чтобы видеореклама была видна, следует отключить этот параметр."</string>
-    <string name="revanced_enable_translucent_navigation_bar_title">Прозрачная панель навигации</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_on">Прозрачная панель навигации включена.</string>
-    <string name="revanced_enable_translucent_navigation_bar_summary_off">Прозрачная панель навигации отключена.</string>
+Примечание: Включение опции принудительно скрывает видеорекламу."</string>
+    <string name="revanced_switch_create_with_notifications_button_summary_off">Кнопки \"Создать\" и \"Уведомления\" не поменяны местами.</string>
+    <string name="revanced_switch_create_with_notifications_button_user_dialog_message">"Отключение этого параметра может привести к загрузке большего количества рекламы с сервера.
+
+Кроме того, реклама больше не будет блокироваться в Shorts.
+
+Если эта настройка не вступила в силу, попробуйте перейти в режим инкогнито."</string>
+    <string name="revanced_enable_translucent_navigation_bar_title">Полупрозрачная панель навигации</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_on">Полупрозрачность включена.</string>
+    <string name="revanced_enable_translucent_navigation_bar_summary_off">Полупрозрачность отключена.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Меню настроек</string>
     <string name="revanced_preference_screen_settings_menu_summary">Настройка меню YouTube.</string>
@@ -568,12 +557,12 @@ Shorts
 Автовоспроизведение можно изменить в настройках YouTube:
 Настройки -> Автовоспроизведение -> Автовоспроизведение следующего видео"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">Рекомендуемое видео в конце воспроизведения отображено.</string>
-    <string name="revanced_hide_zoom_overlay_title">Увеличение наложения</string>
-    <string name="revanced_hide_zoom_overlay_summary_on">Увеличение наложения отключено.</string>
-    <string name="revanced_hide_zoom_overlay_summary_off">Увеличение наложения включено.</string>
     <string name="revanced_skip_autoplay_countdown_title">Задержка автовоспроизведения</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Задержка автовоспроизведения следующего видео отключена.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">Задержка автовоспроизведения следующего видео включена.</string>
+    <string name="revanced_hide_zoom_overlay_title">Увеличение наложения</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">Увеличение наложения отключено.</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">Увеличение наложения включено.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">Кнопки действий под видео</string>
     <string name="revanced_preference_screen_action_buttons_summary">Настройка кнопок действий под видео.</string>
@@ -1223,6 +1212,13 @@ Shorts
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">Уведомление отключено.</string>
     <string name="revanced_spoof_device_dimensions_title">Подмена размеров устройства</string>
     <string name="revanced_spoof_device_dimensions_summary">"Подменяет размеры устройства, для разблокировки более высокого качества видео, которое может быть недоступно на вашем устройстве."</string>
+    <string name="revanced_disable_vp9_codec_title">VP9 кодек</string>
+    <string name="revanced_disable_vp9_codec_summary_on">"VP9 кодек отключен.
+
+• Максимальное разрешение 1080p.
+• Воспроизведение видео будет использовать больше сетевых данных, чем с VP9.
+• HDR воспроизведения нет, HDR видео все еще использует VP9 кодек."</string>
+    <string name="revanced_disable_vp9_codec_summary_off">VP9 кодек включен.</string>
     <string name="revanced_replace_av1_codec_title">Заменить программный кодек AV1</string>
     <string name="revanced_replace_av1_codec_summary">Замена программного кодека AV1 на VP9.</string>
     <string name="revanced_reject_av1_codec_title">Отказ от программного кодека AV1</string>
@@ -1436,6 +1432,7 @@ Shorts
     <string name="revanced_sb_stats_username_changed">Имя пользователя успешно изменено.</string>
     <string name="revanced_sb_stats_reputation">Ваша репутация &lt;b&gt;%.2f&lt;/b&gt;</string>
     <string name="revanced_sb_stats_submissions">Вы создали &lt;b&gt;%s&lt;/b&gt; сегментов</string>
+    <string name="revanced_sb_stats_submissions_sum">Нажмите здесь для просмотра Ваших сегментов.</string>
     <string name="revanced_sb_stats_saved_zero">Список лидеров SponsorBlock</string>
     <string name="revanced_sb_stats_saved">Вы избавили людей от &lt;b&gt;%s&lt;/b&gt; сегментов</string>
     <string name="revanced_sb_stats_saved_sum_zero">Нажмите здесь, чтобы увидеть глобальную статистику и ведущих участников.</string>
@@ -1529,7 +1526,7 @@ Shorts
     <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
     <string name="revanced_spoof_streaming_data_type_entry_web">Веб</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Эффекты от подмены</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Фильмы или платные видео могут не проигрываться.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">"• Фильмы или платные видео могут не проигрываться."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Меню \"Звуковая дорожка\" не доступно.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">• Меню \"Звуковая дорожка\" VR не доступно.</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Видео может не воспроизводиться.</string>

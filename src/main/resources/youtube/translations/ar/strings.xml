@@ -9,7 +9,7 @@
     <string name="revanced_preference_category_experimental_flag">تعديلات تجريبية</string>
     <string name="revanced_extended_confirm_user_dialog_title">هل ترغب في المتابعة؟</string>
     <string name="revanced_extended_restart_first_run">إعادة التشغيل لتحميل التخطيط بشكل طبيعي</string>
-    <string name="revanced_extended_restart_message">تحديث و إعادة تشغيل</string>
+    <string name="revanced_extended_restart_message">تحديث وإعادة تشغيل</string>
     <string name="revanced_playback_speed_normal">عادي</string>
     <string name="revanced_external_downloader_package_name_video_title">اسم حزمة تنزيل الفيديو</string>
     <string name="revanced_external_downloader_package_name_video_summary">اسم الحزمة لتطبيق التنزيل الخارجي المثبت لديك، مثل NewPipe أو YTDLnis.</string>
@@ -23,13 +23,6 @@
     <string name="revanced_hide_fullscreen_ads_title">إخفاء إعلانات ملء الشاشة</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">تم إخفاء إعلانات ملء الشاشة.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">يتم عرض إعلانات ملء الشاشة.</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">إغلاق الإعلانات بملء الشاشة</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary_on">يتم إغلاق الإعلانات بملء الشاشة من خلال زر الإغلاق.</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary_off">"يتم حظر الإعلانات بملء الشاشة.
-
-التأثير الجانبي: قد يتم حظر صور منشورات المجتمع في وضع ملء الشاشة."</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">تم حظر الإعلانات بملء الشاشة. (نوع الحوار: %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">تم إغلاق الإعلانات بملء الشاشة.</string>
     <string name="revanced_hide_general_ads_title">إخفاء الإعلانات العامة</string>
     <string name="revanced_hide_general_ads_summary_on">تم إخفاء الإعلانات العامة.</string>
     <string name="revanced_hide_general_ads_summary_off">يتم عرض الإعلانات العامة.</string>
@@ -114,6 +107,9 @@
     <string name="revanced_hide_expandable_chip_title">إخفاء الشريحة القابلة للتوسع تحت مقاطع الفيديو</string>
     <string name="revanced_hide_expandable_chip_summary_on">تم إخفاء الرقائق القابلة للتوسيع.</string>
     <string name="revanced_hide_expandable_chip_summary_off">يتم عرض الرقائق القابلة للتوسيع.</string>
+    <string name="revanced_hide_expandable_shelf_title">إخفاء الرفوف القابلة للتوسع</string>
+    <string name="revanced_hide_expandable_shelf_summary_on">تم إخفاء الرفوف القابلة للتوسع.</string>
+    <string name="revanced_hide_expandable_shelf_summary_off">يتم عرض الرفوف القابلة للتوسع.</string>
     <string name="revanced_hide_feed_captions_button_title">إخفاء زر التَرْجَمَة في الموجز</string>
     <string name="revanced_hide_feed_captions_button_on">تم إخفاء زر التَرْجَمَة.</string>
     <string name="revanced_hide_feed_captions_button_off">يتم عرض زر التَرْجَمَة.</string>
@@ -254,18 +250,8 @@
 • مقاطع فيديو تحتوي على عبارات مثل 'شاهد الأشخاص أيضًا' أسفلها."</string>
     <string name="revanced_hide_low_views_video_title">إخفاء فيديو المشاهدات المنخفضة</string>
     <string name="revanced_hide_low_views_video_summary">إخفاء مقاطع الفيديو التي حصلت على أقل من 1000 مشاهدة من موجز الصفحة الرئيسية التي تم تحميلها من القنوات غير المشترك بها.</string>
-    <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Duration filter -->
-    <string name="revanced_preference_category_duration_filter">فلترة المـدة</string>
-    <string name="revanced_hide_video_by_duration_title">إخفاء الفيديوهات بناءً على المـدة</string>
-    <string name="revanced_hide_video_by_duration_summary">إخفاء مقاطع الفيديو التي تقل مدتها عن المدة أو أطول منها.\n\nمشكلة معروفة: لن يؤدي ذلك إلى إخفاء مقاطع الفيديو في مقاطع الفيديو ذات الصلة بالمشغل، بل سيخفي الطابع الزمني بدلاً من ذلك.</string>
-    <string name="revanced_hide_video_by_duration_longer_than_title">الأطول من المـدة</string>
-    <string name="revanced_hide_video_by_duration_longer_than_summary">سيتم إخفاء الفيديوهات التي تزيد مدتها عن هذا الرقم.</string>
-    <string name="revanced_hide_video_by_duration_shorter_than_title">الأقصر من المـدة</string>
-    <string name="revanced_hide_video_by_duration_shorter_than_summary">سيتم إخفاء الفيديوهات التي تقل مدتها عن هذا الرقم.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">تصفية عدد المشاهدات</string>
-    <string name="revanced_hide_video_by_view_counts_title">إخفاء الفيديوهات الموصى بها عن طريق المشاهدات</string>
-    <string name="revanced_hide_video_by_view_counts_summary">إخفاء الفيديوهات الموصى بها التي حصلت على عدد أقل من عدد معين من المشاهدات.\n\nمشكلة معروفة: لا يتم تصفية الفيديوهات التي حصلت على 0 مشاهدة.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">الأكبر من المشاهدات</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">سيتم إخفاء الفيديوهات التي تزيد مشاهداتها عن هذا الرقم.</string>
     <string name="revanced_hide_video_view_counts_less_than_title">الأقل من المشاهدات</string>
@@ -426,11 +412,15 @@
     <string name="revanced_hide_navigation_label_summary_on">تم إخفاء تسميات شريط التنقل.</string>
     <string name="revanced_hide_navigation_label_summary_off">يتم عرض تسميات شريط التنقل.</string>
     <string name="revanced_switch_create_with_notifications_button_title">تبديل أزرار الإنشاء و الإشعارات</string>
-    <string name="revanced_switch_create_with_notifications_button_summary">"لتبديل مواضع زر الإنشاء و زر الإشعارات عن طريق إيهام معلومات الجهاز.
+    <string name="revanced_switch_create_with_notifications_button_summary_on">"تم تبديل زر الإنشاء بـزر الإشعارات.
 
-• قد يحتاج الجهاز إلى إعادة التشغيل حتى يسري تغيير هذا الإعداد.
-• يؤدي تعطيل هذا الإعداد إلى تحميل المزيد من الإعلانات من جانب الخادم.
-• يجب عليك تعطيل هذا الإعداد لجعل إعلانات الفيديو مرئية."</string>
+ملاحظة: يؤدي تمكين هذا أيضًا إلى إخفاء إعلانات الفيديو بالقوة."</string>
+    <string name="revanced_switch_create_with_notifications_button_summary_off">لا يتم تبديل زر الإنشاء بزر الإشعارات.</string>
+    <string name="revanced_switch_create_with_notifications_button_user_dialog_message">"قد يؤدي تعطيل هذا إلى تحميل المزيد من الإعلانات من الخادم.
+
+كما لن يتم حظر الإعلانات في فيديوهات Shorts بعد الآن.
+
+إذا لم يتم تفعيل هذا الإعداد، فحاول التبديل إلى وضع التصفح المتخفي."</string>
     <string name="revanced_enable_translucent_navigation_bar_title">تمكين شريط التنقل الشفاف</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">شريط التنقل شفاف.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">شريط التنقل غير شفاف.</string>
@@ -555,12 +545,12 @@
 يمكن تغيير التشغيل التلقائي في إعدادات YouTube:
 الإعدادات ← التشغيل التلقائي ← تشغيل الفيديو التالي تلقائيًا"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">يتم عرض شاشة نهاية الفيديو المقترح.</string>
-    <string name="revanced_hide_zoom_overlay_title">إخفاء تراكب التكبير</string>
-    <string name="revanced_hide_zoom_overlay_summary_on">يتم عرض تراكب التكبير.</string>
-    <string name="revanced_hide_zoom_overlay_summary_off">تم إخفاء تراكب التكبير.</string>
     <string name="revanced_skip_autoplay_countdown_title">تخطي العد التنازلي للتشغيل التلقائي</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">إذا تم تمكين التشغيل التلقائي، فسيتم تشغيل الفيديو التالي على الفور.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">إذا تم تمكين التشغيل التلقائي، فسيتم تشغيل الفيديو التالي بعد انتهاء العد التنازلي.</string>
+    <string name="revanced_hide_zoom_overlay_title">إخفاء تراكب التكبير</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">يتم عرض تراكب التكبير.</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">تم إخفاء تراكب التكبير.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">أزرار الإجراء</string>
     <string name="revanced_preference_screen_action_buttons_summary">إخفاء أو عرض أزرار الإجراءات تحت الفيديو.</string>
@@ -1209,6 +1199,13 @@
     <string name="revanced_spoof_device_dimensions_title">إيهام أبعاد الجهاز</string>
     <string name="revanced_spoof_device_dimensions_summary">"يوهم أبعاد الجهاز من أجل فتح جودة فيديو أعلى قد لا تكون متوفرة على جهازك.
 قد يتم توفير الجودة العالية في بعض مقاطع الفيديو التي تتطلب أبعادًا عالية للجهاز، ولكن ليس كل مقاطع الفيديو."</string>
+    <string name="revanced_disable_vp9_codec_title">تعطيل ترميز VP9</string>
+    <string name="revanced_disable_vp9_codec_summary_on">"تم تعطيل برنامج ترميز VP9.
+
+• الحد الأقصى للدقة هو 1080P.
+• سيستهلك تشغيل الفيديو بيانات إنترنت أكثر من VP9.
+• للحصول على تشغيل HDR، لا يزال فيديو HDR يستخدم برنامج ترميز VP9."</string>
+    <string name="revanced_disable_vp9_codec_summary_off">تم تمكين ترميز VP9.</string>
     <string name="revanced_replace_av1_codec_title">استبدال برنامج الترميز AV1</string>
     <string name="revanced_replace_av1_codec_summary">يستبدل برنامج الترميز AV1 ببرنامج الترميز VP9.</string>
     <string name="revanced_reject_av1_codec_title">رفض استجابة برنامج الترميز AV1</string>
@@ -1421,6 +1418,7 @@
     <string name="revanced_sb_stats_username_changed">تم تغيير اسم المستخدم بنجاح.</string>
     <string name="revanced_sb_stats_reputation">سمعتك &lt;b&gt;%.2f&lt;/b&gt;</string>
     <string name="revanced_sb_stats_submissions">لقد أنشأت &lt;b&gt;%s&lt;/b&gt; مقطع</string>
+    <string name="revanced_sb_stats_submissions_sum">اضغط هنا لعرض المقاطع الخاصة بك.</string>
     <string name="revanced_sb_stats_saved_zero">SponsorBlock Leaderboard</string>
     <string name="revanced_sb_stats_saved">لقد قمت بحفظ الناس من &lt;b&gt;%s&lt;/b&gt; مقطع</string>
     <string name="revanced_sb_stats_saved_sum_zero">انقر هنا لرؤية الإحصائيات العالمية وأبرز المساهمين.</string>
@@ -1513,7 +1511,8 @@
     <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
     <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">التأثيرات الجانبية للتزييف</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• قد لا يتم تشغيل الأفلام أو الفيديوهات المدفوعة.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">"• قد لا يتم تشغيل الأفلام أو الفيديوهات المدفوعة.
+• يبدأ البث المباشر من البداية."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• قائمة المقطع الصوتي مفقودة.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">• قائمة المقطع الصوتي مفقودة.</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• قد لا يتم تشغيل الفيديو.</string>
