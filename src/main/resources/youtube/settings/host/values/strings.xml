@@ -1626,7 +1626,8 @@ Tap on the continue button and disable battery optimizations."</string>
     <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
     <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Spoofing side effects</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• Movies or paid videos may not play.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">"• Movies or paid videos may not play.
+• Livestreams start from the beginning."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Audio track menu is missing.</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">• Audio track menu is missing.</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Video may not play.</string>
