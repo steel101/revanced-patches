@@ -119,6 +119,9 @@ Tap here to learn more about DeArrow."</string>
     <string name="revanced_hide_expandable_chip_title">Hide expandable chip under videos</string>
     <string name="revanced_hide_expandable_chip_summary_on">Expandable chips are hidden.</string>
     <string name="revanced_hide_expandable_chip_summary_off">Expandable chips are shown.</string>
+    <string name="revanced_hide_expandable_shelf_title">Hide expandable shelves</string>
+    <string name="revanced_hide_expandable_shelf_summary_on">Expandable shelves are hidden.</string>
+    <string name="revanced_hide_expandable_shelf_summary_off">Expandable shelves are shown.</string>
     <string name="revanced_hide_feed_captions_button_title">Hide feed captions button</string>
     <string name="revanced_hide_feed_captions_button_on">Captions button is hidden.</string>
     <string name="revanced_hide_feed_captions_button_off">Captions button is shown.</string>
