@@ -1295,6 +1295,13 @@ Info:
     <string name="revanced_spoof_device_dimensions_title">Spoof device dimensions</string>
     <string name="revanced_spoof_device_dimensions_summary">"Spoofs the device dimensions to the maximum value.
 High quality may be unlocked on some videos that require high device dimensions, but not all videos."</string>
+    <string name="revanced_disable_vp9_codec_title">Disable VP9 codec</string>
+    <string name="revanced_disable_vp9_codec_summary_on">"VP9 codec is disabled.
+
+• Maximum resolution is 1080p.
+• Video playback will use more internet data than VP9.
+• To get HDR playback, HDR video still uses the VP9 codec."</string>
+    <string name="revanced_disable_vp9_codec_summary_off">VP9 codec is enabled.</string>
     <string name="revanced_replace_av1_codec_title">Replace software AV1 codec</string>
     <string name="revanced_replace_av1_codec_summary">Replaces the software AV1 codec with the VP9 codec.</string>
     <string name="revanced_reject_av1_codec_title">Reject software AV1 codec response</string>
