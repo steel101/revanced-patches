@@ -144,7 +144,8 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
                                 else -> null
                             }
                             if (drawableName == EMPTY_ICON &&
-                                ApplyToAll == false) return@loop
+                                ApplyToAll == false
+                            ) return@loop
 
                             drawableName?.let {
                                 node.setAttribute("android:icon", "@drawable/$it")
