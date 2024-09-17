@@ -1,26 +1,29 @@
 package app.revanced.patches.youtube.layout.visual
 
 import app.revanced.patcher.data.ResourceContext
+import app.revanced.patcher.patch.options.PatchOption.PatchExtensions.booleanPatchOption
 import app.revanced.patcher.patch.options.PatchOption.PatchExtensions.stringPatchOption
 import app.revanced.patches.youtube.layout.branding.icon.CustomBrandingIconPatch
 import app.revanced.patches.youtube.utils.compatibility.Constants.COMPATIBLE_PACKAGE
 import app.revanced.patches.youtube.utils.settings.SettingsPatch
 import app.revanced.util.ResourceGroup
+import app.revanced.util.Utils.trimIndentMultiline
 import app.revanced.util.copyResources
 import app.revanced.util.doRecursively
 import app.revanced.util.patch.BaseResourcePatch
 import app.revanced.util.underBarOrThrow
 import org.w3c.dom.Element
+import java.io.Closeable
 
 @Suppress("DEPRECATION", "unused")
 object VisualPreferencesIconsPatch : BaseResourcePatch(
     name = "Visual preferences icons",
     description = "Adds icons to specific preferences in the settings.",
     dependencies = setOf(SettingsPatch::class),
-    compatiblePackages = COMPATIBLE_PACKAGE,
-    use = false
-) {
+    compatiblePackages = COMPATIBLE_PACKAGE
+), Closeable {
     private const val DEFAULT_ICON = "extension"
+    private const val EMPTY_ICON = "empty_icon"
 
     private val RVXSettingsMenuIcon = stringPatchOption(
         key = "RVXSettingsMenuIcon",
@@ -37,7 +40,24 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
         required = true
     )
 
+    private val ApplyToAll by booleanPatchOption(
+        key = "ApplyToAll",
+        default = false,
+        title = "Apply to all settings menu",
+        description = """
+            Whether to apply Visual preferences icons to all settings menus.
+
+            If true: icons are applied to the parent PreferenceScreen of YouTube settings, the parent PreferenceScreen of RVX settings and the RVX sub-settings (if supports).
+
+            If false: icons are applied only to the parent PreferenceScreen of YouTube settings and RVX settings.
+            """.trimIndentMultiline(),
+        required = true
+    )
+
+    private lateinit var context: ResourceContext
+
     override fun execute(context: ResourceContext) {
+        this.context = context
 
         // Check patch options first.
         val selectedIconType = RVXSettingsMenuIcon
@@ -45,6 +65,12 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
 
         val customBrandingIconType = CustomBrandingIconPatch.AppIcon
             .underBarOrThrow()
+
+        if (ApplyToAll == true) {
+            preferenceKey += rvxPreferenceKey
+        }
+
+        preferenceIcon = preferenceKey.setPreferenceIcon()
 
         // region copy shared resources.
 
@@ -55,7 +81,7 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
             ),
             ResourceGroup(
                 "drawable-xxhdpi",
-                "$emptyIcon.png"
+                "$EMPTY_ICON.png"
             ),
         ).forEach { resourceGroup ->
             context.copyResources("youtube/visual/shared", resourceGroup)
@@ -90,6 +116,11 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
 
         // endregion.
 
+        SettingsPatch.updatePatchStatus(this)
+    }
+
+    override fun close() {
+
         // region set visual preferences icon.
 
         arrayOf(
@@ -109,9 +140,12 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
 
                                 // Add custom RVX settings menu icon
                                 in intentKey -> intentIcon[title]
-                                in emptyTitles -> emptyIcon
+                                in emptyTitles -> EMPTY_ICON
                                 else -> null
                             }
+                            if (drawableName == EMPTY_ICON &&
+                                ApplyToAll == false) return@loop
+
                             drawableName?.let {
                                 node.setAttribute("android:icon", "@drawable/$it")
                             }
@@ -122,35 +156,34 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
 
         // endregion.
 
-        SettingsPatch.updatePatchStatus(this)
     }
 
     // region preference key and icon.
 
-    private val preferenceKey = setOf(
-        // Main settings (sorted as displayed in the settings)
-        "parent_tools_key",
-        "general_key",
+    private var preferenceKey = setOf(
+        // YouTube settings.
+        "about_key",
+        "accessibility_settings_key",
         "account_switcher_key",
-        "data_saving_settings_key",
         "auto_play_key",
-        "video_quality_settings_key",
+        "billing_and_payment_key",
+        "captions_key",
+        "connected_accounts_browse_page_key",
+        "data_saving_settings_key",
+        "general_key",
+        "history_key",
+        "live_chat_key",
+        "notification_key",
         "offline_key",
         "pair_with_tv_key",
-        "history_key",
-        "your_data_key",
-        "privacy_key",
+        "parent_tools_key",
         "premium_early_access_browse_page_key",
+        "privacy_key",
         "subscription_product_setting_key",
-        "billing_and_payment_key",
-        "notification_key",
-        "connected_accounts_browse_page_key",
-        "live_chat_key",
-        "captions_key",
-        "accessibility_settings_key",
-        "about_key",
+        "video_quality_settings_key",
+        "your_data_key",
 
-        // Main RVX settings (sorted as displayed in the settings)
+        // RVX settings.
         "revanced_preference_screen_ads",
         "revanced_preference_screen_alt_thumbnails",
         "revanced_preference_screen_feed",
@@ -162,7 +195,9 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
         "revanced_preference_screen_ryd",
         "revanced_preference_screen_sb",
         "revanced_preference_screen_misc",
+    )
 
+    private var rvxPreferenceKey = setOf(
         // Internal RVX settings (items without prefix are listed first, others are sorted alphabetically)
         "gms_core_settings",
         "sb_enable_create_segment",
@@ -173,11 +208,13 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
         "revanced_alt_thumbnail_player",
         "revanced_alt_thumbnail_search",
         "revanced_alt_thumbnail_subscriptions",
+        "revanced_change_share_sheet",
         "revanced_change_shorts_repeat_state",
         "revanced_custom_player_overlay_opacity",
         "revanced_default_app_settings",
         "revanced_default_playback_speed",
         "revanced_default_video_quality_wifi",
+        "revanced_disable_default_playback_speed_music",
         "revanced_disable_hdr_auto_brightness",
         "revanced_disable_hdr_video",
         "revanced_disable_quic_protocol",
@@ -186,10 +223,13 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
         "revanced_enable_external_browser",
         "revanced_enable_old_quality_layout",
         "revanced_enable_open_links_directly",
+        "revanced_enable_opus_codec",
+        "revanced_enable_save_and_restore_brightness",
         "revanced_enable_swipe_brightness",
         "revanced_enable_swipe_haptic_feedback",
         "revanced_enable_swipe_lowest_value_auto_brightness",
         "revanced_enable_swipe_press_to_engage",
+        "revanced_enable_swipe_to_switch_video",
         "revanced_enable_swipe_volume",
         "revanced_enable_watch_panel_gestures",
         "revanced_hide_clip_button",
@@ -213,11 +253,14 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
         "revanced_hide_player_flyout_menu_audio_track",
         "revanced_hide_player_flyout_menu_captions",
         "revanced_hide_player_flyout_menu_help",
+        "revanced_hide_player_flyout_menu_listen_with_youtube_music",
         "revanced_hide_player_flyout_menu_lock_screen",
         "revanced_hide_player_flyout_menu_loop_video",
         "revanced_hide_player_flyout_menu_more_info",
+        "revanced_hide_player_flyout_menu_pip",
+        "revanced_hide_player_flyout_menu_premium_controls",
         "revanced_hide_player_flyout_menu_playback_speed",
-        "revanced_hide_player_flyout_menu_quality_footer",
+        "revanced_hide_player_flyout_menu_quality_header",
         "revanced_hide_player_flyout_menu_report",
         "revanced_hide_player_flyout_menu_stable_volume",
         "revanced_hide_player_flyout_menu_stats_for_nerds",
@@ -235,7 +278,9 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
         "revanced_hide_quick_actions_share_button",
         "revanced_hide_remix_button",
         "revanced_hide_report_button",
+        "revanced_hide_rewards_button",
         "revanced_hide_share_button",
+        "revanced_hide_shop_button",
         "revanced_hide_shorts_comments_button",
         "revanced_hide_shorts_dislike_button",
         "revanced_hide_shorts_like_button",
@@ -247,6 +292,10 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
         "revanced_hide_shorts_shelf_search",
         "revanced_hide_shorts_shelf_subscriptions",
         "revanced_hide_shorts_toolbar",
+        "revanced_hide_thanks_button",
+        "revanced_hide_toolbar_cast_button",
+        "revanced_hide_toolbar_create_button",
+        "revanced_hide_toolbar_notification_button",
         "revanced_overlay_button_always_repeat",
         "revanced_overlay_button_copy_video_url",
         "revanced_overlay_button_copy_video_url_timestamp",
@@ -280,6 +329,7 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
         "revanced_preference_screen_toolbar",
         "revanced_preference_screen_video_description",
         "revanced_preference_screen_video_filter",
+        "revanced_preference_screen_watch_history",
         "revanced_sanitize_sharing_links",
         "revanced_swipe_gestures_lock_mode",
         "revanced_swipe_magnitude_threshold",
@@ -299,13 +349,16 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
         "revanced_custom_playback_speeds",
         "revanced_custom_playback_speed_menu_type",
         "revanced_default_video_quality_mobile",
+        "revanced_disable_like_dislike_glow",
         "revanced_disable_default_playback_speed_live",
         "revanced_enable_custom_playback_speed",
-        "revanced_external_downloader_package_name",
         "revanced_hide_shorts_comments_disabled_button",
         "revanced_hide_player_flyout_menu_captions_footer",
+        "revanced_hide_player_flyout_menu_quality_footer",
         "revanced_remember_playback_speed_last_selected",
+        "revanced_remember_playback_speed_last_selected_toast",
         "revanced_remember_video_quality_last_selected",
+        "revanced_remember_video_quality_last_selected_toast",
         "revanced_restore_old_video_quality_menu",
         "revanced_enable_debug_buffer_logging",
         "revanced_whitelist_settings",
@@ -314,7 +367,7 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
     // A lot of mappings here.
     // The performance impact should be negligible in this context,
     // as the operations involved are not computationally intensive.
-    private val preferenceIcon = preferenceKey.associateWith { title ->
+    private fun Set<String>.setPreferenceIcon() = associateWith { title ->
         when (title) {
             // Main RVX settings
             "revanced_preference_screen_general" -> "general_key_icon"
@@ -326,6 +379,7 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
             "revanced_alt_thumbnail_player" -> "revanced_preference_screen_player_icon"
             "revanced_alt_thumbnail_search" -> "revanced_hide_shorts_shelf_search_icon"
             "revanced_alt_thumbnail_subscriptions" -> "revanced_hide_navigation_subscriptions_button_icon"
+            "revanced_change_share_sheet" -> "revanced_hide_shorts_share_button_icon"
             "revanced_custom_player_overlay_opacity" -> "revanced_swipe_overlay_background_alpha_icon"
             "revanced_default_app_settings" -> "revanced_preference_screen_settings_menu_icon"
             "revanced_default_playback_speed" -> "revanced_overlay_button_speed_dialog_icon"
@@ -344,9 +398,12 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
             "revanced_hide_player_captions_button" -> "captions_key_icon"
             "revanced_hide_player_flyout_menu_ambient_mode" -> "revanced_preference_screen_ambient_mode_icon"
             "revanced_hide_player_flyout_menu_captions" -> "captions_key_icon"
+            "revanced_hide_player_flyout_menu_listen_with_youtube_music" -> "revanced_hide_player_youtube_music_button_icon"
             "revanced_hide_player_flyout_menu_loop_video" -> "revanced_overlay_button_always_repeat_icon"
             "revanced_hide_player_flyout_menu_more_info" -> "about_key_icon"
-            "revanced_hide_player_flyout_menu_quality_footer" -> "revanced_default_video_quality_wifi_icon"
+            "revanced_hide_player_flyout_menu_pip" -> "offline_key_icon"
+            "revanced_hide_player_flyout_menu_premium_controls" -> "premium_early_access_browse_page_key_icon"
+            "revanced_hide_player_flyout_menu_quality_header" -> "revanced_default_video_quality_wifi_icon"
             "revanced_hide_player_flyout_menu_report" -> "revanced_hide_report_button_icon"
             "revanced_hide_player_fullscreen_button" -> "revanced_preference_screen_fullscreen_icon"
             "revanced_hide_quick_actions_dislike_button" -> "revanced_preference_screen_ryd_icon"
@@ -362,6 +419,9 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
             "revanced_hide_shorts_shelf_home_related_videos" -> "revanced_hide_navigation_home_button_icon"
             "revanced_hide_shorts_shelf_subscriptions" -> "revanced_hide_navigation_subscriptions_button_icon"
             "revanced_hide_shorts_toolbar" -> "revanced_preference_screen_toolbar_icon"
+            "revanced_hide_toolbar_cast_button" -> "revanced_hide_player_cast_button_icon"
+            "revanced_hide_toolbar_create_button" -> "revanced_hide_navigation_create_button_icon"
+            "revanced_hide_toolbar_notification_button" -> "notification_key_icon"
             "revanced_preference_screen_account_menu" -> "account_switcher_key_icon"
             "revanced_preference_screen_channel_bar" -> "account_switcher_key_icon"
             "revanced_preference_screen_channel_profile" -> "account_switcher_key_icon"
@@ -372,13 +432,15 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
             "revanced_preference_screen_patch_information" -> "about_key_icon"
             "revanced_preference_screen_shorts_player" -> "revanced_preference_screen_shorts_icon"
             "revanced_preference_screen_video_filter" -> "revanced_preference_screen_video_icon"
+            "revanced_preference_screen_watch_history" -> "history_key_icon"
             "revanced_swipe_gestures_lock_mode" -> "revanced_hide_player_flyout_menu_lock_screen_icon"
             "revanced_disable_hdr_auto_brightness" -> "revanced_disable_hdr_video_icon"
             else -> "${title}_icon"
         }
     }
+
+    private lateinit var preferenceIcon: Map<String, String>
     private val intentIcon = intentKey.associateWith { "${it}_icon" }
-    private const val emptyIcon = "empty_icon"
 
     // endregion.
 
