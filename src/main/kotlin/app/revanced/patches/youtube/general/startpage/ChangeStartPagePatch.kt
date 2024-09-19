@@ -32,7 +32,7 @@ object ChangeStartPagePatch : BaseBytecodePatch(
 
     override fun execute(context: BytecodeContext) {
 
-        // Hook broseId.
+        // Hook browseId.
         BrowseIdFingerprint.resultOrThrow().mutableMethod.apply {
             val browseIdIndex = indexOfFirstInstructionOrThrow {
                 opcode == Opcode.CONST_STRING &&
@@ -48,7 +48,7 @@ object ChangeStartPagePatch : BaseBytecodePatch(
             )
         }
 
-        // There is no browserId assigned to Shorts and Search.
+        // There is no browseId assigned to Shorts and Search.
         // Just hook the Intent action.
         IntentActionFingerprint.resultOrThrow().mutableMethod.addInstruction(
             0,
