@@ -17,7 +17,7 @@ import java.io.Closeable
 
 @Suppress("DEPRECATION", "unused")
 object VisualPreferencesIconsPatch : BaseResourcePatch(
-    name = "Visual preferences icons",
+    name = "Visual preferences icons for YouTube",
     description = "Adds icons to specific preferences in the settings.",
     dependencies = setOf(SettingsPatch::class),
     compatiblePackages = COMPATIBLE_PACKAGE
