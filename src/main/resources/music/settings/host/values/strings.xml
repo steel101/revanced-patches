@@ -404,6 +404,9 @@ Tap on the continue button and disable battery optimizations."</string>
     <string name="revanced_sanitize_sharing_links_title">Sanitize sharing links</string>
     <string name="revanced_sanitize_sharing_links_summary">Removes tracking query parameters from URLs when sharing links.</string>
 
+    <string name="revanced_default_app_settings_title">Open default app settings</string>
+    <string name="revanced_default_app_settings_summary">To open YouTube Music links in RVX Music, enable \'Open supported links\' and enable the supported web addresses.</string>
+
     <string name="revanced_extended_settings_import_export_title">Import / Export settings</string>
     <string name="revanced_extended_settings_import_export_summary">Import or export settings.</string>
 

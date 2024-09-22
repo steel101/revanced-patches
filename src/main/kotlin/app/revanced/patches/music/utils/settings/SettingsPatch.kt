@@ -224,6 +224,14 @@ object SettingsPatch : BaseResourcePatch(
         }
 
         /**
+         * add open default app settings
+         */
+        addPreferenceWithIntent(
+            CategoryType.MISC,
+            "revanced_default_app_settings"
+        )
+
+        /**
          * add import export settings
          */
         addPreferenceWithIntent(
