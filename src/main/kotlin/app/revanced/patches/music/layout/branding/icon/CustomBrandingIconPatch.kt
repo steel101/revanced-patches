@@ -79,7 +79,7 @@ object CustomBrandingIconPatch : BaseResourcePatch(
     private val splashIconResourceGroups =
         largeDrawableDirectories.getResourceGroup(splashIconResourceFileNames)
 
-    private val AppIcon = stringPatchOption(
+    val AppIcon = stringPatchOption(
         key = "AppIcon",
         default = DEFAULT_ICON,
         values = availableIcon,
