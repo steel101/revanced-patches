@@ -1322,7 +1322,7 @@ High quality may be unlocked on some videos that require high device dimensions,
 
 • Maximum resolution is 1080p.
 • Video playback will use more internet data than VP9.
-• To get HDR playback, HDR video still uses the VP9 codec."</string>
+• VP9 codec is still used for HDR video."</string>
     <string name="revanced_disable_vp9_codec_summary_off">VP9 codec is enabled.</string>
     <string name="revanced_replace_av1_codec_title">Replace software AV1 codec</string>
     <string name="revanced_replace_av1_codec_summary">Replaces the software AV1 codec with the VP9 codec.</string>
