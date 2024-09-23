@@ -94,6 +94,7 @@
     <string name="revanced_hide_album_card_title">Карточки альбомов</string>
     <string name="revanced_hide_album_card_summary_on">Карточки альбомов скрыты.</string>
     <string name="revanced_hide_album_card_summary_off">Карточки альбомов отображены.</string>
+    <string name="revanced_hide_carousel_shelf_title">Скрыть рекомендуемые секции</string>
     <string name="revanced_hide_carousel_shelf_summary">"Скрывает следующие секции:
 • Срочные новости
 • Продолжить просмотр
@@ -101,7 +102,6 @@
 • Слушать ещё раз
 • Покупки
 • Смотреть ещё раз"</string>
-    <string name="revanced_hide_carousel_shelf_title">Скрыть рекомендуемые секции</string>
     <string name="revanced_hide_chips_shelf_title">Секция эпизодов</string>
     <string name="revanced_hide_chips_shelf_on">Секция эпизодов скрыта.</string>
     <string name="revanced_hide_chips_shelf_off">Секция эпизодов отображена.</string>
@@ -254,6 +254,15 @@ Shorts
     <string name="revanced_hide_low_views_video_summary">Скрыть видео с менее 1000 просмотров из ленты, из каналов от которых Вы отписались.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Фильтр по количеству просмотров</string>
+    <string name="revanced_hide_video_by_view_counts_home_title">Фильтр видео в \"Главная\" по просмотрам</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_on">Фильтр видео в \"Главная\", по просмотрам, включен.</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_off">Фильтр видео в \"Главная\", по просмотрам, отключен.</string>
+    <string name="revanced_hide_video_by_view_counts_search_title">Фильтр результатов поиска по просмотрам</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_on">Фильтр результатов поиска, по просмотрам, включен.</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_off">Фильтр результатов поиска, по просмотрам, отключен.</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_title">Фильтр видео в подписках по просмотрам</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_on">Фильтр видео в подписках, по просмотрам, включен.</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_off">Фильтр видео в подписках, по просмотрам, отключен.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">Больше по просмотрам</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">Видео с большим количеством просмотров будут скрыты.</string>
     <string name="revanced_hide_video_view_counts_less_than_title">Меньше по просмотрам</string>
@@ -270,6 +279,12 @@ Shorts
 Млн -> 1 000 000
 Млрд -> 1 000 000 000
 просмотров -> views</string>
+    <string name="revanced_hide_video_by_view_counts_about_title">О фильтре подсчета просмотров</string>
+    <string name="revanced_hide_video_by_view_counts_about_summary">"Главная / Подписки / Результаты поиска, фильтруются, чтобы скрыть видео с просмотрами отличающиеся от введенного числа.
+
+Ограничения:
+• Shorts нельзя скрыть.
+• Видео без просмотров не обрабатываются."</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Основные настройки</string>
     <string name="revanced_change_start_page_title">Начальная страница</string>
@@ -317,14 +332,6 @@ Shorts
     <string name="revanced_enable_phone_layout_summary">Подмена DPI для телефонного интерфейса.</string>
     <string name="revanced_enable_tablet_layout_title">Планшетный интерфейс</string>
     <string name="revanced_enable_tablet_layout_summary">Подмена DPI для планшетного интерфейса.</string>
-    <string name="revanced_override_video_download_button_title">Действие кнопки \"Скачать\" для видео</string>
-    <string name="revanced_override_video_download_button_summary_on">Кнопка \"Скачать\" использует внешний загрузчик.</string>
-    <string name="revanced_override_video_download_button_summary_off">Кнопка \"Скачать\" использует внутренний загрузчик.</string>
-    <string name="revanced_override_playlist_download_button_title">Действие кнопки \"Скачать\" для плейлиста</string>
-    <string name="revanced_override_playlist_download_button_summary_on">Кнопка \"Скачать\" для плейлиста, использует внешний загрузчик.</string>
-    <string name="revanced_override_playlist_download_button_summary_off">Кнопка \"Скачать\" для плейлиста, использует внутренний загрузчик.</string>
-    <string name="revanced_external_downloader_package_name_playlist_title">Внешний загрузчик для плейлиста, название пакета</string>
-    <string name="revanced_external_downloader_package_name_playlist_summary">Например: NewPipe или YTDLnis, или др. (Для плейлиста).</string>
     <string name="revanced_spoof_app_version_title">Подмена версии приложения</string>
     <string name="revanced_spoof_app_version_summary_on">Версия приложения подменена</string>
     <string name="revanced_spoof_app_version_summary_off">Версия приложения не подменена</string>
@@ -364,6 +371,17 @@ Shorts
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Список компонентов для скрытия\nРазделять новой строкой.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Недопустимый фильтр: %s.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_override_video_download_button_title">Действие кнопки \"Скачать\" для видео</string>
+    <string name="revanced_override_video_download_button_summary_on">Кнопка \"Скачать\" использует внешний загрузчик.</string>
+    <string name="revanced_override_video_download_button_summary_off">Кнопка \"Скачать\" использует внутренний загрузчик.</string>
+    <string name="revanced_override_playlist_download_button_title">Действие кнопки \"Скачать\" для плейлиста</string>
+    <string name="revanced_override_playlist_download_button_summary_on">Кнопка \"Скачать\" для плейлиста, использует внешний загрузчик.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">Кнопка \"Скачать\" для плейлиста, использует внутренний загрузчик.</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">Внешний загрузчик для плейлиста, название пакета</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">Например: NewPipe или YTDLnis, или др. (Для плейлиста).</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Мини-плеер</string>
     <string name="revanced_preference_screen_miniplayer_summary">Стиль мини-плеера.</string>
@@ -1528,7 +1546,7 @@ Shorts
     <string name="revanced_spoof_streaming_data_side_effects_title">Эффекты от подмены</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• Фильмы или платные видео могут не проигрываться."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Меню \"Звуковая дорожка\" не доступно.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">• Меню \"Звуковая дорожка\" VR не доступно.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Меню \"Звуковая дорожка\" VR не доступно."</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Видео может не воспроизводиться.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Принудительно подмена как iOS, AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Видео кодек подмены как iOS - AVC (H.264).</string>

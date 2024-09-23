@@ -91,6 +91,7 @@ Stuknij tutaj, aby dowiedzieć się więcej o DeArrow."</string>
     <string name="revanced_hide_album_card_title">Karty albumów</string>
     <string name="revanced_hide_album_card_summary_on">Ukryte</string>
     <string name="revanced_hide_album_card_summary_off">Widoczne</string>
+    <string name="revanced_hide_carousel_shelf_title">Półki karuzelowe</string>
     <string name="revanced_hide_carousel_shelf_summary">"Ukrywa półki:
 • Z najnowszymi informacjami
 • Z filmami, które nie zostały dokończone
@@ -98,7 +99,6 @@ Stuknij tutaj, aby dowiedzieć się więcej o DeArrow."</string>
 • Z muzyką do ponownego odsłuchania
 • Od kupowania
 • Z filmami, które nie zostały obejrzane"</string>
-    <string name="revanced_hide_carousel_shelf_title">Półki karuzelowe</string>
     <string name="revanced_hide_chips_shelf_title">Paski z kategoriami</string>
     <string name="revanced_hide_chips_shelf_on">Ukryte</string>
     <string name="revanced_hide_chips_shelf_off">Widoczne</string>
@@ -250,6 +250,15 @@ Ograniczenia:
     <string name="revanced_hide_low_views_video_summary">Ukrywa filmy poniżej 1000 wyświetleń ze strony głównej, które zostały przesłane z niesubskrybowanych kanałów.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Filtr ilości wyświetleń</string>
+    <string name="revanced_hide_video_by_view_counts_home_title">Na stronie głównej</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_on">Włączone</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_off">Wyłączone</string>
+    <string name="revanced_hide_video_by_view_counts_search_title">W wynikach wyszukiwania</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_on">Włączone</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_off">Wyłączone</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_title">Na stronie subskrypcji</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_on">Włączone</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_off">Wyłączone</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">Popularniejsze</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">Filmy z wyświetleniami większymi niż ta liczba zostaną ukryte</string>
     <string name="revanced_hide_video_view_counts_less_than_title">Mniej popularne</string>
@@ -257,6 +266,12 @@ Ograniczenia:
     <string name="revanced_hide_video_view_counts_multiplier_title">Wyświetl klucze</string>
     <string name="revanced_hide_video_view_counts_multiplier_summary">Określ swój szablon językowy dla liczby wyświetleń pod każdym filmem w interfejsie użytkownika. Każdy klucz (litera/słowo w twoim języku) - &gt; wartość (znaczenie klucza) musi znajdować się w nowej linii. Klucze muszą znajdować się przed znakiem \"-&gt;\". Jeśli zmienisz język aplikacji, musisz zresetować to ustawienie.\n\nPrzykłady:\nAngielski: 10K views = K -&gt; 1000, views -&gt; views\nPolski: 10 tys. wyświetleń = tys -&gt; 1000, wyświetleń -&gt; views</string>
     <string name="revanced_hide_video_view_counts_multiplier_default_value">tys. -&gt; 1 000\nmln -&gt; 1 000 000\nmld - &gt; 1 000 000 000\n wyświetleń-&gt; views</string>
+    <string name="revanced_hide_video_by_view_counts_about_title">O filtrowaniu filmów po wyświetleniach</string>
+    <string name="revanced_hide_video_by_view_counts_about_summary">"Strona główna / subskrypcje / wyniki wyszukiwania są filtrowane, by ukrywać filmy z ilością wyświetleń mniejszą bądź większą od określonej liczby.
+
+Ograniczenia:
+• Shortsy nie mogą zostać ukryte
+• Filmy z 0 wyświetleń nie są filtrowane"</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Ogólne</string>
     <string name="revanced_change_start_page_title">Strona startowa</string>
@@ -305,14 +320,6 @@ Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie."</string>
     <string name="revanced_enable_phone_layout_summary">Oszukuje dpi, aby używać układu telefonu</string>
     <string name="revanced_enable_tablet_layout_title">Układ tabletu</string>
     <string name="revanced_enable_tablet_layout_summary">Oszukuje dpi, aby używać układu tabletu</string>
-    <string name="revanced_override_video_download_button_title">Metoda pobierania filmów</string>
-    <string name="revanced_override_video_download_button_summary_on">Zewnętrzna aplikacja</string>
-    <string name="revanced_override_video_download_button_summary_off">Natywne pobieranie</string>
-    <string name="revanced_override_playlist_download_button_title">Metoda pobierania playlist</string>
-    <string name="revanced_override_playlist_download_button_summary_on">Zewnętrzna aplikacja</string>
-    <string name="revanced_override_playlist_download_button_summary_off">Natywne pobieranie</string>
-    <string name="revanced_external_downloader_package_name_playlist_title">Nazwa pakietu aplikacji od pobierania (playlisty)</string>
-    <string name="revanced_external_downloader_package_name_playlist_summary">Nazwa pakietu zainstalowanej zewnętrznej aplikacji od pobierania, takiej jak YTDLnis.</string>
     <string name="revanced_spoof_app_version_title">Oszukiwanie wersji aplikacji</string>
     <string name="revanced_spoof_app_version_summary_on">Włączone</string>
     <string name="revanced_spoof_app_version_summary_off">Wyłączone</string>
@@ -352,6 +359,17 @@ Niektóre komponenty mogą nie być ukryte."</string>
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Lista tekstów tworzących ścieżkę komponentów do filtrowania, która musi być oddzielona nowymi liniami.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Nieprawidłowy własny filtr: %s.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_override_video_download_button_title">Metoda pobierania filmów</string>
+    <string name="revanced_override_video_download_button_summary_on">Zewnętrzna aplikacja</string>
+    <string name="revanced_override_video_download_button_summary_off">Natywne pobieranie</string>
+    <string name="revanced_override_playlist_download_button_title">Metoda pobierania playlist</string>
+    <string name="revanced_override_playlist_download_button_summary_on">Zewnętrzna aplikacja</string>
+    <string name="revanced_override_playlist_download_button_summary_off">Natywne pobieranie</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">Nazwa pakietu aplikacji od pobierania (playlisty)</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">Nazwa pakietu zainstalowanej zewnętrznej aplikacji od pobierania, takiej jak YTDLnis.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Miniodtwarzacz</string>
     <string name="revanced_preference_screen_miniplayer_summary">Zmień styl miniodtwarzacza w aplikacji</string>
@@ -1506,7 +1524,7 @@ Kontynuuj i wyłącz optymalizację baterii."</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• Filmy kinowe lub płatne filmy mogą się nie odtwarzać
 • Transmisje na żywo rozpoczynają się od początku"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Brakuje menu od ścieżki dźwiękowej</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">• Brakuje menu od ścieżki dźwiękowej</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Brakuje menu od ścieżki dźwiękowej"</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Filmy mogą się nie odtwarzać</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Wymuś kodek iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Włączone</string>

@@ -93,6 +93,7 @@
     <string name="revanced_hide_album_card_title">隐藏专辑卡片</string>
     <string name="revanced_hide_album_card_summary_on">专辑卡片已隐藏</string>
     <string name="revanced_hide_album_card_summary_off">专辑卡片已显示</string>
+    <string name="revanced_hide_carousel_shelf_title">隐藏轮播内容</string>
     <string name="revanced_hide_carousel_shelf_summary">"隐藏以下分类：
 • 突发新闻
 • 继续观看
@@ -100,7 +101,6 @@
 • 再次收听
 • 购物
 • 重新观看"</string>
-    <string name="revanced_hide_carousel_shelf_title">隐藏轮播内容</string>
     <string name="revanced_hide_chips_shelf_title">隐藏 Chips 视频栏</string>
     <string name="revanced_hide_chips_shelf_on">Chips 视频栏已隐藏</string>
     <string name="revanced_hide_chips_shelf_off">Chips 视频栏已显示</string>
@@ -305,14 +305,6 @@
     <string name="revanced_enable_phone_layout_summary">伪装 DPI 以使用一些手机布局</string>
     <string name="revanced_enable_tablet_layout_title">启用平板布局</string>
     <string name="revanced_enable_tablet_layout_summary">伪装 DPI 以使用一些平板布局</string>
-    <string name="revanced_override_video_download_button_title">覆盖视频下载按钮</string>
-    <string name="revanced_override_video_download_button_summary_on">视频下载按钮打开外部下载器</string>
-    <string name="revanced_override_video_download_button_summary_off">视频下载按钮打开应用内下载器</string>
-    <string name="revanced_override_playlist_download_button_title">覆盖播放列表下载按钮</string>
-    <string name="revanced_override_playlist_download_button_summary_on">播放列表下载按钮打开外部下载器</string>
-    <string name="revanced_override_playlist_download_button_summary_off">播放列表下载按钮打开应用内下载器</string>
-    <string name="revanced_external_downloader_package_name_playlist_title">播放列表下载器名称</string>
-    <string name="revanced_external_downloader_package_name_playlist_summary">已安装的外部下载器应用包名，例如 YTDLnis</string>
     <string name="revanced_spoof_app_version_title">伪装应用版本</string>
     <string name="revanced_spoof_app_version_summary_on">客户端版本已伪装</string>
     <string name="revanced_spoof_app_version_summary_off">客户端版本未伪装</string>
@@ -352,6 +344,17 @@
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">按行分隔的名称筛选组件</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">自定义过滤器无效: %s</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_override_video_download_button_title">覆盖视频下载按钮</string>
+    <string name="revanced_override_video_download_button_summary_on">视频下载按钮打开外部下载器</string>
+    <string name="revanced_override_video_download_button_summary_off">视频下载按钮打开应用内下载器</string>
+    <string name="revanced_override_playlist_download_button_title">覆盖播放列表下载按钮</string>
+    <string name="revanced_override_playlist_download_button_summary_on">播放列表下载按钮打开外部下载器</string>
+    <string name="revanced_override_playlist_download_button_summary_off">播放列表下载按钮打开应用内下载器</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">播放列表下载器名称</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">已安装的外部下载器应用包名，例如 YTDLnis</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">迷你播放器</string>
     <string name="revanced_preference_screen_miniplayer_summary">更改应用最小化播放器样式</string>
@@ -1498,7 +1501,7 @@
     <string name="revanced_spoof_streaming_data_side_effects_title">伪装副作用</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• 电影或付费视频可能无法播放"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• 音轨菜单缺失</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">• 音轨菜单缺失</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• 音轨菜单缺失"</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• 视频可能无法播放</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">强制使用 iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">iOS 视频编解码器是 AVC (H.264)</string>

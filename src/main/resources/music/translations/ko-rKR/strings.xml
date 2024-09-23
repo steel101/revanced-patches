@@ -245,11 +245,11 @@ YT Music 설정 메뉴뿐만 아니라 ReVanced Extended 설정 메뉴도 숨겨
     <string name="revanced_custom_playback_speeds_summary">사용하고 싶은 재생 속도 값을 추가하거나 변경할 수 있습니다.</string>
     <string name="revanced_remember_playback_speed_last_selected_title">재생 속도 저장 활성화</string>
     <string name="revanced_remember_playback_speed_last_selected_summary">재생 속도 값을 변경할 때마다 저장합니다.</string>
-    <string name="revanced_remember_playback_speed_last_selected_toast_title">팝업 메시지 표시하기</string>
+    <string name="revanced_remember_playback_speed_last_selected_toast_title">팝업 메시지 표시</string>
     <string name="revanced_remember_playback_speed_last_selected_toast_summary">기본 동영상 재생 속도 값으로 변경되었을 때, 팝업 메시지를 표시합니다.</string>
     <string name="revanced_remember_video_quality_last_selected_title">동영상 품질 저장 활성화</string>
     <string name="revanced_remember_video_quality_last_selected_summary">동영상 품질 값을 변경할 때마다 저장합니다.</string>
-    <string name="revanced_remember_video_quality_last_selected_toast_title">팝업 메시지 표시하기</string>
+    <string name="revanced_remember_video_quality_last_selected_toast_title">팝업 메시지 표시</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary">기본 동영상 화질 값으로 변경되었을 때, 팝업 메시지를 표시합니다.</string>
     <string name="revanced_custom_playback_speeds_invalid">사용자 정의 재생 속도는 %s배속보다 작아야 하므로 기본값으로 초기화합니다.</string>
     <string name="revanced_custom_playback_speeds_parse_exception">잘못된 재생 속도 값이므로 기본값으로 초기화합니다.</string>
@@ -332,7 +332,7 @@ YT Music 설정 메뉴뿐만 아니라 ReVanced Extended 설정 메뉴도 숨겨
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">기타</string>
-    <string name="revanced_bypass_image_region_restrictions_title">이미지 표시 제한 국가 우회하기</string>
+    <string name="revanced_bypass_image_region_restrictions_title">이미지 표시 제한 국가 우회</string>
     <string name="revanced_bypass_image_region_restrictions_summary">이미지 도메인을 변경하여 일부 국가에서 차단된 재생목록 썸네일, 채널 프로필 사진, 커뮤니티 게시물 이미지 등을 수신할 수 있습니다.</string>
     <string name="revanced_change_share_sheet_title">공유 시트 변경</string>
     <string name="revanced_change_share_sheet_summary">YT Music 기본 공유 시트에서 Android 기본 공유 시트로 변경합니다.\n\n• 공유 버튼으로 바로 Android 기본 공유 메뉴를 실행할 수 있습니다.</string>

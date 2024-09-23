@@ -91,6 +91,7 @@
     <string name="revanced_hide_album_card_title">Приховати картки альбому</string>
     <string name="revanced_hide_album_card_summary_on">Картки альбомів приховано.</string>
     <string name="revanced_hide_album_card_summary_off">Картки альбому показується.</string>
+    <string name="revanced_hide_carousel_shelf_title">Приховати карусельну полицю</string>
     <string name="revanced_hide_carousel_shelf_summary">"Приховати наступні полиці:
 • Важливі новини
 • Продовжити перегляд
@@ -98,7 +99,6 @@
 • Прослухати знову
 • Покупки
 • Переглянути ще раз"</string>
-    <string name="revanced_hide_carousel_shelf_title">Приховати карусельну полицю</string>
     <string name="revanced_hide_chips_shelf_title">Приховати полицю фішок</string>
     <string name="revanced_hide_chips_shelf_on">Полицю фішок приховано</string>
     <string name="revanced_hide_chips_shelf_off">Полицю фішок показується</string>
@@ -250,6 +250,15 @@
     <string name="revanced_hide_low_views_video_summary">Приховати відео з менш ніж 1,000 переглядів з головної стрічки, вантажені з каналів, на які не підписані.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Фільтр за кількістю переглядів</string>
+    <string name="revanced_hide_video_by_view_counts_home_title">Приховати відео на головній за переглядами</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_on">Відео у головній стрічці фільтруються.</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_off">Відео у головній стрічці не фільтруються.</string>
+    <string name="revanced_hide_video_by_view_counts_search_title">Приховати результати пошуку за переглядами</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_on">Результати пошуку фільтрується.</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_off">Результати пошуку не фільтрується.</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_title">Приховати відео підписок за переглядами</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_on">Відео у стрічці підписок фільтруються.</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_off">Відео у стрічці підписок не фільтруються.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">Більші за переглядами</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">Відео з більше ніж ця кількість переглядів приховуватимуться.</string>
     <string name="revanced_hide_video_view_counts_less_than_title">Менші за переглядами</string>
@@ -257,6 +266,12 @@
     <string name="revanced_hide_video_view_counts_multiplier_title">Ключі переглядів</string>
     <string name="revanced_hide_video_view_counts_multiplier_summary">Вкажіть шаблон вашою мовою для кількості переглядів як показується під будь-яким відео в інтерфейсі користувача. Будь-який ключ (літера/слово на вашій мові) -&gt; значення (значення ключа) повинно бути з нового рядка. Ключі йдуть перед позначкою \"-&gt;\". Якщо змінили мову програми або системи, потрібно скинути це налаштування.\n\nЗразок:\nАнглійською: 10K views = K -&gt; 1000, views -&gt; views\nУкраїнською: 10 тис. переглядів = тис. -&gt; 1000, переглядів -&gt; views</string>
     <string name="revanced_hide_video_view_counts_multiplier_default_value">тис. -&gt; 1 000\nмлн -&gt; 1 000 000\nмлрд -&gt; 1 000 000 000\nпереглядів -&gt; views</string>
+    <string name="revanced_hide_video_by_view_counts_about_title">Про фільтрацію за переглядами</string>
+    <string name="revanced_hide_video_by_view_counts_about_summary">"Головна/Підписки/Результати пошуку фільтрується, щоб приховати відео з переглядами менше або більше вказаної кількості.
+
+Застереження:
+• YouTube Shorts неможливо приховати.
+• Відео з 0 переглядів не фільтруються."</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Загальне</string>
     <string name="revanced_change_start_page_title">Змінити початкову сторінку</string>
@@ -305,14 +320,6 @@
     <string name="revanced_enable_phone_layout_summary">Підміняє DPI для використання інтерфейсу деяких телефонів</string>
     <string name="revanced_enable_tablet_layout_title">Увімкнути Планшетний інтерфейс</string>
     <string name="revanced_enable_tablet_layout_summary">Підміняє DPI для використання інтерфейсу деяких планшетів</string>
-    <string name="revanced_override_video_download_button_title">Перевизначити кнопку завантаження відео</string>
-    <string name="revanced_override_video_download_button_summary_on">Кнопка завантаження відео відкриває зовнішній завантажувач.</string>
-    <string name="revanced_override_video_download_button_summary_off">Кнопка завантаження відео відкриває вбудований завантажувач.</string>
-    <string name="revanced_override_playlist_download_button_title">Перевизначити кнопку завантаження списку відтворення</string>
-    <string name="revanced_override_playlist_download_button_summary_on">Кнопка вбудованого завантаження списку відтворення завжди показується, і в публічних списках відтворення відкриває зовнішній завантажувач.</string>
-    <string name="revanced_override_playlist_download_button_summary_off">Кнопка вбудованого завантаження списку відтворення відкриває вбудований завантажувач, якщо показується.</string>
-    <string name="revanced_external_downloader_package_name_playlist_title">Ім\'я пакета завантажувача списку відтворення</string>
-    <string name="revanced_external_downloader_package_name_playlist_summary">Ім\'я пакета встановленого зовнішнього завантажувача, наприклад YTDLnis.</string>
     <string name="revanced_spoof_app_version_title">Підробити версію програми</string>
     <string name="revanced_spoof_app_version_summary_on">Версію підроблено</string>
     <string name="revanced_spoof_app_version_summary_off">Версію не підроблено</string>
@@ -352,6 +359,17 @@
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Список рядків конструктора шляхів компонентів для фільтрування, розділених новим рядком</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Недопустимий користувацький фільтр: %s</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_override_video_download_button_title">Перевизначити кнопку завантаження відео</string>
+    <string name="revanced_override_video_download_button_summary_on">Кнопка завантаження відео відкриває зовнішній завантажувач.</string>
+    <string name="revanced_override_video_download_button_summary_off">Кнопка завантаження відео відкриває вбудований завантажувач.</string>
+    <string name="revanced_override_playlist_download_button_title">Перевизначити кнопку завантаження списку відтворення</string>
+    <string name="revanced_override_playlist_download_button_summary_on">Кнопка вбудованого завантаження списку відтворення завжди показується, і в публічних списках відтворення відкриває зовнішній завантажувач.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">Кнопка вбудованого завантаження списку відтворення відкриває вбудований завантажувач, якщо показується.</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">Ім\'я пакета завантажувача списку відтворення</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">Ім\'я пакета встановленого зовнішнього завантажувача, наприклад YTDLnis.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Мініплеєр</string>
     <string name="revanced_preference_screen_miniplayer_summary">Зміна стилю мінімізованого плеєра в додатку.</string>
@@ -1500,7 +1518,7 @@
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• Фільми чи платні відео можуть не відтворюватися.
 • Прямі трансляції починаються з початку."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Меню звукової доріжки відсутнє.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">• Меню звукової доріжки відсутнє.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Меню звукової доріжки відсутнє."</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Відео може не відтворюватися.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Примусово AVC (H.264) iOS</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">AVC (H.264) кодек відео iOS.</string>

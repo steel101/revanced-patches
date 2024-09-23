@@ -334,7 +334,7 @@
     <string name="revanced_bypass_image_region_restrictions_title">Змінити домен зображень</string>
     <string name="revanced_bypass_image_region_restrictions_summary">Замінює домен для зображень, заблокований у деяких регіонах, що дозволить отримувати мініатюри списків відтворення, аватари каналів тощо.</string>
     <string name="revanced_change_share_sheet_title">Змінити діалог поширення</string>
-    <string name="revanced_change_share_sheet_summary">Змінює тип вікна діалогу поширення з вбудованого до системного.</string>
+    <string name="revanced_change_share_sheet_summary">Змінює тип вікна діалогу поширення з вбудованого на системний.</string>
     <string name="revanced_disable_cairo_splash_animation_title">Вимкнути сплеш анімацію Каїр</string>
     <string name="revanced_disable_cairo_splash_animation_summary">Вимикає сплеш анімацію Каїр під час запуску застосунку.</string>
     <string name="revanced_enable_debug_logging_title">Увімкнути протоколи налагодження</string>

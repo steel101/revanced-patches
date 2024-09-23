@@ -91,6 +91,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_album_card_title">アルバムカードを非表示</string>
     <string name="revanced_hide_album_card_summary_on">アーティストの概要欄の下部に表示されるアルバムカードを非表示にします。</string>
     <string name="revanced_hide_album_card_summary_off">アーティストの概要欄の下部に表示されるアルバムカードを非表示にします。</string>
+    <string name="revanced_hide_carousel_shelf_title">おすすめ欄を非表示</string>
     <string name="revanced_hide_carousel_shelf_summary">"以下の欄を非表示にします:
 • ニュース速報
 • 続きを見る
@@ -98,7 +99,6 @@ DeArrowの詳細については、ここをタップしてください。"</stri
 • もう一度聴く
 • 他のチャンネルを探す
 • ショッピング"</string>
-    <string name="revanced_hide_carousel_shelf_title">おすすめ欄を非表示</string>
     <string name="revanced_hide_chips_shelf_title">チップ欄を非表示</string>
     <string name="revanced_hide_chips_shelf_on">フィードに表示される、似ている動画のチップ欄を非表示にします。</string>
     <string name="revanced_hide_chips_shelf_off">フィードに表示される、似ている動画のチップ欄を非表示にします。</string>
@@ -242,11 +242,20 @@ DeArrowの詳細については、ここをタップしてください。"</stri
 
 • 「メンバーシップ限定」タグの付いた動画
 • 動画の下部に「他のユーザーも視聴しています」などのフレーズがある動画
-• 登録していないチャンネルからアップロードされた、再生回数が  1,000 回未満の動画"</string>
+• 登録していないチャンネルからアップロードされた、再生回数が 1,000 回未満の動画"</string>
     <string name="revanced_hide_low_views_video_title">再生回数が少ない動画を非表示</string>
     <string name="revanced_hide_low_views_video_summary">登録していないチャンネルからアップロードされた、再生回数が 1,000 回未満の動画をホームフィードから非表示にします。</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">再生回数フィルター</string>
+    <string name="revanced_hide_video_by_view_counts_home_title">ホームフィードをフィルタリング</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_on">ホームフィード内の動画を再生回数でフィルタリングします。</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_off">ホームフィード内の動画を再生回数でフィルタリングします。</string>
+    <string name="revanced_hide_video_by_view_counts_search_title">検索結果をフィルタリング</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_on">検索結果を再生回数でフィルタリングします。</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_off">検索結果を再生回数でフィルタリングします。</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_title">登録チャンネルをフィルタリング</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_on">登録チャンネルの動画を再生回数でフィルタリングします。</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_off">登録チャンネルの動画を再生回数でフィルタリングします。</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">再生回数が多い動画を非表示</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">この数値より多い再生回数の動画を非表示にします。</string>
     <string name="revanced_hide_video_view_counts_less_than_title">再生回数が少ない動画を非表示</string>
@@ -254,6 +263,12 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_video_view_counts_multiplier_title">キーを表示</string>
     <string name="revanced_hide_video_view_counts_multiplier_summary">UIの各動画の下に表示される再生回数の言語テンプレートを設定します。各キー (言語の文字/単語) -&gt; 値 (キーの意味) は、改行して記述する必要があります。キーは「-&gt;」記号の前に記述します。言語設定を更新した場合は、この設定をリセットする必要があります。\n\n例:\n英語: 10K views = K -&gt; 1000、views -&gt; 回\nスペイン語: 10 K vistas = K -&gt; 1000、vistas -&gt; 回</string>
     <string name="revanced_hide_video_view_counts_multiplier_default_value">万 -&gt; 10 000\n億 -&gt; 100 000 000\n回視聴 -&gt; views</string>
+    <string name="revanced_hide_video_by_view_counts_about_title">再生回数のフィルタリングについて</string>
+    <string name="revanced_hide_video_by_view_counts_about_summary">"ホーム / 登録チャンネル / 検索結果はフィルタリングされ、設定した値よりも少ない視聴回数の動画を非表示にします。
+
+注意: 
+• ショート動画は非表示にできません。
+• 再生回数が 0 の動画はフィルタリングされません。"</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">全般</string>
     <string name="revanced_change_start_page_title">起動時のページを変更</string>
@@ -280,7 +295,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
 注意: この設定はショートには適用されません。</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">音声トラックが自動で選択されるのを無効化します。
 
-注意: この設定はショートには適用されません。</string>
+注意: この設定はショート動画には適用されません。</string>
     <string name="revanced_disable_auto_captions_title">字幕の強制を無効化</string>
     <string name="revanced_disable_auto_captions_summary_on">字幕の自動的な強制を無効化します。</string>
     <string name="revanced_disable_auto_captions_summary_off">字幕の自動的な強制を無効化します。</string>
@@ -306,14 +321,6 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_enable_phone_layout_summary">スマートフォン用レイアウトの一部を使用できるように、dpi を偽装します。</string>
     <string name="revanced_enable_tablet_layout_title">タブレット用のレイアウトを有効化</string>
     <string name="revanced_enable_tablet_layout_summary">タブレット用レイアウトの一部を使用できるように、dpi を偽装します。</string>
-    <string name="revanced_override_video_download_button_title">「オフライン」ボタンを置き換え</string>
-    <string name="revanced_override_video_download_button_summary_on">「オフライン」ボタンで外部ダウンローダーを開きます。</string>
-    <string name="revanced_override_video_download_button_summary_off">「オフライン」ボタンで外部ダウンローダーを開きます。</string>
-    <string name="revanced_override_playlist_download_button_title">プレイリストにダウンロードボタンを追加</string>
-    <string name="revanced_override_playlist_download_button_summary_on">「ダウンロード」ボタンで外部ダウンローダーを開きます。</string>
-    <string name="revanced_override_playlist_download_button_summary_off">「ダウンロード」ボタンで外部ダウンローダーを開きます。</string>
-    <string name="revanced_external_downloader_package_name_playlist_title">プレイリストの外部ダウンローダーのパッケージ名</string>
-    <string name="revanced_external_downloader_package_name_playlist_summary">NewPipe や YTDLnis などの、インストールされている外部ダウンローダーアプリのパッケージ名です。</string>
     <string name="revanced_spoof_app_version_title">アプリのバージョンを偽装</string>
     <string name="revanced_spoof_app_version_summary_on">アプリのバージョンは偽装されています。</string>
     <string name="revanced_spoof_app_version_summary_off">アプリのバージョンは偽装されていません。</string>
@@ -353,6 +360,17 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">フィルタリングするコンポーネントパスビルダーの文字列を並べたリスト。（改行区切り）</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">無効なカスタムフィルターです: %s。</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_override_video_download_button_title">「オフライン」ボタンを置き換え</string>
+    <string name="revanced_override_video_download_button_summary_on">「オフライン」ボタンで外部ダウンローダーを開きます。</string>
+    <string name="revanced_override_video_download_button_summary_off">「オフライン」ボタンで外部ダウンローダーを開きます。</string>
+    <string name="revanced_override_playlist_download_button_title">プレイリストにダウンロードボタンを追加</string>
+    <string name="revanced_override_playlist_download_button_summary_on">「ダウンロード」ボタンで外部ダウンローダーを開きます。</string>
+    <string name="revanced_override_playlist_download_button_summary_off">「ダウンロード」ボタンで外部ダウンローダーを開きます。</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">プレイリストの外部ダウンローダーのパッケージ名</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">NewPipe や YTDLnis などの、インストールされている外部ダウンローダーアプリのパッケージ名です。</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">ミニプレーヤー</string>
     <string name="revanced_preference_screen_miniplayer_summary">ミニプレーヤーのスタイルを変更します。</string>
@@ -1193,12 +1211,8 @@ DeArrowの詳細については、ここをタップしてください。"</stri
 • 最大解像度は 1080p です。
 • 動画を再生する際には VP9 コーデックよりも多くの通信量を消費します。
 • HDR 再生を可能にするために、HDR 動画では引き続き VP9 コーデックが使用されます。"</string>
-    <string name="revanced_disable_vp9_codec_summary_off">VP9 コーデックを無効化します。
-
-注意: \n
-• 最大解像度は 1080p です。
-• 動画を再生する際には VP9 コーデックよりも多くの通信量を消費します。
-• HDR 再生を可能にするために、HDR 動画では引き続き VP9 コーデックが使用されます。</string>
+    <string name="revanced_disable_vp9_codec_summary_off">VP9 コーデックを無効化します。\n\n注意: \n
+• 最大解像度は 1080p です。\n• 動画を再生する際には VP9 コーデックよりも多くの通信量を消費します。\n • HDR 再生を可能にするために、HDR 動画では引き続き VP9 コーデックが使用されます。</string>
     <string name="revanced_replace_av1_codec_title">AV1 コーデックを置き換え</string>
     <string name="revanced_replace_av1_codec_summary">AV1 コーデックを VP9 コーデックに置き換えます。</string>
     <string name="revanced_reject_av1_codec_title">AV1 コーデックの応答を拒否</string>
@@ -1504,9 +1518,13 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
     <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">ストリーミングデータを偽装することによる副作用</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">"• 映画や有料動画は再生できない場合があります。"</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">"• 映画や有料動画は再生できない場合があります。
+•ライブは最初から再生されます。
+• 動画が 1 秒早く終了する場合があります。
+• Opus オーディオ コーデックは使用できません。"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">・「音声トラック」メニューは表示されません。</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">・「音声トラック」メニューは表示されません。</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"・「音声トラック」メニューは表示されません。
+• 「一定音量」は使用できません。"</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• 動画が再生できない可能性があります。</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">iOS クライアントで AVC (H.264) を強制</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">iOS クライアントで AVC コーデック (H.264) を強制します。</string>

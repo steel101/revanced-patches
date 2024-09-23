@@ -93,6 +93,7 @@
     <string name="revanced_hide_album_card_title">隱藏專輯卡片</string>
     <string name="revanced_hide_album_card_summary_on">專輯卡片已隱藏</string>
     <string name="revanced_hide_album_card_summary_off">專輯卡片已顯示</string>
+    <string name="revanced_hide_carousel_shelf_title">隱藏輪播內容</string>
     <string name="revanced_hide_carousel_shelf_summary">"隱藏以下分類區：
 ・最新消息
 ・繼續觀看
@@ -100,7 +101,6 @@
 ・再次收聽
 ・購物
 ・再看一次"</string>
-    <string name="revanced_hide_carousel_shelf_title">隱藏輪播內容</string>
     <string name="revanced_hide_chips_shelf_title">隱藏 Chips 影片欄</string>
     <string name="revanced_hide_chips_shelf_on">Chips 影片欄已隱藏</string>
     <string name="revanced_hide_chips_shelf_off">剪輯已顯示</string>
@@ -249,6 +249,15 @@
     <string name="revanced_hide_low_views_video_summary">在首頁隱藏來自未訂閱頻道的、觀看次數少於 1,000 次的影片。</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">觀看次數篩選器</string>
+    <string name="revanced_hide_video_by_view_counts_home_title">依觀看次數隱藏家庭影片</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_on">首頁中的影片已被篩選。</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_off">首頁中的影片不會被篩選。</string>
+    <string name="revanced_hide_video_by_view_counts_search_title">按觀看次數隱藏搜尋結果</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_on">搜尋結果已被篩選。</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_off">搜尋結果不會被篩選。</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_title">按觀看次數隱藏訂閱影片</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_on">訂閱來源中的影片已被篩選。</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_off">訂閱來源中的影片不會被過濾。</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">高於觀看次數</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">播放量大於此數字的影片將被隱藏。</string>
     <string name="revanced_hide_video_view_counts_less_than_title">低於觀看次數</string>
@@ -256,6 +265,12 @@
     <string name="revanced_hide_video_view_counts_multiplier_title">觀看次數的值</string>
     <string name="revanced_hide_video_view_counts_multiplier_summary">指定你的語言模板來修飾用戶界面中每個影片下顯示的播放量。每個關鍵字（在你的語言中的一個字/詞） -&gt; 值（關鍵字的含義）必須單獨一行。在「-&gt;」符號之前是關鍵字。如果更改應用程序或系統語言，則需要重置此設定。\n\n示範：\n英語：10K views = K -&gt; 1000，views -&gt; views\n西班牙語：10 K vistas = K -&gt; 1000，vistas -&gt; views</string>
     <string name="revanced_hide_video_view_counts_multiplier_default_value">千 -&gt; 1 000\n百萬 -&gt; 1 000 000\n十億 -&gt; 1 000 000 000\n觀看數 -&gt; 觀看數</string>
+    <string name="revanced_hide_video_by_view_counts_about_title">關於觀看次數篩選</string>
+    <string name="revanced_hide_video_by_view_counts_about_summary">"主頁/訂閱/搜尋結果將被過濾以隱藏觀看次數小於或大於指定數量的影片。
+
+限制： 
+• 短影片無法隱藏。
+• 觀看次數為0的影片不會被曬選。"</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">一般設定</string>
     <string name="revanced_change_start_page_title">更改起始頁</string>
@@ -304,14 +319,6 @@
     <string name="revanced_enable_phone_layout_summary">以 DPI 欺騙系統使用手機版面配置</string>
     <string name="revanced_enable_tablet_layout_title">啟用平板版面配置</string>
     <string name="revanced_enable_tablet_layout_summary">偽裝 DPI 以使用一些平板電腦版面配置</string>
-    <string name="revanced_override_video_download_button_title">覆蓋影片下載按鈕</string>
-    <string name="revanced_override_video_download_button_summary_on">原生影片下載按鈕可開啟你的外部下載器。</string>
-    <string name="revanced_override_video_download_button_summary_off">原生影片下載按鈕可開啟本機應用程式內下載器。</string>
-    <string name="revanced_override_playlist_download_button_title">覆蓋播放清單下載按鈕</string>
-    <string name="revanced_override_playlist_download_button_summary_on">原生播放清單下載按鈕可開啟您的外部下載器。</string>
-    <string name="revanced_override_playlist_download_button_summary_off">原生播放清單下載按鈕可開啟本機應用程式內下載器。</string>
-    <string name="revanced_external_downloader_package_name_playlist_title">播放清單下載器套件名稱</string>
-    <string name="revanced_external_downloader_package_name_playlist_summary">你安裝的外部下載器應用程式的套件名稱，例如 YTDLnis。</string>
     <string name="revanced_spoof_app_version_title">偽裝應用程式版本</string>
     <string name="revanced_spoof_app_version_summary_on">已偽裝版本</string>
     <string name="revanced_spoof_app_version_summary_off">未偽裝版本</string>
@@ -351,6 +358,17 @@
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">以換行分隔的名稱來過濾元件</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">無效的自訂篩選器：%s</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_override_video_download_button_title">覆蓋影片下載按鈕</string>
+    <string name="revanced_override_video_download_button_summary_on">原生影片下載按鈕可開啟你的外部下載器。</string>
+    <string name="revanced_override_video_download_button_summary_off">原生影片下載按鈕可開啟本機應用程式內下載器。</string>
+    <string name="revanced_override_playlist_download_button_title">覆蓋播放清單下載按鈕</string>
+    <string name="revanced_override_playlist_download_button_summary_on">原生播放清單下載按鈕可開啟您的外部下載器。</string>
+    <string name="revanced_override_playlist_download_button_summary_off">原生播放清單下載按鈕可開啟本機應用程式內下載器。</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">播放清單下載器套件名稱</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">你安裝的外部下載器應用程式的套件名稱，例如 YTDLnis。</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">最小化播放器</string>
     <string name="revanced_preference_screen_miniplayer_summary">變更應用程式內最小化播放器的樣式。</string>
@@ -1505,7 +1523,7 @@
     <string name="revanced_spoof_streaming_data_side_effects_title">偽裝副作用</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• 電影或付費影片可能無法播放。"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• 音軌選單遺失。</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">• 音軌選單遺失。</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• 音軌選單遺失。"</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• 影片可能無法播放。</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">強制 iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">iOS 影片編解碼器為 AVC (H.264)、VP9 或 AV1。</string>

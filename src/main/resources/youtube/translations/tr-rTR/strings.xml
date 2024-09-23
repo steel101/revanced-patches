@@ -91,8 +91,8 @@ DeArrow hakkında daha fazla bilgi edinmek için buraya dokunun."</string>
     <string name="revanced_hide_album_card_title">Albüm kartlarını gizle</string>
     <string name="revanced_hide_album_card_summary_on">Albüm kartları gizleniyor</string>
     <string name="revanced_hide_album_card_summary_off">Albüm kartları gösteriliyor</string>
-    <string name="revanced_hide_carousel_shelf_summary">"Döner rafı ana sayfa ve keşfet sekmesinden gizler."</string>
     <string name="revanced_hide_carousel_shelf_title">Atlıkarınca rafını gizle</string>
+    <string name="revanced_hide_carousel_shelf_summary">"Döner rafı ana sayfa ve keşfet sekmesinden gizler."</string>
     <string name="revanced_hide_chips_shelf_title">Buna benzer daha çok video çipini gizle</string>
     <string name="revanced_hide_chips_shelf_on">Silindirik öneri butonları ve menüleri gizleniyor</string>
     <string name="revanced_hide_chips_shelf_off">Silindirik öneri butonları ve menüleri gösteriliyor</string>
@@ -288,10 +288,6 @@ Kısıtlamalar:
     <string name="revanced_enable_phone_layout_summary">Bazı telefon arayüzlerini kullanabilmek için dpi\'ı kandırır.</string>
     <string name="revanced_enable_tablet_layout_title">Tablet düzenini kullan</string>
     <string name="revanced_enable_tablet_layout_summary">Bazı tablet arayüzlerini kullanabilmek için dpi\'ı kandırır. </string>
-    <string name="revanced_override_video_download_button_title">Video indirme butonunu geçersiz kıl</string>
-    <string name="revanced_override_video_download_button_summary_on">İndirme düğmesi harici indiricinizi açar.</string>
-    <string name="revanced_override_playlist_download_button_title">Oynatma listesi indirme butonunu geçersiz kıl</string>
-    <string name="revanced_external_downloader_package_name_playlist_title">Oynatma listesi indirici paket ismi</string>
     <string name="revanced_spoof_app_version_title">Uygulama Versiyonunu taklit et</string>
     <string name="revanced_spoof_app_version_summary_on">Sürüm taklit ediliyor</string>
     <string name="revanced_spoof_app_version_summary_off">Sürüm taklit edilmiyor</string>
@@ -330,6 +326,13 @@ Daha sonra kapatılırsa kullanıcı arayüzü hatalarını önlemek için uygul
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Yeni satırlarla ayrılmış olarak hangi bileşenlerin filtreleneceğini yapılandırın.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Geçersiz özel filtre: %s</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_override_video_download_button_title">Video indirme butonunu geçersiz kıl</string>
+    <string name="revanced_override_video_download_button_summary_on">İndirme düğmesi harici indiricinizi açar.</string>
+    <string name="revanced_override_playlist_download_button_title">Oynatma listesi indirme butonunu geçersiz kıl</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">Oynatma listesi indirici paket ismi</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Miniplayer</string>
     <string name="revanced_preference_screen_miniplayer_summary">Uygulama içi simge durumuna küçültülmüş oynatıcının stilini değiştirin.</string>

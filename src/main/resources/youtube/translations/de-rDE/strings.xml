@@ -86,13 +86,13 @@ Tippen Sie hier, um mehr über DeArrow zu erfahren."</string>
     <string name="revanced_hide_album_card_title">Albumkarten ausblenden</string>
     <string name="revanced_hide_album_card_summary_on">Albumkarten werden ausgeblendet.</string>
     <string name="revanced_hide_album_card_summary_off">Albumkarten werden angezeigt.</string>
+    <string name="revanced_hide_carousel_shelf_title">Karussellregal ausblenden</string>
     <string name="revanced_hide_carousel_shelf_summary">"Versteckt folgende Abschnitte:
 - Aktuelle Nachrichten
 - Weiterschauen
 - Entdecke mehr Kanäle
 - Shopping
 - Erneut anschauen"</string>
-    <string name="revanced_hide_carousel_shelf_title">Karussellregal ausblenden</string>
     <string name="revanced_hide_chips_shelf_title">Chips-Abschnitt verstecken</string>
     <string name="revanced_hide_chips_shelf_on">Chips-Abschnitt wird versteckt.</string>
     <string name="revanced_hide_chips_shelf_off">Chips-Abschnitt wird angezeigt</string>
@@ -327,6 +327,9 @@ Manche Komponenten könnten nicht versteckt werden."</string>
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Komponenten nach zeilengetrennten Namen filtern</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">%s ist ein ungültiger benutzerdefinierter Filter.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Miniplayer</string>
     <string name="revanced_preference_screen_miniplayer_summary">Ändern Sie den Stil des in App minimierten Players.</string>

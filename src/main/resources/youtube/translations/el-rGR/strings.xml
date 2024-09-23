@@ -91,6 +91,7 @@
     <string name="revanced_hide_album_card_title">Κάρτες άλμπουμ</string>
     <string name="revanced_hide_album_card_summary_on">Κρυμμένες.</string>
     <string name="revanced_hide_album_card_summary_off">Εμφανίζονται.</string>
+    <string name="revanced_hide_carousel_shelf_title">Οριζόντιες ενότητες προτάσεων</string>
     <string name="revanced_hide_carousel_shelf_summary">"Απόκρυψη ενοτήτων όπως:
 • Έκτακτη είδηση
 • Συνέχεια παρακολούθησης
@@ -98,7 +99,6 @@
 • Ακούστε ξανά
 • Αγορές
 • Παρακολουθήστε ξανά"</string>
-    <string name="revanced_hide_carousel_shelf_title">Οριζόντιες ενότητες προτάσεων</string>
     <string name="revanced_hide_chips_shelf_title">Ενότητα σχετιζόμενων λέξεων</string>
     <string name="revanced_hide_chips_shelf_on">Κρυμμένη.</string>
     <string name="revanced_hide_chips_shelf_off">Εμφανίζεται.</string>
@@ -248,6 +248,15 @@ Playlists
     <string name="revanced_hide_low_views_video_summary">Απόκρυψη των βίντεο με λιγότερες από 1,000 προβολές από τη ροή τα οποία ανήκουν σε κανάλια που δεν είστε συνδρομητές.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Φίλτρο αριθμού προβολών</string>
+    <string name="revanced_hide_video_by_view_counts_home_title">Φιλτράρισμα καρτέλας «Αρχική»</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_on">Τα βίντεο στην καρτέλα «Αρχική» φιλτράρονται με βάση τον αριθμό προβολών.</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_off">Τα βίντεο στην καρτέλα «Αρχική» δε φιλτράρονται με βάση τον αριθμό προβολών.</string>
+    <string name="revanced_hide_video_by_view_counts_search_title">Φιλτράρισμα αποτελεσμάτων αναζήτησης</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_on">Τα αποτελέσματα αναζήτησης φιλτράρονται με βάση τον αριθμό προβολών.</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_off">Τα αποτελέσματα αναζήτησης δε φιλτράρονται με βάση τον αριθμό προβολών.</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_title">Φιλτράρισμα καρτέλας «Εγγραφές»</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_on">Τα βίντεο στην καρτέλα «Εγγραφές» φιλτράρονται με βάση τον αριθμό προβολών.</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_off">Τα βίντεο στην καρτέλα «Εγγραφές» δε φιλτράρονται με βάση τον αριθμό προβολών.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">Μέγιστο όριο προβολών</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">Τα βίντεο με περισσότερες προβολές από αυτόν τον αριθμό δεν θα εμφανίζονται.</string>
     <string name="revanced_hide_video_view_counts_less_than_title">Ελάχιστο όριο προβολών</string>
@@ -255,6 +264,12 @@ Playlists
     <string name="revanced_hide_video_view_counts_multiplier_title">Επεξεργασία κλειδιών</string>
     <string name="revanced_hide_video_view_counts_multiplier_summary">Γλωσσικό πρότυπο για τον αριθμό προβολών κάτω από κάθε βίντεο. Κάθε κλειδί (λέξη ή γράμμα στη γλώσσα σας) -&gt; τιμή (σημασία του κλειδιού) βρίσκεται σε νέα γραμμή. Τα κλειδιά μπαίνουν πριν από το \"-&gt;\". Αν αλλάξετε γλώσσα εφαρμογής ή συστήματος, θα χρειαστεί επαναρύθμιση. Παραδείγματα:\nΕλληνικά: 10 χιλιάδες προβολές = χιλ. -&gt; 1000, προβολές -&gt; views\nΑγγλικά: 10K views = K -&gt; 1000, views -&gt; views</string>
     <string name="revanced_hide_video_view_counts_multiplier_default_value">χιλ. -&gt; 1 000\nεκ. -&gt; 1 000 000\nδισ. -&gt; 1 000 000 000\nπροβολές -&gt; views</string>
+    <string name="revanced_hide_video_by_view_counts_about_title">Σχετικά με το φιλτράρισμα βάσει προβολών</string>
+    <string name="revanced_hide_video_by_view_counts_about_summary">"Οι καρτέλες «Αρχική», «Εγγραφές» και τα αποτελέσματα αναζήτησης φιλτράρονται για απόκρυψη βίντεο με προβολές λιγότερες ή περισσότερες από τον καθορισμένο σας αριθμό.
+
+Περιορισμοί:
+• Τα Shorts δε φιλτράρονται.
+• Τα βίντεο με 0 προβολές δε φιλτράρονται."</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Γενικά</string>
     <string name="revanced_change_start_page_title">Αλλαγή αρχικής σελίδας</string>
@@ -290,7 +305,7 @@ Playlists
     <string name="revanced_hide_floating_microphone_title">Αιωρούμενο κουμπί μικροφώνου</string>
     <string name="revanced_hide_floating_microphone_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_floating_microphone_summary_off">Εμφανίζεται.</string>
-    <string name="revanced_hide_gray_separator_title">Γκρι διαχωριστικό</string>
+    <string name="revanced_hide_gray_separator_title">Γκρι διαχωριστικά</string>
     <string name="revanced_hide_gray_separator_summary_on">Κρυμμένα.</string>
     <string name="revanced_hide_gray_separator_summary_off">Εμφανίζονται.</string>
     <string name="revanced_hide_snack_bar_title">Μηνύματα αλληλεπίδρασης</string>
@@ -303,17 +318,9 @@ Playlists
     <string name="revanced_enable_phone_layout_summary">Παραποίηση του dpi συσκευής ώστε να χρησιμοποιηθεί η διεπαφή κινητού.</string>
     <string name="revanced_enable_tablet_layout_title">Λειτουργία διεπαφής τάμπλετ</string>
     <string name="revanced_enable_tablet_layout_summary">Παραποίηση του dpi συσκευής ώστε να χρησιμοποιηθεί η διεπαφή τάμπλετ.</string>
-    <string name="revanced_override_video_download_button_title">Μετατροπή κουμπιού λήψης βίντεο</string>
-    <string name="revanced_override_video_download_button_summary_on">Το κουμπί λήψης του YouTube ανοίγει το εξωτερικό πρόγραμμα λήψης σας.</string>
-    <string name="revanced_override_video_download_button_summary_off">Το κουμπί λήψης του YouTube ανοίγει το εγγενές πρόγραμμα λήψης της εφαρμογής.</string>
-    <string name="revanced_override_playlist_download_button_title">Μετατροπή κουμπιού λήψης playlist</string>
-    <string name="revanced_override_playlist_download_button_summary_on">Το κουμπί λήψης λίστας αναπαραγωγής εμφανίζεται πάντα, και σε δημόσιες λίστες αναπαραγωγής ανοίγει το εξωτερικό πρόγραμμα λήψης σας.</string>
-    <string name="revanced_override_playlist_download_button_summary_off">Αν εμφανίζεται, το κουμπί λήψης λίστας αναπαραγωγής ανοίγει το εγγενές πρόγραμμα λήψης του YouTube.</string>
-    <string name="revanced_external_downloader_package_name_playlist_title">Όνομα πακέτου προγράμματος λήψης playlist</string>
-    <string name="revanced_external_downloader_package_name_playlist_summary">Όνομα πακέτου της εγκατεστημένης σας εξωτερικής εφαρμογής λήψης (π.χ YTLDnis).</string>
     <string name="revanced_spoof_app_version_title">Τροποποίηση έκδοσης εφαρμογής</string>
-    <string name="revanced_spoof_app_version_summary_on">Η έκδοση τροποποιείται</string>
-    <string name="revanced_spoof_app_version_summary_off">Η έκδοση δεν τροποποιείται</string>
+    <string name="revanced_spoof_app_version_summary_on">Η έκδοση τροποποιείται.</string>
+    <string name="revanced_spoof_app_version_summary_off">Η έκδοση δεν τροποποιείται.</string>
     <string name="revanced_spoof_app_version_user_dialog_message">"Η έκδοση της εφαρμογής YouTube θα τροποποιηθεί σε παλιότερη.
 
 Αυτό θα αλλάξει την εμφάνιση και τα χαρακτηριστικά της εφαρμογής, αλλά ενδέχεται να εμφανιστούν άγνωστες παρενέργειες.
@@ -350,6 +357,17 @@ Playlists
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Λίστα από συμβολοσειρές στοιχείων που θα φιλτραριστούν, διαχωρισμένες με νέες γραμμές.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Μη έγκυρο φίλτρο: %s.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_override_video_download_button_title">Μετατροπή κουμπιού λήψης βίντεο</string>
+    <string name="revanced_override_video_download_button_summary_on">Το κουμπί λήψης του YouTube ανοίγει το εξωτερικό πρόγραμμα λήψης σας.</string>
+    <string name="revanced_override_video_download_button_summary_off">Το κουμπί λήψης του YouTube ανοίγει το εγγενές πρόγραμμα λήψης της εφαρμογής.</string>
+    <string name="revanced_override_playlist_download_button_title">Μετατροπή κουμπιού λήψης playlist</string>
+    <string name="revanced_override_playlist_download_button_summary_on">Το κουμπί λήψης λίστας αναπαραγωγής εμφανίζεται πάντα, και σε δημόσιες λίστες αναπαραγωγής ανοίγει το εξωτερικό πρόγραμμα λήψης σας.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">Αν εμφανίζεται, το κουμπί λήψης λίστας αναπαραγωγής ανοίγει το εγγενές πρόγραμμα λήψης του YouTube.</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">Όνομα πακέτου προγράμματος λήψης playlist</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">Όνομα πακέτου της εγκατεστημένης σας εξωτερικής εφαρμογής λήψης (π.χ YTLDnis).</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Ελαχιστοποιημένη οθόνη αναπαραγωγής</string>
     <string name="revanced_preference_screen_miniplayer_summary">Αλλαγή του στυλ της ελαχιστοποιημένης οθόνης αναπαραγωγής.</string>
@@ -413,7 +431,7 @@ Playlists
 
 Σημείωση: Η ενεργοποίηση αυτής της ρύθμισης εξαναγκάζει επίσης την απόκρυψη των διαφημίσεων βίντεο."</string>
     <string name="revanced_switch_create_with_notifications_button_summary_off">Δεν γίνεται εναλλαγή θέσεων των κουμπιών «Δημιουργία» και «Ειδοποιήσεις».</string>
-    <string name="revanced_switch_create_with_notifications_button_user_dialog_message">"Η απενεργοποίηση αυτής της ρύθμισης μπορεί να χει ως αποτέλεσμα την φόρτωση περισσότερων διαφημίσεων από τον διακομιστή.
+    <string name="revanced_switch_create_with_notifications_button_user_dialog_message">"Η απενεργοποίηση αυτής της ρύθμισης μπορεί να έχει ως αποτέλεσμα την φόρτωση περισσότερων διαφημίσεων από τον διακομιστή.
 
 Επίσης, ενδέχεται να εμφανίζονται διαφημίσεις στα Shorts.
 
@@ -434,9 +452,9 @@ Playlists
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Γραμμή εργαλείων</string>
     <string name="revanced_preference_screen_toolbar_summary">Απόκρυψη ή αλλαγή στοιχείων που βρίσκονται στη γραμμή εργαλείων, όπως τα κουμπιά, την γραμμή αναζήτησης, ή την επικεφαλίδα.</string>
-    <string name="revanced_change_youtube_header_title">Αλλαγή επικεφαλίδας YouTube</string>
+    <string name="revanced_change_youtube_header_title">Επικεφαλίδα Premium</string>
     <string name="revanced_change_youtube_header_summary_on">Η επικεφαλίδα Premium είναι ενεργοποιημένη.</string>
-    <string name="revanced_change_youtube_header_summary_off">Η αρχική επικεφαλίδα είναι ενεργοποιημένη.</string>
+    <string name="revanced_change_youtube_header_summary_off">Η επικεφαλίδα Premium είναι απενεργοποιημένη.</string>
     <string name="revanced_enable_wide_search_bar_title">Ευρεία γραμμή αναζήτησης</string>
     <string name="revanced_enable_wide_search_bar_summary_on">Η ευρεία γραμμή αναζήτησης είναι ενεργοποιημένη.</string>
     <string name="revanced_enable_wide_search_bar_summary_off">Η ευρεία γραμμή αναζήτησης είναι απενεργοποιημένη.</string>
@@ -1015,7 +1033,7 @@ Playlists
     <string name="revanced_hide_shorts_trends_button_title">Κουμπί «Τάσεις»</string>
     <string name="revanced_hide_shorts_trends_button_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_shorts_trends_button_summary_off">Εμφανίζεται.</string>
-    <string name="revanced_hide_shorts_shopping_button_title">Κουμπί «Κατάστημα»</string>
+    <string name="revanced_hide_shorts_shopping_button_title">Κουμπί «Αγορές»</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">Εμφανίζεται.</string>
     <string name="revanced_hide_shorts_shop_button_title">Κουμπί «Κατάστημα»</string>
@@ -1532,7 +1550,7 @@ Playlists
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• Οι ταινίες ή τα επί πληρωμή βίντεο ενδέχεται να μην αναπαράγονται.
 • Οι ζωντανές μεταδόσεις ξεκινούν από την αρχή κατά την αναπαραγωγή."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Το μενού «Κομμάτι ήχου» λείπει.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">• Το μενού «Κομμάτι ήχου» λείπει.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Το μενού «Κομμάτι ήχου» λείπει."</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Τα βίντεο ενδέχεται να μην αναπαράγονται.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Εξαναγκασμός iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Ο κωδικοποιητής βίντεο iOS είναι ο AVC (H.264).</string>

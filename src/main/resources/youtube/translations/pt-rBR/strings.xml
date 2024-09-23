@@ -93,6 +93,7 @@ Toque aqui para saber mais sobre o DeArrow."</string>
     <string name="revanced_hide_album_card_title">Ocultar cartões de álbum</string>
     <string name="revanced_hide_album_card_summary_on">Os cartões de álbum estão ocultos.</string>
     <string name="revanced_hide_album_card_summary_off">Os cartões de álbum serão exibidos.</string>
+    <string name="revanced_hide_carousel_shelf_title">Ocultar painel de carrossel</string>
     <string name="revanced_hide_carousel_shelf_summary">"Oculta os seguintes painéis:
 • Últimas notícias
 • Continue assistindo
@@ -100,7 +101,6 @@ Toque aqui para saber mais sobre o DeArrow."</string>
 • Ouça novamente
 • Compras
 • Assista novamente"</string>
-    <string name="revanced_hide_carousel_shelf_title">Ocultar painel de carrossel</string>
     <string name="revanced_hide_chips_shelf_title">Ocultar painel de chips</string>
     <string name="revanced_hide_chips_shelf_on">O painel de chips está oculto.</string>
     <string name="revanced_hide_chips_shelf_off">O painel de chips será exibido.</string>
@@ -250,6 +250,15 @@ Limitações:
     <string name="revanced_hide_low_views_video_summary">Ocultar vídeos com menos de 1.000 visualizações do feed de início que foram enviadas de canais não inscritos.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Filtro por contagem de visualização</string>
+    <string name="revanced_hide_video_by_view_counts_home_title">Ocultar vídeos no feed de início por visualizações</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_on">Os vídeos no feed de início são filtrados.</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_off">Os vídeos no feed de início não são filtrados.</string>
+    <string name="revanced_hide_video_by_view_counts_search_title">Ocultar resultados de pesquisa por visualizações</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_on">Os resultados da pesquisa são filtrados.</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_off">Os resultados da pesquisa não são filtrados.</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_title">Ocultar vídeos no feed de inscrições por visualizações</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_on">Os vídeos no feed de inscrições são filtrados.</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_off">Os vídeos no feed de inscrições não são filtrados.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">Maior que as visualizações</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">Vídeos com visualizações maiores que este número serão ocultados.</string>
     <string name="revanced_hide_video_view_counts_less_than_title">Menos que as visualizações</string>
@@ -257,6 +266,12 @@ Limitações:
     <string name="revanced_hide_video_view_counts_multiplier_title">Chaves de visualização</string>
     <string name="revanced_hide_video_view_counts_multiplier_summary">Especifique seu modelo de idioma para o número de visualizações mostradas em cada vídeo na interface do usuário. Cada chave (uma letra/palavra no seu idioma) sinal -&gt; (significado da chave) deve estar em uma nova linha. Chaves vão antes do sinal \"-&gt;\". Se você alternar o idioma do aplicativo ou do sistema, você terá que redefinir esta configuração.\n\nExemplos:\nInglês: 10K views = K -&gt; 1000, views -&gt; views\nEspanhol: 10K vistas = K -&gt; 1000, vistas -&gt; views</string>
     <string name="revanced_hide_video_view_counts_multiplier_default_value">K -&gt; 1 000\nM -&gt; 1 000 000\nB -&gt; 1 000 000 000\nvisualizações -&gt; visualizações</string>
+    <string name="revanced_hide_video_by_view_counts_about_title">Sobre a filtragem da contagem de visualizações</string>
+    <string name="revanced_hide_video_by_view_counts_about_summary">"Início / Inscrições / Resultados de pesquisa são filtrados para ocultar vídeos com visualização menor ou maior que um número especificado.
+
+Limitações: 
+• Shorts não podem ser ocultos.
+• Vídeos com 0 visualizações não são filtrados."</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Geral</string>
     <string name="revanced_change_start_page_title">Alterar a página inicial</string>
@@ -305,14 +320,6 @@ Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</s
     <string name="revanced_enable_phone_layout_summary">Engana o dpi para usar alguns layouts para telefone.</string>
     <string name="revanced_enable_tablet_layout_title">Ativar layout de tablet</string>
     <string name="revanced_enable_tablet_layout_summary">Engana o dpi para usar alguns layouts para tablets.</string>
-    <string name="revanced_override_video_download_button_title">Substituir o botão de download de vídeo</string>
-    <string name="revanced_override_video_download_button_summary_on">O botão de download de vídeo nativo abre seu aplicativo de download externo.</string>
-    <string name="revanced_override_video_download_button_summary_off">O botão de download de vídeo nativo abre o download nativo do aplicativo.</string>
-    <string name="revanced_override_playlist_download_button_title">Substituir o botão de download da playlist</string>
-    <string name="revanced_override_playlist_download_button_summary_on">O botão de download de playlist nativo abre seu aplicativo de download externo.</string>
-    <string name="revanced_override_playlist_download_button_summary_off">O botão de download de playlist nativo abre o download nativo do aplicativo.</string>
-    <string name="revanced_external_downloader_package_name_playlist_title">Nome do pacote do aplicativo de download de playlist</string>
-    <string name="revanced_external_downloader_package_name_playlist_summary">Nome do pacote do seu aplicativo de download externo instalado, como YTDLnis.</string>
     <string name="revanced_spoof_app_version_title">Falsificar versão do aplicativo</string>
     <string name="revanced_spoof_app_version_summary_on">Versão falsificada</string>
     <string name="revanced_spoof_app_version_summary_off">Versão não falsificada</string>
@@ -352,6 +359,17 @@ Alguns componentes podem não ser ocultos"</string>
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Lista de componentes a serem filtradas separadas por uma nova linha.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Filtro personalizado inválido: %s</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_override_video_download_button_title">Substituir o botão de download de vídeo</string>
+    <string name="revanced_override_video_download_button_summary_on">O botão de download de vídeo nativo abre seu aplicativo de download externo.</string>
+    <string name="revanced_override_video_download_button_summary_off">O botão de download de vídeo nativo abre o download nativo do aplicativo.</string>
+    <string name="revanced_override_playlist_download_button_title">Substituir o botão de download da playlist</string>
+    <string name="revanced_override_playlist_download_button_summary_on">O botão de download de playlist nativo abre seu aplicativo de download externo.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">O botão de download de playlist nativo abre o download nativo do aplicativo.</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">Nome do pacote do aplicativo de download de playlist</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">Nome do pacote do seu aplicativo de download externo instalado, como YTDLnis.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Mini reprodutor</string>
     <string name="revanced_preference_screen_miniplayer_summary">Alterar o estilo do reprodutor minimizado no aplicativo.</string>
@@ -1504,7 +1522,7 @@ Toque no botão continuar e desative as otimizações da bateria."</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Efeitos colaterais da falsificação</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• Filmes ou vídeos pagos podem não reproduzir."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• O menu de faixa de áudio está faltando.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">• O menu de faixa de áudio está faltando.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• O menu de faixa de áudio está faltando."</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• O vídeo pode não reproduzir.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Forçar iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">O codec de vídeo do iOS é AVC (H.264).</string>

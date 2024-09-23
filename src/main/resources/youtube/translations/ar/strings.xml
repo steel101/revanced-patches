@@ -93,6 +93,7 @@
     <string name="revanced_hide_album_card_title">إخفاء بطاقات الألبوم</string>
     <string name="revanced_hide_album_card_summary_on">تم إخفاء بطاقات الألبوم.</string>
     <string name="revanced_hide_album_card_summary_off">يتم عرض بطاقات الألبوم.</string>
+    <string name="revanced_hide_carousel_shelf_title">إخفاء الرف الدائري</string>
     <string name="revanced_hide_carousel_shelf_summary">"يخفي الرفوف التالية:
 • أخبار عاجلة
 • متابعة المشاهدة
@@ -100,7 +101,6 @@
 • استمع مجددا
 • التسوق
 • مشاهده مرة أخرى"</string>
-    <string name="revanced_hide_carousel_shelf_title">إخفاء الرف الدائري</string>
     <string name="revanced_hide_chips_shelf_title">إخفاء رف الشرائح</string>
     <string name="revanced_hide_chips_shelf_on">تم إخفاء رف الشرائح.</string>
     <string name="revanced_hide_chips_shelf_off">يتم عرض رف الشرائح.</string>
@@ -252,6 +252,15 @@
     <string name="revanced_hide_low_views_video_summary">إخفاء مقاطع الفيديو التي حصلت على أقل من 1000 مشاهدة من موجز الصفحة الرئيسية التي تم تحميلها من القنوات غير المشترك بها.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">تصفية عدد المشاهدات</string>
+    <string name="revanced_hide_video_by_view_counts_home_title">إخفاء فيديوهات الصفحة الرئيسية حسب عدد المشاهدات</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_on">يتم تصفية الفيديوهات في موجز الصفحة الرئيسية.</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_off">لا يتم تصفية الفيديوهات في موجز الصفحة الرئيسية.</string>
+    <string name="revanced_hide_video_by_view_counts_search_title">إخفاء نتائج البحث حسب عدد المشاهدات</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_on">يتم تصفية نتائج البحث.</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_off">لا يتم تصفية نتائج البحث.</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_title">إخفاء فيديوهات الاشتراكات حسب عدد المشاهدات</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_on">يتم تصفية الفيديوهات في موجز الاشتراكات.</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_off">لا يتم تصفية الفيديوهات في موجز الاشتراكات.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">الأكبر من المشاهدات</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">سيتم إخفاء الفيديوهات التي تزيد مشاهداتها عن هذا الرقم.</string>
     <string name="revanced_hide_video_view_counts_less_than_title">الأقل من المشاهدات</string>
@@ -259,6 +268,13 @@
     <string name="revanced_hide_video_view_counts_multiplier_title">عرض المفاتيح</string>
     <string name="revanced_hide_video_view_counts_multiplier_summary">حدد قالب اللغة الخاص بك لعدد مرات المشاهدة الموضحة أسفل كل فيديو في واجهة المستخدم. كل مفتاح (حرف/كلمة في لغتك) -&gt; قيمة (معنى المفتاح) يجب أن يكون على سطر جديد. المفاتيح تذهب قبل علامة \"-&gt;\". إذا قمت بتغيير التطبيق أو لغة النظام، فستحتاج إلى إعادة تعيين هذا الإعداد.\n\nأمثلة:\nEnglish: 10K views = K -&gt; 1000, views -&gt; views\nSpanish: 10 K vistas = K -&gt; 1000, vistas -&gt; views</string>
     <string name="revanced_hide_video_view_counts_multiplier_default_value">K -&gt; 1 000\nM -&gt; 1 000 000\nB -&gt; 1 000 000 000\nمشاهد -&gt; مشاهد</string>
+    <string name="revanced_hide_video_by_view_counts_about_title">حول تصفية عدد المشاهدات</string>
+    <string name="revanced_hide_video_by_view_counts_about_summary">"الصفحة الرئيسية / الاشتراكات / تتم تصفية نتائج البحث لإخفاء مقاطع الفيديو التي حصلت على عدد مشاهدات أقل أو أكبر من عدد محدد.
+
+القيود:
+
+• لا يمكن إخفاء فيديوهات Shorts.
+• لا تتم تصفية الفيديوهات التي حصلت على 0 مشاهدة."</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">عام</string>
     <string name="revanced_change_start_page_title">تغيير صفحة البداية</string>
@@ -306,14 +322,6 @@
     <string name="revanced_enable_phone_layout_summary">محاكاة Dpi لاستخدام بعض تخطيطات الجوال.</string>
     <string name="revanced_enable_tablet_layout_title">تمكين تخطيط الجهاز اللوحي</string>
     <string name="revanced_enable_tablet_layout_summary">محاكاة Dpi لاستخدام بعض تخطيطات الجهاز اللوحي.</string>
-    <string name="revanced_override_video_download_button_title">تجاوز زر تنزيل الفيديو</string>
-    <string name="revanced_override_video_download_button_summary_on">يفتح زر تنزيل الفيديو الأصلي أداة التنزيل الخارجية.</string>
-    <string name="revanced_override_video_download_button_summary_off">يفتح زر تنزيل الفيديو أداة التنزيل الأصلية داخل التطبيق.</string>
-    <string name="revanced_override_playlist_download_button_title">تجاوز زر تنزيل قائمة التشغيل</string>
-    <string name="revanced_override_playlist_download_button_summary_on">يتم دائمًا عرض زر تنزيل قائمة التشغيل الأصلية، وفي قوائم التشغيل العامة، يتم فتح أداة التنزيل الخارجية لديك.</string>
-    <string name="revanced_override_playlist_download_button_summary_off">إذا تم عرضه، فإن زر تنزيل قائمة التشغيل الأصلية يفتح أداة التنزيل الأصلية داخل التطبيق.</string>
-    <string name="revanced_external_downloader_package_name_playlist_title">اسم حزمة تنزيل قائمة التشغيل</string>
-    <string name="revanced_external_downloader_package_name_playlist_summary">اسم الحزمة لتطبيق التنزيل الخارجي المثبت لديك، مثل YTDLnis.</string>
     <string name="revanced_spoof_app_version_title">إصدار تطبيق وهمي</string>
     <string name="revanced_spoof_app_version_summary_on">تم تغيير اصدار التطبيق</string>
     <string name="revanced_spoof_app_version_summary_off">لم يتم تغيير اصدار التطبيق</string>
@@ -353,6 +361,17 @@
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">قائمة سلاسل منشئ مسار المكونات المراد تصفيتها، مفصولة بسطور جديدة.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">فلتر مخصص غير صالح: %s.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_override_video_download_button_title">تجاوز زر تنزيل الفيديو</string>
+    <string name="revanced_override_video_download_button_summary_on">يفتح زر تنزيل الفيديو الأصلي أداة التنزيل الخارجية.</string>
+    <string name="revanced_override_video_download_button_summary_off">يفتح زر تنزيل الفيديو أداة التنزيل الأصلية داخل التطبيق.</string>
+    <string name="revanced_override_playlist_download_button_title">تجاوز زر تنزيل قائمة التشغيل</string>
+    <string name="revanced_override_playlist_download_button_summary_on">يتم دائمًا عرض زر تنزيل قائمة التشغيل الأصلية، وفي قوائم التشغيل العامة، يتم فتح أداة التنزيل الخارجية لديك.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">إذا تم عرضه، فإن زر تنزيل قائمة التشغيل الأصلية يفتح أداة التنزيل الأصلية داخل التطبيق.</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">اسم حزمة تنزيل قائمة التشغيل</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">اسم الحزمة لتطبيق التنزيل الخارجي المثبت لديك، مثل YTDLnis.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">المشغل المصغر</string>
     <string name="revanced_preference_screen_miniplayer_summary">تغيير نمط المشغل المصغر داخل التطبيق.</string>
@@ -1514,7 +1533,7 @@
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• قد لا يتم تشغيل الأفلام أو الفيديوهات المدفوعة.
 • يبدأ البث المباشر من البداية."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• قائمة المقطع الصوتي مفقودة.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">• قائمة المقطع الصوتي مفقودة.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• قائمة المقطع الصوتي مفقودة."</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• قد لا يتم تشغيل الفيديو.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">فرض iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">ترميز فيديو iOS هو AVC (H.264).</string>

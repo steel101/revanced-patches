@@ -89,13 +89,13 @@
     <string name="revanced_hide_album_card_title">Скриване на албумни карти</string>
     <string name="revanced_hide_album_card_summary_on">Албумните карти са скрити.</string>
     <string name="revanced_hide_album_card_summary_off">Албумните карти се показват.</string>
+    <string name="revanced_hide_carousel_shelf_title">Скриване на рафта с Препоръчани</string>
     <string name="revanced_hide_carousel_shelf_summary">"Скрива следните рафтове:
 - Извънредни новини
 - Продължете да гледате
 - Разгледайте още канали
 - Пазаруване
 - Гледайте отново"</string>
-    <string name="revanced_hide_carousel_shelf_title">Скриване на рафта с Препоръчани</string>
     <string name="revanced_hide_chips_shelf_title">Скриване на филмовите рафтове</string>
     <string name="revanced_hide_chips_shelf_on">Филмовите рафтове са скрити.</string>
     <string name="revanced_hide_chips_shelf_off">Филмовите рафтове се показват.</string>
@@ -244,6 +244,8 @@
     <string name="revanced_hide_low_views_video_summary">Скрийте видеоклипове с по-малко от 1000 гледания от емисията и от канали, за които сте се абонирали.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Филтрирайте по брой гледания</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_on">Видеоклиповете в емисията за абонаменти се филтрират.</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_off">Видеоклиповете в емисията за абонаменти не се филтрират.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">Ограничение за максимален брой гледания</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">Видеоклиповете с повече гледания от този брой няма да бъдат показани.</string>
     <string name="revanced_hide_video_view_counts_less_than_title">Минимално ограничение за гледане</string>
@@ -298,14 +300,6 @@
     <string name="revanced_enable_phone_layout_summary">Подлъгване на dpi за оформление като на телефон.</string>
     <string name="revanced_enable_tablet_layout_title">Вкл. на режим за таблет</string>
     <string name="revanced_enable_tablet_layout_summary">Подлъгване на dpi за оформление като на таблет.</string>
-    <string name="revanced_override_video_download_button_title">Действие на бутона \"Изтегляне\" за видео</string>
-    <string name="revanced_override_video_download_button_summary_on">Бутонът за изтегляне от YouTube отваря вашата външна програма за изтегляне.</string>
-    <string name="revanced_override_video_download_button_summary_off">Бутонът за изтегляне на YouTube отваря собствената програма за изтегляне на приложението.</string>
-    <string name="revanced_override_playlist_download_button_title">Преназначаване на бутона за изтегляне на плейлист</string>
-    <string name="revanced_override_playlist_download_button_summary_on">Бутонът за изтегляне от YouTube отваря вашата външна програма за изтегляне.</string>
-    <string name="revanced_override_playlist_download_button_summary_off">Бутонът за изтегляне на YouTube отваря собствената програма за изтегляне на приложението.</string>
-    <string name="revanced_external_downloader_package_name_playlist_title">Име на приложението за изтегляне</string>
-    <string name="revanced_external_downloader_package_name_playlist_summary">Име на пакета на приложението за изтегляне като NewPipe или YTDLnis.</string>
     <string name="revanced_spoof_app_version_title">Променете версията на приложението</string>
     <string name="revanced_spoof_app_version_summary_on">Подправена версия</string>
     <string name="revanced_spoof_app_version_summary_off">Не подправена версия</string>
@@ -342,6 +336,17 @@
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Списък с низове за изграждане на пътя на компонента, които да се филтрират, разделени с нов ред.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Невалиден потребителски филтър: %s.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_override_video_download_button_title">Действие на бутона \"Изтегляне\" за видео</string>
+    <string name="revanced_override_video_download_button_summary_on">Бутонът за изтегляне от YouTube отваря вашата външна програма за изтегляне.</string>
+    <string name="revanced_override_video_download_button_summary_off">Бутонът за изтегляне на YouTube отваря собствената програма за изтегляне на приложението.</string>
+    <string name="revanced_override_playlist_download_button_title">Преназначаване на бутона за изтегляне на плейлист</string>
+    <string name="revanced_override_playlist_download_button_summary_on">Бутонът за изтегляне от YouTube отваря вашата външна програма за изтегляне.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">Бутонът за изтегляне на YouTube отваря собствената програма за изтегляне на приложението.</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">Име на приложението за изтегляне</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">Име на пакета на приложението за изтегляне като NewPipe или YTDLnis.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Минимизиран екран за възпроизвеждане</string>
     <string name="revanced_preference_screen_miniplayer_summary">Променете стила на минимизирания екран за възпроизвеждане.</string>
@@ -1489,7 +1494,7 @@
     <string name="revanced_spoof_streaming_data_side_effects_title">Ефекти от замяната</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• Филми или платени видеоклипове може да не се възпроизвеждат."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Липсва менюто за избор на аудио.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">• Липсва менюто за избор на аудио.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Липсва менюто за избор на аудио."</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Видеото може да не се възпроизведе.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Принудително AVC (H.264) за iOS</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">видео кодекът на iOS е AVC (H.264).</string>

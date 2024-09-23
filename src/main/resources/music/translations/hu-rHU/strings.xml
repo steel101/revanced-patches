@@ -59,6 +59,8 @@ Töltsd le a(z) %2$s weboldalról."</string>
     <string name="revanced_hide_premium_promotion_summary">Elrejti a felugró prémium hírdetéseket.</string>
     <string name="revanced_hide_premium_renewal_title">Prémium megújítás szalaghírdetés elrejtése</string>
     <string name="revanced_hide_premium_renewal_summary">Elrejti a prémium megújítás szalaghírdetést.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Promóciós figyelmeztető banner elrejtése</string>
+    <string name="revanced_hide_promotion_alert_banner_summary">Promóciós figyelmeztető banner elrejtése.</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">Felugró menü</string>
     <string name="revanced_enable_compact_dialog_title">Kompakt menü engedélyezése</string>
