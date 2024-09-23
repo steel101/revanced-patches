@@ -105,6 +105,7 @@ Tap here to learn more about DeArrow."</string>
     <string name="revanced_hide_album_card_title">Hide album cards</string>
     <string name="revanced_hide_album_card_summary_on">Album cards are hidden.</string>
     <string name="revanced_hide_album_card_summary_off">Album cards are shown.</string>
+    <string name="revanced_hide_carousel_shelf_title">Hide carousel shelf</string>
     <string name="revanced_hide_carousel_shelf_summary">"Hides the following shelves:
 • Breaking news
 • Continue watching
@@ -112,7 +113,6 @@ Tap here to learn more about DeArrow."</string>
 • Listen again
 • Shopping
 • Watch it again"</string>
-    <string name="revanced_hide_carousel_shelf_title">Hide carousel shelf</string>
     <string name="revanced_hide_chips_shelf_title">Hide chips shelf</string>
     <string name="revanced_hide_chips_shelf_on">Chips shelf is hidden.</string>
     <string name="revanced_hide_chips_shelf_off">Chips shelf is shown.</string>
