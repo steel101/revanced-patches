@@ -318,6 +318,7 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
         "revanced_preference_screen_feed_flyout_menu",
         "revanced_preference_screen_fullscreen",
         "revanced_preference_screen_haptic_feedback",
+        "revanced_preference_screen_hook_buttons",
         "revanced_preference_screen_import_export",
         "revanced_preference_screen_miniplayer",
         "revanced_preference_screen_navigation_buttons",
@@ -430,6 +431,7 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
             "revanced_preference_screen_comments" -> "revanced_hide_quick_actions_comment_button_icon"
             "revanced_preference_screen_feed_flyout_menu" -> "revanced_preference_screen_player_flyout_menu_icon"
             "revanced_preference_screen_haptic_feedback" -> "revanced_enable_swipe_haptic_feedback_icon"
+            "revanced_preference_screen_hook_buttons" -> "revanced_preference_screen_import_export_icon"
             "revanced_preference_screen_miniplayer" -> "offline_key_icon"
             "revanced_preference_screen_patch_information" -> "about_key_icon"
             "revanced_preference_screen_shorts_player" -> "revanced_preference_screen_shorts_icon"
