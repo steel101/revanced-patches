@@ -141,7 +141,10 @@ object ChangeHeaderPatch : BaseResourcePatch(
             }
 
             if (customBrandingIconType == "youtube_minimal_header") {
-                SettingsBytecodePatch.contexts.updatePatchStatus(PATCH_STATUS_CLASS_DESCRIPTOR, "MinimalHeader")
+                SettingsBytecodePatch.contexts.updatePatchStatus(
+                    PATCH_STATUS_CLASS_DESCRIPTOR,
+                    "MinimalHeader"
+                )
             }
         } else {
             println(warnings)
