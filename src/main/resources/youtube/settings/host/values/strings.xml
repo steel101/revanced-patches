@@ -275,6 +275,10 @@ Limitations:
 • Videos with phrases such as 'People also watched' underneath."</string>
     <string name="revanced_hide_low_views_video_title">Hide low views video</string>
     <string name="revanced_hide_low_views_video_summary">Hide videos with less than 1,000 views from home feeds that have been uploaded from unsubscribed channels.</string>
+    <string name="revanced_hide_upcoming_video_title">Hide UPCOMING video</string>
+    <string name="revanced_hide_upcoming_video_summary">"Hide videos with UPCOMING label.
+
+Note: Enabling this also hide Notify me button."</string>
 
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">View count filter</string>
