@@ -325,6 +325,11 @@ Limitations:
     <string name="revanced_change_start_page_entry_subscriptions">Subscriptions</string>
     <string name="revanced_change_start_page_entry_trending">Trending</string>
     <string name="revanced_change_start_page_entry_watch_later">Watch later</string>
+    <string name="revanced_change_start_page_type_title">Change start page type</string>
+    <string name="revanced_change_start_page_type_summary_on">"Start page always changes.
+
+Limitation: Back button on the toolbar may not work."</string>
+    <string name="revanced_change_start_page_type_summary_off">Start page changes only once.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Disable forced auto audio tracks</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">Forced auto audio tracks are disabled.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Forced auto audio tracks are enabled.</string>
