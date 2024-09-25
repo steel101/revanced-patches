@@ -31,6 +31,7 @@ object SharedResourceIdPatch : ResourcePatch() {
     var BadgeLabel = -1L
     var Bar = -1L
     var BarContainerHeight = -1L
+    var BottomBarContainer = -1L
     var BottomSheetFooterText = -1L
     var BottomSheetRecyclerView = -1L
     var BottomUiContainerStub = -1L
@@ -136,6 +137,7 @@ object SharedResourceIdPatch : ResourcePatch() {
         BadgeLabel = getId(ID, "badge_label")
         Bar = getId(LAYOUT, "bar")
         BarContainerHeight = getId(DIMEN, "bar_container_height")
+        BottomBarContainer = getId(ID, "bottom_bar_container")
         BottomSheetFooterText = getId(ID, "bottom_sheet_footer_text")
         BottomSheetRecyclerView = getId(LAYOUT, "bottom_sheet_recycler_view")
         BottomUiContainerStub = getId(ID, "bottom_ui_container_stub")

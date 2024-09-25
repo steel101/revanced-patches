@@ -8,8 +8,8 @@ import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patches.youtube.shorts.components.fingerprints.BottomNavigationBarFingerprint
 import app.revanced.patches.youtube.shorts.components.fingerprints.RenderBottomNavigationBarFingerprint
 import app.revanced.patches.youtube.shorts.components.fingerprints.SetPivotBarFingerprint
-import app.revanced.patches.youtube.utils.fingerprints.InitializeButtonsFingerprint
 import app.revanced.patches.youtube.utils.integrations.Constants.SHORTS_CLASS_DESCRIPTOR
+import app.revanced.patches.youtube.utils.navigation.fingerprints.InitializeButtonsFingerprint
 import app.revanced.util.getReference
 import app.revanced.util.getWalkerMethod
 import app.revanced.util.indexOfFirstInstructionOrThrow

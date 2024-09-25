@@ -321,7 +321,7 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
         "revanced_preference_screen_hook_buttons",
         "revanced_preference_screen_import_export",
         "revanced_preference_screen_miniplayer",
-        "revanced_preference_screen_navigation_buttons",
+        "revanced_preference_screen_navigation_bar",
         "revanced_preference_screen_patch_information",
         "revanced_preference_screen_player_buttons",
         "revanced_preference_screen_player_flyout_menu",
@@ -418,7 +418,7 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
             "revanced_hide_shorts_comments_button" -> "revanced_hide_quick_actions_comment_button_icon"
             "revanced_hide_shorts_dislike_button" -> "revanced_preference_screen_ryd_icon"
             "revanced_hide_shorts_like_button" -> "revanced_hide_quick_actions_like_button_icon"
-            "revanced_hide_shorts_navigation_bar" -> "revanced_preference_screen_navigation_buttons_icon"
+            "revanced_hide_shorts_navigation_bar" -> "revanced_preference_screen_navigation_bar_icon"
             "revanced_hide_shorts_shelf_home_related_videos" -> "revanced_hide_navigation_home_button_icon"
             "revanced_hide_shorts_shelf_subscriptions" -> "revanced_hide_navigation_subscriptions_button_icon"
             "revanced_hide_shorts_toolbar" -> "revanced_preference_screen_toolbar_icon"
