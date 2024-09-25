@@ -95,6 +95,7 @@ object SharedResourceIdPatch : ResourcePatch() {
     var ReelRightLikeIcon = -1L
     var ReelTimeBarPlayedColor = -1L
     var ReelVodTimeStampsContainer = -1L
+    var ReelWatchPlayer = -1L
     var RelatedChipCloudMargin = -1L
     var RightComment = -1L
     var ScrimOverlay = -1L
@@ -204,6 +205,7 @@ object SharedResourceIdPatch : ResourcePatch() {
         ReelRightLikeIcon = getId(DRAWABLE, "reel_right_like_icon")
         ReelTimeBarPlayedColor = getId(COLOR, "reel_time_bar_played_color")
         ReelVodTimeStampsContainer = getId(ID, "reel_vod_timestamps_container")
+        ReelWatchPlayer = getId(ID, "reel_watch_player")
         RelatedChipCloudMargin = getId(LAYOUT, "related_chip_cloud_reduced_margins")
         RightComment = getId(DRAWABLE, "ic_right_comment_32c")
         ScrimOverlay = getId(ID, "scrim_overlay")
