@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <!-- Shared Category -->
     <!-- PreferenceScreen: Account -->
     <string name="revanced_hide_account_menu_title">অ্যাকাউন্ট মেনু লুকান</string>

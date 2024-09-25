@@ -290,7 +290,6 @@
     <string name="revanced_change_start_page_entry_subscriptions">訂閱</string>
     <string name="revanced_change_start_page_entry_trending">熱門</string>
     <string name="revanced_change_start_page_entry_watch_later">稍後觀看</string>
-    <string name="revanced_change_start_page_invalid_toast">起始頁無效，正在重設為預設值。</string>
     <string name="revanced_disable_auto_audio_tracks_title">停用強制自動音軌</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">強制自動音軌已停用</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">強制自動音軌已啟用</string>
@@ -359,7 +358,10 @@
     <string name="revanced_custom_filter_strings_summary">以換行分隔的名稱來過濾元件</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">無效的自訂篩選器：%s</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <string name="revanced_preference_screen_hook_buttons_title">掛鉤按鈕</string>
+    <string name="revanced_preference_screen_hook_buttons_summary">覆蓋應用程式內按鈕的點選操作。</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_preference_category_download_button">下載按鈕</string>
     <string name="revanced_override_video_download_button_title">覆蓋影片下載按鈕</string>
     <string name="revanced_override_video_download_button_summary_on">原生影片下載按鈕可開啟你的外部下載器。</string>
     <string name="revanced_override_video_download_button_summary_off">原生影片下載按鈕可開啟本機應用程式內下載器。</string>
@@ -369,6 +371,16 @@
     <string name="revanced_external_downloader_package_name_playlist_title">播放清單下載器套件名稱</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">你安裝的外部下載器應用程式的套件名稱，例如 YTDLnis。</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_override_youtube_music_button_title">覆蓋 YouTube音樂 按鈕</string>
+    <string name="revanced_override_youtube_music_button_summary_on">YouTube音樂 按鈕可開啟 RVX 音樂。</string>
+    <string name="revanced_override_youtube_music_button_summary_off">YouTube音樂 按鈕可開啟本機應用程式。</string>
+    <string name="revanced_third_party_youtube_music_package_name_title">RVX 音樂包名稱</string>
+    <string name="revanced_third_party_youtube_music_package_name_summary">已安裝的 RVX 音樂 套件名稱。</string>
+    <string name="revanced_third_party_youtube_music_dialog_title">RVX 音樂</string>
+    <string name="revanced_third_party_youtube_music_not_installed_dialog_title">警告</string>
+    <string name="revanced_third_party_youtube_music_not_installed_warning">%s 未安裝。 請安裝它。</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_title">先決條件</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_summary">YouTube音樂 需要覆蓋按鈕操作。 按此下載 YouTube音樂。</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">最小化播放器</string>
     <string name="revanced_preference_screen_miniplayer_summary">變更應用程式內最小化播放器的樣式。</string>
@@ -400,9 +412,7 @@
     <string name="revanced_miniplayer_opacity_title">覆蓋層不透明度</string>
     <string name="revanced_miniplayer_opacity_summary">不透明度值介於 0-100 之間，其中 0 表示透明</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">小型播放器覆蓋層不透明度必須介於 0-100 之間。重設為預設值。</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation buttons -->
-    <string name="revanced_preference_screen_navigation_buttons_title">導航按鈕</string>
-    <string name="revanced_preference_screen_navigation_buttons_summary">隱藏或顯示導航欄區域的元件</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_enable_narrow_navigation_buttons_title">啟用窄間距導航按鈕</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">導航按鈕之間的間距變窄</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">導航按鈕之間的間距不會變窄</string>
@@ -1565,6 +1575,7 @@ AVC (H.264) 的最大解析度為 1080p，影片播放將比 VP9 或 AV1 使用�
     <string name="revanced_icon_revancify_blue">復興藍</string>
     <string name="revanced_icon_revancify_red">復興紅</string>
     <string name="revanced_icon_youtube">YouTube</string>
+    <string name="revanced_icon_youtube_minimal_header">YouTube (最小標題)</string>
     <string name="revanced_label_default">預設</string>
     <string name="revanced_patches_excluded">排除</string>
     <string name="revanced_patches_included">包括</string>

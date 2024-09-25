@@ -260,7 +260,6 @@ Kısıtlamalar:
     <string name="revanced_change_start_page_entry_subscriptions">Abonelikler</string>
     <string name="revanced_change_start_page_entry_trending">Trendler</string>
     <string name="revanced_change_start_page_entry_watch_later">Daha sonra izlenecekler</string>
-    <string name="revanced_change_start_page_invalid_toast">Başlangıç sayfası geçersiz, varsayılana dönülüyor.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Ses parçalarının kendiliğinden açılmasını kapat</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">Ses parçalarının kendiliğinden açılması kapalı.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Ses parçalarının kendiliğinden açılması etkin.</string>
@@ -364,9 +363,7 @@ Daha sonra kapatılırsa kullanıcı arayüzü hatalarını önlemek için uygul
     <string name="revanced_miniplayer_opacity_title">Kaplama opaklığı</string>
     <string name="revanced_miniplayer_opacity_summary">0-100 arası opaklık değeri, 0 şeffaftır.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">Mini oynatıcının siyah arkaplan opaklığı 0 ila 100 arasında olmalıdır. Varsayılan değere sıfırlandı.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation buttons -->
-    <string name="revanced_preference_screen_navigation_buttons_title">Navigasyon tuşları</string>
-    <string name="revanced_preference_screen_navigation_buttons_summary">Gezinme çubuğu bölümü bileşenlerini gizleyin veya gösterin.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_enable_narrow_navigation_buttons_title">Dar gezinme düğmelerini etkinleştir</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">Gezinme düğmeleri arasındaki boşluk daralır.</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">Gezinme düğmeleri arasındaki boşluk daralır.</string>

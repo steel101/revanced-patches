@@ -291,7 +291,6 @@ Ograniczenia:
     <string name="revanced_change_start_page_entry_subscriptions">Subskrypcje</string>
     <string name="revanced_change_start_page_entry_trending">Na czasie</string>
     <string name="revanced_change_start_page_entry_watch_later">Do obejrzenia</string>
-    <string name="revanced_change_start_page_invalid_toast">Nieprawidłowa strona startowa, zresetowano do domyślnej.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Wymuszone ścieżki dźwiękowe</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">Wyłączone</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Włączone</string>
@@ -360,7 +359,10 @@ Niektóre komponenty mogą nie być ukryte."</string>
     <string name="revanced_custom_filter_strings_summary">Lista tekstów tworzących ścieżkę komponentów do filtrowania, która musi być oddzielona nowymi liniami.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Nieprawidłowy własny filtr: %s.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <string name="revanced_preference_screen_hook_buttons_title">Zmień działanie przycisków</string>
+    <string name="revanced_preference_screen_hook_buttons_summary">Nadpisuje działanie przycisków w aplikacji</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_preference_category_download_button">Przycisk od pobierania</string>
     <string name="revanced_override_video_download_button_title">Metoda pobierania filmów</string>
     <string name="revanced_override_video_download_button_summary_on">Zewnętrzna aplikacja</string>
     <string name="revanced_override_video_download_button_summary_off">Natywne pobieranie</string>
@@ -370,6 +372,17 @@ Niektóre komponenty mogą nie być ukryte."</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Nazwa pakietu aplikacji od pobierania (playlisty)</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Nazwa pakietu zainstalowanej zewnętrznej aplikacji od pobierania, takiej jak YTDLnis.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_override_youtube_music_button_title">Aplikacja otwierana przyciskiem do YouTube Music</string>
+    <string name="revanced_override_youtube_music_button_summary_on">RVX Music</string>
+    <string name="revanced_override_youtube_music_button_summary_off">YouTube Music</string>
+    <string name="revanced_third_party_youtube_music_package_name_title">Nazwa pakietu RVX Music</string>
+    <string name="revanced_third_party_youtube_music_package_name_summary">Nazwa pakietu zainstalowanego RVX Music</string>
+    <string name="revanced_third_party_youtube_music_dialog_title">RVX Music</string>
+    <string name="revanced_third_party_youtube_music_not_installed_dialog_title">Ostrzeżenie</string>
+    <string name="revanced_third_party_youtube_music_not_installed_warning">%s nie jest zainstalowany. Proszę go zainstalować.</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_title">Wymaganie wstępne</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_summary">YouTube Music jest wymagane do zmiany tego ustawienia.
+Stuknij tutaj, by pobrać YouTube Music.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Miniodtwarzacz</string>
     <string name="revanced_preference_screen_miniplayer_summary">Zmień styl miniodtwarzacza w aplikacji</string>
@@ -401,9 +414,7 @@ Niektóre komponenty mogą nie być ukryte."</string>
     <string name="revanced_miniplayer_opacity_title">Przezroczystość nakładki</string>
     <string name="revanced_miniplayer_opacity_summary">Wartość przezroczystości musi wynosić między 0 a 100, gdzie 0 oznacza przezroczystość</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">Przezroczystość nakładki miniodtwarzacza musi wynosić między 0 a 100. Przywrócono domyślną wartość.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation buttons -->
-    <string name="revanced_preference_screen_navigation_buttons_title">Przyciski nawigacji</string>
-    <string name="revanced_preference_screen_navigation_buttons_summary">Ukryj lub pokazuj przyciski nawigacji</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_enable_narrow_navigation_buttons_title">Wąskie przyciski nawigacji</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">Odstępy między przyciskami nawigacji są mniejsze</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">Odstępy między przyciskami nawigacji są normalne</string>
@@ -1214,7 +1225,7 @@ Wysoka jakość może być odblokowana na niektórych filmach, które wymagają 
 
 • Maksymalną rozdzielczością filmów jest 1080p
 • Odtwarzanie filmów wykorzystuje więcej danych internetowych niż VP9
-• Aby filmy w HDR się odtwarzały, będą one nadal używać kodeka VP9"</string>
+• Kodek VP9 jest używany do filmów z HDR"</string>
     <string name="revanced_disable_vp9_codec_summary_off">Włączone</string>
     <string name="revanced_replace_av1_codec_title">Zmień kodek AV1 programu</string>
     <string name="revanced_replace_av1_codec_summary">Zastąp kodek AV1 programu kodekiem VP9</string>
@@ -1522,9 +1533,12 @@ Kontynuuj i wyłącz optymalizację baterii."</string>
     <string name="revanced_spoof_streaming_data_type_entry_web">Przeglądarka</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Efekty uboczne oszukiwania</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• Filmy kinowe lub płatne filmy mogą się nie odtwarzać
-• Transmisje na żywo rozpoczynają się od początku"</string>
+• Transmisje na żywo rozpoczynają się od początku
+• Filmy mogą kończyć się o 1 sekundę wcześniej
+• Kodek opus jest niedostępny"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Brakuje menu od ścieżki dźwiękowej</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Brakuje menu od ścieżki dźwiękowej"</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Brakuje menu od ścieżki dźwiękowej
+• Stabilna głośność jest niedostępna"</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Filmy mogą się nie odtwarzać</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Wymuś kodek iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Włączone</string>
@@ -1566,6 +1580,7 @@ Kodek AVC (H.264) obsługuje maksymalnie rozdzielczość 1080p, a odtwarzanie fi
     <string name="revanced_icon_revancify_blue">Niebieska od Revancify</string>
     <string name="revanced_icon_revancify_red">Czerwona od Revancify</string>
     <string name="revanced_icon_youtube">YouTube</string>
+    <string name="revanced_icon_youtube_minimal_header">YouTube (Minimalny nagłówek)</string>
     <string name="revanced_label_default">Domyślne</string>
     <string name="revanced_patches_excluded">Wykluczone</string>
     <string name="revanced_patches_included">Zawarte</string>

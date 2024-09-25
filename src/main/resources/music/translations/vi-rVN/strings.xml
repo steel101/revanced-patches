@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">Cài đặt ReVanced Extended</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Vui lòng khởi động lại ứng dụng để các tính năng hoạt động bình thường</string>
@@ -357,6 +357,8 @@ Làm theo hướng dẫn 'Don't kill my app!' cho thiết bị của bạn và �
     <string name="gms_core_dialog_continue_text">Tiếp tục</string>
     <string name="revanced_sanitize_sharing_links_title">Liên kết sạch khi chia sẻ</string>
     <string name="revanced_sanitize_sharing_links_summary">Loại bỏ các tham số truy vấn theo dõi khỏi URL khi chia sẻ liên kết.</string>
+    <string name="revanced_default_app_settings_title">Mở theo mặc định</string>
+    <string name="revanced_default_app_settings_summary">Để mở liên kết YouTube Music trong RVX Music, hãy bật \'Mở liên kết được hỗ trợ\' và kích hoạt các địa chỉ web được hỗ trợ.</string>
     <string name="revanced_extended_settings_import_export_title">Nhập/Xuất cài đặt</string>
     <string name="revanced_extended_settings_import_export_summary">Nhập hoặc xuất các tuỳ chọn cài đặt của bạn.</string>
     <string name="revanced_extended_settings_export_as_file">Xuất cài đặt dưới dạng tệp</string>

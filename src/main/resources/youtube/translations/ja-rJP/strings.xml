@@ -288,7 +288,6 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_change_start_page_entry_subscriptions">登録チャンネル</string>
     <string name="revanced_change_start_page_entry_trending">トレンド</string>
     <string name="revanced_change_start_page_entry_watch_later">後で見る</string>
-    <string name="revanced_change_start_page_invalid_toast">無効なスタートページです。デフォルトにリセットします。</string>
     <string name="revanced_disable_auto_audio_tracks_title">音声トラックの強制を無効化</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">音声トラックが自動で選択されるのを無効化します。
 
@@ -361,7 +360,10 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_custom_filter_strings_summary">フィルタリングするコンポーネントパスビルダーの文字列を並べたリスト。（改行区切り）</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">無効なカスタムフィルターです: %s。</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <string name="revanced_preference_screen_hook_buttons_title">ボタンをフック</string>
+    <string name="revanced_preference_screen_hook_buttons_summary">YouTube 内の「YouTube Music」ボタンを置換します。</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_preference_category_download_button">ダウンロードボタン</string>
     <string name="revanced_override_video_download_button_title">「オフライン」ボタンを置き換え</string>
     <string name="revanced_override_video_download_button_summary_on">「オフライン」ボタンで外部ダウンローダーを開きます。</string>
     <string name="revanced_override_video_download_button_summary_off">「オフライン」ボタンで外部ダウンローダーを開きます。</string>
@@ -371,6 +373,16 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_external_downloader_package_name_playlist_title">プレイリストの外部ダウンローダーのパッケージ名</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">NewPipe や YTDLnis などの、インストールされている外部ダウンローダーアプリのパッケージ名です。</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_override_youtube_music_button_title">YouTube Music ボタンを置換</string>
+    <string name="revanced_override_youtube_music_button_summary_on">「YouTube Music」ボタンで RVX Music を開けるようにします。</string>
+    <string name="revanced_override_youtube_music_button_summary_off">「YouTube Music」ボタンで RVX Music を開けるようにします。</string>
+    <string name="revanced_third_party_youtube_music_package_name_title">RVX Music のパッケージ名</string>
+    <string name="revanced_third_party_youtube_music_package_name_summary">インストールされている RVX Music のパッケージ名です。</string>
+    <string name="revanced_third_party_youtube_music_dialog_title">RVX Music</string>
+    <string name="revanced_third_party_youtube_music_not_installed_dialog_title">注意</string>
+    <string name="revanced_third_party_youtube_music_not_installed_warning">%s はインストールされていません。インストールしてください。</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_title">前提条件</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_summary">ボタンを置換するには YouTube Music が必要です。ここをタップして YouTube Music をダウンロードします。</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">ミニプレーヤー</string>
     <string name="revanced_preference_screen_miniplayer_summary">ミニプレーヤーのスタイルを変更します。</string>
@@ -402,9 +414,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_miniplayer_opacity_title">オーバーレイの不透明度</string>
     <string name="revanced_miniplayer_opacity_summary">不透明度の値は 0 ~ 100 の間で、 0 が透明です。</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">ミニプレーヤーのオーバーレイの不透明度は0 ~ 100の間でなければなりません。デフォルト値にリセットします。</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation buttons -->
-    <string name="revanced_preference_screen_navigation_buttons_title">ナビゲーションボタン</string>
-    <string name="revanced_preference_screen_navigation_buttons_summary">ナビゲーションバーセクションのコンポーネントを非表示または表示します。</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_enable_narrow_navigation_buttons_title">幅の狭いナビゲーションボタンを有効化</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">ナビゲーション ボタンの間隔は狭くなります。</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">ナビゲーション ボタンの間隔を狭くします。</string>
@@ -1382,7 +1392,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_sb_settings_revanced_export_user_id_warning_dismiss">今後表示しない</string>
     <string name="revanced_sb_sponsorblock_connection_failure_generic">SponsorBlock は一時的に利用できません。</string>
     <string name="revanced_sb_sponsorblock_connection_failure_status">SponsorBlock は一時的に利用できません。(ステータス %d)</string>
-    <string name="revanced_sb_sponsorblock_connection_failure_timeout">SponsorBlock は一時的に利用できません。 (API タイムアウト)</string>
+    <string name="revanced_sb_sponsorblock_connection_failure_timeout">SponsorBlock は一時的に利用できません。(API がタイムアウトしました)</string>
     <string name="revanced_sb_submit_failed_invalid">セグメントを送信できません: %s</string>
     <string name="revanced_sb_submit_failed_timeout">SponsorBlock は一時的に停止しています。</string>
     <string name="revanced_sb_submit_failed_unknown_error">セグメントを送信できません (ステータス: %1$d %2$s)</string>
@@ -1566,6 +1576,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_icon_revancify_blue">Revancify Blue</string>
     <string name="revanced_icon_revancify_red">Revancify Red</string>
     <string name="revanced_icon_youtube">YouTube</string>
+    <string name="revanced_icon_youtube_minimal_header">YouTube (ロゴのみ)</string>
     <string name="revanced_label_default">オリジナル</string>
     <string name="revanced_patches_excluded">除外されています</string>
     <string name="revanced_patches_included">適用されています</string>

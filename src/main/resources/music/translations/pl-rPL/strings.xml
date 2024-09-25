@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Uruchom ponownie, aby wczytać układ poprawnie</string>
@@ -363,6 +363,8 @@ Kontynuuj i wyłącz optymalizację baterii."</string>
     <string name="gms_core_dialog_continue_text">Kontynuuj</string>
     <string name="revanced_sanitize_sharing_links_title">Oczyść udostępniane linki</string>
     <string name="revanced_sanitize_sharing_links_summary">Usuwa parametry śledzących zapytań z adresów URL podczas udostępniania linków.</string>
+    <string name="revanced_default_app_settings_title">Otwórz systemowe ustawienia aplikacji</string>
+    <string name="revanced_default_app_settings_summary">Aby otwierać linki YouTube Music w RVX Music, przejdź do opcji obsługiwanych linków w ustawieniach i włącz obsługiwane adresy internetowe dla RVX.</string>
     <string name="revanced_extended_settings_import_export_title">Importuj/Eksportuj ustawienia</string>
     <string name="revanced_extended_settings_import_export_summary">Zaimportuj lub wyeksportuj ustawienia</string>
     <string name="revanced_extended_settings_export_as_file">Wyeksportuj ustawienia do pliku</string>

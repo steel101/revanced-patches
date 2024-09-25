@@ -291,7 +291,6 @@ Limitações:
     <string name="revanced_change_start_page_entry_subscriptions">Inscrições</string>
     <string name="revanced_change_start_page_entry_trending">Em alta</string>
     <string name="revanced_change_start_page_entry_watch_later">Assistir mais tarde</string>
-    <string name="revanced_change_start_page_invalid_toast">Página inicial inválida, redefinindo para o padrão.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Desativar faixas de áudio automáticas forçadas</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">As faixas de áudio automáticas forçadas estão desativadas.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">As faixas de áudio automáticas forçadas estão ativadas.</string>
@@ -360,7 +359,10 @@ Alguns componentes podem não ser ocultos"</string>
     <string name="revanced_custom_filter_strings_summary">Lista de componentes a serem filtradas separadas por uma nova linha.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Filtro personalizado inválido: %s</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <string name="revanced_preference_screen_hook_buttons_title">Botões hook</string>
+    <string name="revanced_preference_screen_hook_buttons_summary">Substitui a ação de clique dos botões do aplicativo.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_preference_category_download_button">Botão de download</string>
     <string name="revanced_override_video_download_button_title">Substituir o botão de download de vídeo</string>
     <string name="revanced_override_video_download_button_summary_on">O botão de download de vídeo nativo abre seu aplicativo de download externo.</string>
     <string name="revanced_override_video_download_button_summary_off">O botão de download de vídeo nativo abre o download nativo do aplicativo.</string>
@@ -370,6 +372,16 @@ Alguns componentes podem não ser ocultos"</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Nome do pacote do aplicativo de download de playlist</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Nome do pacote do seu aplicativo de download externo instalado, como YTDLnis.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_override_youtube_music_button_title">Substituir botão do YouTube Music</string>
+    <string name="revanced_override_youtube_music_button_summary_on">O botão do YouTube Music abre o RVX Music.</string>
+    <string name="revanced_override_youtube_music_button_summary_off">O botão do YouTube Music abre o aplicativo nativo.</string>
+    <string name="revanced_third_party_youtube_music_package_name_title">Nome do pacote do RVX Music</string>
+    <string name="revanced_third_party_youtube_music_package_name_summary">Nome do pacote do RVX Music instalado.</string>
+    <string name="revanced_third_party_youtube_music_dialog_title">RVX Music</string>
+    <string name="revanced_third_party_youtube_music_not_installed_dialog_title">Aviso</string>
+    <string name="revanced_third_party_youtube_music_not_installed_warning">%s não está instalado. Por favor, instale-o.</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_title">Pré-requisito</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_summary">O YouTube Music é necessário para substituir a ação do botão. Toque aqui para baixar o YouTube Music.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Mini reprodutor</string>
     <string name="revanced_preference_screen_miniplayer_summary">Alterar o estilo do reprodutor minimizado no aplicativo.</string>
@@ -401,9 +413,7 @@ Alguns componentes podem não ser ocultos"</string>
     <string name="revanced_miniplayer_opacity_title">Opacidade da sobreposição</string>
     <string name="revanced_miniplayer_opacity_summary">Valor da opacidade entre 0-100, onde 0 é transparente.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">A opacidade da sobreposição do mini reprodutor deve ser entre 0-100. Redefinir aos valores padrão.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation buttons -->
-    <string name="revanced_preference_screen_navigation_buttons_title">Botões de navegação</string>
-    <string name="revanced_preference_screen_navigation_buttons_summary">Ocultar ou mostrar componentes da seção de navegação.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_enable_narrow_navigation_buttons_title">Ativar botões estreitos de navegação</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">O espaçamento entre os botões de navegação se torna reduzido.</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">O espaçamento entre os botões de navegação não se torna mais reduzido.</string>
@@ -1564,6 +1574,7 @@ AVC (H. 64) tem uma resolução máxima de 1080p, e a reprodução de vídeo usa
     <string name="revanced_icon_revancify_blue">Revancify Blue</string>
     <string name="revanced_icon_revancify_red">Revancify Red</string>
     <string name="revanced_icon_youtube">YouTube</string>
+    <string name="revanced_icon_youtube_minimal_header">YouTube (Cabeçalho Mínimo)</string>
     <string name="revanced_label_default">Padrão</string>
     <string name="revanced_patches_excluded">Excluído</string>
     <string name="revanced_patches_included">Incluído</string>

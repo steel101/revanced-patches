@@ -276,7 +276,6 @@
     <string name="revanced_change_start_page_entry_subscriptions">订阅</string>
     <string name="revanced_change_start_page_entry_trending">热门</string>
     <string name="revanced_change_start_page_entry_watch_later">稍后观看</string>
-    <string name="revanced_change_start_page_invalid_toast">起始页无效，正在重置为默认值</string>
     <string name="revanced_disable_auto_audio_tracks_title">禁用强制自动音轨</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">强制自动音轨已禁用</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">强制自动音轨已启用</string>
@@ -386,9 +385,7 @@
     <string name="revanced_miniplayer_opacity_title">叠加层不透明度</string>
     <string name="revanced_miniplayer_opacity_summary">不透明度值介于 0-100 之间，0 为透明</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">迷你播放器的叠加层不透明度必须介于 0-100 之间 重置为默认值</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation buttons -->
-    <string name="revanced_preference_screen_navigation_buttons_title">导航按钮</string>
-    <string name="revanced_preference_screen_navigation_buttons_summary">隐藏或显示导航栏区域的组件</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_enable_narrow_navigation_buttons_title">启用窄间距导航按钮</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">导航按钮之间的间距变窄</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">导航按钮之间的间距不会变窄</string>

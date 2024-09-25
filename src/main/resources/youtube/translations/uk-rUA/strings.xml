@@ -291,7 +291,6 @@
     <string name="revanced_change_start_page_entry_subscriptions">Підписки</string>
     <string name="revanced_change_start_page_entry_trending">Тенденції</string>
     <string name="revanced_change_start_page_entry_watch_later">Переглянути пізніше</string>
-    <string name="revanced_change_start_page_invalid_toast">Недійсна початкова сторінка, скидається на стандартну.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Вимкнути примусові автоматичні звукові доріжки</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">Примусові автоматичні звукові доріжки вимкнено.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Примусові автоматичні звукові доріжки увімкнено.</string>
@@ -360,7 +359,10 @@
     <string name="revanced_custom_filter_strings_summary">Список рядків конструктора шляхів компонентів для фільтрування, розділених новим рядком</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Недопустимий користувацький фільтр: %s</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <string name="revanced_preference_screen_hook_buttons_title">Заміна кнопок</string>
+    <string name="revanced_preference_screen_hook_buttons_summary">Перевизначення дії натискання кнопок додатка.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_preference_category_download_button">Кнопка завантаження</string>
     <string name="revanced_override_video_download_button_title">Перевизначити кнопку завантаження відео</string>
     <string name="revanced_override_video_download_button_summary_on">Кнопка завантаження відео відкриває зовнішній завантажувач.</string>
     <string name="revanced_override_video_download_button_summary_off">Кнопка завантаження відео відкриває вбудований завантажувач.</string>
@@ -370,6 +372,16 @@
     <string name="revanced_external_downloader_package_name_playlist_title">Ім\'я пакета завантажувача списку відтворення</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Ім\'я пакета встановленого зовнішнього завантажувача, наприклад YTDLnis.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_override_youtube_music_button_title">Перевизначити кнопку YouTube Music</string>
+    <string name="revanced_override_youtube_music_button_summary_on">Кнопка YouTube Music відкриває RVX Music.</string>
+    <string name="revanced_override_youtube_music_button_summary_off">Кнопка YouTube Music відкриває стандартний додаток.</string>
+    <string name="revanced_third_party_youtube_music_package_name_title">Назва пакету RVX Music</string>
+    <string name="revanced_third_party_youtube_music_package_name_summary">Назва пакету встановленого RVX Music.</string>
+    <string name="revanced_third_party_youtube_music_dialog_title">RVX Music</string>
+    <string name="revanced_third_party_youtube_music_not_installed_dialog_title">Зауваження</string>
+    <string name="revanced_third_party_youtube_music_not_installed_warning">%s не встановлено. Будь ласка, встановіть.</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_title">Передумова</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_summary">Для перевизначення дії кнопки потрібно YouTube Music. Натисніть тут, щоб завантажити YouTube Music.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Мініплеєр</string>
     <string name="revanced_preference_screen_miniplayer_summary">Зміна стилю мінімізованого плеєра в додатку.</string>
@@ -401,9 +413,7 @@
     <string name="revanced_miniplayer_opacity_title">Непрозорість затемнення</string>
     <string name="revanced_miniplayer_opacity_summary">Значення непрозорості в межах 0-100, де 0 це прозоро.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">Непрозорість затемнення мініплеєра має бути в межах 0-100. Скинуто.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation buttons -->
-    <string name="revanced_preference_screen_navigation_buttons_title">Кнопки панелі навігації</string>
-    <string name="revanced_preference_screen_navigation_buttons_summary">Приховувати чи показувати секцію компонентів панелі навігації.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_enable_narrow_navigation_buttons_title">Увімкнути вузькі кнопки навігації</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">Відстань між кнопками навігації зменшується.</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">Відстань між кнопками навігації не зменшується.</string>
@@ -1214,7 +1224,7 @@
 
 • Максимальна роздільна здатність - 1080p.
 • Відтворення відео використовуватиме більше інтернет даних ніж VP9.
-• Щоб отримати відтворювання HDR, HDR відео використовує кодек VP9."</string>
+• Кодек VP9 все ще використовується для HDR відео."</string>
     <string name="revanced_disable_vp9_codec_summary_off">Кодек VP9 увімкнено.</string>
     <string name="revanced_replace_av1_codec_title">Замінити програмний кодек AV1</string>
     <string name="revanced_replace_av1_codec_summary">Замінити програмний кодек AV1 кодеком VP9.</string>
@@ -1516,9 +1526,12 @@
     <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Побічні ефекти імітування</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• Фільми чи платні відео можуть не відтворюватися.
-• Прямі трансляції починаються з початку."</string>
+• Прямі трансляції починаються з початку.
+• Відео можуть закінчуватися на 1 секунду раніше.
+• Немає аудіокодека opus."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Меню звукової доріжки відсутнє.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Меню звукової доріжки відсутнє."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Меню звукової доріжки відсутнє.
+• Стабілізація гучності недоступна."</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Відео може не відтворюватися.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Примусово AVC (H.264) iOS</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">AVC (H.264) кодек відео iOS.</string>
@@ -1560,6 +1573,7 @@ AVC (H.264) має максимальну роздільну здатність 
     <string name="revanced_icon_revancify_blue">Revancify синя</string>
     <string name="revanced_icon_revancify_red">Revancify червона</string>
     <string name="revanced_icon_youtube">YouTube</string>
+    <string name="revanced_icon_youtube_minimal_header">YouTube (Мінімальний заголовок)</string>
     <string name="revanced_label_default">Стандартна</string>
     <string name="revanced_patches_excluded">Виключено</string>
     <string name="revanced_patches_included">Включено</string>

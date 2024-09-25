@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">再起動してレイアウトを正常に読み込みます</string>

@@ -244,6 +244,13 @@
     <string name="revanced_hide_low_views_video_summary">Скрийте видеоклипове с по-малко от 1000 гледания от емисията и от канали, за които сте се абонирали.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Филтрирайте по брой гледания</string>
+    <string name="revanced_hide_video_by_view_counts_home_title">Фильтр за видео в \"Начало\" по гледания</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_on">Видеоклиповете в раздела Начало се филтрират.</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_off">Видеоклиповете в раздела Начало не се филтрират.</string>
+    <string name="revanced_hide_video_by_view_counts_search_title">Филтриране на резултатите от търсенето</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_on">Резултатите от търсенето се филтрират.</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_off">Резултатите от търсенето не се филтрират.</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_title">Видеоклипове в раздела Абонаменти по показвания</string>
     <string name="revanced_hide_video_by_view_counts_subscriptions_summary_on">Видеоклиповете в емисията за абонаменти се филтрират.</string>
     <string name="revanced_hide_video_by_view_counts_subscriptions_summary_off">Видеоклиповете в емисията за абонаменти не се филтрират.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">Ограничение за максимален брой гледания</string>
@@ -253,6 +260,8 @@
     <string name="revanced_hide_video_view_counts_multiplier_title">Ключове за редактиране</string>
     <string name="revanced_hide_video_view_counts_multiplier_summary">Езиков шаблон за брой изгледи (букви/дума на вашия език) -&gt; стойност (ключова стойност) трябва да е на нов ред преди знака \"-&gt;\". Ако превключите езика на приложението или системата, трябва да нулирате тази настройка.\n\nПримери:\nEnglish: 10K views = K -&gt; 1000, views -&gt; views\nБългарски: 10 K показвания = K -&gt; 1000, показвания -&gt; views</string>
     <string name="revanced_hide_video_view_counts_multiplier_default_value">K -&gt; 1 000\nM -&gt; 1 000 000\nB -&gt; 1 000 000 000\nviews -&gt; views</string>
+    <string name="revanced_hide_video_by_view_counts_about_title">Относно филтрирането на броя показвания</string>
+    <string name="revanced_hide_video_by_view_counts_about_summary">"Начало / Абонамент / Резултатите от търсенето се филтрират, за да скрият видеоклипове с гледания, по-малки или по-големи от определен брой."</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Основни настройки</string>
     <string name="revanced_change_start_page_title">Промяна на началната страница</string>
@@ -272,7 +281,6 @@
     <string name="revanced_change_start_page_entry_subscriptions">Абонаменти</string>
     <string name="revanced_change_start_page_entry_trending">Популярни</string>
     <string name="revanced_change_start_page_entry_watch_later">За Гледане по-късно</string>
-    <string name="revanced_change_start_page_invalid_toast">Невалидна начална страница, нулиране по подразбиране.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Принудителните автоматични аудио пътеки са деактивирани</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">Задължителните аудио записи са деактивирани.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Задължителните аудио записи са активирани.</string>
@@ -337,7 +345,10 @@
     <string name="revanced_custom_filter_strings_summary">Списък с низове за изграждане на пътя на компонента, които да се филтрират, разделени с нов ред.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Невалиден потребителски филтър: %s.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <string name="revanced_preference_screen_hook_buttons_title">Настройки за действие на бутоните</string>
+    <string name="revanced_preference_screen_hook_buttons_summary">Замяна на действията на бутоните в приложението.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_preference_category_download_button">Бутон Изтегляне</string>
     <string name="revanced_override_video_download_button_title">Действие на бутона \"Изтегляне\" за видео</string>
     <string name="revanced_override_video_download_button_summary_on">Бутонът за изтегляне от YouTube отваря вашата външна програма за изтегляне.</string>
     <string name="revanced_override_video_download_button_summary_off">Бутонът за изтегляне на YouTube отваря собствената програма за изтегляне на приложението.</string>
@@ -347,6 +358,16 @@
     <string name="revanced_external_downloader_package_name_playlist_title">Име на приложението за изтегляне</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Име на пакета на приложението за изтегляне като NewPipe или YTDLnis.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_override_youtube_music_button_title">Замяна на бутона YouTube Music</string>
+    <string name="revanced_override_youtube_music_button_summary_on">Бутонът YouTube Music отваря RVX Music.</string>
+    <string name="revanced_override_youtube_music_button_summary_off">Бутонът YouTube Music отваря вграденото приложение.</string>
+    <string name="revanced_third_party_youtube_music_package_name_title">Име на пакета RVX Music</string>
+    <string name="revanced_third_party_youtube_music_package_name_summary">Името на пакета с инсталиран RVX Music.</string>
+    <string name="revanced_third_party_youtube_music_dialog_title">RVX Music</string>
+    <string name="revanced_third_party_youtube_music_not_installed_dialog_title">Внимание</string>
+    <string name="revanced_third_party_youtube_music_not_installed_warning">%s не е инсталирано. Моля инсталирайте го.</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_title">Изисквания</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_summary">Изисква се YouTube Music, за да замени действието на бутона. Докоснете тук, за да изтеглите YouTube Music.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Минимизиран екран за възпроизвеждане</string>
     <string name="revanced_preference_screen_miniplayer_summary">Променете стила на минимизирания екран за възпроизвеждане.</string>
@@ -378,9 +399,7 @@
     <string name="revanced_miniplayer_opacity_title">Прозрачност на менютата</string>
     <string name="revanced_miniplayer_opacity_summary">Стойност на прозрачност между 0-100, където 0 е прозрачно.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">Прозрачността на менюто на плейъра трябва да бъде между 0-100. Нулирайте стойностите по подразбирне.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation buttons -->
-    <string name="revanced_preference_screen_navigation_buttons_title">Бутони за навигация</string>
-    <string name="revanced_preference_screen_navigation_buttons_summary">Скриване или показване на елементи от лентата за навигация.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_enable_narrow_navigation_buttons_title">Бутони за навигация в тесен стил</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">Разстоянието между бутоните за навигация е по-тясно.</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">Разстоянието между бутоните за навигация ежнормално.</string>
@@ -1536,6 +1555,7 @@ AVC (H.264) има максимална разделителна способн�
     <string name="revanced_icon_revancify_blue">Revancify синя</string>
     <string name="revanced_icon_revancify_red">Revancify Червена</string>
     <string name="revanced_icon_youtube">YouTube</string>
+    <string name="revanced_icon_youtube_minimal_header">YouTube (минимално заглавие)</string>
     <string name="revanced_label_default">По подразбиране</string>
     <string name="revanced_patches_excluded">Изключване</string>
     <string name="revanced_patches_included">Включване</string>

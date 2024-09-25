@@ -294,7 +294,6 @@
     <string name="revanced_change_start_page_entry_subscriptions">الاشتراكات</string>
     <string name="revanced_change_start_page_entry_trending">المحتوى الرائج</string>
     <string name="revanced_change_start_page_entry_watch_later">المشاهدة لاحقًا</string>
-    <string name="revanced_change_start_page_invalid_toast">صفحة البداية غير صالحة، تتم إعادة التعيين إلى الوضع الافتراضي.</string>
     <string name="revanced_disable_auto_audio_tracks_title">تعطيل المقطع الصوتي التلقائي المفروض</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">تم تعطيل المقطع الصوتي التلقائي المفروض.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">تم تمكين المقطع الصوتي التلقائي المفروض.</string>
@@ -362,7 +361,10 @@
     <string name="revanced_custom_filter_strings_summary">قائمة سلاسل منشئ مسار المكونات المراد تصفيتها، مفصولة بسطور جديدة.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">فلتر مخصص غير صالح: %s.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <string name="revanced_preference_screen_hook_buttons_title">أزرار الإرتباط</string>
+    <string name="revanced_preference_screen_hook_buttons_summary">يتجاوز إجراء النقر على الأزرار الموجودة داخل التطبيق.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_preference_category_download_button">زر التنزيل</string>
     <string name="revanced_override_video_download_button_title">تجاوز زر تنزيل الفيديو</string>
     <string name="revanced_override_video_download_button_summary_on">يفتح زر تنزيل الفيديو الأصلي أداة التنزيل الخارجية.</string>
     <string name="revanced_override_video_download_button_summary_off">يفتح زر تنزيل الفيديو أداة التنزيل الأصلية داخل التطبيق.</string>
@@ -372,6 +374,16 @@
     <string name="revanced_external_downloader_package_name_playlist_title">اسم حزمة تنزيل قائمة التشغيل</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">اسم الحزمة لتطبيق التنزيل الخارجي المثبت لديك، مثل YTDLnis.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_override_youtube_music_button_title">تجاوز زر موسيقى YouTube</string>
+    <string name="revanced_override_youtube_music_button_summary_on">زر موسيقى YouTube يفتح موسيقى RVX.</string>
+    <string name="revanced_override_youtube_music_button_summary_off">زر موسيقى YouTube يفتح التطبيق الأصلي.</string>
+    <string name="revanced_third_party_youtube_music_package_name_title">اسم حزمة موسيقى RVX</string>
+    <string name="revanced_third_party_youtube_music_package_name_summary">اسم الحزمة لموسيقى RVX المثبتة.</string>
+    <string name="revanced_third_party_youtube_music_dialog_title">موسيقى RVX</string>
+    <string name="revanced_third_party_youtube_music_not_installed_dialog_title">تحذير</string>
+    <string name="revanced_third_party_youtube_music_not_installed_warning">%s لم يتم تثبيته. الرجاء تثبيته.</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_title">متطلب أساسي</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_summary">موسيقى YouTube مطلوبًا لتجاوز إجراء الزر. انقر هنا لتنزيل موسيقى YouTube.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">المشغل المصغر</string>
     <string name="revanced_preference_screen_miniplayer_summary">تغيير نمط المشغل المصغر داخل التطبيق.</string>
@@ -403,9 +415,7 @@
     <string name="revanced_miniplayer_opacity_title">شفافية الواجهة</string>
     <string name="revanced_miniplayer_opacity_summary">قيمة الشفافية بين 0-100، حيث يكون 0 شفاف.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">يجب أن تكون نسبة شفافية واجهة المشغل المصغر بين 0-100. إعادة التعيين إلى القيم الافتراضية.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation buttons -->
-    <string name="revanced_preference_screen_navigation_buttons_title">أزرار التنقل</string>
-    <string name="revanced_preference_screen_navigation_buttons_summary">إخفاء أو عرض مكونات قسم شريط التنقل.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_enable_narrow_navigation_buttons_title">تمكين أزرار التنقل الضيقة</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">المسافة بين أزرار التنقل أضيق.</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">المسافة بين أزرار التنقل عادية.</string>
@@ -1223,7 +1233,7 @@
 
 • الحد الأقصى للدقة هو 1080P.
 • سيستهلك تشغيل الفيديو بيانات إنترنت أكثر من VP9.
-• للحصول على تشغيل HDR، لا يزال فيديو HDR يستخدم برنامج ترميز VP9."</string>
+• لا يزال برنامج ترميز VP9 مستخدمًا لفيديو HDR."</string>
     <string name="revanced_disable_vp9_codec_summary_off">تم تمكين ترميز VP9.</string>
     <string name="revanced_replace_av1_codec_title">استبدال برنامج الترميز AV1</string>
     <string name="revanced_replace_av1_codec_summary">يستبدل برنامج الترميز AV1 ببرنامج الترميز VP9.</string>
@@ -1531,9 +1541,12 @@
     <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">التأثيرات الجانبية للتزييف</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• قد لا يتم تشغيل الأفلام أو الفيديوهات المدفوعة.
-• يبدأ البث المباشر من البداية."</string>
+• يبدأ البث المباشر من البداية.
+• قد تنتهي الفيديوهات قبل النهاية بثانية واحدة.
+• لا يوجد ترميز الصوت Opus."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• قائمة المقطع الصوتي مفقودة.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• قائمة المقطع الصوتي مفقودة."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• قائمة المقطع الصوتي مفقودة.
+• مستوى الصوت الثابت غير متوفر."</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• قد لا يتم تشغيل الفيديو.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">فرض iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">ترميز فيديو iOS هو AVC (H.264).</string>
@@ -1575,6 +1588,7 @@
     <string name="revanced_icon_revancify_blue">Revancify Blue</string>
     <string name="revanced_icon_revancify_red">Revancify Red</string>
     <string name="revanced_icon_youtube">YouTube</string>
+    <string name="revanced_icon_youtube_minimal_header">YouTube (Minimal header)</string>
     <string name="revanced_label_default">الإفتراضي</string>
     <string name="revanced_patches_excluded">مستبعد</string>
     <string name="revanced_patches_included">مضمن</string>

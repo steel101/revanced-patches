@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Επανεκκίνηση ώστε να φορτωθεί σωστά η εφαρμογή</string>
@@ -361,6 +361,8 @@
     <string name="gms_core_dialog_continue_text">Συνέχεια</string>
     <string name="revanced_sanitize_sharing_links_title">Καθαρισμός συνδέσμων κοινοποίησης</string>
     <string name="revanced_sanitize_sharing_links_summary">Αφαίρεση των παραμέτρων παρακολούθησης από τις διευθύνσεις URL κατά την κοινοποίηση συνδέσμων.</string>
+    <string name="revanced_default_app_settings_title">Άνοιγμα ρυθμίσεων προεπιλεγμένων εφαρμογών</string>
+    <string name="revanced_default_app_settings_summary">Για να ανοίγουν οι συνδέσμοι YouTube Music στο RVX Music, ενεργοποιήστε το «Άνοιγμα υποστηριζόμενων συνδέσμων» και τις υποστηριζόμενες διευθύνσεις ιστού.</string>
     <string name="revanced_extended_settings_import_export_title">Εισαγωγή / Εξαγωγή</string>
     <string name="revanced_extended_settings_import_export_summary">Εισαγωγή ή εξαγωγή των ρυθμίσεών σας.</string>
     <string name="revanced_extended_settings_export_as_file">Εξαγωγή ρυθμίσεων σε αρχείο</string>

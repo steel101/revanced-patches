@@ -6,6 +6,7 @@
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Buscar en ajustes</string>
+    <string name="revanced_extended_reset_to_default_toast">Restablecer valores predeterminados.</string>
     <string name="revanced_preference_category_experimental_flag">Funciones experimentales</string>
     <string name="revanced_extended_confirm_user_dialog_title">¿Quieres continuar?</string>
     <string name="revanced_extended_restart_first_run">Reiniciar para cargar el diseño normalmente</string>
@@ -72,6 +73,7 @@ Pulsa aquí para saber más sobre DeArrow."</string>
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">No se muestra el mensaje si DeArrow no está disponible.</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_title">Punto final de la API de DeArrow</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_summary">La URL del punto final de la caché de miniaturas de DeArrow.</string>
+    <string name="revanced_alt_thumbnail_dearrow_api_url_invalid_toast">URL de la API de DeArrow no válida.</string>
     <string name="revanced_alt_thumbnail_stills_about_title">Capturas de vídeo fijas</string>
     <string name="revanced_alt_thumbnail_stills_about_summary">Las capturas fijas se toman del principio / mitad / final de cada vídeo. Estas imágenes están integradas en YouTube y no se utiliza ninguna API externa.</string>
     <string name="revanced_alt_thumbnail_stills_fast_title">Usar capturas fijas rápidas</string>
@@ -248,6 +250,10 @@ Limitaciones:
 • Vídeos subidos desde canales a los que no estás suscrito y que tienen menos de 1,000 visualizaciones."</string>
     <string name="revanced_hide_low_views_video_title">Ocultar vídeos con pocas visualizaciones</string>
     <string name="revanced_hide_low_views_video_summary">Oculta los vídeos con menos de 1.000 visualizaciones de los feeds de inicio que hayan sido subidos desde canales a los que no estás suscrito.</string>
+    <string name="revanced_hide_upcoming_video_title">Ocultar vídeo PRÓXIMO</string>
+    <string name="revanced_hide_upcoming_video_summary">"Oculta vídeos con la etiqueta PRÓXIMAMENTE.
+
+Nota: Al activar esta opción también se oculta el botón de notificarme."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Filtro de contador de visualizaciones</string>
     <string name="revanced_hide_video_by_view_counts_home_title">Ocultar vídeos de inicio por visualizaciones</string>
@@ -291,7 +297,11 @@ Limitaciones:
     <string name="revanced_change_start_page_entry_subscriptions">Suscripciones</string>
     <string name="revanced_change_start_page_entry_trending">Tendencias</string>
     <string name="revanced_change_start_page_entry_watch_later">Ver más tarde</string>
-    <string name="revanced_change_start_page_invalid_toast">Página de inicio no válida, restableciendo a la predeterminada.</string>
+    <string name="revanced_change_start_page_type_title">Cambiar tipo de página de inicio</string>
+    <string name="revanced_change_start_page_type_summary_on">"La página de inicio siempre cambia.
+
+Limitación: Es posible que el botón Atrás de la barra de herramientas no funcione."</string>
+    <string name="revanced_change_start_page_type_summary_off">La página de inicio solo cambia una vez.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Desactivar pistas de audio automáticas forzadas</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">Las pistas de audio automáticas forzadas están desactivadas.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Las pistas de audio automáticas forzadas están activadas.</string>
@@ -360,7 +370,10 @@ Algunos componentes pueden no estar ocultos."</string>
     <string name="revanced_custom_filter_strings_summary">Lista de cadenas del constructor de rutas de componentes a filtrar separadas por una nueva línea.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Filtro personalizado no válido: %s.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <string name="revanced_preference_screen_hook_buttons_title">Botones de enganche</string>
+    <string name="revanced_preference_screen_hook_buttons_summary">Reemplaza la acción de clic de los botones dentro de la aplicación.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_preference_category_download_button">Botón de descarga</string>
     <string name="revanced_override_video_download_button_title">Reemplazar botón de descarga de vídeo</string>
     <string name="revanced_override_video_download_button_summary_on">El botón nativo de descarga de vídeo abre tu descargador externo.</string>
     <string name="revanced_override_video_download_button_summary_off">El botón nativo de descarga de vídeo abre el descargador nativo de la aplicación.</string>
@@ -370,6 +383,16 @@ Algunos componentes pueden no estar ocultos."</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Nombre del paquete del descargador de listas de reproducción</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Nombre del paquete de tu aplicación de descargas externas instalada, como YTDLnis.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_override_youtube_music_button_title">Reemplazar botón de YouTube Music</string>
+    <string name="revanced_override_youtube_music_button_summary_on">El botón de YouTube Music abre RVX Music.</string>
+    <string name="revanced_override_youtube_music_button_summary_off">El botón de Youtube Music abre la app nativa.</string>
+    <string name="revanced_third_party_youtube_music_package_name_title">Nombre del paquete de RVX Music</string>
+    <string name="revanced_third_party_youtube_music_package_name_summary">Nombre del paquete de RVX Music instalado.</string>
+    <string name="revanced_third_party_youtube_music_dialog_title">RVX Music</string>
+    <string name="revanced_third_party_youtube_music_not_installed_dialog_title">Advertencia</string>
+    <string name="revanced_third_party_youtube_music_not_installed_warning">%s no está instalado. Por favor, instálalo.</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_title">Requisito previo</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_summary">Se requiere YouTube Music para reemplazar la acción del botón. Pulsa aquí para descargar YouTube Music.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Minirreproductor</string>
     <string name="revanced_preference_screen_miniplayer_summary">Cambia el estilo del reproductor minimizado de la aplicación.</string>
@@ -401,9 +424,9 @@ Algunos componentes pueden no estar ocultos."</string>
     <string name="revanced_miniplayer_opacity_title">Opacidad de superposición</string>
     <string name="revanced_miniplayer_opacity_summary">Valor de opacidad entre 0-100, donde 0 es transparente.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">La opacidad del minirreproductor debe estar entre 0-100. Restablezca a los valores predeterminados.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation buttons -->
-    <string name="revanced_preference_screen_navigation_buttons_title">Botones de navegación</string>
-    <string name="revanced_preference_screen_navigation_buttons_summary">Ocultar o mostrar los componentes de la sección de la barra de navegación.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <string name="revanced_preference_screen_navigation_bar_title">Barra de navegación</string>
+    <string name="revanced_preference_screen_navigation_bar_summary">Ocultar o mostrar los componentes de la sección de la barra de navegación.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Activar botones de navegación estrechos</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">El espacio entre los botones de navegación se hace más estrecho.</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">El espacio entre los botones de navegación no se hace más estrecho.</string>
@@ -441,6 +464,9 @@ Si este ajuste no surte efecto, prueba a cambiar al modo incógnito."</string>
     <string name="revanced_enable_translucent_navigation_bar_title">Activar barra de navegación translúcida</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">La barra de navegación es translúcida.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">La barra de navegación es opaca.</string>
+    <string name="revanced_hide_navigation_bar_title">Ocultar barra de navegación</string>
+    <string name="revanced_hide_navigation_bar_summary_on">La barra de navegación está oculta.</string>
+    <string name="revanced_hide_navigation_bar_summary_off">La barra de navegación está visible.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Menú de configuración</string>
     <string name="revanced_preference_screen_settings_menu_summary">Ocultar elementos del menú de configuración de YouTube.</string>
@@ -1105,6 +1131,9 @@ Problema conocido: Al tratarse de una función en fase de desarrollo por parte d
     <string name="revanced_hide_shorts_navigation_bar_title">Ocultar barra de navegación</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_on">La barra de navegación está oculta.</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_off">La barra de navegación está visible.</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_title">Porcentaje de altura del espacio vacío</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_summary">Configura el porcentaje de altura del espacio vacío izquierdo cuando la barra de navegación está oculta, entre 0 y 100 (%).</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_invalid_toast">El porcentaje de altura debe estar entre 0-100 (%).</string>
     <string name="revanced_replace_channel_handle_title">Reemplazar nombre de usuario del canal</string>
     <string name="revanced_replace_channel_handle_summary_on">Se utiliza el nombre del canal.</string>
     <string name="revanced_replace_channel_handle_summary_off">Se utiliza el nombre de usuario del canal.</string>
@@ -1565,6 +1594,7 @@ AVC (H.264) tiene una resolución máxima de 1080p, y la reproducción de vídeo
     <string name="revanced_icon_revancify_blue">Revancify Blue</string>
     <string name="revanced_icon_revancify_red">Revancify Red</string>
     <string name="revanced_icon_youtube">YouTube</string>
+    <string name="revanced_icon_youtube_minimal_header">YouTube (cabecera mínima)</string>
     <string name="revanced_label_default">Predeterminada</string>
     <string name="revanced_patches_excluded">Excluidos</string>
     <string name="revanced_patches_included">Incluidos</string>

@@ -289,7 +289,6 @@ Playlists
     <string name="revanced_change_start_page_entry_subscriptions">Εγγραφές</string>
     <string name="revanced_change_start_page_entry_trending">Τάσεις</string>
     <string name="revanced_change_start_page_entry_watch_later">Παρακολούθηση αργότερα</string>
-    <string name="revanced_change_start_page_invalid_toast">Μη έγκυρη αρχική σελίδα, επαναφέρθηκε.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Απενεργοποίηση υποχρεωτικών κομματιών ήχου</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">Τα υποχρεωτικά κομμάτια ήχου είναι απενεργοποιημένα.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Τα υποχρεωτικά κομμάτια ήχου είναι ενεργοποιημένα.</string>
@@ -358,7 +357,10 @@ Playlists
     <string name="revanced_custom_filter_strings_summary">Λίστα από συμβολοσειρές στοιχείων που θα φιλτραριστούν, διαχωρισμένες με νέες γραμμές.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Μη έγκυρο φίλτρο: %s.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <string name="revanced_preference_screen_hook_buttons_title">Μετατροπή κουμπιών</string>
+    <string name="revanced_preference_screen_hook_buttons_summary">Μετατροπή ενέργειας πατήματος των κουμπιών της εφαρμογής.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_preference_category_download_button">Κουμπί «Λήψη»</string>
     <string name="revanced_override_video_download_button_title">Μετατροπή κουμπιού λήψης βίντεο</string>
     <string name="revanced_override_video_download_button_summary_on">Το κουμπί λήψης του YouTube ανοίγει το εξωτερικό πρόγραμμα λήψης σας.</string>
     <string name="revanced_override_video_download_button_summary_off">Το κουμπί λήψης του YouTube ανοίγει το εγγενές πρόγραμμα λήψης της εφαρμογής.</string>
@@ -368,6 +370,16 @@ Playlists
     <string name="revanced_external_downloader_package_name_playlist_title">Όνομα πακέτου προγράμματος λήψης playlist</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Όνομα πακέτου της εγκατεστημένης σας εξωτερικής εφαρμογής λήψης (π.χ YTLDnis).</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_override_youtube_music_button_title">Μετατροπή κουμπιού YouTube Music</string>
+    <string name="revanced_override_youtube_music_button_summary_on">Το κουμπί YouTube Music ανοίγει τo RVX Music.</string>
+    <string name="revanced_override_youtube_music_button_summary_off">Το κουμπί YouTube Music ανοίγει την εγγενή εφαρμογή.</string>
+    <string name="revanced_third_party_youtube_music_package_name_title">Όνομα πακέτου RVX Music</string>
+    <string name="revanced_third_party_youtube_music_package_name_summary">Όνομα πακέτου του εγκατεστημένου RVX Music.</string>
+    <string name="revanced_third_party_youtube_music_dialog_title">RVX Music</string>
+    <string name="revanced_third_party_youtube_music_not_installed_dialog_title">Προειδοποίηση</string>
+    <string name="revanced_third_party_youtube_music_not_installed_warning">%s δεν έχει εγκατασταθεί. Παρακαλούμε εγκαταστήστε το.</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_title">Προαπαιτούμενο</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_summary">Το YouTube Music είναι απαραίτητο για την μετατροπή ενέργειας του κουμπιού. Πατήστε για να κατεβάσετε το YouTube Music.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Ελαχιστοποιημένη οθόνη αναπαραγωγής</string>
     <string name="revanced_preference_screen_miniplayer_summary">Αλλαγή του στυλ της ελαχιστοποιημένης οθόνης αναπαραγωγής.</string>
@@ -399,9 +411,7 @@ Playlists
     <string name="revanced_miniplayer_opacity_title">Αδιαφάνεια φόντου παρασκηνίου</string>
     <string name="revanced_miniplayer_opacity_summary">Τιμή αδιαφάνειας μεταξύ 0-100, όπου το 0 είναι διαφανές.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">Η αδιαφάνεια πρέπει να ναι μεταξύ 0-100, επαναφέρθηκε.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation buttons -->
-    <string name="revanced_preference_screen_navigation_buttons_title">Κουμπιά πλοήγησης</string>
-    <string name="revanced_preference_screen_navigation_buttons_summary">Απόκρυψη ή εμφάνιση στοιχείων της γραμμής πλοήγησης.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_enable_narrow_navigation_buttons_title">Κουμπιά πλοήγησης στενού στυλ</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">Το διάστημα μεταξύ των κουμπιών πλοήγησης είναι στενότερο.</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">Το διάστημα μεταξύ των κουμπιών πλοήγησης δεν είναι στενότερο.</string>
@@ -1234,12 +1244,12 @@ Playlists
     <string name="revanced_spoof_device_dimensions_summary">"Παραποίηση διαστάσεων συσκευής στη μέγιστη τιμή.
 Ενδέχεται να ξεκλειδωθούν υψηλότερες ποιότητες σε κάποια βίντεο που απαιτούν υψηλές διαστάσεις συσκευής, αλλά όχι σε όλα τα βίντεο."</string>
     <string name="revanced_disable_vp9_codec_title">Απενεργοποίηση κωδικοποιητή VP9</string>
-    <string name="revanced_disable_vp9_codec_summary_on">"Ο κωδικοποιητής VP9 είναι ενεργοποιημένος.
+    <string name="revanced_disable_vp9_codec_summary_on">"Ο κωδικοποιητής VP9 είναι απενεργοποιημένος.
 
 • Η μέγιστη ανάλυση είναι 1080p.
 • Η αναπαραγωγή βίντεο θα χρησιμοποιεί περισσότερα δεδομένα Internet από τον VP9.
-• Για την αναπαραγωγή με ποιότητα HDR, τα βίντεο HDR εξακολουθούν να χρησιμοποιούν τον κωδικοποιητή VP9."</string>
-    <string name="revanced_disable_vp9_codec_summary_off">Ο κωδικοποιητής VP9 είναι απενεργοποιημένος.</string>
+• Για την αναπαραγωγή βίντεο τύπου HDR, ο κωδικοποιητής VP9 εξακολουθεί να χρησιμοποιείται."</string>
+    <string name="revanced_disable_vp9_codec_summary_off">Ο κωδικοποιητής VP9 είναι ενεργοποιημένος.</string>
     <string name="revanced_replace_av1_codec_title">Αντικατάσταση κωδικοποιητή AV1</string>
     <string name="revanced_replace_av1_codec_summary">Αντικατάσταση του κωδικοποιητή λογισμικού AV1 με τον κωδικοποιητή VP9.</string>
     <string name="revanced_reject_av1_codec_title">Απόρριψη απόκρισης κωδικοποιητή AV1</string>
@@ -1482,7 +1492,7 @@ Playlists
     <string name="revanced_enable_open_links_directly_summary_on">Οι ανακατευθύνσεις URL παρακάμπτονται κατά το άνοιγμα συνδέσμων.</string>
     <string name="revanced_enable_open_links_directly_summary_off">Οι ανακατευθύνσεις URL δεν παρακάμπτονται κατά το άνοιγμα συνδέσμων.</string>
     <string name="revanced_default_app_settings_title">Άνοιγμα ρυθμίσεων προεπιλεγμένων εφαρμογών</string>
-    <string name="revanced_default_app_settings_summary">Για να ανοίγουν οι συνδέσμοι YouTube στο RVX, ενεργοποιήστε το «Άνοιγμα υποστηριζόμενων συνδέσμων» και ενεργοποιήστε τις υποστηριζόμενες διευθύνσεις ιστού.</string>
+    <string name="revanced_default_app_settings_summary">Για να ανοίγουν οι συνδέσμοι YouTube στο RVX, ενεργοποιήστε το «Άνοιγμα υποστηριζόμενων συνδέσμων» και τις υποστηριζόμενες διευθύνσεις ιστού.</string>
     <string name="gms_core_settings_title">Άνοιγμα του MicroG GmsCore</string>
     <string name="gms_core_settings_summary">Ενεργοποιήστε τις ρυθμίσεις cloud messaging για να λαμβάνετε ειδοποιήσεις.</string>
     <string name="gms_core_toast_not_installed_message">Το MicroG GmsCore δεν είναι εγκατεστημένο. Εγκαταστήστε το.</string>
@@ -1548,9 +1558,12 @@ Playlists
     <string name="revanced_spoof_streaming_data_type_entry_web">Ιστός (Web)</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Παρενέργειες παραποίησης</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• Οι ταινίες ή τα επί πληρωμή βίντεο ενδέχεται να μην αναπαράγονται.
-• Οι ζωντανές μεταδόσεις ξεκινούν από την αρχή κατά την αναπαραγωγή."</string>
+• Οι ζωντανές μεταδόσεις ξεκινούν από την αρχή κατά την αναπαραγωγή.
+• Τα βίντεο μπορεί να τελειώνουν 1 δευτερόλεπτο νωρίτερα.
+• Ο κωδικοποιητής ήχου opus δεν είναι διαθέσιμος."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Το μενού «Κομμάτι ήχου» λείπει.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Το μενού «Κομμάτι ήχου» λείπει."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Το μενού «Κομμάτι ήχου» λείπει.
+• Η λειτουργία «Σταθερή ένταση» δεν είναι διαθέσιμη."</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Τα βίντεο ενδέχεται να μην αναπαράγονται.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Εξαναγκασμός iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Ο κωδικοποιητής βίντεο iOS είναι ο AVC (H.264).</string>
@@ -1592,6 +1605,7 @@ Playlists
     <string name="revanced_icon_revancify_blue">Revancify Blue</string>
     <string name="revanced_icon_revancify_red">Revancify Red</string>
     <string name="revanced_icon_youtube">YouTube</string>
+    <string name="revanced_icon_youtube_minimal_header">YouTube (ελάχιστη επικεφαλίδα)</string>
     <string name="revanced_label_default">Προεπιλογή</string>
     <string name="revanced_patches_excluded">Εξαιρέθηκε</string>
     <string name="revanced_patches_included">Συμπεριλήφθηκε</string>
