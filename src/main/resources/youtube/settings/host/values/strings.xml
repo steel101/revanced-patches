@@ -1222,6 +1222,9 @@ Limitations:
     <string name="revanced_hide_shorts_navigation_bar_title">Hide navigation bar</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_on">Navigation bar is hidden.</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_off">Navigation bar is shown.</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_title">Height percentage of empty space</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_summary">Configures the height percentage of the empty space left when the navigation bar is hidden, between 0 and 100 (%).</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_invalid_toast">Height percentage must be between 0-100 (%).</string>
     <string name="revanced_replace_channel_handle_title">Replace channel handle</string>
     <string name="revanced_replace_channel_handle_summary_on">Channel name is used.</string>
     <string name="revanced_replace_channel_handle_summary_off">Channel handle is used.</string>
