@@ -6,6 +6,7 @@
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Поиск %s</string>
+    <string name="revanced_extended_reset_to_default_toast">К значениям по умолчанию.</string>
     <string name="revanced_preference_category_experimental_flag">Экспериментальные опции</string>
     <string name="revanced_extended_confirm_user_dialog_title">Подтверждаете действие?</string>
     <string name="revanced_extended_restart_first_run">Перезапустить для правильной загрузки интерфейса?</string>
@@ -72,6 +73,7 @@
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">Уведомление при недоступности DeArrow API отключено.</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_title">DeArrow API</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_summary">URL кэша миниатюр DeArrow.</string>
+    <string name="revanced_alt_thumbnail_dearrow_api_url_invalid_toast">Неверный URL API для миниатюр DeArrow.</string>
     <string name="revanced_alt_thumbnail_stills_about_title">О захвате кадров из видео</string>
     <string name="revanced_alt_thumbnail_stills_about_summary">Кадры захватываются из начала/середины/конца каждого видео. Эти кадры встроены в YouTube и внешний API не используется.</string>
     <string name="revanced_alt_thumbnail_stills_fast_title">Выбор качества кадров</string>
@@ -252,6 +254,9 @@ Shorts
 • С каналов, на которые вы не подписаны (менее 1000 просмотров)."</string>
     <string name="revanced_hide_low_views_video_title">Скрыть видео с низкими просмотрами</string>
     <string name="revanced_hide_low_views_video_summary">Скрыть видео с менее 1000 просмотров из ленты, из каналов от которых Вы отписались.</string>
+    <string name="revanced_hide_upcoming_video_title">Подготовленное видео</string>
+    <string name="revanced_hide_upcoming_video_summary">"Скрывает видео с меткой \"подготовленное\" к воспроизведению.
+Примечание: Также скроется кнопка \"Уведомить\"."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Фильтр по количеству просмотров</string>
     <string name="revanced_hide_video_by_view_counts_home_title">Фильтр видео в \"Главная\" по просмотрам</string>
@@ -304,6 +309,10 @@ Shorts
     <string name="revanced_change_start_page_entry_subscriptions">Подписки</string>
     <string name="revanced_change_start_page_entry_trending">В тренде</string>
     <string name="revanced_change_start_page_entry_watch_later">Смотреть позже</string>
+    <string name="revanced_change_start_page_type_title">Тип начальной страницы</string>
+    <string name="revanced_change_start_page_type_summary_on">"Начальная страница постоянно изменяется.
+Ограничение: Кнопка возврат может не работать."</string>
+    <string name="revanced_change_start_page_type_summary_off">Начальная страница изменится один раз.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Принудительные автоматические звуковые дорожки</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">Принудительные автоматические звуковые дорожки отключены.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Принудительные автоматические звуковые дорожки включены.</string>
@@ -428,6 +437,8 @@ Shorts
     <string name="revanced_miniplayer_opacity_summary">Значение непрозрачности в промежутке 0-100, где 0 это прозрачный.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">Непрозрачность должна быть в диапазоне 0-100. Сброс по умолчанию.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <string name="revanced_preference_screen_navigation_bar_title">Панель навигации</string>
+    <string name="revanced_preference_screen_navigation_bar_summary">Настроить компоненты панели навигации.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Узкие кнопки навигации</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">Уменьшенное расстояние между кнопками.</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">Обычное расстояние между кнопками.</string>
@@ -465,6 +476,9 @@ Shorts
     <string name="revanced_enable_translucent_navigation_bar_title">Полупрозрачная панель навигации</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">Полупрозрачность включена.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">Полупрозрачность отключена.</string>
+    <string name="revanced_hide_navigation_bar_title">Панель навигации</string>
+    <string name="revanced_hide_navigation_bar_summary_on">Панель навигации скрыта.</string>
+    <string name="revanced_hide_navigation_bar_summary_off">Панель навигации отображена.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Меню настроек</string>
     <string name="revanced_preference_screen_settings_menu_summary">Настройка меню YouTube.</string>
@@ -1137,6 +1151,9 @@ Shorts
     <string name="revanced_hide_shorts_navigation_bar_title">Панель навигации</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_on">Панель навигации скрыта.</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_off">Панель навигации отображена.</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_title">Процент высоты отступа</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_summary">Настраивает высоту отступа, когда панель навигации скрыта, от 0 до 100 (%).</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_invalid_toast">Высота должна быть от 0 до 100 (%).</string>
     <string name="revanced_replace_channel_handle_title">Заменить дескриптор канала</string>
     <string name="revanced_replace_channel_handle_summary_on">Используется имя канала.</string>
     <string name="revanced_replace_channel_handle_summary_off">Используется псевдоним канала.</string>

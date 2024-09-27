@@ -6,6 +6,7 @@
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">設定を検索</string>
+    <string name="revanced_extended_reset_to_default_toast">デフォルト値にリセットしました。</string>
     <string name="revanced_preference_category_experimental_flag">実験的な機能</string>
     <string name="revanced_extended_confirm_user_dialog_title">続行しますか？</string>
     <string name="revanced_extended_restart_first_run">再起動してレイアウトを正常に読み込みます</string>
@@ -70,6 +71,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">DeArrow が利用できない場合、トーストを表示します。</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_title">DeArrow API エンドポイント</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_summary">DeArrowサムネイルキャッシュエンドポイントのURL</string>
+    <string name="revanced_alt_thumbnail_dearrow_api_url_invalid_toast">無効な DeArrow API の URL です。</string>
     <string name="revanced_alt_thumbnail_stills_about_title">静止画サムネイルについて</string>
     <string name="revanced_alt_thumbnail_stills_about_summary">静止画サムネイルは、各動画の最初/中間/最後の部分から取得されます。これらの画像は YouTube に直接組み込まれており、外部 API は使用されません。</string>
     <string name="revanced_alt_thumbnail_stills_fast_title">高速な静止画サムネイル</string>
@@ -245,6 +247,10 @@ DeArrowの詳細については、ここをタップしてください。"</stri
 • 登録していないチャンネルからアップロードされた、再生回数が 1,000 回未満の動画"</string>
     <string name="revanced_hide_low_views_video_title">再生回数が少ない動画を非表示</string>
     <string name="revanced_hide_low_views_video_summary">登録していないチャンネルからアップロードされた、再生回数が 1,000 回未満の動画をホームフィードから非表示にします。</string>
+    <string name="revanced_hide_upcoming_video_title">プレミア公開動画を非表示</string>
+    <string name="revanced_hide_upcoming_video_summary">"「プレミア公開」ラベルがついた動画を非表示にします。
+
+注意: これを有効にすると「通知する」ボタンも非表示になります。"</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">再生回数フィルター</string>
     <string name="revanced_hide_video_by_view_counts_home_title">ホームフィードをフィルタリング</string>
@@ -269,6 +275,9 @@ DeArrowの詳細については、ここをタップしてください。"</stri
 注意: 
 • ショート動画は非表示にできません。
 • 再生回数が 0 の動画はフィルタリングされません。"</string>
+    <string name="revanced_hide_related_videos_title">関連動画を非表示</string>
+    <string name="revanced_hide_related_videos_summary_on">関連動画を非表示にします。</string>
+    <string name="revanced_hide_related_videos_summary_off">関連動画を非表示にします。</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">全般</string>
     <string name="revanced_change_start_page_title">起動時のページを変更</string>
@@ -288,6 +297,11 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_change_start_page_entry_subscriptions">登録チャンネル</string>
     <string name="revanced_change_start_page_entry_trending">トレンド</string>
     <string name="revanced_change_start_page_entry_watch_later">後で見る</string>
+    <string name="revanced_change_start_page_type_title">「起動時のページを変更」の種類</string>
+    <string name="revanced_change_start_page_type_summary_on">"現在の設定: 起動時のページを常に変更します。
+
+注意: ツールバーの戻るボタンが機能しない場合があります。"</string>
+    <string name="revanced_change_start_page_type_summary_off">現在の設定: 起動時のページを一度のみ変更します。</string>
     <string name="revanced_disable_auto_audio_tracks_title">音声トラックの強制を無効化</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">音声トラックが自動で選択されるのを無効化します。
 
@@ -364,7 +378,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_preference_screen_hook_buttons_summary">YouTube 内の「YouTube Music」ボタンを置換します。</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
     <string name="revanced_preference_category_download_button">ダウンロードボタン</string>
-    <string name="revanced_override_video_download_button_title">「オフライン」ボタンを置き換え</string>
+    <string name="revanced_override_video_download_button_title">「オフライン」ボタンを置換</string>
     <string name="revanced_override_video_download_button_summary_on">「オフライン」ボタンで外部ダウンローダーを開きます。</string>
     <string name="revanced_override_video_download_button_summary_off">「オフライン」ボタンで外部ダウンローダーを開きます。</string>
     <string name="revanced_override_playlist_download_button_title">プレイリストにダウンロードボタンを追加</string>
@@ -415,6 +429,8 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_miniplayer_opacity_summary">不透明度の値は 0 ~ 100 の間で、 0 が透明です。</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">ミニプレーヤーのオーバーレイの不透明度は0 ~ 100の間でなければなりません。デフォルト値にリセットします。</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <string name="revanced_preference_screen_navigation_bar_title">ナビゲーションバー</string>
+    <string name="revanced_preference_screen_navigation_bar_summary">ナビゲーションバーセクションのコンポーネントを非表示または表示します。</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">幅の狭いナビゲーションボタンを有効化</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">ナビゲーション ボタンの間隔は狭くなります。</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">ナビゲーション ボタンの間隔を狭くします。</string>
@@ -452,6 +468,9 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_enable_translucent_navigation_bar_title">半透明のナビゲーションバーを有効化</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">ナビゲーションバー(ホーム、登録チャンネルなどのボタン)を半透明にします。\n\n注意: この機能は  Android 12 以降のみ利用可能です。</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">ナビゲーションバー(ホーム、登録チャンネルなどのボタン)を半透明にします。\n\n注意: この機能は  Android 12 以降のみ利用可能です。</string>
+    <string name="revanced_hide_navigation_bar_title">ナビゲーションバーを非表示</string>
+    <string name="revanced_hide_navigation_bar_summary_on">ナビゲーションバー(ホーム、登録チャンネルなどのボタン)を非表示にします。</string>
+    <string name="revanced_hide_navigation_bar_summary_off">ナビゲーションバー(ホーム、登録チャンネルなどのボタン)を非表示にします。</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">設定メニュー</string>
     <string name="revanced_preference_screen_settings_menu_summary">「YouTube 設定」メニューの要素を非表示にします。</string>
@@ -497,7 +516,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_voice_search_button_title">音声検索ボタンを非表示</string>
     <string name="revanced_hide_voice_search_button_summary_on">「音声検索」ボタンを非表示にします。</string>
     <string name="revanced_hide_voice_search_button_summary_off">「音声検索」ボタンを非表示にします。</string>
-    <string name="revanced_replace_toolbar_create_button_title">作成ボタンを置き換え</string>
+    <string name="revanced_replace_toolbar_create_button_title">「作成」ボタンを置換</string>
     <string name="revanced_replace_toolbar_create_button_summary">「作成」ボタンを「設定」ボタンに置き換えます。</string>
     <string name="revanced_replace_toolbar_create_button_type_title">ボタンに割り当てるアクションの種類</string>
     <string name="revanced_replace_toolbar_create_button_type_summary_on">"タップすると RVX 設定が開きます。
@@ -888,7 +907,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_append_time_stamp_information_type_title">表示する情報の種類</string>
     <string name="revanced_append_time_stamp_information_type_summary_on">現在の設定: 画質を表示します。</string>
     <string name="revanced_append_time_stamp_information_type_summary_off">現在の設定: 再生速度を表示します。</string>
-    <string name="revanced_replace_time_stamp_action_title">タイムスタンプを置き換え</string>
+    <string name="revanced_replace_time_stamp_action_title">タイムスタンプを置換</string>
     <string name="revanced_replace_time_stamp_action_summary_on">現在の設定: プレーヤー左下のタイムスタンプをタップすると、再生速度または画質のフライアウトメニューが開きます。</string>
     <string name="revanced_replace_time_stamp_action_summary_off">現在の設定: プレーヤー左下のタイムスタンプをタップすると、残り時間が表示されます。</string>
     <string name="revanced_enable_custom_seekbar_color_title">シークバーの色のカスタマイズを有効化</string>
@@ -1112,6 +1131,9 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_shorts_navigation_bar_title">ナビゲーションバーを非表示</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_on">ナビゲーションバー(ホーム、登録チャンネルなどのボタン)を非表示にします。</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_off">ナビゲーションバー(ホーム、登録チャンネルなどのボタン)を非表示にします。</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_title">スペースの高さを調整</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_summary">ナビゲーションバーが非表示になっている際に残るスペースの高さを 0~100 (%) の間で設定します。</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_invalid_toast">高さは 0~100 (%) の間でなければなりません。</string>
     <string name="revanced_replace_channel_handle_title">ショートのチャンネル名を復元</string>
     <string name="revanced_replace_channel_handle_summary_on">現在の設定: チャンネル名が表示されます。</string>
     <string name="revanced_replace_channel_handle_summary_off">現在の設定: チャンネルのハンドル名が表示されます。</string>
@@ -1223,7 +1245,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
 • HDR 再生を可能にするために、HDR 動画では引き続き VP9 コーデックが使用されます。"</string>
     <string name="revanced_disable_vp9_codec_summary_off">VP9 コーデックを無効化します。\n\n注意: \n
 • 最大解像度は 1080p です。\n• 動画を再生する際には VP9 コーデックよりも多くの通信量を消費します。\n • HDR 再生を可能にするために、HDR 動画では引き続き VP9 コーデックが使用されます。</string>
-    <string name="revanced_replace_av1_codec_title">AV1 コーデックを置き換え</string>
+    <string name="revanced_replace_av1_codec_title">AV1 コーデックを置換</string>
     <string name="revanced_replace_av1_codec_summary">AV1 コーデックを VP9 コーデックに置き換えます。</string>
     <string name="revanced_reject_av1_codec_title">AV1 コーデックの応答を拒否</string>
     <string name="revanced_reject_av1_codec_summary">"AV1 コーデック応答を強制的に拒否します。
@@ -1552,7 +1574,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_watch_history_management_summary">タップして YouTube 再生履歴の管理画面を開きます。</string>
     <string name="revanced_watch_history_type_title">再生履歴の種類</string>
     <string name="revanced_watch_history_type_entry_1">オリジナル</string>
-    <string name="revanced_watch_history_type_entry_2">ドメインを置き換え</string>
+    <string name="revanced_watch_history_type_entry_2">ドメインを置換</string>
     <string name="revanced_watch_history_type_entry_3">再生履歴をブロック</string>
     <string name="revanced_watch_history_about_title">再生履歴のステータス</string>
     <string name="revanced_watch_history_about_status_blocked">• 再生履歴をブロックします。</string>

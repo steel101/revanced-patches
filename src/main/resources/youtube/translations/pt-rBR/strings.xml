@@ -6,6 +6,7 @@
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Buscar %s</string>
+    <string name="revanced_extended_reset_to_default_toast">Redefinir para os valores padrão.</string>
     <string name="revanced_preference_category_experimental_flag">Sinalizadores experimentais</string>
     <string name="revanced_extended_confirm_user_dialog_title">Você deseja continuar?</string>
     <string name="revanced_extended_restart_first_run">Reinicie para carregar o layout normalmente</string>
@@ -72,6 +73,7 @@ Toque aqui para saber mais sobre o DeArrow."</string>
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">Notificação flutuante não exibida se Derow não estiver disponível.</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_title">DeArrow API endpoint</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_summary">A URL do ponto final do cache de miniaturas DeArrow.</string>
+    <string name="revanced_alt_thumbnail_dearrow_api_url_invalid_toast">URL da API DeArrow inválida.</string>
     <string name="revanced_alt_thumbnail_stills_about_title">Capturas de vídeo estáticas</string>
     <string name="revanced_alt_thumbnail_stills_about_summary">As capturas estáticas são feitas do início / meio / fim de cada vídeo. Essas imagens são integradas ao YouTube e nenhuma API externa é usada.</string>
     <string name="revanced_alt_thumbnail_stills_fast_title">Usar capturas estáticas rápidas</string>
@@ -248,6 +250,10 @@ Limitações:
 • Vídeos enviados de canais não inscritos com menos de 1,000 visualizações"</string>
     <string name="revanced_hide_low_views_video_title">Ocultar vídeos com baixas visualizações</string>
     <string name="revanced_hide_low_views_video_summary">Ocultar vídeos com menos de 1.000 visualizações do feed de início que foram enviadas de canais não inscritos.</string>
+    <string name="revanced_hide_upcoming_video_title">Ocultar PRÓXIMO vídeo</string>
+    <string name="revanced_hide_upcoming_video_summary">"Ocultar vídeos com a etiqueta PRÓXIMO.
+
+Nota: Ativar isso também oculta o botão Notificar-me."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Filtro por contagem de visualização</string>
     <string name="revanced_hide_video_by_view_counts_home_title">Ocultar vídeos no feed de início por visualizações</string>
@@ -291,6 +297,11 @@ Limitações:
     <string name="revanced_change_start_page_entry_subscriptions">Inscrições</string>
     <string name="revanced_change_start_page_entry_trending">Em alta</string>
     <string name="revanced_change_start_page_entry_watch_later">Assistir mais tarde</string>
+    <string name="revanced_change_start_page_type_title">Alterar tipo de página inicial</string>
+    <string name="revanced_change_start_page_type_summary_on">"Página inicial sempre muda.
+
+Limitação: O botão voltar na barra de ferramentas pode não funcionar."</string>
+    <string name="revanced_change_start_page_type_summary_off">A página inicial muda apenas uma vez.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Desativar faixas de áudio automáticas forçadas</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">As faixas de áudio automáticas forçadas estão desativadas.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">As faixas de áudio automáticas forçadas estão ativadas.</string>
@@ -414,6 +425,8 @@ Alguns componentes podem não ser ocultos"</string>
     <string name="revanced_miniplayer_opacity_summary">Valor da opacidade entre 0-100, onde 0 é transparente.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">A opacidade da sobreposição do mini reprodutor deve ser entre 0-100. Redefinir aos valores padrão.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <string name="revanced_preference_screen_navigation_bar_title">Barra de Navegação</string>
+    <string name="revanced_preference_screen_navigation_bar_summary">Ocultar ou mostrar componentes da seção de navegação.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Ativar botões estreitos de navegação</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">O espaçamento entre os botões de navegação se torna reduzido.</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">O espaçamento entre os botões de navegação não se torna mais reduzido.</string>
@@ -451,6 +464,9 @@ Se essa configuração não surtir efeito, tente alternar para o modo anônimo."
     <string name="revanced_enable_translucent_navigation_bar_title">Ativar barra de navegação transparente</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">A barra de navegação está transparente.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">A barra de navegação está opaca.</string>
+    <string name="revanced_hide_navigation_bar_title">Ocultar barra de navegação</string>
+    <string name="revanced_hide_navigation_bar_summary_on">A barra de navegação está oculta.</string>
+    <string name="revanced_hide_navigation_bar_summary_off">A barra de navegação será exibida.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Menu de configurações</string>
     <string name="revanced_preference_screen_settings_menu_summary">Ocultar elementos no menu de configurações do YouTube.</string>
@@ -1116,6 +1132,9 @@ Problema conhecido: como se trata de um recurso em fase de desenvolvimento pelo 
     <string name="revanced_hide_shorts_navigation_bar_title">Ocultar barra de navegação</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_on">A barra de navegação está oculta.</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_off">A barra de navegação será exibida.</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_title">Porcentagem de altura do espaço vazio</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_summary">Configura a porcentagem de altura do espaço vazio esquerdo quando a barra de navegação está oculta, entre 0 e 100 (%).</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_invalid_toast">A porcentagem de altura deve estar entre 0-100 (%).</string>
     <string name="revanced_replace_channel_handle_title">Substitua o identificador do canal</string>
     <string name="revanced_replace_channel_handle_summary_on">O nome do canal é usado.</string>
     <string name="revanced_replace_channel_handle_summary_off">O identificador do canal é usado.</string>

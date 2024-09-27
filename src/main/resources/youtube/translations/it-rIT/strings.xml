@@ -6,6 +6,7 @@
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Cerca %s</string>
+    <string name="revanced_extended_reset_to_default_toast">Ripristina valori predefiniti.</string>
     <string name="revanced_preference_category_experimental_flag">Opzioni sperimentali</string>
     <string name="revanced_extended_confirm_user_dialog_title">Desideri procedere?</string>
     <string name="revanced_extended_restart_first_run">Riavvia per caricare l\'interfaccia normalmente</string>
@@ -72,6 +73,7 @@ Tocca qui per saperne di più su DeArrow."</string>
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">Notifica toast nascosta DeArrow non è disponibile.</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_title">Endpoint API di DeArrow</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_summary">L\'URL dell\'endpoint della cache delle anteprime DeArrow.</string>
+    <string name="revanced_alt_thumbnail_dearrow_api_url_invalid_toast">Url API DeArrow Non Valido.</string>
     <string name="revanced_alt_thumbnail_stills_about_title">Catture statiche del video</string>
     <string name="revanced_alt_thumbnail_stills_about_summary">Le catture statiche sono prese dall\'inizio, da metà o alla fine di ogni video. Queste immagini sono integrate in YouTube e non viene usata nessuna API esterna.</string>
     <string name="revanced_alt_thumbnail_stills_fast_title">Attiva catture statiche veloci</string>
@@ -247,6 +249,10 @@ Limitazioni:
 • Video con frasi come 'Persone guardano anche' sotto."</string>
     <string name="revanced_hide_low_views_video_title">Nascondi video con poche visualizzazioni</string>
     <string name="revanced_hide_low_views_video_summary">Nascondi video con meno di 1.000 visualizzazioni dalla home che sono stati caricati dai canali a cui non si è iscritti.</string>
+    <string name="revanced_hide_upcoming_video_title">Nascondi video PROSSIMAMENTE</string>
+    <string name="revanced_hide_upcoming_video_summary">"Nascondi video con l'etichetta PROSSIMAMENTE.
+
+Nota: Abilitare questo nasconde anche il pulsante Notificarmi."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Filtro sul numero di visualizzazioni</string>
     <string name="revanced_hide_video_by_view_counts_home_title">Nascondi video home per visualizzazioni</string>
@@ -271,6 +277,9 @@ Limitazioni:
 Limitazioni: 
 • Gli short non possono essere nascosti.
 • I video con 0 visualizzazioni non sono filtrati."</string>
+    <string name="revanced_hide_related_videos_title">Nascondi video correlati</string>
+    <string name="revanced_hide_related_videos_summary_on">I video correlati sono nascosti.</string>
+    <string name="revanced_hide_related_videos_summary_off">I video correlati sono mostrati.</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Generale</string>
     <string name="revanced_change_start_page_title">Cambia la scheda iniziale</string>
@@ -290,6 +299,11 @@ Limitazioni:
     <string name="revanced_change_start_page_entry_subscriptions">Iscrizioni</string>
     <string name="revanced_change_start_page_entry_trending">Tendenze</string>
     <string name="revanced_change_start_page_entry_watch_later">Guarda più tardi</string>
+    <string name="revanced_change_start_page_type_title">Cambia il tipo di pagina iniziale</string>
+    <string name="revanced_change_start_page_type_summary_on">"La pagina iniziale cambia sempre.
+
+Limitazione: Il pulsante indietro sulla barra degli strumenti potrebbe non funzionare."</string>
+    <string name="revanced_change_start_page_type_summary_off">La pagina iniziale cambia solo una volta.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Disabilita le tracce audio automatiche forzate</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">Le tracce audio automatiche forzate sono disattivate.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Le tracce audio automatiche forzate sono abilitate.</string>
@@ -413,6 +427,8 @@ Alcuni componenti potrebbero non essere nascosti"</string>
     <string name="revanced_miniplayer_opacity_summary">Il valore dell\'opacità è compreso tra 0 e 100, dove 0 è trasparente.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">L\'opacità della copertura del riproduttore minimizzato deve essere compresa tra 0 e 100. Reimpostati i valori predefiniti.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <string name="revanced_preference_screen_navigation_bar_title">Barra di navigazione</string>
+    <string name="revanced_preference_screen_navigation_bar_summary">Nascondi o mostra i componenti della sezione della barra di navigazione.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Abilita pulsanti di navigazione ristretti</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">La spaziatura tra i pulsanti di navigazione è ristretta.</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">La spaziatura tra i pulsanti di navigazione è normale.</string>
@@ -450,6 +466,9 @@ Se questa impostazione non ha effetto, prova a passare alla modalità Incognito.
     <string name="revanced_enable_translucent_navigation_bar_title">Abilita barra di navigazione traslucida</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">La barra di navigazione è traslucida.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">La barra di navigazione è opaca.</string>
+    <string name="revanced_hide_navigation_bar_title">Nascondi la barra di navigazione</string>
+    <string name="revanced_hide_navigation_bar_summary_on">La barra di navigazione è nascosta.</string>
+    <string name="revanced_hide_navigation_bar_summary_off">La barra di navigazione è mostrata.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Menu Impostazioni</string>
     <string name="revanced_preference_screen_settings_menu_summary">Nascondi gli elementi del menu delle impostazioni di YouTube.</string>
@@ -1117,6 +1136,9 @@ Problema noto: Poiché questa è una caratteristica nella fase di sviluppo di Go
     <string name="revanced_hide_shorts_navigation_bar_title">Nascondi la barra di navigazione</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_on">La barra di navigazione è nascosta.</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_off">La barra di navigazione è mostrata.</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_title">Altezza percentuale di spazio vuoto</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_summary">Configura la percentuale di altezza dello spazio vuoto rimasto quando la barra di navigazione è nascosta, tra 0 e 100 (%).</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_invalid_toast">La percentuale di altezza deve essere compresa tra 0 e 100 (%).</string>
     <string name="revanced_replace_channel_handle_title">Sostituisci manico del canale</string>
     <string name="revanced_replace_channel_handle_summary_on">Il nome del canale è usato.</string>
     <string name="revanced_replace_channel_handle_summary_off">Il manico del canale è usato.</string>

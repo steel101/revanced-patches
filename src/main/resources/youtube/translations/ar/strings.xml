@@ -6,6 +6,7 @@
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">بحث %s</string>
+    <string name="revanced_extended_reset_to_default_toast">إعادة التعيين إلى القيم الافتراضية.</string>
     <string name="revanced_preference_category_experimental_flag">تعديلات تجريبية</string>
     <string name="revanced_extended_confirm_user_dialog_title">هل ترغب في المتابعة؟</string>
     <string name="revanced_extended_restart_first_run">إعادة التشغيل لتحميل التخطيط بشكل طبيعي</string>
@@ -72,6 +73,7 @@
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">لا يتم عرض ملاحظة إذا كان DeArrow غير متوفر.</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_title">DeArrow API Endpoint</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_summary">The URL of The DeArrow Thumbnail Cache Endpoint.</string>
+    <string name="revanced_alt_thumbnail_dearrow_api_url_invalid_toast">URL الخاص بـ DeArrow API غير صالح.</string>
     <string name="revanced_alt_thumbnail_stills_about_title">لقطات الفيديو الثابتة</string>
     <string name="revanced_alt_thumbnail_stills_about_summary">يتم التقاط اللقطات الثابتة من بداية أو منتصف أو نهاية كل فيديو. هذه الصور مدمجة في YouTube ولا يتم استخدام أي واجهة برمجة تطبيقات خارجية.</string>
     <string name="revanced_alt_thumbnail_stills_fast_title">استخدام اللقطات الثابتة السريعة</string>
@@ -250,6 +252,10 @@
 • مقاطع فيديو تحتوي على عبارات مثل 'شاهد الأشخاص أيضًا' أسفلها."</string>
     <string name="revanced_hide_low_views_video_title">إخفاء فيديو المشاهدات المنخفضة</string>
     <string name="revanced_hide_low_views_video_summary">إخفاء مقاطع الفيديو التي حصلت على أقل من 1000 مشاهدة من موجز الصفحة الرئيسية التي تم تحميلها من القنوات غير المشترك بها.</string>
+    <string name="revanced_hide_upcoming_video_title">إخفاء الفيديو القادم</string>
+    <string name="revanced_hide_upcoming_video_summary">"إخفاء الفيديوهات التي تحمل علامة \"قادم\".
+
+ملاحظة: يؤدي تمكين هذا أيضًا إلى إخفاء زر \"تنبيهي\"."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">تصفية عدد المشاهدات</string>
     <string name="revanced_hide_video_by_view_counts_home_title">إخفاء فيديوهات الصفحة الرئيسية حسب عدد المشاهدات</string>
@@ -275,6 +281,12 @@
 
 • لا يمكن إخفاء فيديوهات Shorts.
 • لا تتم تصفية الفيديوهات التي حصلت على 0 مشاهدة."</string>
+    <string name="revanced_hide_related_videos_title">إخفاء الفيديوهات ذات الصلة</string>
+    <string name="revanced_hide_related_videos_summary_on">تم إخفاء الفيديوهات ذات الصلة.</string>
+    <string name="revanced_hide_related_videos_summary_off">يتم عرض الفيديوهات ذات الصلة.</string>
+    <string name="revanced_hide_related_videos_user_dialog_message">"يحد هذا الإعداد من الحد الأقصى لعدد التخطيطات التي يمكن تحميلها على شاشة المشغل.
+
+إذا تغير تخطيط شاشة المشغل بسبب تغييرات على جانب الخادم، فقد يتم إخفاء التخطيطات غير المقصودة على شاشة المشغل."</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">عام</string>
     <string name="revanced_change_start_page_title">تغيير صفحة البداية</string>
@@ -294,6 +306,11 @@
     <string name="revanced_change_start_page_entry_subscriptions">الاشتراكات</string>
     <string name="revanced_change_start_page_entry_trending">المحتوى الرائج</string>
     <string name="revanced_change_start_page_entry_watch_later">المشاهدة لاحقًا</string>
+    <string name="revanced_change_start_page_type_title">تغيير نوع صفحة البداية</string>
+    <string name="revanced_change_start_page_type_summary_on">"تتغير صفحة البدء دائمًا.
+
+التقييد: قد لا يعمل زر الرجوع الذي على شريط الأدوات."</string>
+    <string name="revanced_change_start_page_type_summary_off">تتغير صفحة البدء مرة واحدة فقط.</string>
     <string name="revanced_disable_auto_audio_tracks_title">تعطيل المقطع الصوتي التلقائي المفروض</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">تم تعطيل المقطع الصوتي التلقائي المفروض.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">تم تمكين المقطع الصوتي التلقائي المفروض.</string>
@@ -414,8 +431,10 @@
     <string name="revanced_miniplayer_hide_rewind_forward_summary_off">يتم عرض التخطي للأمام والخلف.</string>
     <string name="revanced_miniplayer_opacity_title">شفافية الواجهة</string>
     <string name="revanced_miniplayer_opacity_summary">قيمة الشفافية بين 0-100، حيث يكون 0 شفاف.</string>
-    <string name="revanced_miniplayer_opacity_invalid_toast">يجب أن تكون نسبة شفافية واجهة المشغل المصغر بين 0-100. إعادة التعيين إلى القيم الافتراضية.</string>
+    <string name="revanced_miniplayer_opacity_invalid_toast">يجب أن تكون نسبة شفافية واجهة المشغل المصغر بين 0-100.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <string name="revanced_preference_screen_navigation_bar_title">شريط التنقل</string>
+    <string name="revanced_preference_screen_navigation_bar_summary">إخفاء أو عرض مكونات قسم شريط التنقل.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">تمكين أزرار التنقل الضيقة</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">المسافة بين أزرار التنقل أضيق.</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">المسافة بين أزرار التنقل عادية.</string>
@@ -453,6 +472,9 @@
     <string name="revanced_enable_translucent_navigation_bar_title">تمكين شريط التنقل الشفاف</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">شريط التنقل شفاف.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">شريط التنقل غير شفاف.</string>
+    <string name="revanced_hide_navigation_bar_title">إخفاء شريط التنقل</string>
+    <string name="revanced_hide_navigation_bar_summary_on">تم إخفاء شريط التنقل.</string>
+    <string name="revanced_hide_navigation_bar_summary_off">يتم عرض شريط التنقل.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">قائمة الإعدادات</string>
     <string name="revanced_preference_screen_settings_menu_summary">إخفاء العناصر في قائمة إعدادات YouTube.</string>
@@ -509,7 +531,7 @@
     <string name="revanced_preference_screen_player_title">المشغل</string>
     <string name="revanced_custom_player_overlay_opacity_title">شفافية واجهة المشغل المخصصة</string>
     <string name="revanced_custom_player_overlay_opacity_summary">قيمة التعتيم بين 0-100، حيث 0 شفافة.</string>
-    <string name="revanced_custom_player_overlay_opacity_invalid_toast">يجب أن تكون شفافية واجهة المشغل بين 0-100. إعادة التعيين إلى القيم الافتراضية.</string>
+    <string name="revanced_custom_player_overlay_opacity_invalid_toast">يجب أن تكون شفافية واجهة المشغل بين 0-100.</string>
     <string name="revanced_disable_auto_player_popup_panels_title">تعطيل لوحات المشغل المنبثقة</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_on">تم تعطيل لوحات المشغل المنبثقة تلقائيًا.</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_off">تم تمكين لوحات المشغل المنبثقة تلقائيًا.</string>
@@ -528,7 +550,7 @@
  • لا يؤدي تعطيل هذا الإعداد إلى فرض تمكين تراكب السرعة بالقوة."</string>
     <string name="revanced_speed_overlay_value_title">قيمة تراكب السرعة</string>
     <string name="revanced_speed_overlay_value_summary">قيمة تراكب السرعة بين 0-8.0.</string>
-    <string name="revanced_speed_overlay_value_invalid_toast">يجب أن تكون قيمة تراكب السرعة بين 0-8.0. إعادة التعيين إلى القيم الافتراضية.</string>
+    <string name="revanced_speed_overlay_value_invalid_toast">يجب أن تكون قيمة تراكب السرعة بين 0-8.0.</string>
     <string name="revanced_hide_channel_watermark_title">إخفاء العلامة المائية للقناة</string>
     <string name="revanced_hide_channel_watermark_summary_on">تم إخفاء علامة الفيديو المائية.</string>
     <string name="revanced_hide_channel_watermark_summary_off">يتم عرض علامة الفيديو المائية.</string>
@@ -785,7 +807,7 @@
     <string name="revanced_hide_quick_actions_share_button_summary_off">يتم عرض زر مشاركة.</string>
     <string name="revanced_quick_actions_top_margin_title">هامش إجراءات سريعة أعلى</string>
     <string name="revanced_quick_actions_top_margin_summary">تكوين التباعد من شريط التقدم إلى حاوية الإجراء السريع، بين 0-32.</string>
-    <string name="revanced_quick_actions_top_margin_invalid_toast">يجب أن يكون الهامش العلوي للإجراءات السريعة بين 0-32. إعادة التعيين إلى القيم الافتراضية.</string>
+    <string name="revanced_quick_actions_top_margin_invalid_toast">يجب أن يكون الهامش العلوي للإجراءات السريعة بين 0-32.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Fullscreen, PreferenceCategory: Experimental Flags -->
     <string name="revanced_disable_landscape_mode_title">تعطيل الوضع الأفقي</string>
     <string name="revanced_disable_landscape_mode_summary_on">اتجاه الفيديو هو وضع عمودي في ملء الشاشة.</string>
@@ -1111,13 +1133,16 @@
     <string name="revanced_shorts_time_stamp_change_repeat_state_summary">اضغط مع الاستمرار على الطابع الزمني لتغيير حالة تكرار فيديوهات Shorts.</string>
     <string name="revanced_shorts_meta_panel_bottom_margin_title">الهامش السفلي للوحة التعريف</string>
     <string name="revanced_shorts_meta_panel_bottom_margin_summary">تكوين التباعد من شريط التقدم إلى لوحة التعريف، بين 0-64.</string>
-    <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">يجب أن يكون الهامش السفلي للوحة التعريف بين 0-64. إعادة التعيين إلى القيم الافتراضية.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">يجب أن يكون الهامش السفلي للوحة التعريف بين 0-64.</string>
     <string name="revanced_hide_shorts_toolbar_title">إخفاء شريط الأدوات</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">تم إخفاء شريط الأدوات.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">يتم عرض شريط الأدوات.</string>
     <string name="revanced_hide_shorts_navigation_bar_title">إخفاء شريط التنقل</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_on">تم إخفاء شريط التنقل.</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_off">يتم عرض شريط التنقل.</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_title">نسبة ارتفاع المساحة الفارغة</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_summary">يقوم بتكوين نسبة ارتفاع المساحة الفارغة المتبقية عند إخفاء شريط التنقل، بين 0 و100 (%).</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_invalid_toast">يجب أن تكون نسبة الارتفاع بين 0-100 (%).</string>
     <string name="revanced_replace_channel_handle_title">استبدال معالج القناة</string>
     <string name="revanced_replace_channel_handle_summary_on">يتم استخدام اسم القناة.</string>
     <string name="revanced_replace_channel_handle_summary_off">يتم استخدام معالج القناة.</string>
@@ -1158,7 +1183,7 @@
 الافتراضي:27</string>
     <string name="revanced_swipe_overlay_rect_size_title">حجم واجهة إيماءة التمرير</string>
     <string name="revanced_swipe_overlay_rect_size_summary">النسبة المئوية لمساحة الشاشة القابلة للتمرير السريع.\n\nملاحظة: سيؤدي هذا أيضًا إلى تغيير حجم مساحة الشاشة لإيماءة النقر المزدوج للتقديم أو التأخير.</string>
-    <string name="revanced_swipe_overlay_rect_size_invalid_toast">لا يمكن أن يزيد حجم المنطقة القابلة للتمرير السريع عن 50. إعادة التعيين إلى القيمة الافتراضية.</string>
+    <string name="revanced_swipe_overlay_rect_size_invalid_toast">لا يمكن أن يزيد حجم المنطقة القابلة للتمرير السريع عن 50.</string>
     <string name="revanced_swipe_overlay_timeout_title">مهلة واجهة إيماءة التمرير</string>
     <string name="revanced_swipe_overlay_timeout_summary">مقدار الوقت الذي تظهر فيه واجهة التمرير بعد التغيير (بجزء الثانية).
 
@@ -1245,8 +1270,8 @@
     <string name="revanced_remember_video_quality_mobile">تغيير جودة بيانات الجوّال الافتراضية إلى %s.</string>
     <string name="revanced_remember_video_quality_none">فشل في تعيين جودة الفيديو.</string>
     <string name="revanced_remember_video_quality_wifi">تغيير جودة Wi-Fi الافتراضية إلى %s.</string>
-    <string name="revanced_custom_playback_speeds_invalid">يجب أن تكون السرعات المخصصة أقل من %sx. باستخدام القيم الافتراضية.</string>
-    <string name="revanced_custom_playback_speeds_parse_exception">سرعات التشغيل المخصصة غير صالحة. باستخدام القيم الافتراضية.</string>
+    <string name="revanced_custom_playback_speeds_invalid">يجب أن تكون السرعات المخصصة أقل من %sx.</string>
+    <string name="revanced_custom_playback_speeds_parse_exception">سرعات التشغيل المخصصة غير صالحة.</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->
     <string name="revanced_preference_screen_ryd_title">Return YouTube Dislike</string>
     <string name="revanced_ryd_enable_title">تمكين Return YouTube Dislike</string>

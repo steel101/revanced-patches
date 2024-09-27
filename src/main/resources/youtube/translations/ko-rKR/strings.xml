@@ -140,8 +140,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_movie_shelf_summary_on">영화 선반이 숨겨집니다.</string>
     <string name="revanced_hide_movie_shelf_summary_off">영화 선반이 표시됩니다.</string>
     <string name="revanced_hide_notify_me_button_title">\'알림 받기\' 버튼 숨기기</string>
-    <string name="revanced_hide_notify_me_button_summary_on">게시 예정 동영상 하단에서 \'알림 받기\' 버튼이 숨겨집니다.</string>
-    <string name="revanced_hide_notify_me_button_summary_off">게시 예정 동영상 하단에서 \'알림 받기\' 버튼이 표시됩니다.</string>
+    <string name="revanced_hide_notify_me_button_summary_on">(게시) 예정 동영상 하단에서 \'알림 받기\' 버튼이 숨겨집니다.</string>
+    <string name="revanced_hide_notify_me_button_summary_off">(게시) 예정 동영상 하단에서 \'알림 받기\' 버튼이 표시됩니다.</string>
     <string name="revanced_hide_playables_title">Playables(게임 룸) 선반 숨기기</string>
     <string name="revanced_hide_playables_summary_on">Playables(게임 룸) 선반이 숨겨집니다.\n• YouTube 앱에 내장된 미니 게임\n• 일부 국가에서는 아직 서비스가 제공되지 않습니다.</string>
     <string name="revanced_hide_playables_summary_off">Playables(게임 룸) 선반이 표시됩니다.\n• YouTube 앱에 내장된 미니 게임\n• 일부 국가에서는 아직 서비스가 제공되지 않습니다.</string>
@@ -253,8 +253,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 • 썸네일 하단에 '시청자가 이 동영상도 시청함'와 같은 문구가 있는 동영상"</string>
     <string name="revanced_hide_low_views_video_title">조회수가 낮은 추천 동영상 숨기기</string>
     <string name="revanced_hide_low_views_video_summary">구독하지 않는 채널에서 업로드한 동영상 중 조회수가 1,000회 미만인 동영상이 홈 피드에서 숨겨집니다.</string>
-    <string name="revanced_hide_upcoming_video_title">게시 예정 동영상 숨기기</string>
-    <string name="revanced_hide_upcoming_video_summary">"게시 예정 라벨이 있는 동영상이 숨겨집니다.
+    <string name="revanced_hide_upcoming_video_title">(게시) 예정 동영상 숨기기</string>
+    <string name="revanced_hide_upcoming_video_summary">"(게시) 예정 라벨이 있는 동영상이 숨겨집니다.
 
 알림: 이 설정을 활성화하면 '알림 받기' 버튼도 숨겨집니다."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
@@ -281,6 +281,12 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 알려진 문제점:
 • Shorts 동영상은 숨길 수 없습니다.
 • 실시간 스트림과 '조회수 없음' 동영상은 숨길 수 없습니다."</string>
+    <string name="revanced_hide_related_videos_title">관련 동영상 숨기기</string>
+    <string name="revanced_hide_related_videos_summary_on">관련 동영상이 숨겨집니다.</string>
+    <string name="revanced_hide_related_videos_summary_off">관련 동영상이 표시됩니다.</string>
+    <string name="revanced_hide_related_videos_user_dialog_message">"이 설정은 플레이어 화면에서 로드할 수 있는 최대 레이아웃 수를 제한합니다.
+
+서버 측 변경으로 인해 플레이어 화면의 레이아웃이 변경되면 플레이어 화면에서 의도하지 않은 레이아웃이 숨겨질 수 있습니다."</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">일반</string>
     <string name="revanced_change_start_page_title">앱 시작 페이지 변경하기</string>
@@ -456,7 +462,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_switch_create_with_notifications_button_summary_off">만들기 버튼과 알림 버튼의 위치를 교환하지 않습니다.</string>
     <string name="revanced_switch_create_with_notifications_button_user_dialog_message">"이 설정을 비활성화하면 서버에서 더 많은 광고가 로드될 수 있습니다.
 
-또한 Shorts에서 광고가 더 이상 차단되지 않습니다.
+또한, Shorts에서 광고가 더 이상 숨겨지지 않습니다.
 
 이 설정이 적용되지 않는 경우에는 시크릿 모드로 전환해 보세요."</string>
     <string name="revanced_enable_translucent_navigation_bar_title">반투명 하단바 활성화하기</string>

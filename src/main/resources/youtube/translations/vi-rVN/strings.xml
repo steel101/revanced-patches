@@ -280,6 +280,9 @@ Lưu ý: Việc bật tính năng này cũng sẽ ẩn nút Thông báo cho tôi
 Hạn chế:
 • Không ẩn đối với Video Shorts.
 • Các Video có 0 lượt xem cũng không bị lọc."</string>
+    <string name="revanced_hide_related_videos_title">Ẩn các video có liên quan</string>
+    <string name="revanced_hide_related_videos_summary_on">Các video có liên quan đã bị ẩn.</string>
+    <string name="revanced_hide_related_videos_summary_off">Nút Video có liên quan được hiển thị.</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Tổng quan</string>
     <string name="revanced_change_start_page_title">Thay đổi trang khởi động</string>
@@ -625,9 +628,9 @@ Cài đặt → Tự động phát → Tự động phát video tiếp theo."</s
     <string name="revanced_hide_share_button_title">Ẩn nút Chia sẻ</string>
     <string name="revanced_hide_share_button_summary_on">Nút Chia sẻ đã ẩn.</string>
     <string name="revanced_hide_share_button_summary_off">Nút Chia sẻ được hiển thị.</string>
-    <string name="revanced_hide_shop_button_title">Ẩn nút Mua sắm</string>
-    <string name="revanced_hide_shop_button_summary_on">Nút Mua sắm đã ẩn.</string>
-    <string name="revanced_hide_shop_button_summary_off">Nút Mua sắm được hiển thị.</string>
+    <string name="revanced_hide_shop_button_title">Ẩn nút Cửa hàng</string>
+    <string name="revanced_hide_shop_button_summary_on">Nút Cửa hàng đã ẩn.</string>
+    <string name="revanced_hide_shop_button_summary_off">Nút Cửa hàng được hiển thị.</string>
     <string name="revanced_hide_thanks_button_title">Ẩn nút Cảm ơn</string>
     <string name="revanced_hide_thanks_button_summary_on">Nút Cảm ơn đã ẩn.</string>
     <string name="revanced_hide_thanks_button_summary_off">Nút Cảm ơn được hiển thị.</string>
@@ -1040,9 +1043,9 @@ Hạn chế: Tiêu đề chính thức trong kết quả tìm kiếm sẽ đư�
     <string name="revanced_hide_shorts_shopping_button_title">Ẩn nút Mua sắm</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">Nút Mua sắm đã ẩn.</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">Nút Mua sắm đã hiển thị.</string>
-    <string name="revanced_hide_shorts_shop_button_title">Ẩn nút Mua sắm</string>
-    <string name="revanced_hide_shorts_shop_button_summary_on">Nút Mua sắm đã ẩn.</string>
-    <string name="revanced_hide_shorts_shop_button_summary_off">Nút Mua sắm được hiển thị.</string>
+    <string name="revanced_hide_shorts_shop_button_title">Nút Cửa hàng</string>
+    <string name="revanced_hide_shorts_shop_button_summary_on">Nút Cửa hàng đã bị ẩn.</string>
+    <string name="revanced_hide_shorts_shop_button_summary_off">Nút Cửa hàng được hiển thị.</string>
     <string name="revanced_hide_shorts_super_thanks_button_title">Ẩn nút Cảm ơn</string>
     <string name="revanced_hide_shorts_super_thanks_button_summary_on">Nút Cảm ơn đã ẩn.</string>
     <string name="revanced_hide_shorts_super_thanks_button_summary_off">Nút Cảm ơn được hiển thị.</string>

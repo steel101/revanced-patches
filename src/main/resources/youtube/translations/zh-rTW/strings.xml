@@ -6,6 +6,7 @@
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">搜尋設定</string>
+    <string name="revanced_extended_reset_to_default_toast">重設為預設值。</string>
     <string name="revanced_preference_category_experimental_flag">實驗性功能</string>
     <string name="revanced_extended_confirm_user_dialog_title">你想繼續嗎？</string>
     <string name="revanced_extended_restart_first_run">重新啟動以套用更改後的介面</string>
@@ -72,6 +73,7 @@
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">如果 DeArrow 無法使用，不顯示提示訊息</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_title">縮圖快取端點的 URL</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_summary">DeArrow 縮圖快取端點網址。</string>
+    <string name="revanced_alt_thumbnail_dearrow_api_url_invalid_toast">DeArrow API URL 無效。</string>
     <string name="revanced_alt_thumbnail_stills_about_title">關於靜態影片擷取。</string>
     <string name="revanced_alt_thumbnail_stills_about_summary">靜態捕捉是截取每個影片的開頭/中間/結尾作為縮圖。 這些圖像內建於 YouTube 中，不會使用外部 API。</string>
     <string name="revanced_alt_thumbnail_stills_fast_title">使用快速靜態捕捉</string>
@@ -247,6 +249,10 @@
 ・下方標有「其他人還看了」字樣的影片。"</string>
     <string name="revanced_hide_low_views_video_title">隱藏低觀看次數的影片</string>
     <string name="revanced_hide_low_views_video_summary">在首頁隱藏來自未訂閱頻道的、觀看次數少於 1,000 次的影片。</string>
+    <string name="revanced_hide_upcoming_video_title">隱藏即將發布的影片</string>
+    <string name="revanced_hide_upcoming_video_summary">"隱藏帶有即將推出的標籤的影片。
+
+注意：啟用此功能也會隱藏「通知我」按鈕。"</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">觀看次數篩選器</string>
     <string name="revanced_hide_video_by_view_counts_home_title">依觀看次數隱藏家庭影片</string>
@@ -271,6 +277,9 @@
 限制： 
 • 短影片無法隱藏。
 • 觀看次數為0的影片不會被曬選。"</string>
+    <string name="revanced_hide_related_videos_title">隱藏相關影片</string>
+    <string name="revanced_hide_related_videos_summary_on">相關影片已隱藏。</string>
+    <string name="revanced_hide_related_videos_summary_off">相關影片已顯示。</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">一般設定</string>
     <string name="revanced_change_start_page_title">更改起始頁</string>
@@ -290,6 +299,11 @@
     <string name="revanced_change_start_page_entry_subscriptions">訂閱</string>
     <string name="revanced_change_start_page_entry_trending">熱門</string>
     <string name="revanced_change_start_page_entry_watch_later">稍後觀看</string>
+    <string name="revanced_change_start_page_type_title">變更起始頁類型</string>
+    <string name="revanced_change_start_page_type_summary_on">"起始頁總是改變。
+
+限制：工具列上的後退按鈕可能無法運作。"</string>
+    <string name="revanced_change_start_page_type_summary_off">起始頁僅更改一次。</string>
     <string name="revanced_disable_auto_audio_tracks_title">停用強制自動音軌</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">強制自動音軌已停用</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">強制自動音軌已啟用</string>
@@ -413,6 +427,8 @@
     <string name="revanced_miniplayer_opacity_summary">不透明度值介於 0-100 之間，其中 0 表示透明</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">小型播放器覆蓋層不透明度必須介於 0-100 之間。重設為預設值。</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <string name="revanced_preference_screen_navigation_bar_title">導覽列</string>
+    <string name="revanced_preference_screen_navigation_bar_summary">隱藏或顯示導覽列部分組件。</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">啟用窄間距導航按鈕</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">導航按鈕之間的間距變窄</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">導航按鈕之間的間距不會變窄</string>
@@ -450,6 +466,9 @@
     <string name="revanced_enable_translucent_navigation_bar_title">啟用半透明導覽列</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">導覽列是半透明的。</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">導覽列不透明。</string>
+    <string name="revanced_hide_navigation_bar_title">隱藏導覽列</string>
+    <string name="revanced_hide_navigation_bar_summary_on">導覽列已隱藏。</string>
+    <string name="revanced_hide_navigation_bar_summary_off">導覽列已顯示。</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">設定選單</string>
     <string name="revanced_preference_screen_settings_menu_summary">隱藏 YouTube 設定選單中的元素</string>
@@ -1110,6 +1129,9 @@
     <string name="revanced_hide_shorts_navigation_bar_title">隱藏導航欄</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_on">導航欄已隱藏</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_off">導航欄已顯示</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_title">空白空間高度百分比</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_summary">配置隱藏導覽列時留下的空白空間的高度百分比，介於 0 到 100 (%) 之間。</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_invalid_toast">高度百分比必須介於 0-100 (%) 之間。</string>
     <string name="revanced_replace_channel_handle_title">更換頻道代號</string>
     <string name="revanced_replace_channel_handle_summary_on">頻道名稱已使用。</string>
     <string name="revanced_replace_channel_handle_summary_off">頻道代號已使用。</string>

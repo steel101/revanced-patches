@@ -2,6 +2,7 @@
 <resources>
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
+    <string name="revanced_extended_reset_to_default_toast">Przywrócono domyślne wartości.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Uruchom ponownie, aby wczytać układ poprawnie</string>
     <string name="revanced_extended_restart_message">Odśwież i uruchom ponownie</string>
@@ -250,8 +251,8 @@ Niektóre ustawienia mogą nie działać poprawnie ze starym układem odtwarzacz
     <string name="revanced_remember_video_quality_last_selected_summary">Zapisuje ostatnią wybraną jakość teledysku.</string>
     <string name="revanced_remember_video_quality_last_selected_toast_title">Komunikaty o zmianie domyślnej jakości teledysków</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary">Komunikaty będą wyświetlane po zmianie domyślnej jakości teledysków.</string>
-    <string name="revanced_custom_playback_speeds_invalid">Nieprawidłowe niestandardowe prędkości odtwarzania. Przywrócono domyślne wartości.</string>
-    <string name="revanced_custom_playback_speeds_parse_exception">Nieprawidłowe niestandardowe prędkości odtwarzania. Przywrócono domyślne wartości.</string>
+    <string name="revanced_custom_playback_speeds_invalid">Niestandardowe prędkości muszą być mniejsze niż %sx.</string>
+    <string name="revanced_custom_playback_speeds_parse_exception">Nieprawidłowe niestandardowe prędkości odtwarzania.</string>
     <string name="revanced_remember_playback_speed_toast">Zmieniono domyślną prędkość odtwarzania na %s.</string>
     <string name="revanced_remember_video_quality_mobile">Zmieniono domyślną jakość podczas używania sieci mobilnej na %s.</string>
     <string name="revanced_remember_video_quality_none">Jakość nie została ustawiona.</string>
@@ -324,7 +325,7 @@ Niektóre ustawienia mogą nie działać poprawnie ze starym układem odtwarzacz
     <string name="revanced_sb_color_dot_label">Kolor:</string>
     <string name="revanced_sb_color_changed">Kolor został zmieniony.</string>
     <string name="revanced_sb_color_reset">Kolor został zresetowany.</string>
-    <string name="revanced_sb_color_invalid">Nieprawidłowy kod koloru. Przywrócono domyślny kolor.</string>
+    <string name="revanced_sb_color_invalid">Nieprawidłowy kod koloru.</string>
     <string name="revanced_sb_reset_color">Zresetuj kolor</string>
     <string name="revanced_sb_about_api_sum">Dane są dostarczane przez API SponsorBlock. Stuknij tutaj, aby dowiedzieć się więcej i pobrać na inne platformy.</string>
     <string name="revanced_sb_about">O integracji</string>

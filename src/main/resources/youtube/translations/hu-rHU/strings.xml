@@ -6,6 +6,7 @@
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">%s keresése</string>
+    <string name="revanced_extended_reset_to_default_toast">Visszaállítás az alapértelmezett értékekre.</string>
     <string name="revanced_preference_category_experimental_flag">Kísérleti funkciók</string>
     <string name="revanced_extended_confirm_user_dialog_title">Szeretnéd folytatni?</string>
     <string name="revanced_extended_restart_first_run">Indítsa újra a rendszert a normál elrendezés betöltéséhez</string>
@@ -72,6 +73,7 @@ Koppints ide, ha többet szeretnél megtudni a DeArrow-ról."</string>
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">Nem jelenik meg üzenet, ha a DeArrow nem elérhető.</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_title">DeArrow API végpont</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_summary">A DeArrow bélyegkép cache végpont URL-je.</string>
+    <string name="revanced_alt_thumbnail_dearrow_api_url_invalid_toast">Érvénytelen DeArrow API URL.</string>
     <string name="revanced_alt_thumbnail_stills_about_title">Videó pillanatképek</string>
     <string name="revanced_alt_thumbnail_stills_about_summary">Pillanatképek minden videó elejéről/közepéről/végéről készülnek. Ezek a képek be vannak építve a YouTube-ba és nem használnak külső API-t.</string>
     <string name="revanced_alt_thumbnail_stills_fast_title">Gyors pillanatképek használata</string>
@@ -246,6 +248,10 @@ Korlátozások:
 • Olyan videók, amelyek alatt olyan kifejezések szerepelnek, mint „Mások is megnézték”."</string>
     <string name="revanced_hide_low_views_video_title">Alacsony nézettségű videók elrejtése</string>
     <string name="revanced_hide_low_views_video_summary">Az 1000-nél kevesebb megtekintést elért videók elrejtése a Kezdőlapon, amiket a leiratkozott csatornákról töltöttek fel.</string>
+    <string name="revanced_hide_upcoming_video_title">KÖZELGŐ videó elrejtése</string>
+    <string name="revanced_hide_upcoming_video_summary">"Videók elrejtése KÖZELGŐ címkével.
+
+Megjegyzés: Ha ezt engedélyezi, akkor az Értesíts gomb is el lesz rejtve."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Megtekintések szűrő</string>
     <string name="revanced_hide_video_by_view_counts_home_title">Videók elrejtése a kezdőlapon a nézettség alapján</string>
@@ -270,6 +276,12 @@ Korlátozások:
 Korlátozások:
 • A Shortokat nem lehet elrejteni.
 • A 0 megtekintésű videók nincsenek kiszűrve."</string>
+    <string name="revanced_hide_related_videos_title">Kapcsolódó videók elrejtése</string>
+    <string name="revanced_hide_related_videos_summary_on">A kapcsolódó videók el vannak rejtve.</string>
+    <string name="revanced_hide_related_videos_summary_off">A kapcsolódó videók láthatóak.</string>
+    <string name="revanced_hide_related_videos_user_dialog_message">"Ez a beállítás korlátozza a lejátszó képernyőjére betölthető elrendezések maximális számát.
+
+Ha a lejátszó képernyőjének elrendezése a szerveroldali változtatások miatt megváltozik, akkor esetleg a nem kívánt elrendezések elrejthetők a lejátszó képernyőjén."</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Általános</string>
     <string name="revanced_change_start_page_title">Kezdőlap megváltoztatása</string>
@@ -289,6 +301,11 @@ Korlátozások:
     <string name="revanced_change_start_page_entry_subscriptions">Feliratkozások</string>
     <string name="revanced_change_start_page_entry_trending">Felkapott</string>
     <string name="revanced_change_start_page_entry_watch_later">Megnézem később</string>
+    <string name="revanced_change_start_page_type_title">Kiinduló lap megváltoztatása</string>
+    <string name="revanced_change_start_page_type_summary_on">"A kiinduló lap mindig változik.
+
+Korlátozás: Előfordulhat, hogy az eszköztár Vissza gombja nem működik."</string>
+    <string name="revanced_change_start_page_type_summary_off">A kiinduló lap csak egyszer változik.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Kényszerített automatikus hangsávok letiltása</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">A kényszerített automatikus hangsávok le vannak tiltva.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">A kényszerített automatikus hangsávok engedélyezve vannak.</string>
@@ -412,6 +429,8 @@ Előfordulhat, hogy egyes komponensek nincsenek elrejtve."</string>
     <string name="revanced_miniplayer_opacity_summary">Átlátszósági érték 0 és 100 között, ahol a 0 az átlátszó.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">A minilejátszó átlátszóságának 0 és 100 között kell lennie. Visszaállítás alapértelmezettre.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <string name="revanced_preference_screen_navigation_bar_title">Navigációs sáv</string>
+    <string name="revanced_preference_screen_navigation_bar_summary">Navigációs sáv komponenseinek láthatósága.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Keskeny navigációs gombok engedélyezése</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">A navigációs gombok közötti távolság szűk.</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">A navigációs gombok közötti távolság normális.</string>
@@ -447,6 +466,9 @@ Ha ez a beállítás nem működik, váltson inkognító módra."</string>
     <string name="revanced_enable_translucent_navigation_bar_title">Áttetsző navigációs sáv engedélyezése</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">A navigációs sáv áttetsző.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">A navigációs sáv nem áttetsző.</string>
+    <string name="revanced_hide_navigation_bar_title">Navigációs sáv elrejtése</string>
+    <string name="revanced_hide_navigation_bar_summary_on">A navigációs sáv el van rejtve.</string>
+    <string name="revanced_hide_navigation_bar_summary_off">A navigációs sáv látható.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Beállítások menü</string>
     <string name="revanced_preference_screen_settings_menu_summary">Elrejti a YouTube beállítások menü elemeit.</string>
@@ -1110,6 +1132,9 @@ Ismert hiba: Mivel ez a funkció a Google fejlesztési szakaszában van, előfor
     <string name="revanced_hide_shorts_navigation_bar_title">Navigációs sáv elrejtése</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_on">A navigációs sáv el van rejtve</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_off">A navigációs sáv megjelenik</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_title">Az üres hely magasságának százaléka</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_summary">Beállítja a navigációs sáv elrejtésekor megmaradó üres terület magasságának arányát 0 és 100 (%) között.</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_invalid_toast">A magasság százalékának 0-100 (%) között kell lennie.</string>
     <string name="revanced_replace_channel_handle_title">Cserélje ki a csatorna kezelőt</string>
     <string name="revanced_replace_channel_handle_summary_on">A csatorna név használatban van.</string>
     <string name="revanced_replace_channel_handle_summary_off">A csatorna kezelő használatban van.</string>

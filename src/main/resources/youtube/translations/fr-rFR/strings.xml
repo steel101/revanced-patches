@@ -6,6 +6,7 @@
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Rechercher sur %s</string>
+    <string name="revanced_extended_reset_to_default_toast">Réinitialiser les valeurs par défaut.</string>
     <string name="revanced_preference_category_experimental_flag">Options expérimentales</string>
     <string name="revanced_extended_confirm_user_dialog_title">Voulez-vous continuer ?</string>
     <string name="revanced_extended_restart_first_run">Redémarrer pour charger l\'interface correctement</string>
@@ -72,6 +73,7 @@ Cliquez ici pour en savoir plus sur DeArrow."</string>
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">N\'affiche pas de message si DeArrow est indisponible.</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_title">Point de connexion à l\'API DeArrow</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_summary">L\'URL du point de connexion au cache des miniatures DeArrow.</string>
+    <string name="revanced_alt_thumbnail_dearrow_api_url_invalid_toast">URL de l\'API DeArrow invalide.</string>
     <string name="revanced_alt_thumbnail_stills_about_title">Informations sur la capture de miniature</string>
     <string name="revanced_alt_thumbnail_stills_about_summary">Les miniatures peuvent être capturées du début, du milieu ou de la fin de chaque vidéo. Les miniatures sont intégrées à YouTube, aucune API externe n\'est utilisée.</string>
     <string name="revanced_alt_thumbnail_stills_fast_title">Utiliser des captures rapides</string>
@@ -250,6 +252,10 @@ Limitations :
 • Les vidéos avec des phrases telles que \"Les internautes ont aussi regardé cette vidéo\" en dessous."</string>
     <string name="revanced_hide_low_views_video_title">Masquer les vidéos peu vues</string>
     <string name="revanced_hide_low_views_video_summary">Masque les vidéos avec moins de 1,000 vues dans le flux \"accueil\" qui ont été mis en ligne par des personnes dont vous n\'êtes pas abonnés.</string>
+    <string name="revanced_hide_upcoming_video_title">Masquer les vidéos À SUIVRE</string>
+    <string name="revanced_hide_upcoming_video_summary">"Masquer les vidéos avec l'étiquette À SUIVRE.
+
+Remarque : Activer ceci masque également le bouton \"M'avertir\"."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Filtre du compteur de vues</string>
     <string name="revanced_hide_video_by_view_counts_home_title">Masquer les vidéos de la page d\'accueil par vues</string>
@@ -274,6 +280,12 @@ Limitations :
 Limitations : 
 - Les shorts ne peuvent pas être masqués.
 - Les vidéos avec 0 vue ne sont pas filtrées."</string>
+    <string name="revanced_hide_related_videos_title">Masquer les vidéos similaires</string>
+    <string name="revanced_hide_related_videos_summary_on">Les vidéos similaires sont masqués.</string>
+    <string name="revanced_hide_related_videos_summary_off">Les vidéos similaires sont affichés.</string>
+    <string name="revanced_hide_related_videos_user_dialog_message">"Ce paramètre limite le nombre maximum de mises en page pouvant être chargées sur l'écran du lecteur.
+
+Si la mise en page de l'écran du lecteur change en raison de modifications côté serveur, des mises en page non souhaitées peuvent être masquées sur l'écran du lecteur."</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Interface</string>
     <string name="revanced_change_start_page_title">Modifier la page de démarrage</string>
@@ -293,6 +305,11 @@ Limitations :
     <string name="revanced_change_start_page_entry_subscriptions">Abonnements</string>
     <string name="revanced_change_start_page_entry_trending">Tendances</string>
     <string name="revanced_change_start_page_entry_watch_later">Regarder plus tard</string>
+    <string name="revanced_change_start_page_type_title">Modifier le type de page de démarrage</string>
+    <string name="revanced_change_start_page_type_summary_on">"La page d'accueil change toujours.
+
+Limitation : Le bouton Retour de la barre d'outils peut ne pas fonctionner."</string>
+    <string name="revanced_change_start_page_type_summary_off">La page d\'accueil ne change qu\'une seule fois.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Désact. les pistes audio forcés</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">Les pistes audio automatiques forcées sont désactivé.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Les pistes audio automatiques forcées sont activés.</string>
@@ -361,7 +378,10 @@ Certains composants peuvent ne pas être masqués."</string>
     <string name="revanced_custom_filter_strings_summary">Filtrer la liste des noms du composant séparés par un saut de ligne.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Filtre personnalisé invalide : %s.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <string name="revanced_preference_screen_hook_buttons_title">Boutons d\'action</string>
+    <string name="revanced_preference_screen_hook_buttons_summary">Remplace l\'action des boutons in-app.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_preference_category_download_button">Bouton \"Télécharger\"</string>
     <string name="revanced_override_video_download_button_title">Remplacer le bouton de téléchargement de la vidéo</string>
     <string name="revanced_override_video_download_button_summary_on">Le bouton \"Télécharger\" natif ouvre votre téléchargeur externe.</string>
     <string name="revanced_override_video_download_button_summary_off">Le bouton \"Télécharger\" natif ouvre le téléchargeur de l\'appli.</string>
@@ -371,6 +391,16 @@ Certains composants peuvent ne pas être masqués."</string>
     <string name="revanced_external_downloader_package_name_playlist_title">Nom du paquet du téléchargeur de la playlist</string>
     <string name="revanced_external_downloader_package_name_playlist_summary">Nom de package du téléchargeur externe installé, telle que YTDLnis.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_override_youtube_music_button_title">Remplacer le bouton \"YouTube Music\"</string>
+    <string name="revanced_override_youtube_music_button_summary_on">Le bouton \"YouTube Music\" ouvre RVX Music.</string>
+    <string name="revanced_override_youtube_music_button_summary_off">Le bouton \"YouTube Music\" ouvre l\'appli natif.</string>
+    <string name="revanced_third_party_youtube_music_package_name_title">Nom du paquet de RVX Music</string>
+    <string name="revanced_third_party_youtube_music_package_name_summary">Nom du paquet de RVX Music installé.</string>
+    <string name="revanced_third_party_youtube_music_dialog_title">RVX Music</string>
+    <string name="revanced_third_party_youtube_music_not_installed_dialog_title">Attention</string>
+    <string name="revanced_third_party_youtube_music_not_installed_warning">%s n\'est pas installé. Veuillez l’installer.</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_title">Prérequis</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_summary">YouTube Music est requis pour remplacer l\'action du bouton. Cliquez ici pour télécharger YouTube Music.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Minilecteur</string>
     <string name="revanced_preference_screen_miniplayer_summary">Change le style du lecteur minimisé de l\'application.</string>
@@ -401,8 +431,10 @@ Certains composants peuvent ne pas être masqués."</string>
     <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Les boutons \"Avancer\" et \"Reculer\" sont affichés.</string>
     <string name="revanced_miniplayer_opacity_title">Opacité du mini lecteur</string>
     <string name="revanced_miniplayer_opacity_summary">Valeur d\'opacité entre 0-100, 0 étant transparent.</string>
-    <string name="revanced_miniplayer_opacity_invalid_toast">L\'opacité du minilecteur doit être compris entre 0-100. Valeur réinitialisée par défaut.</string>
+    <string name="revanced_miniplayer_opacity_invalid_toast">L\'opacité du minilecteur doit être compris entre 0-100.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <string name="revanced_preference_screen_navigation_bar_title">Barre de navigation</string>
+    <string name="revanced_preference_screen_navigation_bar_summary">Masque ou affiche les éléments de la barre de navigation.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Activer les boutons de navigation compacts</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">L\'espacement entre les boutons de la barre de navigation sont réduit.</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">L\'espacement entre les boutons de la barre de navigation sont normaux.</string>
@@ -440,6 +472,9 @@ Si ce paramètre ne fait pas effet, essayer de passer en mode Incognito."</strin
     <string name="revanced_enable_translucent_navigation_bar_title">Activer la barre de navigation translucide</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">La barre de navigation est translucide.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">La barre de navigation est opaque.</string>
+    <string name="revanced_hide_navigation_bar_title">Masquer la barre de navigation</string>
+    <string name="revanced_hide_navigation_bar_summary_on">La barre de navigation est masqué.</string>
+    <string name="revanced_hide_navigation_bar_summary_off">La barre de navigation est affichée.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Menu paramètre</string>
     <string name="revanced_preference_screen_settings_menu_summary">Masque des éléments dans le menu paramètre YouTube.</string>
@@ -496,7 +531,7 @@ Appuyez longuement pour ouvrir les paramètres RVX."</string>
     <string name="revanced_preference_screen_player_title">Lecteur</string>
     <string name="revanced_custom_player_overlay_opacity_title">Personnaliser l\'opacité du voile du lecteur</string>
     <string name="revanced_custom_player_overlay_opacity_summary">Valeur d\'opacité entre 0-100, 0 étant transparent.</string>
-    <string name="revanced_custom_player_overlay_opacity_invalid_toast">L\'opacité du voile du lecteur doit être entre 0-100. Valeur réinitialisée par défaut.</string>
+    <string name="revanced_custom_player_overlay_opacity_invalid_toast">L\'opacité du voile du lecteur doit être entre 0-100.</string>
     <string name="revanced_disable_auto_player_popup_panels_title">Fenêtres pop-up du lecteur automatique</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_on">Les fenêtres pop-up du lecteur automatique sont désactivées.</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_off">Les fenêtres pop-up du lecteur automatique sont activés.</string>
@@ -515,7 +550,7 @@ Note :
 • Désactiver ce paramètre ne force pas l'activation de contrôle vitesse."</string>
     <string name="revanced_speed_overlay_value_title">Valeur de \"Vitesse de lecture\"</string>
     <string name="revanced_speed_overlay_value_summary">La valeur de vitesse de lecture doit être comprise entre 0-8.0.</string>
-    <string name="revanced_speed_overlay_value_invalid_toast">La valeur de la vitesse de lecture doit être comprise entre 0-8.0. Valeur réinitialisée par défaut.</string>
+    <string name="revanced_speed_overlay_value_invalid_toast">La valeur de la vitesse de lecture doit être comprise entre 0-8.0.</string>
     <string name="revanced_hide_channel_watermark_title">Masquer le filigrane de chaine</string>
     <string name="revanced_hide_channel_watermark_summary_on">Le filigrane de chaîne est masqué.</string>
     <string name="revanced_hide_channel_watermark_summary_off">Le filigrane de chaîne est affiché.</string>
@@ -772,7 +807,7 @@ Limitation : Le titre de la vidéo disparaît lorsque vous cliquez dessus."</str
     <string name="revanced_hide_quick_actions_share_button_summary_off">Le bouton \"Partager\" est affiché.</string>
     <string name="revanced_quick_actions_top_margin_title">Hauteur de la barre de progression </string>
     <string name="revanced_quick_actions_top_margin_summary">Configure l\'espacement entre la barre de progression et le conteneur d\'actions rapides, entre 0 et 32.</string>
-    <string name="revanced_quick_actions_top_margin_invalid_toast">La hauteur de l\'action rapide doit être comprise entre 0 et 32. Valeur réinitialisée par défaut.</string>
+    <string name="revanced_quick_actions_top_margin_invalid_toast">La hauteur de l\'action rapide doit être comprise entre 0 et 32.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Fullscreen, PreferenceCategory: Experimental Flags -->
     <string name="revanced_disable_landscape_mode_title">Désactiver le mode paysage</string>
     <string name="revanced_disable_landscape_mode_summary_on">Le passage en mode paysage en plein écran est désactivé.</string>
@@ -1097,14 +1132,17 @@ Limitations :
     <string name="revanced_shorts_time_stamp_change_repeat_state_title">Action de l\'horodatage appui long</string>
     <string name="revanced_shorts_time_stamp_change_repeat_state_summary">Appuyez longuement sur l\'horodatage pour modifier l\'état de répétition des Shorts.</string>
     <string name="revanced_shorts_meta_panel_bottom_margin_title">Marge en bas du panneau Meta</string>
-    <string name="revanced_shorts_meta_panel_bottom_margin_summary">Définir l\'espacement entre la barre de progression et le panneau méta, entre 0-64.</string>
-    <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">La marge en bas du panneau méta doit être entre 0-64, Valeur réinitialisée par défaut.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_summary">Configurer l\'espace de la barre de progression au panneau méta, entre 0-64.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">La marge en bas du panneau méta doit être entre 0-64.</string>
     <string name="revanced_hide_shorts_toolbar_title">Masquer la barre d\'outils</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">La barre d\'outils est masqué.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">La barre d\'outils est affiché.</string>
     <string name="revanced_hide_shorts_navigation_bar_title">Masquer la barre de navigation</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_on">La barre de navigation est masqué.</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_off">La barre de navigation est affichée.</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_title">Hauteur en pourcentage de l\'espace vide</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_summary">Configure la hauteur en pourcentage de l\'espace vide à gauche lorsque la barre de navigation est cachée, entre 0 et 100 (%).</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_invalid_toast">La hauteur en pourcentage doit être entre 0-100 (%).</string>
     <string name="revanced_replace_channel_handle_title">Remplacer l\'identifiant de la chaîne</string>
     <string name="revanced_replace_channel_handle_summary_on">Le nom de la chaîne est utilisé.</string>
     <string name="revanced_replace_channel_handle_summary_off">L\'identifiant de la chaîne est utilisé.</string>
@@ -1139,7 +1177,7 @@ Limitations :
     <string name="revanced_swipe_overlay_text_size_summary">La taille du texte pendant le voile lors du geste.</string>
     <string name="revanced_swipe_overlay_rect_size_title">Taille de la zone de gestes</string>
     <string name="revanced_swipe_overlay_rect_size_summary">Pourcentage de la zone de l\'écran pouvant être glissée.\n\nNote : Cela affecte également la zone du double appui pour avancer/reculer dans la vidéo.</string>
-    <string name="revanced_swipe_overlay_rect_size_invalid_toast">La zone glissable ne peut pas être supérieure à 50. Valeur réinitialisée par défaut.</string>
+    <string name="revanced_swipe_overlay_rect_size_invalid_toast">La zone glissable ne peut pas être supérieure à 50.</string>
     <string name="revanced_swipe_overlay_timeout_title">Durée du voile lors des gestes</string>
     <string name="revanced_swipe_overlay_timeout_summary">La quantité de millisecondes pendant laquelle la superposition est visible.</string>
     <string name="revanced_disable_hdr_auto_brightness_title">Luminosité HDR automatique</string>
@@ -1213,7 +1251,7 @@ Les hautes qualités peuvent être débloquées sur certaines vidéos qui requi�
 
 • La résolution maximale est en 1080p.
 • La lecture vidéo utilisera plus de données internet que le VP9.
-• Pour utiliser la lecture en HDR, les vidéos HDR utilisent toujours le codec VP9."</string>
+• Le codec VP9 est également utilisé pour les vidéos HDR."</string>
     <string name="revanced_disable_vp9_codec_summary_off">Le codec VP9 est activé.</string>
     <string name="revanced_replace_av1_codec_title">Remplacer le codec AV1</string>
     <string name="revanced_replace_av1_codec_summary">Remplacer le codec AV1 par le codec VP9.</string>
@@ -1225,8 +1263,8 @@ Un codec différent sera appliqué après environ 20 secondes de mise en mémoir
     <string name="revanced_remember_video_quality_mobile">La résolution sur les données mobiles a été modifiée par %s.</string>
     <string name="revanced_remember_video_quality_none">Impossible de définir la qualité vidéo.</string>
     <string name="revanced_remember_video_quality_wifi">La résolution sur le Wi-Fi a été modifiée par %s.</string>
-    <string name="revanced_custom_playback_speeds_invalid">Les vitesses personnalisées doivent être inférieures à %sx. Valeur réinitialisée par défaut.</string>
-    <string name="revanced_custom_playback_speeds_parse_exception">Vitesses de lecture invalides. Valeur réinitialisée par défaut.</string>
+    <string name="revanced_custom_playback_speeds_invalid">Les vitesses personnalisées doivent être inférieures à %sx.</string>
+    <string name="revanced_custom_playback_speeds_parse_exception">Valeur des vitesses de lecture invalide.</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->
     <string name="revanced_preference_screen_ryd_title">Return YouTube Dislike</string>
     <string name="revanced_ryd_enable_title">Activer Return YouTube Dislike</string>
@@ -1521,9 +1559,12 @@ Cliquez sur le bouton Continuer et désactivez les optimisations de la batterie.
     <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Effets inconnus de la falsification</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• Les films ou les vidéos payantes peuvent ne pas être lus.
-• Les diffusions en direct commencent au début."</string>
+• Les diffusions en direct commencent au début.
+• Les vidéos peuvent se terminer une seconde avant.
+• Pas de codec audio opus."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Le menu \"Piste Audio\" est manquant.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Le menu \"Piste Audio\" est manquant."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Le menu \"Piste Audio\" est manquant.
+• Le volume stable n'es pas disponible."</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Les vidéos peuvent ne pas être lus.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Forcer iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Le codec vidéo d\'iOS est AVC (H.264).</string>
@@ -1565,6 +1606,7 @@ AVC (H.264) a une résolution maximale de 1080p, et la lecture vidéo utilisera 
     <string name="revanced_icon_revancify_blue">Revancify Bleu</string>
     <string name="revanced_icon_revancify_red">Revancify Rouge</string>
     <string name="revanced_icon_youtube">Youtube</string>
+    <string name="revanced_icon_youtube_minimal_header">YouTube (En-tête minimal)</string>
     <string name="revanced_label_default">Officiel</string>
     <string name="revanced_patches_excluded">Exclus</string>
     <string name="revanced_patches_included">Appliqué</string>

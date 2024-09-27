@@ -2,6 +2,7 @@
 <resources>
     <!-- Shared -->
     <string name="revanced_extended_settings_title">Cài đặt ReVanced Extended</string>
+    <string name="revanced_extended_reset_to_default_toast">Đặt lại về giá trị mặc định.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Vui lòng khởi động lại ứng dụng để các tính năng hoạt động bình thường</string>
     <string name="revanced_extended_restart_message">Làm mới và khởi động lại</string>
@@ -250,8 +251,8 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_remember_video_quality_last_selected_summary">Ghi nhớ chất lượng video nhạc được chọn gần đây nhất.</string>
     <string name="revanced_remember_video_quality_last_selected_toast_title">Hiện một thông báo ngắn</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary">Hiện một thông báo ngắn khi thay đổi chất lượng mặc định của video.</string>
-    <string name="revanced_custom_playback_speeds_invalid">Tốc độ phát tuỳ chỉnh không hợp lệ. Đã đặt lại tốc độ phát về mặc định.</string>
-    <string name="revanced_custom_playback_speeds_parse_exception">Tốc độ phát tùy chỉnh không hợp lệ. Đã khôi phục lại các giá trị mặc định.</string>
+    <string name="revanced_custom_playback_speeds_invalid">Tốc độ phát tuỳ chỉnh phải nhỏ hơn %sx.</string>
+    <string name="revanced_custom_playback_speeds_parse_exception">Tốc độ phát tùy chỉnh không hợp lệ.</string>
     <string name="revanced_remember_playback_speed_toast">Đã lưu tốc độ phát mặc định thành %s.</string>
     <string name="revanced_remember_video_quality_mobile">Đã lưu chất lượng video mặc định trên mạng di động thành %s.</string>
     <string name="revanced_remember_video_quality_none">Đặt chất lượng video thất bại.</string>
@@ -324,7 +325,7 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_sb_color_dot_label">Màu:</string>
     <string name="revanced_sb_color_changed">Đã thay đổi màu phân đoạn.</string>
     <string name="revanced_sb_color_reset">Đã đặt lại màu phân đoạn về mặc định.</string>
-    <string name="revanced_sb_color_invalid">Mã màu không hợp lệ. Đã đặt lại màu về mặc định.</string>
+    <string name="revanced_sb_color_invalid">Mã màu không hợp lệ.</string>
     <string name="revanced_sb_reset_color">Đặt lại màu</string>
     <string name="revanced_sb_about_api_sum">Dữ liệu được cung cấp bởi API SponsorBlock. Nhấn vào đây để tìm hiểu thêm và xem các bản tải xuống cho các nền tảng khác.</string>
     <string name="revanced_sb_about">Giới thiệu</string>
