@@ -304,6 +304,13 @@ Note: Enabling this also hide Notify me button."</string>
 Limitations: 
 • Shorts cannot be hidden.
 • Videos with 0 views are not filtered."</string>
+    <string name="revanced_hide_related_videos_title">Hide related videos</string>
+    <string name="revanced_hide_related_videos_summary_on">Related videos are hidden.</string>
+    <string name="revanced_hide_related_videos_summary_off">Related videos are shown.</string>
+    <string name="revanced_hide_related_videos_user_dialog_message">"This setting limits the maximum number of layouts that can be loaded on the player screen.
+
+If the layout of the player screen changes due to server-side changes, unintended layouts may be hidden on the player screen."</string>
+
 
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">General</string>
