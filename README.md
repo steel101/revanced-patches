@@ -44,6 +44,7 @@ ReVanced Extended Patches.
 | `Hide layout components` | Adds options to hide general layout components. | 18.29.38 ~ 19.16.39 |
 | `Hide player buttons` | Adds options to hide buttons in the video player. | 18.29.38 ~ 19.16.39 |
 | `Hide player flyout menu` | Adds options to hide player flyout menu components. | 18.29.38 ~ 19.16.39 |
+| `Hide shortcuts` | Remove, at compile time, the app shortcuts that appears when app icon is long pressed. | 18.29.38 ~ 19.16.39 |
 | `Hook YouTube Music actions` | Adds support for opening music in RVX Music using the in-app YouTube Music button. | 18.29.38 ~ 19.16.39 |
 | `Hook download actions` | Adds support to download videos with an external downloader app using the in-app download button. | 18.29.38 ~ 19.16.39 |
 | `Layout switch` | Adds an option to spoof the dpi in order to use a tablet or phone layout. | 18.29.38 ~ 19.16.39 |
