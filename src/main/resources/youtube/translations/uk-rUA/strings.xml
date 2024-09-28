@@ -281,6 +281,9 @@
     <string name="revanced_hide_related_videos_title">Приховати пов’язані відео</string>
     <string name="revanced_hide_related_videos_summary_on">Пов\'язані відео приховано.</string>
     <string name="revanced_hide_related_videos_summary_off">Пов\'язані відео показується.</string>
+    <string name="revanced_hide_related_videos_user_dialog_message">"Це налаштування обмежує максимальну кількість, які можуть вантажитися на екран плеєра.
+
+Якщо екран плеєра змінюється через зміни на стороні сервера, можуть бути приховані ненавмисно на екрані плеєра."</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Загальне</string>
     <string name="revanced_change_start_page_title">Змінити початкову сторінку</string>
@@ -1043,30 +1046,6 @@
     <string name="revanced_hide_shorts_shopping_button_title">Приховати кнопку Магазин</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">Кнопку Магазин приховано.</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">Кнопку Магазин показується.</string>
-    <string name="revanced_hide_shorts_shop_button_title">Приховати кнопку Магазин</string>
-    <string name="revanced_hide_shorts_shop_button_summary_on">Кнопку Магазин приховано.</string>
-    <string name="revanced_hide_shorts_shop_button_summary_off">Кнопка Магазин показується.</string>
-    <string name="revanced_hide_shorts_super_thanks_button_title">Приховати кнопку супер подяки</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_on">Кнопку супер подяки приховано.</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_off">Кнопку супер подяки показується.</string>
-    <string name="revanced_hide_shorts_tagged_products_title">Приховати товари з тегами</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_on">Товари з тегами приховано.</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_off">Товари з тегами показується.</string>
-    <string name="revanced_hide_shorts_location_button_title">Приховати кнопку місцезнаходження</string>
-    <string name="revanced_hide_shorts_location_button_summary_on">Кнопку місцезнаходження приховано.</string>
-    <string name="revanced_hide_shorts_location_button_summary_off">Кнопку місцезнаходження показується.</string>
-    <string name="revanced_hide_shorts_save_sound_button_title">Приховати кнопку Зберегти звук в списку відтворення</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">Зберегти звук в списку відтворення приховано.</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">Зберегти звук в списку відтворення показується.</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_title">Приховати кнопку пропозицій пошуку</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">Кнопку пропозицій пошуку приховано.</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">Кнопку пропозицій пошуку показується.</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_title">Приховати кнопку Використати цей звук</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">Кнопку Використати цей звук приховано.</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">Кнопку Використати цей звук показується.</string>
-    <string name="revanced_hide_shorts_use_template_button_title">Приховати кнопку Використати шаблон</string>
-    <string name="revanced_hide_shorts_use_template_button_summary_on">Кнопку Використати шаблон приховано.</string>
-    <string name="revanced_hide_shorts_use_template_button_summary_off">Кнопку Використати шаблон показується.</string>
     <string name="revanced_hide_shorts_info_panel_title">Приховати інформаційні панелі</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Інформаційні панелі приховано.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Інформаційні панелі показується.</string>
@@ -1085,6 +1064,31 @@
     <string name="revanced_hide_shorts_full_video_link_label_title">Приховати мітку посилання на повне відео</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_on">Мітку посилання відео приховано.</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_off">Мітку посилання відео показується.</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
+    <string name="revanced_hide_shorts_save_sound_button_title">Приховати кнопку Зберегти звук в списку відтворення</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_on">Зберегти звук в списку відтворення приховано.</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_off">Зберегти звук в списку відтворення показується.</string>
+    <string name="revanced_hide_shorts_shop_button_title">Приховати кнопку Магазин</string>
+    <string name="revanced_hide_shorts_shop_button_summary_on">Кнопку Магазин приховано.</string>
+    <string name="revanced_hide_shorts_shop_button_summary_off">Кнопка Магазин показується.</string>
+    <string name="revanced_hide_shorts_super_thanks_button_title">Приховати кнопку супер подяки</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_on">Кнопку супер подяки приховано.</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_off">Кнопку супер подяки показується.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_title">Приховати кнопку Використати цей звук</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">Кнопку Використати цей звук приховано.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">Кнопку Використати цей звук показується.</string>
+    <string name="revanced_hide_shorts_use_template_button_title">Приховати кнопку Використати шаблон</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_on">Кнопку Використати шаблон приховано.</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_off">Кнопку Використати шаблон показується.</string>
+    <string name="revanced_hide_shorts_location_button_title">Приховати кнопку місцезнаходження</string>
+    <string name="revanced_hide_shorts_location_button_summary_on">Кнопку місцезнаходження приховано.</string>
+    <string name="revanced_hide_shorts_location_button_summary_off">Кнопку місцезнаходження показується.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_title">Приховати кнопку пропозицій пошуку</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">Кнопку пропозицій пошуку приховано.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">Кнопку пропозицій пошуку показується.</string>
+    <string name="revanced_hide_shorts_tagged_products_title">Приховати товари з тегами</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_on">Товари з тегами приховано.</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_off">Товари з тегами показується.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Action buttons -->
     <string name="revanced_preference_category_action_buttons">Кнопки дії</string>
     <string name="revanced_hide_shorts_like_button_title">Приховати кнопку Подобається</string>

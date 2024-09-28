@@ -251,8 +251,8 @@ Alguns recursos podem não funcionar corretamente no layout antigo do reprodutor
     <string name="revanced_remember_video_quality_last_selected_summary">Lembra a última qualidade de vídeo selecionada.</string>
     <string name="revanced_remember_video_quality_last_selected_toast_title">Exibir uma notificação flutuante</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary">Exibir uma notificação flutuante quando alterar a qualidade padrão do vídeo.</string>
-    <string name="revanced_custom_playback_speeds_invalid">Velocidades personalizadas devem ser menores que %sx. Usando valores padrão.</string>
-    <string name="revanced_custom_playback_speeds_parse_exception">Velocidade personalizada de reprodução inválida. Usando valores padrão.</string>
+    <string name="revanced_custom_playback_speeds_invalid">Velocidades personalizadas devem ser menores que %sx.</string>
+    <string name="revanced_custom_playback_speeds_parse_exception">Velocidades de reprodução personalizadas inválidas.</string>
     <string name="revanced_remember_playback_speed_toast">Alterando a velocidade padrão para %s.</string>
     <string name="revanced_remember_video_quality_mobile">Alterando a qualidade padrão de dados móveis para %s.</string>
     <string name="revanced_remember_video_quality_none">Falha ao definir qualidade.</string>
@@ -325,7 +325,7 @@ Alguns recursos podem não funcionar corretamente no layout antigo do reprodutor
     <string name="revanced_sb_color_dot_label">Cor:</string>
     <string name="revanced_sb_color_changed">Cor alterada.</string>
     <string name="revanced_sb_color_reset">Redefinir cor.</string>
-    <string name="revanced_sb_color_invalid">Código de cor inválido. Redefinir cor para o padrão.</string>
+    <string name="revanced_sb_color_invalid">Código de cor inválido.</string>
     <string name="revanced_sb_reset_color">Redefinir cor</string>
     <string name="revanced_sb_about_api_sum">Os dados são fornecidos pela API do SponsorBlock. Toque aqui para aprender mais e ver downloads para outras plataformas.</string>
     <string name="revanced_sb_about">Sobre</string>

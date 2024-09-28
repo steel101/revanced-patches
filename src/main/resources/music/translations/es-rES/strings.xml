@@ -2,6 +2,7 @@
 <resources>
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
+    <string name="revanced_extended_reset_to_default_toast">Restablecer a valores por defecto.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Reiniciar para cargar el diseño normalmente</string>
     <string name="revanced_extended_restart_message">Actualizar y reiniciar</string>

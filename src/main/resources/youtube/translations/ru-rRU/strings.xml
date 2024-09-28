@@ -290,6 +290,12 @@ Shorts
 Ограничения:
 • Shorts нельзя скрыть.
 • Видео без просмотров не обрабатываются."</string>
+    <string name="revanced_hide_related_videos_title">Похожие видео</string>
+    <string name="revanced_hide_related_videos_summary_on">Похожие видео скрыты.</string>
+    <string name="revanced_hide_related_videos_summary_off">Похожие видео отображены.</string>
+    <string name="revanced_hide_related_videos_user_dialog_message">"Этот параметр ограничивает максимальное количество макетов, которые могут быть загружены на экране плеера.
+
+Если макет экрана проигрывателя меняется из-за изменений на стороне сервера, незапланированные макеты могут быть скрыты на экране плеера."</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Основные настройки</string>
     <string name="revanced_change_start_page_title">Начальная страница</string>
@@ -1054,30 +1060,6 @@ Shorts
     <string name="revanced_hide_shorts_shopping_button_title">Кнопка \"Покупки\"</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">Кнопка \"Покупки\" скрыта.</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">Кнопка \"Покупки\" отображена.</string>
-    <string name="revanced_hide_shorts_shop_button_title">Кнопка \"Магазин\"</string>
-    <string name="revanced_hide_shorts_shop_button_summary_on">Кнопка \"Магазин\" скрыта.</string>
-    <string name="revanced_hide_shorts_shop_button_summary_off">Кнопка \"Магазин\" отображена.</string>
-    <string name="revanced_hide_shorts_super_thanks_button_title">Кнопка \"Особая благодарность\"</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_on">Кнопка \"Особая благодарность\" скрыта.</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_off">Кнопка \"Особая благодарность\" отображена.</string>
-    <string name="revanced_hide_shorts_tagged_products_title">Товары с тегом</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_on">Товары с тегом скрыты.</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_off">Товары с тегом отображены.</string>
-    <string name="revanced_hide_shorts_location_button_title">Кнопка \"Местоположение\"</string>
-    <string name="revanced_hide_shorts_location_button_summary_on">Кнопка \"Местоположение\" скрыта.</string>
-    <string name="revanced_hide_shorts_location_button_summary_off">Кнопка \"Местоположение\" отображена.</string>
-    <string name="revanced_hide_shorts_save_sound_button_title">Кнопка \"Сохранить звук в плейлист\"</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">Кнопка \"Сохранить звук в плейлист\" скрыта.</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">Кнопка \"Сохранить звук в плейлист\" отображена.</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_title">Кнопка \"Подсказки поиска\"</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">Кнопка \"Подсказки поиска\" скрыта.</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">Кнопка \"Подсказки поиска\" отображена.</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_title">Кнопка \"Использовать этот звук\"</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">Кнопка \"Использовать этот звук\" скрыта.</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">Кнопка \"Использовать этот звук\" отображена.</string>
-    <string name="revanced_hide_shorts_use_template_button_title">Кнопка \"Использовать шаблон\"</string>
-    <string name="revanced_hide_shorts_use_template_button_summary_on">Кнопка \"Использовать шаблон\" скрыта.</string>
-    <string name="revanced_hide_shorts_use_template_button_summary_off">Кнопка \"Использовать шаблон\" отображена.</string>
     <string name="revanced_hide_shorts_info_panel_title">Информационные панели</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Информационные панели скрыты.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Информационные панели отображены.</string>
@@ -1100,6 +1082,31 @@ Shorts
     <string name="revanced_hide_shorts_full_video_link_label_title">Метка ссылки на полное видео</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_on">Метка видео ссылки скрыта.</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_off">Метка видео ссылки отображена.</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
+    <string name="revanced_hide_shorts_save_sound_button_title">Кнопка \"Сохранить звук в плейлист\"</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_on">Кнопка \"Сохранить звук в плейлист\" скрыта.</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_off">Кнопка \"Сохранить звук в плейлист\" отображена.</string>
+    <string name="revanced_hide_shorts_shop_button_title">Кнопка \"Магазин\"</string>
+    <string name="revanced_hide_shorts_shop_button_summary_on">Кнопка \"Магазин\" скрыта.</string>
+    <string name="revanced_hide_shorts_shop_button_summary_off">Кнопка \"Магазин\" отображена.</string>
+    <string name="revanced_hide_shorts_super_thanks_button_title">Кнопка \"Особая благодарность\"</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_on">Кнопка \"Особая благодарность\" скрыта.</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_off">Кнопка \"Особая благодарность\" отображена.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_title">Кнопка \"Использовать этот звук\"</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">Кнопка \"Использовать этот звук\" скрыта.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">Кнопка \"Использовать этот звук\" отображена.</string>
+    <string name="revanced_hide_shorts_use_template_button_title">Кнопка \"Использовать шаблон\"</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_on">Кнопка \"Использовать шаблон\" скрыта.</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_off">Кнопка \"Использовать шаблон\" отображена.</string>
+    <string name="revanced_hide_shorts_location_button_title">Кнопка \"Местоположение\"</string>
+    <string name="revanced_hide_shorts_location_button_summary_on">Кнопка \"Местоположение\" скрыта.</string>
+    <string name="revanced_hide_shorts_location_button_summary_off">Кнопка \"Местоположение\" отображена.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_title">Кнопка \"Подсказки поиска\"</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">Кнопка \"Подсказки поиска\" скрыта.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">Кнопка \"Подсказки поиска\" отображена.</string>
+    <string name="revanced_hide_shorts_tagged_products_title">Товары с тегом</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_on">Товары с тегом скрыты.</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_off">Товары с тегом отображены.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Action buttons -->
     <string name="revanced_preference_category_action_buttons">Кнопки действий</string>
     <string name="revanced_hide_shorts_like_button_title">Кнопка \"Лайк\"</string>

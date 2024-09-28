@@ -283,6 +283,9 @@ Hạn chế:
     <string name="revanced_hide_related_videos_title">Ẩn các video có liên quan</string>
     <string name="revanced_hide_related_videos_summary_on">Các video có liên quan đã bị ẩn.</string>
     <string name="revanced_hide_related_videos_summary_off">Nút Video có liên quan được hiển thị.</string>
+    <string name="revanced_hide_related_videos_user_dialog_message">"Cài đặt này giới hạn số lượng bố cục tối đa có thể được tải trên màn hình trình phát.
+
+Nếu bố cục của màn hình trình phát thay đổi do các thay đổi từ phía máy chủ, các bố cục không mong muốn có thể bị ẩn trên màn hình trình phát."</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Tổng quan</string>
     <string name="revanced_change_start_page_title">Thay đổi trang khởi động</string>
@@ -1043,30 +1046,6 @@ Hạn chế: Tiêu đề chính thức trong kết quả tìm kiếm sẽ đư�
     <string name="revanced_hide_shorts_shopping_button_title">Ẩn nút Mua sắm</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">Nút Mua sắm đã ẩn.</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">Nút Mua sắm đã hiển thị.</string>
-    <string name="revanced_hide_shorts_shop_button_title">Nút Cửa hàng</string>
-    <string name="revanced_hide_shorts_shop_button_summary_on">Nút Cửa hàng đã bị ẩn.</string>
-    <string name="revanced_hide_shorts_shop_button_summary_off">Nút Cửa hàng được hiển thị.</string>
-    <string name="revanced_hide_shorts_super_thanks_button_title">Ẩn nút Cảm ơn</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_on">Nút Cảm ơn đã ẩn.</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_off">Nút Cảm ơn được hiển thị.</string>
-    <string name="revanced_hide_shorts_tagged_products_title">Ẩn sản phẩm được gắn thẻ</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_on">Sản phẩm được gắn thẻ đã ẩn.</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_off">Sản phẩm gắn thẻ được hiển thị.</string>
-    <string name="revanced_hide_shorts_location_button_title">Ẩn nút Vị trí</string>
-    <string name="revanced_hide_shorts_location_button_summary_on">Nút Vị trí đã ẩn.</string>
-    <string name="revanced_hide_shorts_location_button_summary_off">Nút Vị trí đã hiển thị.</string>
-    <string name="revanced_hide_shorts_save_sound_button_title">Ẩn nút Lưu vào danh sách phát</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">Nút lưu vào danh sách phát đã ẩn.</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">Nút lưu vào danh sách phát được hiển thị.</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_title">Ẩn nút Gợi ý tìm kiếm</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">Nút Gợi ý tìm kiếm đã ẩn.</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">Nút Gợi ý tìm kiếm đã hiển thị.</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_title">Ẩn nút \'Dùng bản âm thanh này\'</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">Nút \'Dùng bản âm thanh này\' đã ẩn.</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">Nút \'Dùng bản âm thanh này\' đã hiển thị.</string>
-    <string name="revanced_hide_shorts_use_template_button_title">Ẩn nút Sử dụng mẫu</string>
-    <string name="revanced_hide_shorts_use_template_button_summary_on">Nút Sử dụng mẫu đã ẩn.</string>
-    <string name="revanced_hide_shorts_use_template_button_summary_off">Nút Sử dụng mẫu đã hiển thị.</string>
     <string name="revanced_hide_shorts_info_panel_title">Ẩn Bảng thông tin</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Bảng thông tin đã ẩn.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Bảng thông tin được hiển thị.</string>
@@ -1085,6 +1064,31 @@ Hạn chế: Tiêu đề chính thức trong kết quả tìm kiếm sẽ đư�
     <string name="revanced_hide_shorts_full_video_link_label_title">Ẩn nhãn liên kết video toàn màn hình</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_on">Nhãn liên kết video đã ẩn.</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_off">Nhãn liên kết video được hiển thị.</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
+    <string name="revanced_hide_shorts_save_sound_button_title">Ẩn nút Lưu vào danh sách phát</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_on">Nút lưu vào danh sách phát đã ẩn.</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_off">Nút lưu vào danh sách phát được hiển thị.</string>
+    <string name="revanced_hide_shorts_shop_button_title">Nút Cửa hàng</string>
+    <string name="revanced_hide_shorts_shop_button_summary_on">Nút Cửa hàng đã bị ẩn.</string>
+    <string name="revanced_hide_shorts_shop_button_summary_off">Nút Cửa hàng được hiển thị.</string>
+    <string name="revanced_hide_shorts_super_thanks_button_title">Ẩn nút Cảm ơn</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_on">Nút Cảm ơn đã ẩn.</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_off">Nút Cảm ơn được hiển thị.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_title">Ẩn nút \'Dùng bản âm thanh này\'</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">Nút \'Dùng bản âm thanh này\' đã ẩn.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">Nút \'Dùng bản âm thanh này\' đã hiển thị.</string>
+    <string name="revanced_hide_shorts_use_template_button_title">Ẩn nút Sử dụng mẫu</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_on">Nút Sử dụng mẫu đã ẩn.</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_off">Nút Sử dụng mẫu đã hiển thị.</string>
+    <string name="revanced_hide_shorts_location_button_title">Ẩn nút Vị trí</string>
+    <string name="revanced_hide_shorts_location_button_summary_on">Nút Vị trí đã ẩn.</string>
+    <string name="revanced_hide_shorts_location_button_summary_off">Nút Vị trí đã hiển thị.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_title">Ẩn nút Gợi ý tìm kiếm</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">Nút Gợi ý tìm kiếm đã ẩn.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">Nút Gợi ý tìm kiếm đã hiển thị.</string>
+    <string name="revanced_hide_shorts_tagged_products_title">Ẩn sản phẩm được gắn thẻ</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_on">Sản phẩm được gắn thẻ đã ẩn.</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_off">Sản phẩm gắn thẻ được hiển thị.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Action buttons -->
     <string name="revanced_preference_category_action_buttons">Nút hành động</string>
     <string name="revanced_hide_shorts_like_button_title">Ẩn nút Thích</string>

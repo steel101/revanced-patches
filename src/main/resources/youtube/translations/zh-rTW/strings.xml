@@ -280,6 +280,9 @@
     <string name="revanced_hide_related_videos_title">隱藏相關影片</string>
     <string name="revanced_hide_related_videos_summary_on">相關影片已隱藏。</string>
     <string name="revanced_hide_related_videos_summary_off">相關影片已顯示。</string>
+    <string name="revanced_hide_related_videos_user_dialog_message">"此設定限制播放器螢幕上可以載入佈局的最大數量。
+
+如果由於伺服器端變更而導致播放器螢幕佈局發生變化，則播放器螢幕上可能會隱藏非預期的佈局。"</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">一般設定</string>
     <string name="revanced_change_start_page_title">更改起始頁</string>
@@ -1040,30 +1043,6 @@
     <string name="revanced_hide_shorts_shopping_button_title">隱藏購物按鈕</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">購物按鈕已隱藏。</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">顯示購物按鈕。</string>
-    <string name="revanced_hide_shorts_shop_button_title">隱藏商店按鈕</string>
-    <string name="revanced_hide_shorts_shop_button_summary_on">商店按鈕已隱藏</string>
-    <string name="revanced_hide_shorts_shop_button_summary_off">商店按鈕已顯示</string>
-    <string name="revanced_hide_shorts_super_thanks_button_title">隱藏超級感謝按鈕</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_on">超級感謝按鈕已隱藏。</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_off">超級感謝按鈕已顯示。</string>
-    <string name="revanced_hide_shorts_tagged_products_title">隱藏標記的產品</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_on">標記的產品已隱藏</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_off">標記的產品已顯示</string>
-    <string name="revanced_hide_shorts_location_button_title">隱藏位置按鈕</string>
-    <string name="revanced_hide_shorts_location_button_summary_on">位置按鈕已隱藏。</string>
-    <string name="revanced_hide_shorts_location_button_summary_off">顯示位置按鈕。</string>
-    <string name="revanced_hide_shorts_save_sound_button_title">隱藏儲存音效到播放清單按鈕</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">儲存音效到播放清單按鈕已隱藏。</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">儲存音效到播放清單按鈕已顯示。</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_title">隱藏搜尋建議按鈕</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">搜尋建議按鈕已隱藏。</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">顯示搜尋建議按鈕。</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_title">隱藏使用此聲音按鈕</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">使用此聲音按鈕已隱藏。</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">顯示使用此聲音按鈕。</string>
-    <string name="revanced_hide_shorts_use_template_button_title">隱藏使用模板按鈕</string>
-    <string name="revanced_hide_shorts_use_template_button_summary_on">使用模板按鈕已隱藏</string>
-    <string name="revanced_hide_shorts_use_template_button_summary_off">顯示使用模板按鈕。</string>
     <string name="revanced_hide_shorts_info_panel_title">隱藏訊息面板</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">訊息面板已隱藏</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">訊息面板已顯示</string>
@@ -1082,6 +1061,31 @@
     <string name="revanced_hide_shorts_full_video_link_label_title">隱藏完整影片連結標簽</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_on">影片連結標簽已隱藏</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_off">影片連結標簽已顯示</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
+    <string name="revanced_hide_shorts_save_sound_button_title">隱藏儲存音效到播放清單按鈕</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_on">儲存音效到播放清單按鈕已隱藏。</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_off">儲存音效到播放清單按鈕已顯示。</string>
+    <string name="revanced_hide_shorts_shop_button_title">隱藏商店按鈕</string>
+    <string name="revanced_hide_shorts_shop_button_summary_on">商店按鈕已隱藏</string>
+    <string name="revanced_hide_shorts_shop_button_summary_off">商店按鈕已顯示</string>
+    <string name="revanced_hide_shorts_super_thanks_button_title">隱藏超級感謝按鈕</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_on">超級感謝按鈕已隱藏。</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_off">超級感謝按鈕已顯示。</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_title">隱藏使用此聲音按鈕</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">使用此聲音按鈕已隱藏。</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">顯示使用此聲音按鈕。</string>
+    <string name="revanced_hide_shorts_use_template_button_title">隱藏使用模板按鈕</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_on">使用模板按鈕已隱藏</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_off">顯示使用模板按鈕。</string>
+    <string name="revanced_hide_shorts_location_button_title">隱藏位置按鈕</string>
+    <string name="revanced_hide_shorts_location_button_summary_on">位置按鈕已隱藏。</string>
+    <string name="revanced_hide_shorts_location_button_summary_off">顯示位置按鈕。</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_title">隱藏搜尋建議按鈕</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">搜尋建議按鈕已隱藏。</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">顯示搜尋建議按鈕。</string>
+    <string name="revanced_hide_shorts_tagged_products_title">隱藏標記的產品</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_on">標記的產品已隱藏</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_off">標記的產品已顯示</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Action buttons -->
     <string name="revanced_preference_category_action_buttons">操作按鈕</string>
     <string name="revanced_hide_shorts_like_button_title">隱藏點贊按鈕</string>

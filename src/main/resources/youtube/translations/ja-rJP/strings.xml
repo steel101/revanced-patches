@@ -276,8 +276,11 @@ DeArrowの詳細については、ここをタップしてください。"</stri
 • ショート動画は非表示にできません。
 • 再生回数が 0 の動画はフィルタリングされません。"</string>
     <string name="revanced_hide_related_videos_title">関連動画を非表示</string>
-    <string name="revanced_hide_related_videos_summary_on">関連動画を非表示にします。</string>
-    <string name="revanced_hide_related_videos_summary_off">関連動画を非表示にします。</string>
+    <string name="revanced_hide_related_videos_summary_on">ホームフィードから関連動画を非表示にします。</string>
+    <string name="revanced_hide_related_videos_summary_off">ホームフィードから関連動画を非表示にします。</string>
+    <string name="revanced_hide_related_videos_user_dialog_message">"これを有効にすると、プレーヤー画面に読み込まれるレイアウトの最大数を制限します。
+
+注意: サーバー側の変更によりプレーヤー画面のレイアウトが変更された場合、意図しないレイアウトがプレーヤー画面上から非表示になる可能性があります。"</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">全般</string>
     <string name="revanced_change_start_page_title">起動時のページを変更</string>
@@ -1037,30 +1040,6 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_shorts_shopping_button_title">「購入」ボタンを非表示</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">ショートで左下に表示される「購入」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">ショートで左下に表示される「購入」ボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_shop_button_title">「ショップ」ボタンを非表示</string>
-    <string name="revanced_hide_shorts_shop_button_summary_on">「ショップ」ボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_shop_button_summary_off">「ショップ」ボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_super_thanks_button_title">「Super Thanks」ボタンを非表示</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_on">「Super Thanks」ボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_off">「Super Thanks」ボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_tagged_products_title">タグ付き商品を非表示</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_on">タグ付けされている商品を非表示にします。</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_off">タグ付けされている商品を非表示にします。</string>
-    <string name="revanced_hide_shorts_location_button_title">位置情報のボタンを非表示</string>
-    <string name="revanced_hide_shorts_location_button_summary_on">位置情報のボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_location_button_summary_off">位置情報のボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_save_sound_button_title">「保存」ボタンを非表示</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">音楽の「保存」ボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">音楽の「保存」ボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_title">検索候補のボタンを非表示</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">検索候補のボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">検索候補のボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_title">「このサウンドを使用する」を非表示</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">ショートで楽曲ボタンを押した際に表示される「このサウンドを使用する」ボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">ショートで楽曲ボタンを押した際に表示される「このサウンドを使用する」ボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_use_template_button_title">「テンプレートを使用する」を非表示</string>
-    <string name="revanced_hide_shorts_use_template_button_summary_on">「テンプレートを使用する」ボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_use_template_button_summary_off">「テンプレートを使用する」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_info_panel_title">情報パネルを非表示</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">情報パネルを非表示にします。</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">情報パネルを非表示にします。</string>
@@ -1079,9 +1058,38 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_shorts_full_video_link_label_title">フルの動画のリンクラベルを非表示</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_on">フルの動画のリンクのラベルを非表示にします。</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_off">フルの動画のリンクのラベルを非表示にします。</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
+    <string name="revanced_preference_category_suggested_actions">推奨されるアクション</string>
+    <string name="revanced_hide_shorts_green_screen_button_title">グリーンスクリーンボタンを非表示</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_on">プレーヤーの下部に表示される、「グリーンスクリーン」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_off">プレーヤーの下部に表示される、「グリーンスクリーン」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_save_sound_button_title">「保存」ボタンを非表示</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_on">音楽の「保存」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_off">音楽の「保存」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_shop_button_title">「ショップ」ボタンを非表示</string>
+    <string name="revanced_hide_shorts_shop_button_summary_on">「ショップ」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_shop_button_summary_off">「ショップ」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_super_thanks_button_title">「Super Thanks」ボタンを非表示</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_on">「Super Thanks」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_off">「Super Thanks」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_title">「このサウンドを使用する」を非表示</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">ショートで楽曲ボタンを押した際に表示される「このサウンドを使用する」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">ショートで楽曲ボタンを押した際に表示される「このサウンドを使用する」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_use_template_button_title">「テンプレートを使用する」を非表示</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_on">「テンプレートを使用する」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_off">「テンプレートを使用する」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_location_button_title">位置情報のボタンを非表示</string>
+    <string name="revanced_hide_shorts_location_button_summary_on">位置情報のボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_location_button_summary_off">位置情報のボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_title">検索候補のボタンを非表示</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">検索候補のボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">検索候補のボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_tagged_products_title">タグ付き商品を非表示</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_on">タグ付けされている商品を非表示にします。</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_off">タグ付けされている商品を非表示にします。</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Action buttons -->
     <string name="revanced_preference_category_action_buttons">プレーヤー下部(共有、クリップなど)のボタン</string>
-    <string name="revanced_hide_shorts_like_button_title">「高評価」ボタンを非表示</string>
+    <string name="revanced_hide_shorts_like_button_title">高評価ボタンを非表示</string>
     <string name="revanced_hide_shorts_like_button_summary_on">「高評価」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_like_button_summary_off">「高評価」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_dislike_button_title">「低評価」ボタンを非表示</string>
@@ -1101,6 +1109,9 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_shorts_sound_button_summary_off">プレーヤー右下に表示される楽曲のボタンを非表示にします。</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
     <string name="revanced_preference_category_animation_feedback">アニメーション / フィードバック</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_title">高評価ボタンのアニメーションを無効化</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_on">「高評価」ボタンの上部に表示されるアニメーションを無効化します。</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_off">「高評価」ボタンの上部に表示されるアニメーションを無効化します。</string>
     <string name="revanced_hide_shorts_play_pause_button_background_title">ボタンの背景を非表示</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_on">再生 / 一時停止ボタンの背景を非表示にします。</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_off">再生 / 一時停止ボタンの背景を非表示にします。</string>

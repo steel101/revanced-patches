@@ -278,6 +278,12 @@ Nota: Ativar isso também oculta o botão Notificar-me."</string>
 Limitações: 
 • Shorts não podem ser ocultos.
 • Vídeos com 0 visualizações não são filtrados."</string>
+    <string name="revanced_hide_related_videos_title">Ocultar vídeos relacionados</string>
+    <string name="revanced_hide_related_videos_summary_on">Os vídeos relacionados estão ocultos.</string>
+    <string name="revanced_hide_related_videos_summary_off">Os vídeos relacionados serão exibidos.</string>
+    <string name="revanced_hide_related_videos_user_dialog_message">"Esta configuração limita o número máximo de layouts que podem ser carregados na tela do reprodutor.
+
+Se o layout da tela do reprodutor mudar devido a alterações no lado do servidor, layouts não intencionais podem ficar ocultos na tela do reprodutor."</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Geral</string>
     <string name="revanced_change_start_page_title">Alterar a página inicial</string>
@@ -1041,30 +1047,6 @@ Limitação: Os cabeçalhos oficiais nos resultados da pesquisa serão ocultados
     <string name="revanced_hide_shorts_shopping_button_title">Ocultar botão de Compras</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">O botão de compras está oculto.</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">O botão de compras será exibido.</string>
-    <string name="revanced_hide_shorts_shop_button_title">Ocultar botão comprar</string>
-    <string name="revanced_hide_shorts_shop_button_summary_on">O botão comprar está oculto.</string>
-    <string name="revanced_hide_shorts_shop_button_summary_off">O botão comprar será exibido.</string>
-    <string name="revanced_hide_shorts_super_thanks_button_title">Ocultar botão de Super Valeu</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_on">O botão de Super Valeu está oculto.</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_off">O botão de Super Valeu será exibido.</string>
-    <string name="revanced_hide_shorts_tagged_products_title">Ocultar produtos marcados</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_on">Os produtos marcados estão ocultos.</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_off">Os produtos marcados serão exibidos.</string>
-    <string name="revanced_hide_shorts_location_button_title">Ocultar botão localização</string>
-    <string name="revanced_hide_shorts_location_button_summary_on">O botão localização está oculto.</string>
-    <string name="revanced_hide_shorts_location_button_summary_off">O botão de localização será exibido.</string>
-    <string name="revanced_hide_shorts_save_sound_button_title">Ocultar botão salvar música na lista de reprodução</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">Salvar música na lista de reprodução está oculta.</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">Salvar música na lista de reprodução será exibida.</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_title">Ocultar botão de sugestões de pesquisa</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">O botão de sugestões de pesquisa está oculto.</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">O botão de sugestões de pesquisa será exibido.</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_title">Ocultar botão Usar este som</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">O botão Usar este som está oculto.</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">O botão Usar este som será exibido.</string>
-    <string name="revanced_hide_shorts_use_template_button_title">Ocultar botão Usar template</string>
-    <string name="revanced_hide_shorts_use_template_button_summary_on">O botão Usar template está oculto.</string>
-    <string name="revanced_hide_shorts_use_template_button_summary_off">O botão Usar template será exibido.</string>
     <string name="revanced_hide_shorts_info_panel_title">Ocultar painéis de informações</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Os painéis de informação estão ocultos.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Os painéis de informação serão exibidos.</string>
@@ -1083,6 +1065,31 @@ Limitação: Os cabeçalhos oficiais nos resultados da pesquisa serão ocultados
     <string name="revanced_hide_shorts_full_video_link_label_title">Ocultar rótulo completo do link do vídeo</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_on">O rótulo de link de vídeo está oculto.</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_off">O rótulo de link de vídeo será exibido.</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
+    <string name="revanced_hide_shorts_save_sound_button_title">Ocultar botão salvar música na lista de reprodução</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_on">Salvar música na lista de reprodução está oculta.</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_off">Salvar música na lista de reprodução será exibida.</string>
+    <string name="revanced_hide_shorts_shop_button_title">Ocultar botão comprar</string>
+    <string name="revanced_hide_shorts_shop_button_summary_on">O botão comprar está oculto.</string>
+    <string name="revanced_hide_shorts_shop_button_summary_off">O botão comprar será exibido.</string>
+    <string name="revanced_hide_shorts_super_thanks_button_title">Ocultar botão de Super Valeu</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_on">O botão de Super Valeu está oculto.</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_off">O botão de Super Valeu será exibido.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_title">Ocultar botão Usar este som</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">O botão Usar este som está oculto.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">O botão Usar este som será exibido.</string>
+    <string name="revanced_hide_shorts_use_template_button_title">Ocultar botão Usar template</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_on">O botão Usar template está oculto.</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_off">O botão Usar template será exibido.</string>
+    <string name="revanced_hide_shorts_location_button_title">Ocultar botão localização</string>
+    <string name="revanced_hide_shorts_location_button_summary_on">O botão localização está oculto.</string>
+    <string name="revanced_hide_shorts_location_button_summary_off">O botão de localização será exibido.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_title">Ocultar botão de sugestões de pesquisa</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">O botão de sugestões de pesquisa está oculto.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">O botão de sugestões de pesquisa será exibido.</string>
+    <string name="revanced_hide_shorts_tagged_products_title">Ocultar produtos marcados</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_on">Os produtos marcados estão ocultos.</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_off">Os produtos marcados serão exibidos.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Action buttons -->
     <string name="revanced_preference_category_action_buttons">Botões de ação</string>
     <string name="revanced_hide_shorts_like_button_title">Ocultar botão curtir</string>

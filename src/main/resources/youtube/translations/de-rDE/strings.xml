@@ -865,13 +865,6 @@ Nebeneffekt: Offizielle Kopfzeilen in Suchergebnissen werden ausgeblendet."</str
     <string name="revanced_hide_shorts_subscribe_button_title">Abonnement-Button ausblenden</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">Pausierte Overlay-Tasten ausblenden</string>
     <string name="revanced_hide_shorts_paid_promotion_label_title">Verstecke Label für bezahlte Promotion</string>
-    <string name="revanced_hide_shorts_shop_button_title">Shop-Schaltfläche verstecken</string>
-    <string name="revanced_hide_shorts_super_thanks_button_title">Super Dankeschön ausblenden</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_on">\"Super Thanks\" Button wird ausgeblendet.</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_off">\"Super Thanks\" Button wird angezeigt.</string>
-    <string name="revanced_hide_shorts_tagged_products_title">Markierte Produkte ausblenden</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_on">Markierte Produkte sind ausgeblendet.</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_off">Markierte Produkte werden angezeigt.</string>
     <string name="revanced_hide_shorts_info_panel_title">Info-Panels ausblenden</string>
     <string name="revanced_hide_shorts_live_header_title">Live-Chat-Kopfzeile ausblenden</string>
     <string name="revanced_hide_shorts_live_header_summary_on">Live-Chat-Kopfzeile wird ausgeblendet.\n\nZurück Button wird nicht ausgeblendet.</string>
@@ -880,6 +873,14 @@ Nebeneffekt: Offizielle Kopfzeilen in Suchergebnissen werden ausgeblendet."</str
     <string name="revanced_hide_shorts_video_title_title">Videotitel ausblenden</string>
     <string name="revanced_hide_shorts_sound_metadata_label_title">Sound-Metadaten-Label ausblenden</string>
     <string name="revanced_hide_shorts_full_video_link_label_title">Verstecke vollständige Video-Linkbezeichnung</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
+    <string name="revanced_hide_shorts_shop_button_title">Shop-Schaltfläche verstecken</string>
+    <string name="revanced_hide_shorts_super_thanks_button_title">Super Dankeschön ausblenden</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_on">\"Super Thanks\" Button wird ausgeblendet.</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_off">\"Super Thanks\" Button wird angezeigt.</string>
+    <string name="revanced_hide_shorts_tagged_products_title">Markierte Produkte ausblenden</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_on">Markierte Produkte sind ausgeblendet.</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_off">Markierte Produkte werden angezeigt.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Action buttons -->
     <string name="revanced_preference_category_action_buttons">Aktionsschaltflächen</string>
     <string name="revanced_hide_shorts_like_button_title">Verstecke \"Gefällt mir\" Button</string>

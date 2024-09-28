@@ -951,18 +951,6 @@ Bilinen sorun: Arama sonuçlarındaki resmi başlıklar da gizlenebiliyor."</str
     <string name="revanced_hide_shorts_trends_button_summary_off">Trend butonu görünür.</string>
     <string name="revanced_hide_shorts_shopping_button_title">Alışveriş butonunu gizle</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">Alışveriş butonu gizli.</string>
-    <string name="revanced_hide_shorts_shop_button_title">Mağaza düğmesini gizle</string>
-    <string name="revanced_hide_shorts_shop_button_summary_on">Mağaza düğmesi gizli.</string>
-    <string name="revanced_hide_shorts_shop_button_summary_off">Mağaza düğmesi görünür.</string>
-    <string name="revanced_hide_shorts_super_thanks_button_title">Süper Teşekkürler butonunu gizle</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_on">Süper Teşekkürler düğmesi gizli.</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_off">Süper Teşekkürler düğmesi gizlenmiyor.</string>
-    <string name="revanced_hide_shorts_tagged_products_title">Etiketli ürünleri gizle</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_on">Etiketli ürünler gizli.</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_off">Etiketli ürünler görünür.</string>
-    <string name="revanced_hide_shorts_save_sound_button_title">Sesi oynatma listesine kaydetme butonunu gizle</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">Sesi oynatma listesine kaydetme butonu gizleniyor</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">Sesi oynatma listesine kaydetme butonu gösteriliyor.</string>
     <string name="revanced_hide_shorts_info_panel_title">Bilgi panellerini gizle</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Bilgi panelleri gizleniyor.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Bilgi panelleri gizlenmiyor.</string>
@@ -981,6 +969,19 @@ Bilinen sorun: Arama sonuçlarındaki resmi başlıklar da gizlenebiliyor."</str
     <string name="revanced_hide_shorts_full_video_link_label_title">Tüm video bağlantısı etiketini gizle</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_on">Video bağlantı etiketi gizlendi.</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_off">Video bağlantı etiketi gösteriliyor</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
+    <string name="revanced_hide_shorts_save_sound_button_title">Sesi oynatma listesine kaydetme butonunu gizle</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_on">Sesi oynatma listesine kaydetme butonu gizleniyor</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_off">Sesi oynatma listesine kaydetme butonu gösteriliyor.</string>
+    <string name="revanced_hide_shorts_shop_button_title">Mağaza düğmesini gizle</string>
+    <string name="revanced_hide_shorts_shop_button_summary_on">Mağaza düğmesi gizli.</string>
+    <string name="revanced_hide_shorts_shop_button_summary_off">Mağaza düğmesi görünür.</string>
+    <string name="revanced_hide_shorts_super_thanks_button_title">Süper Teşekkürler butonunu gizle</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_on">Süper Teşekkürler düğmesi gizli.</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_off">Süper Teşekkürler düğmesi gizlenmiyor.</string>
+    <string name="revanced_hide_shorts_tagged_products_title">Etiketli ürünleri gizle</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_on">Etiketli ürünler gizli.</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_off">Etiketli ürünler görünür.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Action buttons -->
     <string name="revanced_preference_category_action_buttons">Eylem düğmeleri</string>
     <string name="revanced_hide_shorts_like_button_title">Beğen butonunu gizle</string>

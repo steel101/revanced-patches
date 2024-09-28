@@ -278,6 +278,12 @@ Uwaga: Włączenie tego ustawienia ukryje też przycisk  'Powiadom mnie'."</stri
 Ograniczenia:
 • Shortsy nie mogą zostać ukryte
 • Filmy z 0 wyświetleń nie są filtrowane"</string>
+    <string name="revanced_hide_related_videos_title">Powiązane filmy</string>
+    <string name="revanced_hide_related_videos_summary_on">Ukryte</string>
+    <string name="revanced_hide_related_videos_summary_off">Widoczne</string>
+    <string name="revanced_hide_related_videos_user_dialog_message">"Ustawienie te ogranicza maksymalną ilość układów aplikacji, jakie mogą być załadowane na ekranie odtwarzacza.
+
+Jeśli układ ekranu odtwarzacza zmieni się w skutek zmian po stronie serwera, niepożądane układy mogą być ukryte na ekranie odtwarzacza."</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Ogólne</string>
     <string name="revanced_change_start_page_title">Strona startowa</string>
@@ -1040,30 +1046,6 @@ Ograniczenie: Nagłówki z tytułami będą ukryte w wynikach wyszukiwania."</st
     <string name="revanced_hide_shorts_shopping_button_title">Przycisk od kupowania</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">Ukryty</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">Widoczny</string>
-    <string name="revanced_hide_shorts_shop_button_title">Przycisk do sklepu</string>
-    <string name="revanced_hide_shorts_shop_button_summary_on">Ukryty</string>
-    <string name="revanced_hide_shorts_shop_button_summary_off">Widoczny</string>
-    <string name="revanced_hide_shorts_super_thanks_button_title">Przycisk od superpodziękowania</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_on">Ukryty</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_off">Widoczny</string>
-    <string name="revanced_hide_shorts_tagged_products_title">Oznaczone produkty</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_on">Ukryte</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_off">Widoczne</string>
-    <string name="revanced_hide_shorts_location_button_title">Przycisk od lokalizacji</string>
-    <string name="revanced_hide_shorts_location_button_summary_on">Ukryty</string>
-    <string name="revanced_hide_shorts_location_button_summary_off">Widoczny</string>
-    <string name="revanced_hide_shorts_save_sound_button_title">Przycisk od zapisywania dźwięku do playlisty</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">Ukryty</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">Widoczny</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_title">Przycisk od sugestii wyszukiwań</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">Ukryty</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">Widoczny</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_title">Przycisk \'Użyj tego dźwięku\'</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">Ukryty</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">Widoczny</string>
-    <string name="revanced_hide_shorts_use_template_button_title">Przycisk \'Użyj tego szablonu\'</string>
-    <string name="revanced_hide_shorts_use_template_button_summary_on">Ukryty</string>
-    <string name="revanced_hide_shorts_use_template_button_summary_off">Widoczny</string>
     <string name="revanced_hide_shorts_info_panel_title">Panele z informacjami</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Ukryte</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Widoczne</string>
@@ -1082,6 +1064,31 @@ Ograniczenie: Nagłówki z tytułami będą ukryte w wynikach wyszukiwania."</st
     <string name="revanced_hide_shorts_full_video_link_label_title">Etykiety z linkami do całych filmów</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_on">Ukryte</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_off">Widoczne</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
+    <string name="revanced_hide_shorts_save_sound_button_title">Przycisk od zapisywania dźwięku do playlisty</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_on">Ukryty</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_off">Widoczny</string>
+    <string name="revanced_hide_shorts_shop_button_title">Przycisk do sklepu</string>
+    <string name="revanced_hide_shorts_shop_button_summary_on">Ukryty</string>
+    <string name="revanced_hide_shorts_shop_button_summary_off">Widoczny</string>
+    <string name="revanced_hide_shorts_super_thanks_button_title">Przycisk od superpodziękowania</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_on">Ukryty</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_off">Widoczny</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_title">Przycisk \'Użyj tego dźwięku\'</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">Ukryty</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">Widoczny</string>
+    <string name="revanced_hide_shorts_use_template_button_title">Przycisk \'Użyj tego szablonu\'</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_on">Ukryty</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_off">Widoczny</string>
+    <string name="revanced_hide_shorts_location_button_title">Przycisk od lokalizacji</string>
+    <string name="revanced_hide_shorts_location_button_summary_on">Ukryty</string>
+    <string name="revanced_hide_shorts_location_button_summary_off">Widoczny</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_title">Przycisk od sugestii wyszukiwań</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">Ukryty</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">Widoczny</string>
+    <string name="revanced_hide_shorts_tagged_products_title">Oznaczone produkty</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_on">Ukryte</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_off">Widoczne</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Action buttons -->
     <string name="revanced_preference_category_action_buttons">Przyciski akcji</string>
     <string name="revanced_hide_shorts_like_button_title">Przycisk od łapkowania w górę</string>

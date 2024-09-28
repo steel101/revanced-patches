@@ -280,6 +280,9 @@ Limitazioni:
     <string name="revanced_hide_related_videos_title">Nascondi video correlati</string>
     <string name="revanced_hide_related_videos_summary_on">I video correlati sono nascosti.</string>
     <string name="revanced_hide_related_videos_summary_off">I video correlati sono mostrati.</string>
+    <string name="revanced_hide_related_videos_user_dialog_message">"Questa impostazione limita il numero massimo di layout che possono essere caricati sulla schermata del player.
+
+Se il layout della schermata del player cambia a causa di modifiche lato server, i layout non intenzionali possono essere nascosti sullo schermo del giocatore."</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Generale</string>
     <string name="revanced_change_start_page_title">Cambia la scheda iniziale</string>
@@ -1045,30 +1048,6 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
     <string name="revanced_hide_shorts_shopping_button_title">Nascondi pulsante Shopping</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">Il pulsante shopping è nascosto.</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">Il pulsante shopping è mostrato.</string>
-    <string name="revanced_hide_shorts_shop_button_title">Nascondi il pulsante Negozio</string>
-    <string name="revanced_hide_shorts_shop_button_summary_on">Il pulsante Negozio è nascosto.</string>
-    <string name="revanced_hide_shorts_shop_button_summary_off">Il pulsante negozio è mostrato.</string>
-    <string name="revanced_hide_shorts_super_thanks_button_title">Nascondi il pulsante Super Grazie</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_on">Il pulsante Super Grazie è nascosto.</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_off">Il pulsante Super Grazie è mostrato.</string>
-    <string name="revanced_hide_shorts_tagged_products_title">Nascondi prodotti taggati</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_on">Prodotti taggati sono nascosti.</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_off">Prodotti taggati sono mostrati.</string>
-    <string name="revanced_hide_shorts_location_button_title">Nascondi pulsante posizione</string>
-    <string name="revanced_hide_shorts_location_button_summary_on">Il pulsante posizione è nascosto.</string>
-    <string name="revanced_hide_shorts_location_button_summary_off">Il pulsante posizione è mostrato.</string>
-    <string name="revanced_hide_shorts_save_sound_button_title">Nascondi il pulsante Salva suono nella playlist</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">Il pulsante Salva suono nella playlist è nascosto.</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">Il pulsante Salva suono nella playlist è mostrato.</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_title">Nascondi il pulsante suggerimenti di ricerca</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">Il pulsante suggerimenti di ricerca è nascosto.</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">Il pulsante suggerimenti di ricerca è mostrato.</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_title">Nascondi Usa questo pulsante sonoro</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">Usa il pulsante sonoro è nascosto.</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">Usa il pulsante sonoro è mostrato.</string>
-    <string name="revanced_hide_shorts_use_template_button_title">Nascondi il pulsante Usa modello</string>
-    <string name="revanced_hide_shorts_use_template_button_summary_on">Il pulsante Usa modello è nascosto.</string>
-    <string name="revanced_hide_shorts_use_template_button_summary_off">Il pulsante Usa modello è mostrato.</string>
     <string name="revanced_hide_shorts_info_panel_title">Nascondi i pannelli informativi</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">I pannelli informativi sono nascosti.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">I pannelli informativi sono mostrati.</string>
@@ -1087,6 +1066,31 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
     <string name="revanced_hide_shorts_full_video_link_label_title">Nascondi l\'etichetta completa del collegamento video</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_on">L\'etichetta del collegamento video è nascosta.</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_off">L\'etichetta del collegamento del video è mostrato.</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
+    <string name="revanced_hide_shorts_save_sound_button_title">Nascondi il pulsante Salva suono nella playlist</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_on">Il pulsante Salva suono nella playlist è nascosto.</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_off">Il pulsante Salva suono nella playlist è mostrato.</string>
+    <string name="revanced_hide_shorts_shop_button_title">Nascondi il pulsante Negozio</string>
+    <string name="revanced_hide_shorts_shop_button_summary_on">Il pulsante Negozio è nascosto.</string>
+    <string name="revanced_hide_shorts_shop_button_summary_off">Il pulsante negozio è mostrato.</string>
+    <string name="revanced_hide_shorts_super_thanks_button_title">Nascondi il pulsante Super Grazie</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_on">Il pulsante Super Grazie è nascosto.</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_off">Il pulsante Super Grazie è mostrato.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_title">Nascondi Usa questo pulsante sonoro</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">Usa il pulsante sonoro è nascosto.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">Usa il pulsante sonoro è mostrato.</string>
+    <string name="revanced_hide_shorts_use_template_button_title">Nascondi il pulsante Usa modello</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_on">Il pulsante Usa modello è nascosto.</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_off">Il pulsante Usa modello è mostrato.</string>
+    <string name="revanced_hide_shorts_location_button_title">Nascondi pulsante posizione</string>
+    <string name="revanced_hide_shorts_location_button_summary_on">Il pulsante posizione è nascosto.</string>
+    <string name="revanced_hide_shorts_location_button_summary_off">Il pulsante posizione è mostrato.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_title">Nascondi il pulsante suggerimenti di ricerca</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">Il pulsante suggerimenti di ricerca è nascosto.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">Il pulsante suggerimenti di ricerca è mostrato.</string>
+    <string name="revanced_hide_shorts_tagged_products_title">Nascondi prodotti taggati</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_on">Prodotti taggati sono nascosti.</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_off">Prodotti taggati sono mostrati.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Action buttons -->
     <string name="revanced_preference_category_action_buttons">Pulsanti azione</string>
     <string name="revanced_hide_shorts_like_button_title">Nascondi il pulsante Mi Piace</string>

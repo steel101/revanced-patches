@@ -1068,30 +1068,6 @@ Playlists
     <string name="revanced_hide_shorts_shopping_button_title">Κουμπί «Αγορές»</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">Εμφανίζεται.</string>
-    <string name="revanced_hide_shorts_shop_button_title">Κουμπί «Κατάστημα»</string>
-    <string name="revanced_hide_shorts_shop_button_summary_on">Κρυμμένο.</string>
-    <string name="revanced_hide_shorts_shop_button_summary_off">Εμφανίζεται.</string>
-    <string name="revanced_hide_shorts_super_thanks_button_title">Κουμπί «Αγορά Super Thanks»</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_on">Κρυμμένο.</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_off">Εμφανίζεται.</string>
-    <string name="revanced_hide_shorts_tagged_products_title">Ετικέτες προϊόντων</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_on">Κρυμμένες.</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_off">Εμφανίζονται.</string>
-    <string name="revanced_hide_shorts_location_button_title">Κουμπί τοποθεσίας</string>
-    <string name="revanced_hide_shorts_location_button_summary_on">Κρυμμένο.</string>
-    <string name="revanced_hide_shorts_location_button_summary_off">Εμφανίζεται.</string>
-    <string name="revanced_hide_shorts_save_sound_button_title">Κουμπί αποθήκευσης ήχου σε λίστα αναπαραγωγής</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">Κρυμμένο.</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">Εμφανίζεται.</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_title">Κουμπί προτάσεων αναζήτησης</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">Κρυμμένο.</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">Εμφανίζεται.</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_title">Κουμπί «Χρήση αυτού του ήχου»</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">Κρυμμένο.</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">Εμφανίζεται.</string>
-    <string name="revanced_hide_shorts_use_template_button_title">Κουμπί «Χρήση προτύπου»</string>
-    <string name="revanced_hide_shorts_use_template_button_summary_on">Κρυμμένο.</string>
-    <string name="revanced_hide_shorts_use_template_button_summary_off">Εμφανίζεται.</string>
     <string name="revanced_hide_shorts_info_panel_title">Πάνελ πληροφοριών</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Κρυμμένα.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Εμφανίζονται.</string>
@@ -1110,6 +1086,35 @@ Playlists
     <string name="revanced_hide_shorts_full_video_link_label_title">Ετικέτα συνδέσμου πλήρους βίντεο</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_on">Κρυμμένη.</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_off">Εμφανίζεται.</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
+    <string name="revanced_preference_category_suggested_actions">Προτεινόμενες ενέργειες</string>
+    <string name="revanced_hide_shorts_green_screen_button_title">Κουμπί «Πράσινη οθόνη»</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_shorts_save_sound_button_title">Κουμπί «Αποθήκευση ήχου»</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_shorts_shop_button_title">Κουμπί «Κατάστημα»</string>
+    <string name="revanced_hide_shorts_shop_button_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_shorts_shop_button_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_shorts_super_thanks_button_title">Κουμπί «Αγορά Super Thanks»</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_title">Κουμπί «Χρήση αυτού του ήχου»</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_shorts_use_template_button_title">Κουμπί «Χρήση προτύπου»</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_shorts_location_button_title">Κουμπί τοποθεσίας</string>
+    <string name="revanced_hide_shorts_location_button_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_shorts_location_button_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_title">Κουμπί προτάσεων αναζήτησης</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_shorts_tagged_products_title">Ετικέτες προϊόντων</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_on">Κρυμμένες.</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_off">Εμφανίζονται.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Action buttons -->
     <string name="revanced_preference_category_action_buttons">Κουμπιά ενεργειών</string>
     <string name="revanced_hide_shorts_like_button_title">Κουμπί «Μου αρέσει»</string>
@@ -1132,6 +1137,9 @@ Playlists
     <string name="revanced_hide_shorts_sound_button_summary_off">Εμφανίζεται.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
     <string name="revanced_preference_category_animation_feedback">Εφέ / Απόκριση</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_title">Απενεργοποίηση εφέ κουμπιού «Μου αρέσει»</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_on">Το εφέ κίνησης πάνω από το κουμπί «Μου αρέσει» είναι απενεργοποιημένο.</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_off">Το εφέ κίνησης πάνω από το κουμπί «Μου αρέσει» είναι ενεργοποιημένο.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_title">Φόντο κουμπιών παύσης &amp; αναπαραγωγής</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_off">Εμφανίζεται.</string>
@@ -1612,7 +1620,7 @@ Playlists
     <string name="revanced_watch_history_about_status_blocked">Το ιστορικό παρακολούθησης είναι αποκλεισμένο.</string>
     <string name="revanced_watch_history_about_status_replaced">• Ακολουθούνται οι ρυθμίσεις ιστορικού παρακολούθησης του λογαριασμού Google σας.</string>
     <string name="revanced_watch_history_about_status_original">"• Ακολουθούνται οι ρυθμίσεις ιστορικού παρακολούθησης του λογαριασμού Google σας.
-• Το ιστορικό παρακολούθησης μπορεί να μη λειτουργεί λόγω του DNS ή χρήσης VPN."</string>
+• Το ιστορικό παρακολούθησης μπορεί να μη λειτουργεί λόγω του DNS σας ή χρήσης VPN."</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
     <string name="revanced_preference_category_patch_information">Πληροφορίες τροποποίησης</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->
