@@ -27,6 +27,7 @@ import app.revanced.patches.youtube.feed.components.fingerprints.LinearLayoutMan
 import app.revanced.patches.youtube.feed.components.fingerprints.RelatedChipCloudFingerprint
 import app.revanced.patches.youtube.feed.components.fingerprints.SearchResultsChipBarFingerprint
 import app.revanced.patches.youtube.feed.components.fingerprints.ShowMoreButtonFingerprint
+import app.revanced.patches.youtube.utils.bottomsheet.BottomSheetHookPatch
 import app.revanced.patches.youtube.utils.compatibility.Constants.COMPATIBLE_PACKAGE
 import app.revanced.patches.youtube.utils.fingerprints.EngagementPanelBuilderFingerprint
 import app.revanced.patches.youtube.utils.fingerprints.ScrollTopParentFingerprint
@@ -65,7 +66,8 @@ object FeedComponentsPatch : BaseBytecodePatch(
         NavigationBarHookPatch::class,
         PlayerTypeHookPatch::class,
         SettingsPatch::class,
-        SharedResourceIdPatch::class
+        SharedResourceIdPatch::class,
+        BottomSheetHookPatch::class,
     ),
     compatiblePackages = COMPATIBLE_PACKAGE,
     fingerprints = setOf(
@@ -158,7 +160,10 @@ object FeedComponentsPatch : BaseBytecodePatch(
         fun Method.indexOfEngagementPanelBuilderInstruction(targetMethod: MutableMethod) =
             indexOfFirstInstruction {
                 opcode == Opcode.INVOKE_DIRECT &&
-                        MethodUtil.methodSignaturesMatch(targetMethod, getReference<MethodReference>()!!)
+                        MethodUtil.methodSignaturesMatch(
+                            targetMethod,
+                            getReference<MethodReference>()!!
+                        )
             }
 
         EngagementPanelBuilderFingerprint.resultOrThrow().let {
@@ -189,7 +194,8 @@ object FeedComponentsPatch : BaseBytecodePatch(
         // Otherwise, MethodWalker finds the wrong class in YouTube 18.29.38:
         // https://github.com/ReVanced/revanced-patcher/issues/309
         LinearLayoutManagerItemCountsFingerprint.resultOrThrow().let {
-            val methodWalker = it.getWalkerMethod(context, it.scanResult.patternScanResult!!.endIndex)
+            val methodWalker =
+                it.getWalkerMethod(context, it.scanResult.patternScanResult!!.endIndex)
             methodWalker.apply {
                 val index = indexOfFirstInstructionOrThrow(Opcode.MOVE_RESULT)
                 val register = getInstruction<OneRegisterInstruction>(index).registerA
