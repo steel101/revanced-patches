@@ -21,13 +21,6 @@ Bitte lade %2$s von der Webseite herunter."</string>
     <string name="revanced_hide_fullscreen_ads_title">Vollbildwerbung verstecken</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Vollbildwerbung wird versteckt.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Vollbildwerbung wird angezeigt.</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">Vollbildanzeige schließen</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary_on">Vollbildanzeigen werden über die Schaltfläche „Schließen“ geschlossen.</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary_off">"Vollbildwerbung ist blockiert.
-
-Nebeneffekt: Community-Beitragsbilder können im Vollbildmodus blockiert werden."</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">Vollbildwerbung wurde blockiert. (Dialog-Typ: %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">Vollbildwerbung wurde geschlossen.</string>
     <string name="revanced_hide_general_ads_title">Allgemeine Werbung ausblenden</string>
     <string name="revanced_hide_general_ads_summary_on">Allgemeine Werbung ist ausgeblendet.</string>
     <string name="revanced_hide_general_ads_summary_off">Allgemeine Werbung wird angezeigt.</string>
@@ -93,13 +86,13 @@ Tippen Sie hier, um mehr über DeArrow zu erfahren."</string>
     <string name="revanced_hide_album_card_title">Albumkarten ausblenden</string>
     <string name="revanced_hide_album_card_summary_on">Albumkarten werden ausgeblendet.</string>
     <string name="revanced_hide_album_card_summary_off">Albumkarten werden angezeigt.</string>
+    <string name="revanced_hide_carousel_shelf_title">Karussellregal ausblenden</string>
     <string name="revanced_hide_carousel_shelf_summary">"Versteckt folgende Abschnitte:
 - Aktuelle Nachrichten
 - Weiterschauen
 - Entdecke mehr Kanäle
 - Shopping
 - Erneut anschauen"</string>
-    <string name="revanced_hide_carousel_shelf_title">Karussellregal ausblenden</string>
     <string name="revanced_hide_chips_shelf_title">Chips-Abschnitt verstecken</string>
     <string name="revanced_hide_chips_shelf_on">Chips-Abschnitt wird versteckt.</string>
     <string name="revanced_hide_chips_shelf_off">Chips-Abschnitt wird angezeigt</string>
@@ -238,18 +231,8 @@ Einschränkungen:
 • Videos mit Sätzen wie \"Menschen auch gesehen\" unten."</string>
     <string name="revanced_hide_low_views_video_title">Videos mit wenigen Aufrufen verstecken</string>
     <string name="revanced_hide_low_views_video_summary">Verstecke Videos mit weniger als 1000 Aufrufen von nicht abonnierten Kanälen von der Startseite.</string>
-    <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Duration filter -->
-    <string name="revanced_preference_category_duration_filter">Filterdauer</string>
-    <string name="revanced_hide_video_by_duration_title">Videos je nach Dauer ausblenden</string>
-    <string name="revanced_hide_video_by_duration_summary">Verstecke Videos mit kürzer oder länger als die Dauer.\n\nBekanntes Problem: Videos werden nicht in den Player-bezogenen Videos ausgeblendet, sondern der Zeitstempel wird versteckt.</string>
-    <string name="revanced_hide_video_by_duration_longer_than_title">Länger als Dauer</string>
-    <string name="revanced_hide_video_by_duration_longer_than_summary">Videos mit einer Dauer, die länger als diese Zahl ist, werden ausgeblendet.</string>
-    <string name="revanced_hide_video_by_duration_shorter_than_title">Kürzer als Dauer</string>
-    <string name="revanced_hide_video_by_duration_shorter_than_summary">Videos mit einer Dauer, die länger als diese Zahl ist, werden ausgeblendet.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Zählerfilter anzeigen</string>
-    <string name="revanced_hide_video_by_view_counts_title">Empfohlene Videos nach Ansichten ausblenden.</string>
-    <string name="revanced_hide_video_by_view_counts_summary">Empfohlene Videos mit weniger als einer bestimmten Anzahl von Ansichten ausblenden.\n\nBekanntes Problem: Videos mit 0 Ansichten werden nicht gefiltert.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">Größer als Ansichten</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">Videos mit Ansichten, die größer als diese Zahl sind, werden ausgeblendet.</string>
     <string name="revanced_hide_video_view_counts_less_than_title">Weniger als Anrufe</string>
@@ -276,7 +259,6 @@ Einschränkungen:
     <string name="revanced_change_start_page_entry_subscriptions">Abonnements</string>
     <string name="revanced_change_start_page_entry_trending">Beliebt</string>
     <string name="revanced_change_start_page_entry_watch_later">Später ansehen</string>
-    <string name="revanced_change_start_page_invalid_toast">Ungültige Startseite, zurücksetzen auf Standard.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Erzwungene automatische Audiospuren sind deaktivieren</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">Erzwungene automatische Audiospuren sind deaktiviert.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Erzwungene automatische Audiospuren sind aktiviert.</string>
@@ -344,6 +326,9 @@ Manche Komponenten könnten nicht versteckt werden."</string>
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Komponenten nach zeilengetrennten Namen filtern</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">%s ist ein ungültiger benutzerdefinierter Filter.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Miniplayer</string>
     <string name="revanced_preference_screen_miniplayer_summary">Ändern Sie den Stil des in App minimierten Players.</string>
@@ -375,9 +360,7 @@ Manche Komponenten könnten nicht versteckt werden."</string>
     <string name="revanced_miniplayer_opacity_title">Deckkraft der Überlagerung</string>
     <string name="revanced_miniplayer_opacity_summary">Deckkraft Wert zwischen 0-100, wobei 0 transparent ist.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">Die Transparenz des Miniplayers muss zwischen 0-100 liegen. Zurückgesetzt auf Standardwerte.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation buttons -->
-    <string name="revanced_preference_screen_navigation_buttons_title">Navigationstasten</string>
-    <string name="revanced_preference_screen_navigation_buttons_summary">Komponenten der Navigationsleiste ausblenden oder anzeigen.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
     <string name="revanced_enable_narrow_navigation_buttons_title">Aktiviere schmale Navigationstasten</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">Der Abstand zwischen den Navigationstasten ist schmal.</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">Abstand zwischen den Navigationstasten ist normal.</string>
@@ -403,11 +386,6 @@ Manche Komponenten könnten nicht versteckt werden."</string>
     <string name="revanced_hide_navigation_label_summary_on">Navigationslabel ist versteckt</string>
     <string name="revanced_hide_navigation_label_summary_off">Navigationslabel wird angezeigt</string>
     <string name="revanced_switch_create_with_notifications_button_title">Erstellungs- und Benachrichtigungs-Buttons tauschen</string>
-    <string name="revanced_switch_create_with_notifications_button_summary">"Tauscht die Positionen des Knopfes Erstellen mit der Schaltfläche \"Benachrichtigungen\" aus, indem die Geräteinformationen getäuscht werden.
-
-• Das Gerät muss neu gestartet werden, um diese Einstellung zu ändern.
-• Deaktivieren dieser Einstellung lädt mehr Werbung von der Serverseite.
-• Sie sollten diese Einstellung deaktivieren, um Video-Werbung sichtbar zu machen."</string>
     <string name="revanced_enable_translucent_navigation_bar_title">Transparente Navigationsleiste aktivieren</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">Navigationsleiste ist transparent.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">Navigationsleiste ist nicht transparent.</string>
@@ -525,12 +503,12 @@ Information:
 Autoplay kann in den YouTube-Einstellungen geändert werden:
 Einstellungen → Autoplay → Nächstes Video automatisch abspielen"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">Empfohlene Video-Endbildschirm wird angezeigt.</string>
-    <string name="revanced_hide_zoom_overlay_title">Zoom-Overlay ausblenden</string>
-    <string name="revanced_hide_zoom_overlay_summary_on">Zoom-Overlay ist ausgeblendet.</string>
-    <string name="revanced_hide_zoom_overlay_summary_off">Zoom-Overlay wird angezeigt.</string>
     <string name="revanced_skip_autoplay_countdown_title">Autotoplay Countdown überspringen</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Ist Autoplay aktiviert, wird das nächste Video sofort abgespielt.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">Wenn Autoplay aktiviert ist, wird das nächste Video nach dem Countdown abgespielt.</string>
+    <string name="revanced_hide_zoom_overlay_title">Zoom-Overlay ausblenden</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">Zoom-Overlay ist ausgeblendet.</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">Zoom-Overlay wird angezeigt.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">Aktionsschaltflächen</string>
     <string name="revanced_preference_screen_action_buttons_summary">Aktionsschaltflächen unter Videos ausblenden oder anzeigen.</string>
@@ -887,13 +865,6 @@ Nebeneffekt: Offizielle Kopfzeilen in Suchergebnissen werden ausgeblendet."</str
     <string name="revanced_hide_shorts_subscribe_button_title">Abonnement-Button ausblenden</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">Pausierte Overlay-Tasten ausblenden</string>
     <string name="revanced_hide_shorts_paid_promotion_label_title">Verstecke Label für bezahlte Promotion</string>
-    <string name="revanced_hide_shorts_shop_button_title">Shop-Schaltfläche verstecken</string>
-    <string name="revanced_hide_shorts_super_thanks_button_title">Super Dankeschön ausblenden</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_on">\"Super Thanks\" Button wird ausgeblendet.</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_off">\"Super Thanks\" Button wird angezeigt.</string>
-    <string name="revanced_hide_shorts_tagged_products_title">Markierte Produkte ausblenden</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_on">Markierte Produkte sind ausgeblendet.</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_off">Markierte Produkte werden angezeigt.</string>
     <string name="revanced_hide_shorts_info_panel_title">Info-Panels ausblenden</string>
     <string name="revanced_hide_shorts_live_header_title">Live-Chat-Kopfzeile ausblenden</string>
     <string name="revanced_hide_shorts_live_header_summary_on">Live-Chat-Kopfzeile wird ausgeblendet.\n\nZurück Button wird nicht ausgeblendet.</string>
@@ -902,6 +873,14 @@ Nebeneffekt: Offizielle Kopfzeilen in Suchergebnissen werden ausgeblendet."</str
     <string name="revanced_hide_shorts_video_title_title">Videotitel ausblenden</string>
     <string name="revanced_hide_shorts_sound_metadata_label_title">Sound-Metadaten-Label ausblenden</string>
     <string name="revanced_hide_shorts_full_video_link_label_title">Verstecke vollständige Video-Linkbezeichnung</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
+    <string name="revanced_hide_shorts_shop_button_title">Shop-Schaltfläche verstecken</string>
+    <string name="revanced_hide_shorts_super_thanks_button_title">Super Dankeschön ausblenden</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_on">\"Super Thanks\" Button wird ausgeblendet.</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_off">\"Super Thanks\" Button wird angezeigt.</string>
+    <string name="revanced_hide_shorts_tagged_products_title">Markierte Produkte ausblenden</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_on">Markierte Produkte sind ausgeblendet.</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_off">Markierte Produkte werden angezeigt.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Action buttons -->
     <string name="revanced_preference_category_action_buttons">Aktionsschaltflächen</string>
     <string name="revanced_hide_shorts_like_button_title">Verstecke \"Gefällt mir\" Button</string>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
+    <string name="revanced_extended_reset_to_default_toast">Reset to default values.</string>
 
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Restart to load the layout normally</string>
@@ -58,11 +59,6 @@ Please download %2$s from the website."</string>
 
     <string name="revanced_hide_fullscreen_ads_title">Hide fullscreen ads</string>
     <string name="revanced_hide_fullscreen_ads_summary">Hides fullscreen ads.</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">Close fullscreen ads</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary">"If it is enabled, fullscreen ads are closed through the Close button.
-If it is disabled, fullscreen ads are blocked. (there may be side effects)"</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">Fullscreen ads have been blocked. (DialogType: %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">Fullscreen ads have been closed.</string>
     <string name="revanced_hide_general_ads_title">Hide general ads</string>
     <string name="revanced_hide_general_ads_summary">Hides general ads.</string>
     <string name="revanced_hide_music_ads_title">Hide media ads</string>
@@ -279,8 +275,8 @@ Some features may not work properly in the old player layout."</string>
     <string name="revanced_remember_video_quality_last_selected_summary">Remembers the last video quality selected.</string>
     <string name="revanced_remember_video_quality_last_selected_toast_title">Show a toast</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary">Show a toast when changing the default video quality.</string>
-    <string name="revanced_custom_playback_speeds_invalid">Custom speeds must be less than %sx. Using default values.</string>
-    <string name="revanced_custom_playback_speeds_parse_exception">Invalid custom playback speeds. Using default values.</string>
+    <string name="revanced_custom_playback_speeds_invalid">Custom speeds must be less than %sx.</string>
+    <string name="revanced_custom_playback_speeds_parse_exception">Invalid custom playback speeds.</string>
     <string name="revanced_remember_playback_speed_toast">Changing default speed to %s.</string>
     <string name="revanced_remember_video_quality_mobile">Changing default mobile data quality to %s.</string>
     <string name="revanced_remember_video_quality_none">Failed to set quality.</string>
@@ -363,7 +359,7 @@ Some features may not work properly in the old player layout."</string>
     <string name="revanced_sb_color_dot_label">Color:</string>
     <string name="revanced_sb_color_changed">Color changed.</string>
     <string name="revanced_sb_color_reset">Color reset.</string>
-    <string name="revanced_sb_color_invalid">Invalid color code. Color reset to default.</string>
+    <string name="revanced_sb_color_invalid">Invalid color code.</string>
     <string name="revanced_sb_reset_color">Reset color</string>
     <string name="revanced_sb_about_api_sum">Data is provided by the SponsorBlock API. Tap here to learn more and see downloads for other platforms.</string>
 
@@ -408,6 +404,9 @@ Tap on the continue button and disable battery optimizations."</string>
 
     <string name="revanced_sanitize_sharing_links_title">Sanitize sharing links</string>
     <string name="revanced_sanitize_sharing_links_summary">Removes tracking query parameters from URLs when sharing links.</string>
+
+    <string name="revanced_default_app_settings_title">Open default app settings</string>
+    <string name="revanced_default_app_settings_summary">To open YouTube Music links in RVX Music, enable \'Open supported links\' and enable the supported web addresses.</string>
 
     <string name="revanced_extended_settings_import_export_title">Import / Export settings</string>
     <string name="revanced_extended_settings_import_export_summary">Import or export settings.</string>

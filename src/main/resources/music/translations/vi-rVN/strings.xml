@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">Cài đặt ReVanced Extended</string>
+    <string name="revanced_extended_reset_to_default_toast">Đặt lại về giá trị mặc định.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Vui lòng khởi động lại ứng dụng để các tính năng hoạt động bình thường</string>
     <string name="revanced_extended_restart_message">Làm mới và khởi động lại</string>
@@ -49,11 +50,6 @@
     <string name="revanced_preference_screen_ads_title">Quảng cáo</string>
     <string name="revanced_hide_fullscreen_ads_title">Ẩn quảng cáo toàn màn hình</string>
     <string name="revanced_hide_fullscreen_ads_summary">Ẩn quảng cáo toàn màn hình.</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">Đóng quảng cáo toàn màn hình</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary">"Nếu tính năng này bật, quảng cáo toàn màn hình sẽ được đóng thông qua nút Đóng.
-Nếu tính năng này tắt, quảng cáo toàn màn hình sẽ bị chặn (có thể có tác dụng phụ)."</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">Quảng cáo toàn màn hình đã bị chặn. (Loại hộp thoại: %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">Quảng cáo toàn màn hình đã được đóng.</string>
     <string name="revanced_hide_general_ads_title">Ẩn quảng cáo chung</string>
     <string name="revanced_hide_general_ads_summary">Ẩn quảng cáo xuất hiện trước khi phát.</string>
     <string name="revanced_hide_music_ads_title">Ẩn quảng cáo</string>
@@ -255,8 +251,8 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_remember_video_quality_last_selected_summary">Ghi nhớ chất lượng video nhạc được chọn gần đây nhất.</string>
     <string name="revanced_remember_video_quality_last_selected_toast_title">Hiện một thông báo ngắn</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary">Hiện một thông báo ngắn khi thay đổi chất lượng mặc định của video.</string>
-    <string name="revanced_custom_playback_speeds_invalid">Tốc độ phát tuỳ chỉnh không hợp lệ. Đã đặt lại tốc độ phát về mặc định.</string>
-    <string name="revanced_custom_playback_speeds_parse_exception">Tốc độ phát tùy chỉnh không hợp lệ. Đã khôi phục lại các giá trị mặc định.</string>
+    <string name="revanced_custom_playback_speeds_invalid">Tốc độ phát tuỳ chỉnh phải nhỏ hơn %sx.</string>
+    <string name="revanced_custom_playback_speeds_parse_exception">Tốc độ phát tùy chỉnh không hợp lệ.</string>
     <string name="revanced_remember_playback_speed_toast">Đã lưu tốc độ phát mặc định thành %s.</string>
     <string name="revanced_remember_video_quality_mobile">Đã lưu chất lượng video mặc định trên mạng di động thành %s.</string>
     <string name="revanced_remember_video_quality_none">Đặt chất lượng video thất bại.</string>
@@ -329,7 +325,7 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_sb_color_dot_label">Màu:</string>
     <string name="revanced_sb_color_changed">Đã thay đổi màu phân đoạn.</string>
     <string name="revanced_sb_color_reset">Đã đặt lại màu phân đoạn về mặc định.</string>
-    <string name="revanced_sb_color_invalid">Mã màu không hợp lệ. Đã đặt lại màu về mặc định.</string>
+    <string name="revanced_sb_color_invalid">Mã màu không hợp lệ.</string>
     <string name="revanced_sb_reset_color">Đặt lại màu</string>
     <string name="revanced_sb_about_api_sum">Dữ liệu được cung cấp bởi API SponsorBlock. Nhấn vào đây để tìm hiểu thêm và xem các bản tải xuống cho các nền tảng khác.</string>
     <string name="revanced_sb_about">Giới thiệu</string>
@@ -362,6 +358,8 @@ Làm theo hướng dẫn 'Don't kill my app!' cho thiết bị của bạn và �
     <string name="gms_core_dialog_continue_text">Tiếp tục</string>
     <string name="revanced_sanitize_sharing_links_title">Liên kết sạch khi chia sẻ</string>
     <string name="revanced_sanitize_sharing_links_summary">Loại bỏ các tham số truy vấn theo dõi khỏi URL khi chia sẻ liên kết.</string>
+    <string name="revanced_default_app_settings_title">Mở theo mặc định</string>
+    <string name="revanced_default_app_settings_summary">Để mở liên kết YouTube Music trong RVX Music, hãy bật \'Mở liên kết được hỗ trợ\' và kích hoạt các địa chỉ web được hỗ trợ.</string>
     <string name="revanced_extended_settings_import_export_title">Nhập/Xuất cài đặt</string>
     <string name="revanced_extended_settings_import_export_summary">Nhập hoặc xuất các tuỳ chọn cài đặt của bạn.</string>
     <string name="revanced_extended_settings_export_as_file">Xuất cài đặt dưới dạng tệp</string>

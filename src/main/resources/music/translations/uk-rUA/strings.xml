@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
+    <string name="revanced_extended_reset_to_default_toast">Скинуто до значень за замовчуванням.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Перезапустіть, щоб нормально завантажився макет</string>
     <string name="revanced_extended_restart_message">Оновити та перезавантажити?</string>
@@ -49,11 +50,6 @@
     <string name="revanced_preference_screen_ads_title">Реклама</string>
     <string name="revanced_hide_fullscreen_ads_title">Приховати повноекранну рекламу</string>
     <string name="revanced_hide_fullscreen_ads_summary">Приховує повноекранну рекламу.</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">Закривати повноекранну рекламу</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary">"Якщо ввімкнено, повноекранна реклама закривається за допомогою кнопки Закрити.
-Якщо вимкнено, повноекранна реклама блокується. (можуть бути побічні ефекти)"</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">Повноекранну рекламу заблоковано. (Тип діалогу: %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">Повноекранну рекламу закрито.</string>
     <string name="revanced_hide_general_ads_title">Приховати загальну рекламу</string>
     <string name="revanced_hide_general_ads_summary">Приховує загальну рекламу.</string>
     <string name="revanced_hide_music_ads_title">Приховати медіарекламу</string>
@@ -255,8 +251,8 @@
     <string name="revanced_remember_video_quality_last_selected_summary">Запам\'ятовує останню вибрану якість відео.</string>
     <string name="revanced_remember_video_quality_last_selected_toast_title">Показувати тост</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary">Показує тост під час зміни стандартної якості відео.</string>
-    <string name="revanced_custom_playback_speeds_invalid">Користувацькі швидкості мають бути меншими за %sx. Швидкості скинуто до стандартних значень.</string>
-    <string name="revanced_custom_playback_speeds_parse_exception">Неправильні користувацькі швидкості відтворення. Використовуються типові значення.</string>
+    <string name="revanced_custom_playback_speeds_invalid">Користувацькі швидкості мають бути меншими за %sx.</string>
+    <string name="revanced_custom_playback_speeds_parse_exception">Неправильні користувацькі швидкості відтворення.</string>
     <string name="revanced_remember_playback_speed_toast">Зміна типової швидкості на %s.</string>
     <string name="revanced_remember_video_quality_mobile">Зміна типової якості відео в мобільній мережі на %s.</string>
     <string name="revanced_remember_video_quality_none">Не вдалося встановити обрану якість.</string>
@@ -329,7 +325,7 @@
     <string name="revanced_sb_color_dot_label">Колір:</string>
     <string name="revanced_sb_color_changed">Колір змінено.</string>
     <string name="revanced_sb_color_reset">Колір скинуто.</string>
-    <string name="revanced_sb_color_invalid">Недійсний код кольору. Колір скинуто до стандартного.</string>
+    <string name="revanced_sb_color_invalid">Недійсний код кольору.</string>
     <string name="revanced_sb_reset_color">Скинути колір</string>
     <string name="revanced_sb_about_api_sum">Дані надаються SponsorBlock API. Натисніть тут, щоб дізнатися більше та побачити завантаження для інших платформ.</string>
     <string name="revanced_sb_about">Про інтеграцію</string>
@@ -339,7 +335,9 @@
     <string name="revanced_bypass_image_region_restrictions_title">Змінити домен зображень</string>
     <string name="revanced_bypass_image_region_restrictions_summary">Замінює домен для зображень, заблокований у деяких регіонах, що дозволить отримувати мініатюри списків відтворення, аватари каналів тощо.</string>
     <string name="revanced_change_share_sheet_title">Змінити діалог поширення</string>
-    <string name="revanced_change_share_sheet_summary">Змінює тип вікна діалогу поширення з вбудованого до системного.</string>
+    <string name="revanced_change_share_sheet_summary">Змінює тип вікна діалогу поширення з вбудованого на системний.</string>
+    <string name="revanced_disable_cairo_splash_animation_title">Вимкнути сплеш анімацію Каїр</string>
+    <string name="revanced_disable_cairo_splash_animation_summary">Вимикає сплеш анімацію Каїр під час запуску застосунку.</string>
     <string name="revanced_enable_debug_logging_title">Увімкнути протоколи налагодження</string>
     <string name="revanced_enable_debug_logging_summary">Виводить протокол налагодження.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Увімкнути ведення журналу буфера налагодження</string>
@@ -366,6 +364,8 @@
     <string name="gms_core_dialog_continue_text">Продовжити</string>
     <string name="revanced_sanitize_sharing_links_title">Обробляти поширення посилань</string>
     <string name="revanced_sanitize_sharing_links_summary">Видаляє параметри запиту відстеження з URL-адрес під час обміну посиланнями.</string>
+    <string name="revanced_default_app_settings_title">Відкрити налаштування за замовчуванням</string>
+    <string name="revanced_default_app_settings_summary">Щоб відкривати посилання на YouTube Music у RVX Music, увімкніть \"Відкривати підтримувані посилання\" та активуйте підтримувані веб-адреси.</string>
     <string name="revanced_extended_settings_import_export_title">Імпорт / Експорт налаштувань</string>
     <string name="revanced_extended_settings_import_export_summary">Імпортує або експортує налаштування.</string>
     <string name="revanced_extended_settings_export_as_file">Експорт налаштувань у файл</string>

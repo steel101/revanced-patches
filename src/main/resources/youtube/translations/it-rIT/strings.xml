@@ -6,6 +6,7 @@
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Cerca %s</string>
+    <string name="revanced_extended_reset_to_default_toast">Ripristina valori predefiniti.</string>
     <string name="revanced_preference_category_experimental_flag">Opzioni sperimentali</string>
     <string name="revanced_extended_confirm_user_dialog_title">Desideri procedere?</string>
     <string name="revanced_extended_restart_first_run">Riavvia per caricare l\'interfaccia normalmente</string>
@@ -23,13 +24,6 @@ Si prega di scaricare %2$s dal sito web."</string>
     <string name="revanced_hide_fullscreen_ads_title">Nascondi gli annunci a schermo intero</string>
     <string name="revanced_hide_fullscreen_ads_summary_on">Gli annunci a schermo intero sono nascosti.</string>
     <string name="revanced_hide_fullscreen_ads_summary_off">Gli annunci a schermo intero sono visibili.</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">Chiudi gli annunci a schermo intero</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary_on">Gli annunci a schermo intero sono chiusi tramite il pulsante Chiudi.</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary_off">"Gli annunci a schermo intero sono bloccati.
-
-Limitazione: Le immagini dei post della community a schermo intero potrebbero essere bloccate."</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">Gli annunci a schermo intero sono stati bloccati. (DialogType: %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">Gli annunci a schermo intero sono stati chiusi.</string>
     <string name="revanced_hide_general_ads_title">Nascondi gli annunci generali</string>
     <string name="revanced_hide_general_ads_summary_on">Gli annunci generali sono nascosti.</string>
     <string name="revanced_hide_general_ads_summary_off">Gli annunci generali sono visibili.</string>
@@ -79,6 +73,7 @@ Tocca qui per saperne di più su DeArrow."</string>
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">Notifica toast nascosta DeArrow non è disponibile.</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_title">Endpoint API di DeArrow</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_summary">L\'URL dell\'endpoint della cache delle anteprime DeArrow.</string>
+    <string name="revanced_alt_thumbnail_dearrow_api_url_invalid_toast">Url API DeArrow Non Valido.</string>
     <string name="revanced_alt_thumbnail_stills_about_title">Catture statiche del video</string>
     <string name="revanced_alt_thumbnail_stills_about_summary">Le catture statiche sono prese dall\'inizio, da metà o alla fine di ogni video. Queste immagini sono integrate in YouTube e non viene usata nessuna API esterna.</string>
     <string name="revanced_alt_thumbnail_stills_fast_title">Attiva catture statiche veloci</string>
@@ -100,6 +95,7 @@ Tocca qui per saperne di più su DeArrow."</string>
     <string name="revanced_hide_album_card_title">Nascondi le schede degli album</string>
     <string name="revanced_hide_album_card_summary_on">Le schede degli album sono nascoste.</string>
     <string name="revanced_hide_album_card_summary_off">Le schede degli album sono visibili.</string>
+    <string name="revanced_hide_carousel_shelf_title">Nascondi sezione a carosello</string>
     <string name="revanced_hide_carousel_shelf_summary">"Nasconde le seguenti sezioni:
 • Ultime notizie
 • Continua a guardare
@@ -107,13 +103,15 @@ Tocca qui per saperne di più su DeArrow."</string>
 • Ascolta di nuovo
 • Shopping
 • Guarda di nuovo"</string>
-    <string name="revanced_hide_carousel_shelf_title">Nascondi sezione a carosello</string>
     <string name="revanced_hide_chips_shelf_title">Nascondi la sezione dei chip</string>
     <string name="revanced_hide_chips_shelf_on">La sezione dei chip è nascosta.</string>
     <string name="revanced_hide_chips_shelf_off">La sezione dei chip è visibile.</string>
     <string name="revanced_hide_expandable_chip_title">Nascondi il chip espandibile sotto i video</string>
     <string name="revanced_hide_expandable_chip_summary_on">Il chip espandibile è nascosto.</string>
     <string name="revanced_hide_expandable_chip_summary_off">Il chip espandibile è visibile.</string>
+    <string name="revanced_hide_expandable_shelf_title">Nascondi scaffali espandibili</string>
+    <string name="revanced_hide_expandable_shelf_summary_on">Gli scaffali espandibili sono nascosti.</string>
+    <string name="revanced_hide_expandable_shelf_summary_off">Gli scaffali espandibili sono mostrati.</string>
     <string name="revanced_hide_feed_captions_button_title">Nascondi il pulsante dei sottotitoli nel feed</string>
     <string name="revanced_hide_feed_captions_button_on">Il pulsante Sottotitoli è nascosto.</string>
     <string name="revanced_hide_feed_captions_button_off">Il pulsante Sottotitoli è mostrato.</string>
@@ -236,7 +234,7 @@ Limitazioni:
 - Alcuni componenti della interfaccia utente potrebbero non essere nascosti.
 - La ricerca di una parola chiave potrebbe non mostrare alcun risultato."</string>
     <string name="revanced_hide_keyword_content_about_whole_words_title">Abbina parole intere</string>
-    <string name="revanced_hide_keyword_content_about_whole_words_summary">Circondare una parola chiave/frase con doppie virgolette impedirà partite parziali di titoli video e nomi di canale.&lt;br&gt;&lt;br&gt;Ad esempio,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; nasconderà il video: &lt;b&gt;Come funziona l\'intelligenza artificiale?&lt;/b&gt;&lt;br&gt;ma non si nasconde: &lt;b&gt;Cosa significa un uso equo?&lt;/b&gt;</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_summary">Circondando una parola/frase chiave con doppi apici si impedirà corrispondenze parziali di titoli di video e nomi di canali.&lt;br&gt;&lt;br&gt;Ad esempio,&lt;br&gt;&lt;b&gt;\"ia\"&lt;/b&gt; nasconderà il video: &lt;b&gt;Come funziona la IA?&lt;/b&gt;&lt;br&gt;ma non nasconderà: &lt;b&gt;Cosa significa imparzialità?&lt;/b&gt;</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Parola chiave non valida. Non è possibile usare: \'%s\' come filtro</string>
     <string name="revanced_hide_keyword_toast_invalid_common_whole_word_required">Aggiungi le virgolette per usare parola chiave: %s.</string>
     <string name="revanced_hide_keyword_toast_invalid_conflicting">La parola chiave ha dichiarazioni in conflitto: %s.</string>
@@ -251,18 +249,21 @@ Limitazioni:
 • Video con frasi come 'Persone guardano anche' sotto."</string>
     <string name="revanced_hide_low_views_video_title">Nascondi video con poche visualizzazioni</string>
     <string name="revanced_hide_low_views_video_summary">Nascondi video con meno di 1.000 visualizzazioni dalla home che sono stati caricati dai canali a cui non si è iscritti.</string>
-    <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Duration filter -->
-    <string name="revanced_preference_category_duration_filter">Filtro sulla durata</string>
-    <string name="revanced_hide_video_by_duration_title">Nasconde i video in base alla loro durata</string>
-    <string name="revanced_hide_video_by_duration_summary">Nasconde i video con più breve o più lunga durata.\n\nProblema noto: Non nasconderà i video nella sezione di video correlati, nella pagina di riproduzione dei video; invece ne nasconderà solo il timestamp.</string>
-    <string name="revanced_hide_video_by_duration_longer_than_title">Più lungo della durata</string>
-    <string name="revanced_hide_video_by_duration_longer_than_summary">I video con durata superiore a questo numero saranno nascosti.</string>
-    <string name="revanced_hide_video_by_duration_shorter_than_title">Più breve della durata</string>
-    <string name="revanced_hide_video_by_duration_shorter_than_summary">I video con durata inferiore a questo numero saranno nascosti.</string>
+    <string name="revanced_hide_upcoming_video_title">Nascondi video PROSSIMAMENTE</string>
+    <string name="revanced_hide_upcoming_video_summary">"Nascondi video con l'etichetta PROSSIMAMENTE.
+
+Nota: Abilitare questo nasconde anche il pulsante Notificarmi."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Filtro sul numero di visualizzazioni</string>
-    <string name="revanced_hide_video_by_view_counts_title">Nascondi i video consigliati per il numero di visualizzazioni</string>
-    <string name="revanced_hide_video_by_view_counts_summary">Nascondi i video consigliati con meno di un numero specifico di visualizzazioni.\n\nProblema noto: I video con 0 visualizzazioni non vengono filtrati.</string>
+    <string name="revanced_hide_video_by_view_counts_home_title">Nascondi video home per visualizzazioni</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_on">I video della scheda Home feed sono filtrati.</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_off">I video della scheda Home feed non sono filtrati.</string>
+    <string name="revanced_hide_video_by_view_counts_search_title">Nascondi i risultati della ricerca da visualizzazioni</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_on">I risultati della ricerca sono filtrati.</string>
+    <string name="revanced_hide_video_by_view_counts_search_summary_off">I risultati di ricerca non sono filtrati.</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_title">Nascondi i video della scheda iscrizioni per visualizzazioni</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_on">I video della scheda iscrizioni feed sono filtrati.</string>
+    <string name="revanced_hide_video_by_view_counts_subscriptions_summary_off">I video della scheda iscrizioni feed non sono filtrati.</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">Maggiore delle visualizzazioni</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">I video con più visualizzazioni di questo numero saranno nascosti.</string>
     <string name="revanced_hide_video_view_counts_less_than_title">Meno delle visualizzazioni</string>
@@ -270,6 +271,18 @@ Limitazioni:
     <string name="revanced_hide_video_view_counts_multiplier_title">Visualizza chiavi</string>
     <string name="revanced_hide_video_view_counts_multiplier_summary">Specifica il tuo modello linguistico per il numero di visualizzazioni mostrate sotto ogni video nell\'interfaccia utente. Ogni chiave (una lettera/parola nella tua lingua) -&gt; valore (significato della chiave) deve essere su una nuova riga. Le chiavi vanno prima del segno \"-&gt;\". Se cambi la lingua dell\'app o di sistema, devi reimpostare questa impostazione.\n\nEsempi:\nInglese: 10K views = K -&gt; 1000, views -&gt; visualizzazioni\nSpagnolo: 10 K vistas = K -&gt; 1000, vistas -&gt; visualizzazioni</string>
     <string name="revanced_hide_video_view_counts_multiplier_default_value">K -&gt; 1 000\nM -&gt; 1 000 000\nB -&gt; 1 000 000 000\nvisualizzazioni -&gt; visualizzazioni</string>
+    <string name="revanced_hide_video_by_view_counts_about_title">Informazioni sul filtro del conteggio delle visualizzazioni</string>
+    <string name="revanced_hide_video_by_view_counts_about_summary">"Home / iscrizione / I risultati della ricerca sono filtrati per nascondere i video con visualizzazioni inferiori o superiori a un numero specificato.
+
+Limitazioni: 
+• Gli short non possono essere nascosti.
+• I video con 0 visualizzazioni non sono filtrati."</string>
+    <string name="revanced_hide_related_videos_title">Nascondi video correlati</string>
+    <string name="revanced_hide_related_videos_summary_on">I video correlati sono nascosti.</string>
+    <string name="revanced_hide_related_videos_summary_off">I video correlati sono mostrati.</string>
+    <string name="revanced_hide_related_videos_user_dialog_message">"Questa impostazione limita il numero massimo di layout che possono essere caricati sulla schermata del player.
+
+Se il layout della schermata del player cambia a causa di modifiche lato server, i layout non intenzionali possono essere nascosti sullo schermo del giocatore."</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Generale</string>
     <string name="revanced_change_start_page_title">Cambia la scheda iniziale</string>
@@ -289,7 +302,11 @@ Limitazioni:
     <string name="revanced_change_start_page_entry_subscriptions">Iscrizioni</string>
     <string name="revanced_change_start_page_entry_trending">Tendenze</string>
     <string name="revanced_change_start_page_entry_watch_later">Guarda più tardi</string>
-    <string name="revanced_change_start_page_invalid_toast">Scheda iniziale non valida, ripristinata al valore predefinito.</string>
+    <string name="revanced_change_start_page_type_title">Cambia il tipo di pagina iniziale</string>
+    <string name="revanced_change_start_page_type_summary_on">"La pagina iniziale cambia sempre.
+
+Limitazione: Il pulsante indietro sulla barra degli strumenti potrebbe non funzionare."</string>
+    <string name="revanced_change_start_page_type_summary_off">La pagina iniziale cambia solo una volta.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Disabilita le tracce audio automatiche forzate</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">Le tracce audio automatiche forzate sono disattivate.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Le tracce audio automatiche forzate sono abilitate.</string>
@@ -318,14 +335,6 @@ Questo non aggira la restrizione di età. La accetta solamente in automatico."</
     <string name="revanced_enable_phone_layout_summary">Camuffa i dpi per usare alcune interfacce da telefono.</string>
     <string name="revanced_enable_tablet_layout_title">Attiva l\'interfaccia da tablet</string>
     <string name="revanced_enable_tablet_layout_summary">Camuffa i dpi per usare alcune interfacce da tablet.</string>
-    <string name="revanced_override_video_download_button_title">Sovrascrivi il pulsante per scaricare i video</string>
-    <string name="revanced_override_video_download_button_summary_on">Il pulsante nativo per scaricare il video apre il tuo scaricatore esterno.</string>
-    <string name="revanced_override_video_download_button_summary_off">Il pulsante nativo per scaricare il video apre lo scaricatore nativo.</string>
-    <string name="revanced_override_playlist_download_button_title">Sovrascrivi il pulsante per scaricare le playlist</string>
-    <string name="revanced_override_playlist_download_button_summary_on">Il pulsante nativo di download della playlist è sempre visualizzato, e nelle playlist pubbliche, apre il tuo scaricatore esterno.</string>
-    <string name="revanced_override_playlist_download_button_summary_off">Se visualizzato, il pulsante nativo di download della playlist apre lo scaricatore nativo.</string>
-    <string name="revanced_external_downloader_package_name_playlist_title">Nome del pacchetto dello scaricatore di playlist</string>
-    <string name="revanced_external_downloader_package_name_playlist_summary">Nome del pacchetto dello scaricatore esterno installato, come YTDLnis.</string>
     <string name="revanced_spoof_app_version_title">Camuffa la versione dell\'app</string>
     <string name="revanced_spoof_app_version_summary_on">Versione camuffata</string>
     <string name="revanced_spoof_app_version_summary_off">Versione non camuffata</string>
@@ -365,6 +374,30 @@ Alcuni componenti potrebbero non essere nascosti"</string>
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Configura i componenti da nascondere separati da nuove righe</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Filtro personalizzato non valido (%s)</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons -->
+    <string name="revanced_preference_screen_hook_buttons_title">Pulsanti gancio</string>
+    <string name="revanced_preference_screen_hook_buttons_summary">Sostituisce l\'azione del clic dei pulsanti in-app.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Download button -->
+    <string name="revanced_preference_category_download_button">Pulsante download</string>
+    <string name="revanced_override_video_download_button_title">Sovrascrivi il pulsante per scaricare i video</string>
+    <string name="revanced_override_video_download_button_summary_on">Il pulsante nativo per scaricare il video apre il tuo scaricatore esterno.</string>
+    <string name="revanced_override_video_download_button_summary_off">Il pulsante nativo per scaricare il video apre lo scaricatore nativo.</string>
+    <string name="revanced_override_playlist_download_button_title">Sovrascrivi il pulsante per scaricare le playlist</string>
+    <string name="revanced_override_playlist_download_button_summary_on">Il pulsante nativo di download della playlist è sempre visualizzato, e nelle playlist pubbliche, apre il tuo scaricatore esterno.</string>
+    <string name="revanced_override_playlist_download_button_summary_off">Se visualizzato, il pulsante nativo di download della playlist apre lo scaricatore nativo.</string>
+    <string name="revanced_external_downloader_package_name_playlist_title">Nome del pacchetto dello scaricatore di playlist</string>
+    <string name="revanced_external_downloader_package_name_playlist_summary">Nome del pacchetto dello scaricatore esterno installato, come YTDLnis.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Hook buttons, PreferenceCategory: Experimental Flags -->
+    <string name="revanced_override_youtube_music_button_title">Sovrascrivi il pulsante YouTube Music</string>
+    <string name="revanced_override_youtube_music_button_summary_on">Il pulsante YouTube Music apre il RVX Music.</string>
+    <string name="revanced_override_youtube_music_button_summary_off">Il pulsante YouTube Music apre l\'app nativa.</string>
+    <string name="revanced_third_party_youtube_music_package_name_title">Nome pacchetto RVX Music</string>
+    <string name="revanced_third_party_youtube_music_package_name_summary">Nome del pacchetto di RVX Music installato.</string>
+    <string name="revanced_third_party_youtube_music_dialog_title">RVX Music</string>
+    <string name="revanced_third_party_youtube_music_not_installed_dialog_title">Attenzione</string>
+    <string name="revanced_third_party_youtube_music_not_installed_warning">%s Non è installato. Per favore installalo.</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_title">Prerequisito</string>
+    <string name="revanced_override_youtube_music_button_about_prerequisite_summary">YouTube music è necessario per sovrascrivere l\'azione del pulsante. Tocca qui per scaricare YouTube Music.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">Riproduttore minimizzato</string>
     <string name="revanced_preference_screen_miniplayer_summary">Cambia lo stile del riproduttore minimizzato nell\'app.</string>
@@ -396,9 +429,9 @@ Alcuni componenti potrebbero non essere nascosti"</string>
     <string name="revanced_miniplayer_opacity_title">Opacità della copertura</string>
     <string name="revanced_miniplayer_opacity_summary">Il valore dell\'opacità è compreso tra 0 e 100, dove 0 è trasparente.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">L\'opacità della copertura del riproduttore minimizzato deve essere compresa tra 0 e 100. Reimpostati i valori predefiniti.</string>
-    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation buttons -->
-    <string name="revanced_preference_screen_navigation_buttons_title">Pulsanti di navigazione</string>
-    <string name="revanced_preference_screen_navigation_buttons_summary">Nascondi o mostra i componenti della sezione della barra di navigazione.</string>
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <string name="revanced_preference_screen_navigation_bar_title">Barra di navigazione</string>
+    <string name="revanced_preference_screen_navigation_bar_summary">Nascondi o mostra i componenti della sezione della barra di navigazione.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Abilita pulsanti di navigazione ristretti</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">La spaziatura tra i pulsanti di navigazione è ristretta.</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">La spaziatura tra i pulsanti di navigazione è normale.</string>
@@ -424,14 +457,21 @@ Alcuni componenti potrebbero non essere nascosti"</string>
     <string name="revanced_hide_navigation_label_summary_on">Le etichette della barra di navigazione sono nascoste.</string>
     <string name="revanced_hide_navigation_label_summary_off">Le etichette della barra di navigazione sono visibili.</string>
     <string name="revanced_switch_create_with_notifications_button_title">Scambia il pulsante Crea con il pulsante notifiche</string>
-    <string name="revanced_switch_create_with_notifications_button_summary">"Scambia le posizioni del pulsante Crea con il pulsante notifiche camuffando informazioni del dispositivo.
+    <string name="revanced_switch_create_with_notifications_button_summary_on">"Il pulsante Crea è scambiato con il pulsante Notifiche.
 
-• Potrebbe essere necessario riavviare il dispositivo per rendere effettiva la modifica di questa impostazione.
-• Disabilitare questa impostazione carica più annunci dal lato server.
-• Dovresti disabilitare questa impostazione per rendere visibili gli annunci nei video."</string>
+Nota: Abilitando questo nasconde forzatamente anche gli annunci video."</string>
+    <string name="revanced_switch_create_with_notifications_button_summary_off">Il pulsante Crea non è scambiato con il pulsante Notifiche.</string>
+    <string name="revanced_switch_create_with_notifications_button_user_dialog_message">"Disabilitare questo potrebbe caricare più annunci dal server.
+
+Inoltre, gli annunci non saranno più bloccati negli Shorts.
+
+Se questa impostazione non ha effetto, prova a passare alla modalità Incognito."</string>
     <string name="revanced_enable_translucent_navigation_bar_title">Abilita barra di navigazione traslucida</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">La barra di navigazione è traslucida.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">La barra di navigazione è opaca.</string>
+    <string name="revanced_hide_navigation_bar_title">Nascondi la barra di navigazione</string>
+    <string name="revanced_hide_navigation_bar_summary_on">La barra di navigazione è nascosta.</string>
+    <string name="revanced_hide_navigation_bar_summary_off">La barra di navigazione è mostrata.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Menu Impostazioni</string>
     <string name="revanced_preference_screen_settings_menu_summary">Nascondi gli elementi del menu delle impostazioni di YouTube.</string>
@@ -461,7 +501,7 @@ In questo caso, per accedere alle impostazioni, utilizzare il seguente percorso:
 Scheda Tu → Visualizza canale → Menu → Impostazioni"</string>
     <string name="revanced_hide_toolbar_cast_button_title">Nascondi il pulsante Trasmetti</string>
     <string name="revanced_hide_toolbar_cast_button_summary_on">Il pulsante Trasmetti è nascosto.</string>
-    <string name="revanced_hide_toolbar_cast_button_summary_off">Il pulsante Trasmetti è mostrato.</string>
+    <string name="revanced_hide_toolbar_cast_button_summary_off">Il pulsante Trasmetti è visibile.</string>
     <string name="revanced_hide_toolbar_create_button_title">Nascondi il pulsante Crea</string>
     <string name="revanced_hide_toolbar_create_button_summary_on">Il pulsante Crea è nascosto.</string>
     <string name="revanced_hide_toolbar_create_button_summary_off">Il pulsante Crea è visibile.</string>
@@ -494,11 +534,11 @@ Tocca e tieni premuto per aprire le impostazioni di RVX."</string>
     <string name="revanced_disable_auto_player_popup_panels_summary_off">I pannelli popup del riproduttore automatico sono abilitati.</string>
     <string name="revanced_disable_auto_switch_mix_playlists_title">Disabilita interruttori delle playlist miste</string>
     <string name="revanced_disable_auto_switch_mix_playlists_summary_on">L\'interruttore automatico delle playlist miste è disabilitato.</string>
-    <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"L'interruttore automatico delle playlist miste è abilitato quando la riproduzione automatica è attivato.
+    <string name="revanced_disable_auto_switch_mix_playlists_summary_off">"L'interruttore automatico delle playlist miste è abilitato quando la riproduzione automatica è attivata.
 
-La riproduzione automatica può essere modificato nelle impostazioni di YouTube:
-Impostazioni → riproduzione automatica→ riproduzione automatica video successivo"</string>
-    <string name="revanced_disable_auto_switch_mix_playlists_user_dialog_message">Abilitando questa funzionalità si disabiliterà l\'interruttore automatico a YouTube Misto quando si riproduce musica mentre la riproduzione automatica è attivata.</string>
+La riproduzione automatica può essere modificata nelle impostazioni di YouTube:
+Impostazioni → Riproduzione automatica→ Riproduci automatic. video successivo"</string>
+    <string name="revanced_disable_auto_switch_mix_playlists_user_dialog_message">L\'attivazione di questa funzione disabilita il passaggio automatico a YouTube Mix durante la riproduzione di musica con la riproduzione automatica attiva.</string>
     <string name="revanced_disable_speed_overlay_title">Disattiva la sovrapposizione della velocità quando tieni premuto</string>
     <string name="revanced_disable_speed_overlay_summary">"Disabilita la funzione '2x&gt;&gt;' tenendo premuto.
 
@@ -553,12 +593,12 @@ Nota:
 La riproduzione automatica può essere modificata nelle impostazioni di YouTube:
 Impostazioni → Riproduzione automatica → Riproduzione automatica del video successivo"</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_off">Il video suggerito della schermata finale è visibile.</string>
-    <string name="revanced_hide_zoom_overlay_title">Nascondi sovrimpressione dello zoom</string>
-    <string name="revanced_hide_zoom_overlay_summary_on">La sovrimpressione dello zoom è nascosta.</string>
-    <string name="revanced_hide_zoom_overlay_summary_off">La sovrimpressione dello zoom è visibile.</string>
     <string name="revanced_skip_autoplay_countdown_title">Salta il conto alla rovescia della riproduzione automatica</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Se la riproduzione automatica è abilitata, il video successivo verrà riprodotto immediatamente.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">Se la riproduzione automatica è abilitata, il video successivo verrà riprodotto al termine del conto alla rovescia.</string>
+    <string name="revanced_hide_zoom_overlay_title">Nascondi sovrimpressione dello zoom</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">La sovrimpressione dello zoom è nascosta.</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">La sovrimpressione dello zoom è visibile.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">Pulsanti azione</string>
     <string name="revanced_preference_screen_action_buttons_summary">Nascondi o mostra i pulsanti di azione sotto i video.</string>
@@ -598,7 +638,7 @@ Impostazioni → Riproduzione automatica → Riproduzione automatica del video s
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
     <string name="revanced_preference_screen_ambient_mode_title">Modalità Ambient</string>
     <string name="revanced_preference_screen_ambient_mode_summary">Disabilita la modalità Ambient o bypassa le restrizioni della modalità Ambient.</string>
-    <string name="revanced_bypass_ambient_mode_restrictions_title">Bypassa le restrizioni della modalità Ambient</string>
+    <string name="revanced_bypass_ambient_mode_restrictions_title">Ignora le restrizioni della modalità Ambient</string>
     <string name="revanced_bypass_ambient_mode_restrictions_summary_on">La modalità Ambient in modalità risparmio energetico è attivata</string>
     <string name="revanced_bypass_ambient_mode_restrictions_summary_off">La modalità Ambient in modalità risparmio energetico è disattivata</string>
     <string name="revanced_disable_ambient_mode_title">Disattiva la modalità Ambient</string>
@@ -683,7 +723,7 @@ Impostazioni → Riproduzione automatica → Riproduzione automatica del video s
     <string name="revanced_preference_category_additional_settings">Impostazioni aggiuntive</string>
     <string name="revanced_hide_player_flyout_menu_ambient_mode_title">Nascondi il menu Modalità Ambient</string>
     <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_on">Il menu Modalità Ambient è nascosto.</string>
-    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">Il menu Modalità Ambient è mostrato.</string>
+    <string name="revanced_hide_player_flyout_menu_ambient_mode_summary_off">Il menu Modalità Ambient è visibile.</string>
     <string name="revanced_hide_player_flyout_menu_help_title">Nascondi menu Guida &amp; feedback</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_on">Il menu Guida &amp; feedback è nascosto.</string>
     <string name="revanced_hide_player_flyout_menu_help_summary_off">Il menu Guida &amp; feedback è visibile.</string>
@@ -701,13 +741,13 @@ Impostazioni → Riproduzione automatica → Riproduzione automatica del video s
     <string name="revanced_hide_player_flyout_menu_premium_controls_summary_off">Il menu Controlli premium è visibile.</string>
     <string name="revanced_hide_player_flyout_menu_sleep_timer_title">Nascondi il menu Timer del sonno</string>
     <string name="revanced_hide_player_flyout_menu_sleep_timer_summary_on">Il menu del timer del sonno è nascosto.</string>
-    <string name="revanced_hide_player_flyout_menu_sleep_timer_summary_off">Il menu del timer del sonno è mostrato.</string>
+    <string name="revanced_hide_player_flyout_menu_sleep_timer_summary_off">Il menu del timer del sonno è visibile.</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_title">Nascondi il menu Volume stabile</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_summary_off">Il menu Volume stabile è visibile.</string>
     <string name="revanced_hide_player_flyout_menu_stable_volume_summary_on">Il menu Volume stabile è nascosto.</string>
     <string name="revanced_hide_player_flyout_menu_stats_for_nerds_title">Nascondi il menu Statistiche per Nerd</string>
     <string name="revanced_hide_player_flyout_menu_stats_for_nerds_summary_on">Il menu Statistiche per Nerd è nascosto.</string>
-    <string name="revanced_hide_player_flyout_menu_stats_for_nerds_summary_off">Il menu Statistiche per Nerd è mostrato.</string>
+    <string name="revanced_hide_player_flyout_menu_stats_for_nerds_summary_off">Il menu Statistiche per Nerd è visibile.</string>
     <string name="revanced_hide_player_flyout_menu_watch_in_vr_title">Nascondi il menu Guarda in VR</string>
     <string name="revanced_hide_player_flyout_menu_watch_in_vr_summary_on">Il menu Guarda in VR è nascosto.</string>
     <string name="revanced_hide_player_flyout_menu_watch_in_vr_summary_off">Il menu Guarda in VR è mostrato.</string>
@@ -1008,30 +1048,6 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
     <string name="revanced_hide_shorts_shopping_button_title">Nascondi pulsante Shopping</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">Il pulsante shopping è nascosto.</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">Il pulsante shopping è mostrato.</string>
-    <string name="revanced_hide_shorts_shop_button_title">Nascondi il pulsante Negozio</string>
-    <string name="revanced_hide_shorts_shop_button_summary_on">Il pulsante Negozio è nascosto.</string>
-    <string name="revanced_hide_shorts_shop_button_summary_off">Il pulsante negozio è mostrato.</string>
-    <string name="revanced_hide_shorts_super_thanks_button_title">Nascondi il pulsante Super Grazie</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_on">Il pulsante Super Grazie è nascosto.</string>
-    <string name="revanced_hide_shorts_super_thanks_button_summary_off">Il pulsante Super Grazie è mostrato.</string>
-    <string name="revanced_hide_shorts_tagged_products_title">Nascondi prodotti taggati</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_on">Prodotti taggati sono nascosti.</string>
-    <string name="revanced_hide_shorts_tagged_products_summary_off">Prodotti taggati sono mostrati.</string>
-    <string name="revanced_hide_shorts_location_button_title">Nascondi pulsante posizione</string>
-    <string name="revanced_hide_shorts_location_button_summary_on">Il pulsante posizione è nascosto.</string>
-    <string name="revanced_hide_shorts_location_button_summary_off">Il pulsante posizione è mostrato.</string>
-    <string name="revanced_hide_shorts_save_sound_button_title">Nascondi il pulsante Salva suono nella playlist</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">Il pulsante Salva suono nella playlist è nascosto.</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">Il pulsante Salva suono nella playlist è mostrato.</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_title">Nascondi il pulsante suggerimenti di ricerca</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">Il pulsante suggerimenti di ricerca è nascosto.</string>
-    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">Il pulsante suggerimenti di ricerca è mostrato.</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_title">Nascondi Usa questo pulsante sonoro</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">Usa il pulsante sonoro è nascosto.</string>
-    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">Usa il pulsante sonoro è mostrato.</string>
-    <string name="revanced_hide_shorts_use_template_button_title">Nascondi il pulsante Usa modello</string>
-    <string name="revanced_hide_shorts_use_template_button_summary_on">Il pulsante Usa modello è nascosto.</string>
-    <string name="revanced_hide_shorts_use_template_button_summary_off">Il pulsante Usa modello è mostrato.</string>
     <string name="revanced_hide_shorts_info_panel_title">Nascondi i pannelli informativi</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">I pannelli informativi sono nascosti.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">I pannelli informativi sono mostrati.</string>
@@ -1050,6 +1066,35 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
     <string name="revanced_hide_shorts_full_video_link_label_title">Nascondi l\'etichetta completa del collegamento video</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_on">L\'etichetta del collegamento video è nascosta.</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_off">L\'etichetta del collegamento del video è mostrato.</string>
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
+    <string name="revanced_preference_category_suggested_actions">Azioni suggerite</string>
+    <string name="revanced_hide_shorts_green_screen_button_title">Nascondi pulsante schermo verde</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_on">Il pulsante dello schermo verde è nascosto.</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_off">Il pulsante schermo verde è mostrato.</string>
+    <string name="revanced_hide_shorts_save_sound_button_title">Nascondi il pulsante Salva suono nella playlist</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_on">Il pulsante Salva suono nella playlist è nascosto.</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_off">Il pulsante Salva suono nella playlist è mostrato.</string>
+    <string name="revanced_hide_shorts_shop_button_title">Nascondi il pulsante Negozio</string>
+    <string name="revanced_hide_shorts_shop_button_summary_on">Il pulsante Negozio è nascosto.</string>
+    <string name="revanced_hide_shorts_shop_button_summary_off">Il pulsante negozio è mostrato.</string>
+    <string name="revanced_hide_shorts_super_thanks_button_title">Nascondi il pulsante Super Grazie</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_on">Il pulsante Super Grazie è nascosto.</string>
+    <string name="revanced_hide_shorts_super_thanks_button_summary_off">Il pulsante Super Grazie è mostrato.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_title">Nascondi Usa questo pulsante sonoro</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_on">Usa il pulsante sonoro è nascosto.</string>
+    <string name="revanced_hide_shorts_use_this_sound_button_summary_off">Usa il pulsante sonoro è mostrato.</string>
+    <string name="revanced_hide_shorts_use_template_button_title">Nascondi il pulsante Usa modello</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_on">Il pulsante Usa modello è nascosto.</string>
+    <string name="revanced_hide_shorts_use_template_button_summary_off">Il pulsante Usa modello è mostrato.</string>
+    <string name="revanced_hide_shorts_location_button_title">Nascondi pulsante posizione</string>
+    <string name="revanced_hide_shorts_location_button_summary_on">Il pulsante posizione è nascosto.</string>
+    <string name="revanced_hide_shorts_location_button_summary_off">Il pulsante posizione è mostrato.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_title">Nascondi il pulsante suggerimenti di ricerca</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_on">Il pulsante suggerimenti di ricerca è nascosto.</string>
+    <string name="revanced_hide_shorts_search_suggestions_button_summary_off">Il pulsante suggerimenti di ricerca è mostrato.</string>
+    <string name="revanced_hide_shorts_tagged_products_title">Nascondi prodotti taggati</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_on">Prodotti taggati sono nascosti.</string>
+    <string name="revanced_hide_shorts_tagged_products_summary_off">Prodotti taggati sono mostrati.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Action buttons -->
     <string name="revanced_preference_category_action_buttons">Pulsanti azione</string>
     <string name="revanced_hide_shorts_like_button_title">Nascondi il pulsante Mi Piace</string>
@@ -1072,6 +1117,9 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
     <string name="revanced_hide_shorts_sound_button_summary_off">Il pulsante suono è mostrato.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
     <string name="revanced_preference_category_animation_feedback">Animazione / Feedback</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_title">Disabilita animazione pulsante Mi piace</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_on">L\'animazione della fontana è disabilitata sopra il pulsante mi piace.</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_off">L\'animazione della fontana è abilitata sopra il pulsante mi piace.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_title">Nascondi lo sfondo del pulsante Riproduci &amp; Pausa</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_on">Lo sfondo del pulsante è nascosto.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_off">Lo sfondo del pulsante è mostrato.</string>
@@ -1099,6 +1147,9 @@ Problema noto: Poiché questa è una caratteristica nella fase di sviluppo di Go
     <string name="revanced_hide_shorts_navigation_bar_title">Nascondi la barra di navigazione</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_on">La barra di navigazione è nascosta.</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_off">La barra di navigazione è mostrata.</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_title">Altezza percentuale di spazio vuoto</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_summary">Configura la percentuale di altezza dello spazio vuoto rimasto quando la barra di navigazione è nascosta, tra 0 e 100 (%).</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_invalid_toast">La percentuale di altezza deve essere compresa tra 0 e 100 (%).</string>
     <string name="revanced_replace_channel_handle_title">Sostituisci manico del canale</string>
     <string name="revanced_replace_channel_handle_summary_on">Il nome del canale è usato.</string>
     <string name="revanced_replace_channel_handle_summary_off">Il manico del canale è usato.</string>
@@ -1201,6 +1252,13 @@ Note:
     <string name="revanced_skip_preloaded_buffer_toast_summary_off">La notifica toast è nascosta</string>
     <string name="revanced_spoof_device_dimensions_title">Simula le dimensioni del dispositivo</string>
     <string name="revanced_spoof_device_dimensions_summary">"Simula le dimensioni del dispositivo per sbloccare qualità video superiori che potrebbero non essere disponibili sul tuo dispositivo"</string>
+    <string name="revanced_disable_vp9_codec_title">Disabilita codec VP9</string>
+    <string name="revanced_disable_vp9_codec_summary_on">"Il codec VP9 è disabilitato.
+
+• La risoluzione massima è 1080p.
+• La riproduzione video utilizzerà più dati internet di VP9.
+• Per ottenere la riproduzione HDR, il video HDR utilizza ancora il codec VP9."</string>
+    <string name="revanced_disable_vp9_codec_summary_off">Codec VP9 è abilitato.</string>
     <string name="revanced_replace_av1_codec_title">Sostituire il codec AV1 software</string>
     <string name="revanced_replace_av1_codec_summary">Sostituisce il codec software AV1 con il codec VP9.</string>
     <string name="revanced_reject_av1_codec_title">Rifiuta la risposta di codec AV1 software</string>
@@ -1413,6 +1471,7 @@ Limitazione: Non mi piace possono non apparire se l'utente non è registrato o i
     <string name="revanced_sb_stats_username_changed">Nome utente cambiato con successo.</string>
     <string name="revanced_sb_stats_reputation">La tua reputazione è &lt;b&gt;%.2f&lt;/b&gt;</string>
     <string name="revanced_sb_stats_submissions">Hai creato &lt;b&gt;%s&lt;/b&gt; segmenti</string>
+    <string name="revanced_sb_stats_submissions_sum">Tocca qui per vedere i tuoi segmenti.</string>
     <string name="revanced_sb_stats_saved_zero">Classifica di SponsorBlock</string>
     <string name="revanced_sb_stats_saved">Hai salvato le persone da &lt;b&gt;%s&lt;/b&gt; segmenti</string>
     <string name="revanced_sb_stats_saved_sum_zero">Tocca qui per vedere le statistiche globali e i migliori contributori.</string>
@@ -1505,9 +1564,9 @@ Tocca il pulsante continua e disabilita le ottimizzazioni della batteria."</stri
     <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
     <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Effetti collaterali del camuffamento</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">• I film o i video a pagamento potrebbero non essere riprodotti.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">"• I film o i video a pagamento potrebbero non essere riprodotti."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• il menu traccia audio è mancante.</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">• il menu traccia audio è mancante.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• il menu traccia audio è mancante."</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Il video potrebbe non essere riprodotto.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Forza iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">il codec video iOS è AVC (H.264).</string>
@@ -1549,6 +1608,7 @@ AVC (H. 264) ha una risoluzione massima di 1080p e la riproduzione video utilizz
     <string name="revanced_icon_revancify_blue">Revancify Blu</string>
     <string name="revanced_icon_revancify_red">Revancify Rosso</string>
     <string name="revanced_icon_youtube">YouTube</string>
+    <string name="revanced_icon_youtube_minimal_header">YouTube (Intestazione minima)</string>
     <string name="revanced_label_default">Inventario</string>
     <string name="revanced_patches_excluded">Escluso</string>
     <string name="revanced_patches_included">Incluso</string>

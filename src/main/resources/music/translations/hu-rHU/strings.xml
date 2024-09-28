@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Indítsd újra az elrendezés normál betöltéséhez</string>
@@ -49,11 +49,6 @@ Töltsd le a(z) %2$s weboldalról."</string>
     <string name="revanced_preference_screen_ads_title">Hirdetések</string>
     <string name="revanced_hide_fullscreen_ads_title">Teljes képernyős hirdetések elrejtése</string>
     <string name="revanced_hide_fullscreen_ads_summary">Teljes képernyős hirdetések elrejtése.</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">Teljes képernyős hirdetések bezárása</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary">"Ha engedélyezve van, akkor a teljes képernyő hírdetéseket a bezárás gombbal lehet eltüntetni.
-Ha tiltva van, akkor blokkolja a t. k. hírdetéseket. (lehetnek mellékhatások)"</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">Teljes képernyős hírdetések blokkolva. (DialogTípus: %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">Teljes képernyős hírdetések bezárva.</string>
     <string name="revanced_hide_general_ads_title">Általános hirdetések elrejtése</string>
     <string name="revanced_hide_general_ads_summary">Elrejti az általános hirdetéseket.</string>
     <string name="revanced_hide_music_ads_title">Zenei hirdetések elrejtése</string>
@@ -64,6 +59,8 @@ Ha tiltva van, akkor blokkolja a t. k. hírdetéseket. (lehetnek mellékhatások
     <string name="revanced_hide_premium_promotion_summary">Elrejti a felugró prémium hírdetéseket.</string>
     <string name="revanced_hide_premium_renewal_title">Prémium megújítás szalaghírdetés elrejtése</string>
     <string name="revanced_hide_premium_renewal_summary">Elrejti a prémium megújítás szalaghírdetést.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Promóciós figyelmeztető banner elrejtése</string>
+    <string name="revanced_hide_promotion_alert_banner_summary">Promóciós figyelmeztető banner elrejtése.</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">Felugró menü</string>
     <string name="revanced_enable_compact_dialog_title">Kompakt menü engedélyezése</string>

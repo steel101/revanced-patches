@@ -30,7 +30,8 @@ object CustomBrandingIconPatch : BaseResourcePatch(
         "MMT" to "mmt",
         "Revancify Blue" to DEFAULT_ICON,
         "Revancify Red" to "revancify_red",
-        "YouTube" to "youtube"
+        "YouTube" to "youtube",
+        "YouTube (Minimal header)" to "youtube_minimal_header"
     )
 
     private val sizeArray = arrayOf(

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Перезапустите для правильной загрузки интерфейса</string>
@@ -49,11 +49,6 @@
     <string name="revanced_preference_screen_ads_title">Реклама</string>
     <string name="revanced_hide_fullscreen_ads_title">Полноэкранная реклама</string>
     <string name="revanced_hide_fullscreen_ads_summary">Скрывает полноэкранную рекламу.</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">Закрывать полноэкранную рекламу</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary">"Если включено, полноэкранная реклама закрывается через кнопку Закрыть.
-Если отключено, полноэкранная реклама блокируется. (могут возникать побочные эффекты)"</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">Полноэкранная реклама была заблокирована. (Тип диалога: %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">Полноэкранная реклама была закрыта.</string>
     <string name="revanced_hide_general_ads_title">Скрыть рекламу общего формата</string>
     <string name="revanced_hide_general_ads_summary">Скрывает рекламу общего формата.</string>
     <string name="revanced_hide_music_ads_title">Скрыть музыкальную рекламу</string>
@@ -64,6 +59,8 @@
     <string name="revanced_hide_premium_promotion_summary">Скрывает всплывающую рекламу Premium.</string>
     <string name="revanced_hide_premium_renewal_title">Скрыть баннер продления Premium</string>
     <string name="revanced_hide_premium_renewal_summary">Скрывает баннер продления Premium.</string>
+    <string name="revanced_hide_promotion_alert_banner_title">Скрыть баннер с уведомлением о промо акции</string>
+    <string name="revanced_hide_promotion_alert_banner_summary">Скрывает баннер с уведомлением о промо акции.</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">Выдвижное меню</string>
     <string name="revanced_enable_compact_dialog_title">Компактный вид окна</string>
@@ -336,8 +333,10 @@
     <string name="revanced_preference_screen_misc_title">Разное</string>
     <string name="revanced_bypass_image_region_restrictions_title">Обойти ограничения изображений по региону</string>
     <string name="revanced_bypass_image_region_restrictions_summary">Заменяет заблокированный в некоторых регионах домен, чтобы можно было получать миниатюры плейлистов, аватары каналов и т. д.</string>
-    <string name="revanced_change_share_sheet_title">Изменить список \"Поделиться\"</string>
-    <string name="revanced_change_share_sheet_summary">Меняет встроенное диалоговое окно \"Поделиться\" на системное.</string>
+    <string name="revanced_change_share_sheet_title">Изменить окно \"Поделиться\"</string>
+    <string name="revanced_change_share_sheet_summary">Меняет тип диалогового окна \"Поделиться\" из встроенного на системное.</string>
+    <string name="revanced_disable_cairo_splash_animation_title">Отключить анимацию Кайро</string>
+    <string name="revanced_disable_cairo_splash_animation_summary">Отключает анимацию Кайро при запуске приложения.</string>
     <string name="revanced_enable_debug_logging_title">Ведение журнала отладки</string>
     <string name="revanced_enable_debug_logging_summary">Выводит журнал отладки.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Ведение журналов отладки буфера</string>

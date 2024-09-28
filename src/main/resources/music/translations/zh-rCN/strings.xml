@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">重启应用以正常加载界面布局</string>
@@ -49,11 +49,6 @@
     <string name="revanced_preference_screen_ads_title">广告</string>
     <string name="revanced_hide_fullscreen_ads_title">隐藏全屏广告</string>
     <string name="revanced_hide_fullscreen_ads_summary">隐藏全屏广告</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">关闭全屏广告</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary">"如果启用，全屏广告将通过关闭按钮关闭
-如果禁用，全屏广告将被屏蔽(可能有副作用)"</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">全屏广告已屏蔽(对话类型： %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">全屏广告已关闭</string>
     <string name="revanced_hide_general_ads_title">隐藏一般广告</string>
     <string name="revanced_hide_general_ads_summary">隐藏一般广告</string>
     <string name="revanced_hide_music_ads_title">音乐广告</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">再起動してレイアウトを正常に読み込みます</string>
@@ -49,11 +49,6 @@
     <string name="revanced_preference_screen_ads_title">広告</string>
     <string name="revanced_hide_fullscreen_ads_title">全画面広告を非表示</string>
     <string name="revanced_hide_fullscreen_ads_summary">全画面広告を非表示にします。</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">全画面広告を閉じる</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary">"有効の場合、全画面広告は閉じるボタンで閉じられます。
-無効にすると、全画面広告はブロックされます（バグが発生するかもしれません）"</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">全画面広告をブロックしました（ダイアログの種類: %s）</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">全画面広告を閉じました</string>
     <string name="revanced_hide_general_ads_title">一般広告を非表示</string>
     <string name="revanced_hide_general_ads_summary">一般広告を非表示にします。</string>
     <string name="revanced_hide_music_ads_title">音楽の広告を非表示</string>
@@ -64,6 +59,8 @@
     <string name="revanced_hide_premium_promotion_summary">プレミアムプロモーションポップアップを非表示にします。</string>
     <string name="revanced_hide_premium_renewal_title">プレミアム更新バナーを非表示</string>
     <string name="revanced_hide_premium_renewal_summary">プレミアム更新バナーを非表示にします。</string>
+    <string name="revanced_hide_promotion_alert_banner_title">プロモーションバナーを非表示</string>
+    <string name="revanced_hide_promotion_alert_banner_summary">プロモーションバナーを非表示にします。</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">フライアウトメニュー</string>
     <string name="revanced_enable_compact_dialog_title">コンパクトなダイアログ</string>
@@ -338,6 +335,8 @@ YT Music の設定だけでなく、ReVanced Extended の設定も非表示に�
     <string name="revanced_bypass_image_region_restrictions_summary">プレイリストのサムネイルやチャンネルアバターなどを受信できるように、一部の地域でブロックされているドメインを置き換えます。</string>
     <string name="revanced_change_share_sheet_title">共有メニューを変更</string>
     <string name="revanced_change_share_sheet_summary">アプリ内共有メニューからシステムの共有メニューに置き換えます。</string>
+    <string name="revanced_disable_cairo_splash_animation_title">Cairo スプラッシュアニメーションを無効にする</string>
+    <string name="revanced_disable_cairo_splash_animation_summary">アプリ起動時のCairo のスプラッシュアニメーションを無効にします。</string>
     <string name="revanced_enable_debug_logging_title">デバッグログ</string>
     <string name="revanced_enable_debug_logging_summary">デバッグログを出力します。</string>
     <string name="revanced_enable_debug_buffer_logging_title">デバッグバッファログを有効化</string>

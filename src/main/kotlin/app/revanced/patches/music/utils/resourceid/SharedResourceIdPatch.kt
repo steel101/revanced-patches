@@ -8,6 +8,7 @@ import app.revanced.patches.shared.mapping.ResourceMappingPatch.getId
 import app.revanced.patches.shared.mapping.ResourceType.BOOL
 import app.revanced.patches.shared.mapping.ResourceType.COLOR
 import app.revanced.patches.shared.mapping.ResourceType.DIMEN
+import app.revanced.patches.shared.mapping.ResourceType.DRAWABLE
 import app.revanced.patches.shared.mapping.ResourceType.ID
 import app.revanced.patches.shared.mapping.ResourceType.LAYOUT
 import app.revanced.patches.shared.mapping.ResourceType.STRING
@@ -32,6 +33,7 @@ object SharedResourceIdPatch : ResourcePatch() {
     var InterstitialsContainer = -1L
     var IsTablet = -1L
     var LikeDislikeContainer = -1L
+    var MainActivityLaunchAnimation = -1L
     var MenuEntry = -1L
     var MiniPlayerDefaultText = -1L
     var MiniPlayerMdxPlaying = -1L
@@ -57,6 +59,7 @@ object SharedResourceIdPatch : ResourcePatch() {
     var TouchOutside = -1L
     var TrimSilenceSwitch: Long = -1
     var VarispeedUnavailableTitle = -1L
+    var YtFillArrowShuffle = -1L
 
     override fun execute(context: ResourceContext) {
 
@@ -77,6 +80,7 @@ object SharedResourceIdPatch : ResourcePatch() {
         InterstitialsContainer = getId(ID, "interstitials_container")
         IsTablet = getId(BOOL, "is_tablet")
         LikeDislikeContainer = getId(ID, "like_dislike_container")
+        MainActivityLaunchAnimation = getId(LAYOUT, "main_activity_launch_animation")
         MenuEntry = getId(LAYOUT, "menu_entry")
         MiniPlayerDefaultText = getId(STRING, "mini_player_default_text")
         MiniPlayerMdxPlaying = getId(STRING, "mini_player_mdx_playing")
@@ -102,6 +106,7 @@ object SharedResourceIdPatch : ResourcePatch() {
         TouchOutside = getId(ID, "touch_outside")
         TrimSilenceSwitch = getId(ID, "trim_silence_switch")
         VarispeedUnavailableTitle = getId(STRING, "varispeed_unavailable_title")
+        YtFillArrowShuffle = getId(DRAWABLE, "yt_fill_arrow_shuffle_vd_theme_24")
 
     }
 }

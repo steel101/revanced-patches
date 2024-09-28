@@ -11,6 +11,7 @@ import app.revanced.patcher.patch.PatchException
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patches.youtube.general.toolbar.fingerprints.ActionBarRingoBackgroundFingerprint
+import app.revanced.patches.youtube.general.toolbar.fingerprints.ActionBarRingoConstructorFingerprint
 import app.revanced.patches.youtube.general.toolbar.fingerprints.ActionBarRingoTextFingerprint
 import app.revanced.patches.youtube.general.toolbar.fingerprints.AttributeResolverFingerprint
 import app.revanced.patches.youtube.general.toolbar.fingerprints.CreateButtonDrawableFingerprint
@@ -38,16 +39,17 @@ import app.revanced.patches.youtube.utils.settings.SettingsPatch
 import app.revanced.patches.youtube.utils.settings.SettingsPatch.contexts
 import app.revanced.patches.youtube.utils.toolbar.ToolBarHookPatch
 import app.revanced.util.REGISTER_TEMPLATE_REPLACEMENT
+import app.revanced.util.alsoResolve
 import app.revanced.util.doRecursively
-import app.revanced.util.getTargetIndexOrThrow
-import app.revanced.util.getTargetIndexWithMethodReferenceNameOrThrow
-import app.revanced.util.getTargetIndexWithReferenceOrThrow
-import app.revanced.util.getTargetIndexWithReferenceReversedOrThrow
+import app.revanced.util.findMethodOrThrow
+import app.revanced.util.getReference
 import app.revanced.util.getWalkerMethod
-import app.revanced.util.getWideLiteralInstructionIndex
-import app.revanced.util.literalInstructionBooleanHook
-import app.revanced.util.literalInstructionHook
+import app.revanced.util.indexOfFirstInstructionOrThrow
+import app.revanced.util.indexOfFirstInstructionReversedOrThrow
+import app.revanced.util.indexOfFirstWideLiteralInstructionValueOrThrow
+import app.revanced.util.injectLiteralInstructionBooleanCall
 import app.revanced.util.patch.BaseBytecodePatch
+import app.revanced.util.replaceLiteralInstructionCall
 import app.revanced.util.resultOrThrow
 import app.revanced.util.updatePatchStatus
 import com.android.tools.smali.dexlib2.Opcode
@@ -72,6 +74,7 @@ object ToolBarComponentsPatch : BaseBytecodePatch(
     compatiblePackages = COMPATIBLE_PACKAGE,
     fingerprints = setOf(
         ActionBarRingoBackgroundFingerprint,
+        ActionBarRingoConstructorFingerprint,
         AttributeResolverFingerprint,
         CreateButtonDrawableFingerprint,
         CreateSearchSuggestionsFingerprint,
@@ -104,7 +107,7 @@ object ToolBarComponentsPatch : BaseBytecodePatch(
             YtPremiumWordMarkHeader,
             YtWordMarkHeader
         ).forEach { literal ->
-            context.literalInstructionHook(literal, smaliInstruction)
+            context.replaceLiteralInstructionCall(literal, smaliInstruction)
         }
 
         // YouTube's headers have the form of AttributeSet, which is decoded from YouTube's built-in classes.
@@ -112,8 +115,8 @@ object ToolBarComponentsPatch : BaseBytecodePatch(
         val attributeResolverMethodCall =
             attributeResolverMethod.definingClass + "->" + attributeResolverMethod.name + "(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;"
 
-        context.findClass(GENERAL_CLASS_DESCRIPTOR)!!.mutableClass.methods.single { method ->
-            method.name == "getHeaderDrawable"
+        context.findMethodOrThrow(GENERAL_CLASS_DESCRIPTOR) {
+            name == "getHeaderDrawable"
         }.addInstructions(
             0, """
                 invoke-static {p0, p1}, $attributeResolverMethodCall
@@ -123,13 +126,11 @@ object ToolBarComponentsPatch : BaseBytecodePatch(
         )
 
         // The sidebar's header is lithoView. Add a listener to change it.
-        DrawerContentViewFingerprint.resolve(
-            context,
-            DrawerContentViewConstructorFingerprint.resultOrThrow().classDef
-        )
-        DrawerContentViewFingerprint.resultOrThrow().let {
+        DrawerContentViewFingerprint.alsoResolve(
+            context, DrawerContentViewConstructorFingerprint
+        ).let {
             it.mutableMethod.apply {
-                val insertIndex = getTargetIndexWithMethodReferenceNameOrThrow("addView")
+                val insertIndex = DrawerContentViewFingerprint.indexOfAddViewInstruction(this)
                 val insertRegister = getInstruction<FiveRegisterInstruction>(insertIndex).registerD
 
                 addInstruction(
@@ -145,7 +146,7 @@ object ToolBarComponentsPatch : BaseBytecodePatch(
         setActionBarRingoMutableClass.methods.first { method ->
             MethodUtil.isConstructor(method)
         }.apply {
-            val insertIndex = getTargetIndexOrThrow(Opcode.IPUT_BOOLEAN)
+            val insertIndex = indexOfFirstInstructionOrThrow(Opcode.IPUT_BOOLEAN)
             val insertRegister = getInstruction<TwoRegisterInstruction>(insertIndex).registerA
 
             addInstruction(
@@ -170,7 +171,8 @@ object ToolBarComponentsPatch : BaseBytecodePatch(
         ActionBarRingoBackgroundFingerprint.resultOrThrow().let {
             ActionBarRingoTextFingerprint.resolve(context, it.classDef)
             it.mutableMethod.apply {
-                val viewIndex = getWideLiteralInstructionIndex(ActionBarRingoBackground) + 2
+                val viewIndex =
+                    indexOfFirstWideLiteralInstructionValueOrThrow(ActionBarRingoBackground) + 2
                 val viewRegister = getInstruction<OneRegisterInstruction>(viewIndex).registerA
 
                 addInstructions(
@@ -178,7 +180,8 @@ object ToolBarComponentsPatch : BaseBytecodePatch(
                     "invoke-static {v$viewRegister}, $GENERAL_CLASS_DESCRIPTOR->setWideSearchBarLayout(Landroid/view/View;)V"
                 )
 
-                val targetIndex = it.scanResult.patternScanResult!!.endIndex + 1
+                val targetIndex =
+                    ActionBarRingoBackgroundFingerprint.indexOfStaticInstruction(this) + 1
                 val targetRegister = getInstruction<OneRegisterInstruction>(targetIndex).registerA
 
                 injectSearchBarHook(
@@ -187,39 +190,11 @@ object ToolBarComponentsPatch : BaseBytecodePatch(
                     "enableWideSearchBarWithHeaderInverse"
                 )
             }
-
-            it.mutableClass.methods.first { method -> MethodUtil.isConstructor(method) }
-                .apply {
-                    val staticCalls = implementation!!.instructions.withIndex()
-                        .filter { instruction ->
-                            val methodReference =
-                                ((instruction.value as? ReferenceInstruction)?.reference as? MethodReference)
-                            methodReference?.parameterTypes?.size == 1 &&
-                                    methodReference.returnType == "Z"
-                        }
-
-                    if (staticCalls.size != 2)
-                        throw PatchException("Size of staticCalls does not match: ${staticCalls.size}")
-
-                    mapOf(
-                        staticCalls.elementAt(0).index to "enableWideSearchBar",
-                        staticCalls.elementAt(1).index to "enableWideSearchBarWithHeader"
-                    ).forEach { (index, descriptor) ->
-                        val walkerMethod = getWalkerMethod(context, index)
-
-                        walkerMethod.apply {
-                            injectSearchBarHook(
-                                implementation!!.instructions.size - 1,
-                                descriptor
-                            )
-                        }
-                    }
-                }
         }
 
         ActionBarRingoTextFingerprint.resultOrThrow().let {
             it.mutableMethod.apply {
-                val targetIndex = it.scanResult.patternScanResult!!.endIndex + 1
+                val targetIndex = ActionBarRingoTextFingerprint.indexOfStaticInstruction(this) + 1
                 val targetRegister = getInstruction<OneRegisterInstruction>(targetIndex).registerA
 
                 injectSearchBarHook(
@@ -227,6 +202,35 @@ object ToolBarComponentsPatch : BaseBytecodePatch(
                     targetRegister,
                     "enableWideSearchBarWithHeader"
                 )
+            }
+        }
+
+        ActionBarRingoConstructorFingerprint.resultOrThrow().mutableMethod.apply {
+            val staticCalls = implementation!!.instructions
+                .withIndex()
+                .filter { (_, instruction) ->
+                    val methodReference = (instruction as? ReferenceInstruction)?.reference
+                    instruction.opcode == Opcode.INVOKE_STATIC &&
+                            methodReference is MethodReference &&
+                            methodReference.parameterTypes.size == 1 &&
+                            methodReference.returnType == "Z"
+                }
+
+            if (staticCalls.size != 2)
+                throw PatchException("Size of staticCalls does not match: ${staticCalls.size}")
+
+            mapOf(
+                staticCalls.elementAt(0).index to "enableWideSearchBar",
+                staticCalls.elementAt(1).index to "enableWideSearchBarWithHeader"
+            ).forEach { (index, descriptor) ->
+                val walkerMethod = getWalkerMethod(context, index)
+
+                walkerMethod.apply {
+                    injectSearchBarHook(
+                        implementation!!.instructions.lastIndex,
+                        descriptor
+                    )
+                }
             }
         }
 
@@ -277,16 +281,16 @@ object ToolBarComponentsPatch : BaseBytecodePatch(
 
         CreateSearchSuggestionsFingerprint.resultOrThrow().let { result ->
             result.mutableMethod.apply {
-                val relativeIndex = getWideLiteralInstructionIndex(40)
-                val replaceIndex = getTargetIndexWithReferenceReversedOrThrow(
-                    relativeIndex,
-                    "Landroid/widget/ImageView;->setVisibility(I)V"
-                ) - 1
+                val relativeIndex = indexOfFirstWideLiteralInstructionValueOrThrow(40)
+                val replaceIndex = indexOfFirstInstructionReversedOrThrow(relativeIndex) {
+                    opcode == Opcode.INVOKE_VIRTUAL &&
+                            getReference<MethodReference>()?.toString() == "Landroid/widget/ImageView;->setVisibility(I)V"
+                } - 1
 
-                val jumpIndex = getTargetIndexWithReferenceOrThrow(
-                    relativeIndex,
-                    "Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;"
-                ) + 4
+                val jumpIndex = indexOfFirstInstructionOrThrow(relativeIndex) {
+                    opcode == Opcode.INVOKE_STATIC &&
+                            getReference<MethodReference>()?.toString() == "Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;"
+                } + 4
 
                 val replaceIndexInstruction = getInstruction<TwoRegisterInstruction>(replaceIndex)
                 val replaceIndexReference =
@@ -309,7 +313,7 @@ object ToolBarComponentsPatch : BaseBytecodePatch(
         // region patch for hide voice search button
 
         if (SettingsPatch.upward1928) {
-            ImageSearchButtonConfigFingerprint.literalInstructionBooleanHook(
+            ImageSearchButtonConfigFingerprint.injectLiteralInstructionBooleanCall(
                 45617544,
                 "$GENERAL_CLASS_DESCRIPTOR->hideImageSearchButton(Z)Z"
             )
@@ -323,15 +327,15 @@ object ToolBarComponentsPatch : BaseBytecodePatch(
 
         // region patch for hide voice search button
 
-        SearchBarFingerprint.resolve(
-            context,
-            SearchBarParentFingerprint.resultOrThrow().classDef
-        )
-        SearchBarFingerprint.resultOrThrow().let {
+        SearchBarFingerprint.alsoResolve(
+            context, SearchBarParentFingerprint
+        ).let {
             it.mutableMethod.apply {
                 val startIndex = it.scanResult.patternScanResult!!.startIndex
-                val setVisibilityIndex =
-                    getTargetIndexWithMethodReferenceNameOrThrow(startIndex, "setVisibility")
+                val setVisibilityIndex = indexOfFirstInstructionOrThrow(startIndex) {
+                    opcode == Opcode.INVOKE_VIRTUAL &&
+                            getReference<MethodReference>()?.name == "setVisibility"
+                }
                 val setVisibilityInstruction =
                     getInstruction<FiveRegisterInstruction>(setVisibilityIndex)
 
@@ -345,12 +349,11 @@ object ToolBarComponentsPatch : BaseBytecodePatch(
 
         SearchResultFingerprint.resultOrThrow().let {
             it.mutableMethod.apply {
-                val startIndex = getWideLiteralInstructionIndex(VoiceSearch)
-                val setOnClickListenerIndex =
-                    getTargetIndexWithMethodReferenceNameOrThrow(
-                        startIndex,
-                        "setOnClickListener"
-                    )
+                val startIndex = indexOfFirstWideLiteralInstructionValueOrThrow(VoiceSearch)
+                val setOnClickListenerIndex = indexOfFirstInstructionOrThrow(startIndex) {
+                    opcode == Opcode.INVOKE_VIRTUAL &&
+                            getReference<MethodReference>()?.name == "setOnClickListener"
+                }
                 val viewRegister =
                     getInstruction<FiveRegisterInstruction>(setOnClickListenerIndex).registerC
 
@@ -366,7 +369,7 @@ object ToolBarComponentsPatch : BaseBytecodePatch(
         // region patch for replace create button
 
         CreateButtonDrawableFingerprint.resultOrThrow().mutableMethod.apply {
-            val index = getWideLiteralInstructionIndex(YtOutlineVideoCamera)
+            val index = indexOfFirstWideLiteralInstructionValueOrThrow(YtOutlineVideoCamera)
             val register = getInstruction<OneRegisterInstruction>(index).registerA
 
             addInstructions(
@@ -379,15 +382,14 @@ object ToolBarComponentsPatch : BaseBytecodePatch(
 
         ToolBarHookPatch.hook("$GENERAL_CLASS_DESCRIPTOR->replaceCreateButton")
 
-        val settingsClass = context.findClass("Shell_SettingsActivity")
-            ?: throw PatchException("Shell_SettingsActivity class not found.")
-
-        settingsClass.mutableClass.methods.find { it.name == "onCreate" }?.apply {
-            addInstruction(
-                0,
-                "invoke-static {p0}, $GENERAL_CLASS_DESCRIPTOR->setShellActivityTheme(Landroid/app/Activity;)V"
-            )
-        } ?: throw PatchException("onCreate method not found.")
+        context.findMethodOrThrow(
+            "Lcom/google/android/apps/youtube/app/application/Shell_SettingsActivity;"
+        ) {
+            name == "onCreate"
+        }.addInstruction(
+            0,
+            "invoke-static {p0}, $GENERAL_CLASS_DESCRIPTOR->setShellActivityTheme(Landroid/app/Activity;)V"
+        )
 
         // endregion
 

@@ -3,13 +3,16 @@ package app.revanced.patches.youtube.layout.header
 import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.options.PatchOption.PatchExtensions.stringPatchOption
 import app.revanced.patches.youtube.utils.compatibility.Constants
+import app.revanced.patches.youtube.utils.integrations.Constants.PATCH_STATUS_CLASS_DESCRIPTOR
 import app.revanced.patches.youtube.utils.settings.ResourceUtils
+import app.revanced.patches.youtube.utils.settings.SettingsBytecodePatch
 import app.revanced.util.ResourceGroup
 import app.revanced.util.Utils.trimIndentMultiline
 import app.revanced.util.copyFile
 import app.revanced.util.copyResources
 import app.revanced.util.patch.BaseResourcePatch
 import app.revanced.util.underBarOrThrow
+import app.revanced.util.updatePatchStatus
 import java.io.File
 import java.nio.file.Files
 import kotlin.io.path.copyTo
@@ -135,6 +138,13 @@ object ChangeHeaderPatch : BaseResourcePatch(
                 resourceGroups.forEach {
                     context.copyResources("youtube/branding/$customBrandingIconType/header", it)
                 }
+            }
+
+            if (customBrandingIconType == "youtube_minimal_header") {
+                SettingsBytecodePatch.contexts.updatePatchStatus(
+                    PATCH_STATUS_CLASS_DESCRIPTOR,
+                    "MinimalHeader"
+                )
             }
         } else {
             println(warnings)

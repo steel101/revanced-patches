@@ -30,20 +30,20 @@ import app.revanced.patches.youtube.utils.resourceid.SharedResourceIdPatch.ReelT
 import app.revanced.patches.youtube.utils.settings.SettingsPatch
 import app.revanced.patches.youtube.utils.settings.SettingsPatch.contexts
 import app.revanced.patches.youtube.video.information.VideoInformationPatch
-import app.revanced.util.getTargetIndexOrThrow
-import app.revanced.util.getTargetIndexWithMethodReferenceNameOrThrow
+import app.revanced.util.findMethodsOrThrow
+import app.revanced.util.getReference
 import app.revanced.util.getWalkerMethod
-import app.revanced.util.getWideLiteralInstructionIndex
-import app.revanced.util.literalInstructionBooleanHook
+import app.revanced.util.indexOfFirstInstructionOrThrow
+import app.revanced.util.indexOfFirstWideLiteralInstructionValueOrThrow
+import app.revanced.util.injectLiteralInstructionBooleanCall
 import app.revanced.util.patch.BaseBytecodePatch
 import app.revanced.util.resultOrThrow
 import com.android.tools.smali.dexlib2.Opcode
-import com.android.tools.smali.dexlib2.builder.instruction.BuilderInstruction35c
-import com.android.tools.smali.dexlib2.dexbacked.reference.DexBackedMethodReference
 import com.android.tools.smali.dexlib2.iface.instruction.FiveRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.NarrowLiteralInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
+import com.android.tools.smali.dexlib2.iface.reference.MethodReference
 import org.w3c.dom.Element
 
 @Suppress("DEPRECATION", "unused")
@@ -83,14 +83,15 @@ object SeekbarComponentsPatch : BaseBytecodePatch(
         SeekbarTappingFingerprint.resultOrThrow().let {
             it.mutableMethod.apply {
                 val tapSeekIndex = it.scanResult.patternScanResult!!.startIndex + 1
-                val tapSeekReference = getInstruction<BuilderInstruction35c>(tapSeekIndex).reference
-                val tapSeekClass =
-                    context
-                        .findClass((tapSeekReference as DexBackedMethodReference).definingClass)!!
-                        .mutableClass
-                val tapSeekMethods = mutableMapOf<String, MutableMethod>()
+                val tapSeekClass = getInstruction(tapSeekIndex)
+                    .getReference<MethodReference>()!!
+                    .definingClass
 
-                for (method in tapSeekClass.methods) {
+                val tapSeekMethods = context.findMethodsOrThrow(tapSeekClass)
+                var pMethodCall = ""
+                var oMethodCall = ""
+
+                for (method in tapSeekMethods) {
                     if (method.implementation == null)
                         continue
 
@@ -109,15 +110,17 @@ object SeekbarComponentsPatch : BaseBytecodePatch(
 
                     // method founds
                     if (literal == 1)
-                        tapSeekMethods["P"] = method
+                        pMethodCall = "${method.definingClass}->${method.name}(I)V"
                     else if (literal == 2)
-                        tapSeekMethods["O"] = method
+                        oMethodCall = "${method.definingClass}->${method.name}(I)V"
                 }
 
-                val pMethod = tapSeekMethods["P"]
-                    ?: throw PatchException("pMethod not found")
-                val oMethod = tapSeekMethods["O"]
-                    ?: throw PatchException("oMethod not found")
+                if (pMethodCall.isEmpty()) {
+                    throw PatchException("pMethod not found")
+                }
+                if (oMethodCall.isEmpty()) {
+                    throw PatchException("oMethod not found")
+                }
 
                 val insertIndex = it.scanResult.patternScanResult!!.startIndex + 2
 
@@ -126,8 +129,8 @@ object SeekbarComponentsPatch : BaseBytecodePatch(
                         invoke-static {}, $PLAYER_CLASS_DESCRIPTOR->enableSeekbarTapping()Z
                         move-result v0
                         if-eqz v0, :disabled
-                        invoke-virtual { p0, v2 }, ${oMethod.definingClass}->${oMethod.name}(I)V
-                        invoke-virtual { p0, v2 }, ${pMethod.definingClass}->${pMethod.name}(I)V
+                        invoke-virtual { p0, v2 }, $pMethodCall
+                        invoke-virtual { p0, v2 }, $oMethodCall
                         """, ExternalLabel("disabled", getInstruction(insertIndex))
                 )
             }
@@ -139,11 +142,14 @@ object SeekbarComponentsPatch : BaseBytecodePatch(
 
         TotalTimeFingerprint.resultOrThrow().let {
             it.mutableMethod.apply {
-                val charSequenceIndex =
-                    getTargetIndexWithMethodReferenceNameOrThrow("getString") + 1
+                val charSequenceIndex = indexOfFirstInstructionOrThrow {
+                    getReference<MethodReference>()?.name == "getString"
+                } + 1
                 val charSequenceRegister =
                     getInstruction<OneRegisterInstruction>(charSequenceIndex).registerA
-                val textViewIndex = getTargetIndexWithMethodReferenceNameOrThrow("getText")
+                val textViewIndex = indexOfFirstInstructionOrThrow {
+                    getReference<MethodReference>()?.name == "getText"
+                }
                 val textViewRegister =
                     getInstruction<FiveRegisterInstruction>(textViewIndex).registerC
 
@@ -162,12 +168,12 @@ object SeekbarComponentsPatch : BaseBytecodePatch(
         // region patch for seekbar color
 
         PlayerSeekbarColorFingerprint.resultOrThrow().mutableMethod.apply {
-            hook(getWideLiteralInstructionIndex(InlineTimeBarColorizedBarPlayedColorDark) + 2)
-            hook(getWideLiteralInstructionIndex(InlineTimeBarPlayedNotHighlightedColor) + 2)
+            hook(InlineTimeBarColorizedBarPlayedColorDark)
+            hook(InlineTimeBarPlayedNotHighlightedColor)
         }
 
         ShortsSeekbarColorFingerprint.resultOrThrow().mutableMethod.apply {
-            hook(getWideLiteralInstructionIndex(ReelTimeBarPlayedColor) + 2)
+            hook(ReelTimeBarPlayedColor)
         }
 
         ControlsOverlayStyleFingerprint.resultOrThrow().let {
@@ -212,7 +218,7 @@ object SeekbarComponentsPatch : BaseBytecodePatch(
         PlayerButtonsVisibilityFingerprint.resultOrThrow().let {
             it.mutableMethod.apply {
                 val freeRegister = implementation!!.registerCount - parameters.size - 2
-                val viewIndex = getTargetIndexOrThrow(Opcode.INVOKE_INTERFACE)
+                val viewIndex = indexOfFirstInstructionOrThrow(Opcode.INVOKE_INTERFACE)
                 val viewRegister = getInstruction<FiveRegisterInstruction>(viewIndex).registerD
 
                 addInstructionsWithLabels(
@@ -271,7 +277,7 @@ object SeekbarComponentsPatch : BaseBytecodePatch(
         // region patch for restore old seekbar thumbnails
 
         ThumbnailPreviewConfigFingerprint.result?.let {
-            ThumbnailPreviewConfigFingerprint.literalInstructionBooleanHook(
+            ThumbnailPreviewConfigFingerprint.injectLiteralInstructionBooleanCall(
                 45398577,
                 "$PLAYER_CLASS_DESCRIPTOR->restoreOldSeekbarThumbnails()Z"
             )
@@ -285,7 +291,7 @@ object SeekbarComponentsPatch : BaseBytecodePatch(
         // region patch for enable cairo seekbar
 
         if (SettingsPatch.upward1923) {
-            CairoSeekbarConfigFingerprint.literalInstructionBooleanHook(
+            CairoSeekbarConfigFingerprint.injectLiteralInstructionBooleanCall(
                 45617850,
                 "$PLAYER_CLASS_DESCRIPTOR->enableCairoSeekbar()Z"
             )
@@ -303,7 +309,8 @@ object SeekbarComponentsPatch : BaseBytecodePatch(
         SettingsPatch.updatePatchStatus(this)
     }
 
-    private fun MutableMethod.hook(insertIndex: Int) {
+    private fun MutableMethod.hook(literal: Long) {
+        val insertIndex = indexOfFirstWideLiteralInstructionValueOrThrow(literal) + 2
         val insertRegister = getInstruction<OneRegisterInstruction>(insertIndex).registerA
 
         addInstructions(

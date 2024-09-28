@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
+    <string name="revanced_extended_reset_to_default_toast">Επαναφέρθηκε στην προεπιλεγμένη τιμή.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Επανεκκίνηση ώστε να φορτωθεί σωστά η εφαρμογή</string>
     <string name="revanced_extended_restart_message">Ανανέωση και επανεκκίνηση</string>
@@ -49,11 +50,6 @@
     <string name="revanced_preference_screen_ads_title">Διαφημίσεις</string>
     <string name="revanced_hide_fullscreen_ads_title">Απόκρυψη διαφημίσεων πλήρους οθόνης</string>
     <string name="revanced_hide_fullscreen_ads_summary">Απόκρυψη των ενδιάμεσων διαφημίσεων πλήρους οθόνης.</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">Κλείσιμο διαφημίσεων πλήρους οθόνης</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary">"Αν είναι ενεργοποιημένο, οι διαφημίσεις πλήρους οθόνης κλείνουν μέσω του κουμπιού κλεισίματος.
-Αν είναι απενεργοποιημένο, οι διαφημίσεις πλήρους οθόνης είναι αυτόματα αποκλεισμένες. (μπορεί να υπάρχουν παρενέργειες)"</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">Οι διαφημίσεις πλήρους οθόνης αποκλείστηκαν. (Τύπος: %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">Οι διαφημίσεις πλήρους οθόνης έκλεισαν.</string>
     <string name="revanced_hide_general_ads_title">Απόκρυψη γενικών διαφημίσεων</string>
     <string name="revanced_hide_general_ads_summary">Απόκρυψη των γενικών διαφημίσεων.</string>
     <string name="revanced_hide_music_ads_title">Απόκρυψη διαφημίσεων μουσικής</string>
@@ -255,8 +251,8 @@
     <string name="revanced_remember_video_quality_last_selected_summary">Απομνημόνευση της τελευταίας ποιότητας βίντεο που επιλέχθηκε.</string>
     <string name="revanced_remember_video_quality_last_selected_toast_title">Εμφάνιση μηνύματος</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary">Εμφάνιση μηνύματος στο κάτω μέρος της οθόνης κατά την αλλαγή προεπιλεγμένης ποιότητας βίντεο.</string>
-    <string name="revanced_custom_playback_speeds_invalid">Οι ταχύτητες πρέπει να είναι μικρότερες από %sx, επαναφέρθηκαν.</string>
-    <string name="revanced_custom_playback_speeds_parse_exception">Μη έγκυρες ταχύτητες αναπαραγωγής, επαναφέρθηκαν.</string>
+    <string name="revanced_custom_playback_speeds_invalid">Οι ταχύτητες πρέπει να είναι μικρότερες από %sx.</string>
+    <string name="revanced_custom_playback_speeds_parse_exception">Μη έγκυρες ταχύτητες αναπαραγωγής.</string>
     <string name="revanced_remember_playback_speed_toast">Η προεπιλεγμένη ταχύτητα άλλαξε σε %s.</string>
     <string name="revanced_remember_video_quality_mobile">Η προεπιλεγμένη ποιότητα δεδομένων άλλαξε σε %s.</string>
     <string name="revanced_remember_video_quality_none">Αποτυχία ρύθμισης της ποιότητας.</string>
@@ -329,7 +325,7 @@
     <string name="revanced_sb_color_dot_label">Χρώμα:</string>
     <string name="revanced_sb_color_changed">Το χρώμα άλλαξε.</string>
     <string name="revanced_sb_color_reset">Το χρώμα επαναφέρθηκε.</string>
-    <string name="revanced_sb_color_invalid">Μη έγκυρος κωδικός χρώματος, επαναφέρθηκε.</string>
+    <string name="revanced_sb_color_invalid">Μη έγκυρος κωδικός χρώματος.</string>
     <string name="revanced_sb_reset_color">Επαναφορά χρώματος</string>
     <string name="revanced_sb_about_api_sum">Τα δεδομένα παρέχονται από το SponsorBlock API. Πατήστε για να μάθετε περισσότερα και να δείτε λήψεις για άλλες πλατφόρμες.</string>
     <string name="revanced_sb_about">Σχετικά με</string>
@@ -339,7 +335,7 @@
     <string name="revanced_bypass_image_region_restrictions_title">Παράκαμψη μπλοκαρίσματος φόρτωσης εικόνων</string>
     <string name="revanced_bypass_image_region_restrictions_summary">Αντικατάσταση του domain για την φόρτωση εικόνων όπου είναι μπλοκαρισμένες σε ορισμένες περιοχές ώστε να μπορούν να ληφθούν μικρογραφίες βίντεο, εικόνες δημοσιεύσεων, κλπ.</string>
     <string name="revanced_change_share_sheet_title">Αλλαγή μενού κοινοποίησης</string>
-    <string name="revanced_change_share_sheet_summary">Αλλαγή του μενού κοινοποίησης σε αυτό του συστήματος σας αντί του YouTube.</string>
+    <string name="revanced_change_share_sheet_summary">Αλλαγή του μενού κοινοποίησης σε αυτό του συστήματος σας αντί του YouTube Music.</string>
     <string name="revanced_disable_cairo_splash_animation_title">Απενεργοποίηση εφέ εκκίνησης θέματος Cairo</string>
     <string name="revanced_disable_cairo_splash_animation_summary">Απενεργοποίηση των εφέ θέματος Cairo κατά την εκκίνηση της εφαρμογής.</string>
     <string name="revanced_enable_debug_logging_title">Ενεργοποίηση καταγραφής σφαλμάτων</string>
@@ -366,6 +362,8 @@
     <string name="gms_core_dialog_continue_text">Συνέχεια</string>
     <string name="revanced_sanitize_sharing_links_title">Καθαρισμός συνδέσμων κοινοποίησης</string>
     <string name="revanced_sanitize_sharing_links_summary">Αφαίρεση των παραμέτρων παρακολούθησης από τις διευθύνσεις URL κατά την κοινοποίηση συνδέσμων.</string>
+    <string name="revanced_default_app_settings_title">Άνοιγμα ρυθμίσεων προεπιλεγμένων εφαρμογών</string>
+    <string name="revanced_default_app_settings_summary">Για να ανοίγουν οι συνδέσμοι YouTube Music στο RVX Music, ενεργοποιήστε το «Άνοιγμα υποστηριζόμενων συνδέσμων» και τις υποστηριζόμενες διευθύνσεις ιστού.</string>
     <string name="revanced_extended_settings_import_export_title">Εισαγωγή / Εξαγωγή</string>
     <string name="revanced_extended_settings_import_export_summary">Εισαγωγή ή εξαγωγή των ρυθμίσεών σας.</string>
     <string name="revanced_extended_settings_export_as_file">Εξαγωγή ρυθμίσεων σε αρχείο</string>

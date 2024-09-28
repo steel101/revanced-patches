@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Shared PreferenceScreen -->
+    <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
+    <string name="revanced_extended_reset_to_default_toast">Redefinir para os valores padrão.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run">Reinicie para carregar o layout normalmente</string>
     <string name="revanced_extended_restart_message">Atualizar e reiniciar</string>
@@ -49,11 +50,6 @@ Por favor, baixe %2$s do site."</string>
     <string name="revanced_preference_screen_ads_title">Anúncios</string>
     <string name="revanced_hide_fullscreen_ads_title">Ocultar anúncios em tela cheia</string>
     <string name="revanced_hide_fullscreen_ads_summary">Oculta anúncios em tela cheia.</string>
-    <string name="revanced_hide_fullscreen_ads_type_title">Fechar anúncios em tela cheia</string>
-    <string name="revanced_hide_fullscreen_ads_type_summary">"Se estiver ativado, os anúncios em tela cheia são fechados através do botão Fechar.
-Se estiver desativado, os anúncios em tela cheia serão bloqueados. (pode haver efeitos colaterais)"</string>
-    <string name="revanced_hide_fullscreen_ads_blocked_success">Os anúncios em tela cheia foram bloqueados. (Tipo de diálogo: %s)</string>
-    <string name="revanced_hide_fullscreen_ads_closed_success">Os anúncios de tela cheia foram fechados.</string>
     <string name="revanced_hide_general_ads_title">Ocultar anúncios gerais</string>
     <string name="revanced_hide_general_ads_summary">Oculta anúncios gerais.</string>
     <string name="revanced_hide_music_ads_title">Ocultar anúncios de mídia</string>
@@ -255,8 +251,8 @@ Alguns recursos podem não funcionar corretamente no layout antigo do reprodutor
     <string name="revanced_remember_video_quality_last_selected_summary">Lembra a última qualidade de vídeo selecionada.</string>
     <string name="revanced_remember_video_quality_last_selected_toast_title">Exibir uma notificação flutuante</string>
     <string name="revanced_remember_video_quality_last_selected_toast_summary">Exibir uma notificação flutuante quando alterar a qualidade padrão do vídeo.</string>
-    <string name="revanced_custom_playback_speeds_invalid">Velocidades personalizadas devem ser menores que %sx. Usando valores padrão.</string>
-    <string name="revanced_custom_playback_speeds_parse_exception">Velocidade personalizada de reprodução inválida. Usando valores padrão.</string>
+    <string name="revanced_custom_playback_speeds_invalid">Velocidades personalizadas devem ser menores que %sx.</string>
+    <string name="revanced_custom_playback_speeds_parse_exception">Velocidades de reprodução personalizadas inválidas.</string>
     <string name="revanced_remember_playback_speed_toast">Alterando a velocidade padrão para %s.</string>
     <string name="revanced_remember_video_quality_mobile">Alterando a qualidade padrão de dados móveis para %s.</string>
     <string name="revanced_remember_video_quality_none">Falha ao definir qualidade.</string>
@@ -329,7 +325,7 @@ Alguns recursos podem não funcionar corretamente no layout antigo do reprodutor
     <string name="revanced_sb_color_dot_label">Cor:</string>
     <string name="revanced_sb_color_changed">Cor alterada.</string>
     <string name="revanced_sb_color_reset">Redefinir cor.</string>
-    <string name="revanced_sb_color_invalid">Código de cor inválido. Redefinir cor para o padrão.</string>
+    <string name="revanced_sb_color_invalid">Código de cor inválido.</string>
     <string name="revanced_sb_reset_color">Redefinir cor</string>
     <string name="revanced_sb_about_api_sum">Os dados são fornecidos pela API do SponsorBlock. Toque aqui para aprender mais e ver downloads para outras plataformas.</string>
     <string name="revanced_sb_about">Sobre</string>
@@ -340,6 +336,8 @@ Alguns recursos podem não funcionar corretamente no layout antigo do reprodutor
     <string name="revanced_bypass_image_region_restrictions_summary">Substitui o domínio que está bloqueado em algumas regiões para que miniaturas para playlists, avatares de canais, etc. possam ser recebidos.</string>
     <string name="revanced_change_share_sheet_title">Alterar menu de compartilhamento</string>
     <string name="revanced_change_share_sheet_summary">Alterar o menu de compartilhamento do app para o meno de compartilhamento do sistema.</string>
+    <string name="revanced_disable_cairo_splash_animation_title">Desativar a animação inicial do Cairo</string>
+    <string name="revanced_disable_cairo_splash_animation_summary">Desabilita a animação inicial do Cairo quando o aplicativo é iniciado.</string>
     <string name="revanced_enable_debug_logging_title">Ativar o relatório de depuração</string>
     <string name="revanced_enable_debug_logging_summary">Imprime o relatório de depuração</string>
     <string name="revanced_enable_debug_buffer_logging_title">Ativar o registro de depuração do buffer</string>
@@ -366,6 +364,8 @@ Toque no botão continuar e desative as otimizações da bateria."</string>
     <string name="gms_core_dialog_continue_text">Continuar</string>
     <string name="revanced_sanitize_sharing_links_title">Limpar links compartilhados</string>
     <string name="revanced_sanitize_sharing_links_summary">Remove os parâmetros de consulta de rastreamento das URLs ao compartilhar os links.</string>
+    <string name="revanced_default_app_settings_title">Abrir configurações padrão do aplicativo</string>
+    <string name="revanced_default_app_settings_summary">Para abrir os links de música do YouTube no RVX Music, ative \'Abrir links suportados\' e ative os endereços web suportados.</string>
     <string name="revanced_extended_settings_import_export_title">Importar / Exportar configurações</string>
     <string name="revanced_extended_settings_import_export_summary">Importar ou exportar as configurações como texto.</string>
     <string name="revanced_extended_settings_export_as_file">Exportar configurações para um arquivo</string>

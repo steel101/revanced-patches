@@ -4,7 +4,8 @@ import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.MethodFingerprint
 import app.revanced.patches.music.player.components.fingerprints.ShuffleClassReferenceFingerprint.indexOfImageViewInstruction
 import app.revanced.patches.music.player.components.fingerprints.ShuffleClassReferenceFingerprint.indexOfOrdinalInstruction
-import app.revanced.util.containsWideLiteralInstructionIndex
+import app.revanced.patches.music.utils.resourceid.SharedResourceIdPatch.YtFillArrowShuffle
+import app.revanced.util.containsWideLiteralInstructionValue
 import app.revanced.util.getReference
 import app.revanced.util.indexOfFirstInstruction
 import com.android.tools.smali.dexlib2.AccessFlags
@@ -19,7 +20,7 @@ internal object ShuffleClassReferenceFingerprint : MethodFingerprint(
     parameters = emptyList(),
     strings = listOf("Unknown shuffle mode"),
     customFingerprint = { methodDef, _ ->
-        methodDef.containsWideLiteralInstructionIndex(45468) &&
+        methodDef.containsWideLiteralInstructionValue(YtFillArrowShuffle) &&
                 indexOfOrdinalInstruction(methodDef) >= 0 &&
                 indexOfImageViewInstruction(methodDef) >= 0
     }
