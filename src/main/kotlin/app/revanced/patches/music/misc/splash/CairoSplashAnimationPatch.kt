@@ -72,8 +72,12 @@ object CairoSplashAnimationPatch : BytecodePatch(
                             reference?.name == "findViewById" &&
                             reference.definingClass != "Landroid/view/View;"
                 }
-                val freeRegister = getInstruction<FiveRegisterInstruction>(viewStubFindViewByIdIndex).registerD
-                val jumpIndex = indexOfFirstInstructionReversedOrThrow(viewStubFindViewByIdIndex, Opcode.IGET_OBJECT)
+                val freeRegister =
+                    getInstruction<FiveRegisterInstruction>(viewStubFindViewByIdIndex).registerD
+                val jumpIndex = indexOfFirstInstructionReversedOrThrow(
+                    viewStubFindViewByIdIndex,
+                    Opcode.IGET_OBJECT
+                )
 
                 addInstructionsWithLabels(
                     insertIndex, """
