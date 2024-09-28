@@ -1206,6 +1206,9 @@ Side effect: Official headers in search results will be hidden."</string>
 
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
     <string name="revanced_preference_category_animation_feedback">Animation / Feedback</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_title">Disable Like button animation</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_on">Fountain animation is disabled above the Like button.</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_off">Fountain animation is enabled above the Like button.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_title">Hide Play &amp; Pause button background</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_on">Button background is hidden.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_off">Button background is shown.</string>
