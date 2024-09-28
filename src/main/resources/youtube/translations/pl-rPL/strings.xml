@@ -1065,7 +1065,11 @@ Ograniczenie: Nagłówki z tytułami będą ukryte w wynikach wyszukiwania."</st
     <string name="revanced_hide_shorts_full_video_link_label_summary_on">Ukryte</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_off">Widoczne</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
-    <string name="revanced_hide_shorts_save_sound_button_title">Przycisk od zapisywania dźwięku do playlisty</string>
+    <string name="revanced_preference_category_suggested_actions">Sugerowane akcje</string>
+    <string name="revanced_hide_shorts_green_screen_button_title">Przycisk od greenscreena</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_on">Ukryty</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_off">Widoczny</string>
+    <string name="revanced_hide_shorts_save_sound_button_title">Przycisk od zapisywania dźwięku</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_on">Ukryty</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_off">Widoczny</string>
     <string name="revanced_hide_shorts_shop_button_title">Przycisk do sklepu</string>
@@ -1111,6 +1115,9 @@ Ograniczenie: Nagłówki z tytułami będą ukryte w wynikach wyszukiwania."</st
     <string name="revanced_hide_shorts_sound_button_summary_off">Widoczny</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
     <string name="revanced_preference_category_animation_feedback">Animacje / Przesyłanie opinii</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_title">Animacja przycisku polubienia</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_on">Wyłączona</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_off">Włączona</string>
     <string name="revanced_hide_shorts_play_pause_button_background_title">Tło przycisku odtwarzania i pauzy</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_on">Ukryte</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_off">Widoczne</string>

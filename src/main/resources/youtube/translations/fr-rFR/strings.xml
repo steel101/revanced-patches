@@ -1066,9 +1066,13 @@ Effet secondaire : Les fiches officielles dans les résultats de recherche sont 
     <string name="revanced_hide_shorts_full_video_link_label_summary_on">Le lien vers la vidéo complète est masqué.</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_off">Le lien vers la vidéo complète est affiché.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
-    <string name="revanced_hide_shorts_save_sound_button_title">Masquer le son du bouton \"Playlist\"</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">Le son d\'enregistrement dans la Playlist est masqué.</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">Le son d\'enregistrement dans la Playlist est affiché.</string>
+    <string name="revanced_preference_category_suggested_actions">Actions suggérées</string>
+    <string name="revanced_hide_shorts_green_screen_button_title">Masquer le bouton \'fond vert\'</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_on">Le bouton \'fond vert\' est masqué.</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_off">Le bouton \'fond vert\' est affiché.</string>
+    <string name="revanced_hide_shorts_save_sound_button_title">Masquer le bouton \"Enregistrer le son\"</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_on">Le bouton \"Enregistrer le son\" est masqué.</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_off">Le bouton \"Enregistrer le son\" est affiché.</string>
     <string name="revanced_hide_shorts_shop_button_title">Masquer le bouton \"Magasin\"</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">Le bouton \"Magasin\" est masqué.</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">Le bouton \"Magasin\" est affiché.</string>
@@ -1112,6 +1116,9 @@ Effet secondaire : Les fiches officielles dans les résultats de recherche sont 
     <string name="revanced_hide_shorts_sound_button_summary_off">Le bouton \"Son\" est affiché.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
     <string name="revanced_preference_category_animation_feedback">Animation / Retour d\'expérience</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_title">Désactiver l\'animation du bouton j\'aime</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_on">L\'animation en cascade est désactivé pour le bouton j\'aime.</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_off">L\'animation en cascade est activé pour le bouton j\'aime.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_title">Masquer fond du bouton Lecture &amp; Pause</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_on">Le fond du bouton est masqué.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_off">Le fond du bouton est affiché.</string>

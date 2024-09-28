@@ -287,6 +287,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_related_videos_user_dialog_message">"이 설정은 플레이어 화면에서 로드할 수 있는 최대 레이아웃 수를 제한합니다.
 
 서버 측 변경으로 인해 플레이어 화면의 레이아웃이 변경되면 플레이어 화면에서 의도하지 않은 레이아웃이 숨겨질 수 있습니다."</string>
+    <string name="revanced_related_videos_offset_title">오프셋</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">일반</string>
     <string name="revanced_change_start_page_title">앱 시작 페이지 변경하기</string>
@@ -1122,8 +1123,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
     <string name="revanced_preference_category_animation_feedback">애니메이션 / 피드백</string>
     <string name="revanced_disable_shorts_like_button_fountain_animation_title">좋아요 버튼 애니메이션 비활성화하기</string>
-    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_on">\'좋아요 버튼을 누르면 발생하는 애니메이션\'을 비활성화합니다.</string>
-    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_off">\'좋아요 버튼을 누르면 발생하는 애니메이션\'을 활성화합니다.</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_on">좋아요 버튼 위에 있는 애니메이션을 비활성화합니다.</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_off">좋아요 버튼 위에 있는 애니메이션을 활성화합니다.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_title">재생 &amp; 일시 정지 버튼 배경 숨기기</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_on">버튼 배경이 숨겨집니다.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_off">버튼 배경이 표시됩니다.</string>

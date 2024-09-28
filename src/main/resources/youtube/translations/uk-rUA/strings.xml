@@ -1065,9 +1065,13 @@
     <string name="revanced_hide_shorts_full_video_link_label_summary_on">Мітку посилання відео приховано.</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_off">Мітку посилання відео показується.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
-    <string name="revanced_hide_shorts_save_sound_button_title">Приховати кнопку Зберегти звук в списку відтворення</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">Зберегти звук в списку відтворення приховано.</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">Зберегти звук в списку відтворення показується.</string>
+    <string name="revanced_preference_category_suggested_actions">Пропоновані дії</string>
+    <string name="revanced_hide_shorts_green_screen_button_title">Приховати кнопку Зелений екран</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_on">Кнопку Зелений екран приховано.</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_off">Кнопку Зелений екран показується.</string>
+    <string name="revanced_hide_shorts_save_sound_button_title">Приховати кнопку Зберегти звук</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_on">Кнопку Зберегти звук приховано.</string>
+    <string name="revanced_hide_shorts_save_sound_button_summary_off">Кнопку Зберегти звук показується.</string>
     <string name="revanced_hide_shorts_shop_button_title">Приховати кнопку Магазин</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">Кнопку Магазин приховано.</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">Кнопка Магазин показується.</string>
@@ -1111,6 +1115,9 @@
     <string name="revanced_hide_shorts_sound_button_summary_off">Кнопку Зі звуком показується.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
     <string name="revanced_preference_category_animation_feedback">Анімація / Відгук</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_title">Вимкнути анімацію кнопки Подобається</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_on">Фонтанну анімацію вимкнено над кнопкою Подобається.</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_off">Фонтанну анімацію увімкнено над кнопкою Подобається.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_title">Приховати фон кнопки Відтворити - Призупинити</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_on">Фон кнопки приховано.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_off">Фон кнопки показується.</string>

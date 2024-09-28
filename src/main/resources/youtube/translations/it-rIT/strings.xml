@@ -1067,6 +1067,10 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
     <string name="revanced_hide_shorts_full_video_link_label_summary_on">L\'etichetta del collegamento video è nascosta.</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_off">L\'etichetta del collegamento del video è mostrato.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
+    <string name="revanced_preference_category_suggested_actions">Azioni suggerite</string>
+    <string name="revanced_hide_shorts_green_screen_button_title">Nascondi pulsante schermo verde</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_on">Il pulsante dello schermo verde è nascosto.</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_off">Il pulsante schermo verde è mostrato.</string>
     <string name="revanced_hide_shorts_save_sound_button_title">Nascondi il pulsante Salva suono nella playlist</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_on">Il pulsante Salva suono nella playlist è nascosto.</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_off">Il pulsante Salva suono nella playlist è mostrato.</string>
@@ -1113,6 +1117,9 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
     <string name="revanced_hide_shorts_sound_button_summary_off">Il pulsante suono è mostrato.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
     <string name="revanced_preference_category_animation_feedback">Animazione / Feedback</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_title">Disabilita animazione pulsante Mi piace</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_on">L\'animazione della fontana è disabilitata sopra il pulsante mi piace.</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_off">L\'animazione della fontana è abilitata sopra il pulsante mi piace.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_title">Nascondi lo sfondo del pulsante Riproduci &amp; Pausa</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_on">Lo sfondo del pulsante è nascosto.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_off">Lo sfondo del pulsante è mostrato.</string>

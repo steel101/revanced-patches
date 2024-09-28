@@ -1061,8 +1061,8 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
     <string name="revanced_preference_category_suggested_actions">推奨されるアクション</string>
     <string name="revanced_hide_shorts_green_screen_button_title">グリーンスクリーンボタンを非表示</string>
-    <string name="revanced_hide_shorts_green_screen_button_summary_on">プレーヤーの下部に表示される、「グリーンスクリーン」ボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_green_screen_button_summary_off">プレーヤーの下部に表示される、「グリーンスクリーン」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_on">プレーヤーの下部に表示される「グリーンスクリーン」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_off">プレーヤーの下部に表示される「グリーンスクリーン」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_save_sound_button_title">「保存」ボタンを非表示</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_on">音楽の「保存」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_off">音楽の「保存」ボタンを非表示にします。</string>

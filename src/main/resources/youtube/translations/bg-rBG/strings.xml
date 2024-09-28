@@ -6,6 +6,7 @@
     <!-- Shared -->
     <string name="revanced_extended_settings_title">Настройки ReVanced</string>
     <string name="revanced_extended_settings_search_title">Търсене %s</string>
+    <string name="revanced_extended_reset_to_default_toast">Възстановяване на стандартните стойности.</string>
     <string name="revanced_preference_category_experimental_flag">Експериментални настройки</string>
     <string name="revanced_extended_confirm_user_dialog_title">Желаете ли да продължите?</string>
     <string name="revanced_extended_restart_first_run">Рестартирайте, за да заредите оформлението нормално</string>
@@ -68,6 +69,7 @@
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">Не се показва известие, ако DeArrow не е наличен.</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_title">DeArrow API адрес</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_summary">URL адресът на крайната точка за съхранение на миниатюри DeArrow.</string>
+    <string name="revanced_alt_thumbnail_dearrow_api_url_invalid_toast">Невалиден DeArrow API URL.</string>
     <string name="revanced_alt_thumbnail_stills_about_title">Неподвижни миниатюри</string>
     <string name="revanced_alt_thumbnail_stills_about_summary">Неподвижните кадри се вземат от началото / средата / края на всяко видео. Тези изображения са вградени в YouTube и не се използва външен API.</string>
     <string name="revanced_alt_thumbnail_stills_fast_title">Използване на бързо заснемане на кадри</string>
@@ -242,6 +244,10 @@
 • От канали, за които не сте абонирани (по-малко от 1000 гледания)."</string>
     <string name="revanced_hide_low_views_video_title">Скриване на видеоклипове с малко гледания</string>
     <string name="revanced_hide_low_views_video_summary">Скрийте видеоклипове с по-малко от 1000 гледания от емисията и от канали, за които сте се абонирали.</string>
+    <string name="revanced_hide_upcoming_video_title">ПРЕДСТОЯЩО видео</string>
+    <string name="revanced_hide_upcoming_video_summary">"Скриване на видеоклипове с етикет ПРЕДСТОЯЩО.
+
+Забележка: Активирането на това също ще скрие бутона Уведоми ме."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Филтрирайте по брой гледания</string>
     <string name="revanced_hide_video_by_view_counts_home_title">Фильтр за видео в \"Начало\" по гледания</string>
@@ -262,6 +268,12 @@
     <string name="revanced_hide_video_view_counts_multiplier_default_value">K -&gt; 1 000\nM -&gt; 1 000 000\nB -&gt; 1 000 000 000\nviews -&gt; views</string>
     <string name="revanced_hide_video_by_view_counts_about_title">Относно филтрирането на броя показвания</string>
     <string name="revanced_hide_video_by_view_counts_about_summary">"Начало / Абонамент / Резултатите от търсенето се филтрират, за да скрият видеоклипове с гледания, по-малки или по-големи от определен брой."</string>
+    <string name="revanced_hide_related_videos_title">Скриване в сродни видеоклипове</string>
+    <string name="revanced_hide_related_videos_summary_on">Сродните клипове са скрити.</string>
+    <string name="revanced_hide_related_videos_summary_off">Сродните клипове се показват.</string>
+    <string name="revanced_hide_related_videos_user_dialog_message">"Тази настройка ограничава максималния брой оформления, които могат да бъдат заредени на екрана на плейъра.
+
+Ако оформлението на екрана на плейъра се промени поради промени от страна на сървъра, нежеланите оформления може да бъдат скрити на екрана на плейъра."</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Основни настройки</string>
     <string name="revanced_change_start_page_title">Промяна на началната страница</string>
@@ -281,6 +293,11 @@
     <string name="revanced_change_start_page_entry_subscriptions">Абонаменти</string>
     <string name="revanced_change_start_page_entry_trending">Популярни</string>
     <string name="revanced_change_start_page_entry_watch_later">За Гледане по-късно</string>
+    <string name="revanced_change_start_page_type_title">Промяна на типа на началната страница</string>
+    <string name="revanced_change_start_page_type_summary_on">"Началната страница винаги се променя.
+
+Ограничение: Бутонът за връщане назад в лентата с инструменти може да не работи."</string>
+    <string name="revanced_change_start_page_type_summary_off">Началната страница се променя само веднъж.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Принудителните автоматични аудио пътеки са деактивирани</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">Задължителните аудио записи са деактивирани.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Задължителните аудио записи са активирани.</string>
@@ -400,6 +417,8 @@
     <string name="revanced_miniplayer_opacity_summary">Стойност на прозрачност между 0-100, където 0 е прозрачно.</string>
     <string name="revanced_miniplayer_opacity_invalid_toast">Прозрачността на менюто на плейъра трябва да бъде между 0-100. Нулирайте стойностите по подразбирне.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation bar -->
+    <string name="revanced_preference_screen_navigation_bar_title">Лента за навигация</string>
+    <string name="revanced_preference_screen_navigation_bar_summary">Скриване или показване на елементи от лентата за навигация.</string>
     <string name="revanced_enable_narrow_navigation_buttons_title">Бутони за навигация в тесен стил</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_on">Разстоянието между бутоните за навигация е по-тясно.</string>
     <string name="revanced_enable_narrow_navigation_buttons_summary_off">Разстоянието между бутоните за навигация ежнормално.</string>
@@ -437,6 +456,9 @@
     <string name="revanced_enable_translucent_navigation_bar_title">Полупрозрачна лента за навигация</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_on">Навигационната лента е полупрозрачна.</string>
     <string name="revanced_enable_translucent_navigation_bar_summary_off">Навигационната лента е непрозрачна.</string>
+    <string name="revanced_hide_navigation_bar_title">Скриване лентата за навигация</string>
+    <string name="revanced_hide_navigation_bar_summary_on">Навигационната лента е скрита.</string>
+    <string name="revanced_hide_navigation_bar_summary_off">Навигационната лента се показва.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Меню с настройки</string>
     <string name="revanced_preference_screen_settings_menu_summary">Скриване на елементи в менюто с настройки на YouTube.</string>
@@ -1028,6 +1050,10 @@
     <string name="revanced_hide_shorts_full_video_link_label_summary_on">Етикетът за видео връзка е скрит.</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_off">Етикетът за видео връзка се показва.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
+    <string name="revanced_preference_category_suggested_actions">Предложени действия</string>
+    <string name="revanced_hide_shorts_green_screen_button_title">Зелен бутон на екрана</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_on">Зелен бутон на екрана е скрит.</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_off">Зелен бутон на екрана се показва.</string>
     <string name="revanced_hide_shorts_save_sound_button_title">Бутон за запазване на аудиото в плейлиста</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_on">Бутонът за Запазване в плейлиста е скрит.</string>
     <string name="revanced_hide_shorts_save_sound_button_summary_off">Бутонът за Запазване в плейлиста се показва.</string>
@@ -1074,6 +1100,9 @@
     <string name="revanced_hide_shorts_sound_button_summary_off">Бутона за Звук се показва.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
     <string name="revanced_preference_category_animation_feedback">Анимация / Обратна връзка</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_title">Деактивиране анимацията на бутона „Харесва ми“</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_on">Анимацията на фонтан е деактивирана над бутона „Харесва ми“.</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_off">Анимацията на фонтан е активирана над бутона „Харесва ми“.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_title">Скриване на фона на бутона за възпроизвеждане &amp; и пауза</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_on">Фонът на бутоните е скрит.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_off">Показва се фонът на бутоните.</string>
@@ -1102,6 +1131,9 @@
     <string name="revanced_hide_shorts_navigation_bar_title">Скриване лентата за навигация</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_on">Навигационната лента е скрита.</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_off">Навигационната лента се показва.</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_title">Мярка в проценти на празното пространство</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_summary">Конфигурира процента на височината на оставащото празно пространство, когато лентата за навигация е скрита, между 0 и 100 (%).</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_invalid_toast">Процентът на височината трябва да е между 0-100 (%).</string>
     <string name="revanced_replace_channel_handle_title">Заменете псевдонима на канала</string>
     <string name="revanced_replace_channel_handle_summary_on">Използва се името на канала.</string>
     <string name="revanced_replace_channel_handle_summary_off">Използва се псевдонимът на канала.</string>
