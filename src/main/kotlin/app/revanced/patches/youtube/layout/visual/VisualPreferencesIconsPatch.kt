@@ -32,6 +32,7 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
             "Custom branding icon" to "custom_branding_icon",
             "Extension" to DEFAULT_ICON,
             "Gear" to "gear",
+            "YT alt" to "yt_alt",
             "ReVanced" to "revanced",
             "ReVanced Colored" to "revanced_colored",
         ),
@@ -116,7 +117,7 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
 
         // endregion.
 
-        SettingsPatch.updatePatchStatus(this)
+        SettingsPatch.updatePatchStatus("Visual preferences icons")
     }
 
     override fun close() {
