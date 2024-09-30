@@ -16,17 +16,18 @@ object ShortsActionButtonsPatch : BaseResourcePatch(
     dependencies = setOf(SettingsPatch::class),
     compatiblePackages = COMPATIBLE_PACKAGE
 ) {
-    private const val DEFAULT_ICON = "youtubeoutline"
+    private const val DEFAULT_ICON = "cairo"
     private const val YOUTUBE_ICON = "youtube"
 
     private val IconType = stringPatchOption(
         key = "IconType",
         default = DEFAULT_ICON,
         values = mapOf(
+            "Cairo" to DEFAULT_ICON,
             "Outline" to "outline",
             "OutlineCircle" to "outlinecircle",
             "Round" to "round",
-            "YoutubeOutline" to DEFAULT_ICON,
+            "YoutubeOutline" to "youtubeoutline",
             "YouTube" to YOUTUBE_ICON
         ),
         title = "Shorts icon style ",
@@ -78,6 +79,11 @@ object ShortsActionButtonsPatch : BaseResourcePatch(
                     "ic_right_share_32c.xml"
                 )
             )
+        }
+
+        if (iconType == DEFAULT_ICON) {
+            SettingsPatch.updatePatchStatus(this)
+            return
         }
 
         context.copyResources(
