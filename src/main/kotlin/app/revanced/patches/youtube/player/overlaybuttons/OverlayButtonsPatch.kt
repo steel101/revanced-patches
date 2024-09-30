@@ -212,8 +212,7 @@ object OverlayButtonsPatch : BaseResourcePatch(
                             "@id/timestamps_container" to "14.0dip"
                         )
 
-                        val widerButtonsSpace = WiderButtonsSpace == true
-                        val layoutHeightWidth = if (widerButtonsSpace)
+                        val layoutHeightWidth = if (WiderButtonsSpace == true)
                             "56.0dip"
                         else
                             "48.0dip"
@@ -227,7 +226,7 @@ object OverlayButtonsPatch : BaseResourcePatch(
                                 node.setAttribute("android:layout_height", layoutHeightWidth)
                                 node.setAttribute("android:layout_width", layoutHeightWidth)
                             }
-                        } else if (!widerButtonsSpace && timBarItem.containsKey(id)) {
+                        } else if (timBarItem.containsKey(id)) {
                             node.setAttribute("android:layout_marginBottom", marginBottom)
                             node.setAttribute("android:paddingBottom", timBarItem.getValue(id))
                         }
