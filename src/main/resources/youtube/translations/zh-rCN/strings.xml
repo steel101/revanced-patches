@@ -6,6 +6,7 @@
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">搜索设置</string>
+    <string name="revanced_extended_reset_to_default_toast">重置为默认值</string>
     <string name="revanced_preference_category_experimental_flag">实验性功能</string>
     <string name="revanced_extended_confirm_user_dialog_title">你想继续吗?</string>
     <string name="revanced_extended_restart_first_run">重启应用以正常加载界面布局</string>
@@ -72,6 +73,7 @@
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">如果 DeArrow 不可用，不显示 Toast</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_title">DeArrow API 端点</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_summary">DeArrow 缩略图缓存端点 URL。除非您知道自己在做什么，否则请勿更改</string>
+    <string name="revanced_alt_thumbnail_dearrow_api_url_invalid_toast">无效的 DeArrow API URL</string>
     <string name="revanced_alt_thumbnail_stills_about_title">关于静态视频捕捉</string>
     <string name="revanced_alt_thumbnail_stills_about_summary">静态捕捉是从每个视频的开头/中间/结尾处截取的。这些图像内置于 YouTube 中，不使用外部 API</string>
     <string name="revanced_alt_thumbnail_stills_fast_title">使用快速静态捕捉</string>
@@ -248,8 +250,15 @@
 • 来自未订阅频道且观看次数少于1,000次的视频"</string>
     <string name="revanced_hide_low_views_video_title">隐藏低播放量的视频</string>
     <string name="revanced_hide_low_views_video_summary">从主页隐藏未订阅的频道上传的且播放量少于 1,000 的推荐视频</string>
+    <string name="revanced_hide_upcoming_video_title">隐藏 UPCOMING 视频</string>
+    <string name="revanced_hide_upcoming_video_summary">"隐藏带有 UPCOMING 标签的视频
+
+注意：启用此选项也隐藏通知按钮"</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">观看次数过滤器</string>
+    <string name="revanced_hide_video_by_view_counts_home_title">启用首页播放量过滤器</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_on">首页订阅内容的关键词过滤已启用</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_off">首页订阅内容的关键词过滤已禁用</string>
     <string name="revanced_hide_video_view_counts_greater_than_title">高于播放量</string>
     <string name="revanced_hide_video_view_counts_greater_than_summary">播放量大于此数字的视频将被隐藏。</string>
     <string name="revanced_hide_video_view_counts_less_than_title">低于播放量</string>
@@ -984,15 +993,15 @@
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">隐藏暂停时叠加按钮</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">暂停时叠加按钮已隐藏</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">暂停时叠加按钮已显示</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_title">隐藏付费推广横幅</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_summary_on">付费推广横幅已隐藏</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">付费推广横幅标签已显示</string>
     <string name="revanced_hide_shorts_trends_button_title">隐藏趋势按钮</string>
     <string name="revanced_hide_shorts_trends_button_summary_on">趋势按钮已隐藏</string>
     <string name="revanced_hide_shorts_trends_button_summary_off">趋势按钮已显示</string>
     <string name="revanced_hide_shorts_shopping_button_title">隐藏商店按钮</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">商店按钮已隐藏</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">商店按钮已显示</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_title">隐藏付费推广横幅</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_summary_on">付费推广横幅已隐藏</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">付费推广横幅标签已显示</string>
     <string name="revanced_hide_shorts_info_panel_title">隐藏信息面板</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">信息面板已隐藏</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">信息面板已显示</string>
@@ -1012,9 +1021,6 @@
     <string name="revanced_hide_shorts_full_video_link_label_summary_on">视频链接标签已隐藏</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_off">视频链接标签已显示</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
-    <string name="revanced_hide_shorts_save_sound_button_title">隐藏保存声音到播放列表按钮</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">保存声音到播放列表按钮已隐藏</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">保存声音到播放列表按钮已显示</string>
     <string name="revanced_hide_shorts_shop_button_title">隐藏商店按钮</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">商店按钮已隐藏</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">商店按钮已显示</string>
@@ -1489,7 +1495,6 @@
     <string name="revanced_spoof_streaming_data_user_dialog_message">关闭此选项可能会导致视频不能正常播放</string>
     <string name="revanced_spoof_streaming_data_type_title">默认客户端</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Android 嵌入式播放器</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android 测试套件</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
@@ -1498,7 +1503,7 @@
     <string name="revanced_spoof_streaming_data_type_entry_web">网址</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">伪装副作用</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• 电影或付费视频可能无法播放"</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• 音轨菜单缺失</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• 音轨菜单缺失"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• 音轨菜单缺失"</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• 视频可能无法播放</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">强制使用 iOS AVC (H.264)</string>

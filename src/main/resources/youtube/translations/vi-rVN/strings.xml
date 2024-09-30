@@ -993,7 +993,7 @@ Mở rộng mô tả video có thể không hoạt động nếu bạn lưu chu�
     <string name="revanced_expand_video_description_strings_default_value">Mô tả</string>
     <!-- PreferenceScreen: Shorts -->
     <string name="revanced_preference_screen_shorts_title">Shorts</string>
-    <string name="revanced_disable_resuming_shorts_player_title">Tắt tiếp tục trình phát Shorts</string>
+    <string name="revanced_disable_resuming_shorts_player_title">Tắt tính năng tiếp tục trình phát Shorts</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">Trinh phát Shorts sẽ không tiếp tục khi ứng dụng khởi chạy.</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">Trinh phát Shorts sẽ tiếp tục khi ứng dụng khởi chạy.</string>
     <string name="revanced_hide_shorts_floating_button_title">Ẩn nút nổi</string>
@@ -1038,15 +1038,18 @@ Hạn chế: Tiêu đề chính thức trong kết quả tìm kiếm sẽ đư�
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">Ẩn các nút phủ lên khi tạm dừng</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">Đã ẩn các nút phủ lên khi tạm dừng.</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">Đã hiện các nút phủ lên khi tạm dừng.</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_title">Ẩn nhãn quảng cáo được tài trợ</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_summary_on">Đã ẩn Nhãn quảng cáo được tài trợ.</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">Đã hiện Nhãn quảng cáo được tài trợ.</string>
     <string name="revanced_hide_shorts_trends_button_title">Ẩn nút Thịnh hành</string>
     <string name="revanced_hide_shorts_trends_button_summary_on">Đã ẩn nút Thịnh hành.</string>
     <string name="revanced_hide_shorts_trends_button_summary_off">Đã hiện nút Thịnh hành.</string>
     <string name="revanced_hide_shorts_shopping_button_title">Ẩn nút Mua sắm</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">Đã ẩn nút Mua sắm.</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">Đã hiện nút Mua sắm.</string>
+    <string name="revanced_hide_shorts_stickers_title">Ẩn nhãn dán</string>
+    <string name="revanced_hide_shorts_stickers_summary_on">Đã ẩn nhãn dán.</string>
+    <string name="revanced_hide_shorts_stickers_summary_off">Đã hiện nhãn dán.</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_title">Ẩn nhãn quảng cáo được tài trợ</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_summary_on">Đã ẩn Nhãn quảng cáo được tài trợ.</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">Đã hiện Nhãn quảng cáo được tài trợ.</string>
     <string name="revanced_hide_shorts_info_panel_title">Ẩn Bảng thông tin</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Đã ẩn Bảng thông tin.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Đã hiện Bảng thông tin.</string>
@@ -1070,9 +1073,9 @@ Hạn chế: Tiêu đề chính thức trong kết quả tìm kiếm sẽ đư�
     <string name="revanced_hide_shorts_green_screen_button_title">Ẩn nút Phông xanh</string>
     <string name="revanced_hide_shorts_green_screen_button_summary_on">Đã ẩn nút Phông xanh.</string>
     <string name="revanced_hide_shorts_green_screen_button_summary_off">Đã hiện nút Phông xanh.</string>
-    <string name="revanced_hide_shorts_save_sound_button_title">Ẩn nút Lưu âm thanh</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">Đã ẩn nút Lưu âm thanh.</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">Đã hiện nút Lưu âm thanh.</string>
+    <string name="revanced_hide_shorts_save_music_button_title">Ẩn nút Lưu nhạc</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_on">Đã ẩn nút Lưu nhạc.</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_off">Đã hiện nút lưu nhạc.</string>
     <string name="revanced_hide_shorts_shop_button_title">Nút Cửa hàng</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">Đã ẩn nút Cửa hàng.</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">Đã hiện nút Cửa hàng.</string>
@@ -1412,7 +1415,7 @@ Hạn chế: Lượt không thích có thể không hiển thị nếu người 
     <string name="revanced_sb_general_min_duration_sum">Các đoạn ngắn hơn giá trị này (tính bằng giây) sẽ không được hiển thị hoặc bị bỏ qua.</string>
     <string name="revanced_sb_general_min_duration_invalid">Thời lượng không hợp lệ.</string>
     <string name="revanced_sb_general_uuid">Id người dùng riêng tư của bạn</string>
-    <string name="revanced_sb_general_uuid_sum">Bạn nên giữ bí mật mã này. Nó như mật khẩu vậy, do đó không nên chia sẻ với người khác. Nếu ai đó có mã này, họ có thể giả mạo bạn.</string>
+    <string name="revanced_sb_general_uuid_sum">Mã Id này giống như mật khẩu của bạn vậy, do đó không nên chia sẻ với bất kỳ ai. Nếu ai đó có được nó, họ có thể mạo danh bạn.</string>
     <string name="revanced_sb_general_uuid_invalid">ID người dùng riêng tư phải dài ít nhất 30 ký tự.</string>
     <string name="revanced_sb_general_api_url">Thay đổi URL API</string>
     <string name="revanced_sb_general_api_url_sum">Địa chỉ SponsorBlock sử dụng để liên lạc đến máy chủ.</string>
@@ -1558,7 +1561,6 @@ Nhấn vào Tiếp tục và tắt tối ưu hóa pin."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">Việc tắt cài đặt này có thể gây ra sự cố khi phát video.</string>
     <string name="revanced_spoof_streaming_data_type_title">Máy khách mặc định</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Trình phát nhúng Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Thử nghiệm Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
@@ -1570,7 +1572,8 @@ Nhấn vào Tiếp tục và tắt tối ưu hóa pin."</string>
 • Video phát trực tiếp sẽ khởi chạy từ đầu.
 • Video có thể kết thúc sớm 1 giây.
 • Không có bộ giải mã âm thanh opus."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Mục Bản âm thanh bị thiếu.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Mục Bản âm thanh bị thiếu.
+• Mục 'Âm lượng ổn định' không khả dụng."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Mục Bản âm thanh bị thiếu.
 • Mục 'Âm lượng ổn định' không khả dụng."</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Video có thể không phát được.</string>
@@ -1614,7 +1617,6 @@ AVC (H.264) có độ phân giải tối đa 1080p, và phát video sẽ dùng n
     <string name="revanced_icon_revancify_blue">Revancify Xanh</string>
     <string name="revanced_icon_revancify_red">Revancify Đỏ</string>
     <string name="revanced_icon_youtube">YouTube</string>
-    <string name="revanced_icon_youtube_minimal_header">YouTube (Tiêu đề tối giản)</string>
     <string name="revanced_label_default">Nguyên gốc</string>
     <string name="revanced_patches_excluded">Không bao gồm</string>
     <string name="revanced_patches_included">Đã bao gồm</string>

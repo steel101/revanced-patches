@@ -6,7 +6,7 @@
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Cerca %s</string>
-    <string name="revanced_extended_reset_to_default_toast">Ripristina valori predefiniti.</string>
+    <string name="revanced_extended_reset_to_default_toast">Ripristina ai valori predefiniti.</string>
     <string name="revanced_preference_category_experimental_flag">Opzioni sperimentali</string>
     <string name="revanced_extended_confirm_user_dialog_title">Desideri procedere?</string>
     <string name="revanced_extended_restart_first_run">Riavvia per caricare l\'interfaccia normalmente</string>
@@ -73,7 +73,7 @@ Tocca qui per saperne di più su DeArrow."</string>
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">Notifica toast nascosta DeArrow non è disponibile.</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_title">Endpoint API di DeArrow</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_summary">L\'URL dell\'endpoint della cache delle anteprime DeArrow.</string>
-    <string name="revanced_alt_thumbnail_dearrow_api_url_invalid_toast">Url API DeArrow Non Valido.</string>
+    <string name="revanced_alt_thumbnail_dearrow_api_url_invalid_toast">URL API DeArrow non valido.</string>
     <string name="revanced_alt_thumbnail_stills_about_title">Catture statiche del video</string>
     <string name="revanced_alt_thumbnail_stills_about_summary">Le catture statiche sono prese dall\'inizio, da metà o alla fine di ogni video. Queste immagini sono integrate in YouTube e non viene usata nessuna API esterna.</string>
     <string name="revanced_alt_thumbnail_stills_fast_title">Attiva catture statiche veloci</string>
@@ -249,16 +249,16 @@ Limitazioni:
 • Video con frasi come 'Persone guardano anche' sotto."</string>
     <string name="revanced_hide_low_views_video_title">Nascondi video con poche visualizzazioni</string>
     <string name="revanced_hide_low_views_video_summary">Nascondi video con meno di 1.000 visualizzazioni dalla home che sono stati caricati dai canali a cui non si è iscritti.</string>
-    <string name="revanced_hide_upcoming_video_title">Nascondi video PROSSIMAMENTE</string>
-    <string name="revanced_hide_upcoming_video_summary">"Nascondi video con l'etichetta PROSSIMAMENTE.
+    <string name="revanced_hide_upcoming_video_title">Nascondi i video PROSSIMAMENTE</string>
+    <string name="revanced_hide_upcoming_video_summary">"Nascondi i video con l'etichetta PROSSIMAMENTE.
 
-Nota: Abilitare questo nasconde anche il pulsante Notificarmi."</string>
+Nota: Abilitare questo nasconde anche il pulsante Notificami."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Filtro sul numero di visualizzazioni</string>
-    <string name="revanced_hide_video_by_view_counts_home_title">Nascondi video home per visualizzazioni</string>
-    <string name="revanced_hide_video_by_view_counts_home_summary_on">I video della scheda Home feed sono filtrati.</string>
-    <string name="revanced_hide_video_by_view_counts_home_summary_off">I video della scheda Home feed non sono filtrati.</string>
-    <string name="revanced_hide_video_by_view_counts_search_title">Nascondi i risultati della ricerca da visualizzazioni</string>
+    <string name="revanced_hide_video_by_view_counts_home_title">Nascondi video della scheda Home per visualizzazioni</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_on">I video della scheda Home sono filtrati.</string>
+    <string name="revanced_hide_video_by_view_counts_home_summary_off">I video della scheda Home non sono filtrati.</string>
+    <string name="revanced_hide_video_by_view_counts_search_title">Nascondi i risultati della ricerca per visualizzazioni</string>
     <string name="revanced_hide_video_by_view_counts_search_summary_on">I risultati della ricerca sono filtrati.</string>
     <string name="revanced_hide_video_by_view_counts_search_summary_off">I risultati di ricerca non sono filtrati.</string>
     <string name="revanced_hide_video_by_view_counts_subscriptions_title">Nascondi i video della scheda iscrizioni per visualizzazioni</string>
@@ -283,6 +283,7 @@ Limitazioni:
     <string name="revanced_hide_related_videos_user_dialog_message">"Questa impostazione limita il numero massimo di layout che possono essere caricati sulla schermata del player.
 
 Se il layout della schermata del player cambia a causa di modifiche lato server, i layout non intenzionali possono essere nascosti sullo schermo del giocatore."</string>
+    <string name="revanced_related_videos_offset_title">Sfalsamento</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Generale</string>
     <string name="revanced_change_start_page_title">Cambia la scheda iniziale</string>
@@ -1039,15 +1040,18 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">Nascondi i pulsanti di sovrapposizione in pausa</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">I pulsanti di sovrapposizione in pausa sono nascosti.</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">I pulsanti di sovrapposizione in pausa sono mostrati.</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_title">Nascondi l\'etichetta della promozione a pagamento</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_summary_on">L\'etichetta della promozione a pagamento è nascosta.</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">L\'etichetta della promozione a pagamento è mostrato.</string>
     <string name="revanced_hide_shorts_trends_button_title">Nascondi pulsante Tendenze</string>
     <string name="revanced_hide_shorts_trends_button_summary_on">Il pulsante Tendenze è nascosto.</string>
     <string name="revanced_hide_shorts_trends_button_summary_off">Il pulsante Tendenze è mostrato.</string>
     <string name="revanced_hide_shorts_shopping_button_title">Nascondi pulsante Shopping</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">Il pulsante shopping è nascosto.</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">Il pulsante shopping è mostrato.</string>
+    <string name="revanced_hide_shorts_stickers_title">Nascondi adesivi</string>
+    <string name="revanced_hide_shorts_stickers_summary_on">Gli adesivi sono nascosti.</string>
+    <string name="revanced_hide_shorts_stickers_summary_off">Gli adesivi sono visibili.</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_title">Nascondi l\'etichetta della promozione a pagamento</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_summary_on">L\'etichetta della promozione a pagamento è nascosta.</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">L\'etichetta della promozione a pagamento è mostrato.</string>
     <string name="revanced_hide_shorts_info_panel_title">Nascondi i pannelli informativi</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">I pannelli informativi sono nascosti.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">I pannelli informativi sono mostrati.</string>
@@ -1071,9 +1075,9 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
     <string name="revanced_hide_shorts_green_screen_button_title">Nascondi pulsante schermo verde</string>
     <string name="revanced_hide_shorts_green_screen_button_summary_on">Il pulsante dello schermo verde è nascosto.</string>
     <string name="revanced_hide_shorts_green_screen_button_summary_off">Il pulsante schermo verde è mostrato.</string>
-    <string name="revanced_hide_shorts_save_sound_button_title">Nascondi il pulsante Salva suono nella playlist</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">Il pulsante Salva suono nella playlist è nascosto.</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">Il pulsante Salva suono nella playlist è mostrato.</string>
+    <string name="revanced_hide_shorts_save_music_button_title">Nascondi il pulsante Salva musica</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_on">Il pulsante Salva musica è nascosto.</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_off">Il pulsante Salva musica è visibile.</string>
     <string name="revanced_hide_shorts_shop_button_title">Nascondi il pulsante Negozio</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">Il pulsante Negozio è nascosto.</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">Il pulsante negozio è mostrato.</string>
@@ -1556,7 +1560,6 @@ Tocca il pulsante continua e disabilita le ottimizzazioni della batteria."</stri
     <string name="revanced_spoof_streaming_data_user_dialog_message">Disattivare questa impostazione potrebbe causare problemi di riproduzione video.</string>
     <string name="revanced_spoof_streaming_data_type_title">Client predefinito</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Riproduttore Incorporato Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Suite di test Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
@@ -1565,7 +1568,7 @@ Tocca il pulsante continua e disabilita le ottimizzazioni della batteria."</stri
     <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Effetti collaterali del camuffamento</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• I film o i video a pagamento potrebbero non essere riprodotti."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• il menu traccia audio è mancante.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• il menu traccia audio è mancante."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• il menu traccia audio è mancante."</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Il video potrebbe non essere riprodotto.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Forza iOS AVC (H.264)</string>
@@ -1608,7 +1611,6 @@ AVC (H. 264) ha una risoluzione massima di 1080p e la riproduzione video utilizz
     <string name="revanced_icon_revancify_blue">Revancify Blu</string>
     <string name="revanced_icon_revancify_red">Revancify Rosso</string>
     <string name="revanced_icon_youtube">YouTube</string>
-    <string name="revanced_icon_youtube_minimal_header">YouTube (Intestazione minima)</string>
     <string name="revanced_label_default">Inventario</string>
     <string name="revanced_patches_excluded">Escluso</string>
     <string name="revanced_patches_included">Incluso</string>

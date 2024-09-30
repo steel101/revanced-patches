@@ -943,14 +943,14 @@ Bilinen sorun: Arama sonuçlarındaki resmi başlıklar da gizlenebiliyor."</str
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">Duraklama katmanı düğmelerini gizle</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">Duraklama katmanı düğmeleri gizli.</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">Duraklama katmanı düğmeleri görünür.</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_title">Ücretli tanıtım etiketini gizle</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_summary_on">Ücretli tanıtım etiketi gizli.</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">Ücretli tanıtım etiketi gösteriliyor.</string>
     <string name="revanced_hide_shorts_trends_button_title">Trends butonunu gizle</string>
     <string name="revanced_hide_shorts_trends_button_summary_on">Trend butonu gizli.</string>
     <string name="revanced_hide_shorts_trends_button_summary_off">Trend butonu görünür.</string>
     <string name="revanced_hide_shorts_shopping_button_title">Alışveriş butonunu gizle</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">Alışveriş butonu gizli.</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_title">Ücretli tanıtım etiketini gizle</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_summary_on">Ücretli tanıtım etiketi gizli.</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">Ücretli tanıtım etiketi gösteriliyor.</string>
     <string name="revanced_hide_shorts_info_panel_title">Bilgi panellerini gizle</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Bilgi panelleri gizleniyor.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Bilgi panelleri gizlenmiyor.</string>
@@ -970,9 +970,6 @@ Bilinen sorun: Arama sonuçlarındaki resmi başlıklar da gizlenebiliyor."</str
     <string name="revanced_hide_shorts_full_video_link_label_summary_on">Video bağlantı etiketi gizlendi.</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_off">Video bağlantı etiketi gösteriliyor</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
-    <string name="revanced_hide_shorts_save_sound_button_title">Sesi oynatma listesine kaydetme butonunu gizle</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">Sesi oynatma listesine kaydetme butonu gizleniyor</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">Sesi oynatma listesine kaydetme butonu gösteriliyor.</string>
     <string name="revanced_hide_shorts_shop_button_title">Mağaza düğmesini gizle</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">Mağaza düğmesi gizli.</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">Mağaza düğmesi görünür.</string>

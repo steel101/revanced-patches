@@ -281,6 +281,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_related_videos_user_dialog_message">"これを有効にすると、プレーヤー画面に読み込まれるレイアウトの最大数を制限します。
 
 注意: サーバー側の変更によりプレーヤー画面のレイアウトが変更された場合、意図しないレイアウトがプレーヤー画面上から非表示になる可能性があります。"</string>
+    <string name="revanced_related_videos_offset_title">オフセット</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">全般</string>
     <string name="revanced_change_start_page_title">起動時のページを変更</string>
@@ -1031,15 +1032,18 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">一時停止中のオーバーレイボタンを非表示</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">一時停止中に表示されるオーバーレイボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">一時停止中に表示されるオーバーレイボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_title">有料プロモーションラベルを非表示</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_summary_on">プレーヤー左上の「プロモーションを含みます」を非表示にします。</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">プレーヤー左上の「プロモーションを含みます」を非表示にします。</string>
     <string name="revanced_hide_shorts_trends_button_title">「トレンド」ボタンを非表示</string>
     <string name="revanced_hide_shorts_trends_button_summary_on">「トレンド」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_trends_button_summary_off">「トレンド」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_shopping_button_title">「購入」ボタンを非表示</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">ショートで左下に表示される「購入」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">ショートで左下に表示される「購入」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_stickers_title">ステッカーを非表示</string>
+    <string name="revanced_hide_shorts_stickers_summary_on">ステッカーを非表示にします。</string>
+    <string name="revanced_hide_shorts_stickers_summary_off">ステッカーを非表示にします。</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_title">有料プロモーションラベルを非表示</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_summary_on">プレーヤー左上の「プロモーションを含みます」を非表示にします。</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">プレーヤー左上の「プロモーションを含みます」を非表示にします。</string>
     <string name="revanced_hide_shorts_info_panel_title">情報パネルを非表示</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">情報パネルを非表示にします。</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">情報パネルを非表示にします。</string>
@@ -1063,9 +1067,9 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_shorts_green_screen_button_title">グリーンスクリーンボタンを非表示</string>
     <string name="revanced_hide_shorts_green_screen_button_summary_on">プレーヤーの下部に表示される「グリーンスクリーン」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_green_screen_button_summary_off">プレーヤーの下部に表示される「グリーンスクリーン」ボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_save_sound_button_title">「保存」ボタンを非表示</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">音楽の「保存」ボタンを非表示にします。</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">音楽の「保存」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_save_music_button_title">保存ボタンを非表示</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_on">楽曲の「保存」ボタンを非表示にします。</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_off">楽曲の「保存」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_shop_button_title">「ショップ」ボタンを非表示</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">「ショップ」ボタンを非表示にします。</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">「ショップ」ボタンを非表示にします。</string>
@@ -1553,7 +1557,6 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_spoof_streaming_data_user_dialog_message">この設定をオフにした場合、バッファリングの問題が発生する可能性があります。</string>
     <string name="revanced_spoof_streaming_data_type_title">偽装するクライアントの種類</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Android 埋め込みプレーヤー</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android Testsuite</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
@@ -1565,7 +1568,8 @@ DeArrowの詳細については、ここをタップしてください。"</stri
 •ライブは最初から再生されます。
 • 動画が 1 秒早く終了する場合があります。
 • Opus オーディオ コーデックは使用できません。"</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">・「音声トラック」メニューは表示されません。</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"・「音声トラック」メニューは表示されません。
+・「一定音量」は使用できません。"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"・「音声トラック」メニューは表示されません。
 • 「一定音量」は使用できません。"</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• 動画が再生できない可能性があります。</string>
@@ -1609,7 +1613,6 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_icon_revancify_blue">Revancify Blue</string>
     <string name="revanced_icon_revancify_red">Revancify Red</string>
     <string name="revanced_icon_youtube">YouTube</string>
-    <string name="revanced_icon_youtube_minimal_header">YouTube (ロゴのみ)</string>
     <string name="revanced_label_default">オリジナル</string>
     <string name="revanced_patches_excluded">除外されています</string>
     <string name="revanced_patches_included">適用されています</string>
