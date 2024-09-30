@@ -212,7 +212,8 @@ object OverlayButtonsPatch : BaseResourcePatch(
                             "@id/timestamps_container" to "14.0dip"
                         )
 
-                        val layoutHeightWidth = if (WiderButtonsSpace == true)
+                        val widerButtonsSpace = WiderButtonsSpace == true
+                        val layoutHeightWidth = if (widerButtonsSpace)
                             "56.0dip"
                         else
                             "48.0dip"
@@ -228,7 +229,9 @@ object OverlayButtonsPatch : BaseResourcePatch(
                             }
                         } else if (timBarItem.containsKey(id)) {
                             node.setAttribute("android:layout_marginBottom", marginBottom)
-                            node.setAttribute("android:paddingBottom", timBarItem.getValue(id))
+                            if (!widerButtonsSpace) {
+                                node.setAttribute("android:paddingBottom", timBarItem.getValue(id))
+                            }
                         }
                     }
                 }
