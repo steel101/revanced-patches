@@ -287,6 +287,7 @@
     <string name="revanced_hide_related_videos_user_dialog_message">"يحد هذا الإعداد من الحد الأقصى لعدد التخطيطات التي يمكن تحميلها على شاشة المشغل.
 
 إذا تغير تخطيط شاشة المشغل بسبب تغييرات على جانب الخادم، فقد يتم إخفاء التخطيطات غير المقصودة على شاشة المشغل."</string>
+    <string name="revanced_related_videos_offset_title">Offset</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">عام</string>
     <string name="revanced_change_start_page_title">تغيير صفحة البداية</string>
@@ -334,10 +335,12 @@
     <string name="revanced_hide_snack_bar_summary_off">يتم عرض شريط Snack Bar.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">إزالة مربع حوار تقدير المشاهد</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"يزيل مربع حوار تقدير المشاهد. هذا لا يتجاوز القيود العمرية. إنه يقبل ذلك تلقائيًا."</string>
-    <string name="revanced_enable_phone_layout_title">تمكين تخطيط الجوَّال</string>
-    <string name="revanced_enable_phone_layout_summary">محاكاة Dpi لاستخدام بعض تخطيطات الجوال.</string>
-    <string name="revanced_enable_tablet_layout_title">تمكين تخطيط الجهاز اللوحي</string>
-    <string name="revanced_enable_tablet_layout_summary">محاكاة Dpi لاستخدام بعض تخطيطات الجهاز اللوحي.</string>
+    <string name="revanced_change_layout_title">تغيير التخطيط</string>
+    <string name="revanced_change_layout_entry_1">الأساسي</string>
+    <string name="revanced_change_layout_entry_2">الجوّال</string>
+    <string name="revanced_change_layout_entry_3">الجوّال (الحد الأقصى 480 dip)</string>
+    <string name="revanced_change_layout_entry_4">الجهاز اللوحي</string>
+    <string name="revanced_change_layout_entry_5">الجهاز اللوحي (الحد الأدنى 600 dip)</string>
     <string name="revanced_spoof_app_version_title">إصدار تطبيق وهمي</string>
     <string name="revanced_spoof_app_version_summary_on">تم تغيير اصدار التطبيق</string>
     <string name="revanced_spoof_app_version_summary_off">لم يتم تغيير اصدار التطبيق</string>
@@ -1568,6 +1571,8 @@
     <string name="revanced_spoof_streaming_data_user_dialog_message">إيقاف تشغيل هذا الإعداد قد يسبب مشاكل في تشغيل الفيديو.</string>
     <string name="revanced_spoof_streaming_data_type_title">العميل الافتراضي</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android Creator</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">مشغل Android المضمّن</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android Testsuite</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>

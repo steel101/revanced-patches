@@ -331,10 +331,12 @@ Playlists
     <string name="revanced_remove_viewer_discretion_dialog_title">Παράθυρο ηλικιακού περιορισμού</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Αφαίρεση του παραθύρου προειδοποίησης ηλικιακού περιορισμού.
 Αυτό δεν παρακάμπτει τον ηλικιακό περιορισμό, απλά τον αποδέχεται αυτόματα."</string>
-    <string name="revanced_enable_phone_layout_title">Λειτουργία διεπαφής κινητού</string>
-    <string name="revanced_enable_phone_layout_summary">Παραποίηση του dpi συσκευής ώστε να χρησιμοποιηθεί η διεπαφή κινητού.</string>
-    <string name="revanced_enable_tablet_layout_title">Λειτουργία διεπαφής τάμπλετ</string>
-    <string name="revanced_enable_tablet_layout_summary">Παραποίηση του dpi συσκευής ώστε να χρησιμοποιηθεί η διεπαφή τάμπλετ.</string>
+    <string name="revanced_change_layout_title">Αλλαγή διεπαφής</string>
+    <string name="revanced_change_layout_entry_1">Προεπιλογή</string>
+    <string name="revanced_change_layout_entry_2">Κινητό</string>
+    <string name="revanced_change_layout_entry_3">Κινητό (Μέγιστο dpi 480)</string>
+    <string name="revanced_change_layout_entry_4">Τάμπλετ</string>
+    <string name="revanced_change_layout_entry_5">Τάμπλετ (Μέγιστο dpi 600)</string>
     <string name="revanced_spoof_app_version_title">Τροποποίηση έκδοσης εφαρμογής</string>
     <string name="revanced_spoof_app_version_summary_on">Η έκδοση τροποποιείται.</string>
     <string name="revanced_spoof_app_version_summary_off">Η έκδοση δεν τροποποιείται.</string>

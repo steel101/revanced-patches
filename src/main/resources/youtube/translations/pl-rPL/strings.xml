@@ -333,10 +333,12 @@ Ograniczenie: Przycisk wstecz na pasku narzędzi może nie działać."</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Usuń okno dialogowe treści ograniczonej do oglądania</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Usuwa okno dialogowe treści ograniczonej do oglądania.
 Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie."</string>
-    <string name="revanced_enable_phone_layout_title">Układ telefonu</string>
-    <string name="revanced_enable_phone_layout_summary">Oszukuje dpi, aby używać układu telefonu</string>
-    <string name="revanced_enable_tablet_layout_title">Układ tabletu</string>
-    <string name="revanced_enable_tablet_layout_summary">Oszukuje dpi, aby używać układu tabletu</string>
+    <string name="revanced_change_layout_title">Układ aplikacji</string>
+    <string name="revanced_change_layout_entry_1">Oryginalny</string>
+    <string name="revanced_change_layout_entry_2">Telefonowy</string>
+    <string name="revanced_change_layout_entry_3">Telefonowy (max. 480 dpi)</string>
+    <string name="revanced_change_layout_entry_4">Tabletowy</string>
+    <string name="revanced_change_layout_entry_5">Tabletowy (max. 600 dpi)</string>
     <string name="revanced_spoof_app_version_title">Oszukiwanie wersji aplikacji</string>
     <string name="revanced_spoof_app_version_summary_on">Włączone</string>
     <string name="revanced_spoof_app_version_summary_off">Wyłączone</string>
@@ -1044,6 +1046,9 @@ Ograniczenie: Nagłówki z tytułami będą ukryte w wynikach wyszukiwania."</st
     <string name="revanced_hide_shorts_shopping_button_title">Przycisk od kupowania</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">Ukryty</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">Widoczny</string>
+    <string name="revanced_hide_shorts_stickers_title">Naklejki</string>
+    <string name="revanced_hide_shorts_stickers_summary_on">Ukryte</string>
+    <string name="revanced_hide_shorts_stickers_summary_off">Widoczne</string>
     <string name="revanced_hide_shorts_paid_promotion_label_title">Etykiety oznaczające płatne promocje</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_on">Ukryte</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_off">Widoczne</string>
@@ -1070,6 +1075,9 @@ Ograniczenie: Nagłówki z tytułami będą ukryte w wynikach wyszukiwania."</st
     <string name="revanced_hide_shorts_green_screen_button_title">Przycisk od greenscreena</string>
     <string name="revanced_hide_shorts_green_screen_button_summary_on">Ukryty</string>
     <string name="revanced_hide_shorts_green_screen_button_summary_off">Widoczny</string>
+    <string name="revanced_hide_shorts_save_music_button_title">Przycisk od zapisywania muzyki</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_on">Ukryty</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_off">Widoczny</string>
     <string name="revanced_hide_shorts_shop_button_title">Przycisk do sklepu</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">Ukryty</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">Widoczny</string>
@@ -1555,6 +1563,8 @@ Kontynuuj i wyłącz optymalizację baterii."</string>
     <string name="revanced_spoof_streaming_data_user_dialog_message">Wyłączenie tej opcji może spowodować problemy z odtwarzaniem filmów.</string>
     <string name="revanced_spoof_streaming_data_type_title">Domyślny klient</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android Creator</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Wbudowany odtwarzacz Androida</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Klient Testowy Androida</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
@@ -1566,7 +1576,8 @@ Kontynuuj i wyłącz optymalizację baterii."</string>
 • Transmisje na żywo rozpoczynają się od początku
 • Filmy mogą kończyć się o 1 sekundę wcześniej
 • Kodek opus jest niedostępny"</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Brakuje menu od ścieżki dźwiękowej"</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Brakuje menu od ścieżki dźwiękowej
+• Stabilna głośność jest niedostępna"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Brakuje menu od ścieżki dźwiękowej
 • Stabilna głośność jest niedostępna"</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Filmy mogą się nie odtwarzać</string>

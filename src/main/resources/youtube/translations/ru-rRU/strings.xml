@@ -296,6 +296,7 @@ Shorts
     <string name="revanced_hide_related_videos_user_dialog_message">"Этот параметр ограничивает максимальное количество макетов, которые могут быть загружены на экране плеера.
 
 Если макет экрана проигрывателя меняется из-за изменений на стороне сервера, незапланированные макеты могут быть скрыты на экране плеера."</string>
+    <string name="revanced_related_videos_offset_title">Оффсет - Алгоритм выдачи похожих видео</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Основные настройки</string>
     <string name="revanced_change_start_page_title">Начальная страница</string>
@@ -342,10 +343,12 @@ Shorts
     <string name="revanced_hide_snack_bar_summary_off">Виджет коротких уведомлений отображен.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Скрыть диалог возрастного ограничения</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Возрастные ограничения будут приниматься автоматически."</string>
-    <string name="revanced_enable_phone_layout_title">Телефонный интерфейс</string>
-    <string name="revanced_enable_phone_layout_summary">Подмена DPI для телефонного интерфейса.</string>
-    <string name="revanced_enable_tablet_layout_title">Планшетный интерфейс</string>
-    <string name="revanced_enable_tablet_layout_summary">Подмена DPI для планшетного интерфейса.</string>
+    <string name="revanced_change_layout_title">Изменить макет</string>
+    <string name="revanced_change_layout_entry_1">Оригинал</string>
+    <string name="revanced_change_layout_entry_2">Телефон</string>
+    <string name="revanced_change_layout_entry_3">Телефон (Макс. 480 dip)</string>
+    <string name="revanced_change_layout_entry_4">Планшет</string>
+    <string name="revanced_change_layout_entry_5">Планшет (Мин. 600 dip)</string>
     <string name="revanced_spoof_app_version_title">Подмена версии приложения</string>
     <string name="revanced_spoof_app_version_summary_on">Версия приложения подменена</string>
     <string name="revanced_spoof_app_version_summary_off">Версия приложения не подменена</string>
@@ -1057,6 +1060,9 @@ Shorts
     <string name="revanced_hide_shorts_shopping_button_title">Кнопка \"Покупки\"</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">Кнопка \"Покупки\" скрыта.</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">Кнопка \"Покупки\" отображена.</string>
+    <string name="revanced_hide_shorts_stickers_title">Стикеры</string>
+    <string name="revanced_hide_shorts_stickers_summary_on">Стикеры скрыты.</string>
+    <string name="revanced_hide_shorts_stickers_summary_off">Стикеры отображены.</string>
     <string name="revanced_hide_shorts_paid_promotion_label_title">Метка \"Содержит прямую рекламу\"</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_on">Метка \"Содержит прямую рекламу\" скрыта.</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_off">Метка \"Содержит прямую рекламу\" отображена.</string>
@@ -1083,6 +1089,13 @@ Shorts
     <string name="revanced_hide_shorts_full_video_link_label_summary_on">Метка видео ссылки скрыта.</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_off">Метка видео ссылки отображена.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
+    <string name="revanced_preference_category_suggested_actions">Предложенные действия</string>
+    <string name="revanced_hide_shorts_green_screen_button_title">Кнопка зеленого экрана</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_on">Кнопка зеленого экрана скрыта.</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_off">Кнопка зеленого экрана отображена.</string>
+    <string name="revanced_hide_shorts_save_music_button_title">Кнопка \"Сохранить музыку\"</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_on">Кнопка \"Сохранить музыку\" скрыта.</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_off">Кнопка \"Сохранить музыку\" отображена.</string>
     <string name="revanced_hide_shorts_shop_button_title">Кнопка \"Магазин\"</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">Кнопка \"Магазин\" скрыта.</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">Кнопка \"Магазин\" отображена.</string>
@@ -1126,6 +1139,9 @@ Shorts
     <string name="revanced_hide_shorts_sound_button_summary_off">Кнопка \"Трек\" отображена.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
     <string name="revanced_preference_category_animation_feedback">Анимация / Обратная связь</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_title">Анимация кнопки \"Лайк\"</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_on">Анимация кнопки \"Лайк\" отключена.</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_off">Анимация кнопки \"Лайк\" включена.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_title">Фон кнопки \"Воспроизведение\" - \"Пауза\"</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_on">Фон скрыт.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_off">Фон отображен.</string>
@@ -1568,6 +1584,8 @@ Shorts
     <string name="revanced_spoof_streaming_data_user_dialog_message">Отключение этой настройки вызовет проблемы с воспроизведением видео.</string>
     <string name="revanced_spoof_streaming_data_type_title">Клиент по умолчанию</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android Создатель</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Встроенный Android плеер</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android Тестовый набор</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>

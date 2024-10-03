@@ -333,10 +333,12 @@ Limitación: Es posible que el botón Atrás de la barra de herramientas no func
     <string name="revanced_remove_viewer_discretion_dialog_title">Eliminar diálogo de discreción del espectador</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Elimina el diálogo de discreción del espectador.
 Esto no evita la restricción de edad. Solo la acepta automáticamente."</string>
-    <string name="revanced_enable_phone_layout_title">Activar diseño de teléfono</string>
-    <string name="revanced_enable_phone_layout_summary">Modifica los DPI para utilizar algunos diseños de teléfono.</string>
-    <string name="revanced_enable_tablet_layout_title">Activar diseño de tableta</string>
-    <string name="revanced_enable_tablet_layout_summary">Modifica los DPI para utilizar algunos diseños de tableta.</string>
+    <string name="revanced_change_layout_title">Cambiar diseño</string>
+    <string name="revanced_change_layout_entry_1">Original</string>
+    <string name="revanced_change_layout_entry_2">Teléfono</string>
+    <string name="revanced_change_layout_entry_3">Teléfono (máx. 480 dpi)</string>
+    <string name="revanced_change_layout_entry_4">Tablet</string>
+    <string name="revanced_change_layout_entry_5">Tablet (min. 600 dpi)</string>
     <string name="revanced_spoof_app_version_title">Falsificar versión de la app</string>
     <string name="revanced_spoof_app_version_summary_on">Versión falsificada</string>
     <string name="revanced_spoof_app_version_summary_off">Versión no falsificada</string>

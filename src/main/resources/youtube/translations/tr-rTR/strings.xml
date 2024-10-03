@@ -6,6 +6,7 @@
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_settings_search_title">Arama %s</string>
+    <string name="revanced_extended_reset_to_default_toast">Varsayılan değerlere sıfırla.</string>
     <string name="revanced_preference_category_experimental_flag">Deneysel Parametreler</string>
     <string name="revanced_extended_confirm_user_dialog_title">Devam etmek istiyor musunuz?</string>
     <string name="revanced_extended_restart_first_run">Düzeni normal şekilde yüklemek için yeniden başlatın</string>
@@ -70,6 +71,7 @@ DeArrow hakkında daha fazla bilgi edinmek için buraya dokunun."</string>
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">DeArrow\'un mevcut olmaması durumunda uyarı gösterilmez.</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_title">DeArrow API uç noktası</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_summary">DeArrow kapak fotoğraf önbellek uç noktasının URL\'si. Ne yaptığınızı bilmiyorsanız bunu değiştirmeyin.</string>
+    <string name="revanced_alt_thumbnail_dearrow_api_url_invalid_toast">Geçersiz DeArrow API URL.</string>
     <string name="revanced_alt_thumbnail_stills_about_title">Hareketsiz video çekimleri hakkında</string>
     <string name="revanced_alt_thumbnail_stills_about_summary">Her videonun başlangıcı, ortası, ve sonundan fotoğraflar alınır. Bu fotoğraflar, YouTube içindedir ve dışarıdan bir API kullanılmamaktadır.</string>
     <string name="revanced_alt_thumbnail_stills_fast_title">Hızlı hareketsiz çekimler kullan</string>
@@ -221,6 +223,7 @@ Kısıtlamalar:
 • Bazı Short videolar gizlenemeyebilir
 • Bazı arayüz bileşenleri gizlenemeyebilir
 • Anahtar kelime aratmak hiçbir sonuç göstermeyebilir"</string>
+    <string name="revanced_hide_keyword_content_about_whole_words_title">Bütün kelimeyi eşle</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Geçersiz anahtar kelime. \'%s\' kullanılamaz</string>
     <string name="revanced_hide_keyword_toast_invalid_broad">\'%1$s\' anahtar kelimesi tüm videoları gizleyecek.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
@@ -283,10 +286,6 @@ Kısıtlamalar:
     <string name="revanced_hide_snack_bar_summary_off">Gizlenmiyor</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">İzleyicinin takdirine bağlı iletişim kutusunu kaldır</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Görüntüleyicinin takdirine ilişkin iletişim kutusunu kaldırır. Bu yaş sınırlamasını atlamaz. Sadece otomatik olarak kabul ediyor."</string>
-    <string name="revanced_enable_phone_layout_title">Telefon düzenini kullan</string>
-    <string name="revanced_enable_phone_layout_summary">Bazı telefon arayüzlerini kullanabilmek için dpi\'ı kandırır.</string>
-    <string name="revanced_enable_tablet_layout_title">Tablet düzenini kullan</string>
-    <string name="revanced_enable_tablet_layout_summary">Bazı tablet arayüzlerini kullanabilmek için dpi\'ı kandırır. </string>
     <string name="revanced_spoof_app_version_title">Uygulama Versiyonunu taklit et</string>
     <string name="revanced_spoof_app_version_summary_on">Sürüm taklit ediliyor</string>
     <string name="revanced_spoof_app_version_summary_off">Sürüm taklit edilmiyor</string>

@@ -335,10 +335,12 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_snack_bar_summary_off">스낵바(팝업 메시지바)가 표시됩니다.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">시청 경고 다이얼로그 제거하기</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"시청 경고 다이얼로그를 제거합니다.\n\n• 이 설정은 다이얼로그를 자동으로 허용하기만 하며 연령 제한(성인인증 절차)을 우회할 수 없습니다.\n• 즉, 성인인증이 필요한 동영상에서 인증을 하려 할 때, 휴대폰 번호가 필요하다고 알려주는 소형 팝업창(다이얼로그) 없이 바로 휴대폰 번호 인증 페이지가 표시됩니다."</string>
-    <string name="revanced_enable_phone_layout_title">휴대폰 레이아웃 활성화하기</string>
-    <string name="revanced_enable_phone_layout_summary">dpi를 변경하여 일부 레이아웃을 휴대폰 레이아웃으로 활성화합니다.\n\n• \'태블릿 레이아웃으로 활성화하면 잠겨지는 RVX 설정\'이 태블릿 또는 폴더블 폰에서는 기본적으로 잠겨져 있으므로, 이 설정을 사용하고 싶으면 휴대폰 레이아웃으로 활성화해야 합니다.</string>
-    <string name="revanced_enable_tablet_layout_title">태블릿 레이아웃 활성화하기</string>
-    <string name="revanced_enable_tablet_layout_summary">dpi를 변경하여 일부 레이아웃을 태블릿 레이아웃으로 활성화합니다.\n\n이 설정을 활성화하면 다음 RVX 설정이 잠겨질 수 있습니다:\n• 커뮤니티 게시물 숨기기\n• 믹스 재생목록 숨기기\n• 최신 동영상 버튼 숨기기\n• 관련 동영상 오버레이 숨기기</string>
+    <string name="revanced_change_layout_title">레이아웃 변경하기</string>
+    <string name="revanced_change_layout_entry_1">기기 기본값 사용</string>
+    <string name="revanced_change_layout_entry_2">폰</string>
+    <string name="revanced_change_layout_entry_3">폰 (최대 너비: 480 dpi)</string>
+    <string name="revanced_change_layout_entry_4">태블릿</string>
+    <string name="revanced_change_layout_entry_5">태블릿 (최소 너비: 600 dpi)</string>
     <string name="revanced_spoof_app_version_title">앱 버전 변경하기</string>
     <string name="revanced_spoof_app_version_summary_on">앱 버전을 변경합니다.</string>
     <string name="revanced_spoof_app_version_summary_off">앱 버전을 변경하지 않습니다.</string>
@@ -1125,7 +1127,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_shorts_sound_button_summary_off">사운드 버튼이 표시됩니다.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
     <string name="revanced_preference_category_animation_feedback">애니메이션 / 피드백</string>
-    <string name="revanced_disable_shorts_like_button_fountain_animation_title">좋아요 버튼 애니메이션 비활성화하기</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_title">좋아요 상단 애니메이션 비활성화하기</string>
     <string name="revanced_disable_shorts_like_button_fountain_animation_summary_on">좋아요 버튼 상단에 표시되는 애니메이션을 비활성화합니다.</string>
     <string name="revanced_disable_shorts_like_button_fountain_animation_summary_off">좋아요 버튼 상단에 표시되는 애니메이션을 활성화합니다.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_title">재생 &amp; 일시 정지 버튼 배경 숨기기</string>

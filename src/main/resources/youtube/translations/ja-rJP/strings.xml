@@ -10,7 +10,7 @@
     <string name="revanced_preference_category_experimental_flag">実験的な機能</string>
     <string name="revanced_extended_confirm_user_dialog_title">続行しますか？</string>
     <string name="revanced_extended_restart_first_run">再起動してレイアウトを正常に読み込みます</string>
-    <string name="revanced_extended_restart_message">再起動して更新</string>
+    <string name="revanced_extended_restart_message">再起動して更新を適用</string>
     <string name="revanced_playback_speed_normal">通常</string>
     <string name="revanced_external_downloader_package_name_video_title">外部ダウンローダーのパッケージ名</string>
     <string name="revanced_external_downloader_package_name_video_summary">NewPipe や YTDLnis などの、インストールされている外部ダウンローダーアプリのパッケージ名です。</string>
@@ -56,26 +56,26 @@
     <string name="revanced_alt_thumbnail_home_title">[ホーム]タブ</string>
     <string name="revanced_alt_thumbnail_subscriptions_title">[登録チャンネル]タブ</string>
     <string name="revanced_alt_thumbnail_library_title">[マイページ]タブ</string>
-    <string name="revanced_alt_thumbnail_player_title">再生リスト, おすすめ</string>
+    <string name="revanced_alt_thumbnail_player_title">再生リスト、おすすめ</string>
     <string name="revanced_alt_thumbnail_search_title">検索結果</string>
     <string name="revanced_alt_thumbnail_options_entry_1">オリジナルサムネイル</string>
     <string name="revanced_alt_thumbnail_options_entry_2">DeArrow &amp; オリジナルサムネイル</string>
     <string name="revanced_alt_thumbnail_options_entry_3">DeArrow &amp; 静止画サムネイル</string>
     <string name="revanced_alt_thumbnail_options_entry_4">静止画サムネイル</string>
     <string name="revanced_alt_thumbnail_dearrow_about_title">DeArrow</string>
-    <string name="revanced_alt_thumbnail_dearrow_about_summary">"DeArrowは、YouTube 動画のサムネイルをクラウドソーシングで提供する機能です。DeArrow のサムネイルは、YouTube が提供するサムネイルよりも適切なことが多いです。 有効にすると、動画のURLが API サーバーに送信されますが、他のデータは送信されません。 動画にDeArrowサムネイルがない場合は、オリジナルまたは静止画サムネイルが表示されます。
+    <string name="revanced_alt_thumbnail_dearrow_about_summary">"DeArrow は、YouTube 動画のサムネイルをクラウドソーシングで提供する機能です。DeArrow のサムネイルは、YouTube が提供するサムネイルよりも適切なことが多いです。 これを有効にすると、動画のURLが API サーバーに送信されますが、他のデータは送信されません。 動画に DeArrow サムネイルがない場合は、オリジナルまたは静止画サムネイルが表示されます。
 
-DeArrowの詳細については、ここをタップしてください。"</string>
+DeArrow の詳細については、ここをタップしてください。"</string>
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_title">API が利用できない場合にトーストを表示</string>
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_on">DeArrow が利用できない場合、トーストを表示します。</string>
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">DeArrow が利用できない場合、トーストを表示します。</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_title">DeArrow API エンドポイント</string>
-    <string name="revanced_alt_thumbnail_dearrow_api_url_summary">DeArrowサムネイルキャッシュエンドポイントのURL</string>
+    <string name="revanced_alt_thumbnail_dearrow_api_url_summary">DeArrow サムネイルキャッシュエンドポイントの URLです。</string>
     <string name="revanced_alt_thumbnail_dearrow_api_url_invalid_toast">無効な DeArrow API の URL です。</string>
     <string name="revanced_alt_thumbnail_stills_about_title">静止画サムネイルについて</string>
     <string name="revanced_alt_thumbnail_stills_about_summary">静止画サムネイルは、各動画の最初/中間/最後の部分から取得されます。これらの画像は YouTube に直接組み込まれており、外部 API は使用されません。</string>
     <string name="revanced_alt_thumbnail_stills_fast_title">高速な静止画サムネイル</string>
-    <string name="revanced_alt_thumbnail_stills_fast_summary_on">現在の設定: 中画質の静止画サムネイルを使用します。読み込みは速くなりますが、ライブ、公開予定、非常に古い動画は、サムネイルが空白になることがあります。</string>
+    <string name="revanced_alt_thumbnail_stills_fast_summary_on">現在の設定: 中画質の静止画サムネイルを使用します。\n\n注意: 読み込みは速くなりますが、ライブ、公開予定、非常に古い動画は、サムネイルが空白になることがあります。</string>
     <string name="revanced_alt_thumbnail_stills_fast_summary_off">現在の設定: 高画質の静止画サムネイルを使用します。</string>
     <string name="revanced_alt_thumbnail_stills_time_title">取得する静止画のサムネイルの位置</string>
     <string name="revanced_alt_thumbnail_stills_time_entry_1">動画の最初</string>
@@ -111,14 +111,14 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_expandable_shelf_summary_on">検索結果に表示される、展開可能な棚を非表示にします。</string>
     <string name="revanced_hide_expandable_shelf_summary_off">検索結果に表示される、展開可能な棚を非表示にします。</string>
     <string name="revanced_hide_feed_captions_button_title">字幕ボタンを非表示</string>
-    <string name="revanced_hide_feed_captions_button_on">フィードで字幕ボタンを非表示にします。</string>
-    <string name="revanced_hide_feed_captions_button_off">フィードで字幕ボタンを非表示にします。</string>
-    <string name="revanced_hide_feed_search_bar_title">フィードの検索バーを非表示</string>
-    <string name="revanced_hide_feed_search_bar_summary_on">フィードの検索バーを非表示にします。</string>
-    <string name="revanced_hide_feed_search_bar_summary_off">フィードの検索バーを非表示にします。</string>
-    <string name="revanced_hide_feed_survey_title">フィードのアンケートを非表示</string>
-    <string name="revanced_hide_feed_survey_summary_on">ホームページと登録チャンネルフィードのアンケートを非表示にします。</string>
-    <string name="revanced_hide_feed_survey_summary_off">ホームページと登録チャンネルフィードのアンケートを非表示にします。</string>
+    <string name="revanced_hide_feed_captions_button_on">フィードから字幕ボタンを非表示にします。</string>
+    <string name="revanced_hide_feed_captions_button_off">フィードから字幕ボタンを非表示にします。</string>
+    <string name="revanced_hide_feed_search_bar_title">検索バーを非表示</string>
+    <string name="revanced_hide_feed_search_bar_summary_on">フィードから検索バーを非表示にします。</string>
+    <string name="revanced_hide_feed_search_bar_summary_off">フィードから検索バーを非表示にします。</string>
+    <string name="revanced_hide_feed_survey_title">アンケートを非表示</string>
+    <string name="revanced_hide_feed_survey_summary_on">ホームページと登録チャンネルフィードからアンケートを非表示にします。</string>
+    <string name="revanced_hide_feed_survey_summary_off">ホームページと登録チャンネルフィードからアンケートを非表示にします。</string>
     <string name="revanced_hide_image_shelf_title">画像欄を非表示</string>
     <string name="revanced_hide_image_shelf_summary_on">画像欄を非表示にします。</string>
     <string name="revanced_hide_image_shelf_summary_off">画像欄を非表示にします。</string>
@@ -151,7 +151,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_ticket_shelf_summary_off">検索結果/関連動画からチケット欄を非表示にします。</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Category bar -->
     <string name="revanced_preference_screen_category_bar_title">カテゴリーバー</string>
-    <string name="revanced_preference_screen_category_bar_summary">フィード、検索、関連動画でカテゴリバーを非表示または表示します。</string>
+    <string name="revanced_preference_screen_category_bar_summary">フィード、検索、関連動画からカテゴリバーを非表示または表示します。</string>
     <string name="revanced_hide_category_bar_in_feed_title">フィードから非表示</string>
     <string name="revanced_hide_category_bar_in_feed_summary_on">フィードから非表示にします。</string>
     <string name="revanced_hide_category_bar_in_feed_summary_off">フィードから非表示にします。</string>
@@ -168,7 +168,7 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_channel_tab_summary_on">チャンネルタブのフィルターを有効化します。</string>
     <string name="revanced_hide_channel_tab_summary_off">チャンネルタブのフィルターを有効化します。</string>
     <string name="revanced_hide_channel_tab_filter_strings_title">チャンネルタブのフィルター</string>
-    <string name="revanced_hide_channel_tab_filter_strings_summary">フィルタリングする「チャンネルタブ名」のリスト。（改行区切り）</string>
+    <string name="revanced_hide_channel_tab_filter_strings_summary">フィルタリングする「チャンネルタブ名」のリスト(改行区切り)</string>
     <string name="revanced_hide_channel_tab_filter_strings_hint">"ショート
 プレイリスト
 ストア"</string>
@@ -222,8 +222,11 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_hide_keyword_content_comments_summary_on">キーワードでコメントをフィルタリングします。</string>
     <string name="revanced_hide_keyword_content_comments_summary_off">キーワードでコメントをフィルタリングします。</string>
     <string name="revanced_hide_keyword_content_phrases_title">キーワードでフィルタリング</string>
-    <string name="revanced_hide_keyword_content_phrases_summary">"非表示にするキーワードやフレーズを入力します。（改行区切り）
-真ん中に大文字がある単語は、大文字と小文字を区別して入力する必要があります 。(例: iPhone、TikTok、LeBlanc)"</string>
+    <string name="revanced_hide_keyword_content_phrases_summary">"非表示にするキーワードやフレーズを入力します。(改行区切り)
+
+キーワードには、チャンネル名や動画のタイトルに表示されるテキストを使用できます。
+
+真ん中に大文字がある単語は、大文字と小文字を区別して入力する必要があります。(例: iPhone、TikTok、LeBlanc)"</string>
     <string name="revanced_hide_keyword_content_about_title">キーワードフィルタリングについて</string>
     <string name="revanced_hide_keyword_content_about_summary">"ホーム / 登録チャンネル / 検索結果 は、キーワードやフレーズに一致するコンテンツを非表示にするようにフィルタリングされます。
 注意:
@@ -314,8 +317,8 @@ DeArrowの詳細については、ここをタップしてください。"</stri
 
 注意: この設定はショート動画には適用されません。</string>
     <string name="revanced_disable_auto_captions_title">字幕の強制を無効化</string>
-    <string name="revanced_disable_auto_captions_summary_on">字幕の自動的な強制を無効化します。</string>
-    <string name="revanced_disable_auto_captions_summary_off">字幕の自動的な強制を無効化します。</string>
+    <string name="revanced_disable_auto_captions_summary_on">投稿者が設定している字幕の強制を無効にします。</string>
+    <string name="revanced_disable_auto_captions_summary_off">投稿者が設定している字幕の強制を無効にします。</string>
     <string name="revanced_disable_splash_animation_title">スプラッシュアニメーションを無効化</string>
     <string name="revanced_disable_splash_animation_summary_on">YouTube 起動時のスプラッシュアニメーションを無効にします。</string>
     <string name="revanced_disable_splash_animation_summary_off">YouTube 起動時のスプラッシュアニメーションを無効にします。</string>
@@ -334,10 +337,12 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_remove_viewer_discretion_dialog_title">年齢制限ダイアログを削除</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"年齢制限ダイアログを削除します。 
 これにより年齢制限を回避することはできませんが、自動的に同意します。"</string>
-    <string name="revanced_enable_phone_layout_title">スマートフォン用のレイアウトを有効化</string>
-    <string name="revanced_enable_phone_layout_summary">スマートフォン用レイアウトの一部を使用できるように、dpi を偽装します。</string>
-    <string name="revanced_enable_tablet_layout_title">タブレット用のレイアウトを有効化</string>
-    <string name="revanced_enable_tablet_layout_summary">タブレット用レイアウトの一部を使用できるように、dpi を偽装します。</string>
+    <string name="revanced_change_layout_title">レイアウトを変更</string>
+    <string name="revanced_change_layout_entry_1">オリジナル</string>
+    <string name="revanced_change_layout_entry_2">スマホ</string>
+    <string name="revanced_change_layout_entry_3">スマホ(最大 480 dpi)</string>
+    <string name="revanced_change_layout_entry_4">タブレット</string>
+    <string name="revanced_change_layout_entry_5">タブレット(最小 600 dpi)</string>
     <string name="revanced_spoof_app_version_title">アプリのバージョンを偽装</string>
     <string name="revanced_spoof_app_version_summary_on">アプリのバージョンは偽装されています。</string>
     <string name="revanced_spoof_app_version_summary_off">アプリのバージョンは偽装されていません。</string>
@@ -1557,6 +1562,8 @@ DeArrowの詳細については、ここをタップしてください。"</stri
     <string name="revanced_spoof_streaming_data_user_dialog_message">この設定をオフにした場合、バッファリングの問題が発生する可能性があります。</string>
     <string name="revanced_spoof_streaming_data_type_title">偽装するクライアントの種類</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android Creator</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Android 埋め込みプレーヤー</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android Testsuite</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
@@ -1570,8 +1577,8 @@ DeArrowの詳細については、ここをタップしてください。"</stri
 • Opus オーディオ コーデックは使用できません。"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"・「音声トラック」メニューは表示されません。
 ・「一定音量」は使用できません。"</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"・「音声トラック」メニューは表示されません。
-• 「一定音量」は使用できません。"</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_vr">"•「音声トラック」メニューは表示されません。
+•「一定音量」は使用できません。"</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• 動画が再生できない可能性があります。</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">iOS クライアントで AVC (H.264) を強制</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">iOS クライアントで AVC コーデック (H.264) を強制します。</string>

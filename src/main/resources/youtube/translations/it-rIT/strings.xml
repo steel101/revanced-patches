@@ -332,10 +332,6 @@ Limitazione: Il pulsante indietro sulla barra degli strumenti potrebbe non funzi
     <string name="revanced_remove_viewer_discretion_dialog_title">Rimuovi la finestra di discrezione del visualizzatore</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Rimuove la finestra di discrezione del visualizzatore.
 Questo non aggira la restrizione di età. La accetta solamente in automatico."</string>
-    <string name="revanced_enable_phone_layout_title">Attiva l\'interfaccia da telefono</string>
-    <string name="revanced_enable_phone_layout_summary">Camuffa i dpi per usare alcune interfacce da telefono.</string>
-    <string name="revanced_enable_tablet_layout_title">Attiva l\'interfaccia da tablet</string>
-    <string name="revanced_enable_tablet_layout_summary">Camuffa i dpi per usare alcune interfacce da tablet.</string>
     <string name="revanced_spoof_app_version_title">Camuffa la versione dell\'app</string>
     <string name="revanced_spoof_app_version_summary_on">Versione camuffata</string>
     <string name="revanced_spoof_app_version_summary_off">Versione non camuffata</string>
@@ -1560,6 +1556,8 @@ Tocca il pulsante continua e disabilita le ottimizzazioni della batteria."</stri
     <string name="revanced_spoof_streaming_data_user_dialog_message">Disattivare questa impostazione potrebbe causare problemi di riproduzione video.</string>
     <string name="revanced_spoof_streaming_data_type_title">Client predefinito</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Creatore Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Riproduttore Incorporato Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Suite di test Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>

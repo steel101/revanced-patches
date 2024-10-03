@@ -282,6 +282,7 @@ Korlátozások:
     <string name="revanced_hide_related_videos_user_dialog_message">"Ez a beállítás korlátozza a lejátszó képernyőjére betölthető elrendezések maximális számát.
 
 Ha a lejátszó képernyőjének elrendezése a szerveroldali változtatások miatt megváltozik, akkor esetleg a nem kívánt elrendezések elrejthetők a lejátszó képernyőjén."</string>
+    <string name="revanced_related_videos_offset_title">Eltolás</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Általános</string>
     <string name="revanced_change_start_page_title">Kezdőlap megváltoztatása</string>
@@ -330,10 +331,12 @@ Korlátozás: Előfordulhat, hogy az eszköztár Vissza gombja nem működik."</
     <string name="revanced_remove_viewer_discretion_dialog_title">Távolítsa el a nézői diszkréciós párbeszédpanelt</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Eltávolítja a nézői belátás párbeszédpanelt.
 Ez nem kerüli meg a korhatárt. Csak automatikusan fogadja el."</string>
-    <string name="revanced_enable_phone_layout_title">Telefonos felület engedélyezése</string>
-    <string name="revanced_enable_phone_layout_summary">Hamisítja a dpi-t néhány telefonos elrendezés használatához.</string>
-    <string name="revanced_enable_tablet_layout_title">Tablet felület engedélyezése</string>
-    <string name="revanced_enable_tablet_layout_summary">Hamisítja a dpi-t néhány táblagépes elrendezés használatához.</string>
+    <string name="revanced_change_layout_title">Elrendezés megváltoztatása</string>
+    <string name="revanced_change_layout_entry_1">Eredeti</string>
+    <string name="revanced_change_layout_entry_2">Telefon</string>
+    <string name="revanced_change_layout_entry_3">Telefon (max 480 dpi)</string>
+    <string name="revanced_change_layout_entry_4">Tablet</string>
+    <string name="revanced_change_layout_entry_5">Tablet (min 600 dpi)</string>
     <string name="revanced_spoof_app_version_title">Alkalmazásverzió hamisítása</string>
     <string name="revanced_spoof_app_version_summary_on">Verzió hamisítás</string>
     <string name="revanced_spoof_app_version_summary_off">Verzió nincs hamisítva</string>
@@ -675,8 +678,8 @@ Beállítások → Automatikus lejátszás → Következő videó automatikus le
     <string name="revanced_hide_preview_comment_type_on">Ez nem változtatja meg a megjegyzés rész méretét, így lehet a megjegyzés részben élő chat választ nyitni.</string>
     <string name="revanced_hide_preview_comment_type_off">Ez megváltoztatja a megjegyzés rész méretét, így nem lehet a megjegyzés részben élő chat választ nyitni.</string>
     <string name="revanced_hide_comment_create_shorts_button_title">Rövid videók létrehozása gomb elrejtése</string>
-    <string name="revanced_hide_comment_create_shorts_button_summary_on">A \'Shots létrehozása\' gomb el van rejtve.</string>
-    <string name="revanced_hide_comment_create_shorts_button_summary_off">A \'Shots létrehozása\' gomb látható.</string>
+    <string name="revanced_hide_comment_create_shorts_button_summary_on">A \'Short létrehozása\' gomb el van rejtve.</string>
+    <string name="revanced_hide_comment_create_shorts_button_summary_off">A \'Short létrehozása\' gomb látható.</string>
     <string name="revanced_hide_comment_thanks_button_title">Köszönöm gomb elrejtése</string>
     <string name="revanced_hide_comment_thanks_button_summary_on">A Köszönöm gomb el van rejtve.</string>
     <string name="revanced_hide_comment_thanks_button_summary_off">A Köszönöm gomb megjelenik.</string>
@@ -986,7 +989,7 @@ Mellékhatás: a Cairo stílus az értesítési pontokra is alkalmazódik."</str
 A 'Videoleírások kibővítése' nem működik, ha a beírt sztring nem egyezik meg a videoleírás panel címével. "</string>
     <string name="revanced_expand_video_description_strings_default_value">Leírás</string>
     <!-- PreferenceScreen: Shorts -->
-    <string name="revanced_preference_screen_shorts_title">Rövidfilmek</string>
+    <string name="revanced_preference_screen_shorts_title">Shorts</string>
     <string name="revanced_disable_resuming_shorts_player_title">A Shorts lejátszás folytatásának kikapcsolása</string>
     <string name="revanced_disable_resuming_shorts_player_summary_on">A Shorts lejátszás nem indul el az alkalmazás indításakor</string>
     <string name="revanced_disable_resuming_shorts_player_summary_off">A Shorts lejátszás folytatódik az alkalmazás indításakor</string>
@@ -995,10 +998,10 @@ A 'Videoleírások kibővítése' nem működik, ha a beírt sztring nem egyezik
     <string name="revanced_hide_shorts_floating_button_summary_off">"Az olyan lebegő gombok, mint a „Használja ezt a hangot”, a Shorts csatorna lapon láthatóak."</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelf -->
     <string name="revanced_preference_category_shorts_shelf">Shorts polcok</string>
-    <string name="revanced_hide_shorts_shelf_title">Rövid tartalmak polcának elrejtése</string>
-    <string name="revanced_hide_shorts_shelf_summary">"Elrejti a rövid tartalmak polcát.
+    <string name="revanced_hide_shorts_shelf_title">Shorts polcok elrejtése</string>
+    <string name="revanced_hide_shorts_shelf_summary">"Elrejti a Shorts polcokat.
 
-Korlát: A hivatalos fejlécek a keresési eredményekben el lesznek rejtve."</string>
+Mellékhatás: A hivatalos fejlécek a keresési eredményekben el lesznek rejtve."</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_title">Elrejtés a kezdőlapon és a kapcsolódó videók között</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_on">Elrejtve a kezdőlapon és a kapcsolódó videók között.</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_off">Megjelenítve a kezdőlapon és a kapcsolódó videók között.</string>
@@ -1018,29 +1021,32 @@ Korlát: A hivatalos fejlécek a keresési eredményekben el lesznek rejtve."</s
     <string name="revanced_change_shorts_repeat_state_entry_pause">Szünet</string>
     <string name="revanced_change_shorts_repeat_state_entry_repeat">Ismétlés</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
-    <string name="revanced_preference_screen_shorts_player_title">Rövidfilm lejátszó</string>
-    <string name="revanced_preference_screen_shorts_player_summary">Komponensek elrejtése vagy megjelenítése a Rövid videók lejátszójában.</string>
+    <string name="revanced_preference_screen_shorts_player_title">Shorts lejátszó</string>
+    <string name="revanced_preference_screen_shorts_player_summary">Komponensek elrejtése vagy megjelenítése a Shorts lejátszójában.</string>
     <string name="revanced_hide_shorts_join_button_title">Csatlakozás gomb elrejtése</string>
-    <string name="revanced_hide_shorts_join_button_summary_on">A csatlakozás gomb el van rejtve</string>
-    <string name="revanced_hide_shorts_join_button_summary_off">A csatlakozás gomb meg van jelenítve</string>
+    <string name="revanced_hide_shorts_join_button_summary_on">A csatlakozás gomb el van rejtve.</string>
+    <string name="revanced_hide_shorts_join_button_summary_off">A csatlakozás gomb látható.</string>
     <string name="revanced_hide_shorts_subscribe_button_title">Feliratkozás gomb elrejtése</string>
-    <string name="revanced_hide_shorts_subscribe_button_summary_on">A feliratkozás gomb el van rejtve</string>
-    <string name="revanced_hide_shorts_subscribe_button_summary_off">A feliratkozás gomb látható</string>
+    <string name="revanced_hide_shorts_subscribe_button_summary_on">A feliratkozás gomb el van rejtve.</string>
+    <string name="revanced_hide_shorts_subscribe_button_summary_off">A feliratkozás gomb látható.</string>
     <string name="revanced_hide_shorts_paused_header_title">Szüneteltetett fejléc elrejtése</string>
     <string name="revanced_hide_shorts_paused_header_summary_on">A szüneteltetett fejléc elrejtve.</string>
     <string name="revanced_hide_shorts_paused_header_summary_off">A szüneteltetett fejléc látható.</string>
-    <string name="revanced_hide_shorts_paused_overlay_buttons_title">Szüneteltetett fedő gombok elrejtése</string>
-    <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">A szüneteltetett fedő gombok el vannak rejtve</string>
-    <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">A szüneteltetett fedő gombok megjelennek</string>
+    <string name="revanced_hide_shorts_paused_overlay_buttons_title">Szüneteltetett videóvezérlő gombok elrejtése</string>
+    <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">A szüneteltetett videóvezérlő gombok el vannak rejtve.</string>
+    <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">A szüneteltetett fedő gombok láthatóak.</string>
     <string name="revanced_hide_shorts_trends_button_title">Trend gomb elrejtése</string>
     <string name="revanced_hide_shorts_trends_button_summary_on">A Trend gomb el van rejtve.</string>
     <string name="revanced_hide_shorts_trends_button_summary_off">A Trend gomb látható.</string>
     <string name="revanced_hide_shorts_shopping_button_title">Vásárlás gomb elrejtése</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">A vásárlás gomb el van rejtve</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">A vásárlás gomb látható.</string>
+    <string name="revanced_hide_shorts_stickers_title">Matricák elrejtése</string>
+    <string name="revanced_hide_shorts_stickers_summary_on">A matricák el vannak rejtve.</string>
+    <string name="revanced_hide_shorts_stickers_summary_off">A matricák láthatóak.</string>
     <string name="revanced_hide_shorts_paid_promotion_label_title">Fizetett promóciós címke elrejtése</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_on">A fizetett promóciós címke el van rejtve.</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">A fizetett promóciós címke meg van jelenítve.</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">A fizetett promóciós címke látható.</string>
     <string name="revanced_hide_shorts_info_panel_title">Infó panel elrejtése</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Az infó panel rejtett</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Az infó panel megjelenik</string>
@@ -1060,6 +1066,13 @@ Korlát: A hivatalos fejlécek a keresési eredményekben el lesznek rejtve."</s
     <string name="revanced_hide_shorts_full_video_link_label_summary_on">A teljes videólink címke el van rejtve</string>
     <string name="revanced_hide_shorts_full_video_link_label_summary_off">A teljes videólink címke megjelenik</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Suggested actions -->
+    <string name="revanced_preference_category_suggested_actions">Javasolt intézkedések</string>
+    <string name="revanced_hide_shorts_green_screen_button_title">Zöld képernyő gomb elrejtése</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_on">A zöld képernyő gomb el van rejtve.</string>
+    <string name="revanced_hide_shorts_green_screen_button_summary_off">A zöld képernyő gomb látható.</string>
+    <string name="revanced_hide_shorts_save_music_button_title">Zene mentés gomb elrejtése</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_on">A zene mentés gomb el van rejtve.</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_off">A zene mentés gomb látható.</string>
     <string name="revanced_hide_shorts_shop_button_title">Vásárlás gomb elrejtése</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">A vásárlás gomb el van rejtve</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">A vásárlás gomb látható</string>
@@ -1103,6 +1116,9 @@ Korlát: A hivatalos fejlécek a keresési eredményekben el lesznek rejtve."</s
     <string name="revanced_hide_shorts_sound_button_summary_off">A hang gomb megjelenik</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
     <string name="revanced_preference_category_animation_feedback">Animáció / Visszajelzés</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_title">Like gomb animáció elrejtése</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_on">A szökőkút animáció le van tiltva a Like gombon.</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_off">A szökőkút animáció engedélyezve van a Like gombon.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_title">Lejátszás &amp; Szünet gomb hátterének elrejtése</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_on">A gomb háttere elrejtve.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_off">A gomb háttere látható.</string>
@@ -1532,6 +1548,8 @@ Egy másik kodek kerül alkalmazásra kb. 20 másodperc pufferezés után."</str
     <string name="revanced_spoof_streaming_data_user_dialog_message">A beállítás kikapcsolása videólejátszási problémákat okozhat.</string>
     <string name="revanced_spoof_streaming_data_type_title">Alapértelmezett kliens</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android Creator</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Android beágyazott lejátszó</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android tesztcsomag</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>

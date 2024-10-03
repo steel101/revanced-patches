@@ -333,10 +333,12 @@
     <string name="revanced_remove_viewer_discretion_dialog_title">Вилучати діалогове вікно</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Вилучається діалогове вікно.
 Це не обходить вікові обмеження, а просто приймається автоматично."</string>
-    <string name="revanced_enable_phone_layout_title">Увімкнути телефонний інтерфейс</string>
-    <string name="revanced_enable_phone_layout_summary">Підміняє DPI для використання інтерфейсу деяких телефонів</string>
-    <string name="revanced_enable_tablet_layout_title">Увімкнути Планшетний інтерфейс</string>
-    <string name="revanced_enable_tablet_layout_summary">Підміняє DPI для використання інтерфейсу деяких планшетів</string>
+    <string name="revanced_change_layout_title">Змінити макет</string>
+    <string name="revanced_change_layout_entry_1">Оригінал</string>
+    <string name="revanced_change_layout_entry_2">Телефонний</string>
+    <string name="revanced_change_layout_entry_3">Телефонний (Макс 480 dip)</string>
+    <string name="revanced_change_layout_entry_4">Планшетний</string>
+    <string name="revanced_change_layout_entry_5">Планшетний (Мін 600 dip)</string>
     <string name="revanced_spoof_app_version_title">Підробити версію програми</string>
     <string name="revanced_spoof_app_version_summary_on">Версію підроблено</string>
     <string name="revanced_spoof_app_version_summary_off">Версію не підроблено</string>
@@ -1554,6 +1556,8 @@
     <string name="revanced_spoof_streaming_data_user_dialog_message">Вимикання цього налаштування може призвести до проблем відтворення відео.</string>
     <string name="revanced_spoof_streaming_data_type_title">Основний клієнт</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Розробник Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Вбудований плеєр Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Тестовий Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>

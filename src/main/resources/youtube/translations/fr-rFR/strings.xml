@@ -253,7 +253,7 @@ Limitations :
     <string name="revanced_hide_low_views_video_title">Masquer les vidéos peu vues</string>
     <string name="revanced_hide_low_views_video_summary">Masque les vidéos avec moins de 1,000 vues dans le flux \"accueil\" qui ont été mis en ligne par des personnes dont vous n\'êtes pas abonnés.</string>
     <string name="revanced_hide_upcoming_video_title">Masquer les vidéos À SUIVRE</string>
-    <string name="revanced_hide_upcoming_video_summary">"Masquer les vidéos avec l'étiquette À SUIVRE.
+    <string name="revanced_hide_upcoming_video_summary">"Masque les vidéos avec l'étiquette 'À SUIVRE'.
 
 Remarque : Activer ceci masque également le bouton \"M'avertir\"."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
@@ -285,7 +285,7 @@ Limitations :
     <string name="revanced_hide_related_videos_summary_off">Les vidéos similaires sont affichés.</string>
     <string name="revanced_hide_related_videos_user_dialog_message">"Ce paramètre limite le nombre maximum de mises en page pouvant être chargées sur l'écran du lecteur.
 
-Si la mise en page de l'écran du lecteur change en raison de modifications côté serveur, des mises en page non souhaitées peuvent être masquées sur l'écran du lecteur."</string>
+Si la mise en page de l'écran du lecteur change en raison de modifications côté serveur, des mises en page non désirées risquent d'être masquées sur l'écran du lecteur."</string>
     <string name="revanced_related_videos_offset_title">Décalage</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Interface</string>
@@ -335,10 +335,12 @@ Limitation : Le bouton Retour de la barre d'outils peut ne pas fonctionner."</st
     <string name="revanced_remove_viewer_discretion_dialog_title">Suppr. Message \"Confirmer votre âge\"</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Supprime le message \"Confirmer votre âge\".
 Cela ne contourne pas la restriction d'âge, mais le confirme automatiquement."</string>
-    <string name="revanced_enable_phone_layout_title">Activer l\'interface téléphone</string>
-    <string name="revanced_enable_phone_layout_summary">Falsifie le dpi pour activer l\'interface téléphone.</string>
-    <string name="revanced_enable_tablet_layout_title">Activer l\'interface tablette</string>
-    <string name="revanced_enable_tablet_layout_summary">Falsifie le dpi pour activer l\'interface tablette.</string>
+    <string name="revanced_change_layout_title">Modifier la mise en page</string>
+    <string name="revanced_change_layout_entry_1">Original</string>
+    <string name="revanced_change_layout_entry_2">Téléphone</string>
+    <string name="revanced_change_layout_entry_3">Téléphone (Max 480 dpi)</string>
+    <string name="revanced_change_layout_entry_4">Tablette</string>
+    <string name="revanced_change_layout_entry_5">Tablette (Min 600 dpi)</string>
     <string name="revanced_spoof_app_version_title">Falsifier la version de l\'app</string>
     <string name="revanced_spoof_app_version_summary_on">Version falsifiée</string>
     <string name="revanced_spoof_app_version_summary_off">Version non falsifiée</string>
@@ -1120,9 +1122,9 @@ Effet secondaire : Les fiches officielles dans les résultats de recherche sont 
     <string name="revanced_hide_shorts_sound_button_summary_off">Le bouton \"Son\" est affiché.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
     <string name="revanced_preference_category_animation_feedback">Animation / Retour d\'expérience</string>
-    <string name="revanced_disable_shorts_like_button_fountain_animation_title">Désactiver l\'animation du bouton j\'aime</string>
-    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_on">L\'animation en cascade est désactivé pour le bouton j\'aime.</string>
-    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_off">L\'animation en cascade est activé pour le bouton j\'aime.</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_title">Désactiver l\'animation du bouton J\'aime</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_on">L\'animation en fontaine est désactivé au-dessus du bouton j\'aime.</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_off">L\'animation en fontaine est activé au-dessus du bouton j\'aime.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_title">Masquer fond du bouton Lecture &amp; Pause</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_on">Le fond du bouton est masqué.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_off">Le fond du bouton est affiché.</string>
@@ -1562,6 +1564,8 @@ Cliquez sur le bouton Continuer et désactivez les optimisations de la batterie.
     <string name="revanced_spoof_streaming_data_user_dialog_message">Désactiver ce paramètre peut entraîner des problèmes de lecture vidéo.</string>
     <string name="revanced_spoof_streaming_data_type_title">Client par défaut</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android Creator</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Lecteur intégré Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android Testsuite</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>

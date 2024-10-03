@@ -332,10 +332,12 @@
     <string name="revanced_remove_viewer_discretion_dialog_title">移除查看器的自由裁量對話框</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"移除觀眾酌情觀看對話方塊。
 這項選項不會繞過年齡限制，它只會自動接受。"</string>
-    <string name="revanced_enable_phone_layout_title">啟用手機版面配置</string>
-    <string name="revanced_enable_phone_layout_summary">以 DPI 欺騙系統使用手機版面配置</string>
-    <string name="revanced_enable_tablet_layout_title">啟用平板版面配置</string>
-    <string name="revanced_enable_tablet_layout_summary">偽裝 DPI 以使用一些平板電腦版面配置</string>
+    <string name="revanced_change_layout_title">變更佈局</string>
+    <string name="revanced_change_layout_entry_1">原始</string>
+    <string name="revanced_change_layout_entry_2">手機</string>
+    <string name="revanced_change_layout_entry_3">手機 (最大 480 dip)</string>
+    <string name="revanced_change_layout_entry_4">平板電腦</string>
+    <string name="revanced_change_layout_entry_5">平板電腦 (最少 600 dip)</string>
     <string name="revanced_spoof_app_version_title">偽裝應用程式版本</string>
     <string name="revanced_spoof_app_version_summary_on">已偽裝版本</string>
     <string name="revanced_spoof_app_version_summary_off">未偽裝版本</string>
@@ -1041,6 +1043,9 @@
     <string name="revanced_hide_shorts_shopping_button_title">隱藏購物按鈕</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">購物按鈕已隱藏。</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">顯示購物按鈕。</string>
+    <string name="revanced_hide_shorts_stickers_title">隱藏貼圖</string>
+    <string name="revanced_hide_shorts_stickers_summary_on">貼圖已隱藏。</string>
+    <string name="revanced_hide_shorts_stickers_summary_off">貼圖已顯示。</string>
     <string name="revanced_hide_shorts_paid_promotion_label_title">隱藏付費促銷標籤</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_on">付費促銷標籤被隱藏</string>
     <string name="revanced_hide_shorts_paid_promotion_label_summary_off">付費推廣橫幅標簽已顯示</string>
@@ -1067,6 +1072,9 @@
     <string name="revanced_hide_shorts_green_screen_button_title">隱藏綠幕按鈕</string>
     <string name="revanced_hide_shorts_green_screen_button_summary_on">綠幕按鈕已隱藏。</string>
     <string name="revanced_hide_shorts_green_screen_button_summary_off">綠幕按鈕已顯示。</string>
+    <string name="revanced_hide_shorts_save_music_button_title">隱藏儲存音樂按鈕</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_on">儲存音樂按鈕已隱藏。</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_off">儲存音樂按鈕已顯示。</string>
     <string name="revanced_hide_shorts_shop_button_title">隱藏商店按鈕</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">商店按鈕已隱藏</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">商店按鈕已顯示</string>
@@ -1554,6 +1562,8 @@
     <string name="revanced_spoof_streaming_data_user_dialog_message">關閉此設定可能會導致影片播放問題。</string>
     <string name="revanced_spoof_streaming_data_type_title">預設客戶端</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android">安卓</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_creator">安卓創作者</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Android 嵌入式播放器</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android 測試套件</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android 電視</string>
