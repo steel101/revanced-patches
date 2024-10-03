@@ -364,10 +364,12 @@ Limitation: Back button on the toolbar may not work."</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Removes the viewer discretion dialog.
 This does not bypass the age restriction. It just accepts it automatically."</string>
 
-    <string name="revanced_enable_phone_layout_title">Enable phone layout</string>
-    <string name="revanced_enable_phone_layout_summary">Spoofs the dpi to use some phone layouts.</string>
-    <string name="revanced_enable_tablet_layout_title">Enable tablet layout</string>
-    <string name="revanced_enable_tablet_layout_summary">Spoofs the dpi to use some tablet layouts.</string>
+    <string name="revanced_change_layout_title">Change layout</string>
+    <string name="revanced_change_layout_entry_1">Original</string>
+    <string name="revanced_change_layout_entry_2">Phone</string>
+    <string name="revanced_change_layout_entry_3">Phone (Max 480 dip)</string>
+    <string name="revanced_change_layout_entry_4">Tablet</string>
+    <string name="revanced_change_layout_entry_5">Tablet (Min 600 dip)</string>
 
     <string name="revanced_spoof_app_version_title">Spoof app version</string>
     <string name="revanced_spoof_app_version_summary_on">Version spoofed</string>
