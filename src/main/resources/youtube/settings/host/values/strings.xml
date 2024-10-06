@@ -623,6 +623,13 @@ You tab → View channel → Menu → Settings"</string>
     <string name="revanced_hide_voice_search_button_title">Hide voice search button</string>
     <string name="revanced_hide_voice_search_button_summary_on">Voice search button is hidden.</string>
     <string name="revanced_hide_voice_search_button_summary_off">Voice search button is shown.</string>
+    <string name="revanced_hide_youtube_doodles_title">Hide YouTube Doodles</string>
+    <string name="revanced_hide_youtube_doodles_summary_on">YouTube Doodles are hidden.</string>
+    <string name="revanced_hide_youtube_doodles_summary_off">YouTube Doodles are shown.</string>
+    <string name="revanced_hide_youtube_doodles_user_dialog_message">"YouTube Doodles show up a few days each year.
+
+If a YouTube Doodle is currently showing in your region and this hide setting is on, then the filter bar below the search bar will also be hidden."</string>
+
     <string name="revanced_replace_toolbar_create_button_title">Replace Create button</string>
     <string name="revanced_replace_toolbar_create_button_summary">Replaces the Create button with the Settings button.</string>
     <string name="revanced_replace_toolbar_create_button_type_title">Action type to assign to button</string>
