@@ -473,13 +473,6 @@ Se essa configuração não surtir efeito, tente alternar para o modo anônimo."
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Menu de configurações</string>
     <string name="revanced_preference_screen_settings_menu_summary">Ocultar elementos no menu de configurações do YouTube.</string>
-    <string name="revanced_hide_settings_menu_title">Ocultar menu de configurações do YouTube</string>
-    <string name="revanced_hide_settings_menu_summary">Ocultar elementos no menu de configurações do YouTube.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">Filtro do menu de configurações do YouTube</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">Lista de nomes de menu de configurações do YouTube para filtrar separados por uma nova linha.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_hint">"Conta
-Economia de dados
-Legendas"</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Barra de ferramentas</string>
     <string name="revanced_preference_screen_toolbar_summary">Ocultar ou alterar componentes localizados na barra de ferramentas, como botões da barra de ferramentas, barra de pesquisa, cabeçalho.</string>

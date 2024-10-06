@@ -322,6 +322,10 @@
     <string name="revanced_hide_snack_bar_summary_off">Лентата на състоянието се показва.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Прозорец за възрастово ограничение</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Премахва диалоговите прозорци. Това не заобикаля възрастовите ограничения, но ги приема автоматично."</string>
+    <string name="revanced_change_layout_title">Промяна на резолюция</string>
+    <string name="revanced_change_layout_entry_1">Оригинал</string>
+    <string name="revanced_change_layout_entry_2">Телефон</string>
+    <string name="revanced_change_layout_entry_3">Телефон (Max 480 dip)</string>
     <string name="revanced_change_layout_entry_4">Таблет</string>
     <string name="revanced_change_layout_entry_5">Таблет (Мин 600 dip)</string>
     <string name="revanced_spoof_app_version_title">Променете версията на приложението</string>
@@ -461,13 +465,6 @@
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Меню с настройки</string>
     <string name="revanced_preference_screen_settings_menu_summary">Скриване на елементи в менюто с настройки на YouTube.</string>
-    <string name="revanced_hide_settings_menu_title">Филтриране на менюто с настройки на YouTube</string>
-    <string name="revanced_hide_settings_menu_summary">Скриване на елементи в менюто с настройки на YouTube.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">Филтър на менюто с настройки на YouTube</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">Списък с заглавия на менюта с настройки на YouTube за филтриране, разделени с нов ред.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_hint">"Акаунт
-Спестяване на данни
-Субтитри"</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Лента с инструменти</string>
     <string name="revanced_preference_screen_toolbar_summary">Скрива или променя елементи, разположени в лентата с инструменти, като бутони на лентата с инструменти, лента за търсене, заглавия.</string>

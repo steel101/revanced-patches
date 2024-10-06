@@ -135,11 +135,6 @@
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Список рядків конструктора шляхів компонентів для фільтрування, розділених новими рядками.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Недопустимий користувацький фільтр: %s.</string>
-    <string name="revanced_hide_settings_menu_title">Приховати меню налаштувань</string>
-    <string name="revanced_hide_settings_menu_summary">"Приховує елементи меню налаштувань.
-Це приховує не лише меню налаштувань YT Music, а й меню налаштувань ReVanced Extended."</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">Фільтр меню налаштувань</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">Список назв меню налаштувань для фільтрування, розділених новим рядком.</string>
     <string name="revanced_hide_button_shelf_title">Приховати категорії в Навігації</string>
     <string name="revanced_hide_button_shelf_summary">Приховує кнопки \"Новинки\", \"Хіт-паради\", \"Настрій і жанри\" на вкладці \"Навігація\".</string>
     <string name="revanced_hide_carousel_shelf_title">Приховати карусель треків</string>
@@ -178,6 +173,7 @@
     <string name="revanced_spoof_app_version_target_summary">Виберіть зі списку цільову версію підробки програми.</string>
     <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Вимкнення режиму радіо в канадських регіонах</string>
     <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - Вимкнення динамічних текстів (караоке)</string>
+    <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Відновлення старої панелі дій</string>
     <!-- PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_title">Панель навігації</string>
     <string name="revanced_enable_black_navigation_bar_title">Увімкнути чорну панель навігації</string>
@@ -239,6 +235,18 @@
     <string name="revanced_restore_old_player_layout_title">Відновити старий інтерфейс плеєра</string>
     <string name="revanced_restore_old_player_layout_summary">"Повертає інтерфейс плеєра до старого стилю.
 Деякі функції можуть працювати не належним чином у старому інтерфейсі плеєра."</string>
+    <!-- PreferenceScreen: Settings menu -->
+    <string name="revanced_preference_screen_settings_title">Меню налаштувань</string>
+    <string name="revanced_hide_settings_menu_parent_tools_title">Приховати \"Сімейний Центр\"</string>
+    <string name="revanced_hide_settings_menu_general_title">Приховати \"Загальні\"</string>
+    <string name="revanced_hide_settings_menu_playback_title">Приховати \"Відтворення\"</string>
+    <string name="revanced_hide_settings_menu_data_saving_title">Приховати \"Заощадження трафіку\"</string>
+    <string name="revanced_hide_settings_menu_downloads_and_storage_title">Приховати \"Завантаження й зберігання\"</string>
+    <string name="revanced_hide_settings_menu_notification_title">Приховати \"Сповіщення\"</string>
+    <string name="revanced_hide_settings_menu_privacy_and_location_title">Приховати \"Дані й конфіденційність\"</string>
+    <string name="revanced_hide_settings_menu_recommendations_title">Приховати \"Рекомендації\"</string>
+    <string name="revanced_hide_settings_menu_paid_memberships_title">Приховати \"Оформити YouTube Music Premium\"</string>
+    <string name="revanced_hide_settings_menu_about_title">Приховати \"Про YouTube Music\"</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Відео</string>
     <string name="revanced_custom_playback_speeds_title">Редагувати користувацькі швидкості відтворення</string>

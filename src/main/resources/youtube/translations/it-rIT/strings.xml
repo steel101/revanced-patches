@@ -332,6 +332,12 @@ Limitazione: Il pulsante indietro sulla barra degli strumenti potrebbe non funzi
     <string name="revanced_remove_viewer_discretion_dialog_title">Rimuovi la finestra di discrezione del visualizzatore</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Rimuove la finestra di discrezione del visualizzatore.
 Questo non aggira la restrizione di età. La accetta solamente in automatico."</string>
+    <string name="revanced_change_layout_title">Cambia layout</string>
+    <string name="revanced_change_layout_entry_1">Originale</string>
+    <string name="revanced_change_layout_entry_2">Telefono</string>
+    <string name="revanced_change_layout_entry_3">Telefono (max 480 dp)</string>
+    <string name="revanced_change_layout_entry_4">Tablet</string>
+    <string name="revanced_change_layout_entry_5">Tablet (Min. 600 dp)</string>
     <string name="revanced_spoof_app_version_title">Camuffa la versione dell\'app</string>
     <string name="revanced_spoof_app_version_summary_on">Versione camuffata</string>
     <string name="revanced_spoof_app_version_summary_off">Versione non camuffata</string>
@@ -472,13 +478,6 @@ Se questa impostazione non ha effetto, prova a passare alla modalità Incognito.
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Menu Impostazioni</string>
     <string name="revanced_preference_screen_settings_menu_summary">Nascondi gli elementi del menu delle impostazioni di YouTube.</string>
-    <string name="revanced_hide_settings_menu_title">Nascondi menu impostazioni di YouTube</string>
-    <string name="revanced_hide_settings_menu_summary">Nascondi elementi nel menu delle impostazioni di YouTube.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">Filtro sul menu delle impostazioni di YouTube</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">Elenco dei nomi dei menu delle impostazioni di YouTube da filtrare, separati da nuove righe.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_hint">"Account
-Risparmio dati
-Sottotitoli"</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Barra degli strumenti</string>
     <string name="revanced_preference_screen_toolbar_summary">Nascondi o cambia i componenti situati sulla barra degli strumenti, come la barra di ricerca, i pulsanti della barra degli strumenti, e l\'intestazione.</string>

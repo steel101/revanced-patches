@@ -7,7 +7,7 @@
     <string name="revanced_extended_settings_title">ReVanced Extended 설정</string>
     <string name="revanced_extended_settings_search_title">%s 검색</string>
     <string name="revanced_extended_reset_to_default_toast">기본값으로 초기화합니다.</string>
-    <string name="revanced_preference_category_experimental_flag">실험적인 기능</string>
+    <string name="revanced_preference_category_experimental_flag">실험 기능</string>
     <string name="revanced_extended_confirm_user_dialog_title">계속하시겠습니까?</string>
     <string name="revanced_extended_restart_first_run">레이아웃을 정상적으로 불러오기 위해 다시 시작합니다.</string>
     <string name="revanced_extended_restart_message">새로고침 및 다시 시작</string>
@@ -191,13 +191,13 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_for_you_shelf_summary_off">추천 선반이 표시됩니다.</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Community posts -->
     <string name="revanced_preference_screen_community_posts_title">커뮤니티 게시물</string>
-    <string name="revanced_preference_screen_community_posts_summary">피드와 채널에서 커뮤니티 게시물을 숨기거나 표시할 수 있습니다.</string>
+    <string name="revanced_preference_screen_community_posts_summary">피드 및 채널에서 커뮤니티 게시물을 숨기거나 표시할 수 있습니다.</string>
     <string name="revanced_hide_community_posts_channel_title">채널에서 커뮤니티 게시물 숨기기</string>
     <string name="revanced_hide_community_posts_channel_summary_on">채널에서 커뮤니티 게시물이 숨겨집니다.</string>
     <string name="revanced_hide_community_posts_channel_summary_off">채널에서 커뮤니티 게시물이 표시됩니다.</string>
-    <string name="revanced_hide_community_posts_home_related_videos_title">홈 피드와 관련 동영상에서 커뮤니티 게시물 숨기기</string>
-    <string name="revanced_hide_community_posts_home_related_videos_summary_on">홈 피드와 관련 동영상에서 커뮤니티 게시물이 숨겨집니다.</string>
-    <string name="revanced_hide_community_posts_home_related_videos_summary_off">홈 피드와 관련 동영상에서 커뮤니티 게시물이 표시됩니다.</string>
+    <string name="revanced_hide_community_posts_home_related_videos_title">홈 피드 및 관련 동영상에서 커뮤니티 게시물 숨기기</string>
+    <string name="revanced_hide_community_posts_home_related_videos_summary_on">홈 피드 및 관련 동영상에서 커뮤니티 게시물이 숨겨집니다.</string>
+    <string name="revanced_hide_community_posts_home_related_videos_summary_off">홈 피드 및 관련 동영상에서 커뮤니티 게시물이 표시됩니다.</string>
     <string name="revanced_hide_community_posts_subscriptions_title">구독 피드에서 커뮤니티 게시물 숨기기</string>
     <string name="revanced_hide_community_posts_subscriptions_summary_on">구독 피드에서 커뮤니티 게시물이 숨겨집니다.</string>
     <string name="revanced_hide_community_posts_subscriptions_summary_off">구독 피드에서 커뮤니티 게시물이 표시됩니다.</string>
@@ -307,7 +307,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_change_start_page_entry_subscriptions">구독</string>
     <string name="revanced_change_start_page_entry_trending">인기 급상승</string>
     <string name="revanced_change_start_page_entry_watch_later">나중에 볼 동영상</string>
-    <string name="revanced_change_start_page_type_title">앱 시작 페이지 타입 변경하기</string>
+    <string name="revanced_change_start_page_type_title">앱 시작 페이지 유형 변경하기</string>
     <string name="revanced_change_start_page_type_summary_on">"앱 시작 페이지가 항상 변경됩니다.
 
 알려진 문제점: 툴바에서 '뒤로 가기' 버튼이 작동되지 않을 수 있습니다."</string>
@@ -338,9 +338,9 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_change_layout_title">레이아웃 변경하기</string>
     <string name="revanced_change_layout_entry_1">기기 기본값 사용</string>
     <string name="revanced_change_layout_entry_2">폰</string>
-    <string name="revanced_change_layout_entry_3">폰 (최대 너비: 480 dpi)</string>
+    <string name="revanced_change_layout_entry_3">폰 (최대 너비: 480 dp)</string>
     <string name="revanced_change_layout_entry_4">태블릿</string>
-    <string name="revanced_change_layout_entry_5">태블릿 (최소 너비: 600 dpi)</string>
+    <string name="revanced_change_layout_entry_5">태블릿 (최소 너비: 600 dp)</string>
     <string name="revanced_spoof_app_version_title">앱 버전 변경하기</string>
     <string name="revanced_spoof_app_version_summary_on">앱 버전을 변경합니다.</string>
     <string name="revanced_spoof_app_version_summary_off">앱 버전을 변경하지 않습니다.</string>
@@ -357,9 +357,9 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - \'조회수\' &amp; \'좋아요\'의 실시간 업데이트를 비활성화합니다.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">계정 메뉴</string>
-    <string name="revanced_preference_screen_account_menu_summary">계정 메뉴와 내 페이지 탭에서 구성요소를 숨기거나 표시할 수 있습니다.</string>
+    <string name="revanced_preference_screen_account_menu_summary">계정 메뉴 및 내 페이지에서 구성요소를 숨기거나 표시할 수 있습니다.</string>
     <string name="revanced_hide_account_menu_title">계정 메뉴 숨기기</string>
-    <string name="revanced_hide_account_menu_summary">"계정 메뉴 및 나 탭에서 구성요소가 숨겨집니다.
+    <string name="revanced_hide_account_menu_summary">"계정 메뉴 및 내 페이지에서 구성요소가 숨겨집니다.
 일부 구성요소는 숨겨지지 않을 수 있습니다."</string>
     <string name="revanced_hide_account_menu_filter_strings_title">계정 메뉴 필터 편집하기</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">필터링할 계정 메뉴 이름을 줄바꿈으로 구분하여 설정합니다.</string>
@@ -403,7 +403,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Miniplayer -->
     <string name="revanced_preference_screen_miniplayer_title">미니 플레이어</string>
     <string name="revanced_preference_screen_miniplayer_summary">앱 내에서 최소화된 플레이어의 스타일을 변경할 수 있습니다.</string>
-    <string name="revanced_miniplayer_type_title">미니 플레이어 타입 설정</string>
+    <string name="revanced_miniplayer_type_title">미니 플레이어 유형 설정</string>
     <string name="revanced_miniplayer_type_entry_1">기기 기본값 사용</string>
     <string name="revanced_miniplayer_type_entry_2">폰</string>
     <string name="revanced_miniplayer_type_entry_3">태블릿</string>
@@ -477,13 +477,66 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">설정 메뉴</string>
     <string name="revanced_preference_screen_settings_menu_summary">YouTube 설정 메뉴에서 구성요소를 숨길 수 있습니다.</string>
-    <string name="revanced_hide_settings_menu_title">YouTube 설정 메뉴 숨기기</string>
-    <string name="revanced_hide_settings_menu_summary">YouTube 설정 메뉴에서 구성요소를 숨깁니다.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">YouTube 설정 메뉴 필터</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">필터링할 YouTube 설정 메뉴 이름을 줄바꿈으로 구분하여 설정합니다.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_hint">"계정
-데이터 절약
-자막"</string>
+    <string name="revanced_hide_settings_menu_parent_tools_title">가족 센터 메뉴 숨기기</string>
+    <string name="revanced_hide_settings_menu_parent_tools_summary_on">가족 센터 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_settings_menu_parent_tools_summary_off">가족 센터 메뉴가 표시됩니다.</string>
+    <string name="revanced_hide_settings_menu_general_title">일반 메뉴 숨기기</string>
+    <string name="revanced_hide_settings_menu_general_summary_on">일반 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_settings_menu_general_summary_off">일반 메뉴가 표시됩니다.</string>
+    <string name="revanced_hide_settings_menu_account_title">계정 메뉴 숨기기</string>
+    <string name="revanced_hide_settings_menu_account_summary_on">계정 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_settings_menu_account_summary_off">계정 메뉴가 표시됩니다.</string>
+    <string name="revanced_hide_settings_menu_data_saving_title">데이터 절약 메뉴 숨기기</string>
+    <string name="revanced_hide_settings_menu_data_saving_summary_on">데이터 절약 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_settings_menu_data_saving_summary_off">데이터 절약 메뉴가 표시됩니다.</string>
+    <string name="revanced_hide_settings_menu_auto_play_title">자동재생 메뉴 숨기기</string>
+    <string name="revanced_hide_settings_menu_auto_play_summary_on">자동재생 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_settings_menu_auto_play_summary_off">자동재생 메뉴가 표시됩니다.</string>
+    <string name="revanced_hide_settings_menu_video_quality_title">동영상 화질 환경설정 메뉴 숨기기</string>
+    <string name="revanced_hide_settings_menu_video_quality_summary_on">동영상 화질 환경설정 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_settings_menu_video_quality_summary_off">동영상 화질 환경설정 메뉴가 표시됩니다.</string>
+    <string name="revanced_hide_settings_menu_offline_title">백그라운드 메뉴 숨기기</string>
+    <string name="revanced_hide_settings_menu_offline_summary_on">백그라운드 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_settings_menu_offline_summary_off">백그라운드 메뉴가 표시됩니다.</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_title">\'TV로 시청하기\' 메뉴 숨기기</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_summary_on">\'TV로 시청하기\' 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_summary_off">\'TV로 시청하기\' 메뉴가 표시됩니다.</string>
+    <string name="revanced_hide_settings_menu_history_title">전체 기록 관리 메뉴 숨기기</string>
+    <string name="revanced_hide_settings_menu_history_summary_on">전체 기록 관리 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_settings_menu_history_summary_off">전체 기록 관리 메뉴가 표시됩니다.</string>
+    <string name="revanced_hide_settings_menu_your_data_title">YouTube의 내 데이터 메뉴 숨기기</string>
+    <string name="revanced_hide_settings_menu_your_data_summary_on">YouTube의 내 데이터 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_settings_menu_your_data_summary_off">YouTube의 내 데이터 메뉴가 표시됩니다.</string>
+    <string name="revanced_hide_settings_menu_privacy_title">공개 설정 메뉴 숨기기</string>
+    <string name="revanced_hide_settings_menu_privacy_summary_on">공개 설정 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_settings_menu_privacy_summary_off">공개 설정 메뉴가 표시됩니다.</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_title">\'새 실험 기능 사용해 보기\' 메뉴 숨기기</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_summary_on">\'새 실험 기능 사용해 보기\' 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_summary_off">\'새 실험 기능 사용해 보기\' 메뉴가 표시됩니다.</string>
+    <string name="revanced_hide_settings_menu_subscription_product_title">구매 항목 및 멤버십 메뉴 숨기기</string>
+    <string name="revanced_hide_settings_menu_subscription_product_summary_on">구매 항목 및 멤버십 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_settings_menu_subscription_product_summary_off">구매 항목 및 멤버십 메뉴가 표시됩니다.</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_title">청구 및 결제 메뉴 숨기기</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_summary_on">청구 및 결제 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_summary_off">청구 및 결제 메뉴가 표시됩니다.</string>
+    <string name="revanced_hide_settings_menu_notification_title">알림 메뉴 숨기기</string>
+    <string name="revanced_hide_settings_menu_notification_summary_on">알림 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_settings_menu_notification_summary_off">알림 메뉴가 표시됩니다.</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_title">연결된 앱 메뉴 숨기기</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_summary_on">연결된 앱 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_summary_off">연결된 앱 메뉴가 표시됩니다.</string>
+    <string name="revanced_hide_settings_menu_live_chat_title">실시간 채팅 메뉴 숨기기</string>
+    <string name="revanced_hide_settings_menu_live_chat_summary_on">실시간 채팅 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_settings_menu_live_chat_summary_off">실시간 채팅 메뉴가 표시됩니다.</string>
+    <string name="revanced_hide_settings_menu_captions_title">자막 메뉴 숨기기</string>
+    <string name="revanced_hide_settings_menu_captions_summary_on">자막 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_settings_menu_captions_summary_off">자막 메뉴가 표시됩니다.</string>
+    <string name="revanced_hide_settings_menu_accessibility_title">접근성 메뉴 숨기기</string>
+    <string name="revanced_hide_settings_menu_accessibility_summary_on">접근성 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_settings_menu_accessibility_summary_off">접근성 메뉴가 표시됩니다.</string>
+    <string name="revanced_hide_settings_menu_about_title">정보 메뉴 숨기기</string>
+    <string name="revanced_hide_settings_menu_about_summary_on">정보 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_settings_menu_about_summary_off">정보 메뉴가 표시됩니다.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">툴바</string>
     <string name="revanced_preference_screen_toolbar_summary">툴바에서 버튼, 검색창, 헤더와 같은 구성요소를 숨기거나 변경할 수 있습니다.</string>
@@ -496,11 +549,11 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_enable_wide_search_bar_with_header_title">헤더가 있는 넓은 검색창 활성화하기</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_on">YouTube 헤더가 있는 넓은 검색창</string>
     <string name="revanced_enable_wide_search_bar_with_header_summary_off">YouTube 헤더가 없는 넓은 검색창</string>
-    <string name="revanced_enable_wide_search_bar_in_you_tab_title">나 탭에서 넓은 검색창 활성화하기</string>
-    <string name="revanced_enable_wide_search_bar_in_you_tab_summary">"이 설정을 활성화하면 나 탭의 설정 버튼이 비활성화됩니다.
+    <string name="revanced_enable_wide_search_bar_in_you_tab_title">내 페이지에서 넓은 검색창 활성화하기</string>
+    <string name="revanced_enable_wide_search_bar_in_you_tab_summary">"이 설정을 활성화하면 내 페이지에서 설정 버튼이 비활성화됩니다.
 
 이 경우에 설정 메뉴를 보려면 다음 경로를 사용하세요:
-나 탭 → 채널 보기 → 메뉴 더보기 (툴바) → 설정"</string>
+내 페이지 → 채널 보기 → 메뉴 더보기 (툴바) → 설정"</string>
     <string name="revanced_hide_toolbar_cast_button_title">크롬캐스트 버튼 숨기기</string>
     <string name="revanced_hide_toolbar_cast_button_summary_on">크롬캐스트 버튼이 숨겨집니다.</string>
     <string name="revanced_hide_toolbar_cast_button_summary_off">크롬캐스트 버튼이 표시됩니다.</string>
@@ -519,6 +572,12 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_voice_search_button_title">음성 검색 버튼 숨기기</string>
     <string name="revanced_hide_voice_search_button_summary_on">음성 검색 버튼이 숨겨집니다.</string>
     <string name="revanced_hide_voice_search_button_summary_off">음성 검색 버튼이 표시됩니다.</string>
+    <string name="revanced_hide_youtube_doodles_title">YouTube Doodles 숨기기</string>
+    <string name="revanced_hide_youtube_doodles_summary_on">검색창에서 YouTube Doodles가 숨겨집니다.\n• YouTube 이벤트성 헤더</string>
+    <string name="revanced_hide_youtube_doodles_summary_off">검색창에서 YouTube Doodles가 표시됩니다.\n• YouTube 이벤트성 헤더</string>
+    <string name="revanced_hide_youtube_doodles_user_dialog_message">"YouTube Doodles는 매년 며칠씩 표시됩니다.
+
+현재 해당 지역에서 YouTube Doodles가 표시되어 있는데 이 설정이 활성화되어 있는 경우에는 검색창 아래에 표시되는 카테고리 바도 숨겨집니다."</string>
     <string name="revanced_replace_toolbar_create_button_title">만들기 버튼 변경하기</string>
     <string name="revanced_replace_toolbar_create_button_summary">만들기 버튼을 설정 버튼으로 변경합니다.</string>
     <string name="revanced_replace_toolbar_create_button_type_title">버튼에 설정할 동작 유형</string>
@@ -677,7 +736,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_preview_comment_title">댓글 미리보기 숨기기</string>
     <string name="revanced_hide_preview_comment_on">댓글 미리보기가 숨겨집니다.</string>
     <string name="revanced_hide_preview_comment_off">댓글 미리보기가 표시됩니다.</string>
-    <string name="revanced_hide_preview_comment_type_title">댓글 미리보기 타입 숨기기</string>
+    <string name="revanced_hide_preview_comment_type_title">댓글 미리보기 유형 숨기기</string>
     <string name="revanced_hide_preview_comment_type_on">댓글 섹션의 크기가 변경되지 않으므로 댓글 섹션에서 실시간 채팅 다시보기를 열 수 있습니다.</string>
     <string name="revanced_hide_preview_comment_type_off">댓글 섹션의 크기가 변경되므로 댓글 섹션에서 실시간 채팅 다시보기를 열 수 없습니다.</string>
     <string name="revanced_hide_comment_create_shorts_button_title">Shorts 만들기 버튼 숨기기</string>
@@ -692,7 +751,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu -->
     <string name="revanced_preference_screen_player_flyout_menu_title">메뉴 구성요소</string>
     <string name="revanced_preference_screen_player_flyout_menu_summary">플레이어에서 메뉴 구성요소를 숨기거나 변경할 수 있습니다.</string>
-    <string name="revanced_change_player_flyout_menu_toggle_title">토글 타입 변경하기</string>
+    <string name="revanced_change_player_flyout_menu_toggle_title">토글 유형 변경하기</string>
     <string name="revanced_change_player_flyout_menu_toggle_summary_on">텍스트 토글으로 표시합니다.</string>
     <string name="revanced_change_player_flyout_menu_toggle_summary_off">스위치 토글으로 표시합니다.</string>
     <string name="revanced_hide_player_flyout_menu_audio_track_title">오디오 트랙 메뉴 숨기기</string>
@@ -1013,9 +1072,9 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 • 이전에 시청한 동영상
 • 관련 검색어의 검색결과
 • 새로운 맞춤 채널 ..."</string>
-    <string name="revanced_hide_shorts_shelf_home_related_videos_title">홈 피드와 관련 동영상에서 Shorts 선반 숨기기</string>
-    <string name="revanced_hide_shorts_shelf_home_related_videos_summary_on">홈 피드와 관련 동영상에서 Shorts 선반이 숨겨집니다.</string>
-    <string name="revanced_hide_shorts_shelf_home_related_videos_summary_off">홈 피드와 관련 동영상에서 Shorts 선반이 표시됩니다.</string>
+    <string name="revanced_hide_shorts_shelf_home_related_videos_title">홈 피드 및 관련 동영상에서 Shorts 선반 숨기기</string>
+    <string name="revanced_hide_shorts_shelf_home_related_videos_summary_on">홈 피드 및 관련 동영상에서 Shorts 선반이 숨겨집니다.</string>
+    <string name="revanced_hide_shorts_shelf_home_related_videos_summary_off">홈 피드 및 관련 동영상에서 Shorts 선반이 표시됩니다.</string>
     <string name="revanced_hide_shorts_shelf_subscriptions_title">구독 피드에서 Shorts 선반 숨기기</string>
     <string name="revanced_hide_shorts_shelf_subscriptions_summary_on">구독 피드에서 Shorts 선반이 숨겨집니다.</string>
     <string name="revanced_hide_shorts_shelf_subscriptions_summary_off">구독 피드에서 Shorts 선반이 표시됩니다.</string>
@@ -1223,7 +1282,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_enable_custom_playback_speed_title">사용자 정의 동영상 재생 속도 활성화하기</string>
     <string name="revanced_enable_custom_playback_speed_summary_on">사용자 정의 동영상 재생 속도를 활성화합니다.</string>
     <string name="revanced_enable_custom_playback_speed_summary_off">사용자 정의 동영상 재생 속도를 비활성화합니다.</string>
-    <string name="revanced_custom_playback_speed_menu_type_title">사용자 정의 동영상 재생 속도 메뉴 타입 설정</string>
+    <string name="revanced_custom_playback_speed_menu_type_title">사용자 정의 동영상 재생 속도 메뉴 유형 설정</string>
     <string name="revanced_custom_playback_speed_menu_type_summary_on">사용자 정의 다이얼로그를 활성화합니다.</string>
     <string name="revanced_custom_playback_speed_menu_type_summary_off">이전 메뉴 구성요소를 활성화합니다.</string>
     <string name="revanced_custom_playback_speeds_title">사용자 정의 동영상 재생 속도 편집하기</string>
@@ -1594,7 +1653,7 @@ AVC (H.264)의 최대 화질 값은 1080p이며 동영상을 재생하면 VP9 �
     <string name="revanced_preference_screen_watch_history_summary">시청 기록과 관련된 설정을 변경할 수 있습니다.</string>
     <string name="revanced_watch_history_management_title">전체 기록 관리</string>
     <string name="revanced_watch_history_management_summary">YouTube 시청 기록을 관리하려면 여기를 누르세요.</string>
-    <string name="revanced_watch_history_type_title">시청 기록 타입 설정</string>
+    <string name="revanced_watch_history_type_title">시청 기록 유형 설정</string>
     <string name="revanced_watch_history_type_entry_1">기본값</string>
     <string name="revanced_watch_history_type_entry_2">도메인 변경</string>
     <string name="revanced_watch_history_type_entry_3">시청 기록 차단</string>

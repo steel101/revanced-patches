@@ -475,13 +475,6 @@ Ha ez a beállítás nem működik, váltson inkognító módra."</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Beállítások menü</string>
     <string name="revanced_preference_screen_settings_menu_summary">Elrejti a YouTube beállítások menü elemeit.</string>
-    <string name="revanced_hide_settings_menu_title">YouTube beállítások menü elrejtése</string>
-    <string name="revanced_hide_settings_menu_summary">Elrejti a YouTube beállítások menü elemeit.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">YouTube beállítások menü szűrő</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">A szűrni kívánt YouTube beállítások menü neveinek listája, új sorokkal elválasztva.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_hint">"Fiók
-Adatmegőrzés
-Feliratok"</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Eszköztár</string>
     <string name="revanced_preference_screen_toolbar_summary">Elrejt vagy megváltoztat komponenseket az eszköztáron, mint például a keresősáv, eszköztár gombok és fejléc.</string>

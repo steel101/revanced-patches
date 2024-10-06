@@ -219,6 +219,7 @@
     <string name="revanced_remember_repeat_state_summary">记住重复播放状态</string>
     <string name="revanced_remember_shuffle_state_title">记住随机播放状态</string>
     <string name="revanced_remember_shuffle_state_summary">记住随机播放状态</string>
+    <!-- PreferenceScreen: Settings menu -->
     <!-- PreferenceScreen: Video -->
     <string name="revanced_custom_playback_speeds_title">编辑自定义播放速度</string>
     <string name="revanced_custom_playback_speeds_summary">添加或更改可用的播放速度</string>

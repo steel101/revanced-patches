@@ -394,13 +394,6 @@ Daha sonra kapatılırsa kullanıcı arayüzü hatalarını önlemek için uygul
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Ayarlar menüsü</string>
     <string name="revanced_preference_screen_settings_menu_summary">YouTube ayarlar menüsünde elementleri gizle.</string>
-    <string name="revanced_hide_settings_menu_title">YouTube ayarlar menüsünü gizle</string>
-    <string name="revanced_hide_settings_menu_summary">YouTube ayarlar menüsünde elementleri gizle.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">YouTube ayarlar menüsü filtresi</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">Yeni bir satırla ayrılmış olarak filtrelenecek YouTube ayarlar menüsü adlarının listesi.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_hint">"Hesap
-Veri tasarrufu
-Altyazılar"</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Araç Çubuğu</string>
     <string name="revanced_preference_screen_toolbar_summary">Araç çubuğu düğmeleri, arama çubuğu, başlık gibi araç çubuğunda bulunan bileşenleri gizleyin veya değiştirin.</string>

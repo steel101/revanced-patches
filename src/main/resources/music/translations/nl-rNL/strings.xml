@@ -166,6 +166,7 @@ Bekende problemen:
     <string name="revanced_remember_repeat_state_summary">Onthoudt de status van de herhaling.</string>
     <string name="revanced_remember_shuffle_state_title">Onthoud shuffle status</string>
     <string name="revanced_remember_shuffle_state_summary">Onthoudt de status van het shuffle.</string>
+    <!-- PreferenceScreen: Settings menu -->
     <!-- PreferenceScreen: Video -->
     <string name="revanced_custom_playback_speeds_title">Bewerk aangepaste afspeelsnelheden</string>
     <string name="revanced_custom_playback_speeds_summary">Voeg toe of verander de beschikbare afspeelsnelheden</string>

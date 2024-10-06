@@ -481,13 +481,6 @@ Si ce paramètre ne fait pas effet, essayer de passer en mode Incognito."</strin
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Menu paramètre</string>
     <string name="revanced_preference_screen_settings_menu_summary">Masque des éléments dans le menu paramètre YouTube.</string>
-    <string name="revanced_hide_settings_menu_title">Masquer des paramètres YouTube</string>
-    <string name="revanced_hide_settings_menu_summary">Masque des éléments dans le menu paramètres YouTube.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">Filtre du menu paramètre YouTube</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">Liste des noms du menu paramètre YouTube à filtrer, séparés par un saut de ligne.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_hint">"Compte
-Économie de données
-Sous-titres"</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Barre d\'outils</string>
     <string name="revanced_preference_screen_toolbar_summary">Masque ou change les éléments situés dans la barre d\'outils, tels que les boutons de la barre d\'outils, la barre de recherche, l\'en-tête.</string>

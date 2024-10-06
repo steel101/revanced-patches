@@ -479,13 +479,66 @@ Si este ajuste no surte efecto, prueba a cambiar al modo incógnito."</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Menú de configuración</string>
     <string name="revanced_preference_screen_settings_menu_summary">Ocultar elementos del menú de configuración de YouTube.</string>
-    <string name="revanced_hide_settings_menu_title">Ocultar menú de configuración de YouTube</string>
-    <string name="revanced_hide_settings_menu_summary">Ocultar elementos del menú de configuración de YouTube.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">Filtro de menú de configuración de YouTube</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">Lista de nombres del menú de configuración de YouTube a filtrar separados por una nueva línea.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_hint">"Cuenta
-Ahorro de datos
-Subtítulos"</string>
+    <string name="revanced_hide_settings_menu_parent_tools_title">Ocultar menú de centro familiar</string>
+    <string name="revanced_hide_settings_menu_parent_tools_summary_on">El menú de centro familiar está oculto.</string>
+    <string name="revanced_hide_settings_menu_parent_tools_summary_off">El menú de centro familiar está visible.</string>
+    <string name="revanced_hide_settings_menu_general_title">Ocultar menú de general</string>
+    <string name="revanced_hide_settings_menu_general_summary_on">El menú de general está oculto.</string>
+    <string name="revanced_hide_settings_menu_general_summary_off">El menú de general está visible.</string>
+    <string name="revanced_hide_settings_menu_account_title">Ocultar menú de cuenta</string>
+    <string name="revanced_hide_settings_menu_account_summary_on">El menú de cuenta está oculto.</string>
+    <string name="revanced_hide_settings_menu_account_summary_off">El menú de cuenta está visible.</string>
+    <string name="revanced_hide_settings_menu_data_saving_title">Ocultar menú de ahorro de datos</string>
+    <string name="revanced_hide_settings_menu_data_saving_summary_on">El menú de ahorro de datos está oculto.</string>
+    <string name="revanced_hide_settings_menu_data_saving_summary_off">El menú de ahorro de datos está visible.</string>
+    <string name="revanced_hide_settings_menu_auto_play_title">Ocultar menú de reproducción automática</string>
+    <string name="revanced_hide_settings_menu_auto_play_summary_on">El menú de reproducción automática está oculto.</string>
+    <string name="revanced_hide_settings_menu_auto_play_summary_off">El menú de reproducción automática está visible.</string>
+    <string name="revanced_hide_settings_menu_video_quality_title">Ocultar menú de preferencias de calidad de vídeo</string>
+    <string name="revanced_hide_settings_menu_video_quality_summary_on">El menú de preferencias de calidad de vídeo está oculto.</string>
+    <string name="revanced_hide_settings_menu_video_quality_summary_off">El menú de preferencias de calidad de vídeo está visible.</string>
+    <string name="revanced_hide_settings_menu_offline_title">Ocultar menú de segundo plano</string>
+    <string name="revanced_hide_settings_menu_offline_summary_on">El menú de segundo plano está oculto.</string>
+    <string name="revanced_hide_settings_menu_offline_summary_off">El menú de segundo plano está visible.</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_title">Ocultar menú de ver en la televisión</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_summary_on">El menú de ver en la televisión está oculto.</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_summary_off">El menú de ver en la televisión está visible.</string>
+    <string name="revanced_hide_settings_menu_history_title">Ocultar menú de gestionar todo el historial</string>
+    <string name="revanced_hide_settings_menu_history_summary_on">El menú de gestionar todo el historial está oculto.</string>
+    <string name="revanced_hide_settings_menu_history_summary_off">El menú de gestionar todo el historial está visible.</string>
+    <string name="revanced_hide_settings_menu_your_data_title">Ocultar menú de tus datos en YouTube</string>
+    <string name="revanced_hide_settings_menu_your_data_summary_on">El menú de tus datos en YouTube está oculto.</string>
+    <string name="revanced_hide_settings_menu_your_data_summary_off">El menú de tus datos en YouTube está visible.</string>
+    <string name="revanced_hide_settings_menu_privacy_title">Ocultar menú de privacidad</string>
+    <string name="revanced_hide_settings_menu_privacy_summary_on">El menú de privacidad está oculto.</string>
+    <string name="revanced_hide_settings_menu_privacy_summary_off">El menú de privacidad está visible.</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_title">Ocultar menú de prueba las nuevas funciones experimentales</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_summary_on">El menú de prueba las nuevas funciones experimentales está oculto.</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_summary_off">El menú de prueba las nuevas funciones experimentales está visible.</string>
+    <string name="revanced_hide_settings_menu_subscription_product_title">Ocultar menú de compras y suscripciones</string>
+    <string name="revanced_hide_settings_menu_subscription_product_summary_on">El menú de compras y suscripciones está oculto.</string>
+    <string name="revanced_hide_settings_menu_subscription_product_summary_off">El menú de compras y suscripciones está visible.</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_title">Ocultar menú de facturación y pagos</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_summary_on">El menú de facturación y pagos está oculto.</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_summary_off">El menú de facturación y pagos está visible.</string>
+    <string name="revanced_hide_settings_menu_notification_title">Ocultar menú de notificaciones</string>
+    <string name="revanced_hide_settings_menu_notification_summary_on">El menú de notificaciones está oculto.</string>
+    <string name="revanced_hide_settings_menu_notification_summary_off">El menú de notificaciones está visible.</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_title">Ocultar menú de aplicaciones conectadas</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_summary_on">El menú de aplicaciones conectadas está oculto.</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_summary_off">El menú de aplicaciones conectadas está visible.</string>
+    <string name="revanced_hide_settings_menu_live_chat_title">Ocultar menú de chat en directo</string>
+    <string name="revanced_hide_settings_menu_live_chat_summary_on">El menú de chat en directo está oculto.</string>
+    <string name="revanced_hide_settings_menu_live_chat_summary_off">El menú de chat en directo está visible.</string>
+    <string name="revanced_hide_settings_menu_captions_title">Ocultar menú de subtítulos</string>
+    <string name="revanced_hide_settings_menu_captions_summary_on">El menú de subtítulos está oculto.</string>
+    <string name="revanced_hide_settings_menu_captions_summary_off">El menú de subtítulos está visible.</string>
+    <string name="revanced_hide_settings_menu_accessibility_title">Ocultar menú de accesibilidad</string>
+    <string name="revanced_hide_settings_menu_accessibility_summary_on">El menú de accesibilidad está oculto.</string>
+    <string name="revanced_hide_settings_menu_accessibility_summary_off">El menú de accesibilidad está visible.</string>
+    <string name="revanced_hide_settings_menu_about_title">Ocultar menú de información</string>
+    <string name="revanced_hide_settings_menu_about_summary_on">El menú de información está oculto.</string>
+    <string name="revanced_hide_settings_menu_about_summary_off">El menú de información está visible.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Barra de herramientas</string>
     <string name="revanced_preference_screen_toolbar_summary">Ocultar o cambiar los componentes situados en la barra de herramientas, como los botones, la barra de búsqueda o la cabecera.</string>
@@ -521,6 +574,12 @@ Pestaña Tú &gt; Ver canal &gt; Menú &gt; Configuración."</string>
     <string name="revanced_hide_voice_search_button_title">Ocultar botón de búsqueda por voz</string>
     <string name="revanced_hide_voice_search_button_summary_on">El botón de búsqueda por voz está oculto.</string>
     <string name="revanced_hide_voice_search_button_summary_off">El botón de búsqueda por voz está visible.</string>
+    <string name="revanced_hide_youtube_doodles_title">Ocultar Doodles de YouTube</string>
+    <string name="revanced_hide_youtube_doodles_summary_on">Los Doodles de YouTube están ocultos.</string>
+    <string name="revanced_hide_youtube_doodles_summary_off">Los Doodles de YouTube están visibles.</string>
+    <string name="revanced_hide_youtube_doodles_user_dialog_message">"Los Doodles de YouTube aparecen unos pocos días al año.
+
+Si un Doodle de YouTube está actualmente mostrándose en tu región y este ajuste de ocultar está activado, entonces la barra de filtros debajo de la barra de búsqueda también estará oculta."</string>
     <string name="revanced_replace_toolbar_create_button_title">Reemplazar botón de crear</string>
     <string name="revanced_replace_toolbar_create_button_summary">Reemplaza el botón de crear con el botón de ajustes.</string>
     <string name="revanced_replace_toolbar_create_button_type_title">Tipo de acción a asignar al botón</string>

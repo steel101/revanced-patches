@@ -480,13 +480,66 @@ Jeśli opcja nie przynosi skutku, spróbuj przełączyć się na tryb incognito.
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Menu ustawień</string>
     <string name="revanced_preference_screen_settings_menu_summary">Ukryj elementy menu ustawień YouTube</string>
-    <string name="revanced_hide_settings_menu_title">Menu ustawień YouTube</string>
-    <string name="revanced_hide_settings_menu_summary">Ukryj elementy menu ustawień YouTube</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">Filtr ustawień YouTube</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">Lista nazw ustawień YouTube do filtrowania, która musi być oddzielona nowymi liniami.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_hint">"Konto
-Oszczędzanie danych
-Napisy"</string>
+    <string name="revanced_hide_settings_menu_parent_tools_title">Centrum rodziny</string>
+    <string name="revanced_hide_settings_menu_parent_tools_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_parent_tools_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_general_title">Ogólne</string>
+    <string name="revanced_hide_settings_menu_general_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_general_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_account_title">Konto</string>
+    <string name="revanced_hide_settings_menu_account_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_account_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_data_saving_title">Oszczędzanie danych</string>
+    <string name="revanced_hide_settings_menu_data_saving_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_data_saving_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_auto_play_title">Autoodtwarzanie</string>
+    <string name="revanced_hide_settings_menu_auto_play_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_auto_play_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_video_quality_title">Preferencje dotyczące jakości filmu</string>
+    <string name="revanced_hide_settings_menu_video_quality_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_video_quality_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_offline_title">Tło</string>
+    <string name="revanced_hide_settings_menu_offline_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_offline_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_title">Oglądaj na telewizorze</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_history_title">Zarządzaj całą historią</string>
+    <string name="revanced_hide_settings_menu_history_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_history_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_your_data_title">Twoje dane w YouTube</string>
+    <string name="revanced_hide_settings_menu_your_data_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_your_data_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_privacy_title">Prywatność</string>
+    <string name="revanced_hide_settings_menu_privacy_summary_on">Ukryta</string>
+    <string name="revanced_hide_settings_menu_privacy_summary_off">Widoczna</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_title">Wypróbuj eksperymentalne funkcje</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_subscription_product_title">Zakupy i subskrypcje</string>
+    <string name="revanced_hide_settings_menu_subscription_product_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_subscription_product_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_title">Rozliczenia i płatności</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_notification_title">Powiadomienia</string>
+    <string name="revanced_hide_settings_menu_notification_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_notification_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_title">Połączone aplikacje</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_live_chat_title">Czat na żywo</string>
+    <string name="revanced_hide_settings_menu_live_chat_summary_on">Ukryty</string>
+    <string name="revanced_hide_settings_menu_live_chat_summary_off">Widoczny</string>
+    <string name="revanced_hide_settings_menu_captions_title">Napisy</string>
+    <string name="revanced_hide_settings_menu_captions_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_captions_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_accessibility_title">Ułatwienia dostępu</string>
+    <string name="revanced_hide_settings_menu_accessibility_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_accessibility_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_about_title">Informacje</string>
+    <string name="revanced_hide_settings_menu_about_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_about_summary_off">Widoczne</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Pasek narzędzi</string>
     <string name="revanced_preference_screen_toolbar_summary">Ukryj lub pokazuj przyciski na pasku narzędzi, takie jak pasek wyszukiwania, nagłówek i inne</string>
@@ -522,6 +575,12 @@ Zakładka Ty → Zobacz kanał → Menu → Ustawienia"</string>
     <string name="revanced_hide_voice_search_button_title">Przycisk od wyszukiwania głosowego</string>
     <string name="revanced_hide_voice_search_button_summary_on">Ukryty</string>
     <string name="revanced_hide_voice_search_button_summary_off">Widoczny</string>
+    <string name="revanced_hide_youtube_doodles_title">YouTube Doodles</string>
+    <string name="revanced_hide_youtube_doodles_summary_on">Ukryte</string>
+    <string name="revanced_hide_youtube_doodles_summary_off">Widoczne</string>
+    <string name="revanced_hide_youtube_doodles_user_dialog_message">"YouTube Doodles pojawiają się przez kilka dni w ciągu roku.
+
+Jeśli YouTube Doodles pojawiają się obecnie w Twoim regionie, a opcja ukrywania jest włączona, to pasek filtrowania poniżej paska wyszukiwania również zostanie ukryty."</string>
     <string name="revanced_replace_toolbar_create_button_title">Zastąp przycisk od przesyłania</string>
     <string name="revanced_replace_toolbar_create_button_summary">Zamienia przycisk od przesyłania z przyciskiem do ustawień</string>
     <string name="revanced_replace_toolbar_create_button_type_title">Działanie przycisku</string>

@@ -287,7 +287,7 @@
     <string name="revanced_hide_related_videos_user_dialog_message">"يحد هذا الإعداد من الحد الأقصى لعدد التخطيطات التي يمكن تحميلها على شاشة المشغل.
 
 إذا تغير تخطيط شاشة المشغل بسبب تغييرات على جانب الخادم، فقد يتم إخفاء التخطيطات غير المقصودة على شاشة المشغل."</string>
-    <string name="revanced_related_videos_offset_title">Offset</string>
+    <string name="revanced_related_videos_offset_title">الموازن</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">عام</string>
     <string name="revanced_change_start_page_title">تغيير صفحة البداية</string>
@@ -338,9 +338,9 @@
     <string name="revanced_change_layout_title">تغيير التخطيط</string>
     <string name="revanced_change_layout_entry_1">الأساسي</string>
     <string name="revanced_change_layout_entry_2">الجوّال</string>
-    <string name="revanced_change_layout_entry_3">الجوّال (الحد الأقصى 480 dip)</string>
+    <string name="revanced_change_layout_entry_3">الجوّال (الحد الأقصى 480 dp)</string>
     <string name="revanced_change_layout_entry_4">الجهاز اللوحي</string>
-    <string name="revanced_change_layout_entry_5">الجهاز اللوحي (الحد الأدنى 600 dip)</string>
+    <string name="revanced_change_layout_entry_5">الجهاز اللوحي (الحد الأدنى 600 dp)</string>
     <string name="revanced_spoof_app_version_title">إصدار تطبيق وهمي</string>
     <string name="revanced_spoof_app_version_summary_on">تم تغيير اصدار التطبيق</string>
     <string name="revanced_spoof_app_version_summary_off">لم يتم تغيير اصدار التطبيق</string>
@@ -481,13 +481,66 @@
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">قائمة الإعدادات</string>
     <string name="revanced_preference_screen_settings_menu_summary">إخفاء العناصر في قائمة إعدادات YouTube.</string>
-    <string name="revanced_hide_settings_menu_title">إخفاء قائمة إعدادات YouTube</string>
-    <string name="revanced_hide_settings_menu_summary">إخفاء العناصر في قائمة إعدادات YouTube.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">فلتر قائمة إعدادات اليوتيوب</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">قائمة بأسماء قائمة إعدادات YouTube المراد تصفيتها، مفصولة بسطور جديدة.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_hint">"الحساب
-توفير البيانات
-الترجمة"</string>
+    <string name="revanced_hide_settings_menu_parent_tools_title">إخفاء قائمة مركز العائلة</string>
+    <string name="revanced_hide_settings_menu_parent_tools_summary_on">تم إخفاء قائمة مركز العائلة.</string>
+    <string name="revanced_hide_settings_menu_parent_tools_summary_off">يتم عرض قائمة مركز العائلة.</string>
+    <string name="revanced_hide_settings_menu_general_title">إخفاء قائمة عامة</string>
+    <string name="revanced_hide_settings_menu_general_summary_on">تم إخفاء قائمة عامة.</string>
+    <string name="revanced_hide_settings_menu_general_summary_off">يتم عرض قائمة عامة.</string>
+    <string name="revanced_hide_settings_menu_account_title">إخفاء قائمة الحساب</string>
+    <string name="revanced_hide_settings_menu_account_summary_on">تم إخفاء قائمة الحساب.</string>
+    <string name="revanced_hide_settings_menu_account_summary_off">يتم عرض قائمة الحساب.</string>
+    <string name="revanced_hide_settings_menu_data_saving_title">إخفاء قائمة توفير البيانات</string>
+    <string name="revanced_hide_settings_menu_data_saving_summary_on">تم إخفاء قائمة توفير البيانات.</string>
+    <string name="revanced_hide_settings_menu_data_saving_summary_off">يتم عرض قائمة توفير البيانات.</string>
+    <string name="revanced_hide_settings_menu_auto_play_title">إخفاء قائمة التشغيل التلقائي</string>
+    <string name="revanced_hide_settings_menu_auto_play_summary_on">تم إخفاء قائمة التشغيل التلقائي.</string>
+    <string name="revanced_hide_settings_menu_auto_play_summary_off">يتم عرض قائمة التشغيل التلقائي.</string>
+    <string name="revanced_hide_settings_menu_video_quality_title">إخفاء قائمة الجودة المفضلة للفيديو</string>
+    <string name="revanced_hide_settings_menu_video_quality_summary_on">تم إخفاء قائمة الجودة المفضلة للفيديو.</string>
+    <string name="revanced_hide_settings_menu_video_quality_summary_off">يتم عرض قائمة الجودة المفضلة للفيديو.</string>
+    <string name="revanced_hide_settings_menu_offline_title">إخفاء قائمة الخلفية</string>
+    <string name="revanced_hide_settings_menu_offline_summary_on">تم إخفاء قائمة الخلفية.</string>
+    <string name="revanced_hide_settings_menu_offline_summary_off">يتم عرض قائمة الخلفية.</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_title">إخفاء قائمة المشاهدة على التلفزيون</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_summary_on">تم إخفاء قائمة المشاهدة على التلفزيون.</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_summary_off">يتم عرض قائمة المشاهدة على التلفزيون.</string>
+    <string name="revanced_hide_settings_menu_history_title">إخفاء قائمة إدارة كل السجلّ</string>
+    <string name="revanced_hide_settings_menu_history_summary_on">تم إخفاء قائمة إدارة كل السجلّ.</string>
+    <string name="revanced_hide_settings_menu_history_summary_off">يتم عرض قائمة إدارة كل السجلّ.</string>
+    <string name="revanced_hide_settings_menu_your_data_title">إخفاء قائمة بياناتك في YouTube</string>
+    <string name="revanced_hide_settings_menu_your_data_summary_on">تم إخفاء قائمة بياناتك في YouTube.</string>
+    <string name="revanced_hide_settings_menu_your_data_summary_off">يتم عرض قائمة بياناتك في YouTube.</string>
+    <string name="revanced_hide_settings_menu_privacy_title">إخفاء قائمة الخصوصية</string>
+    <string name="revanced_hide_settings_menu_privacy_summary_on">تم إخفاء قائمة الخصوصية.</string>
+    <string name="revanced_hide_settings_menu_privacy_summary_off">يتم عرض قائمة الخصوصية.</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_title">إخفاء قائمة اختبار ميزات تجريبية جديدة</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_summary_on">تم إخفاء قائمة اختبار ميزات تجريبية جديدة.</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_summary_off">يتم عرض قائمة اختبار ميزات تجريبية جديدة.</string>
+    <string name="revanced_hide_settings_menu_subscription_product_title">إخفاء قائمة عمليات الشراء والاشتراكات</string>
+    <string name="revanced_hide_settings_menu_subscription_product_summary_on">تم إخفاء قائمة عمليات الشراء والاشتراكات.</string>
+    <string name="revanced_hide_settings_menu_subscription_product_summary_off">يتم عرض قائمة عمليات الشراء والاشتراكات.</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_title">إخفاء قائمة الفوترة والدفعات</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_summary_on">تم إخفاء قائمة الفوترة والدفعات.</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_summary_off">يتم عرض قائمة الفوترة والدفعات.</string>
+    <string name="revanced_hide_settings_menu_notification_title">إخفاء قائمة الإشعارات</string>
+    <string name="revanced_hide_settings_menu_notification_summary_on">تم إخفاء قائمة الإشعارات.</string>
+    <string name="revanced_hide_settings_menu_notification_summary_off">يتم عرض قائمة الإشعارات.</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_title">إخفاء قائمة التطبيقات المرتبطة</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_summary_on">تم إخفاء قائمة التطبيقات المرتبطة.</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_summary_off">يتم عرض قائمة التطبيقات المرتبطة.</string>
+    <string name="revanced_hide_settings_menu_live_chat_title">إخفاء قائمة المحادثات المباشرة</string>
+    <string name="revanced_hide_settings_menu_live_chat_summary_on">تم إخفاء قائمة المحادثات المباشرة.</string>
+    <string name="revanced_hide_settings_menu_live_chat_summary_off">يتم عرض قائمة المحادثات المباشرة.</string>
+    <string name="revanced_hide_settings_menu_captions_title">إخفاء قائمة الترجمة</string>
+    <string name="revanced_hide_settings_menu_captions_summary_on">تم إخفاء قائمة الترجمة.</string>
+    <string name="revanced_hide_settings_menu_captions_summary_off">يتم عرض قائمة الترجمة.</string>
+    <string name="revanced_hide_settings_menu_accessibility_title">إخفاء قائمة تمكين الوصول</string>
+    <string name="revanced_hide_settings_menu_accessibility_summary_on">تم إخفاء قائمة تمكين الوصول.</string>
+    <string name="revanced_hide_settings_menu_accessibility_summary_off">يتم عرض قائمة تمكين الوصول.</string>
+    <string name="revanced_hide_settings_menu_about_title">إخفاء قائمة لمحة</string>
+    <string name="revanced_hide_settings_menu_about_summary_on">تم إخفاء قائمة لمحة.</string>
+    <string name="revanced_hide_settings_menu_about_summary_off">يتم عرض قائمة لمحة.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">شريط الأدوات</string>
     <string name="revanced_preference_screen_toolbar_summary">إخفاء أو تغيير المكونات الموجودة على شريط الأدوات، مثل شريط الأدوات وأزرار شريط الأدوات والعلامة.</string>
@@ -523,6 +576,12 @@
     <string name="revanced_hide_voice_search_button_title">إخفاء زر البحث الصوتي</string>
     <string name="revanced_hide_voice_search_button_summary_on">تم إخفاء زر البحث الصوتي.</string>
     <string name="revanced_hide_voice_search_button_summary_off">يتم عرض زر البحث الصوتي.</string>
+    <string name="revanced_hide_youtube_doodles_title">إخفاء رسومات YouTube</string>
+    <string name="revanced_hide_youtube_doodles_summary_on">تم إخفاء رسومات YouTube.</string>
+    <string name="revanced_hide_youtube_doodles_summary_off">يتم عرض رسومات YouTube.</string>
+    <string name="revanced_hide_youtube_doodles_user_dialog_message">"تظهر رسومات YouTube Doodles لعدة أيام كل عام.
+
+إذا كانت رسومات YouTube Doodles تظهر حاليًا في منطقتك وكان إعداد الإخفاء هذا قيد التشغيل، فسيتم أيضًا إخفاء شريط الفلتر الموجود أسفل شريط البحث."</string>
     <string name="revanced_replace_toolbar_create_button_title">استبدال زر الإنشاء</string>
     <string name="revanced_replace_toolbar_create_button_summary">استبدال زر الإنشاء بزر الإعدادات.</string>
     <string name="revanced_replace_toolbar_create_button_type_title">نوع الإجراء الذي سيتم تعيينه للزر</string>

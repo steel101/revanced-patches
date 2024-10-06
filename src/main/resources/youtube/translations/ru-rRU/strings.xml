@@ -293,9 +293,9 @@ Shorts
     <string name="revanced_hide_related_videos_title">Похожие видео</string>
     <string name="revanced_hide_related_videos_summary_on">Похожие видео скрыты.</string>
     <string name="revanced_hide_related_videos_summary_off">Похожие видео отображены.</string>
-    <string name="revanced_hide_related_videos_user_dialog_message">"Этот параметр ограничивает максимальное количество макетов, которые могут быть загружены на экране плеера.
+    <string name="revanced_hide_related_videos_user_dialog_message">"Этот параметр ограничивает количество контейнеров по умолчанию, которые влияют на отображение похожих видео.
 
-Если макет экрана проигрывателя меняется из-за изменений на стороне сервера, незапланированные макеты могут быть скрыты на экране плеера."</string>
+Если параметр изменен на стороне сервера, не запрошенные, контейнеры могут быть не доступны."</string>
     <string name="revanced_related_videos_offset_title">Оффсет - Алгоритм выдачи похожих видео</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Основные настройки</string>
@@ -491,14 +491,6 @@ Shorts
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Меню настроек</string>
     <string name="revanced_preference_screen_settings_menu_summary">Настройка меню YouTube.</string>
-    <string name="revanced_hide_settings_menu_title">Меню настроек YouTube</string>
-    <string name="revanced_hide_settings_menu_summary">Скрытие элементов в меню настроек YouTube.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">Фильтр меню настроек YouTube</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">Список меню настроек YouTube для скрытия.\nРазделять новой строкой.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_hint">"Подсказка:
-Аккаунт
-Сохранение данных
-Субтитры"</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Панель инструментов</string>
     <string name="revanced_preference_screen_toolbar_summary">Скрыть или изменить компоненты на панели инструментов - строка поиска, кнопки и заголовок.</string>

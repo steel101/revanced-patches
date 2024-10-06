@@ -478,13 +478,6 @@
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">設定選單</string>
     <string name="revanced_preference_screen_settings_menu_summary">隱藏 YouTube 設定選單中的元素</string>
-    <string name="revanced_hide_settings_menu_title">YouTube 設定選單</string>
-    <string name="revanced_hide_settings_menu_summary">隱藏 YouTube 設定選單中的元素</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">YouTube 設定選單過濾器</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">要過濾的 YouTube 設定選單名稱列表，以新行分隔</string>
-    <string name="revanced_hide_settings_menu_filter_strings_hint">"帳戶
-節省數據用量
-字幕"</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">工具欄</string>
     <string name="revanced_preference_screen_toolbar_summary">隱藏或變更工具欄上的元件，例如工具欄按鈕、搜尋欄、標題</string>

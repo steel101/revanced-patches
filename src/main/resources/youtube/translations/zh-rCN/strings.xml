@@ -479,13 +479,6 @@
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">设置菜单</string>
     <string name="revanced_preference_screen_settings_menu_summary">隐藏 YouTube 设置菜单中的元素</string>
-    <string name="revanced_hide_settings_menu_title">YouTube 设置菜单</string>
-    <string name="revanced_hide_settings_menu_summary">隐藏 YouTube 设置菜单中的元素</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">YouTube 设置菜单过滤器</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">要过滤的 YouTube 设置菜单名称列表，以新行分隔</string>
-    <string name="revanced_hide_settings_menu_filter_strings_hint">"账户
-节省数据
-字幕"</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">工具栏</string>
     <string name="revanced_preference_screen_toolbar_summary">隐藏或更改工具栏上的组件，如工具栏按钮、搜索栏、标题</string>

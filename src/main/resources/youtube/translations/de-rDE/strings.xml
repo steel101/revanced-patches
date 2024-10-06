@@ -388,13 +388,6 @@ Manche Komponenten könnten nicht versteckt werden."</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Einstellungsmenü</string>
     <string name="revanced_preference_screen_settings_menu_summary">Elemente im YouTube-Einstellungsmenü verstecken</string>
-    <string name="revanced_hide_settings_menu_title">YouTube Einstellungsmenü verstecken</string>
-    <string name="revanced_hide_settings_menu_summary">Elemente im YouTube-Einstellungsmenü verstecken</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">YouTube Einstellungsmenüfilter</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">Liste der zu filternden Namen des YouTube-Einstellungsmenüs, getrennt durch neue Zeilen.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_hint">"Konto
-Daten speichern
-Untertitel"</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Werkzeugleiste</string>
     <string name="revanced_preference_screen_toolbar_summary">Verstecke oder ändere Toolbar-Komponenten, wie die Suchleiste, Buttons und Header.</string>
