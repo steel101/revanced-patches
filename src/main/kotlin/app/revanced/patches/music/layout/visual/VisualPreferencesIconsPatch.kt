@@ -136,6 +136,7 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
         "revanced_preference_screen_general",
         "revanced_preference_screen_navigation",
         "revanced_preference_screen_player",
+        "revanced_preference_screen_settings",
         "revanced_preference_screen_video",
         "revanced_preference_screen_ryd",
         "revanced_preference_screen_sb",
