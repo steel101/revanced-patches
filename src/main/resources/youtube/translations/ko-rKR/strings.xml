@@ -573,11 +573,11 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_voice_search_button_summary_on">음성 검색 버튼이 숨겨집니다.</string>
     <string name="revanced_hide_voice_search_button_summary_off">음성 검색 버튼이 표시됩니다.</string>
     <string name="revanced_hide_youtube_doodles_title">YouTube Doodles 숨기기</string>
-    <string name="revanced_hide_youtube_doodles_summary_on">검색창에서 YouTube Doodles가 숨겨집니다.\n• YouTube 이벤트성 헤더</string>
-    <string name="revanced_hide_youtube_doodles_summary_off">검색창에서 YouTube Doodles가 표시됩니다.\n• YouTube 이벤트성 헤더</string>
-    <string name="revanced_hide_youtube_doodles_user_dialog_message">"YouTube Doodles는 매년 며칠씩 표시됩니다.
+    <string name="revanced_hide_youtube_doodles_summary_on">YouTube Doodles가 숨겨집니다.\n• 이벤트성 YouTube 헤더</string>
+    <string name="revanced_hide_youtube_doodles_summary_off">YouTube Doodles가 표시됩니다.\n• 이벤트성 YouTube 헤더</string>
+    <string name="revanced_hide_youtube_doodles_user_dialog_message">"YouTube Doodles는 공휴일이나 기념일 등, 그날에 맞춘 디자인으로 변경되는 왼쪽 상단의 YouTube 헤더를 말합니다.
 
-현재 해당 지역에서 YouTube Doodles가 표시되어 있는데 이 설정이 활성화되어 있는 경우에는 검색창 아래에 표시되는 카테고리 바도 숨겨집니다."</string>
+현재 거주하는 지역에서 YouTube Doodles가 표시되어 있는데 이 설정이 활성화되어 있는 경우에는 검색창 아래에 표시되는 카테고리 바도 숨겨집니다."</string>
     <string name="revanced_replace_toolbar_create_button_title">만들기 버튼 변경하기</string>
     <string name="revanced_replace_toolbar_create_button_summary">만들기 버튼을 설정 버튼으로 변경합니다.</string>
     <string name="revanced_replace_toolbar_create_button_type_title">버튼에 설정할 동작 유형</string>

@@ -236,7 +236,7 @@ Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie."</string>
     <string name="revanced_restore_old_player_layout_summary">"Przywraca układ odtwarzacza do starego wyglądu.
 Niektóre ustawienia mogą nie działać poprawnie ze starym układem odtwarzacza."</string>
     <!-- PreferenceScreen: Settings menu -->
-    <string name="revanced_preference_screen_settings_title">Menu ustawień</string>
+    <string name="revanced_preference_screen_settings_title">Menu ustawień YouTube Music</string>
     <string name="revanced_hide_settings_menu_parent_tools_title">Ukryj menu centrum rodziny</string>
     <string name="revanced_hide_settings_menu_general_title">Ukryj menu ustawień ogólnych</string>
     <string name="revanced_hide_settings_menu_playback_title">Ukryj menu odtwarzania</string>
@@ -245,7 +245,7 @@ Niektóre ustawienia mogą nie działać poprawnie ze starym układem odtwarzacz
     <string name="revanced_hide_settings_menu_notification_title">Ukryj menu powiadomień</string>
     <string name="revanced_hide_settings_menu_privacy_and_location_title">Ukryj menu prywatności i danych</string>
     <string name="revanced_hide_settings_menu_recommendations_title">Ukryj menu rekomendacji</string>
-    <string name="revanced_hide_settings_menu_paid_memberships_title">Ukryj menu nabywania Music Premium</string>
+    <string name="revanced_hide_settings_menu_paid_memberships_title">Ukryj menu zasubskrybowania Music Premium</string>
     <string name="revanced_hide_settings_menu_about_title">Ukryj menu informacji o YouTube Music</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Teledyski</string>

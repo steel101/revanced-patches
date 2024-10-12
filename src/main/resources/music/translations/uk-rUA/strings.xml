@@ -142,7 +142,7 @@
     <string name="revanced_hide_playlist_card_shelf_title">Приховати полицю карток списку відтворення</string>
     <string name="revanced_hide_playlist_card_shelf_summary">Приховує полицю карток списку відтворення в стрічці.</string>
     <string name="revanced_hide_samples_shelf_title">Приховати полицю \"Семпли\"</string>
-    <string name="revanced_hide_samples_shelf_summary">Приховує полицю \"Семпли\" у стрічці.</string>
+    <string name="revanced_hide_samples_shelf_summary">Приховує полицю \"Семпли для вас\" у стрічці.</string>
     <string name="revanced_hide_cast_button_title">Приховати кнопку \"Трансляція\"</string>
     <string name="revanced_hide_cast_button_summary">Приховує кнопку \"Трансляція\" в плеєрі та мініплеєрі.</string>
     <string name="revanced_hide_category_bar_title">Приховати панель категорій</string>
@@ -245,7 +245,7 @@
     <string name="revanced_hide_settings_menu_notification_title">Приховати \"Сповіщення\"</string>
     <string name="revanced_hide_settings_menu_privacy_and_location_title">Приховати \"Дані й конфіденційність\"</string>
     <string name="revanced_hide_settings_menu_recommendations_title">Приховати \"Рекомендації\"</string>
-    <string name="revanced_hide_settings_menu_paid_memberships_title">Приховати \"Оформити YouTube Music Premium\"</string>
+    <string name="revanced_hide_settings_menu_paid_memberships_title">Приховати \"Підписатися на Music Premium\"</string>
     <string name="revanced_hide_settings_menu_about_title">Приховати \"Про YouTube Music\"</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Відео</string>

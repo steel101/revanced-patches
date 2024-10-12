@@ -465,6 +465,7 @@
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Меню с настройки</string>
     <string name="revanced_preference_screen_settings_menu_summary">Скриване на елементи в менюто с настройки на YouTube.</string>
+    <string name="revanced_hide_settings_menu_account_title">Скриване на менюто на акаунта</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Лента с инструменти</string>
     <string name="revanced_preference_screen_toolbar_summary">Скрива или променя елементи, разположени в лентата с инструменти, като бутони на лентата с инструменти, лента за търсене, заглавия.</string>

@@ -236,6 +236,17 @@ Esto no evita la restricción de edad. Solo la acepta automáticamente."</string
     <string name="revanced_restore_old_player_layout_summary">"Devuelve el diseño del reproductor al estilo antiguo.
 Algunas características pueden no funcionar correctamente en la disposición del reproductor antiguo."</string>
     <!-- PreferenceScreen: Settings menu -->
+    <string name="revanced_preference_screen_settings_title">Menú de ajustes</string>
+    <string name="revanced_hide_settings_menu_parent_tools_title">Ocultar menú de Centro Familiar</string>
+    <string name="revanced_hide_settings_menu_general_title">Ocultar menú general</string>
+    <string name="revanced_hide_settings_menu_playback_title">Ocultar menú de reproducción</string>
+    <string name="revanced_hide_settings_menu_data_saving_title">Ocultar menú de ahorro de datos</string>
+    <string name="revanced_hide_settings_menu_downloads_and_storage_title">Ocultar Descargas &amp; menú de almacenamiento</string>
+    <string name="revanced_hide_settings_menu_notification_title">Ocultar menú de notificaciones</string>
+    <string name="revanced_hide_settings_menu_privacy_and_location_title">Ocultar menú privacidad de &amp; datos</string>
+    <string name="revanced_hide_settings_menu_recommendations_title">Ocultar menú de recomendaciones</string>
+    <string name="revanced_hide_settings_menu_paid_memberships_title">Ocultar menú premium de Get Music</string>
+    <string name="revanced_hide_settings_menu_about_title">Ocultar menú Acerca de</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Video</string>
     <string name="revanced_custom_playback_speeds_title">Editar velocidades de reproducción personalizadas</string>

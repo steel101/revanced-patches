@@ -10,7 +10,7 @@
     <string name="revanced_preference_category_experimental_flag">実験的な機能</string>
     <string name="revanced_extended_confirm_user_dialog_title">続行しますか？</string>
     <string name="revanced_extended_restart_first_run">再起動してレイアウトを正常に読み込みます</string>
-    <string name="revanced_extended_restart_message">再起動して更新を適用</string>
+    <string name="revanced_extended_restart_message">再起動して設定を適用します</string>
     <string name="revanced_playback_speed_normal">通常</string>
     <string name="revanced_external_downloader_package_name_video_title">外部ダウンローダーのパッケージ名</string>
     <string name="revanced_external_downloader_package_name_video_summary">NewPipe や YTDLnis などの、インストールされている外部ダウンローダーアプリのパッケージ名です。</string>
@@ -511,8 +511,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_settings_menu_history_summary_on">「すべての履歴を管理」メニューを非表示にします。</string>
     <string name="revanced_hide_settings_menu_history_summary_off">「すべての履歴を管理」メニューを非表示にします。</string>
     <string name="revanced_hide_settings_menu_your_data_title">YouTube でのデータメニューを非表示</string>
-    <string name="revanced_hide_settings_menu_your_data_summary_on">「YouTubeでのデータ」メニューを非表示にします。</string>
-    <string name="revanced_hide_settings_menu_your_data_summary_off">「YouTubeでのデータ」メニューを非表示にします。</string>
+    <string name="revanced_hide_settings_menu_your_data_summary_on">「YouTube でのデータ」メニューを非表示にします。</string>
+    <string name="revanced_hide_settings_menu_your_data_summary_off">「YouTube でのデータ」メニューを非表示にします。</string>
     <string name="revanced_hide_settings_menu_privacy_title">プライバシーメニューを非表示</string>
     <string name="revanced_hide_settings_menu_privacy_summary_on">「プライバシー」メニューを非表示にします。</string>
     <string name="revanced_hide_settings_menu_privacy_summary_off">「プライバシー」メニューを非表示にします。</string>

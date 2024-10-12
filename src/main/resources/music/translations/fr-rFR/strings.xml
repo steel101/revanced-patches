@@ -236,6 +236,17 @@ Cela ne contourne pas la restriction d'âge, mais le confirme automatiquement."<
     <string name="revanced_restore_old_player_layout_summary">"Restaure l'ancien style de la mise en page du lecteur.
 Certaines fonctions peuvent ne pas fonctionner sur l'ancienne mise en page."</string>
     <!-- PreferenceScreen: Settings menu -->
+    <string name="revanced_preference_screen_settings_title">Menu Paramètres</string>
+    <string name="revanced_hide_settings_menu_parent_tools_title">Masquer le menu \'Centre pour la famille\'</string>
+    <string name="revanced_hide_settings_menu_general_title">Masquer le menu \'Paramètres généraux\'</string>
+    <string name="revanced_hide_settings_menu_playback_title">Masquer le menu \"Lecture\"</string>
+    <string name="revanced_hide_settings_menu_data_saving_title">Masquer le menu \'Économie de données\'</string>
+    <string name="revanced_hide_settings_menu_downloads_and_storage_title">Masquer le menu \'Téléchargements et stockage\'</string>
+    <string name="revanced_hide_settings_menu_notification_title">Masquer le menu \'Notifications\'</string>
+    <string name="revanced_hide_settings_menu_privacy_and_location_title">Masquer le menu \'Confidentialité et données\'</string>
+    <string name="revanced_hide_settings_menu_recommendations_title">Masquer le menu \'Recommandations\'</string>
+    <string name="revanced_hide_settings_menu_paid_memberships_title">Masquer le menu \'Obtenir Music Premium\'</string>
+    <string name="revanced_hide_settings_menu_about_title">Masquer le menu \'À propos\'</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Qualité et vitesse vidéo</string>
     <string name="revanced_custom_playback_speeds_title">Éditez les vitesses de lecture personnalisées</string>
