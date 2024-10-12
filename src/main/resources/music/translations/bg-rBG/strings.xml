@@ -132,11 +132,6 @@
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Филтриране на компонентите по имена.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Невалиден потребителски филтър: %s.</string>
-    <string name="revanced_hide_settings_menu_title">Скрийте менюто „Настройки“</string>
-    <string name="revanced_hide_settings_menu_summary">"Скриване на елементи от менюто с настройки. 
-Това не само скрива менюто с настройки на YT Music, но и менюто с разширени настройки на ReVanced."</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">Филтър на менюто „Настройки“</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">Списък с имена на менюта на параметри за филтриране, разделени с нов ред.</string>
     <string name="revanced_hide_button_shelf_title">Скриване на секцията с бутони</string>
     <string name="revanced_hide_button_shelf_summary">Скриване на секцията с бутони в емисията.</string>
     <string name="revanced_hide_carousel_shelf_title">Скриване на рафта с Препоръчани</string>
@@ -194,6 +189,7 @@
     <string name="revanced_enable_force_minimized_player_summary">Tartsa a lejátszót mindig minimálisra, még akkor is, ha egy másik számot játszik le.</string>
     <string name="revanced_enable_zen_mode_title">Включване на zen режим</string>
     <string name="revanced_enable_zen_mode_summary">Добавя сив оттенък към видеоплейъра, за да намали напрежението на очите.</string>
+    <!-- PreferenceScreen: Settings menu -->
     <!-- PreferenceScreen: Video -->
     <string name="revanced_custom_playback_speeds_title">Редактиране на скоростите по избор на видеото</string>
     <string name="revanced_custom_playback_speeds_summary">Добавяне или смяна на възможните скорости</string>

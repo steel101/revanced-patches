@@ -132,11 +132,6 @@ Info:
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Memfilter nama komponen dengan baris yang dipisahkan.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Invalid custom filter: %s.</string>
-    <string name="revanced_hide_settings_menu_title">Sembunyikan menu pengaturan</string>
-    <string name="revanced_hide_settings_menu_summary">"Sembunyikan elemen menu pengaturan.
-Ini tidak hanya menyembunyikan menu pengaturan YT Music, tetapi juga menu pengaturan ReVanced Extended."</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">Filter menu pengaturan</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">Daftar nama menu pengaturan yang akan difilter, dipisahkan dengan baris baru.</string>
     <string name="revanced_hide_button_shelf_title">Sembunyikan rak tombol</string>
     <string name="revanced_hide_button_shelf_summary">Menyembunyikan rak tombol dari beranda dan eksplorasi.</string>
     <string name="revanced_hide_carousel_shelf_title">Sembunyikan rak korsel</string>
@@ -236,6 +231,7 @@ This does not bypass the age restriction. It just accepts it automatically."</st
     <string name="revanced_restore_old_player_layout_title">Restore old player layout</string>
     <string name="revanced_restore_old_player_layout_summary">"Returns the player layout to the old style.
 Some features may not work properly in the old player layout."</string>
+    <!-- PreferenceScreen: Settings menu -->
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Video</string>
     <string name="revanced_custom_playback_speeds_title">Edit kecepatan pemutaran kustom</string>

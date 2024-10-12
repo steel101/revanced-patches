@@ -11,6 +11,7 @@ import app.revanced.patcher.patch.PatchException
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patches.shared.litho.LithoFilterPatch
+import app.revanced.patches.shared.textcomponent.TextComponentPatch
 import app.revanced.patches.youtube.shorts.components.fingerprints.ShortsButtonFingerprint
 import app.revanced.patches.youtube.shorts.components.fingerprints.ShortsPaidPromotionFingerprint
 import app.revanced.patches.youtube.shorts.components.fingerprints.ShortsPausedHeaderFingerprint
@@ -18,7 +19,6 @@ import app.revanced.patches.youtube.shorts.components.fingerprints.ShortsPivotLe
 import app.revanced.patches.youtube.shorts.components.fingerprints.ShortsSubscriptionsTabletFingerprint
 import app.revanced.patches.youtube.shorts.components.fingerprints.ShortsSubscriptionsTabletParentFingerprint
 import app.revanced.patches.youtube.utils.compatibility.Constants.COMPATIBLE_PACKAGE
-import app.revanced.patches.youtube.utils.fingerprints.TextComponentSpecFingerprint
 import app.revanced.patches.youtube.utils.integrations.Constants.COMPONENTS_PATH
 import app.revanced.patches.youtube.utils.integrations.Constants.SHORTS_CLASS_DESCRIPTOR
 import app.revanced.patches.youtube.utils.integrations.Constants.UTILS_PATH
@@ -35,7 +35,7 @@ import app.revanced.patches.youtube.utils.resourceid.SharedResourceIdPatch.Right
 import app.revanced.patches.youtube.utils.settings.SettingsPatch
 import app.revanced.patches.youtube.video.information.VideoInformationPatch
 import app.revanced.util.REGISTER_TEMPLATE_REPLACEMENT
-import app.revanced.util.getReference
+import app.revanced.util.getWalkerMethod
 import app.revanced.util.indexOfFirstInstructionOrThrow
 import app.revanced.util.indexOfFirstInstructionReversedOrThrow
 import app.revanced.util.indexOfFirstWideLiteralInstructionValueOrThrow
@@ -43,7 +43,6 @@ import app.revanced.util.patch.BaseBytecodePatch
 import app.revanced.util.replaceLiteralInstructionCall
 import app.revanced.util.resultOrThrow
 import com.android.tools.smali.dexlib2.Opcode
-import com.android.tools.smali.dexlib2.iface.instruction.FiveRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
@@ -64,7 +63,8 @@ object ShortsComponentPatch : BaseBytecodePatch(
         ShortsRepeatPatch::class,
         ShortsTimeStampPatch::class,
         ShortsToolBarPatch::class,
-        VideoInformationPatch::class
+        TextComponentPatch::class,
+        VideoInformationPatch::class,
     ),
     compatiblePackages = COMPATIBLE_PACKAGE,
     fingerprints = setOf(
@@ -73,7 +73,6 @@ object ShortsComponentPatch : BaseBytecodePatch(
         ShortsPausedHeaderFingerprint,
         ShortsPivotLegacyFingerprint,
         ShortsSubscriptionsTabletParentFingerprint,
-        TextComponentSpecFingerprint
     )
 ) {
     private const val INTEGRATION_CLASS_DESCRIPTOR =
@@ -283,15 +282,39 @@ object ShortsComponentPatch : BaseBytecodePatch(
 
         ShortsPausedHeaderFingerprint.resultOrThrow().let {
             it.mutableMethod.apply {
-                val insertIndex = it.scanResult.patternScanResult!!.startIndex
-                val insertRegister = getInstruction<OneRegisterInstruction>(insertIndex).registerA
+                val targetIndex = it.scanResult.patternScanResult!!.endIndex + 1
+                val targetInstruction = getInstruction(targetIndex)
+                val targetReference =
+                    (targetInstruction as? ReferenceInstruction)?.reference as? MethodReference
+                val useMethodWalker = targetInstruction.opcode == Opcode.INVOKE_VIRTUAL &&
+                        targetReference?.returnType == "V" &&
+                        targetReference.parameterTypes.firstOrNull() == "Landroid/view/View;"
 
-                addInstructions(
-                    insertIndex, """
-                        invoke-static {v$insertRegister}, $SHORTS_CLASS_DESCRIPTOR->hideShortsPausedHeader(Z)Z
-                        move-result v$insertRegister
-                        """
-                )
+                if (useMethodWalker) {
+                    // YouTube 18.29.38 ~ YouTube 19.28.42
+                    getWalkerMethod(context, targetIndex).apply {
+                        addInstructionsWithLabels(
+                            0, """
+                                invoke-static {}, $SHORTS_CLASS_DESCRIPTOR->hideShortsPausedHeader()Z
+                                move-result v0
+                                if-eqz v0, :show
+                                return-void
+                                """, ExternalLabel("show", getInstruction(0))
+                        )
+                    }
+                } else {
+                    // YouTube 19.29.42 ~
+                    val insertIndex = it.scanResult.patternScanResult!!.startIndex
+                    val insertRegister =
+                        getInstruction<OneRegisterInstruction>(insertIndex).registerA
+
+                    addInstructions(
+                        insertIndex, """
+                            invoke-static {v$insertRegister}, $SHORTS_CLASS_DESCRIPTOR->hideShortsPausedHeader(Z)Z
+                            move-result v$insertRegister
+                            """
+                    )
+                }
             }
         }
 
@@ -299,29 +322,7 @@ object ShortsComponentPatch : BaseBytecodePatch(
 
         // region patch for return shorts channel name
 
-        TextComponentSpecFingerprint.resultOrThrow().let {
-            it.mutableMethod.apply {
-                val insertIndex = indexOfFirstInstructionOrThrow {
-                    getReference<MethodReference>()?.toString() == "Landroid/text/SpannableString;->valueOf(Ljava/lang/CharSequence;)Landroid/text/SpannableString;"
-                }
-                val charSequenceRegister =
-                    getInstruction<FiveRegisterInstruction>(insertIndex).registerC
-                val conversionContextRegister =
-                    getInstruction<TwoRegisterInstruction>(0).registerA
-
-                val replaceReference =
-                    getInstruction<ReferenceInstruction>(insertIndex).reference
-
-                addInstructions(
-                    insertIndex + 1, """
-                        invoke-static {v$conversionContextRegister, v$charSequenceRegister}, $INTEGRATION_CLASS_DESCRIPTOR->onCharSequenceLoaded(Ljava/lang/Object;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
-                        move-result-object v$charSequenceRegister
-                        invoke-static {v$charSequenceRegister}, $replaceReference
-                        """
-                )
-                removeInstruction(insertIndex)
-            }
-        }
+        TextComponentPatch.hookSpannableString(INTEGRATION_CLASS_DESCRIPTOR, "onCharSequenceLoaded")
 
         VideoInformationPatch.hookShorts("$INTEGRATION_CLASS_DESCRIPTOR->newShortsVideoStarted(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JZ)V")
 

@@ -6,6 +6,7 @@ import app.revanced.patcher.extensions.InstructionExtensions.addInstructions
 import app.revanced.patcher.extensions.InstructionExtensions.addInstructionsWithLabels
 import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
 import app.revanced.patcher.extensions.InstructionExtensions.removeInstruction
+import app.revanced.patcher.extensions.InstructionExtensions.replaceInstruction
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.patch.PatchException
 import app.revanced.patcher.util.proxy.mutableTypes.MutableField.Companion.toMutable
@@ -13,6 +14,7 @@ import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod.Companion.toMutable
 import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patches.music.player.components.fingerprints.AudioVideoSwitchToggleFingerprint
+import app.revanced.patches.music.player.components.fingerprints.AudioVideoSwitchToggleFingerprint.AUDIO_VIDEO_SWITCH_TOGGLE_VISIBILITY
 import app.revanced.patches.music.player.components.fingerprints.EngagementPanelHeightFingerprint
 import app.revanced.patches.music.player.components.fingerprints.EngagementPanelHeightParentFingerprint
 import app.revanced.patches.music.player.components.fingerprints.HandleSearchRenderedFingerprint
@@ -35,19 +37,17 @@ import app.revanced.patches.music.player.components.fingerprints.PlayerViewPager
 import app.revanced.patches.music.player.components.fingerprints.QuickSeekOverlayFingerprint
 import app.revanced.patches.music.player.components.fingerprints.RemixGenericButtonFingerprint
 import app.revanced.patches.music.player.components.fingerprints.RepeatTrackFingerprint
-import app.revanced.patches.music.player.components.fingerprints.ShuffleClassReferenceFingerprint
-import app.revanced.patches.music.player.components.fingerprints.ShuffleClassReferenceFingerprint.indexOfImageViewInstruction
-import app.revanced.patches.music.player.components.fingerprints.ShuffleClassReferenceFingerprint.indexOfOrdinalInstruction
+import app.revanced.patches.music.player.components.fingerprints.ShuffleOnClickFingerprint
 import app.revanced.patches.music.player.components.fingerprints.SwipeToCloseFingerprint
 import app.revanced.patches.music.player.components.fingerprints.SwitchToggleColorFingerprint
 import app.revanced.patches.music.player.components.fingerprints.ZenModeFingerprint
 import app.revanced.patches.music.utils.compatibility.Constants.COMPATIBLE_PACKAGE
 import app.revanced.patches.music.utils.fingerprints.PendingIntentReceiverFingerprint
 import app.revanced.patches.music.utils.integrations.Constants.COMPONENTS_PATH
+import app.revanced.patches.music.utils.integrations.Constants.INTEGRATIONS_PATH
 import app.revanced.patches.music.utils.integrations.Constants.PLAYER_CLASS_DESCRIPTOR
 import app.revanced.patches.music.utils.mainactivity.MainActivityResolvePatch
 import app.revanced.patches.music.utils.resourceid.SharedResourceIdPatch
-import app.revanced.patches.music.utils.resourceid.SharedResourceIdPatch.AudioVideoSwitchToggle
 import app.revanced.patches.music.utils.resourceid.SharedResourceIdPatch.ColorGrey
 import app.revanced.patches.music.utils.resourceid.SharedResourceIdPatch.DarkBackground
 import app.revanced.patches.music.utils.resourceid.SharedResourceIdPatch.MiniPlayerPlayPauseReplayButton
@@ -61,6 +61,7 @@ import app.revanced.patches.music.utils.settings.SettingsPatch
 import app.revanced.patches.music.utils.videotype.VideoTypeHookPatch
 import app.revanced.patches.shared.litho.LithoFilterPatch
 import app.revanced.util.REGISTER_TEMPLATE_REPLACEMENT
+import app.revanced.util.addStaticFieldToIntegration
 import app.revanced.util.alsoResolve
 import app.revanced.util.findMethodOrThrow
 import app.revanced.util.getReference
@@ -73,11 +74,10 @@ import app.revanced.util.injectLiteralInstructionBooleanCall
 import app.revanced.util.injectLiteralInstructionViewCall
 import app.revanced.util.patch.BaseBytecodePatch
 import app.revanced.util.resultOrThrow
-import app.revanced.util.transformFields
+import app.revanced.util.transformMethods
 import app.revanced.util.traverseClassHierarchy
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
-import com.android.tools.smali.dexlib2.builder.MutableMethodImplementation
 import com.android.tools.smali.dexlib2.iface.MethodParameter
 import com.android.tools.smali.dexlib2.iface.instruction.FiveRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
@@ -88,7 +88,6 @@ import com.android.tools.smali.dexlib2.iface.reference.MethodReference
 import com.android.tools.smali.dexlib2.iface.reference.Reference
 import com.android.tools.smali.dexlib2.immutable.ImmutableField
 import com.android.tools.smali.dexlib2.immutable.ImmutableMethod
-import com.android.tools.smali.dexlib2.util.MethodUtil
 import kotlin.properties.Delegates
 
 @Suppress("unused", "LocalVariableName")
@@ -101,7 +100,7 @@ object PlayerComponentsPatch : BaseBytecodePatch(
         PlayerComponentsResourcePatch::class,
         SettingsPatch::class,
         SharedResourceIdPatch::class,
-        VideoTypeHookPatch::class
+        VideoTypeHookPatch::class,
     ),
     compatiblePackages = COMPATIBLE_PACKAGE,
     fingerprints = setOf(
@@ -126,12 +125,15 @@ object PlayerComponentsPatch : BaseBytecodePatch(
         QuickSeekOverlayFingerprint,
         RemixGenericButtonFingerprint,
         RepeatTrackFingerprint,
-        ShuffleClassReferenceFingerprint,
+        ShuffleOnClickFingerprint,
         SwipeToCloseFingerprint,
     )
 ) {
     private const val FILTER_CLASS_DESCRIPTOR =
         "$COMPONENTS_PATH/PlayerComponentsFilter;"
+
+    private const val INTEGRATIONS_VIDEO_UTILS_CLASS_DESCRIPTOR =
+        "$INTEGRATIONS_PATH/utils/VideoUtils;"
 
     override fun execute(context: BytecodeContext) {
 
@@ -628,14 +630,25 @@ object PlayerComponentsPatch : BaseBytecodePatch(
         // region patch for hide audio video switch toggle
 
         AudioVideoSwitchToggleFingerprint.resultOrThrow().mutableMethod.apply {
-            val constIndex = indexOfFirstWideLiteralInstructionValueOrThrow(AudioVideoSwitchToggle)
-            val viewIndex = indexOfFirstInstructionOrThrow(constIndex, Opcode.MOVE_RESULT_OBJECT)
-            val viewRegister = getInstruction<OneRegisterInstruction>(viewIndex).registerA
+            implementation!!.instructions
+                .withIndex()
+                .filter { (_, instruction) ->
+                    val reference = (instruction as? ReferenceInstruction)?.reference
+                    instruction.opcode == Opcode.INVOKE_VIRTUAL &&
+                    reference is MethodReference &&
+                            reference.toString() == AUDIO_VIDEO_SWITCH_TOGGLE_VISIBILITY
+                }
+                .map { (index, _) -> index }
+                .reversed()
+                .forEach { index ->
+                    val instruction = getInstruction<FiveRegisterInstruction>(index)
 
-            addInstruction(
-                viewIndex + 1,
-                "invoke-static {v$viewRegister}, $PLAYER_CLASS_DESCRIPTOR->hideAudioVideoSwitchToggle(Landroid/view/View;)V"
-            )
+                    replaceInstruction(
+                        index,
+                        "invoke-static {v${instruction.registerC}, v${instruction.registerD}}," +
+                                "$PLAYER_CLASS_DESCRIPTOR->hideAudioVideoSwitchToggle(Landroid/view/View;I)V"
+                    )
+                }
         }
 
         SettingsPatch.addSwitchPreference(
@@ -735,154 +748,87 @@ object PlayerComponentsPatch : BaseBytecodePatch(
 
         // region patch for remember shuffle state
 
-        val MUSIC_PLAYBACK_CONTROLS_CLASS_DESCRIPTOR =
-            "Lcom/google/android/apps/youtube/music/watchpage/MusicPlaybackControls;"
+        ShuffleOnClickFingerprint.resultOrThrow().mutableMethod.apply {
+            val accessibilityIndex =
+                ShuffleOnClickFingerprint.indexOfAccessibilityInstruction(this)
 
-        lateinit var rememberShuffleStateObjectClass: String
-        lateinit var rememberShuffleStateImageViewReference: Reference
-        lateinit var rememberShuffleStateShuffleStateLabel: String
+            // region set shuffle enum
 
-        ShuffleClassReferenceFingerprint.resultOrThrow().let {
-            it.mutableMethod.apply {
-                rememberShuffleStateObjectClass = definingClass
-
-                val imageViewIndex = indexOfImageViewInstruction(this)
-                val ordinalIndex = indexOfOrdinalInstruction(this)
-
-                val invokeInterfaceIndex =
-                    indexOfFirstInstructionReversedOrThrow(ordinalIndex, Opcode.INVOKE_INTERFACE)
-                val iGetObjectIndex =
-                    indexOfFirstInstructionReversedOrThrow(invokeInterfaceIndex, Opcode.IGET_OBJECT)
-                val checkCastIndex =
-                    indexOfFirstInstructionOrThrow(invokeInterfaceIndex, Opcode.CHECK_CAST)
-
-                val iGetObjectReference =
-                    getInstruction<ReferenceInstruction>(iGetObjectIndex).reference
-                val invokeInterfaceReference =
-                    getInstruction<ReferenceInstruction>(invokeInterfaceIndex).reference
-                val checkCastReference =
-                    getInstruction<ReferenceInstruction>(checkCastIndex).reference
-                val getOrdinalClassReference =
-                    getInstruction<ReferenceInstruction>(checkCastIndex + 1).reference
-                val ordinalReference =
-                    getInstruction<ReferenceInstruction>(ordinalIndex).reference
-
-                rememberShuffleStateImageViewReference =
-                    getInstruction<ReferenceInstruction>(imageViewIndex).reference
-
-                rememberShuffleStateShuffleStateLabel = """
-                    iget-object v1, v0, $iGetObjectReference
-                    invoke-interface {v1}, $invokeInterfaceReference
-                    move-result-object v1
-                    check-cast v1, $checkCastReference
-                    """
-
-                rememberShuffleStateShuffleStateLabel += if (getInstruction(checkCastIndex + 1).opcode == Opcode.INVOKE_VIRTUAL) {
-                    // YouTube Music 7.16.53+
-                    """
-                        invoke-virtual {v1}, $getOrdinalClassReference
-                        move-result-object v1
-                        
-                        """.trimIndent()
-                } else {
-                    """
-                        iget-object v1, v1, $getOrdinalClassReference
-                        
-                        """.trimIndent()
-                }
-
-                rememberShuffleStateShuffleStateLabel += """
-                    invoke-virtual {v1}, $ordinalReference
-                    move-result v1
-                    
-                    """.trimIndent()
+            val enumIndex = indexOfFirstInstructionReversedOrThrow(accessibilityIndex) {
+                opcode == Opcode.INVOKE_DIRECT &&
+                        getReference<MethodReference>()?.returnType == "Ljava/lang/String;"
             }
+            val enumRegister = getInstruction<FiveRegisterInstruction>(enumIndex).registerD
+            val enumClass =
+                (getInstruction<ReferenceInstruction>(enumIndex).reference as MethodReference).parameterTypes.first()
 
-            val constructorMethod =
-                it.mutableClass.methods.first { method -> MethodUtil.isConstructor(method) }
-            val onClickMethod = it.mutableClass.methods.first { method -> method.name == "onClick" }
+            addInstruction(
+                enumIndex,
+                "invoke-static {v$enumRegister}, $PLAYER_CLASS_DESCRIPTOR->setShuffleState(Ljava/lang/Enum;)V"
+            )
 
-            constructorMethod.apply {
-                addInstruction(
-                    implementation!!.instructions.lastIndex,
-                    "sput-object p0, $MUSIC_PLAYBACK_CONTROLS_CLASS_DESCRIPTOR->shuffleClass:$rememberShuffleStateObjectClass"
-                )
-            }
+            // endregion
 
-            onClickMethod.apply {
-                addInstructions(
-                    0, """
-                        move-object v0, p0
-                        """ + rememberShuffleStateShuffleStateLabel + """
-                        invoke-static {v1}, $PLAYER_CLASS_DESCRIPTOR->setShuffleState(I)V
-                        """
-                )
-            }
+            // region set static field
 
-            context.traverseClassHierarchy(it.mutableClass) {
-                accessFlags = AccessFlags.PUBLIC or AccessFlags.FINAL
-                transformFields {
-                    ImmutableField(
+            val shuffleClassIndex =
+                indexOfFirstInstructionReversedOrThrow(accessibilityIndex, Opcode.CHECK_CAST)
+            val shuffleClass =
+                getInstruction<ReferenceInstruction>(shuffleClassIndex).reference.toString()
+            val shuffleMutableClass = context.findClass { classDef ->
+                classDef.type == shuffleClass
+            }!!.mutableClass
+
+            val shuffleMethod = shuffleMutableClass.methods.find { method ->
+                method.parameterTypes.firstOrNull() == enumClass &&
+                        method.parameterTypes.size == 1 &&
+                        method.returnType == "V"
+            } ?: throw PatchException("target not found")
+
+            val smaliInstructions =
+                """
+                    if-eqz v0, :ignore
+                    sget-object v1, $enumClass->b:$enumClass
+                    invoke-virtual {v0, v1}, $shuffleClass->${shuffleMethod.name}($enumClass)V
+                    :ignore
+                    return-void
+                """
+
+            context.addStaticFieldToIntegration(
+                INTEGRATIONS_VIDEO_UTILS_CLASS_DESCRIPTOR,
+                "shuffleTracks",
+                "shuffleClass",
+                shuffleClass,
+                smaliInstructions
+            )
+
+            // endregion
+
+            // region make all methods accessible
+
+            context.traverseClassHierarchy(shuffleMutableClass) {
+                transformMethods {
+                    ImmutableMethod(
                         definingClass,
                         name,
-                        type,
-                        AccessFlags.PUBLIC or AccessFlags.PUBLIC,
-                        null,
+                        parameters,
+                        returnType,
+                        AccessFlags.PUBLIC or AccessFlags.FINAL,
                         annotations,
-                        null
+                        hiddenApiRestrictions,
+                        implementation
                     ).toMutable()
                 }
             }
+
+            // endregion
+
         }
 
-        MusicPlaybackControlsFingerprint.resultOrThrow().let {
-            it.mutableMethod.apply {
-                addInstruction(
-                    0,
-                    "invoke-virtual {v0}, $MUSIC_PLAYBACK_CONTROLS_CLASS_DESCRIPTOR->rememberShuffleState()V"
-                )
-
-                val shuffleField = ImmutableField(
-                    definingClass,
-                    "shuffleClass",
-                    rememberShuffleStateObjectClass,
-                    AccessFlags.PUBLIC or AccessFlags.STATIC,
-                    null,
-                    annotations,
-                    null
-                ).toMutable()
-
-                val shuffleMethod = ImmutableMethod(
-                    definingClass,
-                    "rememberShuffleState",
-                    emptyList(),
-                    "V",
-                    AccessFlags.PUBLIC or AccessFlags.FINAL,
-                    annotations, null,
-                    MutableMethodImplementation(5)
-                ).toMutable()
-
-                shuffleMethod.addInstructionsWithLabels(
-                    0, """
-                            invoke-static {}, $PLAYER_CLASS_DESCRIPTOR->getShuffleState()I
-                            move-result v2
-                            if-nez v2, :dont_shuffle
-                            sget-object v0, $MUSIC_PLAYBACK_CONTROLS_CLASS_DESCRIPTOR->shuffleClass:$rememberShuffleStateObjectClass
-                            """ + rememberShuffleStateShuffleStateLabel + """
-                            iget-object v3, v0, $rememberShuffleStateImageViewReference
-                            if-eqz v3, :dont_shuffle
-                            invoke-virtual {v3}, Landroid/view/View;->callOnClick()Z
-                            if-eqz v1, :dont_shuffle
-                            invoke-virtual {v3}, Landroid/view/View;->callOnClick()Z
-                            :dont_shuffle
-                            return-void
-                            """
-                )
-
-                it.mutableClass.methods.add(shuffleMethod)
-                it.mutableClass.staticFields.add(shuffleField)
-            }
-        }
+        MusicPlaybackControlsFingerprint.resultOrThrow().mutableMethod.addInstruction(
+            0,
+            "invoke-static {}, $PLAYER_CLASS_DESCRIPTOR->shuffleTracks()V"
+        )
 
         SettingsPatch.addSwitchPreference(
             CategoryType.PLAYER,

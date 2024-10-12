@@ -132,11 +132,6 @@ Bilgi:
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Yeni satırlarla ayrılmış olarak hangi bileşenlerin filtreleneceğini yapılandırın.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Geçersiz özel filtre: %s.</string>
-    <string name="revanced_hide_settings_menu_title">Ayarlar menüsünü gizle</string>
-    <string name="revanced_hide_settings_menu_summary">"Ayarlar menüsünün öğelerini gizleyin.
-Bu, yalnızca YT Music ayarlar menüsünü değil aynı zamanda ReVanced Extended ayarlar menüsünü de gizler."</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">Ayarları menüsü filtresi</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">Yeni bir satırla ayrılmış olarak filtrelenecek ayarlar menüsü adlarının listesi.</string>
     <string name="revanced_hide_button_shelf_title">Tuş rafını gizle</string>
     <string name="revanced_hide_button_shelf_summary">Düğme rafını ana sayfadan ve keşfet sekmesinden gizler.</string>
     <string name="revanced_hide_carousel_shelf_title">Atlıkarınca rafını gizle</string>
@@ -236,6 +231,7 @@ Bu, yalnızca YT Music ayarlar menüsünü değil aynı zamanda ReVanced Extende
     <string name="revanced_restore_old_player_layout_title">Eski oynatıcı düzenini geri getir</string>
     <string name="revanced_restore_old_player_layout_summary">"Oynatıcı düzenini eski stile döndürün. 
 Eski oynatıcı düzeninde bazı ayarlar düzgün çalışmayabilir."</string>
+    <!-- PreferenceScreen: Settings menu -->
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Video</string>
     <string name="revanced_custom_playback_speeds_title">Özel oynatma hızlarını düzenle</string>

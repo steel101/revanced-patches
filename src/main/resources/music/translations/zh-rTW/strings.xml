@@ -226,6 +226,7 @@
     <string name="revanced_restore_old_player_layout_title">恢復舊版播放器介面</string>
     <string name="revanced_restore_old_player_layout_summary">"將播放器介面恢復為舊樣式
 某些功能在舊的播放器介面中可能無法正常運作"</string>
+    <!-- PreferenceScreen: Settings menu -->
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">影片</string>
     <string name="revanced_custom_playback_speeds_title">編輯自訂播放速度</string>

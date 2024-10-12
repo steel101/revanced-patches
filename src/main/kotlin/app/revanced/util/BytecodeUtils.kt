@@ -16,10 +16,12 @@ import app.revanced.patcher.util.proxy.mutableTypes.MutableClass
 import app.revanced.patcher.util.proxy.mutableTypes.MutableField
 import app.revanced.patcher.util.proxy.mutableTypes.MutableField.Companion.toMutable
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
+import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod.Companion.toMutable
 import app.revanced.util.fingerprint.MultiMethodFingerprint
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
 import com.android.tools.smali.dexlib2.iface.Method
+import com.android.tools.smali.dexlib2.iface.MethodParameter
 import com.android.tools.smali.dexlib2.iface.instruction.FiveRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.Instruction
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
@@ -30,6 +32,8 @@ import com.android.tools.smali.dexlib2.iface.reference.MethodReference
 import com.android.tools.smali.dexlib2.iface.reference.Reference
 import com.android.tools.smali.dexlib2.iface.reference.StringReference
 import com.android.tools.smali.dexlib2.immutable.ImmutableField
+import com.android.tools.smali.dexlib2.immutable.ImmutableMethod
+import com.android.tools.smali.dexlib2.immutable.ImmutableMethodImplementation
 import com.android.tools.smali.dexlib2.util.MethodUtil
 
 const val REGISTER_TEMPLATE_REPLACEMENT: String = "REGISTER_INDEX"
@@ -40,6 +44,18 @@ fun MethodFingerprint.isDeprecated() =
 fun MethodFingerprint.resultOrThrow() = result ?: throw exception
 
 fun MultiMethodFingerprint.resultOrThrow() = result.ifEmpty { throw exception }
+
+fun parametersEqual(
+    parameters1: Iterable<CharSequence>,
+    parameters2: Iterable<CharSequence>
+): Boolean {
+    if (parameters1.count() != parameters2.count()) return false
+    val iterator1 = parameters1.iterator()
+    parameters2.forEach {
+        if (!it.startsWith(iterator1.next())) return false
+    }
+    return true
+}
 
 /**
  * The [PatchException] of failing to resolve a [MethodFingerprint].
@@ -54,6 +70,18 @@ val MultiMethodFingerprint.exception
 
 fun MethodFingerprint.alsoResolve(context: BytecodeContext, fingerprint: MethodFingerprint) =
     also { resolve(context, fingerprint.resultOrThrow().classDef) }.resultOrThrow()
+
+fun MethodFingerprint.getMethodCall() =
+    resultOrThrow().mutableMethod.getMethodCall()
+
+fun MutableMethod.getMethodCall(): String {
+    var methodCall = "$definingClass->$name("
+    for (i in 0 until parameters.size) {
+        methodCall += parameterTypes[i]
+    }
+    methodCall += ")$returnType"
+    return methodCall
+}
 
 /**
  * Find the [MutableMethod] from a given [Method] in a [MutableClass].
@@ -83,7 +111,7 @@ fun MutableClass.transformFields(transform: MutableField.() -> MutableField) {
  */
 fun MutableClass.transformMethods(transform: MutableMethod.() -> MutableMethod) {
     val transformedMethods = methods.map { it.transform() }
-    methods.clear()
+    methods.removeIf { !MethodUtil.isConstructor(it) }
     methods.addAll(transformedMethods)
 }
 
@@ -371,7 +399,7 @@ fun Method.findOpcodeIndicesReversed(opcode: Opcode): List<Int> =
 fun Method.findOpcodeIndicesReversed(filter: Instruction.() -> Boolean): List<Int> {
     val indexes = implementation!!.instructions
         .withIndex()
-        .filter { (_, instruction) -> filter.invoke(instruction) }
+        .filter { (_, instruction) -> filter(instruction) }
         .map { (index, _) -> index }
         .reversed()
 
@@ -572,6 +600,38 @@ fun BytecodeContext.updatePatchStatus(
         0,
         "const/4 v0, 0x1"
     )
+
+/**
+ * Taken from BiliRoamingX:
+ * https://github.com/BiliRoamingX/BiliRoamingX/blob/ae58109f3acdd53ec2d2b3fb439c2a2ef1886221/patches/src/main/kotlin/app/revanced/patches/bilibili/utils/Extenstions.kt#L51
+ */
+fun Method.cloneMutable(
+    registerCount: Int = implementation?.registerCount ?: 0,
+    clearImplementation: Boolean = false,
+    name: String = this.name,
+    accessFlags: Int = this.accessFlags,
+    parameters: List<MethodParameter> = this.parameters,
+    returnType: String = this.returnType
+): MutableMethod {
+    val clonedImplementation = implementation?.let {
+        ImmutableMethodImplementation(
+            registerCount,
+            if (clearImplementation) emptyList() else it.instructions,
+            if (clearImplementation) emptyList() else it.tryBlocks,
+            if (clearImplementation) emptyList() else it.debugItems,
+        )
+    }
+    return ImmutableMethod(
+        definingClass,
+        name,
+        parameters,
+        returnType,
+        accessFlags,
+        annotations,
+        hiddenApiRestrictions,
+        clonedImplementation
+    ).toMutable()
+}
 
 /**
  * Return the resolved methods of [MethodFingerprint]s early.

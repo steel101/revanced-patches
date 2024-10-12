@@ -284,6 +284,7 @@ Ograniczenia:
     <string name="revanced_hide_related_videos_user_dialog_message">"Ustawienie te ogranicza maksymalną ilość układów aplikacji, jakie mogą być załadowane na ekranie odtwarzacza.
 
 Jeśli układ ekranu odtwarzacza zmieni się w skutek zmian po stronie serwera, niepożądane układy mogą być ukryte na ekranie odtwarzacza."</string>
+    <string name="revanced_related_videos_offset_title">Przesunięcie</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Ogólne</string>
     <string name="revanced_change_start_page_title">Strona startowa</string>
@@ -332,10 +333,12 @@ Ograniczenie: Przycisk wstecz na pasku narzędzi może nie działać."</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Usuń okno dialogowe treści ograniczonej do oglądania</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Usuwa okno dialogowe treści ograniczonej do oglądania.
 Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie."</string>
-    <string name="revanced_enable_phone_layout_title">Układ telefonu</string>
-    <string name="revanced_enable_phone_layout_summary">Oszukuje dpi, aby używać układu telefonu</string>
-    <string name="revanced_enable_tablet_layout_title">Układ tabletu</string>
-    <string name="revanced_enable_tablet_layout_summary">Oszukuje dpi, aby używać układu tabletu</string>
+    <string name="revanced_change_layout_title">Układ aplikacji</string>
+    <string name="revanced_change_layout_entry_1">Oryginalny</string>
+    <string name="revanced_change_layout_entry_2">Telefonowy</string>
+    <string name="revanced_change_layout_entry_3">Telefonowy (max. 480 dpi)</string>
+    <string name="revanced_change_layout_entry_4">Tabletowy</string>
+    <string name="revanced_change_layout_entry_5">Tabletowy (max. 600 dpi)</string>
     <string name="revanced_spoof_app_version_title">Oszukiwanie wersji aplikacji</string>
     <string name="revanced_spoof_app_version_summary_on">Włączone</string>
     <string name="revanced_spoof_app_version_summary_off">Wyłączone</string>
@@ -477,13 +480,66 @@ Jeśli opcja nie przynosi skutku, spróbuj przełączyć się na tryb incognito.
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Menu ustawień</string>
     <string name="revanced_preference_screen_settings_menu_summary">Ukryj elementy menu ustawień YouTube</string>
-    <string name="revanced_hide_settings_menu_title">Menu ustawień YouTube</string>
-    <string name="revanced_hide_settings_menu_summary">Ukryj elementy menu ustawień YouTube</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">Filtr ustawień YouTube</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">Lista nazw ustawień YouTube do filtrowania, która musi być oddzielona nowymi liniami.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_hint">"Konto
-Oszczędzanie danych
-Napisy"</string>
+    <string name="revanced_hide_settings_menu_parent_tools_title">Centrum rodziny</string>
+    <string name="revanced_hide_settings_menu_parent_tools_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_parent_tools_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_general_title">Ogólne</string>
+    <string name="revanced_hide_settings_menu_general_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_general_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_account_title">Konto</string>
+    <string name="revanced_hide_settings_menu_account_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_account_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_data_saving_title">Oszczędzanie danych</string>
+    <string name="revanced_hide_settings_menu_data_saving_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_data_saving_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_auto_play_title">Autoodtwarzanie</string>
+    <string name="revanced_hide_settings_menu_auto_play_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_auto_play_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_video_quality_title">Preferencje dotyczące jakości filmu</string>
+    <string name="revanced_hide_settings_menu_video_quality_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_video_quality_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_offline_title">Tło</string>
+    <string name="revanced_hide_settings_menu_offline_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_offline_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_title">Oglądaj na telewizorze</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_history_title">Zarządzaj całą historią</string>
+    <string name="revanced_hide_settings_menu_history_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_history_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_your_data_title">Twoje dane w YouTube</string>
+    <string name="revanced_hide_settings_menu_your_data_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_your_data_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_privacy_title">Prywatność</string>
+    <string name="revanced_hide_settings_menu_privacy_summary_on">Ukryta</string>
+    <string name="revanced_hide_settings_menu_privacy_summary_off">Widoczna</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_title">Wypróbuj eksperymentalne funkcje</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_subscription_product_title">Zakupy i subskrypcje</string>
+    <string name="revanced_hide_settings_menu_subscription_product_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_subscription_product_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_title">Rozliczenia i płatności</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_notification_title">Powiadomienia</string>
+    <string name="revanced_hide_settings_menu_notification_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_notification_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_title">Połączone aplikacje</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_live_chat_title">Czat na żywo</string>
+    <string name="revanced_hide_settings_menu_live_chat_summary_on">Ukryty</string>
+    <string name="revanced_hide_settings_menu_live_chat_summary_off">Widoczny</string>
+    <string name="revanced_hide_settings_menu_captions_title">Napisy</string>
+    <string name="revanced_hide_settings_menu_captions_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_captions_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_accessibility_title">Ułatwienia dostępu</string>
+    <string name="revanced_hide_settings_menu_accessibility_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_accessibility_summary_off">Widoczne</string>
+    <string name="revanced_hide_settings_menu_about_title">Informacje</string>
+    <string name="revanced_hide_settings_menu_about_summary_on">Ukryte</string>
+    <string name="revanced_hide_settings_menu_about_summary_off">Widoczne</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Pasek narzędzi</string>
     <string name="revanced_preference_screen_toolbar_summary">Ukryj lub pokazuj przyciski na pasku narzędzi, takie jak pasek wyszukiwania, nagłówek i inne</string>
@@ -519,6 +575,12 @@ Zakładka Ty → Zobacz kanał → Menu → Ustawienia"</string>
     <string name="revanced_hide_voice_search_button_title">Przycisk od wyszukiwania głosowego</string>
     <string name="revanced_hide_voice_search_button_summary_on">Ukryty</string>
     <string name="revanced_hide_voice_search_button_summary_off">Widoczny</string>
+    <string name="revanced_hide_youtube_doodles_title">YouTube Doodles</string>
+    <string name="revanced_hide_youtube_doodles_summary_on">Ukryte</string>
+    <string name="revanced_hide_youtube_doodles_summary_off">Widoczne</string>
+    <string name="revanced_hide_youtube_doodles_user_dialog_message">"YouTube Doodles pojawiają się przez kilka dni w ciągu roku.
+
+Jeśli YouTube Doodles pojawiają się obecnie w Twoim regionie, a opcja ukrywania jest włączona, to pasek filtrowania poniżej paska wyszukiwania również zostanie ukryty."</string>
     <string name="revanced_replace_toolbar_create_button_title">Zastąp przycisk od przesyłania</string>
     <string name="revanced_replace_toolbar_create_button_summary">Zamienia przycisk od przesyłania z przyciskiem do ustawień</string>
     <string name="revanced_replace_toolbar_create_button_type_title">Działanie przycisku</string>
@@ -1037,15 +1099,18 @@ Ograniczenie: Nagłówki z tytułami będą ukryte w wynikach wyszukiwania."</st
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">Zatrzymane przyciski w odtwarzaczu</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">Ukryte</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">Widoczne</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_title">Etykiety oznaczające płatne promocje</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_summary_on">Ukryte</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">Widoczne</string>
     <string name="revanced_hide_shorts_trends_button_title">Przycisk od trendów</string>
     <string name="revanced_hide_shorts_trends_button_summary_on">Ukryty</string>
     <string name="revanced_hide_shorts_trends_button_summary_off">Widoczny</string>
     <string name="revanced_hide_shorts_shopping_button_title">Przycisk od kupowania</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">Ukryty</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">Widoczny</string>
+    <string name="revanced_hide_shorts_stickers_title">Naklejki</string>
+    <string name="revanced_hide_shorts_stickers_summary_on">Ukryte</string>
+    <string name="revanced_hide_shorts_stickers_summary_off">Widoczne</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_title">Etykiety oznaczające płatne promocje</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_summary_on">Ukryte</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">Widoczne</string>
     <string name="revanced_hide_shorts_info_panel_title">Panele z informacjami</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Ukryte</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Widoczne</string>
@@ -1069,9 +1134,9 @@ Ograniczenie: Nagłówki z tytułami będą ukryte w wynikach wyszukiwania."</st
     <string name="revanced_hide_shorts_green_screen_button_title">Przycisk od greenscreena</string>
     <string name="revanced_hide_shorts_green_screen_button_summary_on">Ukryty</string>
     <string name="revanced_hide_shorts_green_screen_button_summary_off">Widoczny</string>
-    <string name="revanced_hide_shorts_save_sound_button_title">Przycisk od zapisywania dźwięku</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">Ukryty</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">Widoczny</string>
+    <string name="revanced_hide_shorts_save_music_button_title">Przycisk od zapisywania muzyki</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_on">Ukryty</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_off">Widoczny</string>
     <string name="revanced_hide_shorts_shop_button_title">Przycisk do sklepu</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">Ukryty</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">Widoczny</string>
@@ -1558,6 +1623,7 @@ Kontynuuj i wyłącz optymalizację baterii."</string>
     <string name="revanced_spoof_streaming_data_type_title">Domyślny klient</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
     <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android Creator</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Wbudowany odtwarzacz Androida</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Klient Testowy Androida</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
@@ -1569,7 +1635,8 @@ Kontynuuj i wyłącz optymalizację baterii."</string>
 • Transmisje na żywo rozpoczynają się od początku
 • Filmy mogą kończyć się o 1 sekundę wcześniej
 • Kodek opus jest niedostępny"</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Brakuje menu od ścieżki dźwiękowej</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Brakuje menu od ścieżki dźwiękowej
+• Stabilna głośność jest niedostępna"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Brakuje menu od ścieżki dźwiękowej
 • Stabilna głośność jest niedostępna"</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Filmy mogą się nie odtwarzać</string>
@@ -1613,7 +1680,6 @@ Kodek AVC (H.264) obsługuje maksymalnie rozdzielczość 1080p, a odtwarzanie fi
     <string name="revanced_icon_revancify_blue">Niebieska od Revancify</string>
     <string name="revanced_icon_revancify_red">Czerwona od Revancify</string>
     <string name="revanced_icon_youtube">YouTube</string>
-    <string name="revanced_icon_youtube_minimal_header">YouTube (Minimalny nagłówek)</string>
     <string name="revanced_label_default">Domyślne</string>
     <string name="revanced_patches_excluded">Wykluczone</string>
     <string name="revanced_patches_included">Zawarte</string>

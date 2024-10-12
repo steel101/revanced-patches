@@ -70,12 +70,12 @@
 Hạn chế:
 • Ảnh bìa Album trong thẻ Thư viện (Danh sách phát, Podcast, Bài hát, Đĩa nhạc, Nghệ sĩ,...) cũng thu gọn theo.
 • Bố cục Hẹn giờ ngủ có thể xuất hiện bất thường."</string>
-    <string name="revanced_enable_trim_silence_title">Bật/Tắt Cắt bỏ khoảng im lặng</string>
-    <string name="revanced_enable_trim_silence_summary">"Thêm nút Bật/Tắt Cắt bỏ khoảng im lặng vào tuỳ chọn tốc độ phát.
+    <string name="revanced_enable_trim_silence_title">Cắt bỏ khoảng lặng</string>
+    <string name="revanced_enable_trim_silence_summary">"Thêm tính năng Cắt bỏ khoảng lặng vào mục tuỳ chọn tốc độ phát.
 
  Cụ thể:
- • Tính năng dành cho podcast.
- • Tính năng vẫn đang được phát triển nên có thể chưa ổn định."</string>
+ • Tính năng này dành cho podcast.
+ • Tính năng này vẫn đang được phát triển nên có thể chưa ổn định."</string>
     <string name="revanced_hide_flyout_menu_like_dislike_title">Ẩn các nút Thích và Không thích</string>
     <string name="revanced_hide_flyout_menu_3_column_component_title">Ẩn thành phần 3 cột</string>
     <string name="revanced_hide_flyout_menu_add_to_queue_title">Ẩn mục Thêm vào danh sách chờ</string>
@@ -135,11 +135,6 @@ Hạn chế:
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Nhập tên các mục mà bạn muốn lọc được phân cách bằng dòng.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Bộ lọc tuỳ chỉnh không hợp lệ: %s.</string>
-    <string name="revanced_hide_settings_menu_title">Ẩn menu cài đặt</string>
-    <string name="revanced_hide_settings_menu_summary">"Ẩn các thành phần của menu Cài đặt.
-Khi bật không chỉ ẩn menu Cài đặt YT Music, mà cả menu Cài đặt ReVanced Extended."</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">Cài đặt bộ lọc menu</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">Danh sách tên menu Cài đặt cần lọc, cách nhau từng dòng một.</string>
     <string name="revanced_hide_button_shelf_title">Ẩn khối danh mục</string>
     <string name="revanced_hide_button_shelf_summary">Ẩn khối danh mục ở cuối thẻ Trang chủ và đầu thẻ Khám phá.</string>
     <string name="revanced_hide_carousel_shelf_title">Ẩn các kệ được cá nhân hoá</string>
@@ -154,7 +149,7 @@ Khi bật không chỉ ẩn menu Cài đặt YT Music, mà cả menu Cài đặt
     <string name="revanced_hide_category_bar_summary">Ẩn thanh danh mục.</string>
     <string name="revanced_hide_floating_button_title">Ẩn nút nổi</string>
     <string name="revanced_hide_floating_button_summary">Ẩn nút nổi trong thẻ Thư viện.</string>
-    <string name="revanced_hide_tap_to_update_button_title">Ẩn nút \'Chạm để nâng cấp\'</string>
+    <string name="revanced_hide_tap_to_update_button_title">Ẩn nút Nhấn để cập nhật</string>
     <string name="revanced_hide_tap_to_update_button_summary">Ẩn nút \'Chạm để nâng cấp\'.</string>
     <string name="revanced_hide_history_button_title">Ẩn nút Video đã xem</string>
     <string name="revanced_hide_history_button_summary">Ẩn nút Video đã xem khỏi thanh công cụ.</string>
@@ -178,6 +173,7 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_spoof_app_version_target_summary">Chọn phiên bản YouTube Music mà bạn muốn giả mạo.</string>
     <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Tắt chế độ Đài phát ở một số vùng của Canada</string>
     <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - Tắt lời bài hát theo thời gian thực</string>
+    <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - Khôi phục bảng nút thao tác cũ</string>
     <!-- PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_title">Thanh điều hướng</string>
     <string name="revanced_enable_black_navigation_bar_title">Thanh điều hướng màu đen</string>
@@ -239,6 +235,18 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_restore_old_player_layout_title">Khôi phục bố cục trình phát kiểu cũ</string>
     <string name="revanced_restore_old_player_layout_summary">"Khôi phục bố cục trình phát về kiểu cũ.
 \nLưu ý: Một số tính năng có thể không hoạt động bình thường trong bố cục trình phát kiểu cũ."</string>
+    <!-- PreferenceScreen: Settings menu -->
+    <string name="revanced_preference_screen_settings_title">Mục Cài đặt</string>
+    <string name="revanced_hide_settings_menu_parent_tools_title">Ẩn mục Trung tâm dành cho gia đình</string>
+    <string name="revanced_hide_settings_menu_general_title">Ẩn mục Chung</string>
+    <string name="revanced_hide_settings_menu_playback_title">Ẩn mục Tính năng phát</string>
+    <string name="revanced_hide_settings_menu_data_saving_title">Ẩn mục Chế độ tiết kiệm dữ liệu</string>
+    <string name="revanced_hide_settings_menu_downloads_and_storage_title">Ẩn mục Nhạc tải xuống &amp; bộ nhớ</string>
+    <string name="revanced_hide_settings_menu_notification_title">Ẩn mục Thông báo</string>
+    <string name="revanced_hide_settings_menu_privacy_and_location_title">Ẩn mục Quyền riêng tư &amp; dữ liệu</string>
+    <string name="revanced_hide_settings_menu_recommendations_title">Ẩn mục Đề xuất</string>
+    <string name="revanced_hide_settings_menu_paid_memberships_title">Ẩn mục Mua Music Premium</string>
+    <string name="revanced_hide_settings_menu_about_title">Ẩn mục Giới thiệu về Youtube music</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Video</string>
     <string name="revanced_custom_playback_speeds_title">Chỉnh sửa tốc độ phát</string>
@@ -342,8 +350,12 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_enable_debug_logging_summary">Bật ghi nhật ký gỡ lỗi.</string>
     <string name="revanced_enable_debug_buffer_logging_title">Bật nhật ký gỡ lỗi bộ đệm</string>
     <string name="revanced_enable_debug_buffer_logging_summary">Bao gồm bộ đệm trong nhật ký gỡ lỗi.</string>
-    <string name="revanced_enable_opus_codec_title">Codec Opus</string>
-    <string name="revanced_enable_opus_codec_summary">"Áp dụng codec âm thanh Opus thay vì MP4A."</string>
+    <string name="revanced_enable_opus_codec_title">Bộ giải mã OPUS</string>
+    <string name="revanced_enable_opus_codec_summary">"Áp dụng bộ giải mã OPUS nếu phản hồi của trình phát bao gồm nó.
+
+Cụ thể:
+• Ứng dụng YouTube Music mới nhất đặt mặc định là bộ giải mãi OPUS.
+• Điều này chỉ áp dụng cho người dùng giả mạo với các phiên bản ứng dụng rất cũ."</string>
     <string name="gms_core_settings_title">Mở GmsCore</string>
     <string name="gms_core_settings_summary">Mở MicroG để thiết lập tính năng nhận thông báo và các tuỳ chọn khác.</string>
     <string name="gms_core_toast_not_installed_message">GmsCore chưa được cài đặt. Hãy cài đặt nó.</string>

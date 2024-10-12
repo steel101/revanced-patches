@@ -274,6 +274,7 @@
     <string name="revanced_hide_related_videos_user_dialog_message">"Тази настройка ограничава максималния брой оформления, които могат да бъдат заредени на екрана на плейъра.
 
 Ако оформлението на екрана на плейъра се промени поради промени от страна на сървъра, нежеланите оформления може да бъдат скрити на екрана на плейъра."</string>
+    <string name="revanced_related_videos_offset_title">Компенсиране</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Основни настройки</string>
     <string name="revanced_change_start_page_title">Промяна на началната страница</string>
@@ -321,10 +322,12 @@
     <string name="revanced_hide_snack_bar_summary_off">Лентата на състоянието се показва.</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Прозорец за възрастово ограничение</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Премахва диалоговите прозорци. Това не заобикаля възрастовите ограничения, но ги приема автоматично."</string>
-    <string name="revanced_enable_phone_layout_title">Вкл. на оформление като на телефон</string>
-    <string name="revanced_enable_phone_layout_summary">Подлъгване на dpi за оформление като на телефон.</string>
-    <string name="revanced_enable_tablet_layout_title">Вкл. на режим за таблет</string>
-    <string name="revanced_enable_tablet_layout_summary">Подлъгване на dpi за оформление като на таблет.</string>
+    <string name="revanced_change_layout_title">Промяна на резолюция</string>
+    <string name="revanced_change_layout_entry_1">Оригинал</string>
+    <string name="revanced_change_layout_entry_2">Телефон</string>
+    <string name="revanced_change_layout_entry_3">Телефон (Max 480 dip)</string>
+    <string name="revanced_change_layout_entry_4">Таблет</string>
+    <string name="revanced_change_layout_entry_5">Таблет (Мин 600 dip)</string>
     <string name="revanced_spoof_app_version_title">Променете версията на приложението</string>
     <string name="revanced_spoof_app_version_summary_on">Подправена версия</string>
     <string name="revanced_spoof_app_version_summary_off">Не подправена версия</string>
@@ -462,13 +465,7 @@
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Меню с настройки</string>
     <string name="revanced_preference_screen_settings_menu_summary">Скриване на елементи в менюто с настройки на YouTube.</string>
-    <string name="revanced_hide_settings_menu_title">Филтриране на менюто с настройки на YouTube</string>
-    <string name="revanced_hide_settings_menu_summary">Скриване на елементи в менюто с настройки на YouTube.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">Филтър на менюто с настройки на YouTube</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">Списък с заглавия на менюта с настройки на YouTube за филтриране, разделени с нов ред.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_hint">"Акаунт
-Спестяване на данни
-Субтитри"</string>
+    <string name="revanced_hide_settings_menu_account_title">Скриване на менюто на акаунта</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Лента с инструменти</string>
     <string name="revanced_preference_screen_toolbar_summary">Скрива или променя елементи, разположени в лентата с инструменти, като бутони на лентата с инструменти, лента за търсене, заглавия.</string>
@@ -1022,15 +1019,18 @@
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">Показване на бутони при пауза</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">Бутоните при пауза се скриват.</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">Бутоните при пауза се показват.</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_title">Скриване на платените промоции</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_summary_on">Промоционалните етикети са скрити.</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">Промоционалните етикети се показват.</string>
     <string name="revanced_hide_shorts_trends_button_title">Бутон „Набиращи популярност“</string>
     <string name="revanced_hide_shorts_trends_button_summary_on">Скрит.</string>
     <string name="revanced_hide_shorts_trends_button_summary_off">Показва се.</string>
     <string name="revanced_hide_shorts_shopping_button_title">Бутон \"Пазаруване\"</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">Бутона за пазаруване е скрит.</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">Бутона за пазаруване се показва.</string>
+    <string name="revanced_hide_shorts_stickers_title">Скриване на стикери</string>
+    <string name="revanced_hide_shorts_stickers_summary_on">Стикерите са скрити.</string>
+    <string name="revanced_hide_shorts_stickers_summary_off">Стикери са показани.</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_title">Скриване на платените промоции</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_summary_on">Промоционалните етикети са скрити.</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">Промоционалните етикети се показват.</string>
     <string name="revanced_hide_shorts_info_panel_title">Скриване на информационните панели</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Информационните панели са скрити.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Информационните панели се показват.</string>
@@ -1054,9 +1054,9 @@
     <string name="revanced_hide_shorts_green_screen_button_title">Зелен бутон на екрана</string>
     <string name="revanced_hide_shorts_green_screen_button_summary_on">Зелен бутон на екрана е скрит.</string>
     <string name="revanced_hide_shorts_green_screen_button_summary_off">Зелен бутон на екрана се показва.</string>
-    <string name="revanced_hide_shorts_save_sound_button_title">Бутон за запазване на аудиото в плейлиста</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">Бутонът за Запазване в плейлиста е скрит.</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">Бутонът за Запазване в плейлиста се показва.</string>
+    <string name="revanced_hide_shorts_save_music_button_title">Скриване на бутона Запазване на музика</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_on">Бутонът за запазване на музика е скрит.</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_off">Показан е бутонът за запазване на музика.</string>
     <string name="revanced_hide_shorts_shop_button_title">Скриване на бутона за пазаруване</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">Бутона за пазаруване е скрит.</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">Бутона за пазаруване се показва.</string>
@@ -1536,7 +1536,8 @@
     <string name="revanced_spoof_streaming_data_user_dialog_message">Изключването на тази настройка може да причини проблеми с възпроизвеждането на видео.</string>
     <string name="revanced_spoof_streaming_data_type_title">Клиент по подразбиране</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android">Андроид</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Създател на Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Вграден Android плейър</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Тестов пакет за Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
@@ -1545,7 +1546,7 @@
     <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Ефекти от замяната</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• Филми или платени видеоклипове може да не се възпроизвеждат."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Липсва менюто за избор на аудио.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Липсва менюто за избор на аудио."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Липсва менюто за избор на аудио."</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Видеото може да не се възпроизведе.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Принудително AVC (H.264) за iOS</string>
@@ -1588,7 +1589,6 @@ AVC (H.264) има максимална разделителна способн�
     <string name="revanced_icon_revancify_blue">Revancify синя</string>
     <string name="revanced_icon_revancify_red">Revancify Червена</string>
     <string name="revanced_icon_youtube">YouTube</string>
-    <string name="revanced_icon_youtube_minimal_header">YouTube (минимално заглавие)</string>
     <string name="revanced_label_default">По подразбиране</string>
     <string name="revanced_patches_excluded">Изключване</string>
     <string name="revanced_patches_included">Включване</string>

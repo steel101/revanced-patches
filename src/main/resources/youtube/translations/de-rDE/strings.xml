@@ -283,10 +283,6 @@ Einschränkungen:
     <string name="revanced_remove_viewer_discretion_dialog_title">Diskretion des Betrachters entfernen</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Entfernt den Diskretionsdialog des Betrachters.
 Dies umgeht nicht die Altersbeschränkung. Es akzeptiert ihn nur automatisch."</string>
-    <string name="revanced_enable_phone_layout_title">Telefonlayout aktivieren</string>
-    <string name="revanced_enable_phone_layout_summary">Umgehe die DPI, um einige Telefon-Layouts zu verwenden</string>
-    <string name="revanced_enable_tablet_layout_title">Tablet-Layout aktivieren</string>
-    <string name="revanced_enable_tablet_layout_summary">Umgehe die dpi, um einige Tablet-Layouts zu verwenden</string>
     <string name="revanced_spoof_app_version_title">Spoof App Version</string>
     <string name="revanced_spoof_app_version_summary_on">Version gefälscht</string>
     <string name="revanced_spoof_app_version_summary_off">Version nicht gefälscht</string>
@@ -392,13 +388,6 @@ Manche Komponenten könnten nicht versteckt werden."</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Einstellungsmenü</string>
     <string name="revanced_preference_screen_settings_menu_summary">Elemente im YouTube-Einstellungsmenü verstecken</string>
-    <string name="revanced_hide_settings_menu_title">YouTube Einstellungsmenü verstecken</string>
-    <string name="revanced_hide_settings_menu_summary">Elemente im YouTube-Einstellungsmenü verstecken</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">YouTube Einstellungsmenüfilter</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">Liste der zu filternden Namen des YouTube-Einstellungsmenüs, getrennt durch neue Zeilen.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_hint">"Konto
-Daten speichern
-Untertitel"</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Werkzeugleiste</string>
     <string name="revanced_preference_screen_toolbar_summary">Verstecke oder ändere Toolbar-Komponenten, wie die Suchleiste, Buttons und Header.</string>

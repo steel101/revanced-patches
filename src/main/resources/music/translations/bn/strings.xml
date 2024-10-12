@@ -53,6 +53,7 @@
     <string name="revanced_enable_force_minimized_player_summary">প্লেয়ারকে স্থায়ীভাবে মিনিমাইজ করে রাখুন এমনকি যদি অন্য ট্র্যাক চালানো হয়।</string>
     <string name="revanced_enable_zen_mode_title">জেন মোড সক্রিয় করুন</string>
     <string name="revanced_enable_zen_mode_summary">চোখের চাপ কমাতে ভিডিও প্লেয়ারে ধূসর আভা যোগ করুন।</string>
+    <!-- PreferenceScreen: Settings menu -->
     <!-- PreferenceScreen: Video -->
     <string name="revanced_custom_playback_speeds_title">কাস্টম প্লেব্যাক স্পিড সম্পাদনা করুন</string>
     <string name="revanced_custom_playback_speeds_summary">পাওয়া যাচ্ছে এমন প্লেব্যাক স্পিড যুক্ত বা পরিবর্তন করুন</string>

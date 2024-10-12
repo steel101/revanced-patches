@@ -253,7 +253,7 @@ Limitations :
     <string name="revanced_hide_low_views_video_title">Masquer les vidéos peu vues</string>
     <string name="revanced_hide_low_views_video_summary">Masque les vidéos avec moins de 1,000 vues dans le flux \"accueil\" qui ont été mis en ligne par des personnes dont vous n\'êtes pas abonnés.</string>
     <string name="revanced_hide_upcoming_video_title">Masquer les vidéos À SUIVRE</string>
-    <string name="revanced_hide_upcoming_video_summary">"Masquer les vidéos avec l'étiquette À SUIVRE.
+    <string name="revanced_hide_upcoming_video_summary">"Masque les vidéos avec l'étiquette 'À SUIVRE'.
 
 Remarque : Activer ceci masque également le bouton \"M'avertir\"."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
@@ -285,7 +285,8 @@ Limitations :
     <string name="revanced_hide_related_videos_summary_off">Les vidéos similaires sont affichés.</string>
     <string name="revanced_hide_related_videos_user_dialog_message">"Ce paramètre limite le nombre maximum de mises en page pouvant être chargées sur l'écran du lecteur.
 
-Si la mise en page de l'écran du lecteur change en raison de modifications côté serveur, des mises en page non souhaitées peuvent être masquées sur l'écran du lecteur."</string>
+Si la mise en page de l'écran du lecteur change en raison de modifications côté serveur, des mises en page non désirées risquent d'être masquées sur l'écran du lecteur."</string>
+    <string name="revanced_related_videos_offset_title">Décalage</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">Interface</string>
     <string name="revanced_change_start_page_title">Modifier la page de démarrage</string>
@@ -305,11 +306,11 @@ Si la mise en page de l'écran du lecteur change en raison de modifications côt
     <string name="revanced_change_start_page_entry_subscriptions">Abonnements</string>
     <string name="revanced_change_start_page_entry_trending">Tendances</string>
     <string name="revanced_change_start_page_entry_watch_later">Regarder plus tard</string>
-    <string name="revanced_change_start_page_type_title">Modifier le type de page de démarrage</string>
-    <string name="revanced_change_start_page_type_summary_on">"La page d'accueil change toujours.
+    <string name="revanced_change_start_page_type_title">Type de modification de la page de démarrage</string>
+    <string name="revanced_change_start_page_type_summary_on">"La page de démarrage est toujours modifiée.
 
 Limitation : Le bouton Retour de la barre d'outils peut ne pas fonctionner."</string>
-    <string name="revanced_change_start_page_type_summary_off">La page d\'accueil ne change qu\'une seule fois.</string>
+    <string name="revanced_change_start_page_type_summary_off">La page de démarrage est modifiée une seule fois.</string>
     <string name="revanced_disable_auto_audio_tracks_title">Désact. les pistes audio forcés</string>
     <string name="revanced_disable_auto_audio_tracks_summary_on">Les pistes audio automatiques forcées sont désactivé.</string>
     <string name="revanced_disable_auto_audio_tracks_summary_off">Les pistes audio automatiques forcées sont activés.</string>
@@ -334,10 +335,12 @@ Limitation : Le bouton Retour de la barre d'outils peut ne pas fonctionner."</st
     <string name="revanced_remove_viewer_discretion_dialog_title">Suppr. Message \"Confirmer votre âge\"</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Supprime le message \"Confirmer votre âge\".
 Cela ne contourne pas la restriction d'âge, mais le confirme automatiquement."</string>
-    <string name="revanced_enable_phone_layout_title">Activer l\'interface téléphone</string>
-    <string name="revanced_enable_phone_layout_summary">Falsifie le dpi pour activer l\'interface téléphone.</string>
-    <string name="revanced_enable_tablet_layout_title">Activer l\'interface tablette</string>
-    <string name="revanced_enable_tablet_layout_summary">Falsifie le dpi pour activer l\'interface tablette.</string>
+    <string name="revanced_change_layout_title">Modifier la mise en page</string>
+    <string name="revanced_change_layout_entry_1">Original</string>
+    <string name="revanced_change_layout_entry_2">Téléphone</string>
+    <string name="revanced_change_layout_entry_3">Téléphone (Max 480 dpi)</string>
+    <string name="revanced_change_layout_entry_4">Tablette</string>
+    <string name="revanced_change_layout_entry_5">Tablette (Min 600 dpi)</string>
     <string name="revanced_spoof_app_version_title">Falsifier la version de l\'app</string>
     <string name="revanced_spoof_app_version_summary_on">Version falsifiée</string>
     <string name="revanced_spoof_app_version_summary_off">Version non falsifiée</string>
@@ -478,13 +481,66 @@ Si ce paramètre ne fait pas effet, essayer de passer en mode Incognito."</strin
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Menu paramètre</string>
     <string name="revanced_preference_screen_settings_menu_summary">Masque des éléments dans le menu paramètre YouTube.</string>
-    <string name="revanced_hide_settings_menu_title">Masquer des paramètres YouTube</string>
-    <string name="revanced_hide_settings_menu_summary">Masque des éléments dans le menu paramètres YouTube.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">Filtre du menu paramètre YouTube</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">Liste des noms du menu paramètre YouTube à filtrer, séparés par un saut de ligne.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_hint">"Compte
-Économie de données
-Sous-titres"</string>
+    <string name="revanced_hide_settings_menu_parent_tools_title">Masquer le menu \'Centre pour la famille\'</string>
+    <string name="revanced_hide_settings_menu_parent_tools_summary_on">Le menu \'Centre pour la famille\' est masqué.</string>
+    <string name="revanced_hide_settings_menu_parent_tools_summary_off">Le menu \'Centre pour la famille\' est affiché.</string>
+    <string name="revanced_hide_settings_menu_general_title">Masquer le menu \'Paramètres généraux\'</string>
+    <string name="revanced_hide_settings_menu_general_summary_on">Le menu \"Paramètres généraux\' est masqué.</string>
+    <string name="revanced_hide_settings_menu_general_summary_off">Le menu \"Paramètres généraux\' est affiché.</string>
+    <string name="revanced_hide_settings_menu_account_title">Masquer le menu \'Compte\'</string>
+    <string name="revanced_hide_settings_menu_account_summary_on">Le menu \'Compte\' est masqué.</string>
+    <string name="revanced_hide_settings_menu_account_summary_off">Le menu \'Compte\' est affiché.</string>
+    <string name="revanced_hide_settings_menu_data_saving_title">Masquer le menu \'Économie de données\'</string>
+    <string name="revanced_hide_settings_menu_data_saving_summary_on">Le menu \'Économie de données\' est masqué.</string>
+    <string name="revanced_hide_settings_menu_data_saving_summary_off">Le menu \'Économie de données\' est affiché.</string>
+    <string name="revanced_hide_settings_menu_auto_play_title">Masquer le menu \'Lecture automatique\'</string>
+    <string name="revanced_hide_settings_menu_auto_play_summary_on">Le menu \'Lecture automatique\' est masqué.</string>
+    <string name="revanced_hide_settings_menu_auto_play_summary_off">Le menu \'Lecture automatique\' est affiché.</string>
+    <string name="revanced_hide_settings_menu_video_quality_title">Masquer le menu \'Préférences de qualité vidéo\'</string>
+    <string name="revanced_hide_settings_menu_video_quality_summary_on">Le menu \'Préférences de qualité vidéo\' est masqué.</string>
+    <string name="revanced_hide_settings_menu_video_quality_summary_off">Le menu \'Préférences de qualité vidéo\' est affiché.</string>
+    <string name="revanced_hide_settings_menu_offline_title">Masquer le menu \'Arrière-plan\'</string>
+    <string name="revanced_hide_settings_menu_offline_summary_on">Le menu \'Arrière-plan\' est masqué.</string>
+    <string name="revanced_hide_settings_menu_offline_summary_off">Le menu \'Arrière-plan\' est affiché.</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_title">Masquer le menu \'Regarder sur un téléviseur\'</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_summary_on">Le menu \'Regarder sur un téléviseur\' est masqué.</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_summary_off">Le menu \'Regarder sur un téléviseur\' est affiché.</string>
+    <string name="revanced_hide_settings_menu_history_title">Masquer le menu \'Gérer tout l\'historique\'</string>
+    <string name="revanced_hide_settings_menu_history_summary_on">Le menu \'Gérer tout l\'historique\' est masqué.</string>
+    <string name="revanced_hide_settings_menu_history_summary_off">Le menu \'Gérer tout l\'historique\' est affiché.</string>
+    <string name="revanced_hide_settings_menu_your_data_title">Masquer le menu \'Vos données dans YouTube\'</string>
+    <string name="revanced_hide_settings_menu_your_data_summary_on">Le menu \'Vos données dans YouTube\' est masqué.</string>
+    <string name="revanced_hide_settings_menu_your_data_summary_off">Le menu \'Vos données dans YouTube\' est affiché.</string>
+    <string name="revanced_hide_settings_menu_privacy_title">Masquer le menu \'Confidentialité\'</string>
+    <string name="revanced_hide_settings_menu_privacy_summary_on">Le menu \'Confidentialité\' est masqué.</string>
+    <string name="revanced_hide_settings_menu_privacy_summary_off">Le menu \'Confidentialité\' est affiché.</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_title">Masquer le menu \'Testez de nouvelles fonctionnalités expérimentales\'</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_summary_on">Le menu \'Testez de nouvelles fonctionnalités expérimentales\' est masqué.</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_summary_off">Le menu \'Testez de nouvelles fonctionnalités expérimentales\' est affiché.</string>
+    <string name="revanced_hide_settings_menu_subscription_product_title">Masquer le menu \'Achats et abonnement\'</string>
+    <string name="revanced_hide_settings_menu_subscription_product_summary_on">Le menu \'Achats et abonnement\' est masqué.</string>
+    <string name="revanced_hide_settings_menu_subscription_product_summary_off">Le menu \'Achats et abonnement\' est affiché.</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_title">Masquer le menu \'Facturations et paiements\'</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_summary_on">Le menu \'Facturations et paiements\' est masqué.</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_summary_off">Le menu \'Facturations et paiements\' est affiché.</string>
+    <string name="revanced_hide_settings_menu_notification_title">Masquer le menu \'Notifications\'</string>
+    <string name="revanced_hide_settings_menu_notification_summary_on">Le menu \'Notifications\' est masqué.</string>
+    <string name="revanced_hide_settings_menu_notification_summary_off">Le menu \'Notifications\' est affiché.</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_title">Masquer le menu \'Applications connectées\'</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_summary_on">Le menu \'Applications connectées\' est masqué.</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_summary_off">Le menu \'Applications connectées\' est affiché.</string>
+    <string name="revanced_hide_settings_menu_live_chat_title">Masquer le menu \'Chat en direct\'</string>
+    <string name="revanced_hide_settings_menu_live_chat_summary_on">Le menu \'Chat en direct\' est masqué.</string>
+    <string name="revanced_hide_settings_menu_live_chat_summary_off">Le menu \'Chat en direct\' est affiché.</string>
+    <string name="revanced_hide_settings_menu_captions_title">Masquer le menu \'Sous-titres\'</string>
+    <string name="revanced_hide_settings_menu_captions_summary_on">Le menu \'Sous-titres\' est masqué.</string>
+    <string name="revanced_hide_settings_menu_captions_summary_off">Le menu \'Sous-titres\' est affiché.</string>
+    <string name="revanced_hide_settings_menu_accessibility_title">Masquer le menu \'Accessibilité\'</string>
+    <string name="revanced_hide_settings_menu_accessibility_summary_on">Le menu \'Accessibilité\' est masqué.</string>
+    <string name="revanced_hide_settings_menu_accessibility_summary_off">Le menu \'Accessibilité\' est affiché.</string>
+    <string name="revanced_hide_settings_menu_about_title">Masquer le menu \'À propos\'</string>
+    <string name="revanced_hide_settings_menu_about_summary_on">Le menu \'À propos\' est masqué.</string>
+    <string name="revanced_hide_settings_menu_about_summary_off">Le menu \'À propos\' est affiché.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Barre d\'outils</string>
     <string name="revanced_preference_screen_toolbar_summary">Masque ou change les éléments situés dans la barre d\'outils, tels que les boutons de la barre d\'outils, la barre de recherche, l\'en-tête.</string>
@@ -520,6 +576,12 @@ Vous → Afficher la chaîne → Menu → Paramètres"</string>
     <string name="revanced_hide_voice_search_button_title">Masquer le bouton \"Recherche vocale\"</string>
     <string name="revanced_hide_voice_search_button_summary_on">Le bouton \"Recherche vocale \" est masqué.</string>
     <string name="revanced_hide_voice_search_button_summary_off">Le bouton \"Recherche vocale \" est affiché.</string>
+    <string name="revanced_hide_youtube_doodles_title">Masquer les Doodles YouTube</string>
+    <string name="revanced_hide_youtube_doodles_summary_on">Les Doodles YouTube sont masqués.</string>
+    <string name="revanced_hide_youtube_doodles_summary_off">Les Doodles YouTube sont affichés.</string>
+    <string name="revanced_hide_youtube_doodles_user_dialog_message">"Les Doodles YouTube apparaissent quelques jours par an.
+
+Si un Doodle YouTube est actuellement diffusé dans votre région et que le paramètre pour le masquer est activé, la barre de filtre située à côté de la barre de recherche sera également masquée."</string>
     <string name="revanced_replace_toolbar_create_button_title">Remplacer le bouton \"Créer\"</string>
     <string name="revanced_replace_toolbar_create_button_summary">Remplace le bouton \"Créer\" par le bouton \"Paramètre\".</string>
     <string name="revanced_replace_toolbar_create_button_type_title">Action à attribuer au bouton</string>
@@ -587,9 +649,9 @@ Note :
     <string name="revanced_hide_suggested_actions_title">Masquer les suggestions d\'actions</string>
     <string name="revanced_hide_suggested_actions_summary_on">Les actions suggérées sont masquées.</string>
     <string name="revanced_hide_suggested_actions_summary_off">Les actions suggérées sont affichées.</string>
-    <string name="revanced_hide_timed_reactions_title">Masquer les réactions dans le chat en direct</string>
-    <string name="revanced_hide_timed_reactions_summary_on">Les réactions dans le chat en direct sont masqués.</string>
-    <string name="revanced_hide_timed_reactions_summary_off">Les réactions dans le chat en direct sont affichés.</string>
+    <string name="revanced_hide_timed_reactions_title">Masquer les réactions en temps réel</string>
+    <string name="revanced_hide_timed_reactions_summary_on">Les réactions en temps réel sont masqués.</string>
+    <string name="revanced_hide_timed_reactions_summary_off">Les réactions en temps réel sont affichés.</string>
     <string name="revanced_hide_suggested_video_end_screen_title">Masq. suggestions vidéos à la fin de vidéo</string>
     <string name="revanced_hide_suggested_video_end_screen_summary_on">"Les suggestions de vidéos à l'écran de fin sont masqué lorsque la lecture automatique est désactivée.
 
@@ -1038,15 +1100,18 @@ Effet secondaire : Les fiches officielles dans les résultats de recherche sont 
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">Masq. fond du bouton \"Pause\"</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">Le fond du bouton \"Pause\" est masqué.</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">Le fond du bouton \"Pause\" est affiché.</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_title">Masquer bannière \"Communication commerciale\"</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_summary_on">La bannière \"Inclut une communication commerciale\" est masquée.</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">La bannière \"Inclut une communication commerciale\" est affichée.</string>
     <string name="revanced_hide_shorts_trends_button_title">Masquer le bouton \"Tendance\"</string>
     <string name="revanced_hide_shorts_trends_button_summary_on">Le bouton \"Tendance\" est masqué.</string>
     <string name="revanced_hide_shorts_trends_button_summary_off">Le bouton \"Tendance\" est affiché.</string>
     <string name="revanced_hide_shorts_shopping_button_title">Masquer le bouton \"Produit\"</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">Le bouton \"Produit\" est masqué.</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">Le bouton \"Produit\" est affiché.</string>
+    <string name="revanced_hide_shorts_stickers_title">Masquer les stickers</string>
+    <string name="revanced_hide_shorts_stickers_summary_on">Les stickers sont masqués.</string>
+    <string name="revanced_hide_shorts_stickers_summary_off">Les stickers sont affichés.</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_title">Masquer bannière \"Communication commerciale\"</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_summary_on">La bannière \"Inclut une communication commerciale\" est masquée.</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">La bannière \"Inclut une communication commerciale\" est affichée.</string>
     <string name="revanced_hide_shorts_info_panel_title">Masquer les panneaux d\'information</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Les panneaux d\'information sont masqués.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Les panneaux d\'information sont affichés.</string>
@@ -1070,9 +1135,9 @@ Effet secondaire : Les fiches officielles dans les résultats de recherche sont 
     <string name="revanced_hide_shorts_green_screen_button_title">Masquer le bouton \'fond vert\'</string>
     <string name="revanced_hide_shorts_green_screen_button_summary_on">Le bouton \'fond vert\' est masqué.</string>
     <string name="revanced_hide_shorts_green_screen_button_summary_off">Le bouton \'fond vert\' est affiché.</string>
-    <string name="revanced_hide_shorts_save_sound_button_title">Masquer le bouton \"Enregistrer le son\"</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">Le bouton \"Enregistrer le son\" est masqué.</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">Le bouton \"Enregistrer le son\" est affiché.</string>
+    <string name="revanced_hide_shorts_save_music_button_title">Masquer le bouton \"Enregistrer la musique\"</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_on">Le bouton \"Enregistrer la musique\" est masqué.</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_off">Le bouton \"Enregistrer la musique\" est affiché.</string>
     <string name="revanced_hide_shorts_shop_button_title">Masquer le bouton \"Magasin\"</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">Le bouton \"Magasin\" est masqué.</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">Le bouton \"Magasin\" est affiché.</string>
@@ -1116,9 +1181,9 @@ Effet secondaire : Les fiches officielles dans les résultats de recherche sont 
     <string name="revanced_hide_shorts_sound_button_summary_off">Le bouton \"Son\" est affiché.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
     <string name="revanced_preference_category_animation_feedback">Animation / Retour d\'expérience</string>
-    <string name="revanced_disable_shorts_like_button_fountain_animation_title">Désactiver l\'animation du bouton j\'aime</string>
-    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_on">L\'animation en cascade est désactivé pour le bouton j\'aime.</string>
-    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_off">L\'animation en cascade est activé pour le bouton j\'aime.</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_title">Désactiver l\'animation du bouton J\'aime</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_on">L\'animation en fontaine est désactivé au-dessus du bouton j\'aime.</string>
+    <string name="revanced_disable_shorts_like_button_fountain_animation_summary_off">L\'animation en fontaine est activé au-dessus du bouton j\'aime.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_title">Masquer fond du bouton Lecture &amp; Pause</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_on">Le fond du bouton est masqué.</string>
     <string name="revanced_hide_shorts_play_pause_button_background_summary_off">Le fond du bouton est affiché.</string>
@@ -1559,6 +1624,7 @@ Cliquez sur le bouton Continuer et désactivez les optimisations de la batterie.
     <string name="revanced_spoof_streaming_data_type_title">Client par défaut</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
     <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android Creator</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Lecteur intégré Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android Testsuite</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
@@ -1570,7 +1636,8 @@ Cliquez sur le bouton Continuer et désactivez les optimisations de la batterie.
 • Les diffusions en direct commencent au début.
 • Les vidéos peuvent se terminer une seconde avant.
 • Pas de codec audio opus."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Le menu \"Piste Audio\" est manquant.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Le menu \"Piste Audio\" est manquant.
+• Le volume stable n'es pas disponible."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Le menu \"Piste Audio\" est manquant.
 • Le volume stable n'es pas disponible."</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Les vidéos peuvent ne pas être lus.</string>
@@ -1614,7 +1681,6 @@ AVC (H.264) a une résolution maximale de 1080p, et la lecture vidéo utilisera 
     <string name="revanced_icon_revancify_blue">Revancify Bleu</string>
     <string name="revanced_icon_revancify_red">Revancify Rouge</string>
     <string name="revanced_icon_youtube">Youtube</string>
-    <string name="revanced_icon_youtube_minimal_header">YouTube (En-tête minimal)</string>
     <string name="revanced_label_default">Officiel</string>
     <string name="revanced_patches_excluded">Exclus</string>
     <string name="revanced_patches_included">Appliqué</string>

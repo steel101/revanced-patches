@@ -278,7 +278,7 @@ Limitations:
     <string name="revanced_hide_upcoming_video_title">Hide UPCOMING video</string>
     <string name="revanced_hide_upcoming_video_summary">"Hide videos with UPCOMING label.
 
-Note: Enabling this also hide Notify me button."</string>
+Note: Enabling this also hides the Notify me button."</string>
 
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">View count filter</string>
@@ -364,10 +364,12 @@ Limitation: Back button on the toolbar may not work."</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Removes the viewer discretion dialog.
 This does not bypass the age restriction. It just accepts it automatically."</string>
 
-    <string name="revanced_enable_phone_layout_title">Enable phone layout</string>
-    <string name="revanced_enable_phone_layout_summary">Spoofs the dpi to use some phone layouts.</string>
-    <string name="revanced_enable_tablet_layout_title">Enable tablet layout</string>
-    <string name="revanced_enable_tablet_layout_summary">Spoofs the dpi to use some tablet layouts.</string>
+    <string name="revanced_change_layout_title">Change layout</string>
+    <string name="revanced_change_layout_entry_1">Original</string>
+    <string name="revanced_change_layout_entry_2">Phone</string>
+    <string name="revanced_change_layout_entry_3">Phone (Max 480 dp)</string>
+    <string name="revanced_change_layout_entry_4">Tablet</string>
+    <string name="revanced_change_layout_entry_5">Tablet (Min 600 dp)</string>
 
     <string name="revanced_spoof_app_version_title">Spoof app version</string>
     <string name="revanced_spoof_app_version_summary_on">Version spoofed</string>
@@ -524,13 +526,66 @@ If this setting do not take effect, try switching to Incognito mode."</string>
     <string name="revanced_preference_screen_settings_menu_title">Settings menu</string>
     <string name="revanced_preference_screen_settings_menu_summary">Hide elements of the YouTube settings menu.</string>
 
-    <string name="revanced_hide_settings_menu_title">Hide YouTube settings menu</string>
-    <string name="revanced_hide_settings_menu_summary">Hide elements of the YouTube settings menu.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">YouTube settings menu filter</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">List of YouTube settings menu names to filter, separated by new lines.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_hint">"Account
-Data saving
-Captions"</string>
+    <string name="revanced_hide_settings_menu_parent_tools_title">Hide Family Center menu</string>
+    <string name="revanced_hide_settings_menu_parent_tools_summary_on">Family Center menu is hidden.</string>
+    <string name="revanced_hide_settings_menu_parent_tools_summary_off">Family Center menu is shown.</string>
+    <string name="revanced_hide_settings_menu_general_title">Hide General menu</string>
+    <string name="revanced_hide_settings_menu_general_summary_on">General menu is hidden.</string>
+    <string name="revanced_hide_settings_menu_general_summary_off">General menu is shown.</string>
+    <string name="revanced_hide_settings_menu_account_title">Hide Account menu</string>
+    <string name="revanced_hide_settings_menu_account_summary_on">Account menu is hidden.</string>
+    <string name="revanced_hide_settings_menu_account_summary_off">Account menu is shown.</string>
+    <string name="revanced_hide_settings_menu_data_saving_title">Hide Data saving menu</string>
+    <string name="revanced_hide_settings_menu_data_saving_summary_on">Data saving menu is hidden.</string>
+    <string name="revanced_hide_settings_menu_data_saving_summary_off">Data saving menu is shown.</string>
+    <string name="revanced_hide_settings_menu_auto_play_title">Hide Autoplay menu</string>
+    <string name="revanced_hide_settings_menu_auto_play_summary_on">Autoplay menu is hidden.</string>
+    <string name="revanced_hide_settings_menu_auto_play_summary_off">Autoplay menu is shown.</string>
+    <string name="revanced_hide_settings_menu_video_quality_title">Hide Video quality preferences menu</string>
+    <string name="revanced_hide_settings_menu_video_quality_summary_on">Video quality preferences menu is hidden.</string>
+    <string name="revanced_hide_settings_menu_video_quality_summary_off">Video quality preferences menu is shown.</string>
+    <string name="revanced_hide_settings_menu_offline_title">Hide Background menu</string>
+    <string name="revanced_hide_settings_menu_offline_summary_on">Background menu is hidden.</string>
+    <string name="revanced_hide_settings_menu_offline_summary_off">Background menu is shown.</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_title">Hide Watch on TV menu</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_summary_on">Watch on TV menu is hidden.</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_summary_off">Watch on TV menu is shown.</string>
+    <string name="revanced_hide_settings_menu_history_title">Hide Manage all history menu</string>
+    <string name="revanced_hide_settings_menu_history_summary_on">Manage all history menu is hidden.</string>
+    <string name="revanced_hide_settings_menu_history_summary_off">Manage all history menu is shown.</string>
+    <string name="revanced_hide_settings_menu_your_data_title">Hide Your data in YouTube menu</string>
+    <string name="revanced_hide_settings_menu_your_data_summary_on">Your data in YouTube menu is hidden.</string>
+    <string name="revanced_hide_settings_menu_your_data_summary_off">Your data in YouTube menu is shown.</string>
+    <string name="revanced_hide_settings_menu_privacy_title">Hide Privacy menu</string>
+    <string name="revanced_hide_settings_menu_privacy_summary_on">Privacy menu is hidden.</string>
+    <string name="revanced_hide_settings_menu_privacy_summary_off">Privacy menu is shown.</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_title">Hide Try experimental new features menu</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_summary_on">Try experimental new features menu is hidden.</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_summary_off">Try experimental new features menu is shown.</string>
+    <string name="revanced_hide_settings_menu_subscription_product_title">Hide Purchases and memberships menu</string>
+    <string name="revanced_hide_settings_menu_subscription_product_summary_on">Purchases and memberships menu is hidden.</string>
+    <string name="revanced_hide_settings_menu_subscription_product_summary_off">Purchases and memberships menu is shown.</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_title">Hide Billing and payments menu</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_summary_on">Billing and payments menu is hidden.</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_summary_off">Billing and payments menu is shown.</string>
+    <string name="revanced_hide_settings_menu_notification_title">Hide Notifications menu</string>
+    <string name="revanced_hide_settings_menu_notification_summary_on">Notifications menu is hidden.</string>
+    <string name="revanced_hide_settings_menu_notification_summary_off">Notifications menu is shown.</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_title">Hide Connected apps menu</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_summary_on">Connected apps menu is hidden.</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_summary_off">Connected apps menu is shown.</string>
+    <string name="revanced_hide_settings_menu_live_chat_title">Hide Live chat menu</string>
+    <string name="revanced_hide_settings_menu_live_chat_summary_on">Live chat menu is hidden.</string>
+    <string name="revanced_hide_settings_menu_live_chat_summary_off">Live chat menu is shown.</string>
+    <string name="revanced_hide_settings_menu_captions_title">Hide Captions menu</string>
+    <string name="revanced_hide_settings_menu_captions_summary_on">Captions menu is hidden.</string>
+    <string name="revanced_hide_settings_menu_captions_summary_off">Captions menu is shown.</string>
+    <string name="revanced_hide_settings_menu_accessibility_title">Hide Accessibility menu</string>
+    <string name="revanced_hide_settings_menu_accessibility_summary_on">Accessibility menu is hidden.</string>
+    <string name="revanced_hide_settings_menu_accessibility_summary_off">Accessibility menu is shown.</string>
+    <string name="revanced_hide_settings_menu_about_title">Hide About menu</string>
+    <string name="revanced_hide_settings_menu_about_summary_on">About menu is hidden.</string>
+    <string name="revanced_hide_settings_menu_about_summary_off">About menu is shown.</string>
 
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Toolbar</string>
@@ -568,6 +623,13 @@ You tab → View channel → Menu → Settings"</string>
     <string name="revanced_hide_voice_search_button_title">Hide voice search button</string>
     <string name="revanced_hide_voice_search_button_summary_on">Voice search button is hidden.</string>
     <string name="revanced_hide_voice_search_button_summary_off">Voice search button is shown.</string>
+    <string name="revanced_hide_youtube_doodles_title">Hide YouTube Doodles</string>
+    <string name="revanced_hide_youtube_doodles_summary_on">YouTube Doodles are hidden.</string>
+    <string name="revanced_hide_youtube_doodles_summary_off">YouTube Doodles are shown.</string>
+    <string name="revanced_hide_youtube_doodles_user_dialog_message">"YouTube Doodles show up a few days each year.
+
+If a YouTube Doodle is currently showing in your region and this hide setting is on, then the filter bar below the search bar will also be hidden."</string>
+
     <string name="revanced_replace_toolbar_create_button_title">Replace Create button</string>
     <string name="revanced_replace_toolbar_create_button_summary">Replaces the Create button with the Settings button.</string>
     <string name="revanced_replace_toolbar_create_button_type_title">Action type to assign to button</string>
@@ -1125,15 +1187,18 @@ Side effect: Official headers in search results will be hidden."</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">Hide paused overlay buttons</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">Paused overlay buttons are hidden.</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">Paused overlay buttons are shown.</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_title">Hide paid promotion label</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_summary_on">Paid promotion label is hidden.</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">Paid promotion label is shown.</string>
     <string name="revanced_hide_shorts_trends_button_title">Hide Trends button</string>
     <string name="revanced_hide_shorts_trends_button_summary_on">Trends button is hidden.</string>
     <string name="revanced_hide_shorts_trends_button_summary_off">Trends button is shown.</string>
     <string name="revanced_hide_shorts_shopping_button_title">Hide Shopping button</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">Shopping button is hidden.</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">Shopping button is shown.</string>
+    <string name="revanced_hide_shorts_stickers_title">Hide stickers</string>
+    <string name="revanced_hide_shorts_stickers_summary_on">Stickers are hidden.</string>
+    <string name="revanced_hide_shorts_stickers_summary_off">Stickers are shown.</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_title">Hide paid promotion label</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_summary_on">Paid promotion label is hidden.</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">Paid promotion label is shown.</string>
     <string name="revanced_hide_shorts_info_panel_title">Hide info panels</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Info panels are hidden.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Info panels are shown.</string>
@@ -1159,9 +1224,9 @@ Side effect: Official headers in search results will be hidden."</string>
     <string name="revanced_hide_shorts_green_screen_button_title">Hide Green screen button</string>
     <string name="revanced_hide_shorts_green_screen_button_summary_on">Green screen button is hidden.</string>
     <string name="revanced_hide_shorts_green_screen_button_summary_off">Green screen button is shown.</string>
-    <string name="revanced_hide_shorts_save_sound_button_title">Hide Save sound button</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">Save sound button is hidden.</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">Save sound button is shown.</string>
+    <string name="revanced_hide_shorts_save_music_button_title">Hide Save music button</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_on">Save music button is hidden.</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_off">Save music button is shown.</string>
     <string name="revanced_hide_shorts_shop_button_title">Hide Shop button</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">Shop button is hidden.</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">Shop button is shown.</string>
@@ -1241,7 +1306,7 @@ Limitations:
     <string name="revanced_hide_shorts_navigation_bar_summary_on">Navigation bar is hidden.</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_off">Navigation bar is shown.</string>
     <string name="revanced_shorts_navigation_bar_height_percentage_title">Height percentage of empty space</string>
-    <string name="revanced_shorts_navigation_bar_height_percentage_summary">Configures the height percentage of the empty space left when the navigation bar is hidden, between 0 and 100 (%).</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_summary">Configure the height percentage of the empty space left when the navigation bar is hidden, between 0 and 100 (%).</string>
     <string name="revanced_shorts_navigation_bar_height_percentage_invalid_toast">Height percentage must be between 0-100 (%).</string>
     <string name="revanced_replace_channel_handle_title">Replace channel handle</string>
     <string name="revanced_replace_channel_handle_summary_on">Channel name is used.</string>
@@ -1691,6 +1756,7 @@ Tap on the continue button and disable battery optimizations."</string>
     <string name="revanced_spoof_streaming_data_type_title">Default client</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
     <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Android Creator</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Android Embedded Player</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android Testsuite</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
@@ -1702,7 +1768,8 @@ Tap on the continue button and disable battery optimizations."</string>
 • Livestreams start from the beginning.
 • Videos may end 1 second early.
 • No opus audio codec."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Audio track menu is missing.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Audio track menu is missing.
+• Stable volume is not available."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Audio track menu is missing.
 • Stable volume is not available."</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Video may not play.</string>
@@ -1752,7 +1819,6 @@ AVC (H.264) has a maximum resolution of 1080p, and video playback will use more 
     <string name="revanced_icon_revancify_blue">Revancify Blue</string>
     <string name="revanced_icon_revancify_red">Revancify Red</string>
     <string name="revanced_icon_youtube">YouTube</string>
-    <string name="revanced_icon_youtube_minimal_header">YouTube (Minimal header)</string>
     <string name="revanced_label_default">Stock</string>
     <string name="revanced_patches_excluded">Excluded</string>
     <string name="revanced_patches_included">Included</string>

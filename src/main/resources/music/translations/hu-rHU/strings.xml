@@ -134,11 +134,6 @@ Információ:
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">A szűrendő elemek útvonal-építő stringjeinek listája, új sorokkal elválasztva.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Érvénytelen egyéni szűrő: %s.</string>
-    <string name="revanced_hide_settings_menu_title">Beállítások menü elrejtése</string>
-    <string name="revanced_hide_settings_menu_summary">"A beállítások menü elemeinek elrejtése.
-Ez nemcsak az YT Music beállítások menüjét, hanem a ReVanced Extended beállítások menüjét is elrejti."</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">Beállítások menü szűrő</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">A beállítások menüben szűrendő nevek listája, új sorokkal elválasztva.</string>
     <string name="revanced_hide_button_shelf_title">Gomb polc elrejtése</string>
     <string name="revanced_hide_button_shelf_summary">Elrejti a gomb polcot a főoldalon.</string>
     <string name="revanced_hide_carousel_shelf_title">Forduló polc elrejtése</string>
@@ -238,6 +233,7 @@ Ez nem kerüli meg a korhatárkorlátozást. Csak automatikusan elfogadja azt."<
     <string name="revanced_restore_old_player_layout_title">Régi lejátszó kinézet visszaállítása</string>
     <string name="revanced_restore_old_player_layout_summary">"Visszaállítja a lejátszó elrendezését a régi stílusra.
 Előfordulhat, hogy egyes funkciók nem működnek megfelelően a régi lejátszó elrendezésben."</string>
+    <!-- PreferenceScreen: Settings menu -->
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Videó</string>
     <string name="revanced_custom_playback_speeds_title">Egyéni lejátszási sebességek szerkesztése</string>

@@ -134,11 +134,6 @@
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
     <string name="revanced_custom_filter_strings_summary">Настройте, какие компоненты фильтровать, обозначая конец каждого из них новой строкой.</string>
     <string name="revanced_custom_filter_toast_invalid_syntax">Недопустимый пользовательский фильтр: %s.</string>
-    <string name="revanced_hide_settings_menu_title">Скрыть меню настроек</string>
-    <string name="revanced_hide_settings_menu_summary">"Скрывает элементы меню настроек.
-При этом скрывается не только меню настроек YT Music, но и меню настроек ReVanced Extended."</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">Фильтр настроек меню</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">Список названий меню настроек для фильтрации, разделенных новыми строками.</string>
     <string name="revanced_hide_button_shelf_title">Скрыть ряд кнопок</string>
     <string name="revanced_hide_button_shelf_summary">Скрывает ряд кнопок с главной страницы и со вкладки \"Навигатор\".</string>
     <string name="revanced_hide_carousel_shelf_title">Скрыть карусель треков</string>
@@ -238,6 +233,7 @@
     <string name="revanced_restore_old_player_layout_title">Восстановить старый интерфейс проигрывателя</string>
     <string name="revanced_restore_old_player_layout_summary">"Возвращает интерфейс проигрывателя к старому стилю.
 Некоторые вещи могут работать неправильно в старом интерфейсе проигрывателя."</string>
+    <!-- PreferenceScreen: Settings menu -->
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">Видео</string>
     <string name="revanced_custom_playback_speeds_title">Изменить скорости</string>

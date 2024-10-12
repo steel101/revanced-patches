@@ -8,7 +8,6 @@ import app.revanced.patches.shared.mapping.ResourceMappingPatch.getId
 import app.revanced.patches.shared.mapping.ResourceType.BOOL
 import app.revanced.patches.shared.mapping.ResourceType.COLOR
 import app.revanced.patches.shared.mapping.ResourceType.DIMEN
-import app.revanced.patches.shared.mapping.ResourceType.DRAWABLE
 import app.revanced.patches.shared.mapping.ResourceType.ID
 import app.revanced.patches.shared.mapping.ResourceType.LAYOUT
 import app.revanced.patches.shared.mapping.ResourceType.STRING
@@ -17,7 +16,6 @@ import app.revanced.patches.shared.mapping.ResourceType.STYLE
 @Patch(dependencies = [ResourceMappingPatch::class])
 object SharedResourceIdPatch : ResourcePatch() {
     var AccountSwitcherAccessibility = -1L
-    var AudioVideoSwitchToggle = -1L
     var BottomSheetRecyclerView = -1L
     var ButtonContainer = -1L
     var ButtonIconPaddingMedium = -1L
@@ -59,12 +57,10 @@ object SharedResourceIdPatch : ResourcePatch() {
     var TouchOutside = -1L
     var TrimSilenceSwitch: Long = -1
     var VarispeedUnavailableTitle = -1L
-    var YtFillArrowShuffle = -1L
 
     override fun execute(context: ResourceContext) {
 
         AccountSwitcherAccessibility = getId(STRING, "account_switcher_accessibility_label")
-        AudioVideoSwitchToggle = getId(ID, "audio_video_switch_toggle")
         BottomSheetRecyclerView = getId(LAYOUT, "bottom_sheet_recycler_view")
         ButtonContainer = getId(ID, "button_container")
         ButtonIconPaddingMedium = getId(DIMEN, "button_icon_padding_medium")
@@ -106,7 +102,6 @@ object SharedResourceIdPatch : ResourcePatch() {
         TouchOutside = getId(ID, "touch_outside")
         TrimSilenceSwitch = getId(ID, "trim_silence_switch")
         VarispeedUnavailableTitle = getId(STRING, "varispeed_unavailable_title")
-        YtFillArrowShuffle = getId(DRAWABLE, "yt_fill_arrow_shuffle_vd_theme_24")
 
     }
 }

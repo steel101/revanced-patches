@@ -284,6 +284,7 @@ Limitaciones:
     <string name="revanced_hide_related_videos_user_dialog_message">"Este ajuste limita el número máximo de diseños que se pueden cargar en la pantalla del reproductor. 
 
 Si el diseño de la pantalla del reproductor cambia debido a cambios en el servidor, es posible que se oculten diseños no deseados en la pantalla del reproductor."</string>
+    <string name="revanced_related_videos_offset_title">Desplazamiento</string>
     <!-- PreferenceScreen: General -->
     <string name="revanced_preference_screen_general_title">General</string>
     <string name="revanced_change_start_page_title">Cambiar página de inicio</string>
@@ -332,10 +333,12 @@ Limitación: Es posible que el botón Atrás de la barra de herramientas no func
     <string name="revanced_remove_viewer_discretion_dialog_title">Eliminar diálogo de discreción del espectador</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Elimina el diálogo de discreción del espectador.
 Esto no evita la restricción de edad. Solo la acepta automáticamente."</string>
-    <string name="revanced_enable_phone_layout_title">Activar diseño de teléfono</string>
-    <string name="revanced_enable_phone_layout_summary">Modifica los DPI para utilizar algunos diseños de teléfono.</string>
-    <string name="revanced_enable_tablet_layout_title">Activar diseño de tableta</string>
-    <string name="revanced_enable_tablet_layout_summary">Modifica los DPI para utilizar algunos diseños de tableta.</string>
+    <string name="revanced_change_layout_title">Cambiar diseño</string>
+    <string name="revanced_change_layout_entry_1">Original</string>
+    <string name="revanced_change_layout_entry_2">Teléfono</string>
+    <string name="revanced_change_layout_entry_3">Teléfono (máx. 480 dpi)</string>
+    <string name="revanced_change_layout_entry_4">Tablet</string>
+    <string name="revanced_change_layout_entry_5">Tablet (min. 600 dpi)</string>
     <string name="revanced_spoof_app_version_title">Falsificar versión de la app</string>
     <string name="revanced_spoof_app_version_summary_on">Versión falsificada</string>
     <string name="revanced_spoof_app_version_summary_off">Versión no falsificada</string>
@@ -476,13 +479,66 @@ Si este ajuste no surte efecto, prueba a cambiar al modo incógnito."</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Menú de configuración</string>
     <string name="revanced_preference_screen_settings_menu_summary">Ocultar elementos del menú de configuración de YouTube.</string>
-    <string name="revanced_hide_settings_menu_title">Ocultar menú de configuración de YouTube</string>
-    <string name="revanced_hide_settings_menu_summary">Ocultar elementos del menú de configuración de YouTube.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_title">Filtro de menú de configuración de YouTube</string>
-    <string name="revanced_hide_settings_menu_filter_strings_summary">Lista de nombres del menú de configuración de YouTube a filtrar separados por una nueva línea.</string>
-    <string name="revanced_hide_settings_menu_filter_strings_hint">"Cuenta
-Ahorro de datos
-Subtítulos"</string>
+    <string name="revanced_hide_settings_menu_parent_tools_title">Ocultar menú de centro familiar</string>
+    <string name="revanced_hide_settings_menu_parent_tools_summary_on">El menú de centro familiar está oculto.</string>
+    <string name="revanced_hide_settings_menu_parent_tools_summary_off">El menú de centro familiar está visible.</string>
+    <string name="revanced_hide_settings_menu_general_title">Ocultar menú de general</string>
+    <string name="revanced_hide_settings_menu_general_summary_on">El menú de general está oculto.</string>
+    <string name="revanced_hide_settings_menu_general_summary_off">El menú de general está visible.</string>
+    <string name="revanced_hide_settings_menu_account_title">Ocultar menú de cuenta</string>
+    <string name="revanced_hide_settings_menu_account_summary_on">El menú de cuenta está oculto.</string>
+    <string name="revanced_hide_settings_menu_account_summary_off">El menú de cuenta está visible.</string>
+    <string name="revanced_hide_settings_menu_data_saving_title">Ocultar menú de ahorro de datos</string>
+    <string name="revanced_hide_settings_menu_data_saving_summary_on">El menú de ahorro de datos está oculto.</string>
+    <string name="revanced_hide_settings_menu_data_saving_summary_off">El menú de ahorro de datos está visible.</string>
+    <string name="revanced_hide_settings_menu_auto_play_title">Ocultar menú de reproducción automática</string>
+    <string name="revanced_hide_settings_menu_auto_play_summary_on">El menú de reproducción automática está oculto.</string>
+    <string name="revanced_hide_settings_menu_auto_play_summary_off">El menú de reproducción automática está visible.</string>
+    <string name="revanced_hide_settings_menu_video_quality_title">Ocultar menú de preferencias de calidad de vídeo</string>
+    <string name="revanced_hide_settings_menu_video_quality_summary_on">El menú de preferencias de calidad de vídeo está oculto.</string>
+    <string name="revanced_hide_settings_menu_video_quality_summary_off">El menú de preferencias de calidad de vídeo está visible.</string>
+    <string name="revanced_hide_settings_menu_offline_title">Ocultar menú de segundo plano</string>
+    <string name="revanced_hide_settings_menu_offline_summary_on">El menú de segundo plano está oculto.</string>
+    <string name="revanced_hide_settings_menu_offline_summary_off">El menú de segundo plano está visible.</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_title">Ocultar menú de ver en la televisión</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_summary_on">El menú de ver en la televisión está oculto.</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_summary_off">El menú de ver en la televisión está visible.</string>
+    <string name="revanced_hide_settings_menu_history_title">Ocultar menú de gestionar todo el historial</string>
+    <string name="revanced_hide_settings_menu_history_summary_on">El menú de gestionar todo el historial está oculto.</string>
+    <string name="revanced_hide_settings_menu_history_summary_off">El menú de gestionar todo el historial está visible.</string>
+    <string name="revanced_hide_settings_menu_your_data_title">Ocultar menú de tus datos en YouTube</string>
+    <string name="revanced_hide_settings_menu_your_data_summary_on">El menú de tus datos en YouTube está oculto.</string>
+    <string name="revanced_hide_settings_menu_your_data_summary_off">El menú de tus datos en YouTube está visible.</string>
+    <string name="revanced_hide_settings_menu_privacy_title">Ocultar menú de privacidad</string>
+    <string name="revanced_hide_settings_menu_privacy_summary_on">El menú de privacidad está oculto.</string>
+    <string name="revanced_hide_settings_menu_privacy_summary_off">El menú de privacidad está visible.</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_title">Ocultar menú de prueba las nuevas funciones experimentales</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_summary_on">El menú de prueba las nuevas funciones experimentales está oculto.</string>
+    <string name="revanced_hide_settings_menu_premium_early_access_summary_off">El menú de prueba las nuevas funciones experimentales está visible.</string>
+    <string name="revanced_hide_settings_menu_subscription_product_title">Ocultar menú de compras y suscripciones</string>
+    <string name="revanced_hide_settings_menu_subscription_product_summary_on">El menú de compras y suscripciones está oculto.</string>
+    <string name="revanced_hide_settings_menu_subscription_product_summary_off">El menú de compras y suscripciones está visible.</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_title">Ocultar menú de facturación y pagos</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_summary_on">El menú de facturación y pagos está oculto.</string>
+    <string name="revanced_hide_settings_menu_billing_and_payment_summary_off">El menú de facturación y pagos está visible.</string>
+    <string name="revanced_hide_settings_menu_notification_title">Ocultar menú de notificaciones</string>
+    <string name="revanced_hide_settings_menu_notification_summary_on">El menú de notificaciones está oculto.</string>
+    <string name="revanced_hide_settings_menu_notification_summary_off">El menú de notificaciones está visible.</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_title">Ocultar menú de aplicaciones conectadas</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_summary_on">El menú de aplicaciones conectadas está oculto.</string>
+    <string name="revanced_hide_settings_menu_connected_accounts_summary_off">El menú de aplicaciones conectadas está visible.</string>
+    <string name="revanced_hide_settings_menu_live_chat_title">Ocultar menú de chat en directo</string>
+    <string name="revanced_hide_settings_menu_live_chat_summary_on">El menú de chat en directo está oculto.</string>
+    <string name="revanced_hide_settings_menu_live_chat_summary_off">El menú de chat en directo está visible.</string>
+    <string name="revanced_hide_settings_menu_captions_title">Ocultar menú de subtítulos</string>
+    <string name="revanced_hide_settings_menu_captions_summary_on">El menú de subtítulos está oculto.</string>
+    <string name="revanced_hide_settings_menu_captions_summary_off">El menú de subtítulos está visible.</string>
+    <string name="revanced_hide_settings_menu_accessibility_title">Ocultar menú de accesibilidad</string>
+    <string name="revanced_hide_settings_menu_accessibility_summary_on">El menú de accesibilidad está oculto.</string>
+    <string name="revanced_hide_settings_menu_accessibility_summary_off">El menú de accesibilidad está visible.</string>
+    <string name="revanced_hide_settings_menu_about_title">Ocultar menú de información</string>
+    <string name="revanced_hide_settings_menu_about_summary_on">El menú de información está oculto.</string>
+    <string name="revanced_hide_settings_menu_about_summary_off">El menú de información está visible.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Barra de herramientas</string>
     <string name="revanced_preference_screen_toolbar_summary">Ocultar o cambiar los componentes situados en la barra de herramientas, como los botones, la barra de búsqueda o la cabecera.</string>
@@ -518,6 +574,12 @@ Pestaña Tú &gt; Ver canal &gt; Menú &gt; Configuración."</string>
     <string name="revanced_hide_voice_search_button_title">Ocultar botón de búsqueda por voz</string>
     <string name="revanced_hide_voice_search_button_summary_on">El botón de búsqueda por voz está oculto.</string>
     <string name="revanced_hide_voice_search_button_summary_off">El botón de búsqueda por voz está visible.</string>
+    <string name="revanced_hide_youtube_doodles_title">Ocultar Doodles de YouTube</string>
+    <string name="revanced_hide_youtube_doodles_summary_on">Los Doodles de YouTube están ocultos.</string>
+    <string name="revanced_hide_youtube_doodles_summary_off">Los Doodles de YouTube están visibles.</string>
+    <string name="revanced_hide_youtube_doodles_user_dialog_message">"Los Doodles de YouTube aparecen unos pocos días al año.
+
+Si un Doodle de YouTube está actualmente mostrándose en tu región y este ajuste de ocultar está activado, entonces la barra de filtros debajo de la barra de búsqueda también estará oculta."</string>
     <string name="revanced_replace_toolbar_create_button_title">Reemplazar botón de crear</string>
     <string name="revanced_replace_toolbar_create_button_summary">Reemplaza el botón de crear con el botón de ajustes.</string>
     <string name="revanced_replace_toolbar_create_button_type_title">Tipo de acción a asignar al botón</string>
@@ -1037,15 +1099,18 @@ Limitación: las cabeceras oficiales en los resultados de búsqueda estarán ocu
     <string name="revanced_hide_shorts_paused_overlay_buttons_title">Ocultar botones superpuestos en pausa</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_on">Los botones superpuestos en pausa están ocultos.</string>
     <string name="revanced_hide_shorts_paused_overlay_buttons_summary_off">Los botones superpuestos en pausa están visibles.</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_title">Ocultar etiqueta de promoción pagada</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_summary_on">La etiqueta de promoción pagada está oculta.</string>
-    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">La etiqueta de promoción pagada está visible.</string>
     <string name="revanced_hide_shorts_trends_button_title">Ocultar botón de tendencias</string>
     <string name="revanced_hide_shorts_trends_button_summary_on">El botón de tendencias está oculto.</string>
     <string name="revanced_hide_shorts_trends_button_summary_off">El botón de tendencias está visible.</string>
     <string name="revanced_hide_shorts_shopping_button_title">Ocultar botón de compras</string>
     <string name="revanced_hide_shorts_shopping_button_summary_on">El botón de compras está oculto.</string>
     <string name="revanced_hide_shorts_shopping_button_summary_off">El botón de compras está visible.</string>
+    <string name="revanced_hide_shorts_stickers_title">Ocultar stickers</string>
+    <string name="revanced_hide_shorts_stickers_summary_on">Los stickers están ocultos.</string>
+    <string name="revanced_hide_shorts_stickers_summary_off">Los stickers están visibles.</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_title">Ocultar etiqueta de promoción pagada</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_summary_on">La etiqueta de promoción pagada está oculta.</string>
+    <string name="revanced_hide_shorts_paid_promotion_label_summary_off">La etiqueta de promoción pagada está visible.</string>
     <string name="revanced_hide_shorts_info_panel_title">Ocultar paneles de información</string>
     <string name="revanced_hide_shorts_info_panel_summary_on">Los paneles de información están ocultos.</string>
     <string name="revanced_hide_shorts_info_panel_summary_off">Los paneles de información están visibles.</string>
@@ -1069,9 +1134,9 @@ Limitación: las cabeceras oficiales en los resultados de búsqueda estarán ocu
     <string name="revanced_hide_shorts_green_screen_button_title">Ocultar botón de pantalla verde</string>
     <string name="revanced_hide_shorts_green_screen_button_summary_on">El botón de la pantalla verde está oculto.</string>
     <string name="revanced_hide_shorts_green_screen_button_summary_off">El botón de la pantalla verde está visible.</string>
-    <string name="revanced_hide_shorts_save_sound_button_title">Ocultar botón de guardar sonido</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_on">El botón de guardar sonido está oculto.</string>
-    <string name="revanced_hide_shorts_save_sound_button_summary_off">El botón de guardar sonido está visible.</string>
+    <string name="revanced_hide_shorts_save_music_button_title">Ocultar botón de guardar música</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_on">El botón de guardar música está oculto.</string>
+    <string name="revanced_hide_shorts_save_music_button_summary_off">El botón de guardar música está visible.</string>
     <string name="revanced_hide_shorts_shop_button_title">Ocultar botón de comprar</string>
     <string name="revanced_hide_shorts_shop_button_summary_on">El botón de comprar está oculto.</string>
     <string name="revanced_hide_shorts_shop_button_summary_off">El botón de comprar está visible.</string>
@@ -1557,6 +1622,7 @@ Pulsa el botón de continuar y desactiva las optimizaciones de la batería."</st
     <string name="revanced_spoof_streaming_data_type_title">Cliente predeterminado</string>
     <string name="revanced_spoof_streaming_data_type_entry_ios">iOS</string>
     <string name="revanced_spoof_streaming_data_type_entry_android">Android</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_creator">Creador de Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_embedded_player">Reproductor integrado de Android</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_testsuite">Android Testsuite</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_unplugged">Android TV</string>
@@ -1565,7 +1631,7 @@ Pulsa el botón de continuar y desactiva las optimizaciones de la batería."</st
     <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">Efectos secundarios de falsificación</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• Las películas o vídeos de pago no pueden reproducirse."</string>
-    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">• Falta el menú de la pista de audio.</string>
+    <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Falta el menú de la pista de audio."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Falta el menú de la pista de audio."</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• El vídeo no puede reproducirse.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Forzar iOS AVC (H.264)</string>
@@ -1608,7 +1674,6 @@ AVC (H.264) tiene una resolución máxima de 1080p, y la reproducción de vídeo
     <string name="revanced_icon_revancify_blue">Revancify Blue</string>
     <string name="revanced_icon_revancify_red">Revancify Red</string>
     <string name="revanced_icon_youtube">YouTube</string>
-    <string name="revanced_icon_youtube_minimal_header">YouTube (cabecera mínima)</string>
     <string name="revanced_label_default">Predeterminada</string>
     <string name="revanced_patches_excluded">Excluidos</string>
     <string name="revanced_patches_included">Incluidos</string>

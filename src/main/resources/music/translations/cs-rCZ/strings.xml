@@ -46,6 +46,7 @@
     <string name="revanced_enable_force_minimized_player_summary">Zachovat přehrávač trvale minimalizovaný, i když je přehrávána jiná skladba.</string>
     <string name="revanced_enable_zen_mode_title">Povolit zen mod</string>
     <string name="revanced_enable_zen_mode_summary">Přidá šedý odstín do přehrávače videa ke snížení namáhání očí.</string>
+    <!-- PreferenceScreen: Settings menu -->
     <!-- PreferenceScreen: Video -->
     <!-- PreferenceScreen: Return YouTube Dislike -->
     <!-- PreferenceScreen: SponsorBlock -->
