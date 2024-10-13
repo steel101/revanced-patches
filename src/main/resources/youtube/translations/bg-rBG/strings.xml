@@ -913,9 +913,6 @@
     <string name="revanced_hide_seekbar_thumbnail_title">Миниатюри на лентата за възпроизвеждане</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_on">Миниатюрите са скрити.</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_off">Миниатюрите се показват.</string>
-    <string name="revanced_hide_seekbar_chapters_title">Заглавие в лентата за напредък</string>
-    <string name="revanced_hide_seekbar_chapters_summary_on">Главите са скрити.</string>
-    <string name="revanced_hide_seekbar_chapters_summary_off">Главите се показват.</string>
     <string name="revanced_hide_time_stamp_title">Времево клеймо на видеоклипа</string>
     <string name="revanced_hide_time_stamp_summary_on">Времето клеймо е скрито.</string>
     <string name="revanced_hide_time_stamp_summary_off">Клеймо за време се показва.</string>
@@ -1282,6 +1279,7 @@
     <string name="revanced_ryd_failure_client_rate_limit_requested">Нехаресванията не са достъпни (достигнат лимит на API).</string>
     <string name="revanced_ryd_failure_generic">Нехаресванията не са налични (%s).</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">Презареждане на видеото за гласуване чрез ReturnYouTubeDislike</string>
+    <!-- PreferenceScreen: Return YouTube Username -->
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">Включване на SponsorBlock</string>

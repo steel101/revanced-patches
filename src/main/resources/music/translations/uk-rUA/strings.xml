@@ -282,6 +282,7 @@
     <string name="revanced_ryd_failure_connection_status_code">Дизлайки недоступні (статус %d).</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Дизлайки недоступні (досягнуто ліміт клієнтів сервера API).</string>
     <string name="revanced_ryd_failure_generic">Дизлайки недоступні (%s).</string>
+    <!-- PreferenceScreen: Return YouTube Username -->
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enabled">Увімкнути SponsorBlock</string>

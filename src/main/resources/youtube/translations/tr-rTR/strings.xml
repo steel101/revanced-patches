@@ -834,9 +834,6 @@ Geri almak için dokunun ve basılı tutun."</string>
     <string name="revanced_hide_seekbar_thumbnail_title">Kapak fotoğraflarındaki zaman çubuğunu gizle</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_on">Gizleniyor</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_off">Gizlenmiyor</string>
-    <string name="revanced_hide_seekbar_chapters_title">Zaman çubuğu açıklamalarını gizle</string>
-    <string name="revanced_hide_seekbar_chapters_summary_on">Zaman çubuğunda bölümler gizli.</string>
-    <string name="revanced_hide_seekbar_chapters_summary_off">Zaman çubuğunda bölümler gizlenmiyor.</string>
     <string name="revanced_hide_time_stamp_title">Video süre sayacını gizle</string>
     <string name="revanced_hide_time_stamp_summary_on">Gizleniyor</string>
     <string name="revanced_hide_time_stamp_summary_off">Süre sayacı gösteriliyor</string>
@@ -1153,6 +1150,7 @@ Kısıtlama: Gizli modda beğenmeme sayıları görünmeyebilir."</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Beğenmeme sayısı mevcut değil (istemci API sınırına ulaşıldı).</string>
     <string name="revanced_ryd_failure_generic">Beğenmemeler mevcut değil (%s).</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">ReturnYouTubeDislike\'ı kullanarak oy vermek için videoyu yeniden yükleyin</string>
+    <!-- PreferenceScreen: Return YouTube Username -->
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">SponsorBlock\'u etkinleştir</string>

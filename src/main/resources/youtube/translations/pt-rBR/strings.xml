@@ -995,9 +995,6 @@ Toque e segure para desfazer."</string>
     <string name="revanced_hide_seekbar_thumbnail_title">Ocultar barra de progresso nas miniaturas do vídeo</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_on">A barra de progresso em miniaturas está oculta.</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_off">A barra de progresso em miniaturas será exibida.</string>
-    <string name="revanced_hide_seekbar_chapters_title">Ocultar capítulos na barra de progresso</string>
-    <string name="revanced_hide_seekbar_chapters_summary_on">Os capítulos estão ocultos na barra de progresso.</string>
-    <string name="revanced_hide_seekbar_chapters_summary_off">Os capítulos serão exibidos na barra de progresso.</string>
     <string name="revanced_hide_time_stamp_title">Ocultar marcação de tempo</string>
     <string name="revanced_hide_time_stamp_summary_on">A marcação de tempo está oculta.</string>
     <string name="revanced_hide_time_stamp_summary_off">A marcação de tempo será exibida.</string>
@@ -1364,6 +1361,7 @@ Limitação: Dislikes pode não aparecer no modo incógnito."</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Dislikes indisponível (limite da API do cliente atingido).</string>
     <string name="revanced_ryd_failure_generic">Deslikes indisponível (%s).</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">Recarregue o vídeo para votar usando o Return YouTube Dislike</string>
+    <!-- PreferenceScreen: Return YouTube Username -->
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">Ativar SponsorBlock</string>

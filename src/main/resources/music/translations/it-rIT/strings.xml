@@ -62,6 +62,7 @@
     <string name="revanced_ryd_about">Informazioni</string>
     <string name="revanced_ryd_attribution_summary">I dati vengono forniti dall\'API Return YouTube Dislike. Tocca qui per saperne di più.</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">\"Non mi piace\" non disponibile (limite API client raggiunto)</string>
+    <!-- PreferenceScreen: Return YouTube Username -->
     <!-- PreferenceScreen: SponsorBlock -->
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_enable_debug_logging_title">Abilita la registrazione del debug</string>

@@ -992,9 +992,6 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_seekbar_thumbnail_title">動画サムネイルのシークバーを非表示</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_on">動画のサムネイルのシークバーを非表示にします。</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_off">動画のサムネイルのシークバーを非表示にします。</string>
-    <string name="revanced_hide_seekbar_chapters_title">シークバーのチャプターを非表示</string>
-    <string name="revanced_hide_seekbar_chapters_summary_on">シークバーからチャプターを非表示にします。</string>
-    <string name="revanced_hide_seekbar_chapters_summary_off">シークバーからチャプターを非表示にします。</string>
     <string name="revanced_hide_time_stamp_title">タイムスタンプを非表示</string>
     <string name="revanced_hide_time_stamp_summary_on">タイムスタンプを非表示にします。</string>
     <string name="revanced_hide_time_stamp_summary_off">タイムスタンプを非表示にします。</string>
@@ -1365,6 +1362,7 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_ryd_failure_client_rate_limit_requested">低評価数は一時的に利用できません。 (クライアント API が制限に達しました)</string>
     <string name="revanced_ryd_failure_generic">低評価数は一時的に利用できません。(%s)</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">投票するために Return YouTube Dislike を使用するため、動画を再読み込みします</string>
+    <!-- PreferenceScreen: Return YouTube Username -->
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">SponsorBlock を有効化</string>

@@ -988,9 +988,6 @@ Tartsa nyomva a sebesség alaphelyzetbe állításához."</string>
     <string name="revanced_hide_seekbar_thumbnail_title">Folyamatsáv elrejtése a minilejátszóban</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_on">A minilejátszó folyamatsávja el van rejtve</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_off">A minilejátszó folyamatsávja megjelenik</string>
-    <string name="revanced_hide_seekbar_chapters_title">Keresősáv fejezetek elrejtése</string>
-    <string name="revanced_hide_seekbar_chapters_summary_on">A fejezetek el vannak rejtve a keresősávban.</string>
-    <string name="revanced_hide_seekbar_chapters_summary_off">A fejezetek megjelennek a keresősávban.</string>
     <string name="revanced_hide_time_stamp_title">Időtartam elrejtése</string>
     <string name="revanced_hide_time_stamp_summary_on">Az időtartam el van rejtve.</string>
     <string name="revanced_hide_time_stamp_summary_off">Az időtartam látható.</string>
@@ -1355,6 +1352,7 @@ Egy másik kodek kerül alkalmazásra kb. 20 másodperc pufferezés után."</str
     <string name="revanced_ryd_failure_client_rate_limit_requested">A nem tetszik funkció nem elérhető</string>
     <string name="revanced_ryd_failure_generic">A nem tetszik funkció nem elérhető (%s)</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">Töltse újra a videót a Return YouTube Dislike-hoz</string>
+    <!-- PreferenceScreen: Return YouTube Username -->
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">Szponzor Blokk</string>
     <string name="revanced_sb_enable_sb">SponsorBlock bekapcsolása</string>

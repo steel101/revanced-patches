@@ -357,6 +357,7 @@ Si se desactiva más tarde, se recomienda borrar los datos de la aplicación par
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - Restaura la antigua barra de acción de Shorts</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Restaura el antiguo comportamiento de la calidad predeterminada de vídeo</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Desactiva la actualización en tiempo real de las visualizaciones y los me gusta</string>
+    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13.37 - Restaura el antiguo estilo de las animaciones de números rodantes</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Menú de cuenta</string>
     <string name="revanced_preference_screen_account_menu_summary">Ocultar o mostrar elementos en el menú de la cuenta y la pestaña Tú.</string>
@@ -755,6 +756,9 @@ La reproducción automática se puede cambiar en la configuración de YouTube:
     <string name="revanced_change_player_flyout_menu_toggle_title">Cambiar tipo de interruptores</string>
     <string name="revanced_change_player_flyout_menu_toggle_summary_on">Se utilizan interruptores de texto.</string>
     <string name="revanced_change_player_flyout_menu_toggle_summary_off">Se utilizan interruptores cambiables.</string>
+    <string name="revanced_hide_player_flyout_menu_enhanced_bitrate_title">Ocultar menú premium 1080p</string>
+    <string name="revanced_hide_player_flyout_menu_enhanced_bitrate_summary_on">El menú premium 1080p está oculto.</string>
+    <string name="revanced_hide_player_flyout_menu_enhanced_bitrate_summary_off">El menú premium 1080p está visible.</string>
     <string name="revanced_hide_player_flyout_menu_audio_track_title">Ocultar menú de pista de audio</string>
     <string name="revanced_hide_player_flyout_menu_audio_track_summary_on">El menú de pista de audio está oculto.</string>
     <string name="revanced_hide_player_flyout_menu_audio_track_summary_off">El menú de pista de audio está visible.</string>
@@ -994,9 +998,12 @@ Toca y mantén para deshacer."</string>
     <string name="revanced_hide_seekbar_thumbnail_title">Ocultar barra de progreso en miniaturas de vídeo</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_on">La barra de progreso en miniaturas está oculta.</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_off">La barra de progreso en miniaturas está visible.</string>
-    <string name="revanced_hide_seekbar_chapters_title">Ocultar capítulos en barra de progreso</string>
-    <string name="revanced_hide_seekbar_chapters_summary_on">Los capítulos en la barra de progreso están ocultos.</string>
-    <string name="revanced_hide_seekbar_chapters_summary_off">Los capítulos en la barra de progreso están visibles.</string>
+    <string name="revanced_disable_seekbar_chapters_title">Desactivar capítulos en barra de progreso</string>
+    <string name="revanced_disable_seekbar_chapters_summary_on">Los capítulos están desactivados en la barra de progreso.</string>
+    <string name="revanced_disable_seekbar_chapters_summary_off">Los capítulos están activados en la barra de progreso.</string>
+    <string name="revanced_hide_seekbar_chapter_label_title">Ocultar etiquetas de capítulos en barra de progreso</string>
+    <string name="revanced_hide_seekbar_chapter_label_summary_on">Las etiquetas de los capítulos junto a la marca de tiempo están ocultas.</string>
+    <string name="revanced_hide_seekbar_chapter_label_summary_off">Las etiquetas de los capítulos junto a la marca de tiempo están visibles.</string>
     <string name="revanced_hide_time_stamp_title">Ocultar marca de tiempo</string>
     <string name="revanced_hide_time_stamp_summary_on">La marca de tiempo está oculta.</string>
     <string name="revanced_hide_time_stamp_summary_off">La marca de tiempo está visible.</string>
@@ -1352,6 +1359,9 @@ Limitación: es posible que los no me gusta no aparezcan en modo incógnito."</s
     <string name="revanced_ryd_compact_layout_title">Botón compacto de me gusta</string>
     <string name="revanced_ryd_compact_layout_summary_on">El botón de me gusta está diseñado para un ancho mínimo.</string>
     <string name="revanced_ryd_compact_layout_summary_off">El botón de me gusta está diseñado para una mejor apariencia.</string>
+    <string name="revanced_ryd_estimated_like_title">Activar me gusta estimados</string>
+    <string name="revanced_ryd_estimated_like_summary_on">Los me gusta estimados están visibles.</string>
+    <string name="revanced_ryd_estimated_like_summary_off">Los me gusta estimados están ocultos.</string>
     <string name="revanced_ryd_toast_on_connection_error_title">Mostrar mensaje si la API no está disponible</string>
     <string name="revanced_ryd_toast_on_connection_error_summary_on">Se muestra el mensaje si Return YouTube Dislike no está disponible.</string>
     <string name="revanced_ryd_toast_on_connection_error_summary_off">No se muestra el mensaje si Return YouTube Dislike no está disponible.</string>
@@ -1365,6 +1375,22 @@ Pulsa aquí para obtener más información.</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Los no me gusta no están disponibles (se alcanzó el límite de la API del cliente).</string>
     <string name="revanced_ryd_failure_generic">Los no me gusta no están disponibles (%s).</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">Recargar vídeo para votar utilizando Return YouTube Dislike</string>
+    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Oculto</string>
+    <!-- PreferenceScreen: Return YouTube Username -->
+    <string name="revanced_preference_screen_return_youtube_username_title">Devolver usuario de YouTube</string>
+    <string name="revanced_return_youtube_username_enabled_title">Activar devolver usuario de YouTube</string>
+    <string name="revanced_return_youtube_username_enabled_summary_on">Se utiliza el nombre de usuario.</string>
+    <string name="revanced_return_youtube_username_enabled_summary_off">Se utiliza el identificador.</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_title">Clave de API de datos de YouTube</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_summary">La clave de desarrollador para utilizar la API v3 de datos de YouTube.</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_title">Acerca de la clave API de datos de YouTube</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_summary">"Se requiere la clave de desarrollador de la API v3 de datos de YouTube para reemplazar el identificador con el nombre de usuario.
+
+La cuota diaria para las claves de API en el plan gratuito es de 10,000, y se utiliza 1 cuota para reemplazar el identificador con el nombre de usuario en 1 comentario.
+
+Toca para ver cómo crear una clave de API."</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_title">Crear clave de desarrollador de API v3 de datos de YouTube</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_message">1. Ve a &lt;a href=%1$s&gt;Crear un nuevo proyecto&lt;/a&gt;.&lt;br&gt;2. Pulsa en el botón &lt;b&gt;CREAR&lt;/b&gt;.&lt;br&gt;3. 3. Ve a &lt;a href=%2$s&gt;API v3 de datos de YouTube&lt;/a&gt;.&lt;br&gt;4. Pulsa en el botón &lt;b&gt;HABILITAR&lt;/b&gt;.&lt;br&gt;5. Pulsa en &lt;b&gt;CREAR&lt;/b&gt;. Pulsa en el botón &lt;b&gt;CREAR CREDENCIALES&lt;/b&gt;.&lt;br&gt;6. Selecciona la opción &lt;b&gt;Datos públicos&lt;/b&gt;.&lt;br&gt;7. Pulsa en el botón &lt;b&gt; SIGUIENTE&lt;/b&gt;.&lt;br&gt;8. Copia la clave API.&lt;br&gt;&lt;br&gt;※ La clave API nunca debe ser compartida con otros, por lo que no se incluye en los ajustes de Importar / Exportar.</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">Activar SponsorBlock</string>

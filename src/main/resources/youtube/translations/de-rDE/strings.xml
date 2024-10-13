@@ -774,9 +774,6 @@ Tippen und gedrückt halten, um rückgängig zu machen."</string>
     <string name="revanced_hide_seekbar_thumbnail_title">Verstecke Thumbnail-Suchleiste</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_on">Thumbnail-Suchleiste ist versteckt</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_off">Thumbnail-Suchleiste wird angezeigt</string>
-    <string name="revanced_hide_seekbar_chapters_title">Suchleistenkapitel ausblenden</string>
-    <string name="revanced_hide_seekbar_chapters_summary_on">Kapitel werden in der Suchleiste ausgeblendet.</string>
-    <string name="revanced_hide_seekbar_chapters_summary_off">Kapitel werden in der Suchleiste angezeigt.</string>
     <string name="revanced_hide_time_stamp_title">Zeitstempel ausblenden</string>
     <string name="revanced_hide_time_stamp_summary_on">Der Zeitstempel ist ausgeblendet</string>
     <string name="revanced_hide_time_stamp_summary_off">Der Zeitstempel wird angezeigt</string>
@@ -1028,6 +1025,7 @@ Einschränkung: Dislikes werden im Inkognito Modus nicht angezeigt."</string>
     <string name="revanced_ryd_attribution_title">ReturnYouTubeDislike.com</string>
     <string name="revanced_ryd_attribution_summary">Dislikes Daten werden von der True RYD Worker API zur Verfügung gestellt. Tippe hier, um mehr zu erfahren.</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Dislikes nicht verfügbar (Client-API Limit erreicht)</string>
+    <!-- PreferenceScreen: Return YouTube Username -->
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">SponsorBlock aktivieren</string>

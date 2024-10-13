@@ -997,9 +997,6 @@ Nhấn và giữ để hoàn tác."</string>
     <string name="revanced_hide_seekbar_thumbnail_title">Ẩn thanh tiến trình trong trình phát thu nhỏ</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_on">Thanh tiến trình đã ẩn khỏi trình phát thu nhỏ video.</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_off">Thanh tiến trình được hiển thị trong trình phát thu nhỏ video.</string>
-    <string name="revanced_hide_seekbar_chapters_title">Ẩn các Chương trong thanh tiến trình</string>
-    <string name="revanced_hide_seekbar_chapters_summary_on">Các chương đã ẩn trong thanh tiến trình.</string>
-    <string name="revanced_hide_seekbar_chapters_summary_off">Các chương được hiển thị trong thanh tiến trình.</string>
     <string name="revanced_hide_time_stamp_title">Ẩn Mốc thời gian</string>
     <string name="revanced_hide_time_stamp_summary_on">Mốc thời gian đã ẩn.</string>
     <string name="revanced_hide_time_stamp_summary_off">Mốc thời gian được hiển thị.</string>
@@ -1366,6 +1363,7 @@ Hạn chế: Lượt không thích có thể không hiển thị nếu người 
     <string name="revanced_ryd_failure_client_rate_limit_requested">Số lượt không thích không khả dụng (đã đạt đến giới hạn API máy khách).</string>
     <string name="revanced_ryd_failure_generic">Số lượt không thích không khả dụng (%s).</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">Tải lại video để bình chọn sử dụng Return YouTube Dislike</string>
+    <!-- PreferenceScreen: Return YouTube Username -->
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">Kích hoạt SponsorBlock</string>

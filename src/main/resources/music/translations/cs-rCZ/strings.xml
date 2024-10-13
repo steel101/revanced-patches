@@ -49,6 +49,7 @@
     <!-- PreferenceScreen: Settings menu -->
     <!-- PreferenceScreen: Video -->
     <!-- PreferenceScreen: Return YouTube Dislike -->
+    <!-- PreferenceScreen: Return YouTube Username -->
     <!-- PreferenceScreen: SponsorBlock -->
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_enable_debug_logging_title">Povolit režim ladění</string>

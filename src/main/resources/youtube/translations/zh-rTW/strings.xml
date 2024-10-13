@@ -993,9 +993,6 @@
     <string name="revanced_hide_seekbar_thumbnail_title">隱藏進度條縮略圖預覽</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_on">進度條縮略圖預覽已隱藏</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_off">進度條縮略圖預覽已顯示</string>
-    <string name="revanced_hide_seekbar_chapters_title">隱藏進度條中的章節</string>
-    <string name="revanced_hide_seekbar_chapters_summary_on">進度條中的章節已隱藏</string>
-    <string name="revanced_hide_seekbar_chapters_summary_off">進度條中的章節已顯示</string>
     <string name="revanced_hide_time_stamp_title">隱藏時間戳</string>
     <string name="revanced_hide_time_stamp_summary_on">時間戳已隱藏</string>
     <string name="revanced_hide_time_stamp_summary_off">時間戳已顯示</string>
@@ -1361,6 +1358,7 @@
     <string name="revanced_ryd_failure_client_rate_limit_requested">倒讚數不可用（已達到用戶端 API 限制）</string>
     <string name="revanced_ryd_failure_generic">倒讚數不可用（%s）</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">重新載入影片以使用 恢復 YouTube 倒讚 進行投票</string>
+    <!-- PreferenceScreen: Return YouTube Username -->
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">贊助區塊阻擋（SponsorBlock）</string>
     <string name="revanced_sb_enable_sb">啟用 SponsorBlock</string>

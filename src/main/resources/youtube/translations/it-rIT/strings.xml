@@ -999,9 +999,6 @@ Tocca e tieni premuto per annullare."</string>
     <string name="revanced_hide_seekbar_thumbnail_title">Nascondi la barra di avanzamento nel thumbnail dei video</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_on">La barra di avanzamento nel thumbnail dei video è nascosta</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_off">La barra di avanzamento nel thumbnail dei video è visibile</string>
-    <string name="revanced_hide_seekbar_chapters_title">Nascondi i capitoli della barra di avanzamento</string>
-    <string name="revanced_hide_seekbar_chapters_summary_on">I capitoli sono nascosti nella barra di avanzamento.</string>
-    <string name="revanced_hide_seekbar_chapters_summary_off">I capitoli sono mostrati nella barra di avanzamento.</string>
     <string name="revanced_hide_time_stamp_title">Nascondi il timestamp</string>
     <string name="revanced_hide_time_stamp_summary_on">Il timestamp è nascosto</string>
     <string name="revanced_hide_time_stamp_summary_off">Il timestamp è visibile</string>
@@ -1365,6 +1362,7 @@ Limitazione: Non mi piace possono non apparire se l'utente non è registrato o i
     <string name="revanced_ryd_failure_client_rate_limit_requested">Non Mi Piace non disponibili (è stato raggiunto il limite del client API)</string>
     <string name="revanced_ryd_failure_generic">Non Mi Piace non disponibili (%s)</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">Ricarica il video per votare utilizzando Return YouTube Dislike</string>
+    <!-- PreferenceScreen: Return YouTube Username -->
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">Abilita SponsorBlock</string>

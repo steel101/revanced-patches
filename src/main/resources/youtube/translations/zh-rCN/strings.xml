@@ -959,9 +959,6 @@
     <string name="revanced_hide_seekbar_thumbnail_title">隐藏进度条缩略图预览</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_on">进度条缩略图预览已隐藏</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_off">进度条缩略图预览已显示</string>
-    <string name="revanced_hide_seekbar_chapters_title">隐藏进度条中的章节</string>
-    <string name="revanced_hide_seekbar_chapters_summary_on">进度条中的章节已隐藏</string>
-    <string name="revanced_hide_seekbar_chapters_summary_off">进度条中的章节已显示</string>
     <string name="revanced_hide_time_stamp_title">隐藏时间戳</string>
     <string name="revanced_hide_time_stamp_summary_on">时间戳已隐藏</string>
     <string name="revanced_hide_time_stamp_summary_off">时间戳已显示</string>
@@ -1325,6 +1322,7 @@
     <string name="revanced_ryd_failure_client_rate_limit_requested">点踩数不可用(已达到客户端 API 限制)</string>
     <string name="revanced_ryd_failure_generic">点踩数不可用(%s)</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">重新加载视频以使用 Return YouTube Dislike进行投票</string>
+    <!-- PreferenceScreen: Return YouTube Username -->
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">启用 SponsorBlock</string>

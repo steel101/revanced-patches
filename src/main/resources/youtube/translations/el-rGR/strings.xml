@@ -1005,9 +1005,6 @@ Playlists
     <string name="revanced_hide_seekbar_thumbnail_title">Γραμμή προόδου σε μικρογραφίες βίντεο</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_on">Κρυμμένη.</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_off">Εμφανίζεται.</string>
-    <string name="revanced_hide_seekbar_chapters_title">Ονομασίες κεφαλαίων γραμμής προόδου</string>
-    <string name="revanced_hide_seekbar_chapters_summary_on">Κρυμμένες.</string>
-    <string name="revanced_hide_seekbar_chapters_summary_off">Εμφανίζονται.</string>
     <string name="revanced_hide_time_stamp_title">Χρονοσφραγίδα βίντεο</string>
     <string name="revanced_hide_time_stamp_summary_on">Κρυμμένη.</string>
     <string name="revanced_hide_time_stamp_summary_off">Εμφανίζεται.</string>
@@ -1389,6 +1386,7 @@ Playlists
     <string name="revanced_ryd_failure_client_rate_limit_requested">Δεδομένα dislike μη διαθέσιμα (το όριο API έχει επιτευχθεί).</string>
     <string name="revanced_ryd_failure_generic">Δεδομένα dislike μη διαθέσιμα (%s).</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">Επαναφορτώστε το βίντεο για να ψηφίσετε χρησιμοποιώντας το Return YouTube Dislike</string>
+    <!-- PreferenceScreen: Return YouTube Username -->
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">Ενεργοποίηση του SponsorBlock</string>

@@ -1005,9 +1005,6 @@ Shorts
     <string name="revanced_hide_seekbar_thumbnail_title">Миниатюры шкалы воспроизведения</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_on">Миниатюры шкалы воспроизведения скрыты.</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_off">Миниатюры шкалы воспроизведения отображены.</string>
-    <string name="revanced_hide_seekbar_chapters_title">Главы в шкале воспроизведения</string>
-    <string name="revanced_hide_seekbar_chapters_summary_on">Главы в шкале воспроизведения скрыты.</string>
-    <string name="revanced_hide_seekbar_chapters_summary_off">Главы в шкале воспроизведения отображены.</string>
     <string name="revanced_hide_time_stamp_title">Метка времени</string>
     <string name="revanced_hide_time_stamp_summary_on">Метка времени скрыта.</string>
     <string name="revanced_hide_time_stamp_summary_off">Метка времени отображена.</string>
@@ -1385,6 +1382,7 @@ Shorts
     <string name="revanced_ryd_failure_client_rate_limit_requested">Return YouTube Dislike недоступен (достигнут лимит клиента API).</string>
     <string name="revanced_ryd_failure_generic">Return YouTube Dislike недоступен (%s).</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">Обновите видео для использования Return YouTube Dislike</string>
+    <!-- PreferenceScreen: Return YouTube Username -->
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">Включить SponsorBlock</string>
