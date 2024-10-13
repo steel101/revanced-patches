@@ -1076,9 +1076,12 @@ Tap and hold to undo."</string>
     <string name="revanced_hide_seekbar_thumbnail_title">Hide seekbar in video thumbnails</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_on">Thumbnail seekbar is hidden.</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_off">Thumbnail seekbar is shown.</string>
-    <string name="revanced_hide_seekbar_chapters_title">Hide seekbar chapters</string>
-    <string name="revanced_hide_seekbar_chapters_summary_on">Chapters are hidden in the seekbar.</string>
-    <string name="revanced_hide_seekbar_chapters_summary_off">Chapters are shown in the seekbar.</string>
+    <string name="revanced_disable_seekbar_chapters_title">Disable seekbar chapters</string>
+    <string name="revanced_disable_seekbar_chapters_summary_on">Chapters are disabled in the seekbar.</string>
+    <string name="revanced_disable_seekbar_chapters_summary_off">Chapters are enabled in the seekbar.</string>
+    <string name="revanced_hide_seekbar_chapter_label_title">Hide seekbar chapter labels</string>
+    <string name="revanced_hide_seekbar_chapter_label_summary_on">Chapter labels next to the timestamp are hidden.</string>
+    <string name="revanced_hide_seekbar_chapter_label_summary_off">Chapter labels next to the timestamp are hidden.</string>
     <string name="revanced_hide_time_stamp_title">Hide timestamp</string>
     <string name="revanced_hide_time_stamp_summary_on">Timestamp is hidden.</string>
     <string name="revanced_hide_time_stamp_summary_off">Timestamp is shown.</string>
