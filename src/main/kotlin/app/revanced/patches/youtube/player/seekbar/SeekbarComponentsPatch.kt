@@ -31,6 +31,7 @@ import app.revanced.patches.youtube.utils.resourceid.SharedResourceIdPatch.ReelT
 import app.revanced.patches.youtube.utils.settings.SettingsPatch
 import app.revanced.patches.youtube.utils.settings.SettingsPatch.contexts
 import app.revanced.patches.youtube.video.information.VideoInformationPatch
+import app.revanced.util.alsoResolve
 import app.revanced.util.findMethodsOrThrow
 import app.revanced.util.getReference
 import app.revanced.util.getWalkerMethod
@@ -228,11 +229,9 @@ object SeekbarComponentsPatch : BaseBytecodePatch(
             }
         }
 
-        PlayerButtonsVisibilityFingerprint.resolve(
-            context,
-            PlayerButtonsResourcesFingerprint.resultOrThrow().mutableClass
-        )
-        PlayerButtonsVisibilityFingerprint.resultOrThrow().let {
+        PlayerButtonsVisibilityFingerprint.alsoResolve(
+            context, PlayerButtonsResourcesFingerprint
+        ).let {
             it.mutableMethod.apply {
                 val freeRegister = implementation!!.registerCount - parameters.size - 2
                 val viewIndex = indexOfFirstInstructionOrThrow(Opcode.INVOKE_INTERFACE)
