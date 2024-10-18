@@ -1158,6 +1158,12 @@ The Expand video description option may not work if the entered string does not 
     <string name="revanced_hide_shorts_shelf_summary">"Hides Shorts shelves.
 
 Side effect: Official headers in search results will be hidden."</string>
+    <string name="revanced_hide_shorts_shelf_channel_title">Hide in channel</string>
+    <string name="revanced_hide_shorts_shelf_channel_summary_on">"Hidden in channel.
+
+Info:
+• Only shelves with the Shorts header on the home tab are hidden."</string>
+    <string name="revanced_hide_shorts_shelf_channel_summary_off">Shown in channel.</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_title">Hide in home feed and related videos</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_on">Hidden in home feed and related videos.</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_off">Shown in home feed and related videos.</string>
