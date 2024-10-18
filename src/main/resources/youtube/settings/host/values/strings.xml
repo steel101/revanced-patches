@@ -1489,6 +1489,10 @@ Limitation: Dislikes may not appear if the user is not logged in or in incognito
     <string name="revanced_return_youtube_username_enabled_title">Enable Return YouTube Username</string>
     <string name="revanced_return_youtube_username_enabled_summary_on">Username is used.</string>
     <string name="revanced_return_youtube_username_enabled_summary_off">Handle is used.</string>
+    <string name="revanced_return_youtube_username_display_format_title">Display format</string>
+    <string name="revanced_return_youtube_username_display_format_username_only">Username</string>
+    <string name="revanced_return_youtube_username_display_format_username_handle">Username (@handle)</string>
+    <string name="revanced_return_youtube_username_display_format_handle_username">@handle (Username)</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_title">YouTube Data API key</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_summary">The developer key for using the YouTube Data API v3.</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_about_title">About YouTube Data API key</string>
