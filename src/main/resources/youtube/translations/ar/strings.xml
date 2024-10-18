@@ -252,10 +252,6 @@
 • مقاطع فيديو تحتوي على عبارات مثل 'شاهد الأشخاص أيضًا' أسفلها."</string>
     <string name="revanced_hide_low_views_video_title">إخفاء فيديو المشاهدات المنخفضة</string>
     <string name="revanced_hide_low_views_video_summary">إخفاء مقاطع الفيديو التي حصلت على أقل من 1000 مشاهدة من موجز الصفحة الرئيسية التي تم تحميلها من القنوات غير المشترك بها.</string>
-    <string name="revanced_hide_upcoming_video_title">إخفاء الفيديو القادم</string>
-    <string name="revanced_hide_upcoming_video_summary">"إخفاء الفيديوهات التي تحمل علامة \"قادم\".
-
-ملاحظة: يؤدي تمكين هذا أيضًا إلى إخفاء زر \"تنبيهي\"."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">تصفية عدد المشاهدات</string>
     <string name="revanced_hide_video_by_view_counts_home_title">إخفاء فيديوهات الصفحة الرئيسية حسب عدد المشاهدات</string>
@@ -349,6 +345,7 @@
 سيؤدي هذا إلى تغيير مظهر ومميزات التطبيق، ولكن قد تحدث تأثيرات جانبية غير معروفة.
 
 إذا تم إيقاف تشغيله لاحقا، من المستحسن مسح بيانات التطبيق لمنع حدوث أخطاء في واجهة المستخدم."</string>
+    <string name="revanced_spoof_app_version_user_dialog_message_19_16">قد يؤدي تعطيل هذا الإعداد إلى حدوث خطأ في خادم YouTube يتسبب في إخفاء نص الأرقام المتكررة مثل الإعجابات والمشاهدات وتواريخ التحميل.</string>
     <string name="revanced_spoof_app_version_target_title">تعديل إصدار التطبيق الوهمي</string>
     <string name="revanced_spoof_app_version_target_summary">اكتب هدف إصدار التطبيق الوهمي.</string>
     <string name="revanced_spoof_app_version_target_entry_title">الهدف من خِداع إصدار التطبيق</string>
@@ -359,7 +356,7 @@
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - استعادة شريط إجراءات Shorts القديم</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - استعادة سلوك جودة الفيديو الافتراضي القديم</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - تعطيل تحديث المشاهدات والإعجابات في الوقت الفعلي</string>
-    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13-37 - استعادة حركات عدد المشاهدات والإعجابات القديمة</string>
+    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13-37 - استعادة نمط الرسوم المتحركة القديم للأرقام المتكررة</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">قائمة الحساب</string>
     <string name="revanced_preference_screen_account_menu_summary">إخفاء أو عرض العناصر في قائمة الحساب وعلامة التبويب أنت.</string>
@@ -582,7 +579,7 @@
     <string name="revanced_hide_youtube_doodles_summary_off">يتم عرض رسومات YouTube.</string>
     <string name="revanced_hide_youtube_doodles_user_dialog_message">"تظهر رسومات YouTube Doodles لعدة أيام كل عام.
 
-إذا كانت رسومات YouTube Doodles تظهر حاليًا في منطقتك وكان إعداد الإخفاء هذا قيد التشغيل، فسيتم أيضًا إخفاء شريط الفلتر الموجود أسفل شريط البحث."</string>
+إذا كانت رسومات YouTube Doodles تظهر حاليًا في منطقتك وكان إعداد الإخفاء هذا قيد التشغيل، فسيتم أيضًا إخفاء فلتر الشريط الموجود أسفل شريط البحث."</string>
     <string name="revanced_replace_toolbar_create_button_title">استبدال زر الإنشاء</string>
     <string name="revanced_replace_toolbar_create_button_summary">استبدال زر الإنشاء بزر الإعدادات.</string>
     <string name="revanced_replace_toolbar_create_button_type_title">نوع الإجراء الذي سيتم تعيينه للزر</string>
@@ -731,6 +728,9 @@
     <string name="revanced_hide_comments_by_members_title">إخفاء لافتة تعليقات من الأعضاء</string>
     <string name="revanced_hide_comments_by_members_summary_on">تم إخفاء لافتة تعليقات من الأعضاء.</string>
     <string name="revanced_hide_comments_by_members_summary_off">يتم عرض لافتة تعليقات من الأعضاء.</string>
+    <string name="revanced_hide_comment_highlighted_search_links_title">إخفاء روابط البحث المميزة</string>
+    <string name="revanced_hide_comment_highlighted_search_links_summary_on">تم إخفاء روابط البحث المميزة.</string>
+    <string name="revanced_hide_comment_highlighted_search_links_summary_off">يتم عرض روابط البحث المميزة.</string>
     <string name="revanced_hide_comments_section_title">إخفاء قسم التعليقات</string>
     <string name="revanced_hide_comments_section_summary_on">تم إخفاء قسم التعليقات.</string>
     <string name="revanced_hide_comments_section_summary_off">يتم عرض قسم التعليقات.</string>
@@ -1074,6 +1074,12 @@
     <string name="revanced_hide_shorts_shelf_summary">"إخفاء رفوف Shorts
 
 التأثير الجانبي: سيتم إخفاء الرؤوس الرسمية في نتائج البحث."</string>
+    <string name="revanced_hide_shorts_shelf_channel_title">إخفاء في القناة</string>
+    <string name="revanced_hide_shorts_shelf_channel_summary_on">"مخفي في القناة.
+
+معلومة:
+• فقط الأرفف التي تحتوي على عنوان Shorts في علامة تبويب الصفحة الرئيسية تكون مخفية."</string>
+    <string name="revanced_hide_shorts_shelf_channel_summary_off">يُعرض في القناة.</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_title">إخفاء في موجز الصفحة الرئيسية والفيديوهات ذات الصلة</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_on">مخفي في موجز الصفحة الرئيسية والفيديوهات ذات الصلة.</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_off">يُعرض في موجز الصفحة الرئيسية والفيديوهات ذات الصلة.</string>
@@ -1268,6 +1274,12 @@
     <string name="revanced_swipe_overlay_timeout_summary">مقدار الوقت الذي تظهر فيه واجهة التمرير بعد التغيير (بجزء الثانية).
 
 الافتراضي:500</string>
+    <string name="revanced_swipe_brightness_sensitivity_title">حساسية تمرير مستوى السطوع</string>
+    <string name="revanced_swipe_brightness_sensitivity_summary">تكوين الحد الأدنى للمسافة لتمرير السطوع بين 1 و1000 (%).\nكلما كانت المسافة الدنيا أقصر، كلما تغيرت مستويات السطوع بشكل أسرع.</string>
+    <string name="revanced_swipe_brightness_sensitivity_invalid_toast">يجب أن تكون حساسية تمرير مستوى السطوع بين 1-1000 (%).</string>
+    <string name="revanced_swipe_volume_sensitivity_title">حساسية تمرير مستوى الصوت</string>
+    <string name="revanced_swipe_volume_sensitivity_summary" formatted="false">تكوين الحد الأدنى للمسافة لتمرير مستوى الصوت بين 1 و1000 (%).\n\nكلما كانت المسافة الدنيا أقصر، كانت تغييرات مستوى الصوت أسرع.\n\nحساسية التمرير الموصى بها لمستوى الصوت هي 100% عند 15 خطوة لمستوى الصوت و10% عند 150 خطوة لمستوى الصوت.</string>
+    <string name="revanced_swipe_volume_sensitivity_invalid_toast">يجب أن تكون حساسية تمرير مستوى الصوت بين 1-1000 (%).</string>
     <string name="revanced_disable_hdr_auto_brightness_title">تعطيل سطوع HDR التلقائي</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">تم تعطيل سطوع HDR التلقائي.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">تم تمكين سطوع HDR التلقائي.</string>
@@ -1390,12 +1402,16 @@
     <string name="revanced_return_youtube_username_enabled_title">تمكين إعادة اسم مستخدم YouTube</string>
     <string name="revanced_return_youtube_username_enabled_summary_on">يتم استخدام اسم المستخدم.</string>
     <string name="revanced_return_youtube_username_enabled_summary_off">يتم استخدام الاسم المعرِّف.</string>
+    <string name="revanced_return_youtube_username_display_format_title">شكل العرض</string>
+    <string name="revanced_return_youtube_username_display_format_username_only">اسم المستخدم</string>
+    <string name="revanced_return_youtube_username_display_format_username_handle">اسم المستخدم (Handle@)</string>
+    <string name="revanced_return_youtube_username_display_format_handle_username">(اسم المستخدم) Handle@</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_title">مفتاح API لبيانات YouTube</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_summary">مفتاح المطور لاستخدام بيانات YouTube API v3.</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_about_title">لمحة عن مفتاح YouTube Data API</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_about_summary">"مطلوب مفتاح مطور بيانات YouTube API v3 لاستبدال الاسم المعرِّف بـ اسم المستخدم.
 
-الحصة اليومية لمفاتيح API في الخطة المجانية هي 10000، ويتم استخدام حصة واحدة لاستبدال الاسم المعرِّف بـ اسم المستخدم لتعليق واحد.
+الحصة اليومية لمفاتيح API في الخطة المجانية هي 10.000، ويتم استخدام حصة واحدة لاستبدال الاسم المعرِّف بـ اسم المستخدم لتعليق واحد.
 
 انقر لمعرفة كيفية إصدار مفتاح API."</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_title">إصدار مفتاح مطور YouTube Data API v3</string>

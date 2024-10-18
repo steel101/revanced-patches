@@ -248,10 +248,6 @@ Playlists
 • Βίντεο με φράσεις όπως «Άλλοι χρήστες παρακολούθησαν επίσης» στο κάτω μέρος τους."</string>
     <string name="revanced_hide_low_views_video_title">Απόκρυψη βίντεο χαμηλών προβολών</string>
     <string name="revanced_hide_low_views_video_summary">Απόκρυψη των βίντεο με λιγότερες από 1,000 προβολές από τη ροή τα οποία ανήκουν σε κανάλια που δεν είστε συνδρομητές.</string>
-    <string name="revanced_hide_upcoming_video_title">Απόκρυψη προσεχών βίντεο</string>
-    <string name="revanced_hide_upcoming_video_summary">"Απόκρυψη βίντεο με την ετικέτα «ΠΡΟΣΕΧΩΝ».
-
-Σημείωση: Η ενεργοποίηση αυτής της ρύθμισης θα κρύψει επίσης το κουμπί «Να λαμβάνω ειδοποιήσεις»."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Φίλτρο αριθμού προβολών</string>
     <string name="revanced_hide_video_by_view_counts_home_title">Φιλτράρισμα καρτέλας «Αρχική»</string>
@@ -345,6 +341,7 @@ Playlists
 Αυτό θα αλλάξει την εμφάνιση και τα χαρακτηριστικά της εφαρμογής, αλλά ενδέχεται να εμφανιστούν άγνωστες παρενέργειες.
 
 Αν αργότερα απενεργοποιηθεί, συνιστάται η εκκαθάριση δεδομένων της εφαρμογής για την αποφυγή σφαλμάτων UI."</string>
+    <string name="revanced_spoof_app_version_user_dialog_message_19_16">Η απενεργοποίηση αυτής της ρύθμισης μπορεί να οδηγήσει σε ένα σφάλμα από την πλευρά του YouTube που προκαλεί να μη φαίνονται τα like, οι προβολές, και οι ημερομηνίες μεταμόρφωσης.</string>
     <string name="revanced_spoof_app_version_target_title">Επεξεργασία έκδοσης εφαρμογής που θα εφαρμοστεί</string>
     <string name="revanced_spoof_app_version_target_summary">Πληκτρολογήστε την έκδοση εφαρμογής που θα εφαρμοστεί.</string>
     <string name="revanced_spoof_app_version_target_entry_title">Έκδοση τροποποίησης της εφαρμογής</string>
@@ -355,6 +352,7 @@ Playlists
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - Επαναφορά γραμμής ενεργειών Shorts στο παλιό στυλ</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Επαναφορά της παλιάς συμπεριφοράς προεπιλεγμένης ποιότητας βίντεο</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Απενεργοποίηση ενημέρωσης των προβολών &amp; αριθμού των «Μου αρέσει» σε πραγματικό χρόνο</string>
+    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13.37 - Επαναφορά των παλιών εφέ κίνησης αριθμών</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Μενού λογαριασμού</string>
     <string name="revanced_preference_screen_account_menu_summary">Απόκρυψη ή εμφάνιση στοιχείων στο μενού λογαριασμού και στην καρτέλα «Εσείς».</string>
@@ -606,7 +604,7 @@ Playlists
 Σημειώσεις: 
 • Ενεργοποιώντας αυτή τη ρύθμιση θα επαναφερθεί η λειτουργία «Σύρετε αριστερά η δεξιά για αναζήτηση».
 • Σε περίπτωση απενεργοποίησης αυτής της ρύθμισης δεν εξαναγκάζεται η ενεργοποίηση της διεπαφής ταχύτητας."</string>
-    <string name="revanced_speed_overlay_value_title">Τιμή διεπαφής ταχύτητας</string>
+    <string name="revanced_speed_overlay_value_title">Αλλαγή τιμής διεπαφής ταχύτητας</string>
     <string name="revanced_speed_overlay_value_summary">Τιμή ταχύτητας που εφαρμόζεται κατά το παρατεταμένο πάτημα, μεταξύ 0 και 8.0.</string>
     <string name="revanced_speed_overlay_value_invalid_toast">Η ταχύτητα πρέπει να ναι μεταξύ 0-8.0.</string>
     <string name="revanced_hide_channel_watermark_title">Υδατογράφημα καναλιού</string>
@@ -658,9 +656,9 @@ Playlists
     <string name="revanced_skip_autoplay_countdown_title">Άμεση αυτόματη αναπαραγωγή</string>
     <string name="revanced_skip_autoplay_countdown_summary_on">Αν είναι ενεργοποιημένη η αυτόματη αναπαραγωγή, το επόμενο βίντεο παίζει χωρίς αντίστροφη μέτρηση.</string>
     <string name="revanced_skip_autoplay_countdown_summary_off">Αν είναι ενεργοποιημένη η αυτόματη αναπαραγωγή, το επόμενο βίντεο παίζει αφού τελειώσει η αντίστροφη μέτρηση.</string>
-    <string name="revanced_hide_zoom_overlay_title">Διεπαφή ζουμ</string>
-    <string name="revanced_hide_zoom_overlay_summary_on">Κρυμμένη.</string>
-    <string name="revanced_hide_zoom_overlay_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_zoom_overlay_title">Ειδοποιήσεις αλληλεπιδράσης διεπαφής ζουμ</string>
+    <string name="revanced_hide_zoom_overlay_summary_on">Κρυμμένες.</string>
+    <string name="revanced_hide_zoom_overlay_summary_off">Εμφανίζονται.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">Κουμπιά ενεργειών</string>
     <string name="revanced_preference_screen_action_buttons_summary">Απόκρυψη ή εμφάνιση κουμπιών κάτω από τα βίντεο.</string>
@@ -727,6 +725,9 @@ Playlists
     <string name="revanced_hide_comments_by_members_title">Ετικέτα «Σχόλια από μέλη»</string>
     <string name="revanced_hide_comments_by_members_summary_on">Κρυμμένη.</string>
     <string name="revanced_hide_comments_by_members_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_hide_comment_highlighted_search_links_title">Επισημασμένοι συνδέσμοι αναζήτησης</string>
+    <string name="revanced_hide_comment_highlighted_search_links_summary_on">Κρυμμένοι.</string>
+    <string name="revanced_hide_comment_highlighted_search_links_summary_off">Εμφανίζονται.</string>
     <string name="revanced_hide_comments_section_title">Ενότητα σχολίων</string>
     <string name="revanced_hide_comments_section_summary_on">Κρυμμένη.</string>
     <string name="revanced_hide_comments_section_summary_off">Εμφανίζεται.</string>
@@ -754,6 +755,9 @@ Playlists
     <string name="revanced_change_player_flyout_menu_toggle_title">Αλλαγή τύπου εναλλαγής ρυθμίσεων</string>
     <string name="revanced_change_player_flyout_menu_toggle_summary_on">Εμφανίζονται εναλλαγές κειμένου.</string>
     <string name="revanced_change_player_flyout_menu_toggle_summary_off">Εμφανίζονται εναλλαγές διακόπτη.</string>
+    <string name="revanced_hide_player_flyout_menu_enhanced_bitrate_title">Μενού ποιότητας 1080p Premium</string>
+    <string name="revanced_hide_player_flyout_menu_enhanced_bitrate_summary_on">Κρυμμένο.</string>
+    <string name="revanced_hide_player_flyout_menu_enhanced_bitrate_summary_off">Εμφανίζεται.</string>
     <string name="revanced_hide_player_flyout_menu_audio_track_title">Μενού «Κομμάτι ήχου»</string>
     <string name="revanced_hide_player_flyout_menu_audio_track_summary_on">Κρυμμένο.</string>
     <string name="revanced_hide_player_flyout_menu_audio_track_summary_off">Εμφανίζεται.</string>
@@ -1005,6 +1009,12 @@ Playlists
     <string name="revanced_hide_seekbar_thumbnail_title">Γραμμή προόδου σε μικρογραφίες βίντεο</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_on">Κρυμμένη.</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_off">Εμφανίζεται.</string>
+    <string name="revanced_disable_seekbar_chapters_title">Απενεργοποίηση κεφαλαίων γραμμής προόδου</string>
+    <string name="revanced_disable_seekbar_chapters_summary_on">Ο διαχωρισμός της γραμμής προόδου σε κεφάλαια είναι απενεργοποιημένος.</string>
+    <string name="revanced_disable_seekbar_chapters_summary_off">Ο διαχωρισμός της γραμμής προόδου σε κεφάλαια είναι ενεργοποιημένος.</string>
+    <string name="revanced_hide_seekbar_chapter_label_title">Τίτλοι κεφαλαίων δίπλα στη χρονοσφραγίδα</string>
+    <string name="revanced_hide_seekbar_chapter_label_summary_on">Κρυμμένες.</string>
+    <string name="revanced_hide_seekbar_chapter_label_summary_off">Εμφανίζονται.</string>
     <string name="revanced_hide_time_stamp_title">Χρονοσφραγίδα βίντεο</string>
     <string name="revanced_hide_time_stamp_summary_on">Κρυμμένη.</string>
     <string name="revanced_hide_time_stamp_summary_off">Εμφανίζεται.</string>
@@ -1085,6 +1095,12 @@ Playlists
     <string name="revanced_hide_shorts_shelf_summary">"Απόκρυψη της ενότητας Shorts.
 
 Παρενέργεια: Οι τίτλοι ενοτήτων στα αποτελέσματα αναζήτησης δεν εμφανίζονται."</string>
+    <string name="revanced_hide_shorts_shelf_channel_title">Απόκρυψη στη σελίδα καναλιού</string>
+    <string name="revanced_hide_shorts_shelf_channel_summary_on">"Κρυμμένα.
+
+Πληροφορίες:
+• Μόνο οι ενότητες με την επικεφαλίδα Shorts στην καρτέλα «Αρχική» του καναλιού είναι κρυμμένες."</string>
+    <string name="revanced_hide_shorts_shelf_channel_summary_off">Εμφανίζονται.</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_title">Απόκρυψη στην καρτέλα «Αρχική» και στα σχετικά βίντεο</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_on">Κρυμμένη.</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_off">Εμφανίζεται.</string>
@@ -1271,6 +1287,12 @@ Playlists
     <string name="revanced_swipe_overlay_rect_size_invalid_toast">Το μέγεθος οθόνης πρέπει να ναι μικρότερο από 50.</string>
     <string name="revanced_swipe_overlay_timeout_title">Χρονικό όριο φόντου σάρωσης</string>
     <string name="revanced_swipe_overlay_timeout_summary">Το χρονικό διάστημα των χιλιοστών του δευτερολέπτου που είναι ορατό το φόντο σάρωσης.</string>
+    <string name="revanced_swipe_brightness_sensitivity_title">Ευαισθησία σάρωσης φωτεινότητας</string>
+    <string name="revanced_swipe_brightness_sensitivity_summary">Ρύθμιση της ευαισθησίας σάρωσης για αλλαγή της φωτεινότητας, μεταξύ 1 και 1000 (%).\nΌσο μικρότερη η ελάχιστη απόσταση, τόσο πιο γρήγορα αλλάζει το επίπεδο φωτεινότητας.</string>
+    <string name="revanced_swipe_brightness_sensitivity_invalid_toast">Η ευαισθησία σάρωσης πρέπει να ναι μεταξύ 1-1000 (%).</string>
+    <string name="revanced_swipe_volume_sensitivity_title">Ευαισθησία σάρωσης έντασης ήχου</string>
+    <string name="revanced_swipe_volume_sensitivity_summary" formatted="false">Ρύθμιση της ευαισθησίας σάρωσης για αλλαγή της έντασης ήχου, μεταξύ 1 και 1000 (%).\nΌσο μικρότερη η ελάχιστη απόσταση, τόσο πιο γρήγορα αλλάζει το επίπεδο έντασης.\nΗ προτεινόμενη ευαισθησία είναι 100% για 15 βήματα έντασης και 10% για 150 βήματα έντασης.</string>
+    <string name="revanced_swipe_volume_sensitivity_invalid_toast">Η ευαισθησία σάρωσης πρέπει να ναι μεταξύ 1-1000 (%).</string>
     <string name="revanced_disable_hdr_auto_brightness_title">Απενεργοποίηση αυτόματης φωτεινότητας HDR</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">Η αυτόματη φωτεινότητα HDR είναι απενεργοποιημένη.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">Η αυτόματη φωτεινότητα HDR είναι ενεργοποιημένη.</string>
@@ -1374,6 +1396,9 @@ Playlists
     <string name="revanced_ryd_compact_layout_title">Κουμπί «Μου αρέσει» μικρότερου στυλ</string>
     <string name="revanced_ryd_compact_layout_summary_on">Το κουμπί «Μου αρέσει» είναι διαμορφωμένο για ελάχιστο μέγεθος.</string>
     <string name="revanced_ryd_compact_layout_summary_off">Το κουμπί «Μου αρέσει» είναι διαμορφωμένο για καλύτερη εμφάνιση.</string>
+    <string name="revanced_ryd_estimated_like_title">Εμφάνιση εκτιμώμενων likes</string>
+    <string name="revanced_ryd_estimated_like_summary_on">Τα εκτιμώμενα like εμφανίζονται.</string>
+    <string name="revanced_ryd_estimated_like_summary_off">Τα εκτιμώμενα like δεν εμφανίζονται.</string>
     <string name="revanced_ryd_toast_on_connection_error_title">Μήνυμα αν το API δεν είναι διαθέσιμο</string>
     <string name="revanced_ryd_toast_on_connection_error_summary_on">Εμφανίζεται μήνυμα στο κάτω μέρος της οθόνης αν το Return YouTube Dislike δεν είναι διαθέσιμο.</string>
     <string name="revanced_ryd_toast_on_connection_error_summary_off">Δεν εμφανίζεται μήνυμα στο κάτω μέρος της οθόνης αν το Return YouTube Dislike δεν είναι διαθέσιμο.</string>
@@ -1386,7 +1411,26 @@ Playlists
     <string name="revanced_ryd_failure_client_rate_limit_requested">Δεδομένα dislike μη διαθέσιμα (το όριο API έχει επιτευχθεί).</string>
     <string name="revanced_ryd_failure_generic">Δεδομένα dislike μη διαθέσιμα (%s).</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">Επαναφορτώστε το βίντεο για να ψηφίσετε χρησιμοποιώντας το Return YouTube Dislike</string>
+    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Κρυμμένο</string>
     <!-- PreferenceScreen: Return YouTube Username -->
+    <string name="revanced_preference_screen_return_youtube_username_title">Return YouTube Username</string>
+    <string name="revanced_return_youtube_username_enabled_title">Επαναφορά ονομάτων χρήστη στα σχόλια</string>
+    <string name="revanced_return_youtube_username_enabled_summary_on">Εμφανίζεται το όνομα χρήστη.</string>
+    <string name="revanced_return_youtube_username_enabled_summary_off">Εμφανίζεται το ψευδώνυμο.</string>
+    <string name="revanced_return_youtube_username_display_format_title">Μορφή εμφάνισης</string>
+    <string name="revanced_return_youtube_username_display_format_username_only">Όνομα χρήστη</string>
+    <string name="revanced_return_youtube_username_display_format_username_handle">Όνομα χρήστη (@ψευδώνυμο)</string>
+    <string name="revanced_return_youtube_username_display_format_handle_username">\@ψευδώνυμο (Όνομα χρήστη)</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_title">Κλειδί YouTube Data API</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_summary">Το κλειδί προγραμματιστή για τη χρήση του YouTube Data API v3.</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_title">Σχετικά με το κλειδί YouTube Data API</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_summary">"Για να γίνει αντικατάσταση του ψευδωνύμου με όνομα χρήστη, απαιτείται κλειδί προγραμματιστή YouTube Data API v3.
+
+Η ημερήσια ποσόστωση για τα κλειδιά API στο δωρεάν πακέτο είναι 10,000, και χρησιμοποιείται 1 ποσόστωση για την αντικατάσταση ψευδωνύμου με όνομα χρήστη για 1 σχόλιο.
+
+Πατήστε για να δείτε πώς να εκδώσετε ένα κλειδί API."</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_title">Έκδοση κλειδιού προγραμματιστή YouTube Data API v3</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_message">1. Μεταβείτε στη &lt;a href=%1$s&gt;δημιουργία νέου project&lt;/a&gt;.&lt;br&gt;2. Πατήστε το κουμπί &lt;b&gt;CREATE&lt;/b&gt;. &lt;br&gt;3. Μεταβείτε στην επιλογή &lt;a href=%2$s&gt;YouTube Data API v3&lt;/a&gt;.&lt;br&gt;4. Πατήστε το κουμπί &lt;b&gt;ENABLE&lt;/b&gt;.&lt;br&gt;5. Πατήστε το κουμπί &lt;b&gt;CREATE CREDENTIALS&lt;/b&gt;.&lt;br&gt;6. Επιλέξτε την επιλογή &lt;b&gt;Public data&lt;/b&gt;.&lt;br&gt;7. Πατήστε το κουμπί &lt;b&gt;NEXT&lt;/b&gt;.&lt;br&gt;8. Αντιγράψτε το κλειδί API.&lt;br&gt;&lt;br&gt;※ Το κλειδί API δεν πρέπει να το μοιράζεστε ποτέ με άλλους, οπότε δεν περιλαμβάνεται κατά την Εισαγωγή / Εξαγωγή ρυθμίσεων.</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">Ενεργοποίηση του SponsorBlock</string>

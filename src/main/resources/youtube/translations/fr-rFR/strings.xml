@@ -252,10 +252,6 @@ Limitations :
 • Les vidéos avec des phrases telles que \"Les internautes ont aussi regardé cette vidéo\" en dessous."</string>
     <string name="revanced_hide_low_views_video_title">Masquer les vidéos peu vues</string>
     <string name="revanced_hide_low_views_video_summary">Masque les vidéos avec moins de 1,000 vues dans le flux \"accueil\" qui ont été mis en ligne par des personnes dont vous n\'êtes pas abonnés.</string>
-    <string name="revanced_hide_upcoming_video_title">Masquer les vidéos À SUIVRE</string>
-    <string name="revanced_hide_upcoming_video_summary">"Masque les vidéos avec l'étiquette 'À SUIVRE'.
-
-Remarque : Activer ceci masque également le bouton \"M'avertir\"."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Filtre du compteur de vues</string>
     <string name="revanced_hide_video_by_view_counts_home_title">Masquer les vidéos de la page d\'accueil par vues</string>
@@ -349,6 +345,7 @@ Cela ne contourne pas la restriction d'âge, mais le confirme automatiquement."<
 Cela modifie l'apparence et les fonctionnalités de l'application, mais des effets inconnus peuvent se produire.
 
 Si désactivé ultérieurement, il est recommandé d'effacer les données de l'application pour éviter des bugs d'interface."</string>
+    <string name="revanced_spoof_app_version_user_dialog_message_19_16">Désactiver ce paramètre peut entraîner un bug côté serveur de YouTube, qui masque la disparition des textes de l\'animation en temps réel des nombres, tels que les \"J\'aime\", les vues, et les dates de mise en ligne.</string>
     <string name="revanced_spoof_app_version_target_title">Saisir la version à falsifier</string>
     <string name="revanced_spoof_app_version_target_summary">Saisissez la version de l\'application à falsifier.</string>
     <string name="revanced_spoof_app_version_target_entry_title">Choisir la version à falsifier</string>
@@ -359,7 +356,7 @@ Si désactivé ultérieurement, il est recommandé d'effacer les données de l'a
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - Restaure l\'ancienne barre d\'action Shorts</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Restaure l\'ancien menu de qualité vidéo</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Désactive les \"vues\" et \"j\'aime\" en temps réel</string>
-    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13.37 - Restaure l\'animation en temps réel des nombres</string>
+    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13.37 - Restaure l\'ancienne animation en temps réel des nombres</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Menu du compte</string>
     <string name="revanced_preference_screen_account_menu_summary">Masque ou affiche des éléments dans le menu du compte et dans l\'onglet \"Vous\".</string>
@@ -582,7 +579,7 @@ Vous → Afficher la chaîne → Menu → Paramètres"</string>
     <string name="revanced_hide_youtube_doodles_summary_off">Les Doodles YouTube sont affichés.</string>
     <string name="revanced_hide_youtube_doodles_user_dialog_message">"Les Doodles YouTube apparaissent quelques jours par an.
 
-Si un Doodle YouTube est actuellement diffusé dans votre région et que le paramètre pour le masquer est activé, la barre de filtre située à côté de la barre de recherche sera également masquée."</string>
+Si un Doodle YouTube est actuellement diffusé dans votre région et que le paramètre est activé, les filtres situés à côté de la barre de recherche sera également masquée."</string>
     <string name="revanced_replace_toolbar_create_button_title">Remplacer le bouton \"Créer\"</string>
     <string name="revanced_replace_toolbar_create_button_summary">Remplace le bouton \"Créer\" par le bouton \"Paramètre\".</string>
     <string name="revanced_replace_toolbar_create_button_type_title">Action à attribuer au bouton</string>
@@ -731,6 +728,9 @@ La lecture automatique peut être modifiée dans les paramètres de YouTube :
     <string name="revanced_hide_comments_by_members_title">Masquer les commentaires des membres</string>
     <string name="revanced_hide_comments_by_members_summary_on">Les commentaires des membres sont cachés.</string>
     <string name="revanced_hide_comments_by_members_summary_off">Les commentaires des membres sont affichés.</string>
+    <string name="revanced_hide_comment_highlighted_search_links_title">Marquer les liens de recherche en surbrillance</string>
+    <string name="revanced_hide_comment_highlighted_search_links_summary_on">Les liens de recherche en surbrillance sont masqués.</string>
+    <string name="revanced_hide_comment_highlighted_search_links_summary_off">Les liens de recherche en surbrillance sont affichés.</string>
     <string name="revanced_hide_comments_section_title">Masquer la section des commentaires</string>
     <string name="revanced_hide_comments_section_summary_on">La section des commentaires est masquée.</string>
     <string name="revanced_hide_comments_section_summary_off">La section des commentaires est affichée.</string>
@@ -1074,6 +1074,12 @@ L'option \"Ouvrir la description automatiquement\" risque de ne pas fonctionner 
     <string name="revanced_hide_shorts_shelf_summary">"Masque les propositions de Shorts.
 
 Effet secondaire : Les fiches officielles dans les résultats de recherche sont masquées."</string>
+    <string name="revanced_hide_shorts_shelf_channel_title">Masquer sur les chaînes</string>
+    <string name="revanced_hide_shorts_shelf_channel_summary_on">"Masqué sur les chaînes.
+
+Information :
+• Seules les étagères dont l'en-tête est Shorts dans l'onglet d'accueil sont masquées."</string>
+    <string name="revanced_hide_shorts_shelf_channel_summary_off">Affiché sur les chaînes.</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_title">Masquer dans les flux \"accueil\" et \"vidéos similaires\"</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_on">Masqué dans les flux \"accueil\" et \"vidéos similaires\".</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_off">Affiché dans les flux \"accueil\" et \"vidéos similaires\".</string>
@@ -1260,6 +1266,12 @@ Limitations :
     <string name="revanced_swipe_overlay_rect_size_invalid_toast">La zone glissable ne peut pas être supérieure à 50.</string>
     <string name="revanced_swipe_overlay_timeout_title">Durée du voile lors des gestes</string>
     <string name="revanced_swipe_overlay_timeout_summary">La durée en millisecondes pendant laquelle la superposition est visible.</string>
+    <string name="revanced_swipe_brightness_sensitivity_title">Sensibilité des gestes de luminosité</string>
+    <string name="revanced_swipe_brightness_sensitivity_summary">Configurez la sensibilité minimale des gestes de luminosité entre 1 et 1000 (%).\nPlus la sensibilité minimale est courte, plus le niveau de luminosité change rapidement.</string>
+    <string name="revanced_swipe_brightness_sensitivity_invalid_toast">La sensibilité des gestes de luminosité doit être comprise entre 1-1000 (%).</string>
+    <string name="revanced_swipe_volume_sensitivity_title">Sensibilité des gestes de volume</string>
+    <string name="revanced_swipe_volume_sensitivity_summary" formatted="false">Configurer la sensibilité minimale des gestes de volume entre 1 et 1000 (%).\n\nPlus la sensibilité minimale est courte, plus le niveau du volume change rapidement.\n\nLa sensibilité recommandée des gestes de volume est de 100 % par paliers de 15 volumes et de 10 % par paliers de 150 volumes.</string>
+    <string name="revanced_swipe_volume_sensitivity_invalid_toast">La sensibilité des gestes de volume doit être comprise entre 1-1000 (%).</string>
     <string name="revanced_disable_hdr_auto_brightness_title">Luminosité HDR automatique</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">La luminosité HDR automatique est désactivée.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">La luminosité HDR automatique est activée.</string>
@@ -1383,16 +1395,20 @@ Limitation : les \"Je n'aime pas\" ne seront pas affichées si vous n'êtes pas 
     <string name="revanced_return_youtube_username_enabled_title">Activer Return YouTube Username</string>
     <string name="revanced_return_youtube_username_enabled_summary_on">Nom d\'utilisateur utilisé.</string>
     <string name="revanced_return_youtube_username_enabled_summary_off">L\'identifiant est utilisé.</string>
+    <string name="revanced_return_youtube_username_display_format_title">Format d\'affichage</string>
+    <string name="revanced_return_youtube_username_display_format_username_only">Nom d\'utilisateur</string>
+    <string name="revanced_return_youtube_username_display_format_username_handle">Nom d\'utilisateur (@identifiant)</string>
+    <string name="revanced_return_youtube_username_display_format_handle_username">\@identifiant (Nom d\'utilisateur)</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_title">Clé API des données YouTube</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_summary">La clé de développeur pour utiliser l\'API des données YouTube v3.</string>
-    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_title">À propos de la clé API de données YouTube</string>
-    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_summary">"La clé de développeur pour l'API des données YouTube v3 est nécessaire pour remplacer L'identifiant par les Noms d'utilisateur.
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_title">À propos de la clé YouTube Data API</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_summary">"La clé YouTube Data API v3 est nécessaire pour remplacer les identifiants par des noms d'utilisateurs.
 
-Le quota journalier pour les clés API sur le plan gratuit est de 10 000, et 1 quota est utilisé pour remplacer l'identifiant par les Noms d'utilisateur pour 1 commentaire.
+Le quota journalier pour les clés API sur le plan gratuit est de 10 000, et 1 quota est utilisé pour remplacer l'identifiant par un noms d'utilisateur pour 1 commentaire.
 
-Cliquez pour afficher comment obtenir une clé API."</string>
-    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_title">Obtenir la clé API des données de développeur v3</string>
-    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_message">1. Allez sur &lt;a href=%1$s&gt;Créer un nouveau projet&lt;/a&gt;.&lt;br&gt;2. Cliquez sur &lt;b&gt; le bouton&lt;/b&gt; Créer.&lt;br&gt;3. Allez sur &lt;a href=%2$s&gt;YouTube Data API v3&lt;/a&gt;.&lt;br&gt;4. Cliquez sur &lt;b&gt;le bouton&lt;/b&gt; ACTIVER.&lt;br&gt;5. Cliquez sur &lt;b&gt;le bouton&lt;/b&gt; CRÉER DES DONNÉES.&lt;br&gt;6. Sélectionnez &lt;b&gt;l\'option&lt;/b&gt; Données Publiques.&lt;br&gt;7. Cliquez sur &lt;b&gt;le bouton&lt;/b&gt; SUIVANT.&lt;br&gt;8. copier la Clé API.&lt;br&gt;&lt;br&gt;※ La clé API ne doit jamais être partagé avec personne d\'autre, par conséquent, il n\'est pas inclus dans les paramètres Importer / Exporter.</string>
+Cliquez pour découvrir comment créer une clé API."</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_title">Obtenir une clé développeur pour YouTube Data API v3</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_message">1. Allez sur &lt;a href=%1$s&gt;Nouveau projet&lt;/a&gt;.&lt;br&gt;2. Cliquez sur &lt;b&gt; le bouton&lt;/b&gt; Créer.&lt;br&gt;3. Allez sur &lt;a href=%2$s&gt;YouTube Data API v3&lt;/a&gt;.&lt;br&gt;4. Cliquez sur &lt;b&gt;le bouton&lt;/b&gt; ACTIVER.&lt;br&gt;5. Cliquez sur &lt;b&gt;le bouton&lt;/b&gt; CRÉER DES IDENTIFIANTS.&lt;br&gt;6. Sélectionnez &lt;b&gt;l\'option&lt;/b&gt; Données Publiques.&lt;br&gt;7. Cliquez sur &lt;b&gt;le bouton&lt;/b&gt; SUIVANT.&lt;br&gt;8. copier la Clé API.&lt;br&gt;&lt;br&gt;※ La clé API ne doit jamais être partagé avec personne d\'autre, par conséquent, il n\'est pas inclus dans les paramètres Importer / Exporter.</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">Activer SponsorBlock</string>

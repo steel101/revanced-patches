@@ -244,10 +244,6 @@
 • От канали, за които не сте абонирани (по-малко от 1000 гледания)."</string>
     <string name="revanced_hide_low_views_video_title">Скриване на видеоклипове с малко гледания</string>
     <string name="revanced_hide_low_views_video_summary">Скрийте видеоклипове с по-малко от 1000 гледания от емисията и от канали, за които сте се абонирали.</string>
-    <string name="revanced_hide_upcoming_video_title">ПРЕДСТОЯЩО видео</string>
-    <string name="revanced_hide_upcoming_video_summary">"Скриване на видеоклипове с етикет ПРЕДСТОЯЩО.
-
-Забележка: Активирането на това също ще скрие бутона Уведоми ме."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Филтрирайте по брой гледания</string>
     <string name="revanced_hide_video_by_view_counts_home_title">Фильтр за видео в \"Начало\" по гледания</string>
@@ -343,6 +339,7 @@
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - Възстановяване на старата лентата с действия за Shorts</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Възстановяване на старото поведение на качеството на видеото по подразбиране</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Деактивира изгледите и харесванията да се актуализират в реално време</string>
+    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13.37 - Стар стил на анимация - въртящи се числа</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Меню на акаунта</string>
     <string name="revanced_preference_screen_account_menu_summary">Скриване или показване на елементи в менюто на акаунта и раздела Вие.</string>
@@ -465,7 +462,16 @@
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_menu_title">Меню с настройки</string>
     <string name="revanced_preference_screen_settings_menu_summary">Скриване на елементи в менюто с настройки на YouTube.</string>
+    <string name="revanced_hide_settings_menu_parent_tools_title">Меню \"Семеен център\"</string>
+    <string name="revanced_hide_settings_menu_parent_tools_summary_on">Меню \"Семеен център\" е скрито.</string>
+    <string name="revanced_hide_settings_menu_parent_tools_summary_off">Меню \"Семеен център\" се показва.</string>
+    <string name="revanced_hide_settings_menu_general_title">Меню \"Основни настройки\"</string>
+    <string name="revanced_hide_settings_menu_general_summary_on">Основни настройки са скрити.</string>
+    <string name="revanced_hide_settings_menu_general_summary_off">Основни настройки се показват.</string>
     <string name="revanced_hide_settings_menu_account_title">Скриване на менюто на акаунта</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_title">Меню за гледане на Телевизор</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_summary_on">Менюто за гледане на ТВ е скрито.</string>
+    <string name="revanced_hide_settings_menu_pair_with_tv_summary_off">Менюто за гледане на ТВ се показва.</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
     <string name="revanced_preference_screen_toolbar_title">Лента с инструменти</string>
     <string name="revanced_preference_screen_toolbar_summary">Скрива или променя елементи, разположени в лентата с инструменти, като бутони на лентата с инструменти, лента за търсене, заглавия.</string>

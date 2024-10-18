@@ -236,7 +236,7 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_restore_old_player_layout_summary">"Khôi phục bố cục trình phát về kiểu cũ.
 \nLưu ý: Một số tính năng có thể không hoạt động bình thường trong bố cục trình phát kiểu cũ."</string>
     <!-- PreferenceScreen: Settings menu -->
-    <string name="revanced_preference_screen_settings_title">Mục Cài đặt</string>
+    <string name="revanced_preference_screen_settings_title">Trình đơn Cài đặt</string>
     <string name="revanced_hide_settings_menu_parent_tools_title">Ẩn mục Trung tâm dành cho gia đình</string>
     <string name="revanced_hide_settings_menu_general_title">Ẩn mục Chung</string>
     <string name="revanced_hide_settings_menu_playback_title">Ẩn mục Tính năng phát</string>
@@ -273,6 +273,8 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_ryd_dislike_percentage_summary">Hiển thị số lượt không thích dưới dạng tỉ lệ phần trăm.</string>
     <string name="revanced_ryd_compact_layout_title">Nút Thích thu gọn</string>
     <string name="revanced_ryd_compact_layout_summary">Ẩn dấu phân cách giữa nút Thích và số lượt thích.</string>
+    <string name="revanced_ryd_estimated_like_title">Số lượt thích ước tính</string>
+    <string name="revanced_ryd_estimated_like_summary">Hiển thị số lượt thích được ước tính của video.</string>
     <string name="revanced_ryd_toast_on_connection_error_title">Thông báo ngắn nếu API không khả dụng</string>
     <string name="revanced_ryd_toast_on_connection_error_summary">Hiển thị thông báo ngắn nếu API ReturnYouTubeDislike không khả dụng.</string>
     <string name="revanced_ryd_about">Giới thiệu</string>
@@ -282,7 +284,26 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_ryd_failure_connection_status_code">Số lượt không thích không khả dụng (trạng thái %d).</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Số lượt không thích không khả dụng (đã đạt đến giới hạn API máy khách).</string>
     <string name="revanced_ryd_failure_generic">Số lượt không thích không khả dụng (%s).</string>
+    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Ẩn</string>
     <!-- PreferenceScreen: Return YouTube Username -->
+    <string name="revanced_preference_screen_return_youtube_username_title">Return YouTube Username</string>
+    <string name="revanced_return_youtube_username_enabled_title">Kích hoạt Return YouTube Username</string>
+    <string name="revanced_return_youtube_username_enabled_summary">Hiển thị tên người dùng thay vì tên hiển thị trong phần bình luận.</string>
+    <string name="revanced_return_youtube_username_display_format_title">Định dạng hiển thị</string>
+    <string name="revanced_return_youtube_username_display_format_summary">Chọn định dạng hiển thị tên người dùng.</string>
+    <string name="revanced_return_youtube_username_display_format_username_only">Tên người dùng</string>
+    <string name="revanced_return_youtube_username_display_format_username_handle">Tên người dùng (@handle)</string>
+    <string name="revanced_return_youtube_username_display_format_handle_username">\@handle (Tên người dùng)</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_title">Khoá Youtube Data API</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_summary">Khoá nhà phát triển để sử dụng YouTube Data API v3.</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_title">Giới thiệu về khoá YouTube Data API</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_summary">"Khoá nhà phát triển YouTube Data API v3 là một mã khoá cho phép các nhà phát triển thao tác lấy dữ liệu từ Youtube, và nó cũng cần thiết để thay thế \"Tên hiển thị\" thành \"Tên người dùng\".
+
+Giới hạn truy cập hàng ngày cho các khoá API trên gói miễn phí là 10000 lần, với mỗi lượt truy cập chỉ thay thế được 1 bình luận.
+
+Nhấp vào đây để xem các bước phát hành khóa API."</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_title">Phát hành mã khoá</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_message">1. Tạo dự án mới &lt;a href=%1$s&gt;Nhấn vào đây&lt;/a&gt;.&lt;br&gt;2. Nhấn vào nút &lt;b&gt;CREATE&lt;/b&gt;.&lt;br&gt;3. Đi tới YouTube Data API v3 &lt;a href=%2$s&gt;Nhấn vào đây&lt;/a&gt;.&lt;br&gt;4. Nhấn vào nút &lt;b&gt;ENABLE&lt;/b&gt;.&lt;br&gt;5. Nhấn vào nút &lt;b&gt;CREATE CREDENTIALS&lt;/b&gt;.&lt;br&gt;6. Chọn &lt;b&gt;Public data&lt;/b&gt;.&lt;br&gt;7. Nhấn vào nút &lt;b&gt;NEXT&lt;/b&gt;.&lt;br&gt;8. Sao chép mã khoá API.&lt;br&gt;&lt;br&gt;※ Khoá API không nên được chia sẻ với người khác, vì vậy nó cũng không xuất hiện trong cài đặt Nhập/Xuất.</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enabled">Kích hoạt SponsorBlock</string>
@@ -340,7 +361,7 @@ Lưu ý:\n- Tuỳ chọn này sẽ thay đổi giao diện ứng dụng, tuy nhi
     <string name="revanced_sb_about">Giới thiệu</string>
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
-    <string name="revanced_preference_screen_misc_title">Khác</string>
+    <string name="revanced_preference_screen_misc_title">Cài đặt khác</string>
     <string name="revanced_bypass_image_region_restrictions_title">Bỏ qua hạn chế khu vực cho hình ảnh</string>
     <string name="revanced_bypass_image_region_restrictions_summary">Thay thế miền bị chặn ở một số khu vực để có thể thu được được ảnh bìa video của danh sách phát, ảnh đại diện kênh, v. v.</string>
     <string name="revanced_change_share_sheet_title">Thay đổi giao diện chia sẻ</string>
