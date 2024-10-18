@@ -791,6 +791,9 @@ Settings → Autoplay → Autoplay next video"</string>
     <string name="revanced_hide_comments_by_members_title">Hide Comments by members banner</string>
     <string name="revanced_hide_comments_by_members_summary_on">Comments by members banner is hidden.</string>
     <string name="revanced_hide_comments_by_members_summary_off">Comments by members banner is shown.</string>
+    <string name="revanced_hide_comment_highlighted_search_links_title">Hide highlighted search links</string>
+    <string name="revanced_hide_comment_highlighted_search_links_summary_on">Highlighted search links are hidden.</string>
+    <string name="revanced_hide_comment_highlighted_search_links_summary_off">Highlighted search links are shown.</string>
     <string name="revanced_hide_comments_section_title">Hide Comments section</string>
     <string name="revanced_hide_comments_section_summary_on">Comments section is hidden.</string>
     <string name="revanced_hide_comments_section_summary_off">Comments section is shown.</string>
