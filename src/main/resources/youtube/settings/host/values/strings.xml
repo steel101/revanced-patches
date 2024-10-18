@@ -1361,6 +1361,12 @@ Limitations:
     <string name="revanced_swipe_overlay_rect_size_invalid_toast">Swipeable area size cannot be more than 50.</string>
     <string name="revanced_swipe_overlay_timeout_title">Swipe overlay timeout</string>
     <string name="revanced_swipe_overlay_timeout_summary">The amount of milliseconds the overlay is visible.</string>
+    <string name="revanced_swipe_brightness_sensitivity_title">Brightness swipe sensitivity</string>
+    <string name="revanced_swipe_brightness_sensitivity_summary">Configure the minimum distance for brightness swiping between 1 and 1000 (%).\nThe shorter the minimum distance, the faster the brightness level changes.</string>
+    <string name="revanced_swipe_brightness_sensitivity_invalid_toast">Brightness swipe sensitivity must be between 1-1000 (%).</string>
+    <string name="revanced_swipe_volume_sensitivity_title">Volume swipe sensitivity</string>
+    <string name="revanced_swipe_volume_sensitivity_summary" formatted="false">Configure the minimum distance for volume swiping between 1 and 1000 (%).\n\nThe shorter the minimum distance, the faster the volume level changes.\n\nRecommended volume swipe sensitivity is 100% at 15-volume steps and 10% at 150-volume steps.</string>
+    <string name="revanced_swipe_volume_sensitivity_invalid_toast">Volume swipe sensitivity must be between 1-1000 (%).</string>
     <string name="revanced_disable_hdr_auto_brightness_title">Disable auto HDR brightness</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">Auto HDR brightness is disabled.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">Auto HDR brightness is enabled.</string>
