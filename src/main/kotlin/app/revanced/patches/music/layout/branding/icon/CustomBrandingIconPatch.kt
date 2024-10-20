@@ -24,8 +24,10 @@ object CustomBrandingIconPatch : BaseResourcePatch(
     description = "Changes the YouTube Music app icon to the icon specified in options.json.",
     compatiblePackages = COMPATIBLE_PACKAGE
 ) {
-    private const val ADAPTIVE_ICON_BACKGROUND_FILE_NAME = "adaptiveproduct_youtube_music_background_color_108"
-    private const val ADAPTIVE_ICON_FOREGROUND_FILE_NAME = "adaptiveproduct_youtube_music_foreground_color_108"
+    private const val ADAPTIVE_ICON_BACKGROUND_FILE_NAME =
+        "adaptiveproduct_youtube_music_background_color_108"
+    private const val ADAPTIVE_ICON_FOREGROUND_FILE_NAME =
+        "adaptiveproduct_youtube_music_foreground_color_108"
     private const val DEFAULT_ICON = "revancify_blue"
 
     private val availableIcon = mapOf(
