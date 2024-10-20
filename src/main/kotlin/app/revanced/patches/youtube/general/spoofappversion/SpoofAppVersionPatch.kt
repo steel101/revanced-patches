@@ -3,7 +3,6 @@ package app.revanced.patches.youtube.general.spoofappversion
 import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.extensions.InstructionExtensions.replaceInstruction
 import app.revanced.patches.youtube.utils.compatibility.Constants.COMPATIBLE_PACKAGE
-import app.revanced.patches.youtube.utils.integrations.Constants.GENERAL_CLASS_DESCRIPTOR
 import app.revanced.patches.youtube.utils.integrations.Constants.PATCH_STATUS_CLASS_DESCRIPTOR
 import app.revanced.patches.youtube.utils.settings.SettingsBytecodePatch
 import app.revanced.patches.youtube.utils.settings.SettingsPatch
@@ -41,18 +40,6 @@ object SpoofAppVersionPatch : BaseResourcePatch(
                         }.replaceInstruction(
                             0,
                             "const-string v0, \"19.13.37\""
-                        )
-                        SettingsBytecodePatch.contexts.findMethodOrThrow(PATCH_STATUS_CLASS_DESCRIPTOR) {
-                            name == "SpoofAppVersionDefaultBoolean"
-                        }.replaceInstruction(
-                            0,
-                            "const/4 v0, 0x1"
-                        )
-                        SettingsBytecodePatch.contexts.findMethodOrThrow(PATCH_STATUS_CLASS_DESCRIPTOR) {
-                            name == "SpoofAppVersionUserDialogMessage"
-                        }.replaceInstruction(
-                            0,
-                            "const-string v0, \"revanced_spoof_app_version_user_dialog_message_19_16\""
                         )
                     }
                 }
