@@ -717,6 +717,9 @@ Settings → Autoplay → Autoplay next video"</string>
     <string name="revanced_hide_zoom_overlay_title">Hide zoom overlay</string>
     <string name="revanced_hide_zoom_overlay_summary_on">Zoom overlay is hidden.</string>
     <string name="revanced_hide_zoom_overlay_summary_off">Zoom overlay is shown.</string>
+    <string name="revanced_sanitize_video_subtitle_title">Sanitize video subtitle</string>
+    <string name="revanced_sanitize_video_subtitle_summary_on">"Phrases like '#', 'Fundraiser', 'Shop' and 'products' were hidden from the video subtitles."</string>
+    <string name="revanced_sanitize_video_subtitle_summary_off">"Phrases like '#', 'Fundraiser', 'Shop' and 'products' were shown from the video subtitles."</string>
 
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">Action buttons</string>
