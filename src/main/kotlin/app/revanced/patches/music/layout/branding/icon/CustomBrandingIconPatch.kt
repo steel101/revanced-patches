@@ -236,6 +236,9 @@ object CustomBrandingIconPatch : BaseResourcePatch(
         if (!SettingsPatch.upward0723) {
             return
         }
+        if (appIcon == "youtube_music") {
+            return
+        }
 
         fun getAdaptiveIconResourceFile(tag: String): String {
             context.xmlEditor["res/mipmap-anydpi/ic_launcher_release.xml"].use { editor ->
