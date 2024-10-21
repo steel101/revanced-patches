@@ -254,9 +254,6 @@ Shorts
 • С каналов, на которые вы не подписаны (менее 1000 просмотров)."</string>
     <string name="revanced_hide_low_views_video_title">Скрыть видео с низкими просмотрами</string>
     <string name="revanced_hide_low_views_video_summary">Скрыть видео с менее 1000 просмотров из ленты, из каналов от которых Вы отписались.</string>
-    <string name="revanced_hide_upcoming_video_title">Подготовленное видео</string>
-    <string name="revanced_hide_upcoming_video_summary">"Скрывает видео с меткой \"подготовленное\" к воспроизведению.
-Примечание: Также скроется кнопка \"Уведомить\"."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Фильтр по количеству просмотров</string>
     <string name="revanced_hide_video_by_view_counts_home_title">Фильтр видео в \"Главная\" по просмотрам</string>
@@ -367,6 +364,7 @@ Shorts
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - Восстановление старой панели действий Shorts</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Восстановление старого поведения качества видео по умолчанию</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Отключение обновления \"просмотров\" и \"лайков\" в реальном времени</string>
+    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13.37 - Старый стиль анимаций - вращающиеся цифры</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Меню аккаунта</string>
     <string name="revanced_preference_screen_account_menu_summary">Настройка меню аккаунта и вкладки Вы.</string>
@@ -673,6 +671,9 @@ Shorts
     <string name="revanced_hide_zoom_overlay_title">Увеличение наложения</string>
     <string name="revanced_hide_zoom_overlay_summary_on">Увеличение наложения отключено.</string>
     <string name="revanced_hide_zoom_overlay_summary_off">Увеличение наложения включено.</string>
+    <string name="revanced_sanitize_video_subtitle_title">Фильтр фраз в субтитрах</string>
+    <string name="revanced_sanitize_video_subtitle_summary_on">"Фильтр фраз типа \"#\", \"Магазин\" и \"N продуктов\" в субтитрах отключен."</string>
+    <string name="revanced_sanitize_video_subtitle_summary_off">"Фильтр фраз типа \"#\", \"Магазин\" и \"N продуктов\" в субтитрах включен."</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">Кнопки действий под видео</string>
     <string name="revanced_preference_screen_action_buttons_summary">Настройка кнопок действий под видео.</string>
@@ -739,6 +740,9 @@ Shorts
     <string name="revanced_hide_comments_by_members_title">Баннер \"Комментарии участников\"</string>
     <string name="revanced_hide_comments_by_members_summary_on">Баннер \"Комментарии участников\" скрыт.</string>
     <string name="revanced_hide_comments_by_members_summary_off">Баннер \"Комментарии участников\" отображен.</string>
+    <string name="revanced_hide_comment_highlighted_search_links_title">Подсвеченные ссылки поиска</string>
+    <string name="revanced_hide_comment_highlighted_search_links_summary_on">Подсвеченные ссылки поиска скрыты.</string>
+    <string name="revanced_hide_comment_highlighted_search_links_summary_off">Подсвеченные ссылки поиска отображены.</string>
     <string name="revanced_hide_comments_section_title">Секция \"Комментарии\"</string>
     <string name="revanced_hide_comments_section_summary_on">Секция комментариев скрыта.</string>
     <string name="revanced_hide_comments_section_summary_off">Секция комментариев отображена.</string>
@@ -766,6 +770,9 @@ Shorts
     <string name="revanced_change_player_flyout_menu_toggle_title">Изменить тип переключателя</string>
     <string name="revanced_change_player_flyout_menu_toggle_summary_on">Текущий переключатель - Текстовый.</string>
     <string name="revanced_change_player_flyout_menu_toggle_summary_off">Текущий переключатель - Визуальный.</string>
+    <string name="revanced_hide_player_flyout_menu_enhanced_bitrate_title">Меню 1080p Premium</string>
+    <string name="revanced_hide_player_flyout_menu_enhanced_bitrate_summary_on">Меню 1080p Premium скрыто.</string>
+    <string name="revanced_hide_player_flyout_menu_enhanced_bitrate_summary_off">Меню 1080p Premium отображено.</string>
     <string name="revanced_hide_player_flyout_menu_audio_track_title">Меню \"Звуковая дорожка\"</string>
     <string name="revanced_hide_player_flyout_menu_audio_track_summary_on">Меню \"Звуковая дорожка\" скрыто.</string>
     <string name="revanced_hide_player_flyout_menu_audio_track_summary_off">Меню \"Звуковая дорожка\" отображено.</string>
@@ -1005,9 +1012,12 @@ Shorts
     <string name="revanced_hide_seekbar_thumbnail_title">Миниатюры шкалы воспроизведения</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_on">Миниатюры шкалы воспроизведения скрыты.</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_off">Миниатюры шкалы воспроизведения отображены.</string>
-    <string name="revanced_hide_seekbar_chapters_title">Главы в шкале воспроизведения</string>
-    <string name="revanced_hide_seekbar_chapters_summary_on">Главы в шкале воспроизведения скрыты.</string>
-    <string name="revanced_hide_seekbar_chapters_summary_off">Главы в шкале воспроизведения отображены.</string>
+    <string name="revanced_disable_seekbar_chapters_title">Главы в шкале воспроизведения</string>
+    <string name="revanced_disable_seekbar_chapters_summary_on">Главы в шкале воспроизведения скрыты.</string>
+    <string name="revanced_disable_seekbar_chapters_summary_off">Главы в шкале воспроизведения отображены.</string>
+    <string name="revanced_hide_seekbar_chapter_label_title">Метки глав в шкале воспроизведения</string>
+    <string name="revanced_hide_seekbar_chapter_label_summary_on">Метки глав в шкале воспроизведения скрыты.</string>
+    <string name="revanced_hide_seekbar_chapter_label_summary_off">Метки глав в шкале воспроизведения отображены.</string>
     <string name="revanced_hide_time_stamp_title">Метка времени</string>
     <string name="revanced_hide_time_stamp_summary_on">Метка времени скрыта.</string>
     <string name="revanced_hide_time_stamp_summary_off">Метка времени отображена.</string>
@@ -1029,9 +1039,9 @@ Shorts
     <string name="revanced_hide_attributes_section_title">Секция \"Атрибуты\"</string>
     <string name="revanced_hide_attributes_section_summary_on">Секция \"Атрибуты\" (Особенные места, Игры, Музыка) скрыта.</string>
     <string name="revanced_hide_attributes_section_summary_off">Секция \"Атрибуты\" (Особенные места, Игры, Музыка) отображена.</string>
-    <string name="revanced_hide_chapters_section_title">Секция \"Главы\"</string>
-    <string name="revanced_hide_chapters_section_summary_on">Секция \"Главы\" скрыта.</string>
-    <string name="revanced_hide_chapters_section_summary_off">Секция \"Главы\" отображена.</string>
+    <string name="revanced_hide_chapters_section_title">Главы</string>
+    <string name="revanced_hide_chapters_section_summary_on">Главы скрыты.</string>
+    <string name="revanced_hide_chapters_section_summary_off">Главы отображены.</string>
     <string name="revanced_hide_contents_section_title">Секция содержимого</string>
     <string name="revanced_hide_contents_section_summary_on">Секция содержимого скрыта.</string>
     <string name="revanced_hide_contents_section_summary_off">Секция содержимого отображена.</string>
@@ -1079,6 +1089,12 @@ Shorts
 
 Ограничения:
 Официальные заголовки в результатах поиска будут скрыты."</string>
+    <string name="revanced_hide_shorts_shelf_channel_title">Скрывать в канале</string>
+    <string name="revanced_hide_shorts_shelf_channel_summary_on">"Скрыто в канале.
+
+Информация:
+• Скрыты только полки с заголовком Shorts на домашней вкладке."</string>
+    <string name="revanced_hide_shorts_shelf_channel_summary_off">Показано в канале.</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_title">Shorts в ленте и похожих видео</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_on">В ленте и похожих видео скрыты.</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_off">В ленте и похожих видео отображены.</string>
@@ -1232,7 +1248,7 @@ Shorts
     <string name="revanced_shorts_navigation_bar_height_percentage_title">Процент высоты отступа</string>
     <string name="revanced_shorts_navigation_bar_height_percentage_summary">Настраивает высоту отступа, когда панель навигации скрыта, от 0 до 100 (%).</string>
     <string name="revanced_shorts_navigation_bar_height_percentage_invalid_toast">Высота должна быть от 0 до 100 (%).</string>
-    <string name="revanced_replace_channel_handle_title">Заменить дескриптор канала</string>
+    <string name="revanced_replace_channel_handle_title">Заменить псевдоним канала</string>
     <string name="revanced_replace_channel_handle_summary_on">Используется имя канала.</string>
     <string name="revanced_replace_channel_handle_summary_off">Используется псевдоним канала.</string>
     <!-- PreferenceScreen: Swipe controls -->
@@ -1269,6 +1285,14 @@ Shorts
     <string name="revanced_swipe_overlay_rect_size_invalid_toast">Размер области для жеста больше 50 %. Сброс по умолчанию.</string>
     <string name="revanced_swipe_overlay_timeout_title">Таймаут наложения при жесте</string>
     <string name="revanced_swipe_overlay_timeout_summary">Количество миллисекунд отображения наложения.</string>
+    <string name="revanced_swipe_brightness_sensitivity_title">Чувствительность жеста яркости</string>
+    <string name="revanced_swipe_brightness_sensitivity_summary">Настройка чувствительности жеста яркости от 1 до 1000 (%).</string>
+    <string name="revanced_swipe_brightness_sensitivity_invalid_toast">Значение должно быть от 1 до 1000 (%).</string>
+    <string name="revanced_swipe_volume_sensitivity_title">Чувствительность жеста громкости</string>
+    <string name="revanced_swipe_volume_sensitivity_summary" formatted="false">Настройка чувствительности жеста громкости от 1 до 1000 (%).
+
+Рекомендованная чувствительность жеста 100% при шаге 15 громкости и 10% при шаге 150 громкости.</string>
+    <string name="revanced_swipe_volume_sensitivity_invalid_toast">Значение должно быть от 1 до 1000 (%).</string>
     <string name="revanced_disable_hdr_auto_brightness_title">Автояркость HDR</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">Автояркость HDR отключена.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">Автояркость HDR включена.</string>
@@ -1373,6 +1397,9 @@ Shorts
     <string name="revanced_ryd_compact_layout_title">Компактная кнопка \"Лайк\"</string>
     <string name="revanced_ryd_compact_layout_summary_on">Компактная кнопка \"Лайк\" включена.</string>
     <string name="revanced_ryd_compact_layout_summary_off">Компактная кнопка \"Лайк\" отключена.</string>
+    <string name="revanced_ryd_estimated_like_title">Соотношение лайков</string>
+    <string name="revanced_ryd_estimated_like_summary_on">Соотношение лайков отображено.</string>
+    <string name="revanced_ryd_estimated_like_summary_off">Соотношение лайков скрыто.</string>
     <string name="revanced_ryd_toast_on_connection_error_title">Уведомление при недоступности Return YouTube Dislike API</string>
     <string name="revanced_ryd_toast_on_connection_error_summary_on">Уведомление при недоступности Return YouTube Dislike API включено.</string>
     <string name="revanced_ryd_toast_on_connection_error_summary_off">Уведомление при недоступности Return YouTube Dislike API отключено.</string>
@@ -1385,6 +1412,26 @@ Shorts
     <string name="revanced_ryd_failure_client_rate_limit_requested">Return YouTube Dislike недоступен (достигнут лимит клиента API).</string>
     <string name="revanced_ryd_failure_generic">Return YouTube Dislike недоступен (%s).</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">Обновите видео для использования Return YouTube Dislike</string>
+    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Скрыто владельцем</string>
+    <!-- PreferenceScreen: Return YouTube Username -->
+    <string name="revanced_preference_screen_return_youtube_username_title">Имя пользователя YouTube - \"RYU\"</string>
+    <string name="revanced_return_youtube_username_enabled_title">Включить Имя пользователя YouTube - \"RYU\"</string>
+    <string name="revanced_return_youtube_username_enabled_summary_on">Имя пользователя YouTube включено.</string>
+    <string name="revanced_return_youtube_username_enabled_summary_off">Имя пользователя YouTube отключено.</string>
+    <string name="revanced_return_youtube_username_display_format_title">Вид отображения</string>
+    <string name="revanced_return_youtube_username_display_format_username_only">Имя пользователя</string>
+    <string name="revanced_return_youtube_username_display_format_username_handle">Имя пользователя (@псевдоним)</string>
+    <string name="revanced_return_youtube_username_display_format_handle_username">\@псевдоним (Имя пользователя)</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_title">Ключ \"RYU\" Data API</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_summary">Ключ разработчика для \"RYU\" Data API v3.</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_title">О ключе \"RYU\" Data API</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_summary">"Ключ разработчика \"Return YouTube Username\" (RYU) API Data v3 необходим для замены псевдонима на имя пользователя.
+
+Ежедневная, бесплатная, квота ключей API составляет 10 000, и 1 квота используется для замены псевдонима на имя пользователя для комментария.
+
+Нажмите, чтобы увидеть, как выпустить API ключ."</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_title">Проблема с ключом разработчика \"RYU\" Data API v3</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_message">1. Перейдите &lt;a href=\"%1$s\"&gt;Новый проект&lt;/a&gt;.&lt;br&gt;2. Нажмите &lt;b&gt;Создать&lt;/b&gt;.&lt;br&gt;3. Перейдите &lt;a href=\"%2$s\"&gt;YouTube Data API v3&lt;/a&gt;.&lt;br&gt;4. Нажмите &lt;b&gt;Включить&lt;/b&gt;.&lt;br&gt;5. Нажмите &lt;b&gt;Создать учетные данные&lt;/b&gt;.&lt;br&gt;6. Выберите &lt;b&gt;Публичные данные&lt;/b&gt;.&lt;br&gt;7. Нажмите &lt;b&gt;Далее&lt;/b&gt;.&lt;br&gt;8. Скопируйте ключ API.&lt;br&gt;&lt;br&gt;※ Ключом API нельзя поделиться, поэтому он не доступен в настройках Импорт/Экспорт.</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">Включить SponsorBlock</string>

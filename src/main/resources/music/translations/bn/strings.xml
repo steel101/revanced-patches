@@ -67,6 +67,7 @@
     <string name="revanced_ryd_about">সম্পর্কে</string>
     <string name="revanced_ryd_attribution_summary">তথ্য প্রদান করা হয় Return YouTube Dislike API দ্বারা। আরও জানতে আলতো চাপুন।</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">অপছন্দ পাওয়া যাচ্ছে না (ক্লায়েন্ট API সর্বোচ্চ সীমা পৌঁছেছে)</string>
+    <!-- PreferenceScreen: Return YouTube Username -->
     <!-- PreferenceScreen: SponsorBlock -->
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_enable_debug_logging_title">ডিবাগ লগ সক্রিয় করুন</string>

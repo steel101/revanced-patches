@@ -58,6 +58,7 @@ See the [documentation](https://github.com/inotia00/revanced-documentation#readm
 | `Remove background playback restrictions` | Removes restrictions on background playback, including for music and kids videos. | 18.29.38 ~ 19.16.39 |
 | `Remove viewer discretion dialog` | Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction. | 18.29.38 ~ 19.16.39 |
 | `Return YouTube Dislike` | Adds an option to show the dislike count of videos using the Return YouTube Dislike API. | 18.29.38 ~ 19.16.39 |
+| `Return YouTube Username` | Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3. | 18.29.38 ~ 19.16.39 |
 | `Sanitize sharing links` | Adds an option to remove tracking query parameters from URLs when sharing links. | 18.29.38 ~ 19.16.39 |
 | `Seekbar components` | Adds options to hide or change components related to the seekbar. | 18.29.38 ~ 19.16.39 |
 | `Settings for YouTube` | Applies mandatory patches to implement ReVanced Extended settings into the application. | 18.29.38 ~ 19.16.39 |
@@ -108,6 +109,7 @@ See the [documentation](https://github.com/inotia00/revanced-documentation#readm
 | `Remove viewer discretion dialog` | Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction. | 6.20.51 ~ 7.16.53 |
 | `Restore old style library shelf` | Adds an option to return the Library tab to the old style. | 6.20.51 ~ 7.16.53 |
 | `Return YouTube Dislike` | Adds an option to show the dislike count of songs using the Return YouTube Dislike API. | 6.20.51 ~ 7.16.53 |
+| `Return YouTube Username` | Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3. | 6.20.51 ~ 7.16.53 |
 | `Sanitize sharing links` | Adds an option to remove tracking query parameters from URLs when sharing links. | 6.20.51 ~ 7.16.53 |
 | `Settings for YouTube Music` | Applies mandatory patches to implement ReVanced Extended settings into the application. | 6.20.51 ~ 7.16.53 |
 | `SponsorBlock` | Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as non-music sections. | 6.20.51 ~ 7.16.53 |

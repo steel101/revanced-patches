@@ -14,6 +14,7 @@ import app.revanced.patches.youtube.player.seekbar.fingerprints.SeekbarTappingFi
 import app.revanced.patches.youtube.player.seekbar.fingerprints.ShortsSeekbarColorFingerprint
 import app.revanced.patches.youtube.player.seekbar.fingerprints.ThumbnailPreviewConfigFingerprint
 import app.revanced.patches.youtube.player.seekbar.fingerprints.TimeCounterFingerprint
+import app.revanced.patches.youtube.player.seekbar.fingerprints.TimelineMarkerArrayFingerprint
 import app.revanced.patches.youtube.utils.compatibility.Constants.COMPATIBLE_PACKAGE
 import app.revanced.patches.youtube.utils.fingerprints.PlayerButtonsResourcesFingerprint
 import app.revanced.patches.youtube.utils.fingerprints.PlayerButtonsVisibilityFingerprint
@@ -30,6 +31,7 @@ import app.revanced.patches.youtube.utils.resourceid.SharedResourceIdPatch.ReelT
 import app.revanced.patches.youtube.utils.settings.SettingsPatch
 import app.revanced.patches.youtube.utils.settings.SettingsPatch.contexts
 import app.revanced.patches.youtube.video.information.VideoInformationPatch
+import app.revanced.util.alsoResolve
 import app.revanced.util.findMethodsOrThrow
 import app.revanced.util.getReference
 import app.revanced.util.getWalkerMethod
@@ -67,8 +69,9 @@ object SeekbarComponentsPatch : BaseBytecodePatch(
         SeekbarFingerprint,
         SeekbarTappingFingerprint,
         ShortsSeekbarColorFingerprint,
+        TimelineMarkerArrayFingerprint,
         ThumbnailPreviewConfigFingerprint,
-        TotalTimeFingerprint
+        TotalTimeFingerprint,
     )
 ) {
     override fun execute(context: BytecodeContext) {
@@ -211,11 +214,24 @@ object SeekbarComponentsPatch : BaseBytecodePatch(
 
         // region patch for hide chapter
 
-        PlayerButtonsVisibilityFingerprint.resolve(
-            context,
-            PlayerButtonsResourcesFingerprint.resultOrThrow().mutableClass
-        )
-        PlayerButtonsVisibilityFingerprint.resultOrThrow().let {
+        TimelineMarkerArrayFingerprint.resultOrThrow().let {
+            it.mutableMethod.apply {
+                addInstructionsWithLabels(
+                    0, """
+                        invoke-static {}, $PLAYER_CLASS_DESCRIPTOR->disableSeekbarChapters()Z
+                        move-result v0
+                        if-eqz v0, :show
+                        const/4 v0, 0x0
+                        new-array v0, v0, [Lcom/google/android/libraries/youtube/player/features/overlay/timebar/TimelineMarker;
+                        return-object v0
+                        """, ExternalLabel("show", getInstruction(0))
+                )
+            }
+        }
+
+        PlayerButtonsVisibilityFingerprint.alsoResolve(
+            context, PlayerButtonsResourcesFingerprint
+        ).let {
             it.mutableMethod.apply {
                 val freeRegister = implementation!!.registerCount - parameters.size - 2
                 val viewIndex = indexOfFirstInstructionOrThrow(Opcode.INVOKE_INTERFACE)
@@ -223,7 +239,7 @@ object SeekbarComponentsPatch : BaseBytecodePatch(
 
                 addInstructionsWithLabels(
                     viewIndex, """
-                        invoke-static {v$viewRegister}, $PLAYER_CLASS_DESCRIPTOR->hideSeekbarChapters(Landroid/view/View;)Z
+                        invoke-static {v$viewRegister}, $PLAYER_CLASS_DESCRIPTOR->hideSeekbarChapterLabel(Landroid/view/View;)Z
                         move-result v$freeRegister
                         if-eqz v$freeRegister, :ignore
                         return-void

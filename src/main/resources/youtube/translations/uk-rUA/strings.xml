@@ -11,6 +11,11 @@
     <string name="revanced_extended_confirm_user_dialog_title">Бажаєте продовжити?</string>
     <string name="revanced_extended_restart_first_run">Перезапустіть, щоб нормально завантажився макет</string>
     <string name="revanced_extended_restart_message">Поновити й перезапустити</string>
+    <string name="revanced_extended_restart_first_run_rolling_number">"Помилка зі сторони сервера YouTube спричиняє приховування тексту лічильників таких як вподобайки, перегляди, та дати завантаження для деяких користувачів.
+
+Тимчасовим вирішенням цієї проблеми є підміна версії програми на 19.13.37.
+
+Бажаєте підмінити версію програми перед перезапуском програми?"</string>
     <string name="revanced_playback_speed_normal">Стандартна</string>
     <string name="revanced_external_downloader_package_name_video_title">Ім\'я пакета завантажувача відео</string>
     <string name="revanced_external_downloader_package_name_video_summary">Ім\'я пакета встановленого зовнішнього завантажувача, наприклад NewPipe або YTDLnis.</string>
@@ -250,10 +255,6 @@
 • Відео з фразами на кшталт 'Людей також дивилися' внизу."</string>
     <string name="revanced_hide_low_views_video_title">Приховати відео з малою кількістю переглядів</string>
     <string name="revanced_hide_low_views_video_summary">Приховати відео з менш ніж 1,000 переглядів з головної стрічки, вантажені з каналів, на які не підписані.</string>
-    <string name="revanced_hide_upcoming_video_title">Приховати відео НЕЗАБАРОМ</string>
-    <string name="revanced_hide_upcoming_video_summary">"Приховати відео з міткою НЕЗАБАРОМ.
-
-Примітка: Увімкнення також приховає кнопку Сповістити."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Фільтр за кількістю переглядів</string>
     <string name="revanced_hide_video_by_view_counts_home_title">Приховати відео на головній за переглядами</string>
@@ -357,6 +358,7 @@
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - відновлення старої панелі дій Shorts</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Відновлення старої поведінки типової якості відео</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Виключає \'переглянуті\' та \'вподобані\' з оновлення в режимі реального часу</string>
+    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13.37 - Відновлення старого стилю анімації лічильників</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Меню облікового запису</string>
     <string name="revanced_preference_screen_account_menu_summary">Приховувати чи показувати елементи меню облікового запису і вкладки Ви.</string>
@@ -662,6 +664,9 @@
     <string name="revanced_hide_zoom_overlay_title">Приховати накладання при масштабуванні</string>
     <string name="revanced_hide_zoom_overlay_summary_on">Накладання при масштабуванні приховано.</string>
     <string name="revanced_hide_zoom_overlay_summary_off">Накладання при масштабуванні показується.</string>
+    <string name="revanced_sanitize_video_subtitle_title">Обробляти субтитри відео</string>
+    <string name="revanced_sanitize_video_subtitle_summary_on">"Фрази типу '#', 'Збір коштів', 'Магазин' та 'товари' приховано з субтитрів відео."</string>
+    <string name="revanced_sanitize_video_subtitle_summary_off">"Фрази типу '#', 'Збір коштів', 'Магазин' та 'товари' показується в субтитрах відео."</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">Кнопки дії</string>
     <string name="revanced_preference_screen_action_buttons_summary">Приховувати чи показувати кнопки дії під відео.</string>
@@ -728,6 +733,9 @@
     <string name="revanced_hide_comments_by_members_title">Приховати банер \'Коментарі спонсорів\'</string>
     <string name="revanced_hide_comments_by_members_summary_on">Банер \'Коментарі спонсорів\' приховано.</string>
     <string name="revanced_hide_comments_by_members_summary_off">Банер \'Коментарі спонсорів\' показується.</string>
+    <string name="revanced_hide_comment_highlighted_search_links_title">Приховати виділені пошукові посилання</string>
+    <string name="revanced_hide_comment_highlighted_search_links_summary_on">Виділені пошукові посилання приховано.</string>
+    <string name="revanced_hide_comment_highlighted_search_links_summary_off">Виділені пошукові посилання показується.</string>
     <string name="revanced_hide_comments_section_title">Приховати секцію Коментарі</string>
     <string name="revanced_hide_comments_section_summary_on">Секцію коментарів приховано.</string>
     <string name="revanced_hide_comments_section_summary_off">Секцію коментарів показується.</string>
@@ -755,6 +763,9 @@
     <string name="revanced_change_player_flyout_menu_toggle_title">Тип перемикача змін</string>
     <string name="revanced_change_player_flyout_menu_toggle_summary_on">Використовується текстові перемикачі.</string>
     <string name="revanced_change_player_flyout_menu_toggle_summary_off">Використовується змінні перемикачі.</string>
+    <string name="revanced_hide_player_flyout_menu_enhanced_bitrate_title">Приховати меню Premium 1080p</string>
+    <string name="revanced_hide_player_flyout_menu_enhanced_bitrate_summary_on">Меню Premium 1080p приховано.</string>
+    <string name="revanced_hide_player_flyout_menu_enhanced_bitrate_summary_off">Меню Premium 1080p показується.</string>
     <string name="revanced_hide_player_flyout_menu_audio_track_title">Приховати меню звукової доріжки</string>
     <string name="revanced_hide_player_flyout_menu_audio_track_summary_on">Меню звукової доріжки приховано.</string>
     <string name="revanced_hide_player_flyout_menu_audio_track_summary_off">Меню звукової доріжки показується.</string>
@@ -994,9 +1005,12 @@
     <string name="revanced_hide_seekbar_thumbnail_title">Приховати мініатюри панелі прогресу у відео</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_on">Мініатюру панелі прогресу приховано.</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_off">Мініатюру панелі прогресу показується.</string>
-    <string name="revanced_hide_seekbar_chapters_title">Приховати розділи панелі прогресу</string>
-    <string name="revanced_hide_seekbar_chapters_summary_on">Розділи приховано у панелі прогресу.</string>
-    <string name="revanced_hide_seekbar_chapters_summary_off">Розділи показується у панелі прогресу.</string>
+    <string name="revanced_disable_seekbar_chapters_title">Вимкнути розділи панелі прогресу</string>
+    <string name="revanced_disable_seekbar_chapters_summary_on">Розділи вимкнено у панелі прогресу.</string>
+    <string name="revanced_disable_seekbar_chapters_summary_off">Розділи ввімкнено у панелі прогресу.</string>
+    <string name="revanced_hide_seekbar_chapter_label_title">Приховати мітки розділів панелі прогресу</string>
+    <string name="revanced_hide_seekbar_chapter_label_summary_on">Мітки розділів біля мітки часу приховано.</string>
+    <string name="revanced_hide_seekbar_chapter_label_summary_off">Мітки розділів біля мітки часу показується.</string>
     <string name="revanced_hide_time_stamp_title">Приховати мітку часу</string>
     <string name="revanced_hide_time_stamp_summary_on">Мітку часу приховано.</string>
     <string name="revanced_hide_time_stamp_summary_off">Мітку часу показується.</string>
@@ -1066,6 +1080,12 @@
     <string name="revanced_hide_shorts_shelf_summary">"Приховується полиці Shorts.
 
 Відома проблема: Офіційні заголовки в результатах пошуку приховуватиметься."</string>
+    <string name="revanced_hide_shorts_shelf_channel_title">Приховати у каналі</string>
+    <string name="revanced_hide_shorts_shelf_channel_summary_on">"Приховується в каналі.
+
+Інформація:
+• Лише полиці з заголовком Shorts на головній вкладці приховано."</string>
+    <string name="revanced_hide_shorts_shelf_channel_summary_off">Показується в каналі.</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_title">Приховати у головній стрічці та пов\'язаних відео</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_on">Приховано у головній стрічці та пов\'язаних відео.</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_off">Показується у головній стрічці та пов\'язаних відео.</string>
@@ -1252,6 +1272,12 @@
     <string name="revanced_swipe_overlay_rect_size_invalid_toast">Розмір площі для проведення не може бути більшим ніж 50.</string>
     <string name="revanced_swipe_overlay_timeout_title">Час показу панелі</string>
     <string name="revanced_swipe_overlay_timeout_summary">Скільки мілісекунд панель буде показуватися</string>
+    <string name="revanced_swipe_brightness_sensitivity_title">Чутливість жесту яскравості</string>
+    <string name="revanced_swipe_brightness_sensitivity_summary">Налаштуйте мінімальну відстань жесту яскравості від 1 до 1000 (%).\nЧим менша мінімальна відстань, тим швидше змінюється рівень яскравості.</string>
+    <string name="revanced_swipe_brightness_sensitivity_invalid_toast">Чутливість жесту яскравості повинна бути в межах 1-1000 (%).</string>
+    <string name="revanced_swipe_volume_sensitivity_title">Чутливість жесту гучності</string>
+    <string name="revanced_swipe_volume_sensitivity_summary" formatted="false">Налаштуйте мінімальну відстань жесту гучності від 1 до 1000 (%).\n\nЧим менша мінімальна відстань, тим швидше змінюється рівень гучності.\n\nРекомендована чутливість жесту гучності 100% при 15 поділках і 10% при 150 поділках.</string>
+    <string name="revanced_swipe_volume_sensitivity_invalid_toast">Чутливість жесту гучності повинна бути в межах 1-1000 (%).</string>
     <string name="revanced_disable_hdr_auto_brightness_title">Вимкнути авто яскравість HDR</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">Авто яскравість HDR вимкнено.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">Авто яскравість HDR увімкнено.</string>
@@ -1353,6 +1379,9 @@
     <string name="revanced_ryd_compact_layout_title">Компактна кнопка Подобається</string>
     <string name="revanced_ryd_compact_layout_summary_on">Кнопку Подобається стилізовано під мінімальну ширину.</string>
     <string name="revanced_ryd_compact_layout_summary_off">Кнопку Подобається стилізовано для кращого вигляду.</string>
+    <string name="revanced_ryd_estimated_like_title">Показувати розрахункові лайки</string>
+    <string name="revanced_ryd_estimated_like_summary_on">Розрахункові лайки показується.</string>
+    <string name="revanced_ryd_estimated_like_summary_off">Розрахункові лайки приховано.</string>
     <string name="revanced_ryd_toast_on_connection_error_title">Показувати тост, якщо не доступний API</string>
     <string name="revanced_ryd_toast_on_connection_error_summary_on">Тост показується, якщо Повернення дизлайків YouTube не доступне.</string>
     <string name="revanced_ryd_toast_on_connection_error_summary_off">Тост не показується, якщо Повернення дизлайків YouTube не доступне.</string>
@@ -1365,6 +1394,26 @@
     <string name="revanced_ryd_failure_client_rate_limit_requested">Дизлайки недоступні (досягнутий ліміт клієнта API)</string>
     <string name="revanced_ryd_failure_generic">Дизлайки недоступні (%s).</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">Перезавантажте відео, щоб голосувати використовуючи Повернення дизлайків YouTube</string>
+    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Приховано</string>
+    <!-- PreferenceScreen: Return YouTube Username -->
+    <string name="revanced_preference_screen_return_youtube_username_title">Повернення назви користувача YouTube</string>
+    <string name="revanced_return_youtube_username_enabled_title">Ввімкнути Повернення назви користувача YouTube</string>
+    <string name="revanced_return_youtube_username_enabled_summary_on">Використовується назву користувача.</string>
+    <string name="revanced_return_youtube_username_enabled_summary_off">Використовується ідентифікатор.</string>
+    <string name="revanced_return_youtube_username_display_format_title">Формат відображення</string>
+    <string name="revanced_return_youtube_username_display_format_username_only">Назва користувача</string>
+    <string name="revanced_return_youtube_username_display_format_username_handle">Назва користувача (@ідентифікатор)</string>
+    <string name="revanced_return_youtube_username_display_format_handle_username">\@ідентифікатор (Назва користувача)</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_title">Ключ YouTube Data API</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_summary">Ключ розробника для використання YouTube Data API v3.</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_title">Про ключ YouTube Data API</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_summary">"Ключ розробника YouTube Data API v3 потрібен для заміни Ідентифікатора на Назву користувача.
+
+Щоденна квота для ключів API на безкоштовному тарифі становить 10,000, і 1 квота використовується для заміни Ідентифікатора на Назву користувача для 1 коментаря.
+
+Натисніть щоб побачити як створити ключ API."</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_title">Створення ключа розробника YouTube Data API v3</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_message">1. Перейдіть до &lt;a href=%1$s&gt;Створення нового проекту&lt;/a&gt;.&lt;br&gt;2. Натисніть кнопку &lt;b&gt;CREATE&lt;/b&gt;.&lt;br&gt;3. Перейдіть до &lt;a href=%2$s&gt;YouTube Data API v3&lt;/a&gt;.&lt;br&gt;4. Натисніть кнопку &lt;b&gt;ENABLE&lt;/b&gt;.&lt;br&gt;5. Натисніть кнопку &lt;b&gt;CREATE CREDENTIALS&lt;/b&gt;.&lt;br&gt;6. Виберіть опцію &lt;b&gt;Public data&lt;/b&gt;.&lt;br&gt;7. Натисніть кнопку &lt;b&gt;NEXT&lt;/b&gt;.&lt;br&gt;8. Скопіюйте ключ API.&lt;br&gt;&lt;br&gt;※ Ключ API не можна поширювати, тому він не включений у Імпорт / Експорт налаштувань.</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">Спонсорблок</string>
     <string name="revanced_sb_enable_sb">Увімкнути Спонсорблок</string>

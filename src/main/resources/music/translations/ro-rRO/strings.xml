@@ -76,6 +76,7 @@ Probleme cunoscute:
     <string name="revanced_ryd_compact_layout_summary">Ascunde separatorul butonului apreciez.</string>
     <string name="revanced_ryd_about">Despre</string>
     <string name="revanced_ryd_attribution_summary">Datele sunt furnizate de API-ul Returnare YouTube Dislike. Atinge aici pentru a afla mai multe.</string>
+    <!-- PreferenceScreen: Return YouTube Username -->
     <!-- PreferenceScreen: SponsorBlock -->
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_enable_debug_logging_title">Activează jurnalul de depanare</string>

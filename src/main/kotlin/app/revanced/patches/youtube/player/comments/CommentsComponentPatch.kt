@@ -4,12 +4,15 @@ import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.InstructionExtensions.addInstruction
 import app.revanced.patcher.extensions.InstructionExtensions.addInstructions
 import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
+import app.revanced.patches.shared.fingerprints.SpannableStringBuilderFingerprint
 import app.revanced.patches.shared.litho.LithoFilterPatch
+import app.revanced.patches.shared.spans.InclusiveSpanPatch
 import app.revanced.patches.youtube.player.comments.fingerprints.ShortsLiveStreamEmojiPickerOnClickListenerFingerprint
 import app.revanced.patches.youtube.player.comments.fingerprints.ShortsLiveStreamEmojiPickerOpacityFingerprint
 import app.revanced.patches.youtube.utils.compatibility.Constants.COMPATIBLE_PACKAGE
 import app.revanced.patches.youtube.utils.integrations.Constants.COMPONENTS_PATH
 import app.revanced.patches.youtube.utils.integrations.Constants.PLAYER_CLASS_DESCRIPTOR
+import app.revanced.patches.youtube.utils.integrations.Constants.SPANS_PATH
 import app.revanced.patches.youtube.utils.resourceid.SharedResourceIdPatch
 import app.revanced.patches.youtube.utils.settings.SettingsPatch
 import app.revanced.util.getWalkerMethod
@@ -25,18 +28,22 @@ object CommentsComponentPatch : BaseBytecodePatch(
     name = "Hide comments components",
     description = "Adds options to hide components related to comments.",
     dependencies = setOf(
+        InclusiveSpanPatch::class,
         LithoFilterPatch::class,
         SettingsPatch::class,
-        SharedResourceIdPatch::class
+        SharedResourceIdPatch::class,
     ),
     compatiblePackages = COMPATIBLE_PACKAGE,
     fingerprints = setOf(
         ShortsLiveStreamEmojiPickerOnClickListenerFingerprint,
-        ShortsLiveStreamEmojiPickerOpacityFingerprint
+        ShortsLiveStreamEmojiPickerOpacityFingerprint,
+        SpannableStringBuilderFingerprint,
     )
 ) {
-    private const val FILTER_CLASS_DESCRIPTOR =
+    private const val COMMENTS_FILTER_CLASS_DESCRIPTOR =
         "$COMPONENTS_PATH/CommentsFilter;"
+    private const val SEARCH_LINKS_FILTER_CLASS_DESCRIPTOR =
+        "$SPANS_PATH/SearchLinksFilter;"
 
     override fun execute(context: BytecodeContext) {
 
@@ -80,7 +87,8 @@ object CommentsComponentPatch : BaseBytecodePatch(
 
         // endregion
 
-        LithoFilterPatch.addFilter(FILTER_CLASS_DESCRIPTOR)
+        InclusiveSpanPatch.addFilter(SEARCH_LINKS_FILTER_CLASS_DESCRIPTOR)
+        LithoFilterPatch.addFilter(COMMENTS_FILTER_CLASS_DESCRIPTOR)
 
         /**
          * Add settings

@@ -44,6 +44,7 @@ object SettingsPatch : BaseResourcePatch(
     internal var upward0706 = false
     internal var upward0718 = false
     internal var upward0720 = false
+    internal var upward0723 = false
 
     override fun execute(context: ResourceContext) {
 
@@ -64,9 +65,15 @@ object SettingsPatch : BaseResourcePatch(
         setVersionInfo()
 
         /**
-         * copy strings
+         * copy arrays, colors and strings
          */
-        context.copyXmlNode("music/settings/host", "values/strings.xml", "resources")
+        arrayOf(
+            "arrays.xml",
+            "colors.xml",
+            "strings.xml"
+        ).forEach { xmlFile ->
+            context.copyXmlNode("music/settings/host", "values/$xmlFile", "resources")
+        }
 
         /**
          * hide divider
@@ -83,11 +90,6 @@ object SettingsPatch : BaseResourcePatch(
                     "allowDividerBelow\">false"
                 )
         )
-
-        /**
-         * Copy arrays
-         */
-        contexts.copyXmlNode("music/settings/host", "values/arrays.xml", "resources")
 
         /**
          * Copy colors
@@ -142,6 +144,7 @@ object SettingsPatch : BaseResourcePatch(
                         upward0706 = 242499000 <= playServicesVersion
                         upward0718 = 243699000 <= playServicesVersion
                         upward0720 = 243899000 <= playServicesVersion
+                        upward0723 = 244199000 <= playServicesVersion
 
                         break
                     }

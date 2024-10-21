@@ -171,7 +171,7 @@ Koppints ide, ha többet szeretnél megtudni a DeArrow-ról."</string>
     <string name="revanced_hide_channel_tab_summary_off">A csatornafül szűrő ki van kapcsolva.</string>
     <string name="revanced_hide_channel_tab_filter_strings_title">Csatornafül szűrő</string>
     <string name="revanced_hide_channel_tab_filter_strings_summary">Szűrendő csatornafül neveinek listája, új sorral elválasztva.</string>
-    <string name="revanced_hide_channel_tab_filter_strings_hint">"Rövid
+    <string name="revanced_hide_channel_tab_filter_strings_hint">"Shortok
 Lejátszási listák
 Áruház"</string>
     <string name="revanced_hide_browse_store_button_title">Áruház böngészése gomb elrejtése</string>
@@ -248,10 +248,6 @@ Korlátozások:
 • Olyan videók, amelyek alatt olyan kifejezések szerepelnek, mint „Mások is megnézték”."</string>
     <string name="revanced_hide_low_views_video_title">Alacsony nézettségű videók elrejtése</string>
     <string name="revanced_hide_low_views_video_summary">Az 1000-nél kevesebb megtekintést elért videók elrejtése a Kezdőlapon, amiket a leiratkozott csatornákról töltöttek fel.</string>
-    <string name="revanced_hide_upcoming_video_title">KÖZELGŐ videó elrejtése</string>
-    <string name="revanced_hide_upcoming_video_summary">"Videók elrejtése KÖZELGŐ címkével.
-
-Megjegyzés: Ha ezt engedélyezi, akkor az Értesíts gomb is el lesz rejtve."</string>
     <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
     <string name="revanced_preference_category_view_counts_filter">Megtekintések szűrő</string>
     <string name="revanced_hide_video_by_view_counts_home_title">Videók elrejtése a kezdőlapon a nézettség alapján</string>
@@ -355,6 +351,7 @@ Ha kikapcsolja, akkor ajánlott törölni az app adatait, hogy elkerülje a UI h
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - Régi Shorts művelet sáv visszaállítása</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Visszaállítja a régi alapértelmezett videó minőség viselkedést</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Letiltja a \'Megtekintések\' és a \'Kedvelések\' valós idejű frissítését</string>
+    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13.37 - Visszaállítja a régi stílusú gördülő szám animációkat</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Fiók menü</string>
     <string name="revanced_preference_screen_account_menu_summary">Elemek elrejtése vagy megjelenítése a fiók menüben és a Te fülön.</string>
@@ -749,6 +746,9 @@ Beállítások → Automatikus lejátszás → Következő videó automatikus le
     <string name="revanced_change_player_flyout_menu_toggle_title">Kapcsolótípus megváltoztatása</string>
     <string name="revanced_change_player_flyout_menu_toggle_summary_on">Szövegkapcsolók használata.</string>
     <string name="revanced_change_player_flyout_menu_toggle_summary_off">Kapcsolók használata.</string>
+    <string name="revanced_hide_player_flyout_menu_enhanced_bitrate_title">1080p Premium menü elrejtése</string>
+    <string name="revanced_hide_player_flyout_menu_enhanced_bitrate_summary_on">A 1080p Premium menü el van rejtve.</string>
+    <string name="revanced_hide_player_flyout_menu_enhanced_bitrate_summary_off">A 1080p Premium menü látható.</string>
     <string name="revanced_hide_player_flyout_menu_audio_track_title">Audió nyomkövető menü elrejtése</string>
     <string name="revanced_hide_player_flyout_menu_audio_track_summary_on">Az audiosáv menü el van rejtve.</string>
     <string name="revanced_hide_player_flyout_menu_audio_track_summary_off">Az audiosáv menü megjelenik.</string>
@@ -988,9 +988,12 @@ Tartsa nyomva a sebesség alaphelyzetbe állításához."</string>
     <string name="revanced_hide_seekbar_thumbnail_title">Folyamatsáv elrejtése a minilejátszóban</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_on">A minilejátszó folyamatsávja el van rejtve</string>
     <string name="revanced_hide_seekbar_thumbnail_summary_off">A minilejátszó folyamatsávja megjelenik</string>
-    <string name="revanced_hide_seekbar_chapters_title">Keresősáv fejezetek elrejtése</string>
-    <string name="revanced_hide_seekbar_chapters_summary_on">A fejezetek el vannak rejtve a keresősávban.</string>
-    <string name="revanced_hide_seekbar_chapters_summary_off">A fejezetek megjelennek a keresősávban.</string>
+    <string name="revanced_disable_seekbar_chapters_title">Keresősáv fejezeteinek letiltása</string>
+    <string name="revanced_disable_seekbar_chapters_summary_on">A keresősáv fejezetei le vannak tiltva.</string>
+    <string name="revanced_disable_seekbar_chapters_summary_off">A keresősáv fejezetei engedélyezettek.</string>
+    <string name="revanced_hide_seekbar_chapter_label_title">Keresősáv fejezetcímkéinek elrejtése</string>
+    <string name="revanced_hide_seekbar_chapter_label_summary_on">Az időbélyeg melletti fejezetcímkék el vannak rejtve.</string>
+    <string name="revanced_hide_seekbar_chapter_label_summary_off">Az időbélyeg melletti fejezetcímkék láthatóak.</string>
     <string name="revanced_hide_time_stamp_title">Időtartam elrejtése</string>
     <string name="revanced_hide_time_stamp_summary_on">Az időtartam el van rejtve.</string>
     <string name="revanced_hide_time_stamp_summary_off">Az időtartam látható.</string>
@@ -1160,17 +1163,17 @@ Mellékhatás: A hivatalos fejlécek a keresési eredményekben el lesznek rejtv
     <string name="revanced_hide_shorts_dislike_button_summary_on">A nem tetszik gomb el van rejtve.</string>
     <string name="revanced_hide_shorts_dislike_button_summary_off">A nem tetszik gomb látható.</string>
     <string name="revanced_hide_shorts_comments_button_title">Megjegyzések gomb elrejtése</string>
-    <string name="revanced_hide_shorts_comments_button_summary_on">A megjegyzések gomb el van rejtve</string>
-    <string name="revanced_hide_shorts_comments_button_summary_off">A megjegyzések gomb megjelenik</string>
+    <string name="revanced_hide_shorts_comments_button_summary_on">A megjegyzések gomb el van rejtve.</string>
+    <string name="revanced_hide_shorts_comments_button_summary_off">A megjegyzések gomb látható.</string>
     <string name="revanced_hide_shorts_remix_button_title">Remix gomb elrejtése</string>
-    <string name="revanced_hide_shorts_remix_button_summary_on">A remix gomb el van rejtve</string>
-    <string name="revanced_hide_shorts_remix_button_summary_off">A remix gomb megjelenik</string>
+    <string name="revanced_hide_shorts_remix_button_summary_on">A remix gomb el van rejtve.</string>
+    <string name="revanced_hide_shorts_remix_button_summary_off">A remix gomb látható.</string>
     <string name="revanced_hide_shorts_share_button_title">Megosztás gomb elrejtése</string>
-    <string name="revanced_hide_shorts_share_button_summary_on">A megosztás gomb el van rejtve</string>
-    <string name="revanced_hide_shorts_share_button_summary_off">A megosztás gomb látható</string>
+    <string name="revanced_hide_shorts_share_button_summary_on">A megosztás gomb el van rejtve.</string>
+    <string name="revanced_hide_shorts_share_button_summary_off">A megosztás gomb látható.</string>
     <string name="revanced_hide_shorts_sound_button_title">Hang gomb elrejtése</string>
-    <string name="revanced_hide_shorts_sound_button_summary_on">A hang gomb el van rejtve</string>
-    <string name="revanced_hide_shorts_sound_button_summary_off">A hang gomb megjelenik</string>
+    <string name="revanced_hide_shorts_sound_button_summary_on">A hang gomb el van rejtve.</string>
+    <string name="revanced_hide_shorts_sound_button_summary_off">A hang gomb látható.</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Animation / Feedback -->
     <string name="revanced_preference_category_animation_feedback">Animáció / Visszajelzés</string>
     <string name="revanced_disable_shorts_like_button_fountain_animation_title">Like gomb animáció elrejtése</string>
@@ -1188,21 +1191,23 @@ Mellékhatás: A hivatalos fejlécek a keresési eredményekben el lesznek rejtv
     <string name="revanced_shorts_double_tap_to_like_animation_entry_6">Rejtett</string>
     <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
     <string name="revanced_enable_shorts_time_stamp_title">Fejezetek engedélyezése</string>
-    <string name="revanced_enable_shorts_time_stamp_summary_on">"Fejezetek engedélyezve
+    <string name="revanced_enable_shorts_time_stamp_summary_on">"Az időbélyeg engedélyezve van.
 
-Ismert hiba: Mivel ez a funkció a Google fejlesztési szakaszában van, előfordulhat, hogy az elrendezés hibás lesz."</string>
+Korlátozások:
+• Ez a beállítás nem csak az időbélyegeket engedélyezi, hanem lehetővé teszi a felhasználók számára a felhasználói felület elrejtését is a lejátszó hátterére kattintva.
+• Mivel ez a funkció a Google fejlesztési szakaszában van, előfordulhat, hogy az elrendezés hibás."</string>
     <string name="revanced_enable_shorts_time_stamp_summary_off">Fejezetek letiltva.</string>
     <string name="revanced_shorts_time_stamp_change_repeat_state_title">Időbélyegző hosszú nyomás művelet</string>
     <string name="revanced_shorts_time_stamp_change_repeat_state_summary">Nyomd meg és tartsd lenyomva az időbélyeget a Shortok ismétlés állapotának megváltoztatásához.</string>
     <string name="revanced_shorts_meta_panel_bottom_margin_title">Meta panel alsó margó</string>
     <string name="revanced_shorts_meta_panel_bottom_margin_summary">Állítsd be a keresősáv és a meta panel közötti távolságot 0-64 között.</string>
-    <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">A Meta panel alsó margójának 0-64 között kell lennie. Alapértelmezett értékekre visszaállítása.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">A Meta panel alsó margójának 0-64 között kell lennie.</string>
     <string name="revanced_hide_shorts_toolbar_title">Eszköztár elrejtése</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">Az eszköztár el van rejtve.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">Az eszköztár látható.</string>
     <string name="revanced_hide_shorts_navigation_bar_title">Navigációs sáv elrejtése</string>
-    <string name="revanced_hide_shorts_navigation_bar_summary_on">A navigációs sáv el van rejtve</string>
-    <string name="revanced_hide_shorts_navigation_bar_summary_off">A navigációs sáv megjelenik</string>
+    <string name="revanced_hide_shorts_navigation_bar_summary_on">A navigációs sáv el van rejtve.</string>
+    <string name="revanced_hide_shorts_navigation_bar_summary_off">A navigációs sáv látható.</string>
     <string name="revanced_shorts_navigation_bar_height_percentage_title">Az üres hely magasságának százaléka</string>
     <string name="revanced_shorts_navigation_bar_height_percentage_summary">Beállítja a navigációs sáv elrejtésekor megmaradó üres terület magasságának arányát 0 és 100 (%) között.</string>
     <string name="revanced_shorts_navigation_bar_height_percentage_invalid_toast">A magasság százalékának 0-100 (%) között kell lennie.</string>
@@ -1293,7 +1298,7 @@ Megjegyzés: Ezzel a képernyőterület méretét is megváltoztatja, ahol érz�
 
 Korlátozás: Előfordulhat, hogy ez a beállítás nem vonatkozik azokra a videókra, amelyek nem tartalmazzák a „Hallgassa meg a YouTube Musicon” bannert."</string>
     <string name="revanced_disable_default_playback_speed_music_off">Az alapértelmezett lejátszási sebesség engedélyezett zene lejátszásnál.</string>
-    <string name="revanced_enable_default_playback_speed_shorts_title">A Shortok alapértelmezett lejátszási sebességének engedélyezése</string>
+    <string name="revanced_enable_default_playback_speed_shorts_title">Shortok alapértelmezett lejátszási sebességének engedélyezése</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_on">Az alapértelmezett lejátszási sebesség vonatkozik a Shortokra.</string>
     <string name="revanced_enable_default_playback_speed_shorts_summary_off">Az alapértelmezett lejátszási sebesség nem vonatkozik a Shortokra.</string>
     <string name="revanced_skipped_preloaded_buffer">Kihagyott előtöltött puffer.</string>
@@ -1333,9 +1338,11 @@ Egy másik kodek kerül alkalmazásra kb. 20 másodperc pufferezés után."</str
     <string name="revanced_ryd_enable_title">Return YouTube Dislike</string>
     <string name="revanced_ryd_enable_summary_on">A nem tetszések megjelennek</string>
     <string name="revanced_ryd_enable_summary_off">A nem tetszések nem jelennek meg</string>
-    <string name="revanced_ryd_shorts_title">A nem tetszések megjelenítése a Shorts videóknál</string>
-    <string name="revanced_ryd_shorts_summary_on">A nem tetszések megjelennek a Shorts videóknál</string>
-    <string name="revanced_ryd_shorts_summary_on_disclaimer">"A nem tetszések megjelennek a Shorts videóknál\n\nKorlátozás: A nem tetszések lehet nem jelennek meg inkognitó módban"</string>
+    <string name="revanced_ryd_shorts_title">Shorts videók nem tetszéseiek megjelenítése</string>
+    <string name="revanced_ryd_shorts_summary_on">A Shorts videók nem tetszései láthatóak.</string>
+    <string name="revanced_ryd_shorts_summary_on_disclaimer">"A Shorts videók nem tetszései láthatóak.
+
+Korlátozás: A nem tetszések lehet nem jelennek meg kijelentkezett felhasználóval vagy inkognitó módban."</string>
     <string name="revanced_ryd_shorts_summary_off">A nem tetszések el vannak rejtve a Shorts videóknál</string>
     <string name="revanced_ryd_dislike_percentage_title">Nem tetszések százalékban</string>
     <string name="revanced_ryd_dislike_percentage_summary_on">A nem tetszések százalékban jelennek meg</string>
@@ -1343,6 +1350,9 @@ Egy másik kodek kerül alkalmazásra kb. 20 másodperc pufferezés után."</str
     <string name="revanced_ryd_compact_layout_title">Kompakt tetszik gomb</string>
     <string name="revanced_ryd_compact_layout_summary_on">A tetszik gomb minimális szélességre formázva</string>
     <string name="revanced_ryd_compact_layout_summary_off">A tetszik gomb a legjobb megjelenésre formázva</string>
+    <string name="revanced_ryd_estimated_like_title">Becsült kedvelések megjelenítése</string>
+    <string name="revanced_ryd_estimated_like_summary_on">A becsült kedvelések láthatóak.</string>
+    <string name="revanced_ryd_estimated_like_summary_off">A becsült kedvelések el vannak rejtve.</string>
     <string name="revanced_ryd_toast_on_connection_error_title">Üzenet megjelenítése, ha az API nem elérhető</string>
     <string name="revanced_ryd_toast_on_connection_error_summary_on">Üzenet megjelenítése, ha a Return YouTube Dislike nem elérhető</string>
     <string name="revanced_ryd_toast_on_connection_error_summary_off">Nem jelenik meg üzenet, ha a Return YouTube Dislike nem elérhető</string>
@@ -1355,6 +1365,22 @@ Egy másik kodek kerül alkalmazásra kb. 20 másodperc pufferezés után."</str
     <string name="revanced_ryd_failure_client_rate_limit_requested">A nem tetszik funkció nem elérhető</string>
     <string name="revanced_ryd_failure_generic">A nem tetszik funkció nem elérhető (%s)</string>
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">Töltse újra a videót a Return YouTube Dislike-hoz</string>
+    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Rejtett</string>
+    <!-- PreferenceScreen: Return YouTube Username -->
+    <string name="revanced_preference_screen_return_youtube_username_title">YouTube-felhasználónév visszaadása</string>
+    <string name="revanced_return_youtube_username_enabled_title">A YouTube-felhasználónév visszaadás engedélyezése</string>
+    <string name="revanced_return_youtube_username_enabled_summary_on">A felhasználónév van használatban.</string>
+    <string name="revanced_return_youtube_username_enabled_summary_off">A kezelő van használatban.</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_title">YouTube adat API kulcs</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_summary">A fejlesztői kulcs a YouTube Data API v3 használatához.</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_title">A YouTube Data API-kulcsról</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_summary">"A YouTube Data API v3 fejlesztői kulcsa szükséges ahhoz, hogy a Kezelő-t Felhasználónév-re cseréljék.
+
+Az API-kulcsok napi kvótája az ingyenes csomagban 10 000, és 1 kvótával cseréli le a Kezelő-t a Felhasználónévre 1 megjegyzés esetén.
+
+Kattintson az API-kulcs kiadás folyamatának megtekintéséhez."</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_title">YouTube Data API v3 fejlesztői kulcs kiadás</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_message">1. Nyissa meg a(z) &lt;a href=%1$s&gt;Új projekt létrehozását&lt;/a&gt;.&lt;br&gt;2. Kattintson a &lt;b&gt;LÉTREHOZÁS&lt;/b&gt; gomb.&lt;br&gt;3. Lépj a &lt;a href=%2$s&gt;YouTube Data API v3&lt;/a&gt; oldalára.&lt;br&gt;4. Kattintson az &lt;b&gt;Engedélyezés&lt;/b&gt; gombra.&lt;br&gt;5. Kattintson a &lt;b&gt;HITELESÍTÉSI ADATOK LÉTREHOZÁSA&lt;/b&gt; gombra.&lt;br&gt;6. Válassza ki a &lt;b&gt;Nyilvános adatok&lt;/b&gt; lehetőség.&lt;br&gt;7. Kattintson a &lt;b&gt;KÖVETKEZŐ&lt;/b&gt; gombra.&lt;br&gt;8. Másolja ki az API-kulcsot.&lt;br&gt;&lt;br&gt;※ Az API-kulcsot soha ne ossza meg másokkal, így az nem szerepel az importálási/exportálási beállításokban.</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">Szponzor Blokk</string>
     <string name="revanced_sb_enable_sb">SponsorBlock bekapcsolása</string>
@@ -1383,7 +1409,7 @@ Egy másik kodek kerül alkalmazásra kb. 20 másodperc pufferezés után."</str
     <string name="revanced_sb_segments_selfpromo">Nem fizetett hirdetés/önpromóció</string>
     <string name="revanced_sb_segments_selfpromo_sum">Hasonló a „szponzorhoz”, csak ez nem fizetett, vagy saját promóció. Beletartoznak a saját árucikkek, adományok, illetve információk azokról, akikkel együttműködtek</string>
     <string name="revanced_sb_segments_interaction">Interakció emlékeztető (Feliratkozás)</string>
-    <string name="revanced_sb_segments_interaction_sum">Egy rövid emlékeztető arról, hogy like-oljunk, iratkozzunk fel, vagy kövessük a tartalom közben. Ha hosszabb szakasz, vagy egy adott témáról van, inkább az önpromóció alá tartozik</string>
+    <string name="revanced_sb_segments_interaction_sum">Egy rövid emlékeztető arról, hogy like-oljunk, iratkozzunk fel, vagy kövessük őket a tartalom közben. Ha ez hosszabb vagy egy adott témáról szól, inkább az önpromóció alá tartozik.</string>
     <string name="revanced_sb_segments_highlight">Kiemelt</string>
     <string name="revanced_sb_segments_highlight_sum">A videónak azon része, amit a legtöbben keresnek</string>
     <string name="revanced_sb_segments_intro">Megszakítás/Intro animáció</string>
@@ -1462,7 +1488,7 @@ Egy másik kodek kerül alkalmazásra kb. 20 másodperc pufferezés után."</str
     <string name="revanced_sb_general_skipcount_sum_on">Értesíti a SponsorBlock ranglistáját, hogy mennyi időt takarított meg. Minden egyes szakasz kihagyásakor üzenetet küld a ranglistának</string>
     <string name="revanced_sb_general_skipcount_sum_off">A kihagyások számának követése nem engedélyezett</string>
     <string name="revanced_sb_general_min_duration">Minimális szegmens időtartam</string>
-    <string name="revanced_sb_general_min_duration_sum">A beállított értéknél (másodpercben) rövidebb szakaszokat nem hagyja ki vagy nem jeleníti meg</string>
+    <string name="revanced_sb_general_min_duration_sum">A beállított értéknél (másodpercben) rövidebb szakaszokat nem hagyja ki vagy jeleníti meg.</string>
     <string name="revanced_sb_general_min_duration_invalid">Érvénytelen időtartam.</string>
     <string name="revanced_sb_general_uuid">Az Ön privát felhasználói azonosítója</string>
     <string name="revanced_sb_general_uuid_sum">Ezt bizalmasan kell kezelni. Olyan mint egy jelszó és senkivel sem ajánlott megosztani. Ha valaki megszerzi, meg tudja személyesíteni önt</string>

@@ -195,6 +195,7 @@ object VisualPreferencesIconsPatch : BaseResourcePatch(
         "revanced_preference_screen_swipe_controls",
         "revanced_preference_screen_video",
         "revanced_preference_screen_ryd",
+        "revanced_preference_screen_return_youtube_username",
         "revanced_preference_screen_sb",
         "revanced_preference_screen_misc",
     )
