@@ -273,6 +273,8 @@ Algunas características pueden no funcionar correctamente en la disposición de
     <string name="revanced_ryd_dislike_percentage_summary">En lugar del número de no me gusta, se muestra el porcentaje de no me gusta.</string>
     <string name="revanced_ryd_compact_layout_title">Botón Me Gusta compacto</string>
     <string name="revanced_ryd_compact_layout_summary">Oculta el separador del botón Me gusta.</string>
+    <string name="revanced_ryd_estimated_like_title">Mostrar \"Me gusta\" estimados</string>
+    <string name="revanced_ryd_estimated_like_summary">Muestra el recuento estimado de \"me gusta\" de los vídeos.</string>
     <string name="revanced_ryd_toast_on_connection_error_title">Mostrar mensaje si la API no está disponible</string>
     <string name="revanced_ryd_toast_on_connection_error_summary">Se muestra el mensaje si la API de ReturnYouTubeDislike no está disponible.</string>
     <string name="revanced_ryd_about">Acerca de</string>
@@ -282,7 +284,26 @@ Algunas características pueden no funcionar correctamente en la disposición de
     <string name="revanced_ryd_failure_connection_status_code">Los no me gusta no están disponibles (estado %d).</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Los No Me Gusta no están disponibles (se alcanzó el límite de la API del cliente).</string>
     <string name="revanced_ryd_failure_generic">Los no me gusta no están disponibles (%s).</string>
+    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Oculto</string>
     <!-- PreferenceScreen: Return YouTube Username -->
+    <string name="revanced_preference_screen_return_youtube_username_title">Devolver usuario de YouTube</string>
+    <string name="revanced_return_youtube_username_enabled_title">Activa devolver nombre de usuario de YouTube</string>
+    <string name="revanced_return_youtube_username_enabled_summary">Reemplaza identificadores con nombres de usuario en los comentarios.</string>
+    <string name="revanced_return_youtube_username_display_format_title">Formato de visualización</string>
+    <string name="revanced_return_youtube_username_display_format_summary">Seleccione el formato para mostrar el nombre de usuario.</string>
+    <string name="revanced_return_youtube_username_display_format_username_only">Nombre de usuario</string>
+    <string name="revanced_return_youtube_username_display_format_username_handle">Nombre de usuario (@identificador)</string>
+    <string name="revanced_return_youtube_username_display_format_handle_username">\@identificador (Nombre de usuario)</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_title">Clave API de datos de YouTube</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_summary">La clave de desarrollador para utilizar la API v3 de datos de YouTube.</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_title">Acerca de la clave API de datos de YouTube</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_summary">"Se requiere la clave de desarrollador de la API v3 de datos de YouTube para reemplazar el identificador con el nombre de usuario.
+
+La cuota diaria para las claves API en el plan gratuito es de 10,000, y se utiliza 1 cuota para reemplazar el identificador con el nombre de usuario en 1 comentario.
+
+Toca para ver cómo crear una clave de API."</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_title">Crear clave de desarrollador API v3 de datos de YouTube</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_message">1. Ve a &lt;a href=%1$s&gt;Crear un nuevo proyecto&lt;/a&gt;.&lt;br&gt;2. Pulsa en el botón &lt;b&gt;CREAR&lt;/b&gt;.&lt;br&gt;3. 3. Ve a &lt;a href=%2$s&gt;API v3 de datos de YouTube&lt;/a&gt;.&lt;br&gt;4. Pulsa en el botón &lt;b&gt;HABILITAR&lt;/b&gt;.&lt;br&gt;5. Pulsa en &lt;b&gt;CREAR&lt;/b&gt;. Pulsa en el botón &lt;b&gt;CREAR CREDENCIALES&lt;/b&gt;.&lt;br&gt;6. Selecciona la opción &lt;b&gt;Datos públicos&lt;/b&gt;.&lt;br&gt;7. Pulsa en el botón &lt;b&gt; SIGUIENTE&lt;/b&gt;.&lt;br&gt;8. Copia la clave API.&lt;br&gt;&lt;br&gt;※ La clave API nunca debe ser compartida con otros, por lo que no se incluye en los ajustes de Importar / Exportar.</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enabled">Activar SponsorBlock</string>

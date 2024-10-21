@@ -11,6 +11,11 @@
     <string name="revanced_extended_confirm_user_dialog_title">Você deseja continuar?</string>
     <string name="revanced_extended_restart_first_run">Reinicie para carregar o layout normalmente</string>
     <string name="revanced_extended_restart_message">Atualizar e reiniciar</string>
+    <string name="revanced_extended_restart_first_run_rolling_number">"Há um bug do lado do servidor do YouTube que faz com que o texto de números contínuos, como curtidas, visualizações e datas de upload, fique oculto para alguns usuários.
+
+Uma solução temporária para esse problema é falsificar a versão do aplicativo para 19.13.37.
+
+Você quer falsificar a versão do aplicativo antes de reiniciá-lo?"</string>
     <string name="revanced_playback_speed_normal">Normal</string>
     <string name="revanced_external_downloader_package_name_video_title">Nome do pacote do aplicativo de download de vídeo</string>
     <string name="revanced_external_downloader_package_name_video_summary">Nome do pacote do seu aplicativo de download externo instalado, como NewPipe ou YTDLnis.</string>
@@ -343,7 +348,6 @@ Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</s
 Isso mudará a aparência e os recursos do aplicativo, mas poderão ocorrer efeitos colaterais desconhecidos.
 
 Se for desativado posteriormente, é recomendável limpar os dados do aplicativo para evitar bugs na interface do usuário."</string>
-    <string name="revanced_spoof_app_version_user_dialog_message_19_16">Desativar essa configuração pode resultar em um bug no lado do servidor do YouTube que causa o texto do número rolante, como curtidas, visualizações e datas de upload a serem ocultadas.</string>
     <string name="revanced_spoof_app_version_target_title">Editar versão de falsificação do app</string>
     <string name="revanced_spoof_app_version_target_summary">Digite a versão do app para falsificação</string>
     <string name="revanced_spoof_app_version_target_entry_title">Versão da falsificação do aplicativo</string>
@@ -660,6 +664,9 @@ A reprodução automática pode ser alterada nas configurações do YouTube:
     <string name="revanced_hide_zoom_overlay_title">Ocultar sobreposição de zoom</string>
     <string name="revanced_hide_zoom_overlay_summary_on">A sobreposição de zoom está oculta.</string>
     <string name="revanced_hide_zoom_overlay_summary_off">A sobreposição de zoom será exibida.</string>
+    <string name="revanced_sanitize_video_subtitle_title">Limpar legendas de vídeo</string>
+    <string name="revanced_sanitize_video_subtitle_summary_on">"Frases como '#', 'Arrecadação de fundos', 'Loja' e 'produtos' foram ocultadas das legendas do vídeo."</string>
+    <string name="revanced_sanitize_video_subtitle_summary_off">"Frases como '#', 'Arrecadação de fundos', 'Loja' e 'produtos' serão exibidos nas legendas do vídeo."</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">Botões de ação</string>
     <string name="revanced_preference_screen_action_buttons_summary">Ocultar ou mostrar botões de ação sob os vídeos.</string>

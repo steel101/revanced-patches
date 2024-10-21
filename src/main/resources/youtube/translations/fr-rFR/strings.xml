@@ -11,6 +11,11 @@
     <string name="revanced_extended_confirm_user_dialog_title">Voulez-vous continuer ?</string>
     <string name="revanced_extended_restart_first_run">Redémarrer pour charger l\'interface correctement</string>
     <string name="revanced_extended_restart_message">Appliquer et redémarrer ?</string>
+    <string name="revanced_extended_restart_first_run_rolling_number">"Il existe un bug côté serveur de YouTube qui empêche l'animation en temps réel des nombres, tels que les mentions \"J'aime\", les vues et les dates de mise en ligne pour certains utilisateurs.
+
+Un moyen de contourner temporairement ce problème est de falsifier la version de l'application en version 19.13.37.
+
+Voulez-vous falsifier la version de l'application et redémarrer ?"</string>
     <string name="revanced_playback_speed_normal">Normal</string>
     <string name="revanced_external_downloader_package_name_video_title">Nom du paquet du téléchargeur vidéo</string>
     <string name="revanced_external_downloader_package_name_video_summary">Nom du paquet de l\'appli de téléchargement externe installée, telle que NewPipe ou YTDLnis.</string>
@@ -345,7 +350,6 @@ Cela ne contourne pas la restriction d'âge, mais le confirme automatiquement."<
 Cela modifie l'apparence et les fonctionnalités de l'application, mais des effets inconnus peuvent se produire.
 
 Si désactivé ultérieurement, il est recommandé d'effacer les données de l'application pour éviter des bugs d'interface."</string>
-    <string name="revanced_spoof_app_version_user_dialog_message_19_16">Désactiver ce paramètre peut entraîner un bug côté serveur de YouTube, qui masque la disparition des textes de l\'animation en temps réel des nombres, tels que les \"J\'aime\", les vues, et les dates de mise en ligne.</string>
     <string name="revanced_spoof_app_version_target_title">Saisir la version à falsifier</string>
     <string name="revanced_spoof_app_version_target_summary">Saisissez la version de l\'application à falsifier.</string>
     <string name="revanced_spoof_app_version_target_entry_title">Choisir la version à falsifier</string>
@@ -662,6 +666,9 @@ La lecture automatique peut être modifiée dans les paramètres de YouTube :
     <string name="revanced_hide_zoom_overlay_title">Masquer le voile du zoom</string>
     <string name="revanced_hide_zoom_overlay_summary_on">Le voile du zoom est masqué.</string>
     <string name="revanced_hide_zoom_overlay_summary_off">Le voile du zoom est affiché.</string>
+    <string name="revanced_sanitize_video_subtitle_title">Nettoyer les sous-titres vidéo</string>
+    <string name="revanced_sanitize_video_subtitle_summary_on">"Les phrases telles que '#', 'Financement' 'Magasin' et 'produits' seront masqués sur les sous-titres vidéos."</string>
+    <string name="revanced_sanitize_video_subtitle_summary_off">"Les phrases telles que '#', 'Financement' 'Magasin' et 'produits' seront affichés sur les sous-titres vidéos."</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">Boutons sous la vidéo</string>
     <string name="revanced_preference_screen_action_buttons_summary">Masque ou affiche les boutons sous les vidéos.</string>
@@ -1020,7 +1027,7 @@ Effet secondaire : le thème Cairo peut également s'appliquer sur les points d
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description -->
     <string name="revanced_preference_screen_video_description_title">Description vidéo</string>
     <string name="revanced_preference_screen_video_description_summary">Masque ou affiche les éléments de la description de la vidéo.</string>
-    <string name="revanced_disable_rolling_number_animations_title">Animation en temps réel des nombres</string>
+    <string name="revanced_disable_rolling_number_animations_title">Désactiver l\'animation en temps réel des nombres</string>
     <string name="revanced_disable_rolling_number_animations_summary_on">Animation en temps réel des nombres est désactivé.</string>
     <string name="revanced_disable_rolling_number_animations_summary_off">Animation en temps réel des nombres est activé.</string>
     <string name="revanced_hide_attributes_section_title">Masquer la section \"Mentions\"</string>

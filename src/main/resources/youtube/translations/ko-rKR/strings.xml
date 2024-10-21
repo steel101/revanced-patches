@@ -11,6 +11,11 @@
     <string name="revanced_extended_confirm_user_dialog_title">계속하시겠습니까?</string>
     <string name="revanced_extended_restart_first_run">레이아웃을 정상적으로 불러오기 위해 다시 시작합니다.</string>
     <string name="revanced_extended_restart_message">새로고침 및 다시 시작</string>
+    <string name="revanced_extended_restart_first_run_rolling_number">"일부 사용자에게 좋아요, 조회수 및 업로드 날짜와 같은 롤링 넘버 텍스트가 숨겨지는 YouTube 서버 측 문제가 있습니다.
+
+이 문제에 대한 임시 해결 방법은 앱 버전을 19.13.37로 변경하는 것입니다.
+
+앱을 다시 시작하기 전에 앱 버전을 변경하시겠습니까?"</string>
     <string name="revanced_playback_speed_normal">일반</string>
     <string name="revanced_external_downloader_package_name_video_title">동영상 외부 다운로더 앱 패키지명</string>
     <string name="revanced_external_downloader_package_name_video_summary">NewPipe 또는 YTDLnis와 같은 설치된 외부 다운로더 앱 패키지명을 설정하세요.</string>
@@ -341,7 +346,6 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_spoof_app_version_summary_on">앱 버전을 변경합니다.</string>
     <string name="revanced_spoof_app_version_summary_off">앱 버전을 변경하지 않습니다.</string>
     <string name="revanced_spoof_app_version_user_dialog_message">"앱 버전을 이전 YouTube 앱 버전으로 변경합니다.\n\n변경하면 앱 레이아웃과 기능이 변경되지만 알려지지 않은 문제점이 발생할 수 있습니다.\n\n나중에 이 기능을 비활성화하게 되면 앱 레이아웃 문제점을 방지하기 위해 앱 데이터를 지우는 것이 좋습니다."</string>
-    <string name="revanced_spoof_app_version_user_dialog_message_19_16">이 설정을 비활성화하면 좋아요, 조회수 및 업로드 날짜와 같은 롤링 넘버 텍스트가 숨겨지는 YouTube 서버 측 문제가 발생할 수 있습니다.</string>
     <string name="revanced_spoof_app_version_target_title">변경할 앱 버전 편집하기</string>
     <string name="revanced_spoof_app_version_target_summary">변경할 앱 버전을 입력하세요.</string>
     <string name="revanced_spoof_app_version_target_entry_title">변경할 앱 버전 설정</string>
@@ -659,6 +663,9 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_zoom_overlay_title">줌 오버레이 숨기기</string>
     <string name="revanced_hide_zoom_overlay_summary_on">줌 오버레이가 숨겨집니다.</string>
     <string name="revanced_hide_zoom_overlay_summary_off">줌 오버레이가 표시됩니다.</string>
+    <string name="revanced_sanitize_video_subtitle_title">불필요한 동영상 자막 문구 숨기기</string>
+    <string name="revanced_sanitize_video_subtitle_summary_on">"동영상 자막에서 '#', '모금 행사', '쇼핑', '제품'과 같은 문구가 숨겨집니다."</string>
+    <string name="revanced_sanitize_video_subtitle_summary_off">"동영상 자막에서 '#', '모금 행사', '쇼핑', '제품'과 같은 문구가 표시됩니다."</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">액션 버튼</string>
     <string name="revanced_preference_screen_action_buttons_summary">플레이어 하단에 있는 액션 버튼을 숨기거나 표시할 수 있습니다.</string>
@@ -726,8 +733,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_comments_by_members_summary_on">회원별 댓글 배너가 숨겨집니다.</string>
     <string name="revanced_hide_comments_by_members_summary_off">회원별 댓글 배너가 표시됩니다.</string>
     <string name="revanced_hide_comment_highlighted_search_links_title">강조 표시된 검색 링크 숨기기</string>
-    <string name="revanced_hide_comment_highlighted_search_links_summary_on">댓글에서 강조 표시된 검색 링크가 숨겨집니다.</string>
-    <string name="revanced_hide_comment_highlighted_search_links_summary_off">댓글에서 강조 표시된 검색 링크가 표시됩니다.</string>
+    <string name="revanced_hide_comment_highlighted_search_links_summary_on">강조 표시된 검색 링크가 숨겨집니다.\n• 돋보기 마크가 있는 파란색 강조 글씨</string>
+    <string name="revanced_hide_comment_highlighted_search_links_summary_off">강조 표시된 검색 링크가 표시됩니다.\n• 돋보기 마크가 있는 파란색 강조 글씨</string>
     <string name="revanced_hide_comments_section_title">댓글 섹션 숨기기</string>
     <string name="revanced_hide_comments_section_summary_on">댓글 섹션이 숨겨집니다.</string>
     <string name="revanced_hide_comments_section_summary_off">댓글 섹션이 표시됩니다.</string>
@@ -869,7 +876,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_quick_actions_share_button_summary_on">공유 버튼이 숨겨집니다.</string>
     <string name="revanced_hide_quick_actions_share_button_summary_off">공유 버튼이 표시됩니다.</string>
     <string name="revanced_quick_actions_top_margin_title">빠른 작업 상단 여백</string>
-    <string name="revanced_quick_actions_top_margin_summary">재생바에서 빠른 작업 컨테이너까지의 간격을 0-32 사이로 지정할 수 있습니다.</string>
+    <string name="revanced_quick_actions_top_margin_summary">재생바에서 빠른 작업 컨테이너까지의 간격을 0-32 사이에서 지정할 수 있습니다.</string>
     <string name="revanced_quick_actions_top_margin_invalid_toast">빠른 작업 상단 여백 값은 0-32 사이어야 합니다.</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Fullscreen, PreferenceCategory: Experimental Flags -->
     <string name="revanced_disable_landscape_mode_title">전체 화면에서 세로 모드 활성화하기</string>
@@ -1082,8 +1089,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_shorts_shelf_channel_title">채널에서 숨기기</string>
     <string name="revanced_hide_shorts_shelf_channel_summary_on">"채널에서 숨겨집니다.
 
-정보:
-• 홈 탭에서 Shorts 헤더가 있는 선반만 숨겨집니다."</string>
+알림:
+• 홈 탭에 있는 Shorts 헤더 선반만 숨겨집니다."</string>
     <string name="revanced_hide_shorts_shelf_channel_summary_off">채널에서 표시됩니다.</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_title">홈 피드 및 관련 동영상에서 Shorts 선반 숨기기</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_on">홈 피드 및 관련 동영상에서 Shorts 선반이 숨겨집니다.</string>
@@ -1223,7 +1230,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_shorts_time_stamp_change_repeat_state_title">타임스탬프 길게 누르기 동작</string>
     <string name="revanced_shorts_time_stamp_change_repeat_state_summary">타임스탬프를 길게 눌러서 Shorts 반복 상태를 변경할 수 있습니다.</string>
     <string name="revanced_shorts_meta_panel_bottom_margin_title">메타 패널 하단 여백</string>
-    <string name="revanced_shorts_meta_panel_bottom_margin_summary">재생바에서 메타 패널까지의 간격을 0-64 사이로 지정할 수 있습니다.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_summary">재생바에서 메타 패널까지의 간격을 0-64 사이에서 지정할 수 있습니다.</string>
     <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">메타 패널 하단 여백은 0-64 사이여야 합니다.</string>
     <string name="revanced_hide_shorts_toolbar_title">툴바 숨기기</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">툴바가 숨겨집니다.</string>
@@ -1232,7 +1239,7 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_on">하단바가 숨겨집니다.</string>
     <string name="revanced_hide_shorts_navigation_bar_summary_off">하단바가 표시됩니다.</string>
     <string name="revanced_shorts_navigation_bar_height_percentage_title">빈 공간의 높이 비율</string>
-    <string name="revanced_shorts_navigation_bar_height_percentage_summary">하단바가 숨겨졌을 때, 남는 빈 공간의 높이 비율을 0에서 100사이로 지정할 수 있습니다 (백분율).</string>
+    <string name="revanced_shorts_navigation_bar_height_percentage_summary">하단바가 숨겨졌을 때, 남는 빈 공간의 높이 비율을 0-100 사이에서 지정할 수 있습니다. (백분율)</string>
     <string name="revanced_shorts_navigation_bar_height_percentage_invalid_toast">높이 비율은 0-100 사이어야 합니다 (백분율).</string>
     <string name="revanced_replace_channel_handle_title">채널 핸들 변경하기</string>
     <string name="revanced_replace_channel_handle_summary_on">채널 이름을 사용합니다.</string>
@@ -1272,11 +1279,11 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_swipe_overlay_timeout_title">오버레이 타임아웃</string>
     <string name="revanced_swipe_overlay_timeout_summary">오버레이가 표시되는 시간을 지정할 수 있습니다. (밀리초)</string>
     <string name="revanced_swipe_brightness_sensitivity_title">밝기 스와이프 감도</string>
-    <string name="revanced_swipe_brightness_sensitivity_summary">밝기 스와이프의 최소 거리를 1에서 1000 사이에서 지정할 수 있습니다 (퍼센트).\n최소 거리가 짧을수록 밝기 레벨이 더 빠르게 변경됩니다.</string>
-    <string name="revanced_swipe_brightness_sensitivity_invalid_toast">밝기 스와이프 감도는 1-1000 사이어야 합니다 (퍼센트).</string>
+    <string name="revanced_swipe_brightness_sensitivity_summary">밝기 스와이프의 최소 거리를 1-1000 사이에서 지정할 수 있습니다. (퍼센트)\n\n최소 거리가 짧을수록 밝기 레벨이 더 빠르게 변경됩니다.</string>
+    <string name="revanced_swipe_brightness_sensitivity_invalid_toast">밝기 스와이프 감도는 1-1000 사이어야 합니다. (퍼센트)</string>
     <string name="revanced_swipe_volume_sensitivity_title">볼륨 스와이프 감도</string>
-    <string name="revanced_swipe_volume_sensitivity_summary" formatted="false">볼륨 스와이프의 최소 거리를 1에서 1000 사이에서 지정할 수 있습니다 (퍼센트).\n\n최소 거리가 짧을수록 볼륨 레벨이 더 빨리 변경됩니다.\n\n권장 볼륨 스와이프 감도는 15단계 볼륨에서 100%, 150단계 볼륨에서 10%입니다.</string>
-    <string name="revanced_swipe_volume_sensitivity_invalid_toast">볼륨 스와이프 감도는 1-1000 사이어야 합니다 (퍼센트).</string>
+    <string name="revanced_swipe_volume_sensitivity_summary" formatted="false">볼륨 스와이프의 최소 거리를 1-1000 사이에서 지정할 수 있습니다. (퍼센트)\n\n최소 거리가 짧을수록 볼륨 레벨이 더 빨리 변경됩니다.\n\n권장 볼륨 스와이프 감도는 15단계 볼륨에서 100%, 150단계 볼륨에서 10%입니다.</string>
+    <string name="revanced_swipe_volume_sensitivity_invalid_toast">볼륨 스와이프 감도는 1-1000 사이어야 합니다. (퍼센트)</string>
     <string name="revanced_disable_hdr_auto_brightness_title">HDR 자동 밝기 비활성화하기</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">HDR 자동 밝기를 비활성화합니다.</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">HDR 자동 밝기를 활성화합니다.</string>
@@ -1400,8 +1407,8 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
     <string name="revanced_return_youtube_username_enabled_summary_off">핸들(@사용자 아이디)을 사용합니다.</string>
     <string name="revanced_return_youtube_username_display_format_title">표시 형식</string>
     <string name="revanced_return_youtube_username_display_format_username_only">사용자 이름</string>
-    <string name="revanced_return_youtube_username_display_format_username_handle">사용자 이름 (@핸들)</string>
-    <string name="revanced_return_youtube_username_display_format_handle_username">\@핸들 (사용자 이름)</string>
+    <string name="revanced_return_youtube_username_display_format_username_handle">사용자 이름 (핸들)</string>
+    <string name="revanced_return_youtube_username_display_format_handle_username">핸들 (사용자 이름)</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_title">YouTube Data API Key</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_summary">YouTube Data API v3를 사용하기 위한 Developer Key입니다.</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_about_title">YouTube Data API Key에 대한 정보</string>

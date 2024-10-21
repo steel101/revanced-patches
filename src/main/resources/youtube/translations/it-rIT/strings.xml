@@ -11,6 +11,11 @@
     <string name="revanced_extended_confirm_user_dialog_title">Desideri procedere?</string>
     <string name="revanced_extended_restart_first_run">Riavvia per caricare l\'interfaccia normalmente</string>
     <string name="revanced_extended_restart_message">Aggiorna e riavvia</string>
+    <string name="revanced_extended_restart_first_run_rolling_number">"C'è un bug sul lato server di YouTube che fa sì che il testo del numero rotante come mi piace, le viste e le date di caricamento siano nascosti per alcuni utenti.
+
+Una soluzione temporanea per questo problema è quello di camuffare la versione app a 19.13.37.
+
+Vuoi camuffare la versione dell'app prima di riavviare l'app?"</string>
     <string name="revanced_playback_speed_normal">Normale</string>
     <string name="revanced_external_downloader_package_name_video_title">Nome pacchetto scaricatore video</string>
     <string name="revanced_external_downloader_package_name_video_summary">Nome del pacchetto dello scaricatore esterno installato, ad esempio NewPipe o YTDLnis.</string>
@@ -658,6 +663,9 @@ Impostazioni → Riproduzione automatica → Riproduzione automatica del video s
     <string name="revanced_hide_zoom_overlay_title">Nascondi sovrimpressione dello zoom</string>
     <string name="revanced_hide_zoom_overlay_summary_on">La sovrimpressione dello zoom è nascosta.</string>
     <string name="revanced_hide_zoom_overlay_summary_off">La sovrimpressione dello zoom è visibile.</string>
+    <string name="revanced_sanitize_video_subtitle_title">Sanitizza sottotitoli video</string>
+    <string name="revanced_sanitize_video_subtitle_summary_on">"Frasi come '#', 'Raccolta fondi', 'Negozio' e 'Prodotti' sono state nascoste nei sottotitoli video."</string>
+    <string name="revanced_sanitize_video_subtitle_summary_off">"Frasi come '#', 'Raccolta fondi', 'Negozio' e 'Prodotti' sono state mostrate nei sottotitoli video."</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">Pulsanti azione</string>
     <string name="revanced_preference_screen_action_buttons_summary">Nascondi o mostra i pulsanti di azione sotto i video.</string>
@@ -1074,6 +1082,12 @@ Effetto collaterale: il tema Cairo viene applicato anche ai punti di notifica."<
     <string name="revanced_preference_category_shorts_shelf">Scaffali Shorts</string>
     <string name="revanced_hide_shorts_shelf_title">Nascondi lo scaffale degli Shorts</string>
     <string name="revanced_hide_shorts_shelf_summary">"Problema noto: l'intestazione ufficiale nei risultati di ricerca sarà nascosta"</string>
+    <string name="revanced_hide_shorts_shelf_channel_title">Nascondi nel canale</string>
+    <string name="revanced_hide_shorts_shelf_channel_summary_on">"Nascosto nel canale.
+
+Informazione:
+• Solo gli scaffali con l'intestazione Shorts nella scheda home sono nascosti."</string>
+    <string name="revanced_hide_shorts_shelf_channel_summary_off">Mostrato nel canale.</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_title">Nascondi nella home feed e video correlati</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_on">Nascosto nella home feed e video correlati.</string>
     <string name="revanced_hide_shorts_shelf_home_related_videos_summary_off">Mostrato Nella home feed e video correlati.</string>
@@ -1258,6 +1272,12 @@ Problema noto: Poiché questa è una caratteristica nella fase di sviluppo di Go
     <string name="revanced_swipe_overlay_rect_size_invalid_toast">La dimensione dell\'area trascinabile non può essere superiore a 50. Ripristina il valore predefinito.</string>
     <string name="revanced_swipe_overlay_timeout_title">La durata della sovrapposizione del trascinamento</string>
     <string name="revanced_swipe_overlay_timeout_summary">La visibilità in millisecondi della sovrapposizione</string>
+    <string name="revanced_swipe_brightness_sensitivity_title">Sensibilità dello scorrimento luminosità</string>
+    <string name="revanced_swipe_brightness_sensitivity_summary">Configura la distanza minima per scorrere la luminosità tra 1 e 1000 (%).\nPiù breve è la distanza minima, più velocemente cambia il livello di luminosità.</string>
+    <string name="revanced_swipe_brightness_sensitivity_invalid_toast">La sensibilità dello scorrimento della luminosità deve essere compresa tra 1 e 1000 (%).</string>
+    <string name="revanced_swipe_volume_sensitivity_title">Sensibilità scorrimento del volume</string>
+    <string name="revanced_swipe_volume_sensitivity_summary" formatted="false">Configurare la distanza minima per scorrere il volume tra 1 e 1000 (%).\n\nPiù breve è la distanza minima, più il livello del volume cambia.\n\nLa sensibilità consigliata dello scorrimento del volume è 100% a livelli di 15 e 10% a livelli di 150 volumi.</string>
+    <string name="revanced_swipe_volume_sensitivity_invalid_toast">La sensibilità dello scorrimento del volume deve essere compresa tra 1-1000 (%).</string>
     <string name="revanced_disable_hdr_auto_brightness_title">Disattiva la luminosità HDR automatica</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">La luminosità HDR automatica è disattivata</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">La luminosità HDR automatica è attivata</string>
@@ -1376,8 +1396,8 @@ Limitazione: Non mi piace possono non apparire se l'utente non è registrato o i
     <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">Ricarica il video per votare utilizzando Return YouTube Dislike</string>
     <string name="revanced_ryd_video_likes_hidden_by_video_owner">Nascosto</string>
     <!-- PreferenceScreen: Return YouTube Username -->
-    <string name="revanced_preference_screen_return_youtube_username_title">Ritorno Nome utente YouTube</string>
-    <string name="revanced_return_youtube_username_enabled_title">Abilita Ritorno Nome utente YouTube</string>
+    <string name="revanced_preference_screen_return_youtube_username_title">Return YouTube Username</string>
+    <string name="revanced_return_youtube_username_enabled_title">Attiva Return YouTube Username</string>
     <string name="revanced_return_youtube_username_enabled_summary_on">Il Nome utente è usato.</string>
     <string name="revanced_return_youtube_username_enabled_summary_off">La maniglia è usata.</string>
     <string name="revanced_return_youtube_username_display_format_title">Formato di visualizzazione</string>

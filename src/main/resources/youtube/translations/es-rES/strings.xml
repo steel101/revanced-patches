@@ -11,6 +11,11 @@
     <string name="revanced_extended_confirm_user_dialog_title">¿Quieres continuar?</string>
     <string name="revanced_extended_restart_first_run">Reiniciar para cargar el diseño normalmente</string>
     <string name="revanced_extended_restart_message">Actualizar y reiniciar</string>
+    <string name="revanced_extended_restart_first_run_rolling_number">"Existe un error en el servidor de YouTube que hace que el texto de los números rodantes, como los \"Me gusta\", las visualizaciones y las fechas de subida, se oculte para algunos usuarios.
+
+Una solución temporal para este problema es falsificar la versión de la aplicación a 19.13.37.
+
+¿Quieres falsificar la versión de la aplicación antes de reiniciarla?"</string>
     <string name="revanced_playback_speed_normal">Normal</string>
     <string name="revanced_external_downloader_package_name_video_title">Nombre del paquete del descargador de vídeo</string>
     <string name="revanced_external_downloader_package_name_video_summary">Nombre del paquete de tu aplicación de descargas externas instalada, como NewPipe o YTDLnis.</string>
@@ -343,7 +348,6 @@ Esto no evita la restricción de edad. Solo la acepta automáticamente."</string
 Esto cambiará la apariencia y las características de la aplicación, pero pueden producirse efectos secundarios desconocidos.
 
 Si se desactiva más tarde, se recomienda borrar los datos de la aplicación para evitar errores en la interfaz de usuario."</string>
-    <string name="revanced_spoof_app_version_user_dialog_message_19_16">Si se desactiva esta opción, es posible que se produzca un error en el servidor de YouTube que haga que se oculte el texto de los números rodantes, como los \"Me gusta\", las visualizaciones y las fechas de subida.</string>
     <string name="revanced_spoof_app_version_target_title">Editar versión falsa de la app</string>
     <string name="revanced_spoof_app_version_target_summary">Escribe la versión a falsificar de la app.</string>
     <string name="revanced_spoof_app_version_target_entry_title">Versión a falsificar de la app</string>
@@ -660,6 +664,9 @@ La reproducción automática se puede cambiar en la configuración de YouTube:
     <string name="revanced_hide_zoom_overlay_title">Ocultar superposición del zoom</string>
     <string name="revanced_hide_zoom_overlay_summary_on">La superposición del zoom está oculta.</string>
     <string name="revanced_hide_zoom_overlay_summary_off">La superposición del zoom está visible.</string>
+    <string name="revanced_sanitize_video_subtitle_title">Desinfectar subtítulos de vídeo</string>
+    <string name="revanced_sanitize_video_subtitle_summary_on">"Frases como \"#\", \"Tienda\" y \"N productos\" se ocultan en los subtítulos de vídeo."</string>
+    <string name="revanced_sanitize_video_subtitle_summary_off">"Frases como \"#\", \"Tienda\" y \"N productos\" se muestran en los subtítulos de vídeo."</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">Botones de acción</string>
     <string name="revanced_preference_screen_action_buttons_summary">Ocultar o mostrar botones de acción bajo los vídeos.</string>
