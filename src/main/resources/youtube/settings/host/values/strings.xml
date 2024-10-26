@@ -41,6 +41,9 @@ Please download %2$s from the website."</string>
     <string name="revanced_hide_merchandise_shelf_title">Hide merchandise shelves</string>
     <string name="revanced_hide_merchandise_shelf_summary_on">Merchandise shelves are hidden.</string>
     <string name="revanced_hide_merchandise_shelf_summary_off">Merchandise shelves are shown.</string>
+    <string name="revanced_hide_player_store_shelf_title">Hide player shopping shelf</string>
+    <string name="revanced_hide_player_store_shelf_summary_on">Shopping shelf is hidden.</string>
+    <string name="revanced_hide_player_store_shelf_summary_off">Shopping shelf is shown.</string>
     <string name="revanced_hide_paid_promotion_label_title">Hide paid promotion label</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">Paid promotion label is hidden.</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">Paid promotion label is shown.</string>
