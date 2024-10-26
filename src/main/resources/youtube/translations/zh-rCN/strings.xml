@@ -1289,8 +1289,8 @@
     <string name="revanced_default_video_quality_mobile_title">移动网络的默认视频画质</string>
     <string name="revanced_default_video_quality_wifi_title">WiFi 网络的默认视频画质</string>
     <string name="revanced_disable_hdr_video_title">HDR 视频</string>
-    <string name="revanced_disable_hdr_video_summary_on">HDR 视频已启用</string>
-    <string name="revanced_disable_hdr_video_summary_off">HDR 视频已禁用</string>
+    <string name="revanced_disable_hdr_video_summary_on">HDR 视频已禁用</string>
+    <string name="revanced_disable_hdr_video_summary_off">HDR 视频已启用</string>
     <string name="revanced_disable_default_playback_speed_live_title">禁用直播默认播放速度</string>
     <string name="revanced_disable_default_playback_speed_live_summary_on">直播默认播放速度已禁用</string>
     <string name="revanced_disable_default_playback_speed_live_summary_off">直播默认播放速度已启用</string>
@@ -1356,8 +1356,8 @@
     <string name="revanced_custom_playback_speeds_invalid">自定义播放速度必须小于 %sx，已重置为默认值</string>
     <string name="revanced_custom_playback_speeds_parse_exception">无效的自定义播放速度将使用默认值</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->
-    <string name="revanced_preference_screen_ryd_title">Return YouTube Dislike</string>
-    <string name="revanced_ryd_enable_title">Return YouTube Dislike</string>
+    <string name="revanced_preference_screen_ryd_title">恢复 YouTube 点踩</string>
+    <string name="revanced_ryd_enable_title">恢复 YouTube 点踩</string>
     <string name="revanced_ryd_enable_summary_on">点踩数已显示</string>
     <string name="revanced_ryd_enable_summary_off">点踩数已隐藏</string>
     <string name="revanced_ryd_shorts_title">在 Shorts 中显示点踩数</string>
@@ -1376,8 +1376,8 @@
     <string name="revanced_ryd_estimated_like_summary_on">预估点赞数已显示</string>
     <string name="revanced_ryd_estimated_like_summary_off">预估点赞数已隐藏</string>
     <string name="revanced_ryd_toast_on_connection_error_title">如果 API 不可用，显示 Toast</string>
-    <string name="revanced_ryd_toast_on_connection_error_summary_on">如果 YouTube Dislike 不可用，会显示 Toast</string>
-    <string name="revanced_ryd_toast_on_connection_error_summary_off">如果 YouTube Dislike 不可用，不会显示 Toast</string>
+    <string name="revanced_ryd_toast_on_connection_error_summary_on">如果恢复 YouTube 点踩不可用，则显示 Toast</string>
+    <string name="revanced_ryd_toast_on_connection_error_summary_off">如果恢复 YouTube 点踩不可用，不显示 Toast</string>
     <!-- PreferenceScreen: Return YouTube Dislike, PreferenceCategory: About -->
     <string name="revanced_ryd_about">关于</string>
     <string name="revanced_ryd_attribution_title">ReturnYouTubeDislike.com</string>
@@ -1386,11 +1386,11 @@
     <string name="revanced_ryd_failure_connection_status_code">点踩数不可用(状态 %d)</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">点踩数不可用(已达到客户端 API 限制)</string>
     <string name="revanced_ryd_failure_generic">点踩数不可用(%s)</string>
-    <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">重新加载视频以使用 Return YouTube Dislike进行投票</string>
+    <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">重新加载视频以使用 Return YouTube Dislike 进行投票</string>
     <string name="revanced_ryd_video_likes_hidden_by_video_owner">隐藏</string>
     <!-- PreferenceScreen: Return YouTube Username -->
-    <string name="revanced_preference_screen_return_youtube_username_title">返回 YouTube 用户名</string>
-    <string name="revanced_return_youtube_username_enabled_title">启用返回 YouTube 用户名</string>
+    <string name="revanced_preference_screen_return_youtube_username_title">恢复 YouTube 用户名</string>
+    <string name="revanced_return_youtube_username_enabled_title">启用恢复 YouTube 用户名</string>
     <string name="revanced_return_youtube_username_enabled_summary_on">用户名已使用</string>
     <string name="revanced_return_youtube_username_enabled_summary_off">Handle 已使用</string>
     <string name="revanced_return_youtube_username_display_format_title">显示格式</string>
@@ -1526,7 +1526,7 @@
     <string name="revanced_sb_api_url_changed">API URL 已更改</string>
     <string name="revanced_sb_settings_copy">复制</string>
     <string name="revanced_sb_settings_ie">导入 / 导出设置</string>
-    <string name="revanced_sb_settings_ie_sum">您的 SponsorBlock JSON 配置，可导入 / 导出到 ReVanced Extended 和其他 SponsorBlock平台</string>
+    <string name="revanced_sb_settings_ie_sum">您的 SponsorBlock JSON 配置，可导入 / 导出到 ReVanced Extended 和其他 SponsorBlock 平台</string>
     <string name="revanced_sb_settings_ie_sum_warning">您的 SponsorBlock JSON 配置，可导入 / 导出到 ReVanced Extended 和其他 SponsorBlock 平台包含您的私人用户 ID，请谨慎分享</string>
     <string name="revanced_sb_settings_import_successful">配置文件成功导入</string>
     <string name="revanced_sb_settings_import_failed">导入失败：%s</string>
@@ -1541,7 +1541,7 @@
     <string name="revanced_sb_submit_failed_unknown_error">无法提交片段(状态：%1$d %2$s)</string>
     <string name="revanced_sb_submit_failed_rate_limit">无法提交片段\n频率受限(来自同一用户或 IP 次数过多)</string>
     <string name="revanced_sb_submit_failed_forbidden">无法提交片段：%s</string>
-    <string name="revanced_sb_submit_failed_duplicate">无法提交该段视频。\n已存在。</string>
+    <string name="revanced_sb_submit_failed_duplicate">无法提交该视频片段\n已存在</string>
     <string name="revanced_sb_submit_succeeded">片段提交成功</string>
     <string name="revanced_sb_vote_failed_timeout">无法为片段投票(API 超时)</string>
     <string name="revanced_sb_vote_failed_unknown_error">无法为片段投票(状态：%1$d %2$s)</string>
@@ -1584,15 +1584,15 @@
     <string name="revanced_sb_stats_saved_sum_zero">点击此处查看全球统计数据和前几名贡献者</string>
     <string name="revanced_sb_stats_saved_sum">这相当于他们生活中的 &lt;b&gt;%s&lt;/b&gt;&lt;br&gt;点击此处查看排行榜</string>
     <string name="revanced_sb_stats_self_saved">你已经跳过了 &lt;b&gt;%s&lt;/b&gt; 段视频</string>
-    <string name="revanced_sb_stats_self_saved_sum">那是 &lt;b&gt;%s&lt;/b&gt;。</string>
-    <string name="revanced_sb_stats_self_saved_reset_title">重置跳过的段视频计数器？</string>
+    <string name="revanced_sb_stats_self_saved_sum">一共 &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="revanced_sb_stats_self_saved_reset_title">重置跳过的视频片段计数器？</string>
     <string name="revanced_sb_stats_saved_hour_format">%1$s 小时 %2$s 分钟</string>
     <string name="revanced_sb_stats_saved_minute_format">%1$s 分钟 %2$s 秒</string>
     <string name="revanced_sb_stats_saved_second_format">%s 秒</string>
     <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: About -->
     <string name="revanced_sb_about">关于</string>
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
-    <string name="revanced_sb_about_api_sum">数据由SponsorBlock API提供点击此处了解更多信息并查看其他平台的下载</string>
+    <string name="revanced_sb_about_api_sum">数据由 SponsorBlock API 提供，点击此处了解更多信息并查看其他平台的下载</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">杂项</string>
     <string name="revanced_enable_debug_logging_title">启用 Debug 日志</string>

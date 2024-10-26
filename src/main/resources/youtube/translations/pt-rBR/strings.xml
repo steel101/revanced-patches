@@ -665,8 +665,8 @@ A reprodução automática pode ser alterada nas configurações do YouTube:
     <string name="revanced_hide_zoom_overlay_summary_on">A sobreposição de zoom está oculta.</string>
     <string name="revanced_hide_zoom_overlay_summary_off">A sobreposição de zoom será exibida.</string>
     <string name="revanced_sanitize_video_subtitle_title">Limpar legendas de vídeo</string>
-    <string name="revanced_sanitize_video_subtitle_summary_on">"Frases como '#', 'Arrecadação de fundos', 'Loja' e 'produtos' foram ocultadas das legendas do vídeo."</string>
-    <string name="revanced_sanitize_video_subtitle_summary_off">"Frases como '#', 'Arrecadação de fundos', 'Loja' e 'produtos' serão exibidos nas legendas do vídeo."</string>
+    <string name="revanced_sanitize_video_subtitle_summary_on">"Frases como '#', 'Arrecadação de fundos', 'Loja' e 'produtos' serão ocultadas da legenda do vídeo."</string>
+    <string name="revanced_sanitize_video_subtitle_summary_off">"Frases como '#', 'Arrecadação de fundos', 'Loja' e 'produtos' serão exibidos na legenda do vídeo."</string>
     <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
     <string name="revanced_preference_screen_action_buttons_title">Botões de ação</string>
     <string name="revanced_preference_screen_action_buttons_summary">Ocultar ou mostrar botões de ação sob os vídeos.</string>

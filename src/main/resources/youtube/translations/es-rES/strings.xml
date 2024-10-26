@@ -35,6 +35,9 @@ Descarga %2$s desde el sitio web."</string>
     <string name="revanced_hide_merchandise_shelf_title">Ocultar estantes de mercancía</string>
     <string name="revanced_hide_merchandise_shelf_summary_on">Los estantes de mercancía están ocultos.</string>
     <string name="revanced_hide_merchandise_shelf_summary_off">Los estantes de mercancía están visibles.</string>
+    <string name="revanced_hide_player_store_shelf_title">Ocultar estante de compras del reproductor</string>
+    <string name="revanced_hide_player_store_shelf_summary_on">El estante de compras está oculto.</string>
+    <string name="revanced_hide_player_store_shelf_summary_off">El estante de compras está visible.</string>
     <string name="revanced_hide_paid_promotion_label_title">Ocultar etiqueta de promoción pagada</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">La etiqueta de promoción pagada está oculta.</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">La etiqueta de promoción pagada está visible.</string>
@@ -126,6 +129,9 @@ Pulsa aquí para saber más sobre DeArrow."</string>
     <string name="revanced_hide_feed_survey_title">Ocultar encuestas del feed</string>
     <string name="revanced_hide_feed_survey_summary_on">Las encuestas del feed están ocultas.</string>
     <string name="revanced_hide_feed_survey_summary_off">Las encuestas del feed están visibles.</string>
+    <string name="revanced_hide_floating_button_title">Ocultar botón flotante</string>
+    <string name="revanced_hide_floating_button_summary_on">El botón flotante está oculto.</string>
+    <string name="revanced_hide_floating_button_summary_off">El botón flotante está visible.</string>
     <string name="revanced_hide_image_shelf_title">Ocultar estantes de imágenes</string>
     <string name="revanced_hide_image_shelf_summary_on">Los estantes de imágenes están ocultos.</string>
     <string name="revanced_hide_image_shelf_summary_off">Los estantes de imágenes están visibles.</string>
@@ -1017,6 +1023,14 @@ Toca y mantén para deshacer."</string>
     <string name="revanced_restore_old_seekbar_thumbnails_title">Restaurar antiguas miniaturas de barra de progreso</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_on">Las miniaturas de la barra de progreso aparecerán encima de la barra de progreso.</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_off">Las miniaturas de la barra de progreso aparecerán en pantalla completa.</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_title">Activar miniaturas de alta calidad</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_summary_on">Las miniaturas en la barra de progreso son de alta calidad.</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_summary_off">Las miniaturas en la barra de progreso son de calidad media.</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_dialog_message">"Esto restaurará las miniaturas de las transmisiones en directo que no tengan miniaturas en la barra de progreso.
+
+El uso de datos de Internet puede ser mayor, y las miniaturas en la barra de progreso tendrán una ligera demora antes de mostrarse.
+
+Esta función funciona mejor con una conexión a Internet muy rápida."</string>
     <string name="revanced_enable_cairo_seekbar_title">Activar barra de progreso Cairo</string>
     <string name="revanced_enable_cairo_seekbar_summary_on">"La barra de progreso Cairo está activada.
 

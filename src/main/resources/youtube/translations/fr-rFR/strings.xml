@@ -1407,15 +1407,15 @@ Limitation : les \"Je n'aime pas\" ne seront pas affichées si vous n'êtes pas 
     <string name="revanced_return_youtube_username_display_format_username_handle">Nom d\'utilisateur (@identifiant)</string>
     <string name="revanced_return_youtube_username_display_format_handle_username">\@identifiant (Nom d\'utilisateur)</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_title">Clé API des données YouTube</string>
-    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_summary">La clé de développeur pour utiliser l\'API des données YouTube v3.</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_summary">La clé de développeur pour utiliser YouTube Data API v3.</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_about_title">À propos de la clé YouTube Data API</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_about_summary">"La clé YouTube Data API v3 est nécessaire pour remplacer les identifiants par des noms d'utilisateurs.
 
-Le quota journalier pour les clés API sur le plan gratuit est de 10 000, et 1 quota est utilisé pour remplacer l'identifiant par un noms d'utilisateur pour 1 commentaire.
+Le quota journalier pour les clés API sur le plan gratuit est de 10 000, 1 quota est utilisé pour remplacer l'identifiant par un nom d'utilisateur pour 1 commentaire.
 
-Cliquez pour découvrir comment créer une clé API."</string>
+Cliquez ici pour découvrir comment créer une clé API."</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_title">Obtenir une clé développeur pour YouTube Data API v3</string>
-    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_message">1. Allez sur &lt;a href=%1$s&gt;Nouveau projet&lt;/a&gt;.&lt;br&gt;2. Cliquez sur &lt;b&gt; le bouton&lt;/b&gt; Créer.&lt;br&gt;3. Allez sur &lt;a href=%2$s&gt;YouTube Data API v3&lt;/a&gt;.&lt;br&gt;4. Cliquez sur &lt;b&gt;le bouton&lt;/b&gt; ACTIVER.&lt;br&gt;5. Cliquez sur &lt;b&gt;le bouton&lt;/b&gt; CRÉER DES IDENTIFIANTS.&lt;br&gt;6. Sélectionnez &lt;b&gt;l\'option&lt;/b&gt; Données Publiques.&lt;br&gt;7. Cliquez sur &lt;b&gt;le bouton&lt;/b&gt; SUIVANT.&lt;br&gt;8. copier la Clé API.&lt;br&gt;&lt;br&gt;※ La clé API ne doit jamais être partagé avec personne d\'autre, par conséquent, il n\'est pas inclus dans les paramètres Importer / Exporter.</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_dialog_message">1. Allez sur &lt;a href=%1$s&gt;Nouveau projet&lt;/a&gt;.&lt;br&gt;2. Cliquez sur le bouton &lt;b&gt; Créer&lt;/b&gt;.&lt;br&gt;3. Allez sur &lt;a href=%2$s&gt;YouTube Data API v3&lt;/a&gt;.&lt;br&gt;4. Cliquez sur le bouton &lt;b&gt;ACTIVER&lt;/b&gt;.&lt;br&gt;5. Cliquez sur le bouton &lt;b&gt;CRÉER DES IDENTIFIANTS&lt;/b&gt;.&lt;br&gt;6. Sélectionnez l\'option &lt;b&gt;Données Publiques&lt;/b&gt;.&lt;br&gt;7. Cliquez sur le bouton &lt;b&gt;SUIVANT&lt;/b&gt;.&lt;br&gt;8. Copiez la clé API.&lt;br&gt;&lt;br&gt;※ La clé API ne doit jamais être partagée avec d\'autres personnes, par conséquent, elle n\'est pas incluse dans les paramètres Importer / Exporter.</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enable_sb">Activer SponsorBlock</string>

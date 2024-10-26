@@ -11,7 +11,7 @@
     <string name="revanced_extended_confirm_user_dialog_title">続行しますか？</string>
     <string name="revanced_extended_restart_first_run">再起動してレイアウトを正常に読み込みます</string>
     <string name="revanced_extended_restart_message">再起動して設定を適用します</string>
-    <string name="revanced_extended_restart_first_run_rolling_number">"YouTube サーバー側のバグにより、高評価数、再生回数、アップロード日などの数字のテキストが一部のユーザーに対して非表示になります。
+    <string name="revanced_extended_restart_first_run_rolling_number">"YouTube サーバー側のバグにより、高評価数、再生回数、アップロード日などの数字の回転アニメーションが一部のユーザーに対して非表示になります。
 
 この問題は、アプリのバージョンを 19.13.37 に偽装することで回避できます。(一時的な回避策)
 
@@ -1271,10 +1271,10 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_swipe_overlay_timeout_summary">スワイプオーバーレイが表示される時間 (単位: ミリ秒)</string>
     <string name="revanced_swipe_brightness_sensitivity_title">明るさのスワイプ感度</string>
     <string name="revanced_swipe_brightness_sensitivity_summary">スワイプして明るさを調整する際の感度を 1 ~ 1000 (%) の間で設定できます。</string>
-    <string name="revanced_swipe_brightness_sensitivity_invalid_toast">感度は1 ~ 1000 (%)の間でなければなりません。</string>
+    <string name="revanced_swipe_brightness_sensitivity_invalid_toast">感度は 1 ~ 1000 (%) の間でなければなりません。</string>
     <string name="revanced_swipe_volume_sensitivity_title">音量のスワイプ感度</string>
     <string name="revanced_swipe_volume_sensitivity_summary" formatted="false">スワイプして音量を調整する際の感度を 1 ~ 1000 (%) の間で設定できます。\n\n推奨される音量スワイプ感度は、15 音量ステップで 100%、150 音量ステップで 10% です。</string>
-    <string name="revanced_swipe_volume_sensitivity_invalid_toast">感度は1 ~ 1000 (%)の間でなければなりません。</string>
+    <string name="revanced_swipe_volume_sensitivity_invalid_toast">感度は 1 ~ 1000 (%) の間でなければなりません。</string>
     <string name="revanced_disable_hdr_auto_brightness_title">HDR 動画の明るさ自動調節を無効化</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_on">HDR 動画の明るさの自動調節を無効にします。</string>
     <string name="revanced_disable_hdr_auto_brightness_summary_off">HDR 動画の明るさの自動調節を無効にします。</string>

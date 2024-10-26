@@ -5,7 +5,7 @@
     <string name="accessibility_settings_edu_opt_out_text">Các điều khiển của bạn đã được sửa đổi vì dịch vụ trợ năng đang bật.</string>
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
-    <string name="revanced_extended_settings_search_title">Tìm kiếm %s</string>
+    <string name="revanced_extended_settings_search_title">Tìm kiếm trong %s</string>
     <string name="revanced_extended_reset_to_default_toast">Đặt lại về giá trị mặc định.</string>
     <string name="revanced_preference_category_experimental_flag">Tính năng thử nghiệm</string>
     <string name="revanced_extended_confirm_user_dialog_title">Bạn có muốn tiếp tục không?</string>
@@ -1344,19 +1344,19 @@ Chi tiết:
     <string name="revanced_spoof_device_dimensions_title">Giả mạo kích thước thiết bị</string>
     <string name="revanced_spoof_device_dimensions_summary">"Giả lập kích thước thiết bị đến giá trị tối đa.
 Chất lượng cao có thể được mở khóa trên một số video yêu cầu kích thước thiết bị lớn, nhưng không phải tất cả các video."</string>
-    <string name="revanced_disable_vp9_codec_title">Vô hiệu hoá bộ giải mã VP9</string>
-    <string name="revanced_disable_vp9_codec_summary_on">"Bộ giải mã VP9 đã bị vô hiệu hoá.
+    <string name="revanced_disable_vp9_codec_title">Vô hiệu hoá codec VP9</string>
+    <string name="revanced_disable_vp9_codec_summary_on">"Codec VP9 đã bị vô hiệu hoá.
 
 • Độ phân giải tối đa là 1080p.
 • Việc phát video sẽ sử dụng nhiều dữ liệu di động hơn so với VP9.
-• Bộ giải mã VP9 vẫn được sử dụng cho video HDR."</string>
-    <string name="revanced_disable_vp9_codec_summary_off">Bộ giải mã VP9 đã được kích hoạt.</string>
-    <string name="revanced_replace_av1_codec_title">Thay thế bộ giải mã phần mềm AV1</string>
-    <string name="revanced_replace_av1_codec_summary">Thay thế bộ giải mã phần mềm AV1 bằng bộ giải mã VP9.</string>
-    <string name="revanced_reject_av1_codec_title">Từ chối phản hồi của bộ giải mã phần mềm AV1</string>
-    <string name="revanced_reject_av1_codec_summary">"Buộc từ chối phản hồi của bộ giải mã phần mềm AV1.
-Một bộ giải mã khác sẽ được áp dụng sau khoảng 20 giây tải bộ đệm."</string>
-    <string name="revanced_reject_av1_codec_toast">Quá trình dự phòng sẽ tạo ra khoảng 20 giây tải bộ đệm.</string>
+• Codec VP9 vẫn được sử dụng cho video HDR."</string>
+    <string name="revanced_disable_vp9_codec_summary_off">Codec VP9 đã được kích hoạt.</string>
+    <string name="revanced_replace_av1_codec_title">Thay thế codec phần mềm AV1</string>
+    <string name="revanced_replace_av1_codec_summary">Thay thế codec phần mềm AV1 bằng codec VP9.</string>
+    <string name="revanced_reject_av1_codec_title">Từ chối phản hồi của codec phần mềm AV1</string>
+    <string name="revanced_reject_av1_codec_summary">"Buộc từ chối phản hồi của codec phần mềm AV1.
+Một codec khác sẽ được áp dụng sau khoảng 20 giây tải bộ đệm."</string>
+    <string name="revanced_reject_av1_codec_toast">Quá trình dự phòng khiến cho việc tải bộ đệm mất khoảng 20 giây trước khi bắt đầu.</string>
     <string name="revanced_remember_playback_speed_toast">Đã lưu tốc độ phát mặc định thành %s.</string>
     <string name="revanced_remember_video_quality_mobile">Thay đổi chất lượng trên dữ liệu di động mặc định thành %s.</string>
     <string name="revanced_remember_video_quality_none">Không thể đặt chất lượng video.</string>
@@ -1406,7 +1406,7 @@ Hạn chế: Lượt không thích có thể không hiển thị nếu người 
     <string name="revanced_return_youtube_username_display_format_username_handle">Tên người dùng (@handle)</string>
     <string name="revanced_return_youtube_username_display_format_handle_username">\@handle (Tên người dùng)</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_title">Khoá Youtube Data API</string>
-    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_summary">Khoá nhà phát triển để sử dụng YouTube Data API v3.</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_summary">Khoá phát triển để sử dụng YouTube Data API v3.</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_about_title">Giới thiệu về khoá YouTube Data API</string>
     <string name="revanced_return_youtube_username_youtube_data_api_v3_about_summary">"Khoá nhà phát triển YouTube Data API v3 là một mã khoá cho phép các nhà phát triển thao tác lấy dữ liệu từ Youtube, và nó cũng cần thiết để thay thế tên hiển thị thành tên người dùng.
 
@@ -1618,7 +1618,7 @@ Nhấp vào đây để xem các bước phát hành khóa API."</string>
     <string name="revanced_default_app_settings_title">Mở theo mặc định</string>
     <string name="revanced_default_app_settings_summary">Để mở liên kết YouTube trong RVX, hãy kích hoạt \'Mở các đường liên kết được hỗ trợ\' và thêm các đường liên kết được hỗ trợ.</string>
     <string name="gms_core_settings_title">Mở GmsCore</string>
-    <string name="gms_core_settings_summary">Kích hoạt thông báo đám mây để nhận thông báo.</string>
+    <string name="gms_core_settings_summary">Kích hoạt Cloud Messaging để nhận thông báo đẩy và các cài đặt khác.</string>
     <string name="gms_core_toast_not_installed_message">GmsCore chưa được cài đặt. Hãy cài đặt nó đi nào.</string>
     <string name="gms_core_dialog_title">Hành động cần thiết</string>
     <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"Hiện GmsCore không có quyền chạy nền.
@@ -1638,8 +1638,8 @@ Nhấn vào Tiếp tục và tắt tối ưu hóa pin."</string>
     <string name="revanced_change_share_sheet_title">Thay đổi giao diện chia sẻ</string>
     <string name="revanced_change_share_sheet_summary_on">Sử dụng giao diện chia sẻ của hệ thống.</string>
     <string name="revanced_change_share_sheet_summary_off">Sử dụng giao diện chia sẻ của ứng dụng.</string>
-    <string name="revanced_enable_opus_codec_title">Kích hoạt bộ giải mã OPUS</string>
-    <string name="revanced_enable_opus_codec_summary">Kích hoạt bộ giải mã OPUS nếu phản hồi của trình phát bao gồm bộ giải mã OPUS.</string>
+    <string name="revanced_enable_opus_codec_title">Kích hoạt codec OPUS</string>
+    <string name="revanced_enable_opus_codec_summary">Kích hoạt codec OPUS nếu phản hồi của trình phát bao gồm codec OPUS.</string>
     <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->
     <string name="revanced_preference_screen_import_export_title">Nhập/Xuất cài đặt</string>
     <string name="revanced_preference_screen_import_export_summary">Nhập hoặc xuất cài đặt.</string>
@@ -1683,15 +1683,15 @@ Nhấn vào Tiếp tục và tắt tối ưu hóa pin."</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• Phim hoặc video trả phí có thể không phát được.
 • Video phát trực tiếp sẽ khởi chạy từ đầu.
 • Video có thể kết thúc sớm 1 giây.
-• Không có bộ giải mã âm thanh opus."</string>
+• Không có codec âm thanh opus."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Mục Bản âm thanh bị thiếu.
 • Mục Âm lượng ổn định không khả dụng."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Mục Bản âm thanh bị thiếu.
 • Mục Âm lượng ổn định không khả dụng."</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Video có thể không phát được.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Buộc iOS sử dụng AVC (H.264)</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Bộ giải mã video trên iOS là AVC (H.264).</string>
-    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Bộ giải mã video trên iOS là AVC (H.264), VP9, hoặc là AV1.</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Codec video trên iOS là AVC (H.264).</string>
+    <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Codec video trên iOS là AVC (H.264), VP9, hoặc là AV1.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_user_dialog_message">"Bật chức năng này có thể tăng cường thời lượng pin và khắc phục tình trạng giật lag khi phát video.
 
 AVC (H.264) có độ phân giải tối đa 1080p, và phát video sẽ dùng nhiều dữ liệu di động hơn với VP9 hoặc AV1."</string>

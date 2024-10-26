@@ -35,6 +35,9 @@
     <string name="revanced_hide_merchandise_shelf_title">إخفاء رفوف المنتجات</string>
     <string name="revanced_hide_merchandise_shelf_summary_on">تم إخفاء رفوف المنتجات.</string>
     <string name="revanced_hide_merchandise_shelf_summary_off">يتم عرض رفوف المنتجات.</string>
+    <string name="revanced_hide_player_store_shelf_title">إخفاء رف مشغل التسوق</string>
+    <string name="revanced_hide_player_store_shelf_summary_on">تم إخفاء رف التسوق.</string>
+    <string name="revanced_hide_player_store_shelf_summary_off">يتم عرض رف التسوق.</string>
     <string name="revanced_hide_paid_promotion_label_title">إخفاء تصنيف الترويج المدفوع</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">تم إخفاء تصنيف الترويج المدفوع.</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">يتم عرض تصنيف الترويج المدفوع.</string>
@@ -126,6 +129,9 @@
     <string name="revanced_hide_feed_survey_title">إخفاء الاستبيانات في الموجز</string>
     <string name="revanced_hide_feed_survey_summary_on">تم إخفاء الاستبيانات في الموجز.</string>
     <string name="revanced_hide_feed_survey_summary_off">يتم عرض الاستبيانات في الموجز.</string>
+    <string name="revanced_hide_floating_button_title">إخفاء الزر العائم</string>
+    <string name="revanced_hide_floating_button_summary_on">تم إخفاء الزر العائم.</string>
+    <string name="revanced_hide_floating_button_summary_off">يتم عرض الزر العائم.</string>
     <string name="revanced_hide_image_shelf_title">إخفاء رفوف الصور</string>
     <string name="revanced_hide_image_shelf_summary_on">تم إخفاء رفوف الصور.</string>
     <string name="revanced_hide_image_shelf_summary_off">يتم عرض رفوف الصور.</string>
@@ -1019,6 +1025,14 @@
     <string name="revanced_restore_old_seekbar_thumbnails_title">استعادة مصغرات شريط التقدم القديمة</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_on">مصغرات شريط التقدم ستظهر فوق شريط تقدم الفيديو.</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_off">مصغرات شريط التقدم ستظهر في ملء الشاشة.</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_title">تمكين المصغرات عالية الجودة</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_summary_on">مصغرات شريط التقدم عالية الجودة.</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_summary_off">مصغرات شريط التقدم متوسطة الجودة.</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_dialog_message">"سيؤدي هذا إلى استعادة المصغرات للبث المباشر الذي لا يحتوي على مصغرات لشريط التقدم.
+
+قد يكون استخدام بيانات الإنترنت أعلى، وقد يحدث تأخير طفيف في عرض المصغرات لشريط التقدم.
+
+تعمل هذه الميزة بشكل أفضل مع اتصال إنترنت سريع للغاية."</string>
     <string name="revanced_enable_cairo_seekbar_title">تمكين شريط تقدم Cairo</string>
     <string name="revanced_enable_cairo_seekbar_summary_on">"تم تمكين شريط تقدم Cairo.
 
