@@ -172,6 +172,7 @@
     <string name="revanced_spoof_app_version_target_summary">偽装するバージョンを選択してください。</string>
     <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - カナダの地域でラジオモードを無効化</string>
     <string name="revanced_spoof_app_version_target_entry_6_11_52">6.11.52 - リアルタイムの歌詞を無効化</string>
+    <string name="revanced_spoof_app_version_target_entry_7_16_53">7.16.53 - 古いアクションバーを復元</string>
     <!-- PreferenceScreen: Navigation Bar -->
     <string name="revanced_preference_screen_navigation_title">ナビゲーションバー</string>
     <string name="revanced_enable_black_navigation_bar_title">黒いナビゲーションバーを有効化</string>
@@ -234,6 +235,15 @@
     <string name="revanced_restore_old_player_layout_summary">"プレイヤーのレイアウトを古いスタイルに戻します。
 一部の機能は正しく動作しない可能性があります。"</string>
     <!-- PreferenceScreen: Settings menu -->
+    <string name="revanced_preference_screen_settings_title">設定メニュー</string>
+    <string name="revanced_hide_settings_menu_parent_tools_title">「ファミリーセンター」を非表示</string>
+    <string name="revanced_hide_settings_menu_general_title">「全般」を非表示</string>
+    <string name="revanced_hide_settings_menu_playback_title">「再生」を非表示</string>
+    <string name="revanced_hide_settings_menu_data_saving_title">「データの節約」を非表示</string>
+    <string name="revanced_hide_settings_menu_downloads_and_storage_title">「一時保存とストレージ」を非表示</string>
+    <string name="revanced_hide_settings_menu_notification_title">「通知」を非表示</string>
+    <string name="revanced_hide_settings_menu_privacy_and_location_title">「プライバシーとデータ」を非表示</string>
+    <string name="revanced_hide_settings_menu_recommendations_title">「おすすめ」を非表示</string>
     <!-- PreferenceScreen: Video -->
     <string name="revanced_preference_screen_video_title">動画</string>
     <string name="revanced_custom_playback_speeds_title">カスタム再生速度の編集</string>
@@ -270,6 +280,12 @@
     <string name="revanced_ryd_failure_client_rate_limit_requested">低評価数は利用できません (クライアント API 制限)</string>
     <string name="revanced_ryd_failure_generic">低評価数は一時的に利用できません。(%s)</string>
     <!-- PreferenceScreen: Return YouTube Username -->
+    <string name="revanced_preference_screen_return_youtube_username_title">Return YouTube Username</string>
+    <string name="revanced_return_youtube_username_enabled_title">Return YouTube Username を有効化</string>
+    <string name="revanced_return_youtube_username_display_format_username_only">ユーザーネーム</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_title">YouTube Data API キー</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_developer_key_summary">YouTube Data API v3 を使用するための開発者キー。</string>
+    <string name="revanced_return_youtube_username_youtube_data_api_v3_about_title">YouTube Data API キーについて</string>
     <!-- PreferenceScreen: SponsorBlock -->
     <string name="revanced_preference_screen_sb_title">SponsorBlock</string>
     <string name="revanced_sb_enabled">Sponsor Block を有効化</string>

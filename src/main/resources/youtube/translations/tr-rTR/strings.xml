@@ -11,6 +11,7 @@
     <string name="revanced_extended_confirm_user_dialog_title">Devam etmek istiyor musunuz?</string>
     <string name="revanced_extended_restart_first_run">Düzeni normal şekilde yüklemek için yeniden başlatın</string>
     <string name="revanced_extended_restart_message">Yenile ve yeniden başlat</string>
+    <string name="revanced_extended_restart_first_run_rolling_number">"\?"</string>
     <string name="revanced_playback_speed_normal">Normal</string>
     <string name="revanced_external_downloader_package_name_video_title">Video indirici paket adı</string>
     <string name="revanced_external_downloader_package_name_video_summary">Yüklü olan harici indirme uygulamanızın paket adı, örneğin NewPipe veya YTDLnis gibi.</string>
@@ -30,6 +31,7 @@ Lütfen web sitesinden %2$s dosyasını indirin."</string>
     <string name="revanced_hide_merchandise_shelf_title">Ürünler kısmını gizle</string>
     <string name="revanced_hide_merchandise_shelf_summary_on">Ürünler rafı gizleniyor.</string>
     <string name="revanced_hide_merchandise_shelf_summary_off">Ürünler rafı gizlenmiyor.</string>
+    <string name="revanced_hide_player_store_shelf_title">\?</string>
     <string name="revanced_hide_paid_promotion_label_title">Ücretli tanıtım etiketini gizle</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">Ücretli tanıtım etiketi gizli.</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">Ücretli tanıtım etiketi gösteriliyor.</string>
@@ -297,7 +299,6 @@ Daha sonra kapatılırsa kullanıcı arayüzü hatalarını önlemek için uygul
     <string name="revanced_spoof_app_version_target_title">Uygulama hedef sürümünü kandırma hedefi</string>
     <string name="revanced_spoof_app_version_target_summary">Sahte uygulama sürümü hedefini seçin.</string>
     <string name="revanced_spoof_app_version_target_entry_title">Taklit edilecek sürüm</string>
-    <string name="revanced_spoof_app_version_target_entry_17_33_42">17.33.42 - Eski kullanıcı arayüzü düzenini geri yükle</string>
     <string name="revanced_spoof_app_version_target_entry_17_41_37">17.41.37 - Eski oynatma listesi raf düzenini geri yükle</string>
     <string name="revanced_spoof_app_version_target_entry_18_05_40">18.05.40 - Eski yorum girme düzenini geri yükle</string>
     <string name="revanced_spoof_app_version_target_entry_18_17_43">18.17.43 - Eski tarz oynatıcı açılır panelini geri yükleyin</string>
@@ -812,7 +813,7 @@ Geri almak için dokunun ve basılı tutun."</string>
     <string name="revanced_preference_screen_seekbar_title">Zaman çubuğu</string>
     <string name="revanced_preference_screen_seekbar_summary">Zaman çubuğu bileşenlerini özelleştir.</string>
     <string name="revanced_append_time_stamp_information_title">Süre sayacının yanına gösterge ekle</string>
-    <string name="revanced_append_time_stamp_information_summary_on">Süre sayacının yanına gösterge ekleniyor.</string>
+    <string name="revanced_append_time_stamp_information_summary_on">"Süre sayacının yanına gösterge ekleniyor."</string>
     <string name="revanced_append_time_stamp_information_summary_off">Süre sayacının yanına gösterge eklenmiyor.</string>
     <string name="revanced_append_time_stamp_information_type_title">Gösterilecek bilgi</string>
     <string name="revanced_append_time_stamp_information_type_summary_on">Videonun mevcut kalitesi gösteriliyor.</string>

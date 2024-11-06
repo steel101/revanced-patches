@@ -357,7 +357,6 @@ Si se desactiva más tarde, se recomienda borrar los datos de la aplicación par
     <string name="revanced_spoof_app_version_target_title">Editar versión falsa de la app</string>
     <string name="revanced_spoof_app_version_target_summary">Escribe la versión a falsificar de la app.</string>
     <string name="revanced_spoof_app_version_target_entry_title">Versión a falsificar de la app</string>
-    <string name="revanced_spoof_app_version_target_entry_17_33_42">17.33.42 - Restaura el antiguo diseño de la interfaz de usuario</string>
     <string name="revanced_spoof_app_version_target_entry_17_41_37">17.41.37 - Restaura la antigua estantería de listas de reproducción</string>
     <string name="revanced_spoof_app_version_target_entry_18_05_40">18.05.40 - Restaura la antigua caja de entrada de comentarios</string>
     <string name="revanced_spoof_app_version_target_entry_18_17_43">18.17.43 - Restaura el antiguo panel desplegable del reproductor</string>
@@ -640,9 +639,9 @@ Nota:
     <string name="revanced_hide_info_panel_title">Ocultar paneles de información</string>
     <string name="revanced_hide_info_panel_summary_on">Los paneles de información están ocultos.</string>
     <string name="revanced_hide_info_panel_summary_off">Los paneles de información están visibles.</string>
-    <string name="revanced_hide_live_chat_messages_title">Ocultar mensajes de chat en vivo</string>
-    <string name="revanced_hide_live_chat_messages_summary_on">Los mensajes de chat en vivo están ocultos.\n\nEsta configuración se aplica también a los videos en vivo de Shorts.</string>
-    <string name="revanced_hide_live_chat_messages_summary_off">Los mensajes de chat en vivo están visibles.\n\nEsta configuración se aplica también a los videos en vivo de Shorts.</string>
+    <string name="revanced_hide_live_chat_messages_title">Ocultar mensajes de chat en directo</string>
+    <string name="revanced_hide_live_chat_messages_summary_on">Los mensajes de chat en directo están ocultos.\n\nEste ajuste se aplica también a los vídeos en directo de Shorts.</string>
+    <string name="revanced_hide_live_chat_messages_summary_off">Los mensajes de chat en directo están visibles.\n\nEste ajuste se aplica también a los vídeos en directo de Shorts.</string>
     <string name="revanced_hide_medical_panel_title">Ocultar paneles médicos</string>
     <string name="revanced_hide_medical_panel_summary_on">Los paneles médicos están ocultos.</string>
     <string name="revanced_hide_medical_panel_summary_off">Los paneles médicos están visibles.</string>
@@ -844,7 +843,7 @@ Limitación: el título de vídeo desaparece cuando se pulsa."</string>
     <string name="revanced_hide_autoplay_preview_title">Ocultar contenedor de vista previa de reproducción automática</string>
     <string name="revanced_hide_autoplay_preview_summary_on">El contenedor de vista previa de reproducción automática está oculto.</string>
     <string name="revanced_hide_autoplay_preview_summary_off">El contenedor de vista previa de reproducción automática está visible.</string>
-    <string name="revanced_hide_live_chat_replay_button_title">Ocultar botón de repetición de chat en vivo</string>
+    <string name="revanced_hide_live_chat_replay_button_title">Ocultar botón de repetición de chat en directo</string>
     <string name="revanced_hide_live_chat_replay_button_summary_on">El botón de repetición de Live Chat está oculto.\n\nAparece en pantalla completa al cerrar el Live Chat.</string>
     <string name="revanced_hide_live_chat_replay_button_summary_off">Se muestra el botón de repetición del Live Chat.\n\nAparece en pantalla completa al cerrar el Live Chat.</string>
     <string name="revanced_hide_related_video_overlay_title">Ocultar superposición de vídeo relacionado</string>
@@ -989,7 +988,7 @@ Toca y mantén para deshacer."</string>
     <string name="revanced_preference_screen_seekbar_title">Barra de progreso</string>
     <string name="revanced_preference_screen_seekbar_summary">Personalizar los componentes de la barra de progreso.</string>
     <string name="revanced_append_time_stamp_information_title">Añadir información en marca de tiempo</string>
-    <string name="revanced_append_time_stamp_information_summary_on">La adición de información en la marca de tiempo está activada.</string>
+    <string name="revanced_append_time_stamp_information_summary_on">"La adición de información en la marca de tiempo está activada."</string>
     <string name="revanced_append_time_stamp_information_summary_off">La adición de información en la marca de tiempo está desactivada.</string>
     <string name="revanced_append_time_stamp_information_type_title">Añadir tipo de información</string>
     <string name="revanced_append_time_stamp_information_type_summary_on">Añadir calidad de vídeo.</string>
@@ -1042,6 +1041,9 @@ Efecto secundario: El tema Cairo también se aplica a los puntos de notificació
     <string name="revanced_disable_rolling_number_animations_title">Desactivar animaciones de números rodantes</string>
     <string name="revanced_disable_rolling_number_animations_summary_on">Los números rodantes no están animados.</string>
     <string name="revanced_disable_rolling_number_animations_summary_off">Los números rodantes están animados.</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_title">Ocultar sección de resumen de vídeo generado por IA</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_on">La sección de resumen de vídeo generado por IA está oculta.</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_off">La sección de resumen de vídeo generado por IA está visible.</string>
     <string name="revanced_hide_attributes_section_title">Ocultar sección de atributos</string>
     <string name="revanced_hide_attributes_section_summary_on">Las secciones de lugares destacados, juegos y música están ocultas.</string>
     <string name="revanced_hide_attributes_section_summary_off">Las secciones de lugares destacados, juegos y música están visibles.</string>

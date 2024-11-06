@@ -4,13 +4,13 @@
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
     <string name="revanced_extended_reset_to_default_toast">Επαναφέρθηκε στην προεπιλεγμένη τιμή.</string>
     <!-- Shared Category -->
-    <string name="revanced_extended_restart_first_run">Επανεκκίνηση ώστε να φορτωθεί σωστά η εφαρμογή</string>
+    <string name="revanced_extended_restart_first_run">Επανεκκίνηση ώστε να φορτωθεί σωστά η διάταξη</string>
     <string name="revanced_extended_restart_message">Ανανέωση και επανεκκίνηση</string>
     <!-- PreferenceScreen: Account -->
     <string name="revanced_preference_screen_account_title">Λογαριασμός</string>
     <string name="revanced_hide_account_menu_title">Φιλτράρισμα του μενού λογαριασμού</string>
     <string name="revanced_hide_account_menu_summary">Απόκρυψη στοιχείων του μενού λογαριασμού χρησιμοποιώντας προσαρμοσμένο φίλτρο.</string>
-    <string name="revanced_hide_account_menu_filter_strings_title">Αλλαγή φίλτρου του μενού λογαριασμού</string>
+    <string name="revanced_hide_account_menu_filter_strings_title">Επεξεργασία φίλτρου μενού λογαριασμού</string>
     <string name="revanced_hide_account_menu_filter_strings_summary">Λίστα ονομάτων των επιλογών του μενού λογαριασμού για φιλτράρισμα, διαχωρισμένα με νέες γραμμές.</string>
     <string name="revanced_hide_account_menu_empty_component_title">Απόκρυψη κενών στοιχείων</string>
     <string name="revanced_hide_account_menu_empty_component_summary">Απόκρυψη κενών στοιχείων στο μενού λογαριασμού.</string>
@@ -80,10 +80,10 @@
     <string name="revanced_hide_flyout_menu_3_column_component_title">Απόκρυψη στοιχείου 3 στηλών</string>
     <string name="revanced_hide_flyout_menu_add_to_queue_title">Απόκρυψη μενού «Προσθήκη στην ουρά»</string>
     <string name="revanced_hide_flyout_menu_captions_title">Απόκρυψη μενού «Υπότιτλοι»</string>
-    <string name="revanced_hide_flyout_menu_delete_playlist_title">Απόκρυψη μενού «Διαγραφή playlist»</string>
+    <string name="revanced_hide_flyout_menu_delete_playlist_title">Απόκρυψη μενού «Διαγραφή λίστας αναπαραγωγής»</string>
     <string name="revanced_hide_flyout_menu_dismiss_queue_title">Απόκρυψη μενού «Παράβλεψη ουράς»</string>
     <string name="revanced_hide_flyout_menu_download_title">Απόκρυψη μενού «Λήψη»</string>
-    <string name="revanced_hide_flyout_menu_edit_playlist_title">Απόκρυψη μενού «Επεξεργασία playlist»</string>
+    <string name="revanced_hide_flyout_menu_edit_playlist_title">Απόκρυψη μενού «Επεξεργασία λίστας αναπαραγωγής»</string>
     <string name="revanced_hide_flyout_menu_go_to_album_title">Απόκρυψη μενού «Μετάβαση στο άλμπουμ»</string>
     <string name="revanced_hide_flyout_menu_go_to_artist_title">Απόκρυψη μενού «Μετάβαση στον καλλιτέχνη»</string>
     <string name="revanced_hide_flyout_menu_go_to_episode_title">Απόκρυψη μενού «Μετάβαση στο επεισόδιο»</string>
@@ -91,12 +91,12 @@
     <string name="revanced_hide_flyout_menu_help_title">Απόκρυψη μενού «Βοήθεια &amp; σχόλια»</string>
     <string name="revanced_hide_flyout_menu_play_next_title">Απόκρυψη μενού «Αναπαραγωγή μετά»</string>
     <string name="revanced_hide_flyout_menu_quality_title">Απόκρυψη μενού «Ποιότητα»</string>
-    <string name="revanced_hide_flyout_menu_remove_from_library_title">Απόκρυψη μενού «Κατάργηση playlist από τη βιβλιοθήκη»</string>
-    <string name="revanced_hide_flyout_menu_remove_from_playlist_title">Απόκρυψη μενού «Κατάργηση από playlist»</string>
+    <string name="revanced_hide_flyout_menu_remove_from_library_title">Απόκρυψη μενού «Κατάργηση λίστας αναπαραγωγής από τη βιβλιοθήκη»</string>
+    <string name="revanced_hide_flyout_menu_remove_from_playlist_title">Απόκρυψη μενού «Κατάργηση από λίστα αναπαραγωγής»</string>
     <string name="revanced_hide_flyout_menu_report_title">Απόκρυψη μενού «Αναφορά»</string>
     <string name="revanced_hide_flyout_menu_save_episode_for_later_title">Απόκρυψη μενού «Αποθήκευση επεισοδίου για αργότερα»</string>
-    <string name="revanced_hide_flyout_menu_save_to_library_title">Απόκρυψη μενού «Αποθήκευση playlist στη Βιβλιοθήκη»</string>
-    <string name="revanced_hide_flyout_menu_save_to_playlist_title">Απόκρυψη μενού «Αποθήκευση στο playlist»</string>
+    <string name="revanced_hide_flyout_menu_save_to_library_title">Απόκρυψη μενού «Αποθήκευση λίστας αναπαραγωγής στη Βιβλιοθήκη»</string>
+    <string name="revanced_hide_flyout_menu_save_to_playlist_title">Απόκρυψη μενού «Αποθήκευση στη λίστα αναπαραγωγής»</string>
     <string name="revanced_hide_flyout_menu_share_title">Απόκρυψη μενού «Κοινοποίηση»</string>
     <string name="revanced_hide_flyout_menu_shuffle_play_title">Απόκρυψη μενού «Τυχαία αναπαραγωγή»</string>
     <string name="revanced_hide_flyout_menu_sleep_timer_title">Απόκρυψη μενού «Χρονόμετρο ύπνου»</string>
@@ -129,7 +129,7 @@
     <string name="revanced_disable_dislike_redirection_summary">Απενεργοποίηση της ανακατεύθυνσης στο επόμενο κομμάτι όταν πατάτε το κουμπί «Δεν μου αρέσει».</string>
     <string name="revanced_enable_landscape_mode_title">Ενεργοποίηση οριζόντιας λειτουργίας</string>
     <string name="revanced_enable_landscape_mode_summary">Ενεργοποίηση της οριζόντιας λειτουργίας με την περιστροφή της οθόνης.</string>
-    <string name="revanced_custom_filter_title">Χρήση προσαρμοσμένου φίλτρου</string>
+    <string name="revanced_custom_filter_title">Προσαρμοσμένο φίλτρο</string>
     <string name="revanced_custom_filter_summary">Χρήση προσαρμοσμένου φίλτρου για απόκρυψη στοιχείων διεπαφής.</string>
     <string name="revanced_custom_filter_strings_title">Επεξεργασία προσαρμοσμένου φίλτρου</string>
     <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
@@ -145,7 +145,7 @@
     <string name="revanced_hide_samples_shelf_summary">Απόκρυψη της ενότητας «Δείγματα» στη ροή.</string>
     <string name="revanced_hide_cast_button_title">Απόκρυψη κουμπιού μετάδοσης</string>
     <string name="revanced_hide_cast_button_summary">Απόκρυψη του κουμπιού μετάδοσης.</string>
-    <string name="revanced_hide_category_bar_title">Απόκρυψη γραμμής φίλτρων</string>
+    <string name="revanced_hide_category_bar_title">Απόκρυψη γραμμής κατηγοριών</string>
     <string name="revanced_hide_category_bar_summary">Απόκρυψη της γραμμής κατηγοριών.</string>
     <string name="revanced_hide_floating_button_title">Απόκρυψη αιωρούμενου κουμπιού</string>
     <string name="revanced_hide_floating_button_summary">Απόκρυψη του αιωρούμενου κουμπιού στην καρτέλα βιβλιοθήκης.</string>
@@ -164,8 +164,8 @@
     <string name="revanced_remove_viewer_discretion_dialog_title">Αφαίρεση παραθύρου ηλικιακού περιορισμού</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Αφαίρεση του παραθύρου προειδοποίησης ηλικιακού περιορισμού.
 Αυτό δεν παρακάμπτει τον ηλικιακό περιορισμό, απλά τον αποδέχεται αυτόματα."</string>
-    <string name="revanced_spoof_app_version_title">Τροποποίηση έκδοσης εφαρμογής</string>
-    <string name="revanced_spoof_app_version_summary">"Τροποποίηση έκδοσης εφαρμογής σε παλιότερη έκδοση.
+    <string name="revanced_spoof_app_version_title">Παραποίηση έκδοσης εφαρμογής</string>
+    <string name="revanced_spoof_app_version_summary">"Παραποίηση έκδοσης εφαρμογής σε παλιότερη έκδοση.
 
 • Αυτό θα αλλάξει την εμφάνιση της εφαρμογής, αλλά πιθανότατα να προκύψουν άγνωστα θέματα.
 • Αν αργότερα γίνει απενεργοποίηση, η παλιά εμφάνιση μπορεί να παραμείνει μέχρι να διαγραφούν τα δεδομένα της εφαρμογής."</string>
@@ -237,7 +237,7 @@
 Κάποιες λειτουργίες ενδέχεται να μη λειτουργούν σωστά στην παλιά εμφάνιση της οθόνης αναπαραγωγής."</string>
     <!-- PreferenceScreen: Settings menu -->
     <string name="revanced_preference_screen_settings_title">Μενού ρυθμίσεων</string>
-    <string name="revanced_hide_settings_menu_parent_tools_title">Απόκρυψη μενού «Οικογενειακό Κέντρο»</string>
+    <string name="revanced_hide_settings_menu_parent_tools_title">Απόκρυψη μενού «Κέντρο οικογένειας»</string>
     <string name="revanced_hide_settings_menu_general_title">Απόκρυψη μενού «Γενικά»</string>
     <string name="revanced_hide_settings_menu_playback_title">Απόκρυψη μενού «Αναπαραγωγή»</string>
     <string name="revanced_hide_settings_menu_data_saving_title">Απόκρυψη μενού «Εξοικονόμηση δεδομένων»</string>
@@ -375,7 +375,7 @@
     <string name="revanced_enable_opus_codec_title">Ενεργοποίηση κωδικοποιητή opus</string>
     <string name="revanced_enable_opus_codec_summary">"Ενεργοποίηση του κωδικοποιητή OPUS αν η ανταπόκριση του προγράμματος αναπαραγωγής τον περιλαμβάνει.
 
-Πληροφορία: Οι τελευταίες εκδόσεις Android χρησιμοποιούν τον κωδικοποιητή opus από προεπιλογή, οπότε αυτή η ρύθμιση ισχύει μόνο για χρήστες που χρησιμοποιούν τη λειτουργία τροποποίησης έκδοσης εφαρμογής, σε πολύ παλιές εκδόσεις."</string>
+Πληροφορία: Οι τελευταίες εκδόσεις Android χρησιμοποιούν τον κωδικοποιητή opus από προεπιλογή, οπότε αυτή η ρύθμιση ισχύει μόνο για χρήστες που χρησιμοποιούν τη λειτουργία παραποίησης έκδοσης εφαρμογής, σε πολύ παλιές εκδόσεις."</string>
     <string name="gms_core_settings_title">Άνοιγμα του MicroG GmsCore</string>
     <string name="gms_core_settings_summary">Ενεργοποιήστε τις ρυθμίσεις cloud messaging για να λαμβάνετε ειδοποιήσεις.</string>
     <string name="gms_core_toast_not_installed_message">Το MicroG GmsCore δεν είναι εγκατεστημένο. Εγκαταστήστε το.</string>

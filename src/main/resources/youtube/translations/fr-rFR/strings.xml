@@ -35,6 +35,9 @@ Veuillez télécharger %2$s à partir du site web."</string>
     <string name="revanced_hide_merchandise_shelf_title">Masquer l\'étagère \"Effectuer des achats...\"</string>
     <string name="revanced_hide_merchandise_shelf_summary_on">L\'étagère \"Effectuer des achats dans le magasin ...\" est masquée.</string>
     <string name="revanced_hide_merchandise_shelf_summary_off">L\'étagère \"Effectuer des achats dans le magasin ...\" est affichée.</string>
+    <string name="revanced_hide_player_store_shelf_title">Masquer l\'étagère des produits sur le lecteur</string>
+    <string name="revanced_hide_player_store_shelf_summary_on">L\'étagère des produits est masqué.</string>
+    <string name="revanced_hide_player_store_shelf_summary_off">L\'étagère des produits est affiché.</string>
     <string name="revanced_hide_paid_promotion_label_title">Masquer la bannière \"Communication commerciale\"</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">La bannière \"Inclut une communication commerciale\" est masqué.</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">La bannière \"Inclut une communication commerciale\" est affiché.</string>
@@ -126,6 +129,9 @@ Cliquez ici pour en savoir plus sur DeArrow."</string>
     <string name="revanced_hide_feed_survey_title">Masquer les sondages dans les flux</string>
     <string name="revanced_hide_feed_survey_summary_on">Les sondages dans les flux sont masqués.</string>
     <string name="revanced_hide_feed_survey_summary_off">Les sondages dans les flux sont affichés.</string>
+    <string name="revanced_hide_floating_button_title">Masquer les boutons flottants</string>
+    <string name="revanced_hide_floating_button_summary_on">Les boutons flottants sont masqués.</string>
+    <string name="revanced_hide_floating_button_summary_off">Les boutons flottants sont affichés.</string>
     <string name="revanced_hide_image_shelf_title">Masquer les étagères à images</string>
     <string name="revanced_hide_image_shelf_summary_on">Les étagères à images sont masquées.</string>
     <string name="revanced_hide_image_shelf_summary_off">Les étagères à images sont affichées.</string>
@@ -353,7 +359,6 @@ Si désactivé ultérieurement, il est recommandé d'effacer les données de l'a
     <string name="revanced_spoof_app_version_target_title">Saisir la version à falsifier</string>
     <string name="revanced_spoof_app_version_target_summary">Saisissez la version de l\'application à falsifier.</string>
     <string name="revanced_spoof_app_version_target_entry_title">Choisir la version à falsifier</string>
-    <string name="revanced_spoof_app_version_target_entry_17_33_42">17.33.42 - Restaure l\'ancienne interface</string>
     <string name="revanced_spoof_app_version_target_entry_17_41_37">17.41.37 - Restaure l\'ancien menu \"Playlist\"</string>
     <string name="revanced_spoof_app_version_target_entry_18_05_40">18.05.40 - Restaure l\'ancien menu \"Commentaires\"</string>
     <string name="revanced_spoof_app_version_target_entry_18_17_43">18.17.43 - Restaure l\'ancien menu déroulant du lecteur</string>
@@ -581,9 +586,9 @@ Vous → Afficher la chaîne → Menu → Paramètres"</string>
     <string name="revanced_hide_youtube_doodles_title">Masquer les Doodles YouTube</string>
     <string name="revanced_hide_youtube_doodles_summary_on">Les Doodles YouTube sont masqués.</string>
     <string name="revanced_hide_youtube_doodles_summary_off">Les Doodles YouTube sont affichés.</string>
-    <string name="revanced_hide_youtube_doodles_user_dialog_message">"Les Doodles YouTube apparaissent quelques jours par an.
+    <string name="revanced_hide_youtube_doodles_user_dialog_message">"Les Doodles YouTube apparaissent quelques fois par an.
 
-Si un Doodle YouTube est actuellement diffusé dans votre région et que le paramètre est activé, les filtres situés à côté de la barre de recherche sera également masquée."</string>
+Si un Doodle YouTube est actuellement diffusé dans votre région et que ce paramètre est activé, les filtres situés à côté de la barre de recherche sera également masquée."</string>
     <string name="revanced_replace_toolbar_create_button_title">Remplacer le bouton \"Créer\"</string>
     <string name="revanced_replace_toolbar_create_button_summary">Remplace le bouton \"Créer\" par le bouton \"Paramètre\".</string>
     <string name="revanced_replace_toolbar_create_button_type_title">Action à attribuer au bouton</string>
@@ -985,7 +990,7 @@ Appuyez longuement pour annuler."</string>
     <string name="revanced_preference_screen_seekbar_title">Barre de progression</string>
     <string name="revanced_preference_screen_seekbar_summary">Personnaliser les éléments de la barre de progression.</string>
     <string name="revanced_append_time_stamp_information_title">Ajouter info. à côté de la durée</string>
-    <string name="revanced_append_time_stamp_information_summary_on">L\'information est ajoutée à côté de l\'horodatage (durée de la vidéo).</string>
+    <string name="revanced_append_time_stamp_information_summary_on">"L'information est ajoutée à côté de l'horodatage (durée de la vidéo)."</string>
     <string name="revanced_append_time_stamp_information_summary_off">L\'information n\'est pas ajoutée à côté de l\'horodatage (durée de la vidéo).</string>
     <string name="revanced_append_time_stamp_information_type_title">Type d\'information à ajouter</string>
     <string name="revanced_append_time_stamp_information_type_summary_on">Ajoute la qualité vidéo.</string>
@@ -1004,9 +1009,9 @@ Appuyez longuement pour annuler."</string>
     <string name="revanced_hide_seekbar_title">Masquer la barre de progression</string>
     <string name="revanced_hide_seekbar_summary_on">La barre de progression sur le lecteur est masqué.</string>
     <string name="revanced_hide_seekbar_summary_off">La barre de progression sur le lecteur est affiché.</string>
-    <string name="revanced_hide_seekbar_thumbnail_title">Masq. barre de progression sur les miniatures</string>
-    <string name="revanced_hide_seekbar_thumbnail_summary_on">Les miniatures sur la barre de progression sont masqués.</string>
-    <string name="revanced_hide_seekbar_thumbnail_summary_off">Les miniatures sur la barre de progression sont affichés.</string>
+    <string name="revanced_hide_seekbar_thumbnail_title">Masq. barre de progression des miniatures</string>
+    <string name="revanced_hide_seekbar_thumbnail_summary_on">Les miniatures de la barre de progression sont masqués.</string>
+    <string name="revanced_hide_seekbar_thumbnail_summary_off">Les miniatures de la barre de progression sont affichés.</string>
     <string name="revanced_disable_seekbar_chapters_title">Désac. chapitres sur la barre de progression</string>
     <string name="revanced_disable_seekbar_chapters_summary_on">Les chapitres sont désactivés sur la barre de progression.</string>
     <string name="revanced_disable_seekbar_chapters_summary_off">Les chapitres sont activés sur la barre de progression.</string>
@@ -1018,7 +1023,15 @@ Appuyez longuement pour annuler."</string>
     <string name="revanced_hide_time_stamp_summary_off">L\'horodatage est affiché.</string>
     <string name="revanced_restore_old_seekbar_thumbnails_title">Restaure les anciennes miniatures de la barre de progression</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_on">Les anciennes miniatures sont affichées au-dessus de barre de progression.</string>
-    <string name="revanced_restore_old_seekbar_thumbnails_summary_off">Les miniatures sur la barre de progression sont affichées en mode plein écran.</string>
+    <string name="revanced_restore_old_seekbar_thumbnails_summary_off">Les miniatures de la barre de progression sont affichées en mode plein écran.</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_title">Activer les miniatures en haute qualité</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_summary_on">Les miniatures de la barre de progression sont en haute qualité.</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_summary_off">Les miniatures de la barre de sélection sont en qualité moyenne.</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_dialog_message">"Cela va restaurer les miniatures des diffusions en direct n'ayant pas de miniatures dans la barre de progression.
+
+L'utilisation des données Internet peut être plus élevée et les miniatures de la barre de progression s'afficheront avec un léger retard.
+
+Cette fonction fonctionne mieux avec une connexion internet très rapide."</string>
     <string name="revanced_enable_cairo_seekbar_title">Activer la barre de progression Cairo</string>
     <string name="revanced_enable_cairo_seekbar_summary_on">"La barre de progression Cairo est activé.
 
