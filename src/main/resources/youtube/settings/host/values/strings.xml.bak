@@ -1068,9 +1068,7 @@ Tap and hold to undo."</string>
 
     <string name="revanced_append_time_stamp_information_title">Append timestamp information</string>
     <string name="revanced_append_time_stamp_information_summary_on">"Information is appended to the timestamp.
-
-Tap to configure the video quality or playback speed.
-Tap and hold to toggle the appended information type."</string>
+Tap to configure the video quality or playback speed. Tap and hold to toggle the appended information type."</string>
     <string name="revanced_append_time_stamp_information_summary_off">Information is not appended to the timestamp.</string>
     <string name="revanced_append_time_stamp_information_type_title">Append information type</string>
     <string name="revanced_append_time_stamp_information_type_summary_on">Append video quality.</string>
