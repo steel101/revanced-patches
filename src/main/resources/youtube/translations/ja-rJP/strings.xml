@@ -235,6 +235,7 @@ DeArrow の詳細については、ここをタップしてください。"</str
 真ん中に大文字がある単語は、大文字と小文字を区別して入力する必要があります。(例: iPhone、TikTok、LeBlanc)"</string>
     <string name="revanced_hide_keyword_content_about_title">キーワードフィルタリングについて</string>
     <string name="revanced_hide_keyword_content_about_summary">"ホーム / 登録チャンネル / 検索結果 は、キーワードやフレーズに一致するコンテンツを非表示にするようにフィルタリングされます。
+
 注意:
 • 一部のショート動画は非表示にならない場合があります。
 • 一部の UI コンポーネントは非表示にならない場合があります。
@@ -278,8 +279,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_video_by_view_counts_about_summary">"ホーム / 登録チャンネル / 検索結果はフィルタリングされ、設定した値よりも少ない再生回数の動画を非表示にします。
 
 注意: 
-• ショート動画は非表示にできません。
-• 再生回数が 0 の動画はフィルタリングされません。"</string>
+・ショート動画は非表示にできません。
+・再生回数が 0 の動画はフィルタリングされません。"</string>
     <string name="revanced_hide_related_videos_title">関連動画を非表示</string>
     <string name="revanced_hide_related_videos_summary_on">ホームフィードから関連動画を非表示にします。</string>
     <string name="revanced_hide_related_videos_summary_off">ホームフィードから関連動画を非表示にします。</string>
@@ -420,8 +421,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_miniplayer_enable_double_tap_action_title">ダブルタップアクションを有効化</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_on">"ダブルタップアクションを有効化します。
 
-・モダン1: ダブルタップで、最小化された動画を大きなサイズに変更します。
-・モダン2, 3: ダブルタップで、最小化された動画を閉じます。"</string>
+・モダン 1: ダブルタップで、最小化された動画を大きなサイズに変更します。
+・モダン 2, 3: ダブルタップで、最小化された動画を閉じます。"</string>
     <string name="revanced_miniplayer_enable_double_tap_action_summary_off">ダブルタップアクションを有効化します。\n\n・モダン1: ダブルタップで、最小化された動画を大きなサイズに変更します。\n・モダン2, 3: ダブルタップで、最小化された動画を閉じます。</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_title">ドラッグ&amp;ドロップを有効化</string>
     <string name="revanced_miniplayer_enable_drag_and_drop_summary_on">ドラッグ&amp;ドロップを有効化します。</string>
@@ -886,8 +887,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_force_fullscreen_title">強制的に全画面表示</string>
     <string name="revanced_force_fullscreen_summary">"以下の状況で全画面に切り替わります: 
 
-• コメントのタイムスタンプをタップしたとき
-• 動画開始時"</string>
+・動画開始時
+・コメントのタイムスタンプをタップしたとき"</string>
     <string name="revanced_keep_landscape_mode_title">横画面モードを維持</string>
     <string name="revanced_keep_landscape_mode_summary">全画面表示時に、画面をオン/オフしても、横向きモードを維持します。</string>
     <string name="revanced_keep_landscape_mode_timeout_title">横画面モードのタイムアウトを維持</string>
@@ -1343,8 +1344,9 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_skip_preloaded_buffer_title">プリロードバッファをスキップ</string>
     <string name="revanced_skip_preloaded_buffer_summary">"動画開始時に予め読み込まれたバッファをスキップして、デフォルトの画質強制の遅延を回避します。
 
-• 動画開始時に約 0.3 秒の遅延が発生しますが、デフォルトの画質はすぐに適用されます。
-• HDR 動画、ライブ配信、15 秒未満の動画には適用されません。"</string>
+注意:
+・動画開始時に約 0.3 秒の遅延が発生しますが、デフォルトの画質はすぐに適用されます。
+・HDR 動画、ライブ配信、15 秒未満の動画には適用されません。"</string>
     <string name="revanced_skip_preloaded_buffer_user_dialog_message">この設定をオンにした場合、バッファリングの問題が発生する可能性があります。</string>
     <string name="revanced_skip_preloaded_buffer_toast_title">スキップ時にトーストを表示</string>
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">スキップ時にトーストを表示します。</string>
@@ -1690,15 +1692,20 @@ API キーの発行方法については、ここをタップしてください�
     <string name="revanced_spoof_streaming_data_type_entry_tvhtml5_simply_embedded_player">TV HTML5</string>
     <string name="revanced_spoof_streaming_data_type_entry_web">Web</string>
     <string name="revanced_spoof_streaming_data_side_effects_title">ストリーミングデータを偽装することによる副作用</string>
-    <string name="revanced_spoof_streaming_data_side_effects_ios">"• 映画や有料動画は再生できない場合があります。
-•ライブは最初から再生されます。
-• 動画が 1 秒早く終了する場合があります。
-• Opus オーディオ コーデックは使用できません。"</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios">"・映画や有料動画が再生できない場合があります。
+・ライブは最初から再生されます。
+・動画が 1 秒早く終了することがあります。
+・Opus オーディオコーデックがサポートされない可能性があります。"</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_compatibility">"・動画が 1 秒早く終了する可能性があります。
+・Opus オーディオコーデックはサポートされていない可能性があります。"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"・「音声トラック」メニューは表示されません。
 ・「一定音量」は使用できません。"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"•「音声トラック」メニューは表示されません。
 •「一定音量」は使用できません。"</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• 動画が再生できない可能性があります。</string>
+    <string name="revanced_spoof_streaming_data_ios_compatibility_title">iOS 互換モード</string>
+    <string name="revanced_spoof_streaming_data_ios_compatibility_summary_on">映画、有料動画、ライブを再生する時以外にのみ iOS クライアントに偽装します。</string>
+    <string name="revanced_spoof_streaming_data_ios_compatibility_summary_off">映画、有料動画、ライブを再生する時以外にのみ iOS クライアントに偽装します。</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">iOS クライアントで AVC (H.264) を強制</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">iOS クライアントで AVC コーデック (H.264) を強制します。</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">iOS クライアントで AVC コーデック (H.264) を強制します。</string>
