@@ -11,11 +11,6 @@
     <string name="revanced_extended_confirm_user_dialog_title">你想继续吗?</string>
     <string name="revanced_extended_restart_first_run">重启应用以正常加载界面布局</string>
     <string name="revanced_extended_restart_message">刷新并重启</string>
-    <string name="revanced_extended_restart_first_run_rolling_number">"YouTube 服务端的一个错误会导致一些用户隐藏像点赞数、播放量和上传日期这样的滚动数字文本
-
-此问题的临时解决方法是伪装应用版本为19.13.37
-
-您是否想要在重启应用程序之前伪装应用版本？"</string>
     <string name="revanced_playback_speed_normal">正常</string>
     <string name="revanced_external_downloader_package_name_video_title">视频下载器应用包名</string>
     <string name="revanced_external_downloader_package_name_video_summary">已安装的外部下载器应用的包名，例如 NewPipe 或 YTDLnis</string>
@@ -363,7 +358,6 @@
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - 恢复旧的 Shorts 选项卡</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - 恢复旧的默认视频质量行为</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">\"18.48.39 - 禁止实时更新“播放量”和“喜欢次数”</string>
-    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13.37 - 恢复旧版数字滚动动画风格</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">账户菜单</string>
     <string name="revanced_preference_screen_account_menu_summary">隐藏或显示账户菜单和“你”选项卡中的元素</string>

@@ -11,11 +11,6 @@
     <string name="revanced_extended_confirm_user_dialog_title">Você deseja continuar?</string>
     <string name="revanced_extended_restart_first_run">Reinicie para carregar o layout normalmente</string>
     <string name="revanced_extended_restart_message">Atualizar e reiniciar</string>
-    <string name="revanced_extended_restart_first_run_rolling_number">"Há um bug do lado do servidor do YouTube que faz com que o texto de números contínuos, como curtidas, visualizações e datas de upload, fique oculto para alguns usuários.
-
-Uma solução temporária para esse problema é falsificar a versão do aplicativo para 19.13.37.
-
-Você quer falsificar a versão do aplicativo antes de reiniciá-lo?"</string>
     <string name="revanced_playback_speed_normal">Normal</string>
     <string name="revanced_external_downloader_package_name_video_title">Nome do pacote do aplicativo de download de vídeo</string>
     <string name="revanced_external_downloader_package_name_video_summary">Nome do pacote do seu aplicativo de download externo instalado, como NewPipe ou YTDLnis.</string>
@@ -363,7 +358,6 @@ Se for desativado posteriormente, é recomendável limpar os dados do aplicativo
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - Restaurar barra de ação antiga do shorts</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Restaurar antigo comportamento padrão de qualidade de vídeo</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Desativa a atualização em tempo real de \'visualizações\' e \'curtidas\'</string>
-    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13.37 - Restaura as animações de números de rolagem do antigo estilo</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Menu da Conta</string>
     <string name="revanced_preference_screen_account_menu_summary">Ocultar ou mostrar elementos no menu de contas e na aba Você.</string>
@@ -1042,6 +1036,9 @@ Efeito colateral: o tema Cairo também é aplicado aos pontos de notificação."
     <string name="revanced_disable_rolling_number_animations_title">Desativar animações de rolagem de números</string>
     <string name="revanced_disable_rolling_number_animations_summary_on">As rolagens números não são animadas.</string>
     <string name="revanced_disable_rolling_number_animations_summary_off">As rolagens números são animadas.</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_title">Ocultar a seção de resumo de vídeo gerado por IA</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_on">A seção de resumo de vídeo gerado por IA está oculta.</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_off">A seção de resumo de vídeo gerado por IA será exibida.</string>
     <string name="revanced_hide_attributes_section_title">Ocultar seção de Atributos</string>
     <string name="revanced_hide_attributes_section_summary_on">As seções de lugares em destaque, jogos e música estão ocultas.</string>
     <string name="revanced_hide_attributes_section_summary_off">As seções de lugares em destaque, jogos e música serão exibidas.</string>

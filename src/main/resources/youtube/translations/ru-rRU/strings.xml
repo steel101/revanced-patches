@@ -11,11 +11,6 @@
     <string name="revanced_extended_confirm_user_dialog_title">Подтверждаете действие?</string>
     <string name="revanced_extended_restart_first_run">Перезапустить для правильной загрузки интерфейса?</string>
     <string name="revanced_extended_restart_message">Перезапустить для применения?</string>
-    <string name="revanced_extended_restart_first_run_rolling_number">"Существует ошибка на стороне YouTube, которую вызывает анимация прокручивания чисел - лайки, просмотры и даты загрузок будут скрыты для некоторых пользователей.
-
-Временный обход для этой проблемы - использовать версию приложения до 19.13.37.
-
-Вы хотите подменить версию приложения перед перезагрузкой?"</string>
     <string name="revanced_playback_speed_normal">Обычная</string>
     <string name="revanced_external_downloader_package_name_video_title">Внешний загрузчик для видео, название пакета</string>
     <string name="revanced_external_downloader_package_name_video_summary">Например: NewPipe или YTDLnis, или др.</string>
@@ -374,7 +369,6 @@ Shorts
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - Восстановление старой панели действий Shorts</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Восстановление старого поведения качества видео по умолчанию</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Отключение обновления \"просмотров\" и \"лайков\" в реальном времени</string>
-    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13.37 - Старый стиль анимаций - прокручивание чисел</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Меню аккаунта</string>
     <string name="revanced_preference_screen_account_menu_summary">Настройка меню аккаунта и вкладки Вы.</string>
@@ -1054,6 +1048,9 @@ Shorts
     <string name="revanced_disable_rolling_number_animations_title">Анимация прокручивания чисел</string>
     <string name="revanced_disable_rolling_number_animations_summary_on">Анимация прокручивания чисел отключена.</string>
     <string name="revanced_disable_rolling_number_animations_summary_off">Анимация прокручивания чисел включена.</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_title">Краткое содержание в видео сгенерированное ИИ</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_on">Краткое содержание ИИ скрыто.</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_off">Краткое содержание ИИ отображено.</string>
     <string name="revanced_hide_attributes_section_title">Секция атрибутов</string>
     <string name="revanced_hide_attributes_section_summary_on">Секция атрибутов (Особенные места, Игры, Музыка) скрыта.</string>
     <string name="revanced_hide_attributes_section_summary_off">Секция атрибутов (Особенные места, Игры, Музыка) отображена.</string>

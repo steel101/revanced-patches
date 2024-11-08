@@ -11,11 +11,6 @@
     <string name="revanced_extended_confirm_user_dialog_title">Szeretnéd folytatni?</string>
     <string name="revanced_extended_restart_first_run">Indítsa újra a rendszert a normál elrendezés betöltéséhez</string>
     <string name="revanced_extended_restart_message">Frissítés és újraindítás</string>
-    <string name="revanced_extended_restart_first_run_rolling_number">"Van egy YouTube szerveroldali hiba, ami miatt a gördülő számokat tartalmazó szövegek, például a tetszésnyilvánítások, a megtekintések és a feltöltési dátumok el vannak rejtve egyes felhasználók számára.
-
-A probléma ideiglenes megoldása az alkalmazás verziójának 19.13.37-re való hamisítása.
-
-Szeretné hamisítani az alkalmazás verzióját az alkalmazás újraindítása előtt?"</string>
     <string name="revanced_playback_speed_normal">Normál</string>
     <string name="revanced_external_downloader_package_name_video_title">Videó letöltő csomag neve</string>
     <string name="revanced_external_downloader_package_name_video_summary">A telepített külső letöltő alkalmazás csomagneve, például NewPipe vagy YTDLnis.</string>
@@ -361,7 +356,6 @@ Ha kikapcsolja, akkor ajánlott törölni az app adatait, hogy elkerülje a UI h
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - Régi Shorts művelet sáv visszaállítása</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Visszaállítja a régi alapértelmezett videó minőség viselkedést</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Letiltja a \'Megtekintések\' és a \'Kedvelések\' valós idejű frissítését</string>
-    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13.37 - Visszaállítja a régi stílusú gördülő szám animációkat</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Fiók menü</string>
     <string name="revanced_preference_screen_account_menu_summary">Elemek elrejtése vagy megjelenítése a fiók menüben és a Te fülön.</string>
@@ -675,8 +669,8 @@ Beállítások → Automatikus lejátszás → Következő videó automatikus le
     <string name="revanced_hide_clip_button_title">Klip gomb elrejtése</string>
     <string name="revanced_hide_clip_button_summary_on">A klip gomb el van rejtve.</string>
     <string name="revanced_hide_clip_button_summary_off">A klip gomb látható.</string>
-    <string name="revanced_hide_download_button_title">Letöltés elrejtése</string>
-    <string name="revanced_hide_download_button_summary_on">A letöltés gomb el van rejtve</string>
+    <string name="revanced_hide_download_button_title">Letöltés gomb elrejtése</string>
+    <string name="revanced_hide_download_button_summary_on">A letöltés gomb el van rejtve.</string>
     <string name="revanced_hide_download_button_summary_off">A letöltés gomb látható</string>
     <string name="revanced_hide_like_dislike_button_title">Tetszik és nem tetszik elrejtése</string>
     <string name="revanced_hide_like_dislike_button_summary_on">A tetszik és nem tetszik gombok rejtve vannak</string>
@@ -1035,6 +1029,9 @@ Mellékhatás: a Cairo stílus az értesítési pontokra is alkalmazódik."</str
     <string name="revanced_disable_rolling_number_animations_title">Gördülőszám-animációk letiltása</string>
     <string name="revanced_disable_rolling_number_animations_summary_on">A gördülő számok nem animáltak</string>
     <string name="revanced_disable_rolling_number_animations_summary_off">A gördülő számok animálva vannak</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_title">AI generált videó összefoglaló rész elrejtése</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_on">Az AI generált videó összefoglaló rész el van rejtve.</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_off">Az AI generált videó összefoglaló rész látható.</string>
     <string name="revanced_hide_attributes_section_title">Tulajdonságok szakasz elrejtése</string>
     <string name="revanced_hide_attributes_section_summary_on">A kiemelt helyek, a Játékok és a Zene szakaszok elrejtve.</string>
     <string name="revanced_hide_attributes_section_summary_off">A kiemelt helyek, a Játékok és a Zene szakaszok láthatóak.</string>

@@ -339,7 +339,6 @@
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - Възстановяване на старата лентата с действия за Shorts</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Възстановяване на старото поведение на качеството на видеото по подразбиране</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Деактивира изгледите и харесванията да се актуализират в реално време</string>
-    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13.37 - Стар стил на анимация - въртящи се числа</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Меню на акаунта</string>
     <string name="revanced_preference_screen_account_menu_summary">Скриване или показване на елементи в менюто на акаунта и раздела Вие.</string>

@@ -11,11 +11,6 @@
     <string name="revanced_extended_confirm_user_dialog_title">続行しますか？</string>
     <string name="revanced_extended_restart_first_run">再起動してレイアウトを正常に読み込みます</string>
     <string name="revanced_extended_restart_message">再起動して設定を適用します</string>
-    <string name="revanced_extended_restart_first_run_rolling_number">"YouTube サーバー側のバグにより、高評価数、再生回数、アップロード日などの数字の回転アニメーションが一部のユーザーに対して非表示になります。
-
-この問題は、アプリのバージョンを 19.13.37 に偽装することで回避できます。(一時的な回避策)
-
-アプリを再起動する前にアプリのバージョンを偽装しますか？"</string>
     <string name="revanced_playback_speed_normal">通常</string>
     <string name="revanced_external_downloader_package_name_video_title">外部ダウンローダーのパッケージ名</string>
     <string name="revanced_external_downloader_package_name_video_summary">NewPipe や YTDLnis などの、インストールされている外部ダウンローダーアプリのパッケージ名です。</string>
@@ -125,8 +120,8 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_hide_feed_search_bar_summary_on">フィードから検索バーを非表示にします。</string>
     <string name="revanced_hide_feed_search_bar_summary_off">フィードから検索バーを非表示にします。</string>
     <string name="revanced_hide_feed_survey_title">アンケートを非表示</string>
-    <string name="revanced_hide_feed_survey_summary_on">ホームページと登録チャンネルフィードからアンケートを非表示にします。</string>
-    <string name="revanced_hide_feed_survey_summary_off">ホームページと登録チャンネルフィードからアンケートを非表示にします。</string>
+    <string name="revanced_hide_feed_survey_summary_on">ホームページと登録チャンネルページからアンケートを非表示にします。</string>
+    <string name="revanced_hide_feed_survey_summary_off">ホームページと登録チャンネルページからアンケートを非表示にします。</string>
     <string name="revanced_hide_floating_button_title">フローティングボタンを非表示</string>
     <string name="revanced_hide_floating_button_summary_on">ホームフィードの右下にある「フィードを調整する」ボタンを非表示にします。</string>
     <string name="revanced_hide_floating_button_summary_off">ホームフィードの右下にある「フィードを調整する」ボタンを非表示にします。</string>
@@ -367,7 +362,6 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - ショートの古いアクションバーを復元</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - 以前のデフォルトの画質の動作を復元</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - リアルタイムで更新される再生回数と高評価数を無効化</string>
-    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13.37 - 古いスタイルの数字の回転アニメーションを復元</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">「アカウント」メニュー</string>
     <string name="revanced_preference_screen_account_menu_summary">「アカウント」メニューと「マイページ」タブで要素を非表示または表示します。</string>
@@ -986,7 +980,9 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_preference_screen_seekbar_title">シークバー</string>
     <string name="revanced_preference_screen_seekbar_summary">シークバーのコンポーネントをカスタマイズします。</string>
     <string name="revanced_append_time_stamp_information_title">タイムスタンプの横に情報を追加</string>
-    <string name="revanced_append_time_stamp_information_summary_on">"タイムスタンプの横に情報を表示します。"</string>
+    <string name="revanced_append_time_stamp_information_summary_on">"タイムスタンプの横に情報を表示します。
+
+タップして画質または再生速度を変更できます。長押しすると、表示する情報の種類を切り替えることができます。"</string>
     <string name="revanced_append_time_stamp_information_summary_off">タイムスタンプの横に情報を表示します。</string>
     <string name="revanced_append_time_stamp_information_type_title">表示する情報の種類</string>
     <string name="revanced_append_time_stamp_information_type_summary_on">現在の設定: 画質を表示します。</string>
@@ -1039,6 +1035,9 @@ DeArrow の詳細については、ここをタップしてください。"</str
     <string name="revanced_disable_rolling_number_animations_title">数字の回転アニメーションを無効化</string>
     <string name="revanced_disable_rolling_number_animations_summary_on">高評価数と視聴回数の回転アニメーションを無効にします。</string>
     <string name="revanced_disable_rolling_number_animations_summary_off">高評価数と視聴回数の回転アニメーションを無効にします。</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_title">AI 生成の要約欄を非表示</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_on">概要欄にある「AI による動画の要約」欄を非表示にします。</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_off">概要欄にある「AI による動画の要約」欄を非表示にします。</string>
     <string name="revanced_hide_attributes_section_title">提案セクションを非表示</string>
     <string name="revanced_hide_attributes_section_summary_on">注目の場所、ゲーム、音楽セクションを非表示にします。</string>
     <string name="revanced_hide_attributes_section_summary_off">注目の場所、ゲーム、音楽セクションを非表示にします。</string>

@@ -11,11 +11,6 @@
     <string name="revanced_extended_confirm_user_dialog_title">Бажаєте продовжити?</string>
     <string name="revanced_extended_restart_first_run">Перезапустіть, щоб нормально завантажився макет</string>
     <string name="revanced_extended_restart_message">Поновити й перезапустити</string>
-    <string name="revanced_extended_restart_first_run_rolling_number">"Помилка зі сторони сервера YouTube спричиняє приховування тексту лічильників таких як вподобайки, перегляди, та дати завантаження для деяких користувачів.
-
-Тимчасовим вирішенням цієї проблеми є підміна версії програми на 19.13.37.
-
-Бажаєте підмінити версію програми перед перезапуском програми?"</string>
     <string name="revanced_playback_speed_normal">Стандартна</string>
     <string name="revanced_external_downloader_package_name_video_title">Ім\'я пакета завантажувача відео</string>
     <string name="revanced_external_downloader_package_name_video_summary">Ім\'я пакета встановленого зовнішнього завантажувача, наприклад NewPipe або YTDLnis.</string>
@@ -118,15 +113,15 @@
     <string name="revanced_hide_expandable_shelf_title">Приховати висувні полиці</string>
     <string name="revanced_hide_expandable_shelf_summary_on">Висувні полиці приховано.</string>
     <string name="revanced_hide_expandable_shelf_summary_off">Висувні полиці показується.</string>
-    <string name="revanced_hide_feed_captions_button_title">Приховати кнопку субтитрів в стрічці</string>
+    <string name="revanced_hide_feed_captions_button_title">Приховати кнопку Субтитри</string>
     <string name="revanced_hide_feed_captions_button_on">Кнопку субтитрів приховано.</string>
     <string name="revanced_hide_feed_captions_button_off">Кнопку субтитрів показується.</string>
-    <string name="revanced_hide_feed_search_bar_title">Приховати панель пошуку в стрічці</string>
-    <string name="revanced_hide_feed_search_bar_summary_on">Панель пошуку в стрічці приховано.</string>
-    <string name="revanced_hide_feed_search_bar_summary_off">Панель пошуку в стрічці показується.</string>
-    <string name="revanced_hide_feed_survey_title">Приховати опитування в стрічці</string>
-    <string name="revanced_hide_feed_survey_summary_on">Опитування в стрічці приховано.</string>
-    <string name="revanced_hide_feed_survey_summary_off">Опитування в стрічці показується.</string>
+    <string name="revanced_hide_feed_search_bar_title">Приховати панель пошуку</string>
+    <string name="revanced_hide_feed_search_bar_summary_on">Панель пошуку приховано.</string>
+    <string name="revanced_hide_feed_search_bar_summary_off">Панель пошуку показується.</string>
+    <string name="revanced_hide_feed_survey_title">Приховати опитування</string>
+    <string name="revanced_hide_feed_survey_summary_on">Опитування приховано.</string>
+    <string name="revanced_hide_feed_survey_summary_off">Опитування показується.</string>
     <string name="revanced_hide_floating_button_title">Приховати плавучу кнопку</string>
     <string name="revanced_hide_floating_button_summary_on">Плавучу кнопку приховано.</string>
     <string name="revanced_hide_floating_button_summary_off">Плавучу кнопку показується.</string>
@@ -363,7 +358,6 @@
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - відновлення старої панелі дій Shorts</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Відновлення старої поведінки типової якості відео</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Виключає \'переглянуті\' та \'вподобані\' з оновлення в режимі реального часу</string>
-    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13.37 - Відновлення старого стилю анімації лічильників</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Меню облікового запису</string>
     <string name="revanced_preference_screen_account_menu_summary">Приховувати чи показувати елементи меню облікового запису і вкладки Ви.</string>
@@ -988,8 +982,11 @@
     <string name="revanced_preference_screen_seekbar_title">Панель прогресу</string>
     <string name="revanced_preference_screen_seekbar_summary">Налаштуйте компоненти панелі прогресу.</string>
     <string name="revanced_append_time_stamp_information_title">Додавати інформацію біля мітки часу</string>
-    <string name="revanced_append_time_stamp_information_summary_on">"Додавання інформації біля мітки часу увімкнено."</string>
-    <string name="revanced_append_time_stamp_information_summary_off">Додавання інформації біля мітки часу вимкнено.</string>
+    <string name="revanced_append_time_stamp_information_summary_on">"Інформацію додається до мітки часу.
+
+Натисніть, щоб налаштувати якість відео або швидкість відтворення.
+Натисніть і утримуйте для перемикання типу доданої інформації."</string>
+    <string name="revanced_append_time_stamp_information_summary_off">Інформацію не додається до мітки часу.</string>
     <string name="revanced_append_time_stamp_information_type_title">Тип додаваної інформації</string>
     <string name="revanced_append_time_stamp_information_type_summary_on">Додається якість відео.</string>
     <string name="revanced_append_time_stamp_information_type_summary_off">Додається швидкість відтворення.</string>
@@ -1041,6 +1038,9 @@
     <string name="revanced_disable_rolling_number_animations_title">Вимкнути анімації лічильників</string>
     <string name="revanced_disable_rolling_number_animations_summary_on">Лічильники не анімовані.</string>
     <string name="revanced_disable_rolling_number_animations_summary_off">Лічильники анімовані.</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_title">Приховати секцію короткого змісту відео, згенерованого ШІ</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_on">Секцію короткого змісту відео, згенерованого ШІ приховано.</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_off">Секцію короткого змісту відео, згенерованого ШІ показується.</string>
     <string name="revanced_hide_attributes_section_title">Приховати секції атрибутів</string>
     <string name="revanced_hide_attributes_section_summary_on">Секції Місця на відео, Ігри та Музика приховано.</string>
     <string name="revanced_hide_attributes_section_summary_off">Секції Місця на відео, Ігри та Музика показується.</string>

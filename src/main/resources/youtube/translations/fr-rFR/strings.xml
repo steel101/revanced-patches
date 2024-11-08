@@ -11,11 +11,6 @@
     <string name="revanced_extended_confirm_user_dialog_title">Voulez-vous continuer ?</string>
     <string name="revanced_extended_restart_first_run">Redémarrer pour charger l\'interface correctement</string>
     <string name="revanced_extended_restart_message">Appliquer et redémarrer ?</string>
-    <string name="revanced_extended_restart_first_run_rolling_number">"Il existe un bug côté serveur de YouTube qui empêche l'animation en temps réel des nombres, tels que les mentions \"J'aime\", les vues et les dates de mise en ligne pour certains utilisateurs.
-
-Un moyen de contourner temporairement ce problème est de falsifier la version de l'application en version 19.13.37.
-
-Voulez-vous falsifier la version de l'application et redémarrer ?"</string>
     <string name="revanced_playback_speed_normal">Normal</string>
     <string name="revanced_external_downloader_package_name_video_title">Nom du paquet du téléchargeur vidéo</string>
     <string name="revanced_external_downloader_package_name_video_summary">Nom du paquet de l\'appli de téléchargement externe installée, telle que NewPipe ou YTDLnis.</string>
@@ -120,15 +115,15 @@ Cliquez ici pour en savoir plus sur DeArrow."</string>
     <string name="revanced_hide_expandable_shelf_title">Masquer les étagères coulissantes</string>
     <string name="revanced_hide_expandable_shelf_summary_on">Les étagères coulissantes sont masqués.</string>
     <string name="revanced_hide_expandable_shelf_summary_off">Les étagères coulissantes sont affichés.</string>
-    <string name="revanced_hide_feed_captions_button_title">Masquer les \"Sous-titres\" dans les flux</string>
+    <string name="revanced_hide_feed_captions_button_title">Masquer le bouton \"Sous-titres\"</string>
     <string name="revanced_hide_feed_captions_button_on">Le bouton \"Sous-titres\" est masqué.</string>
     <string name="revanced_hide_feed_captions_button_off">Le bouton \"Sous-titres\" est affiché.</string>
-    <string name="revanced_hide_feed_search_bar_title">Masquer barre de recherche dans les flux</string>
-    <string name="revanced_hide_feed_search_bar_summary_on">La barre de recherche dans les flux sont masqués.</string>
-    <string name="revanced_hide_feed_search_bar_summary_off">La barre de recherche dans les flux sont affichés.</string>
-    <string name="revanced_hide_feed_survey_title">Masquer les sondages dans les flux</string>
-    <string name="revanced_hide_feed_survey_summary_on">Les sondages dans les flux sont masqués.</string>
-    <string name="revanced_hide_feed_survey_summary_off">Les sondages dans les flux sont affichés.</string>
+    <string name="revanced_hide_feed_search_bar_title">Masquer barre de recherche</string>
+    <string name="revanced_hide_feed_search_bar_summary_on">La barre de recherche est masqué.</string>
+    <string name="revanced_hide_feed_search_bar_summary_off">La barre de recherche est affiché.</string>
+    <string name="revanced_hide_feed_survey_title">Masquer les sondages</string>
+    <string name="revanced_hide_feed_survey_summary_on">Les sondages sont masqués.</string>
+    <string name="revanced_hide_feed_survey_summary_off">Les sondages sont affichés.</string>
     <string name="revanced_hide_floating_button_title">Masquer les boutons flottants</string>
     <string name="revanced_hide_floating_button_summary_on">Les boutons flottants sont masqués.</string>
     <string name="revanced_hide_floating_button_summary_off">Les boutons flottants sont affichés.</string>
@@ -365,7 +360,6 @@ Si désactivé ultérieurement, il est recommandé d'effacer les données de l'a
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - Restaure l\'ancienne barre d\'action Shorts</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Restaure l\'ancien menu de qualité vidéo</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Désactive les \"vues\" et \"j\'aime\" en temps réel</string>
-    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13.37 - Restaure l\'ancienne animation en temps réel des nombres</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Menu du compte</string>
     <string name="revanced_preference_screen_account_menu_summary">Masque ou affiche des éléments dans le menu du compte et dans l\'onglet \"Vous\".</string>
@@ -990,7 +984,10 @@ Appuyez longuement pour annuler."</string>
     <string name="revanced_preference_screen_seekbar_title">Barre de progression</string>
     <string name="revanced_preference_screen_seekbar_summary">Personnaliser les éléments de la barre de progression.</string>
     <string name="revanced_append_time_stamp_information_title">Ajouter info. à côté de la durée</string>
-    <string name="revanced_append_time_stamp_information_summary_on">"L'information est ajoutée à côté de l'horodatage (durée de la vidéo)."</string>
+    <string name="revanced_append_time_stamp_information_summary_on">"L'information est ajoutée à côté de l'horodatage. (durée de la vidéo).
+
+Appuyez pour configurer la qualité vidéo ou la vitesse de lecture.
+Appuyez longuement pour modifier le type d'information ajouté."</string>
     <string name="revanced_append_time_stamp_information_summary_off">L\'information n\'est pas ajoutée à côté de l\'horodatage (durée de la vidéo).</string>
     <string name="revanced_append_time_stamp_information_type_title">Type d\'information à ajouter</string>
     <string name="revanced_append_time_stamp_information_type_summary_on">Ajoute la qualité vidéo.</string>
@@ -1043,6 +1040,9 @@ Effet secondaire : le thème Cairo peut également s'appliquer sur les points d
     <string name="revanced_disable_rolling_number_animations_title">Désactiver l\'animation en temps réel des nombres</string>
     <string name="revanced_disable_rolling_number_animations_summary_on">Animation en temps réel des nombres est désactivé.</string>
     <string name="revanced_disable_rolling_number_animations_summary_off">Animation en temps réel des nombres est activé.</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_title">Masquer la section \"Résumé vidéo générée par IA\"</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_on">La section \"Résumé de la vidéo générée par l\'IA\" est masquée.</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_off">La section \"Résumé de la vidéo générée par l\'IA\" est affichée.</string>
     <string name="revanced_hide_attributes_section_title">Masquer la section \"Mentions\"</string>
     <string name="revanced_hide_attributes_section_summary_on">Les sections \"Lieux Populaires\", \"Jeux\" et \"Musique\" présent sous la description sont masquées.</string>
     <string name="revanced_hide_attributes_section_summary_off">Les sections \"Lieux Populaires\", \"Jeux\" et \"Musique\" présent sous la description sont affichés.</string>
@@ -1237,9 +1237,9 @@ Limitations :
     <string name="revanced_enable_shorts_time_stamp_summary_off">L\'horodatage est désactivé.</string>
     <string name="revanced_shorts_time_stamp_change_repeat_state_title">Action de l\'horodatage appui long</string>
     <string name="revanced_shorts_time_stamp_change_repeat_state_summary">Appuyez longuement sur l\'horodatage pour modifier l\'état de répétition des Shorts.</string>
-    <string name="revanced_shorts_meta_panel_bottom_margin_title">Marge en bas du panneau Meta</string>
-    <string name="revanced_shorts_meta_panel_bottom_margin_summary">Configurer l\'espace de la barre de progression au panneau méta, entre 0-64.</string>
-    <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">La marge en bas du panneau méta doit être entre 0-64.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_title">Marge en bas du panneau meta</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_summary">Configurer l\'espace de la barre de progression au panneau meta, entre 0-64.</string>
+    <string name="revanced_shorts_meta_panel_bottom_margin_invalid_toast">La marge en bas du panneau meta doit être entre 0-64.</string>
     <string name="revanced_hide_shorts_toolbar_title">Masquer la barre d\'outils</string>
     <string name="revanced_hide_shorts_toolbar_summary_on">La barre d\'outils est masqué.</string>
     <string name="revanced_hide_shorts_toolbar_summary_off">La barre d\'outils est affiché.</string>
