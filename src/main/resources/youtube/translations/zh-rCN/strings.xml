@@ -11,11 +11,6 @@
     <string name="revanced_extended_confirm_user_dialog_title">你想继续吗?</string>
     <string name="revanced_extended_restart_first_run">重启应用以正常加载界面布局</string>
     <string name="revanced_extended_restart_message">刷新并重启</string>
-    <string name="revanced_extended_restart_first_run_rolling_number">"YouTube 服务端的一个错误会导致一些用户隐藏像点赞数、播放量和上传日期这样的滚动数字文本
-
-此问题的临时解决方法是伪装应用版本为19.13.37
-
-您是否想要在重启应用程序之前伪装应用版本？"</string>
     <string name="revanced_playback_speed_normal">正常</string>
     <string name="revanced_external_downloader_package_name_video_title">视频下载器应用包名</string>
     <string name="revanced_external_downloader_package_name_video_summary">已安装的外部下载器应用的包名，例如 NewPipe 或 YTDLnis</string>
@@ -35,6 +30,9 @@
     <string name="revanced_hide_merchandise_shelf_title">隐藏商品栏</string>
     <string name="revanced_hide_merchandise_shelf_summary_on">商品栏已隐藏</string>
     <string name="revanced_hide_merchandise_shelf_summary_off">商品栏已显示</string>
+    <string name="revanced_hide_player_store_shelf_title">隐藏播放器商店栏</string>
+    <string name="revanced_hide_player_store_shelf_summary_on">商店栏已隐藏</string>
+    <string name="revanced_hide_player_store_shelf_summary_off">商店栏已显示</string>
     <string name="revanced_hide_paid_promotion_label_title">隐藏付费推广横幅</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">付费推广横幅已隐藏</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">付费推广横幅已显示</string>
@@ -126,6 +124,9 @@
     <string name="revanced_hide_feed_survey_title">隐藏问卷调查</string>
     <string name="revanced_hide_feed_survey_summary_on">问卷调查已隐藏</string>
     <string name="revanced_hide_feed_survey_summary_off">问卷调查已显示</string>
+    <string name="revanced_hide_floating_button_title">隐藏悬浮按钮</string>
+    <string name="revanced_hide_floating_button_summary_on">悬浮按钮已隐藏</string>
+    <string name="revanced_hide_floating_button_summary_off">悬浮按钮已显示</string>
     <string name="revanced_hide_image_shelf_title">隐藏图片栏</string>
     <string name="revanced_hide_image_shelf_summary_on">图片栏已隐藏</string>
     <string name="revanced_hide_image_shelf_summary_off">图片栏已显示</string>
@@ -351,14 +352,12 @@
     <string name="revanced_spoof_app_version_target_title">编辑伪装应用版本</string>
     <string name="revanced_spoof_app_version_target_summary">选择伪装的应用版本</string>
     <string name="revanced_spoof_app_version_target_entry_title">伪装应用版本</string>
-    <string name="revanced_spoof_app_version_target_entry_17_33_42">17.33.42 - 恢复旧版UI布局</string>
     <string name="revanced_spoof_app_version_target_entry_17_41_37">17.41.37 - 恢复旧版的播放列表</string>
     <string name="revanced_spoof_app_version_target_entry_18_05_40">18.05.40 - 恢复旧版评论输入框</string>
     <string name="revanced_spoof_app_version_target_entry_18_17_43">18.17.43 - 恢复旧版播放器弹出设置面板</string>
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - 恢复旧的 Shorts 选项卡</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - 恢复旧的默认视频质量行为</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">\"18.48.39 - 禁止实时更新“播放量”和“喜欢次数”</string>
-    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13.37 - 恢复旧版数字滚动动画风格</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">账户菜单</string>
     <string name="revanced_preference_screen_account_menu_summary">隐藏或显示账户菜单和“你”选项卡中的元素</string>
@@ -981,7 +980,7 @@
     <string name="revanced_preference_screen_seekbar_title">进度条</string>
     <string name="revanced_preference_screen_seekbar_summary">自定义进度条组件</string>
     <string name="revanced_append_time_stamp_information_title">添加时间戳信息</string>
-    <string name="revanced_append_time_stamp_information_summary_on">添加时间戳信息已显示</string>
+    <string name="revanced_append_time_stamp_information_summary_on">"添加时间戳信息已显示"</string>
     <string name="revanced_append_time_stamp_information_summary_off">添加时间戳信息已关闭</string>
     <string name="revanced_append_time_stamp_information_type_title">添加信息类型</string>
     <string name="revanced_append_time_stamp_information_type_summary_on">添加视频分辨率。播放视频时，长按时间戳可更改类型</string>
@@ -1015,6 +1014,14 @@
     <string name="revanced_restore_old_seekbar_thumbnails_title">恢复旧的进度条缩略图</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_on">将进度条缩略图显示在进度条上方</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_off">在全屏模式下显示进度条缩略图</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_title">启用高质量缩略图</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_summary_on">进度条缩略图将会以高质量显示</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_summary_off">进度条缩略图将会以中质量显示</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_dialog_message">"这将恢复没有进度条缩略图的直播的缩略图
+
+互联网数据使用量可能会增加，进度条缩略图会在轻微延迟后显示
+
+此功能在非常快速的互联网连接下效果最佳"</string>
     <string name="revanced_enable_cairo_seekbar_title">启用 Cairo 搜索栏</string>
     <string name="revanced_enable_cairo_seekbar_summary_on">"Cairo 搜索栏已启用
 
@@ -1289,8 +1296,8 @@
     <string name="revanced_default_video_quality_mobile_title">移动网络的默认视频画质</string>
     <string name="revanced_default_video_quality_wifi_title">WiFi 网络的默认视频画质</string>
     <string name="revanced_disable_hdr_video_title">HDR 视频</string>
-    <string name="revanced_disable_hdr_video_summary_on">HDR 视频已启用</string>
-    <string name="revanced_disable_hdr_video_summary_off">HDR 视频已禁用</string>
+    <string name="revanced_disable_hdr_video_summary_on">HDR 视频已禁用</string>
+    <string name="revanced_disable_hdr_video_summary_off">HDR 视频已启用</string>
     <string name="revanced_disable_default_playback_speed_live_title">禁用直播默认播放速度</string>
     <string name="revanced_disable_default_playback_speed_live_summary_on">直播默认播放速度已禁用</string>
     <string name="revanced_disable_default_playback_speed_live_summary_off">直播默认播放速度已启用</string>
@@ -1356,8 +1363,8 @@
     <string name="revanced_custom_playback_speeds_invalid">自定义播放速度必须小于 %sx，已重置为默认值</string>
     <string name="revanced_custom_playback_speeds_parse_exception">无效的自定义播放速度将使用默认值</string>
     <!-- PreferenceScreen: Return YouTube Dislike -->
-    <string name="revanced_preference_screen_ryd_title">Return YouTube Dislike</string>
-    <string name="revanced_ryd_enable_title">Return YouTube Dislike</string>
+    <string name="revanced_preference_screen_ryd_title">恢复 YouTube 点踩</string>
+    <string name="revanced_ryd_enable_title">恢复 YouTube 点踩</string>
     <string name="revanced_ryd_enable_summary_on">点踩数已显示</string>
     <string name="revanced_ryd_enable_summary_off">点踩数已隐藏</string>
     <string name="revanced_ryd_shorts_title">在 Shorts 中显示点踩数</string>
@@ -1376,8 +1383,8 @@
     <string name="revanced_ryd_estimated_like_summary_on">预估点赞数已显示</string>
     <string name="revanced_ryd_estimated_like_summary_off">预估点赞数已隐藏</string>
     <string name="revanced_ryd_toast_on_connection_error_title">如果 API 不可用，显示 Toast</string>
-    <string name="revanced_ryd_toast_on_connection_error_summary_on">如果 YouTube Dislike 不可用，会显示 Toast</string>
-    <string name="revanced_ryd_toast_on_connection_error_summary_off">如果 YouTube Dislike 不可用，不会显示 Toast</string>
+    <string name="revanced_ryd_toast_on_connection_error_summary_on">如果恢复 YouTube 点踩不可用，则显示 Toast</string>
+    <string name="revanced_ryd_toast_on_connection_error_summary_off">如果恢复 YouTube 点踩不可用，不显示 Toast</string>
     <!-- PreferenceScreen: Return YouTube Dislike, PreferenceCategory: About -->
     <string name="revanced_ryd_about">关于</string>
     <string name="revanced_ryd_attribution_title">ReturnYouTubeDislike.com</string>
@@ -1386,11 +1393,11 @@
     <string name="revanced_ryd_failure_connection_status_code">点踩数不可用(状态 %d)</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">点踩数不可用(已达到客户端 API 限制)</string>
     <string name="revanced_ryd_failure_generic">点踩数不可用(%s)</string>
-    <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">重新加载视频以使用 Return YouTube Dislike进行投票</string>
+    <string name="revanced_ryd_failure_ryd_enabled_while_playing_video_then_user_voted">重新加载视频以使用 Return YouTube Dislike 进行投票</string>
     <string name="revanced_ryd_video_likes_hidden_by_video_owner">隐藏</string>
     <!-- PreferenceScreen: Return YouTube Username -->
-    <string name="revanced_preference_screen_return_youtube_username_title">返回 YouTube 用户名</string>
-    <string name="revanced_return_youtube_username_enabled_title">启用返回 YouTube 用户名</string>
+    <string name="revanced_preference_screen_return_youtube_username_title">恢复 YouTube 用户名</string>
+    <string name="revanced_return_youtube_username_enabled_title">启用恢复 YouTube 用户名</string>
     <string name="revanced_return_youtube_username_enabled_summary_on">用户名已使用</string>
     <string name="revanced_return_youtube_username_enabled_summary_off">Handle 已使用</string>
     <string name="revanced_return_youtube_username_display_format_title">显示格式</string>
@@ -1526,7 +1533,7 @@
     <string name="revanced_sb_api_url_changed">API URL 已更改</string>
     <string name="revanced_sb_settings_copy">复制</string>
     <string name="revanced_sb_settings_ie">导入 / 导出设置</string>
-    <string name="revanced_sb_settings_ie_sum">您的 SponsorBlock JSON 配置，可导入 / 导出到 ReVanced Extended 和其他 SponsorBlock平台</string>
+    <string name="revanced_sb_settings_ie_sum">您的 SponsorBlock JSON 配置，可导入 / 导出到 ReVanced Extended 和其他 SponsorBlock 平台</string>
     <string name="revanced_sb_settings_ie_sum_warning">您的 SponsorBlock JSON 配置，可导入 / 导出到 ReVanced Extended 和其他 SponsorBlock 平台包含您的私人用户 ID，请谨慎分享</string>
     <string name="revanced_sb_settings_import_successful">配置文件成功导入</string>
     <string name="revanced_sb_settings_import_failed">导入失败：%s</string>
@@ -1541,7 +1548,7 @@
     <string name="revanced_sb_submit_failed_unknown_error">无法提交片段(状态：%1$d %2$s)</string>
     <string name="revanced_sb_submit_failed_rate_limit">无法提交片段\n频率受限(来自同一用户或 IP 次数过多)</string>
     <string name="revanced_sb_submit_failed_forbidden">无法提交片段：%s</string>
-    <string name="revanced_sb_submit_failed_duplicate">无法提交该段视频。\n已存在。</string>
+    <string name="revanced_sb_submit_failed_duplicate">无法提交该视频片段\n已存在</string>
     <string name="revanced_sb_submit_succeeded">片段提交成功</string>
     <string name="revanced_sb_vote_failed_timeout">无法为片段投票(API 超时)</string>
     <string name="revanced_sb_vote_failed_unknown_error">无法为片段投票(状态：%1$d %2$s)</string>
@@ -1584,15 +1591,15 @@
     <string name="revanced_sb_stats_saved_sum_zero">点击此处查看全球统计数据和前几名贡献者</string>
     <string name="revanced_sb_stats_saved_sum">这相当于他们生活中的 &lt;b&gt;%s&lt;/b&gt;&lt;br&gt;点击此处查看排行榜</string>
     <string name="revanced_sb_stats_self_saved">你已经跳过了 &lt;b&gt;%s&lt;/b&gt; 段视频</string>
-    <string name="revanced_sb_stats_self_saved_sum">那是 &lt;b&gt;%s&lt;/b&gt;。</string>
-    <string name="revanced_sb_stats_self_saved_reset_title">重置跳过的段视频计数器？</string>
+    <string name="revanced_sb_stats_self_saved_sum">一共 &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="revanced_sb_stats_self_saved_reset_title">重置跳过的视频片段计数器？</string>
     <string name="revanced_sb_stats_saved_hour_format">%1$s 小时 %2$s 分钟</string>
     <string name="revanced_sb_stats_saved_minute_format">%1$s 分钟 %2$s 秒</string>
     <string name="revanced_sb_stats_saved_second_format">%s 秒</string>
     <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: About -->
     <string name="revanced_sb_about">关于</string>
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
-    <string name="revanced_sb_about_api_sum">数据由SponsorBlock API提供点击此处了解更多信息并查看其他平台的下载</string>
+    <string name="revanced_sb_about_api_sum">数据由 SponsorBlock API 提供，点击此处了解更多信息并查看其他平台的下载</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">杂项</string>
     <string name="revanced_enable_debug_logging_title">启用 Debug 日志</string>

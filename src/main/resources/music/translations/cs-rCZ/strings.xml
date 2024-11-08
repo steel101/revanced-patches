@@ -2,11 +2,15 @@
 <resources>
     <!-- Shared -->
     <string name="revanced_extended_settings_title">ReVanced Extended</string>
+    <string name="revanced_extended_reset_to_default_toast">Obnovit na výchozí hodnoty.</string>
     <!-- Shared Category -->
     <string name="revanced_extended_restart_first_run"></string>
     <string name="revanced_extended_restart_message">Obnovit a restartovat</string>
     <!-- PreferenceScreen: Account -->
     <string name="revanced_preference_screen_account_title"></string>
+    <string name="revanced_hide_account_menu_title">Skrýt nabídku účtu</string>
+    <string name="revanced_hide_account_menu_summary">Skryje prvky nabídky účtu pomocí vlastního filtru.</string>
+    <string name="revanced_hide_account_menu_filter_strings_title">Filtr nabídky účtu</string>
     <!-- PreferenceScreen: Action Bar -->
     <string name="revanced_external_downloader_package_name_title">Název balíčku pro externí stahování</string>
     <string name="revanced_external_downloader_package_name_summary">Název balíčku externí nainstalované aplikace na stahování, jako jsou např. NewPipe nebo Seal</string>

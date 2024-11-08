@@ -11,11 +11,6 @@
     <string name="revanced_extended_confirm_user_dialog_title">Czy chcesz kontynuować?</string>
     <string name="revanced_extended_restart_first_run">Uruchom ponownie, aby wczytać poprawnie układ aplikacji</string>
     <string name="revanced_extended_restart_message">Odśwież i uruchom ponownie</string>
-    <string name="revanced_extended_restart_first_run_rolling_number">"Istnieje błąd po stronie serwera YouTube, który u niektórych użytkowników powoduje ukrywanie się tekstu liczb posiadających animację, takich jak polubienia, wyświetlenia, daty opublikowania filmów.
-
-Tymczasowym obejściem dla tego błędu jest oszukanie wersji aplikacji do 19.13.37.
-
-Czy chcesz oszukać wersję aplikacji przed ponownym uruchomieniem?"</string>
     <string name="revanced_playback_speed_normal">Normalna</string>
     <string name="revanced_external_downloader_package_name_video_title">Nazwa pakietu aplikacji od pobierania (filmy)</string>
     <string name="revanced_external_downloader_package_name_video_summary">Nazwa pakietu zainstalowanej zewnętrznej aplikacji od pobierania, takiej jak NewPipe lub YTDLnis.</string>
@@ -35,6 +30,9 @@ Pobierz %2$s ze strony internetowej."</string>
     <string name="revanced_hide_merchandise_shelf_title">Półki z towarami</string>
     <string name="revanced_hide_merchandise_shelf_summary_on">Ukryte</string>
     <string name="revanced_hide_merchandise_shelf_summary_off">Widoczne</string>
+    <string name="revanced_hide_player_store_shelf_title">Półki sklepowe w odtwarzaczu</string>
+    <string name="revanced_hide_player_store_shelf_summary_on">Ukryte</string>
+    <string name="revanced_hide_player_store_shelf_summary_off">Widoczne</string>
     <string name="revanced_hide_paid_promotion_label_title">Etykiety oznaczające płatne promocje</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">Ukryte</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">Widoczne</string>
@@ -124,6 +122,9 @@ Stuknij tutaj, aby dowiedzieć się więcej o DeArrow."</string>
     <string name="revanced_hide_feed_survey_title">Ankiety na stronie głównej</string>
     <string name="revanced_hide_feed_survey_summary_on">Ukryte</string>
     <string name="revanced_hide_feed_survey_summary_off">Widoczne</string>
+    <string name="revanced_hide_floating_button_title">Pływający przycisk</string>
+    <string name="revanced_hide_floating_button_summary_on">Ukryty</string>
+    <string name="revanced_hide_floating_button_summary_off">Widoczny</string>
     <string name="revanced_hide_image_shelf_title">Półki z obrazkami</string>
     <string name="revanced_hide_image_shelf_summary_on">Ukryte</string>
     <string name="revanced_hide_image_shelf_summary_off">Widoczne</string>
@@ -351,14 +352,12 @@ Jeśli później zostanie to wyłączone, rekomendowane jest usunięcie danych a
     <string name="revanced_spoof_app_version_target_title">Zmień oszukiwaną wersję aplikacji</string>
     <string name="revanced_spoof_app_version_target_summary">Wpisz wersję, którą chcesz oszukiwać</string>
     <string name="revanced_spoof_app_version_target_entry_title">Oszukiwana wersja aplikacji</string>
-    <string name="revanced_spoof_app_version_target_entry_17_33_42">17.33.42 - Przywróć stary wygląd interfejsu użytkownika</string>
     <string name="revanced_spoof_app_version_target_entry_17_41_37">17.41.37 - Przywraca starą półkę do playlist</string>
     <string name="revanced_spoof_app_version_target_entry_18_05_40">18.05.40 - Przywraca stare pole od pisania komentarzy</string>
     <string name="revanced_spoof_app_version_target_entry_18_17_43">18.17.43 - Przywraca stary wygląd menu ustawień filmu</string>
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - Przywraca stary pasek akcji Shortsów</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Przywraca stare zachowanie domyślnej jakości filmu</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Wyłącza aktualizowanie wyświetleń i łapek w górę w czasie rzeczywistym</string>
-    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13.37 - Przywraca stary styl animacji liczb</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Menu konta</string>
     <string name="revanced_preference_screen_account_menu_summary">Ukryj bądź pokaż elementy w menu konta i zakładki Ty</string>
@@ -626,7 +625,7 @@ Notki:
     <string name="revanced_hide_end_screen_cards_title">Karty końcowe w filmach</string>
     <string name="revanced_hide_end_screen_cards_summary_on">Ukryte</string>
     <string name="revanced_hide_end_screen_cards_summary_off">Widoczne</string>
-    <string name="revanced_hide_filmstrip_overlay_title">Przewijanie w trybie taśmy filmowej</string>
+    <string name="revanced_hide_filmstrip_overlay_title">Precyzyjne przewijanie</string>
     <string name="revanced_hide_filmstrip_overlay_summary_on">Wyłączone</string>
     <string name="revanced_hide_filmstrip_overlay_summary_off">Włączone</string>
     <string name="revanced_hide_info_cards_title">Karty z informacjami</string>
@@ -984,7 +983,10 @@ Stuknij i przytrzymaj, by cofnąć generowanie playlisty."</string>
     <string name="revanced_preference_screen_seekbar_title">Pasek postępu filmu</string>
     <string name="revanced_preference_screen_seekbar_summary">Zmień wygląd paska postępu filmu</string>
     <string name="revanced_append_time_stamp_information_title">Dodatkowa informacja obok czasu</string>
-    <string name="revanced_append_time_stamp_information_summary_on">Widoczna</string>
+    <string name="revanced_append_time_stamp_information_summary_on">"Widoczna
+
+Stuknij, by skonfigurować jakość filmu lub prędkość odtwarzania.
+Stuknij j przytrzymaj, by przełączać się pomiędzy typami wyświetlanej informacji."</string>
     <string name="revanced_append_time_stamp_information_summary_off">Niewidoczna</string>
     <string name="revanced_append_time_stamp_information_type_title">Typ informacji</string>
     <string name="revanced_append_time_stamp_information_type_summary_on">Jakość filmu</string>
@@ -1018,6 +1020,14 @@ Stuknij i przytrzymaj, by cofnąć generowanie playlisty."</string>
     <string name="revanced_restore_old_seekbar_thumbnails_title">Stary wygląd podglądu filmów</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_on">Podgląd filmu pojawia się nad paskiem postępu filmów</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_off">Podgląd filmu pojawia się w trybie pełnoekranowym</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_title">Rozdzielczość miniaturek</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_summary_on">Wysoka</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_summary_off">Średnia</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_dialog_message">"Przywróci to miniaturki w transmisjach na żywo, które ich nie mają.
+
+Zużycie danych internetowych może być większe, a miniaturki w pasku postępu filmu mogą mieć drobne opóźnienie przed wyświetleniem.
+
+Funkcja działa najlepiej przy bardzo szybkim połączeniu internetowym."</string>
     <string name="revanced_enable_cairo_seekbar_title">Motyw Cairo paska postępu filmu</string>
     <string name="revanced_enable_cairo_seekbar_summary_on">"Włączony
 
@@ -1029,6 +1039,9 @@ Efekt uboczny: motyw Cairo powiązany m.in. z paskiem postępu filmu, nakłada s
     <string name="revanced_disable_rolling_number_animations_title">Animacje liczb</string>
     <string name="revanced_disable_rolling_number_animations_summary_on">Wyłączone</string>
     <string name="revanced_disable_rolling_number_animations_summary_off">Włączone</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_title">Podsumowanie filmów wygenerowane przez AI</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_on">Ukryte</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_off">Widoczne</string>
     <string name="revanced_hide_attributes_section_title">Sekcja atrybutów</string>
     <string name="revanced_hide_attributes_section_summary_on">Sekcje wyróżnionych miejsc, gier i muzyki są ukryte</string>
     <string name="revanced_hide_attributes_section_summary_off">Sekcje wyróżnionych miejsc, gier i muzyki są widoczne</string>
@@ -1683,12 +1696,17 @@ Kontynuuj i wyłącz optymalizację baterii."</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• Filmy kinowe lub płatne filmy mogą się nie odtwarzać
 • Transmisje na żywo rozpoczynają się od początku
 • Filmy mogą kończyć się o 1 sekundę wcześniej
-• Kodek opus jest niedostępny"</string>
+• Kodek audio opus może nie być wspierany"</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_compatibility">"• Filmy mogą kończyć się o 1 sekundę wcześniej
+• Kodek audio opus może nie być wspierany"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Brakuje menu od ścieżki dźwiękowej
 • Stabilna głośność jest niedostępna"</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Brakuje menu od ścieżki dźwiękowej
 • Stabilna głośność jest niedostępna"</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Filmy mogą się nie odtwarzać</string>
+    <string name="revanced_spoof_streaming_data_ios_compatibility_title">Tryb kompatybilności iOS</string>
+    <string name="revanced_spoof_streaming_data_ios_compatibility_summary_on">Z wyjątkiem filmów kinowych, płatnych i transmisji na żywo</string>
+    <string name="revanced_spoof_streaming_data_ios_compatibility_summary_off">Zawsze</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Wymuś kodek iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">Włączone</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">Wyłączone</string>

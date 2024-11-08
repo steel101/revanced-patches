@@ -11,11 +11,6 @@
     <string name="revanced_extended_confirm_user_dialog_title">你想繼續嗎？</string>
     <string name="revanced_extended_restart_first_run">重新啟動以套用更改後的介面</string>
     <string name="revanced_extended_restart_message">重新啟動以重新整理介面</string>
-    <string name="revanced_extended_restart_first_run_rolling_number">"YouTube 伺服器端存在一個錯誤，導致某些用戶隱藏滾動數位文字，例如按讚數、觀看次數和上傳日期。
-
-此問題的臨時解決方法是將應用程式版本欺騙為 19.13.37。
-
-您想在重新啟動應用程式之前偽裝應用程式版本嗎？"</string>
     <string name="revanced_playback_speed_normal">一般</string>
     <string name="revanced_external_downloader_package_name_video_title">影片下載套件名</string>
     <string name="revanced_external_downloader_package_name_video_summary">您安裝的外部下載器應用程式的套件名稱，例如 NewPipe 或 YTDLnis。</string>
@@ -35,6 +30,9 @@
     <string name="revanced_hide_merchandise_shelf_title">隱藏商品欄</string>
     <string name="revanced_hide_merchandise_shelf_summary_on">商品欄已隱藏</string>
     <string name="revanced_hide_merchandise_shelf_summary_off">商品欄已顯示</string>
+    <string name="revanced_hide_player_store_shelf_title">隱藏玩家購物架</string>
+    <string name="revanced_hide_player_store_shelf_summary_on">購物架已隱藏。</string>
+    <string name="revanced_hide_player_store_shelf_summary_off">購物架已顯示。</string>
     <string name="revanced_hide_paid_promotion_label_title">隱藏付費推廣標籤</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">付費推廣標籤已隱藏</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">付費推廣標籤已顯示</string>
@@ -126,6 +124,9 @@
     <string name="revanced_hide_feed_survey_title">隱藏動態問卷調查</string>
     <string name="revanced_hide_feed_survey_summary_on">動態問卷調查已隱藏</string>
     <string name="revanced_hide_feed_survey_summary_off">動態問卷調查已顯示</string>
+    <string name="revanced_hide_floating_button_title">隱藏浮動按鈕</string>
+    <string name="revanced_hide_floating_button_summary_on">浮動按鈕已隱藏。</string>
+    <string name="revanced_hide_floating_button_summary_off">浮動按鈕已顯示。</string>
     <string name="revanced_hide_image_shelf_title">隱藏圖片欄</string>
     <string name="revanced_hide_image_shelf_summary_on">圖片欄已隱藏</string>
     <string name="revanced_hide_image_shelf_summary_off">圖片欄已顯示</string>
@@ -350,14 +351,12 @@
     <string name="revanced_spoof_app_version_target_title">編輯欺騙應用程式版本</string>
     <string name="revanced_spoof_app_version_target_summary">輸入欺騙的應用程式版本目標</string>
     <string name="revanced_spoof_app_version_target_entry_title">欺騙應用程式版本目標</string>
-    <string name="revanced_spoof_app_version_target_entry_17_33_42">17.33.42 - 恢復舊版介面版面配置</string>
     <string name="revanced_spoof_app_version_target_entry_17_41_37">17.41.37 - 恢復舊版的播放清單</string>
     <string name="revanced_spoof_app_version_target_entry_18_05_40">18.05.40 - 恢復舊版留言輸入方塊</string>
     <string name="revanced_spoof_app_version_target_entry_18_17_43">18.17.43 - 恢復舊版播放器彈出式面板</string>
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - 恢復舊的 Shorts 頁籤</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - 恢復舊版預設影片畫質</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - 停用即時更新「觀看次數」和「喜歡次數」</string>
-    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13.37 - 恢復舊式滾動數位動畫</string>
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">帳戶選單</string>
     <string name="revanced_preference_screen_account_menu_summary">隱藏或顯示帳戶選單和你的內容分頁中的元素。</string>
@@ -982,7 +981,7 @@
     <string name="revanced_preference_screen_seekbar_title">進度條</string>
     <string name="revanced_preference_screen_seekbar_summary">自定義進度條組件</string>
     <string name="revanced_append_time_stamp_information_title">添加時間戳訊息</string>
-    <string name="revanced_append_time_stamp_information_summary_on">添加時間戳訊息已顯示</string>
+    <string name="revanced_append_time_stamp_information_summary_on">"添加時間戳訊息已顯示"</string>
     <string name="revanced_append_time_stamp_information_summary_off">添加時間戳訊息已關閉</string>
     <string name="revanced_append_time_stamp_information_type_title">添加訊息類型</string>
     <string name="revanced_append_time_stamp_information_type_summary_on">附加影片品質。</string>
@@ -1016,6 +1015,14 @@
     <string name="revanced_restore_old_seekbar_thumbnails_title">恢復舊的進度條縮略圖</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_on">將進度條縮略圖顯示在進度條上方</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_off">在全螢幕模式下顯示進度條縮略圖</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_title">啟用高品質縮圖</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_summary_on">搜尋欄縮圖品質很高。</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_summary_off">搜尋欄縮圖品質中等。</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_dialog_message">"這會將縮圖恢復到沒有搜尋欄縮圖的直播。
+
+網路資料使用量可能會更高，搜尋欄縮圖在顯示之前會稍微延遲。
+
+此功能在網路連線速度非常快的情況下效果最佳。"</string>
     <string name="revanced_enable_cairo_seekbar_title">啟用開羅搜尋欄</string>
     <string name="revanced_enable_cairo_seekbar_summary_on">"開羅搜尋欄已啟用。
 副作用：開羅主題也適用於通知點。"</string>
@@ -1026,6 +1033,9 @@
     <string name="revanced_disable_rolling_number_animations_title">停用滾動數字動畫</string>
     <string name="revanced_disable_rolling_number_animations_summary_on">滾動動畫已停用</string>
     <string name="revanced_disable_rolling_number_animations_summary_off">滾動動畫已啟用</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_title">隱藏 AI 生成的影片摘要部分</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_on">AI 生成的影片摘要部分已隱藏。</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_off">AI 生成的影片摘要部分已顯示。</string>
     <string name="revanced_hide_attributes_section_title">隱藏屬性部分</string>
     <string name="revanced_hide_attributes_section_summary_on">特色地點, 遊戲, 和音樂部分均已隱藏。</string>
     <string name="revanced_hide_attributes_section_summary_off">特色地點, 遊戲, 和音樂部分已顯示。</string>

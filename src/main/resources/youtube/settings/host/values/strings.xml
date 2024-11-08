@@ -13,11 +13,6 @@
     <string name="revanced_extended_confirm_user_dialog_title">Do you wish to proceed?</string>
     <string name="revanced_extended_restart_first_run">Restart to load the layout normally</string>
     <string name="revanced_extended_restart_message">Refresh and restart</string>
-    <string name="revanced_extended_restart_first_run_rolling_number">"There is a YouTube server-side bug that causes rolling number text such as likes, views, and upload dates to be hidden for some users.
-
-A temporary workaround for this issue is to spoof the app version to 19.13.37.
-
-Do you want to spoof the app version before restarting the app?"</string>
     <string name="revanced_playback_speed_normal">Normal</string>
 
     <string name="revanced_external_downloader_package_name_video_title">Video downloader package name</string>
@@ -41,6 +36,9 @@ Please download %2$s from the website."</string>
     <string name="revanced_hide_merchandise_shelf_title">Hide merchandise shelves</string>
     <string name="revanced_hide_merchandise_shelf_summary_on">Merchandise shelves are hidden.</string>
     <string name="revanced_hide_merchandise_shelf_summary_off">Merchandise shelves are shown.</string>
+    <string name="revanced_hide_player_store_shelf_title">Hide player shopping shelf</string>
+    <string name="revanced_hide_player_store_shelf_summary_on">Shopping shelf is hidden.</string>
+    <string name="revanced_hide_player_store_shelf_summary_off">Shopping shelf is shown.</string>
     <string name="revanced_hide_paid_promotion_label_title">Hide paid promotion label</string>
     <string name="revanced_hide_paid_promotion_label_summary_on">Paid promotion label is hidden.</string>
     <string name="revanced_hide_paid_promotion_label_summary_off">Paid promotion label is shown.</string>
@@ -129,15 +127,18 @@ Tap here to learn more about DeArrow."</string>
     <string name="revanced_hide_expandable_shelf_title">Hide expandable shelves</string>
     <string name="revanced_hide_expandable_shelf_summary_on">Expandable shelves are hidden.</string>
     <string name="revanced_hide_expandable_shelf_summary_off">Expandable shelves are shown.</string>
-    <string name="revanced_hide_feed_captions_button_title">Hide feed captions button</string>
+    <string name="revanced_hide_feed_captions_button_title">Hide Captions button</string>
     <string name="revanced_hide_feed_captions_button_on">Captions button is hidden.</string>
     <string name="revanced_hide_feed_captions_button_off">Captions button is shown.</string>
-    <string name="revanced_hide_feed_search_bar_title">Hide feed search bar</string>
-    <string name="revanced_hide_feed_search_bar_summary_on">Feed search bar is hidden.</string>
-    <string name="revanced_hide_feed_search_bar_summary_off">Feed search bar is shown.</string>
-    <string name="revanced_hide_feed_survey_title">Hide feed surveys</string>
-    <string name="revanced_hide_feed_survey_summary_on">Feed surveys are hidden.</string>
-    <string name="revanced_hide_feed_survey_summary_off">Feed surveys are shown.</string>
+    <string name="revanced_hide_feed_search_bar_title">Hide search bar</string>
+    <string name="revanced_hide_feed_search_bar_summary_on">Search bar is hidden.</string>
+    <string name="revanced_hide_feed_search_bar_summary_off">Search bar is shown.</string>
+    <string name="revanced_hide_feed_survey_title">Hide surveys</string>
+    <string name="revanced_hide_feed_survey_summary_on">Surveys are hidden.</string>
+    <string name="revanced_hide_feed_survey_summary_off">Surveys are shown.</string>
+    <string name="revanced_hide_floating_button_title">Hide floating button</string>
+    <string name="revanced_hide_floating_button_summary_on">Floating button is hidden.</string>
+    <string name="revanced_hide_floating_button_summary_off">Floating button is shown.</string>
     <string name="revanced_hide_image_shelf_title">Hide image shelves</string>
     <string name="revanced_hide_image_shelf_summary_on">Image shelves are hidden.</string>
     <string name="revanced_hide_image_shelf_summary_off">Image shelves are shown.</string>
@@ -383,14 +384,12 @@ If later turned off, it is recommended to clear the app data to prevent UI bugs.
     <string name="revanced_spoof_app_version_target_title">Edit spoof app version</string>
     <string name="revanced_spoof_app_version_target_summary">Type the spoof app version target.</string>
     <string name="revanced_spoof_app_version_target_entry_title">Spoof app version target</string>
-    <string name="revanced_spoof_app_version_target_entry_17_33_42">17.33.42 - Restore old UI layout</string>
     <string name="revanced_spoof_app_version_target_entry_17_41_37">17.41.37 - Restore old playlist shelf</string>
     <string name="revanced_spoof_app_version_target_entry_18_05_40">18.05.40 - Restore old comment input box</string>
     <string name="revanced_spoof_app_version_target_entry_18_17_43">18.17.43 - Restore old player flyout panel</string>
     <string name="revanced_spoof_app_version_target_entry_18_33_40">18.33.40 - Restore old Shorts action bar</string>
     <string name="revanced_spoof_app_version_target_entry_18_38_45">18.38.45 - Restore old default video quality behavior</string>
     <string name="revanced_spoof_app_version_target_entry_18_48_39">18.48.39 - Disable views and likes from being updated in real time</string>
-    <string name="revanced_spoof_app_version_target_entry_19_13_37">19.13.37 - Restore old style Rolling number animations</string>
 
     <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
     <string name="revanced_preference_screen_account_menu_title">Account menu</string>
@@ -1061,7 +1060,10 @@ Tap and hold to undo."</string>
     <string name="revanced_preference_screen_seekbar_summary">Customize the seekbar components.</string>
 
     <string name="revanced_append_time_stamp_information_title">Append timestamp information</string>
-    <string name="revanced_append_time_stamp_information_summary_on">Information is appended to the timestamp.</string>
+    <string name="revanced_append_time_stamp_information_summary_on">"Information is appended to the timestamp.
+
+Tap to configure the video quality or playback speed.
+Tap and hold to toggle the appended information type."</string>
     <string name="revanced_append_time_stamp_information_summary_off">Information is not appended to the timestamp.</string>
     <string name="revanced_append_time_stamp_information_type_title">Append information type</string>
     <string name="revanced_append_time_stamp_information_type_summary_on">Append video quality.</string>
@@ -1095,6 +1097,14 @@ Tap and hold to undo."</string>
     <string name="revanced_restore_old_seekbar_thumbnails_title">Restore old seekbar thumbnails</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_on">Seekbar thumbnails will appear above the seekbar.</string>
     <string name="revanced_restore_old_seekbar_thumbnails_summary_off">Seekbar thumbnails will appear in fullscreen.</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_title">Enable high quality thumbnails</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_summary_on">Seekbar thumbnails are high quality.</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_summary_off">Seekbar thumbnails are medium quality.</string>
+    <string name="revanced_enable_seekbar_thumbnails_high_quality_dialog_message">"This will restore thumbnails to livestreams that do not have seekbar thumbnails.
+
+Internet data usage may be higher, and seekbar thumbnails will have a slight delay before showing.
+
+This feature works best with a very fast internet connection."</string>
     <string name="revanced_enable_cairo_seekbar_title">Enable Cairo seekbar</string>
     <string name="revanced_enable_cairo_seekbar_summary_on">"Cairo seekbar is enabled.
 
@@ -1108,6 +1118,9 @@ Side effect: Cairo theme is also applied to notification dots."</string>
     <string name="revanced_disable_rolling_number_animations_title">Disable Rolling number animations</string>
     <string name="revanced_disable_rolling_number_animations_summary_on">Rolling numbers are not animated.</string>
     <string name="revanced_disable_rolling_number_animations_summary_off">Rolling numbers are animated.</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_title">Hide AI-generated video summary section</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_on">AI-generated video summary section is hidden.</string>
+    <string name="revanced_hide_ai_generated_video_summary_section_summary_off">AI-generated video summary section is shown.</string>
     <string name="revanced_hide_attributes_section_title">Hide Attributes section</string>
     <string name="revanced_hide_attributes_section_summary_on">Featured places, Games, and Music sections are hidden.</string>
     <string name="revanced_hide_attributes_section_summary_off">Featured places, Games, and Music sections are shown.</string>
@@ -1818,12 +1831,17 @@ Tap on the continue button and disable battery optimizations."</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• Movies or paid videos may not play.
 • Livestreams start from the beginning.
 • Videos may end 1 second early.
-• No opus audio codec."</string>
+• Opus audio codec may not be supported."</string>
+    <string name="revanced_spoof_streaming_data_side_effects_ios_compatibility">"• Videos may end 1 second early.
+• Opus audio codec may not be supported."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Audio track menu is missing.
 • Stable volume is not available."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Audio track menu is missing.
 • Stable volume is not available."</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Video may not play.</string>
+    <string name="revanced_spoof_streaming_data_ios_compatibility_title">iOS Compatibility mode</string>
+    <string name="revanced_spoof_streaming_data_ios_compatibility_summary_on">Only spoofed as iOS client if it is not a movie, paid video or livestream.</string>
+    <string name="revanced_spoof_streaming_data_ios_compatibility_summary_off">Always spoofed as iOS client.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Force iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">iOS video codec is AVC (H.264).</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_off">iOS video codec is AVC (H.264), VP9, or AV1.</string>

@@ -294,7 +294,6 @@ Wenn später ausgeschaltet wird empfohlen, die App-Daten zu löschen, um UI-Fehl
     <string name="revanced_spoof_app_version_target_title">Bearbeite App-Version fälschen </string>
     <string name="revanced_spoof_app_version_target_summary">Geben Sie das Spoof App Versionsziel ein.</string>
     <string name="revanced_spoof_app_version_target_entry_title">Spoof App Versionsziel</string>
-    <string name="revanced_spoof_app_version_target_entry_17_33_42">17.33.42 - Altes Benutzerlayout wiederherstellen</string>
     <string name="revanced_spoof_app_version_target_entry_17_41_37">17.41.37 - Alte Wiedergabeliste wiederherstellen</string>
     <string name="revanced_spoof_app_version_target_entry_18_05_40">18.05.40 - Altes Kommentarfeld wiederherstellen</string>
     <string name="revanced_spoof_app_version_target_entry_18_17_43">18.17.43 - Wiederherstellen alter Spieler Flyout Panel</string>
@@ -752,7 +751,7 @@ Tippen und gedrückt halten, um rückgängig zu machen."</string>
     <string name="revanced_preference_screen_seekbar_title">Suchleiste</string>
     <string name="revanced_preference_screen_seekbar_summary">Die Suchleisten-Komponenten anpassen.</string>
     <string name="revanced_append_time_stamp_information_title">Zeitstempelinformationen anhängen</string>
-    <string name="revanced_append_time_stamp_information_summary_on">Zeitstempelinformationen anhängen ist aktiviert</string>
+    <string name="revanced_append_time_stamp_information_summary_on">"Zeitstempelinformationen anhängen ist aktiviert"</string>
     <string name="revanced_append_time_stamp_information_summary_off">Das Anhängen von Zeitstempelinformationen ist deaktiviert</string>
     <string name="revanced_append_time_stamp_information_type_title">Informationstyp anhängen</string>
     <string name="revanced_append_time_stamp_information_type_summary_on">Videoqualität hinzufügen</string>
