@@ -1831,7 +1831,7 @@ Tap on the continue button and disable battery optimizations."</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• Movies or paid videos may not play.
 • Livestreams start from the beginning.
 • Videos may end 1 second early.
-• No opus audio codec."</string>
+• Opus audio codec may not be supported."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Audio track menu is missing.
 • Stable volume is not available."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Audio track menu is missing.
