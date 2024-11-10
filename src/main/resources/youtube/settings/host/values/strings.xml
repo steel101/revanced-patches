@@ -1831,16 +1831,16 @@ Tap on the continue button and disable battery optimizations."</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios">"• Movies or paid videos may not play.
 • Livestreams start from the beginning.
 • Videos may end 1 second early.
-• Opus audio codec may not be supported."</string>
+• OPUS audio codec may not be supported."</string>
     <string name="revanced_spoof_streaming_data_side_effects_ios_compatibility">"• Videos may end 1 second early.
-• Opus audio codec may not be supported."</string>
+• OPUS audio codec may not be supported."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_unplugged">"• Audio track menu is missing.
 • Stable volume is not available."</string>
     <string name="revanced_spoof_streaming_data_side_effects_android_vr">"• Audio track menu is missing.
 • Stable volume is not available."</string>
     <string name="revanced_spoof_streaming_data_side_effects_unknown">• Video may not play.</string>
     <string name="revanced_spoof_streaming_data_ios_compatibility_title">iOS Compatibility mode</string>
-    <string name="revanced_spoof_streaming_data_ios_compatibility_summary_on">Only spoofed as iOS client if it is not a movie, paid video or livestream.</string>
+    <string name="revanced_spoof_streaming_data_ios_compatibility_summary_on">Only spoofed as iOS client if it is not a movie, paid video, or livestream.</string>
     <string name="revanced_spoof_streaming_data_ios_compatibility_summary_off">Always spoofed as iOS client.</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_title">Force iOS AVC (H.264)</string>
     <string name="revanced_spoof_streaming_data_ios_force_avc_summary_on">iOS video codec is AVC (H.264).</string>
