@@ -17,7 +17,7 @@ repositories {
         url = uri("https://maven.pkg.github.com/revanced/multidexlib2")
         credentials {
             username = "steel101"
-            password =  ${{ secrets.GITHUB_TOKEN }} 
+            password =  System.getenv("GITHUB_TOKEN")
     }
 }
 
