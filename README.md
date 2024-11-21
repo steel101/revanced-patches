@@ -8,7 +8,7 @@ See the [documentation](https://github.com/inotia00/revanced-documentation#readm
 
 ### [📦 `com.google.android.youtube`](https://play.google.com/store/apps/details?id=com.google.android.youtube)
 <details>
-
+1
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
 | `Alternative thumbnails` | Adds options to replace video thumbnails using the DeArrow API or image captures from the video. | 18.29.38 ~ 19.16.39 |
