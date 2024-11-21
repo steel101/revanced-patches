@@ -16,8 +16,8 @@ repositories {
     maven {
         url = uri("https://maven.pkg.github.com/revanced/multidexlib2")
         credentials {
-            username = System.getenv("GITHUB_ACTOR")
-            password = System.getenv("GITHUB_TOKEN")
+            username = "steel101"
+            password = System.getenv("GH_TOKEN")
           }
 }
 
