@@ -17,7 +17,7 @@ repositories {
         url = uri("https://maven.pkg.github.com/revanced/multidexlib2")
         credentials {
             username = "steel101"
-            password =  "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"
+            password =  "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"
     }
 }
 
@@ -104,7 +104,7 @@ publishing {
             url = uri("https://maven.pkg.github.com/steel101/revanced-patches")
             credentials {
                 username = "steel101"
-                password = "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"
+                password = "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"
             }
         }
     }
