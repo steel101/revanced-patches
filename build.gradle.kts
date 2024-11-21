@@ -133,9 +133,9 @@ publishing {
                     }
                 }
                 scm {
-                    connection = "scm:git:git://github.com/revanced/revanced-patches.git"
-                    developerConnection = "scm:git:git@github.com:revanced/revanced-patches.git"
-                    url = "https://github.com/revanced/revanced-patches"
+                    connection = "scm:git:git://github.com/steel101/revanced-patches.git"
+                    developerConnection = "scm:git:git@github.com:steel101/revanced-patches.git"
+                    url = "https://github.com/steel101/revanced-patches"
                 }
             }
         }
