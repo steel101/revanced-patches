@@ -20,7 +20,7 @@ repositories {
             println(username)
             password = project.findProperty("gpr.key") as String? 
             println(password)
-            password = project.findProperty("gpr.key") as String? ?: System.getenv("GH_TOKEN")
+            password = project.findProperty("gpr.key") as String? ?: System.getenv("GITHUB_TOKEN")
             println(password)
           }
 }
