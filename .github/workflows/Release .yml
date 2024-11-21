@@ -2,7 +2,7 @@ name: Release
 
 on:
   workflow_dispatch:
-  permissions: write-all
+  
   push:
     branches:
       - main
@@ -11,7 +11,7 @@ on:
     branches:
       - main
       - dev
-
+permissions: write-all
 jobs:
   release:
     name: Release
