@@ -1,3 +1,13 @@
+# [5.0.0-dev.8](https://github.com/steel101/revanced-patches/compare/v5.0.0-dev.7...v5.0.0-dev.8) (2024-11-21)
+
+
+* Update README.md ([9e4c7f9](https://github.com/steel101/revanced-patches/commit/9e4c7f9b5255d2885970a1a68895d1b2cb367521))
+
+
+### BREAKING CHANGES
+
+* I broke a thing!
+
 # [5.0.0-dev.7](https://github.com/steel101/revanced-patches/compare/v5.0.0-dev.6...v5.0.0-dev.7) (2024-11-21)
 
 
