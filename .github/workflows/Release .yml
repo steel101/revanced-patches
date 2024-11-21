@@ -15,7 +15,7 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
-    environment: GH_TOKEN
+    environment: GH_TOKEN,GPG_PRIVATE_KEY
     steps:
       - name: Checkout
         uses: actions/checkout@v3
