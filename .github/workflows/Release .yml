@@ -56,6 +56,6 @@ jobs:
           fingerprint: ${{ vars.GPG_FINGERPRINT }}
       - name: Release
         env:
-        
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
         run: npm exec semantic-release
