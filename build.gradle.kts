@@ -18,9 +18,7 @@ repositories {
         credentials {
             username = "steel101"
             println(username)
-            println(
-            password = project.findProperty("gpr.key") as String? ?: System.getenv("GH_TOKEN")
-            )
+            println(project.findProperty("gpr.key") as String? ?: System.getenv("GH_TOKEN"))
             password = project.findProperty("gpr.key") as String? ?: System.getenv("GH_TOKEN")
             
           }
