@@ -145,4 +145,4 @@ signing {
     useGpgCmd()
 
     sign(publishing.publications["revanced-patches-publication"])
-}
+}}
