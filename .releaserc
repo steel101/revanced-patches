@@ -7,6 +7,7 @@
     }
   ],
   "plugins": [
+    "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     "gradle-semantic-release-plugin",
@@ -26,7 +27,7 @@
       {
         "assets": [
           {
-            "path": "build/libs/revanced-patches*"
+            "path": "build/libs/*.jar"
           },
           {
             "path": "patches.json"
