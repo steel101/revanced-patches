@@ -16,9 +16,8 @@ repositories {
     maven {
         url = uri("https://maven.pkg.github.com/revanced/multidexlib2")
         credentials {
-            username = project.findProperty("gpr.user") as String? ?: System.getenv("GITHUB_ACTOR")
-            password = project.findProperty("gpr.key") as String? ?: System.getenv("GITHUB_TOKEN")
-        }
+            username = steel101
+            password =  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
     }
 }
 
@@ -104,8 +103,8 @@ publishing {
             name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/steel101/revanced-patches")
             credentials {
-                username = System.getenv("GITHUB_ACTOR")
-                password = System.getenv("GITHUB_TOKEN")
+                username = steel101
+                password = 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
             }
         }
     }
