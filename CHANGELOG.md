@@ -1,3 +1,17 @@
+# [5.0.0-dev.6](https://github.com/steel101/revanced-patches/compare/v5.0.0-dev.5...v5.0.0-dev.6) (2024-11-21)
+
+
+* Update build.gradle.kts ([cea2b1b](https://github.com/steel101/revanced-patches/commit/cea2b1bf5d9a950f60f2e12a16ca9d6004f0196f))
+* Update README.md ([ee9e211](https://github.com/steel101/revanced-patches/commit/ee9e2111e66b9c8cb0e30dcd8ad511068eed372c))
+* Update README.md ([9022262](https://github.com/steel101/revanced-patches/commit/9022262367f542a6b2bbc29eebe502c81dd2760c))
+
+
+### BREAKING CHANGES
+
+* I broke a thing!
+* I broke a thing!
+* I broke a thing!
+
 # [5.0.0-dev.5](https://github.com/steel101/revanced-patches/compare/v5.0.0-dev.4...v5.0.0-dev.5) (2024-11-21)
 
 
