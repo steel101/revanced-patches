@@ -105,7 +105,7 @@ publishing {
             url = uri("https://maven.pkg.github.com/steel101/revanced-patches")
             credentials {
                 username = "steel101"
-                password = password = project.findProperty("gpr.key") as String? ?: System.getenv("GH_TOKEN")
+                password = project.findProperty("gpr.key") as String? ?: System.getenv("GH_TOKEN")
             }
         }
     }
