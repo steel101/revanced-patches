@@ -2,6 +2,7 @@ name: Release
 
 on:
   workflow_dispatch:
+  permissions: write-all
   push:
     branches:
       - main
@@ -45,7 +46,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: ./gradlew generateMeta clean --no-daemon
       - name: Setup semantic-release
-        permissions: write-all
         run: npm install --Force 
       - name: Release
         env:
