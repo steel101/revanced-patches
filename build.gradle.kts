@@ -104,8 +104,8 @@ publishing {
             name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/steel101/revanced-patches")
             credentials {
-                username = System.getenv("Git_ACTOR")
-                password = System.getenv("git_TOKEN")
+                username = System.getenv("GITHUB_ACTOR")
+                password = System.getenv("GITHUB_TOKEN")
             }
         }
     }
